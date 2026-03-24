@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Parbat District Hospital",
+      "name_np": "पर्वत जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Kusma, Parbat",
+      "phone": "067-520044",
+      "emergency": "067-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Kusma Hospital",
+      "name_np": "कुश्मा अस्पताल",
+      "type": "Private",
+      "address": "Kusma-5, Parbat",
+      "phone": "067-521111"
+    }
+  ]
+}

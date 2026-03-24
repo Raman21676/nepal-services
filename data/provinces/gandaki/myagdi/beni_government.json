@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Beni",
+    "district": "Myagdi",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Beni Municipality Office",
+      "name_np": "बेनी नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520100"
+    },
+    {
+      "name": "District Administration Office Myagdi",
+      "name_np": "जिल्ला प्रशासन कार्यालय म्याग्दी",
+      "type": "District Administration",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520013"
+    },
+    {
+      "name": "NEA Myagdi Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण म्याग्दी वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520045"
+    },
+    {
+      "name": "District Police Office Myagdi",
+      "name_np": "जिल्ला प्रहरी कार्यालय म्याग्दी",
+      "type": "Police",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520155"
+    },
+    {
+      "name": "Land Revenue Office Myagdi",
+      "name_np": "मालपोत कार्यालय म्याग्दी",
+      "type": "Land Revenue Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520088"
+    },
+    {
+      "name": "Myagdi District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय म्याग्दी",
+      "type": "Post Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520009"
+    },
+    {
+      "name": "District Forest Office Myagdi",
+      "name_np": "जिल्ला वन कार्यालय म्याग्दी",
+      "type": "Forest Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520122"
+    },
+    {
+      "name": "District Agriculture Office Myagdi",
+      "name_np": "जिल्ला कृषि विकास कार्यालय म्याग्दी",
+      "type": "Agriculture Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Myagdi",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय म्याग्दी",
+      "type": "Water Supply Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520177"
+    },
+    {
+      "name": "Annapurna Conservation Area Office Beni",
+      "name_np": "अन्नपूर्ण संरक्षण क्षेत्र कार्यालय बेनी",
+      "type": "Forest Office",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-520234"
+    }
+  ]
+}

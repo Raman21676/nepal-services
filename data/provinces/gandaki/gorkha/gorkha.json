@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Gorkha",
+    "district": "Gorkha",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Gorkha District Hospital",
+      "name_np": "गोरखा जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Gorkha Municipality, Gorkha",
+      "phone": "064-420044",
+      "emergency": "064-420045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Gorkha Hospital",
+      "name_np": "गोरखा अस्पताल",
+      "type": "Private",
+      "address": "Gorkha-5, Gorkha",
+      "phone": "064-421111"
+    },
+    {
+      "name": "Manakamana Hospital",
+      "name_np": "मनकामना अस्पताल",
+      "type": "Community",
+      "address": "Gorkha-6, Gorkha",
+      "phone": "064-422222"
+    }
+  ]
+}

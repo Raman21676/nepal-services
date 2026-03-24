@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Syangja District Hospital",
+      "name_np": "स्याङ्गजा जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420044",
+      "emergency": "063-420045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Galyang Hospital",
+      "name_np": "गल्याङ अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Galyang, Syangja",
+      "phone": "063-421111"
+    }
+  ]
+}

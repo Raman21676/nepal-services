@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Jomsom (Thasang)",
+    "district": "Mustang",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Thasang Rural Municipality Office",
+      "name_np": "थासाङ गाउँपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440100"
+    },
+    {
+      "name": "District Administration Office Mustang",
+      "name_np": "जिल्ला प्रशासन कार्यालय मुस्ताङ",
+      "type": "District Administration",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440013"
+    },
+    {
+      "name": "NEA Mustang Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण मुस्ताङ वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440045"
+    },
+    {
+      "name": "District Police Office Mustang",
+      "name_np": "जिल्ला प्रहरी कार्यालय मुस्ताङ",
+      "type": "Police",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440155"
+    },
+    {
+      "name": "Jomsom Airport",
+      "name_np": "जोमसोम विमानस्थल",
+      "type": "District Administration",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440099"
+    },
+    {
+      "name": "Annapurna Conservation Area Office Jomsom",
+      "name_np": "अन्नपूर्ण संरक्षण क्षेत्र कार्यालय जोमसोम",
+      "type": "Forest Office",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440234"
+    },
+    {
+      "name": "Land Revenue Office Mustang",
+      "name_np": "मालपोत कार्यालय मुस्ताङ",
+      "type": "Land Revenue Office",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440088"
+    },
+    {
+      "name": "Mustang District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय मुस्ताङ",
+      "type": "Post Office",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440009"
+    },
+    {
+      "name": "District Forest Office Mustang",
+      "name_np": "जिल्ला वन कार्यालय मुस्ताङ",
+      "type": "Forest Office",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440122"
+    },
+    {
+      "name": "District Agriculture Office Mustang",
+      "name_np": "जिल्ला कृषि विकास कार्यालय मुस्ताङ",
+      "type": "Agriculture Office",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-440066"
+    }
+  ]
+}

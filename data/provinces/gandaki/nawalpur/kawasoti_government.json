@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Kawasoti",
+    "district": "Nawalpur",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Kawasoti Municipality Office",
+      "name_np": "कावासोती नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520100"
+    },
+    {
+      "name": "District Administration Office Nawalpur",
+      "name_np": "जिल्ला प्रशासन कार्यालय नवलपुर",
+      "type": "District Administration",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520013"
+    },
+    {
+      "name": "NEA Nawalpur Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण नवलपुर वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520045"
+    },
+    {
+      "name": "District Police Office Nawalpur",
+      "name_np": "जिल्ला प्रहरी कार्यालय नवलपुर",
+      "type": "Police",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520155"
+    },
+    {
+      "name": "Land Revenue Office Nawalpur",
+      "name_np": "मालपोत कार्यालय नवलपुर",
+      "type": "Land Revenue Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520088"
+    },
+    {
+      "name": "Nawalpur District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय नवलपुर",
+      "type": "Post Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520009"
+    },
+    {
+      "name": "District Forest Office Nawalpur",
+      "name_np": "जिल्ला वन कार्यालय नवलपुर",
+      "type": "Forest Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520122"
+    },
+    {
+      "name": "District Agriculture Office Nawalpur",
+      "name_np": "जिल्ला कृषि विकास कार्यालय नवलपुर",
+      "type": "Agriculture Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Nawalpur",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय नवलपुर",
+      "type": "Water Supply Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520177"
+    },
+    {
+      "name": "Transport Management Office Nawalpur",
+      "name_np": "यातायात व्यवस्था कार्यालय नवलपुर",
+      "type": "Transport Office",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-520211"
+    }
+  ]
+}

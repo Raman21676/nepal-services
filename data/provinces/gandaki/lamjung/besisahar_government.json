@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Besisahar Municipality Office",
+      "name_np": "बेसीशहर नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520100"
+    },
+    {
+      "name": "District Administration Office Lamjung",
+      "name_np": "जिल्ला प्रशासन कार्यालय लमजुङ",
+      "type": "District Administration",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520013"
+    },
+    {
+      "name": "NEA Lamjung Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण लमजुङ वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520045"
+    },
+    {
+      "name": "District Police Office Lamjung",
+      "name_np": "जिल्ला प्रहरी कार्यालय लमजुङ",
+      "type": "Police",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520155"
+    },
+    {
+      "name": "Annapurna Conservation Area Office",
+      "name_np": "अन्नपूर्ण संरक्षण क्षेत्र कार्यालय",
+      "type": "Forest Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520234"
+    },
+    {
+      "name": "Land Revenue Office Lamjung",
+      "name_np": "मालपोत कार्यालय लमजुङ",
+      "type": "Land Revenue Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520088"
+    },
+    {
+      "name": "Lamjung District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय लमजुङ",
+      "type": "Post Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520009"
+    },
+    {
+      "name": "District Forest Office Lamjung",
+      "name_np": "जिल्ला वन कार्यालय लमजुङ",
+      "type": "Forest Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520122"
+    },
+    {
+      "name": "District Agriculture Office Lamjung",
+      "name_np": "जिल्ला कृषि विकास कार्यालय लमजुङ",
+      "type": "Agriculture Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Lamjung",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय लमजुङ",
+      "type": "Water Supply Office",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-520177"
+    }
+  ]
+}

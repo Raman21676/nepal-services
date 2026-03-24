@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Syangja (Putalibazar)",
+    "district": "Syangja",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Putalibazar Municipality Office",
+      "name_np": "पुतलीबजार नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420100"
+    },
+    {
+      "name": "District Administration Office Syangja",
+      "name_np": "जिल्ला प्रशासन कार्यालय स्याङग्जा",
+      "type": "District Administration",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420013"
+    },
+    {
+      "name": "NEA Syangja Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण स्याङग्जा वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420045"
+    },
+    {
+      "name": "District Police Office Syangja",
+      "name_np": "जिल्ला प्रहरी कार्यालय स्याङग्जा",
+      "type": "Police",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420155"
+    },
+    {
+      "name": "Land Revenue Office Syangja",
+      "name_np": "मालपोत कार्यालय स्याङग्जा",
+      "type": "Land Revenue Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420088"
+    },
+    {
+      "name": "Syangja District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय स्याङग्जा",
+      "type": "Post Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420009"
+    },
+    {
+      "name": "District Forest Office Syangja",
+      "name_np": "जिल्ला वन कार्यालय स्याङग्जा",
+      "type": "Forest Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420122"
+    },
+    {
+      "name": "District Agriculture Office Syangja",
+      "name_np": "जिल्ला कृषि विकास कार्यालय स्याङग्जा",
+      "type": "Agriculture Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Syangja",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय स्याङग्जा",
+      "type": "Water Supply Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420177"
+    },
+    {
+      "name": "Transport Management Office Syangja",
+      "name_np": "यातायात व्यवस्था कार्यालय स्याङग्जा",
+      "type": "Transport Office",
+      "address": "Putalibazar, Syangja",
+      "phone": "063-420211"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Damauli",
+    "district": "Tanahun",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Byas Municipality Office (Damauli)",
+      "name_np": "व्यास नगरपालिका कार्यालय (दमौली)",
+      "type": "Municipal Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520100"
+    },
+    {
+      "name": "District Administration Office Tanahun",
+      "name_np": "जिल्ला प्रशासन कार्यालय तनहुँ",
+      "type": "District Administration",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520013"
+    },
+    {
+      "name": "NEA Tanahun Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण तनहुँ वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520045"
+    },
+    {
+      "name": "District Police Office Tanahun",
+      "name_np": "जिल्ला प्रहरी कार्यालय तनहुँ",
+      "type": "Police",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520155"
+    },
+    {
+      "name": "Land Revenue Office Tanahun",
+      "name_np": "मालपोत कार्यालय तनहुँ",
+      "type": "Land Revenue Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520088"
+    },
+    {
+      "name": "Tanahun District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय तनहुँ",
+      "type": "Post Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520009"
+    },
+    {
+      "name": "District Forest Office Tanahun",
+      "name_np": "जिल्ला वन कार्यालय तनहुँ",
+      "type": "Forest Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520122"
+    },
+    {
+      "name": "District Agriculture Office Tanahun",
+      "name_np": "जिल्ला कृषि विकास कार्यालय तनहुँ",
+      "type": "Agriculture Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Tanahun",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय तनहुँ",
+      "type": "Water Supply Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520177"
+    },
+    {
+      "name": "Transport Management Office Tanahun",
+      "name_np": "यातायात व्यवस्था कार्यालय तनहुँ",
+      "type": "Transport Office",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-520211"
+    }
+  ]
+}

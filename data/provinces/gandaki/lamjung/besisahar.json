@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Lamjung District Hospital",
+      "name_np": "लमजुङ जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Besisahar, Lamjung",
+      "phone": "066-520044",
+      "emergency": "066-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Besisahar Hospital",
+      "name_np": "बेसीशहर अस्पताल",
+      "type": "Private",
+      "address": "Besisahar-5, Lamjung",
+      "phone": "066-521111"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Baglung Municipality Office",
+      "name_np": "बागलुङ नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520100"
+    },
+    {
+      "name": "District Administration Office Baglung",
+      "name_np": "जिल्ला प्रशासन कार्यालय बागलुङ",
+      "type": "District Administration",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520013"
+    },
+    {
+      "name": "NEA Baglung Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण बागलुङ वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520045"
+    },
+    {
+      "name": "District Police Office Baglung",
+      "name_np": "जिल्ला प्रहरी कार्यालय बागलुङ",
+      "type": "Police",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520155"
+    },
+    {
+      "name": "Land Revenue Office Baglung",
+      "name_np": "मालपोत कार्यालय बागलुङ",
+      "type": "Land Revenue Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520088"
+    },
+    {
+      "name": "Baglung District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय बागलुङ",
+      "type": "Post Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520009"
+    },
+    {
+      "name": "District Forest Office Baglung",
+      "name_np": "जिल्ला वन कार्यालय बागलुङ",
+      "type": "Forest Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520122"
+    },
+    {
+      "name": "District Agriculture Office Baglung",
+      "name_np": "जिल्ला कृषि विकास कार्यालय बागलुङ",
+      "type": "Agriculture Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Baglung",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय बागलुङ",
+      "type": "Water Supply Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520177"
+    },
+    {
+      "name": "Transport Management Office Baglung",
+      "name_np": "यातायात व्यवस्था कार्यालय बागलुङ",
+      "type": "Transport Office",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-520211"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Baglung District Hospital",
+      "name_np": "बागलुङ जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Baglung Municipality, Baglung",
+      "phone": "068-520044",
+      "emergency": "068-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Dhaulagiri Hospital",
+      "name_np": "धौलागिरी अस्पताल",
+      "type": "Private",
+      "address": "Baglung-5, Baglung",
+      "phone": "068-521111"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Kushma Municipality Office",
+      "name_np": "कुश्मा नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520100"
+    },
+    {
+      "name": "District Administration Office Parbat",
+      "name_np": "जिल्ला प्रशासन कार्यालय पर्वत",
+      "type": "District Administration",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520013"
+    },
+    {
+      "name": "NEA Parbat Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण पर्वत वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520045"
+    },
+    {
+      "name": "District Police Office Parbat",
+      "name_np": "जिल्ला प्रहरी कार्यालय पर्वत",
+      "type": "Police",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520155"
+    },
+    {
+      "name": "Land Revenue Office Parbat",
+      "name_np": "मालपोत कार्यालय पर्वत",
+      "type": "Land Revenue Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520088"
+    },
+    {
+      "name": "Parbat District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय पर्वत",
+      "type": "Post Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520009"
+    },
+    {
+      "name": "District Forest Office Parbat",
+      "name_np": "जिल्ला वन कार्यालय पर्वत",
+      "type": "Forest Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520122"
+    },
+    {
+      "name": "District Agriculture Office Parbat",
+      "name_np": "जिल्ला कृषि विकास कार्यालय पर्वत",
+      "type": "Agriculture Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520066"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office Parbat",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय पर्वत",
+      "type": "Water Supply Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520177"
+    },
+    {
+      "name": "Transport Management Office Parbat",
+      "name_np": "यातायात व्यवस्था कार्यालय पर्वत",
+      "type": "Transport Office",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-520211"
+    }
+  ]
+}

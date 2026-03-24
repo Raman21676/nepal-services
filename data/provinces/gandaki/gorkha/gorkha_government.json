@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Gorkha",
+    "district": "Gorkha",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Gorkha Municipality Office",
+      "name_np": "गोरखा नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Gorkha Municipality, Gorkha",
+      "phone": "064-420100"
+    },
+    {
+      "name": "District Administration Office Gorkha",
+      "name_np": "जिल्ला प्रशासन कार्यालय गोरखा",
+      "type": "District Administration",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420013"
+    },
+    {
+      "name": "NEA Gorkha Electricity Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण गोरखा वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420045"
+    },
+    {
+      "name": "District Police Office Gorkha",
+      "name_np": "जिल्ला प्रहरी कार्यालय गोरखा",
+      "type": "Police",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420155"
+    },
+    {
+      "name": "Gorkha Durbar Conservation Office",
+      "name_np": "गोरखा दरबार संरक्षण कार्यालय",
+      "type": "District Administration",
+      "address": "Gorkha Durbar, Gorkha",
+      "phone": "064-420234"
+    },
+    {
+      "name": "Land Revenue Office Gorkha",
+      "name_np": "मालपोत कार्यालय गोरखा",
+      "type": "Land Revenue Office",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420088"
+    },
+    {
+      "name": "Gorkha District Post Office",
+      "name_np": "जिल्ला हुलाक कार्यालय गोरखा",
+      "type": "Post Office",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420009"
+    },
+    {
+      "name": "District Forest Office Gorkha",
+      "name_np": "जिल्ला वन कार्यालय गोरखा",
+      "type": "Forest Office",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420122"
+    },
+    {
+      "name": "District Agriculture Office Gorkha",
+      "name_np": "जिल्ला कृषि विकास कार्यालय गोरखा",
+      "type": "Agriculture Office",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420066"
+    },
+    {
+      "name": "Manaslu Conservation Area Office",
+      "name_np": "मनास्लु संरक्षण क्षेत्र कार्यालय",
+      "type": "Forest Office",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-420321"
+    }
+  ]
+}

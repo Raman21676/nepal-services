@@ -142,6 +142,28 @@ class NepalServicesApp {
             { path: 'data/provinces/gandaki/kaski/pokhara_emergency_contacts.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'emergency' },
             { path: 'data/provinces/gandaki/kaski/pokhara_ward_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ward' },
             
+            // Gandaki Province - Other Districts
+            { path: 'data/provinces/gandaki/gorkha/gorkha.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/gorkha/gorkha_government.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'government' },
+            { path: 'data/provinces/gandaki/lamjung/besisahar.json', province: 'gandaki', district: 'lamjung', city: 'besisahar', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/lamjung/besisahar_government.json', province: 'gandaki', district: 'lamjung', city: 'besisahar', type: 'government' },
+            { path: 'data/provinces/gandaki/tanahun/damauli.json', province: 'gandaki', district: 'tanahun', city: 'damauli', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/tanahun/damauli_government.json', province: 'gandaki', district: 'tanahun', city: 'damauli', type: 'government' },
+            { path: 'data/provinces/gandaki/syangja/syangja.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/syangja/syangja_government.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'government' },
+            { path: 'data/provinces/gandaki/palpa/tansen.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/palpa/tansen_government.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'government' },
+            { path: 'data/provinces/gandaki/nawalpur/kawasoti.json', province: 'gandaki', district: 'nawalpur', city: 'kawasoti', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/nawalpur/kawasoti_government.json', province: 'gandaki', district: 'nawalpur', city: 'kawasoti', type: 'government' },
+            { path: 'data/provinces/gandaki/baglung/baglung.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/baglung/baglung_government.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'government' },
+            { path: 'data/provinces/gandaki/myagdi/beni.json', province: 'gandaki', district: 'myagdi', city: 'beni', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/myagdi/beni_government.json', province: 'gandaki', district: 'myagdi', city: 'beni', type: 'government' },
+            { path: 'data/provinces/gandaki/parbat/kusma.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/parbat/kusma_government.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'government' },
+            { path: 'data/provinces/gandaki/mustang/jomsom.json', province: 'gandaki', district: 'mustang', city: 'jomsom', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/mustang/jomsom_government.json', province: 'gandaki', district: 'mustang', city: 'jomsom', type: 'government' },
+            
             // Madhesh Province - Major Cities
             { path: 'data/provinces/madhesh/parsa/birgunj.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },
             { path: 'data/provinces/madhesh/parsa/birgunj_government.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'government' },
