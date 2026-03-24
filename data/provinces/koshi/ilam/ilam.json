@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Ilam District Hospital",
+      "name_np": "इलाम जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Ilam Municipality, Ilam",
+      "phone": "027-520044",
+      "emergency": "027-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Ilam Tea Hospital",
+      "name_np": "इलाम चिया अस्पताल",
+      "type": "Community",
+      "address": "Ilam-3, Ilam",
+      "phone": "027-521111",
+      "services": ["General Medicine"]
+    },
+    {
+      "name": "Fikkal Primary Health Center",
+      "name_np": "फिक्कल प्राथमिक स्वास्थ्य केन्द्र",
+      "type": "Health Center",
+      "address": "Fikkal, Ilam",
+      "phone": "027-522222"
+    },
+    {
+      "name": "Mangalbare Hospital",
+      "name_np": "मंगलबारे अस्पताल",
+      "type": "Private",
+      "address": "Ilam-5, Ilam",
+      "phone": "027-523333"
+    }
+  ]
+}

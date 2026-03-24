@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "city": "Salleri",
+    "district": "Solukhumbu",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Solu District Hospital",
+      "name_np": "सोलु जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Salleri, Solukhumbu",
+      "phone": "038-520044",
+      "emergency": "038-520045",
+      "beds": "25",
+      "services": ["General Medicine", "Emergency", "High Altitude Sickness"]
+    },
+    {
+      "name": "Phaplu Hospital",
+      "name_np": "फाप्लु अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Phaplu, Solukhumbu",
+      "phone": "038-521111"
+    },
+    {
+      "name": "Himalayan Rescue Association - Pheriche",
+      "name_np": "हिमालयन रेस्क्यु एसोसिएसन",
+      "type": "Mountain Rescue",
+      "address": "Pheriche, Solukhumbu",
+      "phone": "038-522222",
+      "services": ["High Altitude Sickness", "Mountain Rescue", "Emergency"]
+    },
+    {
+      "name": "Kunde Hospital",
+      "name_np": "कुन्डे अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Kunde, Solukhumbu",
+      "phone": "038-523333",
+      "services": ["General Medicine", "High Altitude Medicine"]
+    }
+  ]
+}

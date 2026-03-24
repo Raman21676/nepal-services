@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Bhadrapur Hospital",
+      "name_np": "भद्रपुर अस्पताल",
+      "type": "Government",
+      "address": "Bhadrapur-5, Jhapa",
+      "phone": "023-520044",
+      "emergency": "023-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Mechi Zonal Hospital",
+      "name_np": "मेची अञ्चल अस्पताल",
+      "type": "Zonal Hospital",
+      "address": "Bhadrapur-6, Jhapa",
+      "phone": "023-520100",
+      "emergency": "023-520101",
+      "beds": "100",
+      "services": ["Emergency", "Surgery", "Medicine", "Orthopedics"]
+    },
+    {
+      "name": "Bhadrapur Community Hospital",
+      "name_np": "भद्रपुर सामुदायिक अस्पताल",
+      "type": "Community",
+      "address": "Bhadrapur-4, Jhapa",
+      "phone": "023-521111",
+      "services": ["General Medicine", "Maternity"]
+    },
+    {
+      "name": "Chandra Hospital",
+      "name_np": "चन्द्र अस्पताल",
+      "type": "Private",
+      "address": "Bhadrapur-3, Jhapa",
+      "phone": "023-522222",
+      "services": ["General Medicine", "Surgery"]
+    }
+  ]
+}

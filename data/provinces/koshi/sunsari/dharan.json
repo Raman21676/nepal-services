@@ -1,133 +1,81 @@
 {
   "metadata": {
-    "district": "Sunsari",
-    "province": "Koshi",
     "city": "Dharan",
-    "city_type": "Sub-Metropolitan City",
-    "population": "116,181",
-    "area_sq_km": "21.12",
-    "last_updated": "2025-01-24"
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
   },
   "hospitals": [
     {
-      "name": "B.P. Koirala Institute of Health Sciences",
-      "address": "Ghopa Camp, Dharan-18, Sunsari",
-      "contact": "025-525555",
-      "contact_secondary": "025-520802",
+      "name": "BP Koirala Institute of Health Sciences (BPKIHS)",
+      "name_np": "बीपी कोइराला स्वास्थ्य विज्ञान प्रतिष्ठान",
+      "type": "University Hospital",
+      "address": "Dharan-14, Sunsari",
+      "phone": "025-525555",
+      "emergency": "025-525556",
       "email": "info@bpkihs.edu",
       "website": "https://www.bpkihs.edu",
-      "type": "Government",
-      "beds": 913,
-      "services": [
-        "24/7 Emergency",
-        "Cardiology",
-        "Cardiothoracic Surgery",
-        "Oncology",
-        "Neurology",
-        "Neurosurgery",
-        "Nephrology",
-        "Dialysis",
-        "Orthopedics",
-        "Pediatrics",
-        "Obstetrics",
-        "General Surgery",
-        "Dental Surgery",
-        "ICU",
-        "CCU",
-        "NICU"
-      ],
-      "emergency": true,
-      "hours": "24/7"
+      "beds": "750+",
+      "services": ["Emergency", "Cardiology", "Neurosurgery", "Oncology", "Organ Transplant", "Burn Unit"]
     },
     {
       "name": "Dharan Hospital",
-      "address": "Dharan, Sunsari District",
+      "name_np": "धरान अस्पताल",
       "type": "Government",
-      "services": [
-        "General Medicine",
-        "Surgery",
-        "Emergency"
-      ],
-      "emergency": true
+      "address": "Dharan-8, Sunsari",
+      "phone": "025-520440",
+      "emergency": "025-520441",
+      "beds": "100",
+      "services": ["General Medicine", "Surgery", "Emergency", "Maternity"]
+    },
+    {
+      "name": "Om Hospital & Research Centre",
+      "name_np": "ओम अस्पताल",
+      "type": "Private",
+      "address": "Dharan-11, Sunsari",
+      "phone": "025-530707",
+      "emergency": "025-530708",
+      "services": ["General Medicine", "Surgery", "ICU"]
+    },
+    {
+      "name": "Nuclear Medicine & Diagnostic Centre",
+      "name_np": "न्युक्लियर मेडिसिन अस्पताल",
+      "type": "Diagnostic Center",
+      "address": "Dharan-9, Sunsari",
+      "phone": "025-525800",
+      "services": ["CT Scan", "MRI", "Nuclear Medicine", "PET Scan"]
+    },
+    {
+      "name": "Dharan Nursing Home",
+      "name_np": "धरान नर्सिङ होम",
+      "type": "Private",
+      "address": "Dharan-6, Sunsari",
+      "phone": "025-521234",
+      "services": ["Maternity", "General Medicine"]
+    },
+    {
+      "name": "City Hospital Dharan",
+      "name_np": "सिटी अस्पताल धरान",
+      "type": "Private",
+      "address": "Dharan-7, Sunsari",
+      "phone": "025-523456",
+      "services": ["General Medicine", "Surgery", "Pediatrics"]
+    },
+    {
+      "name": "BPKIHS Dental Hospital",
+      "name_np": "बीपी दन्त अस्पताल",
+      "type": "Dental Hospital",
+      "address": "Dharan-14, Sunsari",
+      "phone": "025-525600",
+      "services": ["Dental Surgery", "Orthodontics", "Maxillofacial Surgery"]
+    },
+    {
+      "name": "Dharan Model Hospital",
+      "name_np": "धरान मोडल अस्पताल",
+      "type": "Private",
+      "address": "Dharan-5, Sunsari",
+      "phone": "025-522345",
+      "services": ["General Medicine", "Orthopedics"]
     }
-  ],
-  "ambulance": [
-    {
-      "name": "National Ambulance",
-      "contact": "102",
-      "hours": "24/7"
-    },
-    {
-      "name": "BPKIHS Ambulance",
-      "contact": "025-525555",
-      "hours": "24/7"
-    },
-    {
-      "name": "Dharan Ambulance Service",
-      "contact": "982-7383283",
-      "hours": "24/7"
-    },
-    {
-      "name": "Dharan Fire Station",
-      "contact": "025-520199",
-      "contact_secondary": "9842038299",
-      "hours": "24/7"
-    }
-  ],
-  "emergency": [
-    {
-      "name": "Nepal Police",
-      "contact": "100",
-      "type": "Police",
-      "hours": "24/7"
-    },
-    {
-      "name": "Fire Brigade",
-      "contact": "101",
-      "type": "Fire",
-      "hours": "24/7"
-    },
-    {
-      "name": "Dharan Sub-Metropolitan City",
-      "contact": "025-570407",
-      "contact_secondary": "025-570636",
-      "email": "info@dharan.gov.np",
-      "website": "https://www.dharan.gov.np",
-      "address": "Chataraline, Dharan, Sunsari",
-      "hours": "Office Hours"
-    },
-    {
-      "name": "Dharan Fire Service",
-      "contact": "025-520199",
-      "type": "Fire",
-      "hours": "24/7"
-    },
-    {
-      "name": "Mayor's Office",
-      "contact": "9852045600",
-      "type": "Government"
-    }
-  ],
-  "ward_offices": [
-    {"ward": 1, "chairperson": "Roshan Adhikari", "contact": "9842054157"},
-    {"ward": 2, "chairperson": "Ramesh Rai", "contact": "9852047744"},
-    {"ward": 3, "address": "Ward 3, Dharan Sub-Metropolitan City"},
-    {"ward": 4, "chairperson": "Bidya Shakya"},
-    {"ward": 5, "address": "Ward 5, Dharan Sub-Metropolitan City"},
-    {"ward": 6, "address": "Ward 6, Dharan Sub-Metropolitan City"},
-    {"ward": 7, "address": "Ward 7, Dharan Sub-Metropolitan City"},
-    {"ward": 8, "address": "Ward 8, Dharan Sub-Metropolitan City"},
-    {"ward": 9, "address": "Ward 9, Dharan Sub-Metropolitan City"},
-    {"ward": 10, "address": "Ward 10, Dharan Sub-Metropolitan City"},
-    {"ward": 11, "chairperson": "Lokendra Fago"},
-    {"ward": 12, "address": "Ward 12, Dharan Sub-Metropolitan City"},
-    {"ward": 13, "address": "Ward 13, Dharan Sub-Metropolitan City"},
-    {"ward": 14, "chairperson": "Krishna Prasad Bhattarai", "notes": "Offers free ambulance/blood service"},
-    {"ward": 15, "chairperson": "Naresh Iwaram"},
-    {"ward": 16, "chairperson": "Murari Bhattarai"},
-    {"ward": 17, "chairperson": "Surya Prasad Bhattarai (Manoj)", "notes": "Municipal Spokesperson"},
-    {"ward": 18, "address": "Ward 18, Dharan Sub-Metropolitan City", "notes": "BPKIHS located here"},
-    {"ward": 19, "address": "Ward 19, Dharan Sub-Metropolitan City"},
-    {"ward": 20, "chairperson": "Maniram Rai"}
   ]
 }

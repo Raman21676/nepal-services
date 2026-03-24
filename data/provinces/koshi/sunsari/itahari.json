@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "city": "Itahari",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Itahari Hospital",
+      "name_np": "इटहरी अस्पताल",
+      "type": "Government",
+      "address": "Itahari-4, Sunsari",
+      "phone": "025-580044",
+      "emergency": "025-580045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Nobel Medical College Itahari Campus",
+      "name_np": "नोबेल मेडिकल कलेज इटहरी",
+      "type": "Teaching Hospital",
+      "address": "Itahari-6, Sunsari",
+      "phone": "025-581111",
+      "emergency": "025-581112",
+      "services": ["General Medicine", "Surgery", "Pediatrics"]
+    },
+    {
+      "name": "Shree Hospital",
+      "name_np": "श्री अस्पताल",
+      "type": "Private",
+      "address": "Itahari-5, Sunsari",
+      "phone": "025-582222",
+      "services": ["General Medicine", "Maternity"]
+    },
+    {
+      "name": "Sunrise Hospital Itahari",
+      "name_np": "सनराइज अस्पताल इटहरी",
+      "type": "Private",
+      "address": "Itahari-3, Sunsari",
+      "phone": "025-583333",
+      "emergency": "025-583334",
+      "services": ["Emergency", "Surgery", "ICU"]
+    },
+    {
+      "name": "Asha Hospital",
+      "name_np": "आशा अस्पताल",
+      "type": "Private",
+      "address": "Itahari-7, Sunsari",
+      "phone": "025-584444",
+      "services": ["General Medicine", "Gynecology"]
+    },
+    {
+      "name": "Itahari Eye Care Centre",
+      "name_np": "इटहरी आँखा केन्द्र",
+      "type": "Eye Hospital",
+      "address": "Itahari-2, Sunsari",
+      "phone": "025-585555",
+      "services": ["Eye Checkup", "Cataract Surgery"]
+    }
+  ]
+}

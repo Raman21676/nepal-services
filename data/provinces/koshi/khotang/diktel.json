@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "city": "Diktel",
+    "district": "Khotang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Khotang District Hospital",
+      "name_np": "खोटाङ जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Diktel, Khotang",
+      "phone": "036-420044",
+      "emergency": "036-420045",
+      "beds": "25",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Diktel Hospital",
+      "name_np": "दिक्तेल अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Diktel-4, Khotang",
+      "phone": "036-421111"
+    }
+  ]
+}

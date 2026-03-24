@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "city": "Dhankuta",
+    "district": "Dhankuta",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Dhankuta District Hospital",
+      "name_np": "धनकुटा जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Dhankuta Municipality, Dhankuta",
+      "phone": "026-520044",
+      "emergency": "026-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Pakhribas Hospital",
+      "name_np": "पाख्रिबास अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Pakhribas, Dhankuta",
+      "phone": "026-521111"
+    },
+    {
+      "name": "Dhankuta Eye Care Centre",
+      "name_np": "धनकुटा आँखा केन्द्र",
+      "type": "Eye Care",
+      "address": "Dhankuta-3, Dhankuta",
+      "phone": "026-522222"
+    }
+  ]
+}

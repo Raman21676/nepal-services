@@ -92,21 +92,26 @@ class NepalServicesApp {
             { path: 'data/provinces/bagmati/sindhupalchok/chautara.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'hospitals' },
             { path: 'data/provinces/bagmati/sindhupalchok/chautara_government.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'government' },
             
-            // Koshi Province - Biratnagar
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_colleges.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'colleges' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_clinics.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'clinics' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_pharmacies.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'pharmacies' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_veterinary.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'veterinary' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_blood_banks.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'blood_banks' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_ambulance_services.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ambulance' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_ward_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward' },
-            { path: 'data/provinces/province-1-koshi/morang/biratnagar_emergency_contacts.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'emergency' },
-            
-            // Koshi Province - Dharan
+            // Koshi Province - Major Cities
+            { path: 'data/provinces/koshi/morang/biratnagar.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
             { path: 'data/provinces/koshi/sunsari/dharan.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'hospitals' },
-            { path: 'data/provinces/koshi/sunsari/dharan_schools.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'schools' },
+            { path: 'data/provinces/koshi/sunsari/itahari.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'hospitals' },
+            { path: 'data/provinces/koshi/jhapa/birtamod.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'hospitals' },
+            { path: 'data/provinces/koshi/jhapa/damak.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'hospitals' },
+            { path: 'data/provinces/koshi/jhapa/bhadrapur.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'hospitals' },
+            
+            // Koshi Province - District Headquarters
+            { path: 'data/provinces/koshi/ilam/ilam.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'hospitals' },
+            { path: 'data/provinces/koshi/dhankuta/dhankuta.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'hospitals' },
+            { path: 'data/provinces/koshi/bhojpur/bhojpur.json', province: 'koshi', district: 'bhojpur', city: 'bhojpur', type: 'hospitals' },
+            { path: 'data/provinces/koshi/khotang/diktel.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'hospitals' },
+            { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'hospitals' },
+            { path: 'data/provinces/koshi/udayapur/gaighat.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'hospitals' },
+            { path: 'data/provinces/koshi/sankhuwasabha/khandbari.json', province: 'koshi', district: 'sankhuwasabha', city: 'khandbari', type: 'hospitals' },
+            { path: 'data/provinces/koshi/solukhumbu/salleri.json', province: 'koshi', district: 'solukhumbu', city: 'salleri', type: 'hospitals' },
+            { path: 'data/provinces/koshi/terhathum/manglung.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'hospitals' },
+            { path: 'data/provinces/koshi/panchthar/phidim.json', province: 'koshi', district: 'panchthar', city: 'phidim', type: 'hospitals' },
+            { path: 'data/provinces/koshi/taplejung/taplejung.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'hospitals' },
             
             // Gandaki Province - Pokhara
             { path: 'data/provinces/gandaki/kaski/pokhara_hospitals.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'hospitals' },

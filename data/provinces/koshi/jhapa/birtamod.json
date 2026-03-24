@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "city": "Birtamod",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Birtamod Hospital",
+      "name_np": "बिर्तामोड अस्पताल",
+      "type": "Government",
+      "address": "Birtamod-5, Jhapa",
+      "phone": "023-540044",
+      "emergency": "023-540045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Mechi Hospital",
+      "name_np": "मेची अस्पताल",
+      "type": "Private",
+      "address": "Birtamod-6, Jhapa",
+      "phone": "023-541111",
+      "emergency": "023-541112",
+      "services": ["Emergency", "Surgery", "ICU"]
+    },
+    {
+      "name": "Green Cross Hospital",
+      "name_np": "ग्रीनक्रस अस्पताल",
+      "type": "Private",
+      "address": "Birtamod-4, Jhapa",
+      "phone": "023-542222",
+      "services": ["General Medicine", "Orthopedics"]
+    },
+    {
+      "name": "Birtamod Medical College",
+      "name_np": "बिर्तामोड मेडिकल कलेज",
+      "type": "Teaching Hospital",
+      "address": "Birtamod-7, Jhapa",
+      "phone": "023-543333",
+      "beds": "300",
+      "services": ["MBBS Teaching", "General Medicine", "Surgery"]
+    },
+    {
+      "name": "Life Line Hospital",
+      "name_np": "लाइफ लाइन अस्पताल",
+      "type": "Private",
+      "address": "Birtamod-3, Jhapa",
+      "phone": "023-544444",
+      "services": ["General Medicine", "Maternity"]
+    }
+  ]
+}

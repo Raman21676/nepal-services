@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "city": "Khandbari",
+    "district": "Sankhuwasabha",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Sankhuwasabha District Hospital",
+      "name_np": "संखुवासभा जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Khandbari, Sankhuwasabha",
+      "phone": "029-560044",
+      "emergency": "029-560045",
+      "beds": "25",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Makalu Hospital",
+      "name_np": "मकालु अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Khandbari-3, Sankhuwasabha",
+      "phone": "029-561111"
+    }
+  ]
+}

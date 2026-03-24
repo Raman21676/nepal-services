@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "city": "Manglung",
+    "district": "Terhathum",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Terhathum District Hospital",
+      "name_np": "तेह्रथुम जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Myanglung, Terhathum",
+      "phone": "026-460044",
+      "emergency": "026-460045",
+      "beds": "25",
+      "services": ["General Medicine", "Emergency"]
+    },
+    {
+      "name": "Myanglung Primary Health Center",
+      "name_np": "म्याङ्लुङ प्राथमिक स्वास्थ्य केन्द्र",
+      "type": "Health Center",
+      "address": "Myanglung-4, Terhathum",
+      "phone": "026-461111"
+    }
+  ]
+}

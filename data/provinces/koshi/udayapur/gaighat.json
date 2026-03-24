@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Udayapur District Hospital",
+      "name_np": "उदयपुर जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Triyuga Municipality, Udayapur",
+      "phone": "035-420044",
+      "emergency": "035-420045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Gaighat Hospital",
+      "name_np": "गाइघाट अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Gaighat, Udayapur",
+      "phone": "035-421111"
+    },
+    {
+      "name": "Katari Hospital",
+      "name_np": "कटारी अस्पताल",
+      "type": "Health Center",
+      "address": "Katari, Udayapur",
+      "phone": "035-422222"
+    }
+  ]
+}

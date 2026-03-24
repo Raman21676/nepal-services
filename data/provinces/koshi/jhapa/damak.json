@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Damak Hospital",
+      "name_np": "दमक अस्पताल",
+      "type": "Government",
+      "address": "Damak-6, Jhapa",
+      "phone": "023-580044",
+      "emergency": "023-580045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "CMC Hospital Damak",
+      "name_np": "सीएमसी अस्पताल दमक",
+      "type": "Private",
+      "address": "Damak-5, Jhapa",
+      "phone": "023-581111",
+      "emergency": "023-581112",
+      "services": ["Emergency", "Surgery", "ICU"]
+    },
+    {
+      "name": "HAMS Hospital Damak",
+      "name_np": "हाम्स अस्पताल दमक",
+      "type": "Private",
+      "address": "Damak-4, Jhapa",
+      "phone": "023-582222",
+      "services": ["General Medicine", "Orthopedics"]
+    },
+    {
+      "name": "Damak Eye Hospital",
+      "name_np": "दमक आँखा अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Damak-3, Jhapa",
+      "phone": "023-583333",
+      "services": ["Eye Surgery", "Cataract"]
+    },
+    {
+      "name": "Hope Hospital",
+      "name_np": "होप अस्पताल",
+      "type": "Private",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-584444",
+      "services": ["General Medicine", "Maternity"]
+    }
+  ]
+}
