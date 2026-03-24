@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "city": "Gulariya",
+    "city_np": "गुलरिया",
+    "district": "Bardiya",
+    "district_np": "बर्दिया",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "084",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Bardiya Veterinary Hospital",
+      "name_np": "बर्दिया पशु अस्पताल",
+      "type": "Government",
+      "address": "Gulariya, Bardiya",
+      "phone": "084-460800"
+    },
+    {
+      "name": "Tiger Conservation Clinic",
+      "name_np": "बाघ संरक्षण क्लिनिक",
+      "type": "NGO",
+      "address": "Near Bardiya National Park"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Gulariya",
+    "city_np": "गुलरिया",
+    "district": "Bardiya",
+    "district_np": "बर्दिया",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "084",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Gulariya Pharmacy",
+      "name_np": "गुलरिया फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Gulariya",
+      "phone": "084-460400"
+    },
+    {
+      "name": "Bardiya Medical Store",
+      "name_np": "बर्दिया मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Gulariya",
+      "phone": "084-460500"
+    }
+  ]
+}

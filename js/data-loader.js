@@ -15,7 +15,10 @@ const DATA_MANIFEST = [
     ...MADHESH_MANIFEST,
     
     // Gandaki Province (11 districts, 11 cities)
-    ...GANDAKI_MANIFEST
+    ...GANDAKI_MANIFEST,
+    
+    // Lumbini Province (10 districts, 12 cities)
+    ...LUMBINI_MANIFEST
 ];
 
 // Data Loader Class

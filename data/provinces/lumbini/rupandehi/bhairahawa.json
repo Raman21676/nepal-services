@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Bhim Hospital",
+      "name_np": "भीम अस्पताल",
+      "type": "Government",
+      "address": "Siddharthanagar, Rupandehi",
+      "phone": "071-520100",
+      "emergency": "071-520101",
+      "beds": 100,
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "Lumbini Hospital",
+      "name_np": "लुम्बिनी अस्पताल",
+      "type": "Private",
+      "address": "Bhairahawa, Rupandehi",
+      "phone": "071-520555",
+      "emergency": "071-520556",
+      "beds": 150,
+      "services": [
+        "Multi-specialty",
+        "Emergency",
+        "ICU"
+      ]
+    },
+    {
+      "name": "Universal College of Medical Sciences Hospital",
+      "name_np": "युनिभर्सल अस्पताल",
+      "type": "Private",
+      "address": "Ranigaon, Bhairahawa",
+      "phone": "071-520262",
+      "beds": 800,
+      "services": [
+        "MBBS",
+        "Super-specialty",
+        "Emergency"
+      ]
+    },
+    {
+      "name": "Ananda Hospital",
+      "name_np": "आनन्द अस्पताल",
+      "type": "Private",
+      "address": "Main Road, Bhairahawa",
+      "phone": "071-520333",
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "Gautam Buddha Community Hospital",
+      "name_np": "गौतम बुद्ध सामुदायिक अस्पताल",
+      "type": "Community",
+      "address": "Lumbini, Rupandehi",
+      "phone": "071-520444",
+      "services": [
+        "General Medicine",
+        "Maternity"
+      ]
+    }
+  ]
+}

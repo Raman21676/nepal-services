@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "government": [
+    {
+      "name": "Rolpa District Administration Office",
+      "name_np": "रोल्पा जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "Liwang, Rolpa",
+      "phone": "086-420100"
+    },
+    {
+      "name": "Rolpa Municipality Office",
+      "name_np": "रोल्पा नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Liwang",
+      "phone": "086-420700"
+    }
+  ]
+}

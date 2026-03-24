@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Butwal Pharmacy",
+      "name_np": "बुटवल फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Main Road, Butwal",
+      "phone": "071-540700"
+    },
+    {
+      "name": "Lumbini Medical Store",
+      "name_np": "लुम्बिनी मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Golpark, Butwal",
+      "phone": "071-540800"
+    },
+    {
+      "name": "City Pharmacy",
+      "name_np": "सिटी फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Traffic Chowk, Butwal",
+      "phone": "071-540900"
+    },
+    {
+      "name": "Health Care Pharmacy",
+      "name_np": "हेल्थ केयर फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Sukhanagar, Butwal",
+      "phone": "071-541000"
+    }
+  ]
+}

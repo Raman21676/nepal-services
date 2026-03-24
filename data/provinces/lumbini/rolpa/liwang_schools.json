@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Rolpa Secondary School",
+      "name_np": "रोल्पा माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Liwang",
+      "phone": "086-420600"
+    },
+    {
+      "name": "Liwang Academy",
+      "name_np": "लिवाङ एकेडेमी",
+      "type": "Private",
+      "level": "Nursery-10",
+      "address": "Liwang"
+    }
+  ]
+}

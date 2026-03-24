@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Ghorahi",
+    "city_np": "घोराही",
+    "district": "Dang",
+    "district_np": "दाङ",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "082",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Ghorahi Pharmacy",
+      "name_np": "घोराही फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Ghorahi",
+      "phone": "082-521500"
+    },
+    {
+      "name": "Dang Medical Store",
+      "name_np": "दाङ मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Ghorahi",
+      "phone": "082-521600"
+    }
+  ]
+}

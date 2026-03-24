@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Tamghas",
+    "city_np": "तम्घास",
+    "district": "Gulmi",
+    "district_np": "गुल्मी",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "079",
+    "last_updated": "2025-01-20"
+  },
+  "government": [
+    {
+      "name": "Gulmi District Administration Office",
+      "name_np": "गुल्मी जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "Tamghas, Gulmi",
+      "phone": "079-520100"
+    },
+    {
+      "name": "Resunga Municipality Office",
+      "name_np": "रेशुङ्गा नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Tamghas",
+      "phone": "079-520700"
+    }
+  ]
+}

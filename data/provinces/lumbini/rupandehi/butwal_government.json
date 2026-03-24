@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "government": [
+    {
+      "name": "Rupandehi District Administration Office",
+      "name_np": "रुपन्देही जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "Butwal, Rupandehi",
+      "phone": "071-540100"
+    },
+    {
+      "name": "Rupandehi District Coordination Committee",
+      "name_np": "रुपन्देही जिल्ला समन्वय समिति",
+      "type": "District Committee",
+      "address": "Butwal",
+      "phone": "071-540200"
+    },
+    {
+      "name": "Butwal Sub-Metropolitan City Office",
+      "name_np": "बुटवल उपमहानगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Butwal",
+      "phone": "071-540035"
+    },
+    {
+      "name": "District Court Rupandehi",
+      "name_np": "जिल्ला अदालत रुपन्देही",
+      "type": "Court",
+      "address": "Butwal",
+      "phone": "071-540300"
+    },
+    {
+      "name": "Internal Revenue Office Butwal",
+      "name_np": "आन्तरिक राजस्व कार्यालय बुटवल",
+      "type": "Revenue Office",
+      "address": "Butwal",
+      "phone": "071-540400"
+    }
+  ]
+}

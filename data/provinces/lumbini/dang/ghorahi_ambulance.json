@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Ghorahi",
+    "city_np": "घोराही",
+    "district": "Dang",
+    "district_np": "दाङ",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "082",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "name_np": "नेशनल एम्बुलेन्स",
+      "type": "Emergency",
+      "phone": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Ghorahi Hospital Ambulance",
+      "name_np": "घोराही अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "082-521100",
+      "hours": "24/7"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Ghorahi",
+    "city_np": "घोराही",
+    "district": "Dang",
+    "district_np": "दाङ",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "082",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Ghorahi Blood Bank",
+      "name_np": "घोराही रक्त बैंक",
+      "type": "Regional",
+      "address": "Ghorahi Hospital",
+      "phone": "082-521100"
+    }
+  ]
+}

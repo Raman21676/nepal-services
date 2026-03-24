@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "city_np": "नेपालगंज",
+    "district": "Banke",
+    "district_np": "बाँके",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "081",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Nepalgunj Medical College",
+      "name_np": "नेपालगंज मेडिकल कलेज",
+      "type": "Medical College",
+      "affiliation": "KU",
+      "programs": [
+        "MBBS",
+        "BDS",
+        "Nursing"
+      ],
+      "address": "B.P. Chowk, Nepalgunj",
+      "phone": "081-521572"
+    },
+    {
+      "name": "Mahendra Multiple Campus",
+      "name_np": "महेन्द्र बहुमुखी क्याम्पस",
+      "type": "Constituent Campus",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BSc",
+        "BBS",
+        "MBA"
+      ],
+      "address": "Nepalgunj-13",
+      "phone": "081-528041"
+    },
+    {
+      "name": "Banke Education Campus",
+      "name_np": "बाँके शिक्षा क्याम्पस",
+      "type": "Community",
+      "affiliation": "TU",
+      "programs": [
+        "B.Ed",
+        "M.Ed"
+      ],
+      "address": "Nepalgunj",
+      "phone": "081-524936"
+    },
+    {
+      "name": "Nepalgunj Nursing Campus",
+      "name_np": "नेपालगंज नर्सिङ क्याम्पस",
+      "type": "Constituent",
+      "affiliation": "IOM",
+      "programs": [
+        "PCL Nursing",
+        "BNS",
+        "B.Sc Nursing"
+      ],
+      "address": "Near Bheri Hospital",
+      "phone": "081-520174"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "city": "Sandhikarka",
+    "city_np": "सन्धिखर्क",
+    "district": "Argakhanchi",
+    "district_np": "अर्घाखाँची",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "077",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Arghakhanchi Multiple Campus",
+      "name_np": "अर्घाखाँची बहुमुखी क्याम्पस",
+      "type": "Community",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BBS"
+      ],
+      "address": "Sandhikarka"
+    }
+  ]
+}

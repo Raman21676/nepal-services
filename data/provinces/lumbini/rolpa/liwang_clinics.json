@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Liwang Health Clinic",
+      "name_np": "लिवाङ हेल्थ क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Liwang",
+      "phone": "086-420200"
+    },
+    {
+      "name": "Rolpa Diagnostic",
+      "name_np": "रोल्पा डायग्नोस्टिक",
+      "type": "Diagnostic",
+      "address": "Liwang",
+      "phone": "086-420300"
+    }
+  ]
+}

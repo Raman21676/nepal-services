@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Kapilvastu",
+    "city_np": "कपिलवस्तु",
+    "district": "Kapilvastu",
+    "district_np": "कपिलवस्तु",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "076",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Kapilvastu District Hospital",
+      "name_np": "कपिलवस्तु जिल्ला अस्पताल",
+      "type": "Government",
+      "address": "Kapilvastu-4, Taulihawa",
+      "phone": "076-560100",
+      "emergency": "076-560101",
+      "beds": 100,
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "Lumbini Hospital Kapilvastu",
+      "name_np": "लुम्बिनी अस्पताल कपिलवस्तु",
+      "type": "Private",
+      "address": "Taulihawa, Kapilvastu",
+      "phone": "076-560222",
+      "services": [
+        "General Medicine",
+        "Maternity"
+      ]
+    },
+    {
+      "name": "Shanti Hospital",
+      "name_np": "शान्ति अस्पताल",
+      "type": "Private",
+      "address": "Kapilvastu",
+      "phone": "076-560333",
+      "beds": 30,
+      "services": [
+        "General Medicine"
+      ]
+    }
+  ]
+}

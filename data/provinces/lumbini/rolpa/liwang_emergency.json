@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "name_np": "नेपाल प्रहरी",
+      "type": "Police",
+      "phone": "100",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "name_np": "दमकल",
+      "type": "Fire",
+      "phone": "101",
+      "hours": "24/7"
+    },
+    {
+      "name": "Rolpa District Police Office",
+      "name_np": "रोल्पा जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "phone": "086-420600",
+      "hours": "24/7"
+    },
+    {
+      "name": "Rolpa Municipality",
+      "name_np": "रोल्पा नगरपालिका",
+      "type": "Municipality",
+      "phone": "086-420700",
+      "address": "Liwang"
+    }
+  ]
+}

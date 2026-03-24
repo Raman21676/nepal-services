@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Rolpa District Hospital",
+      "name_np": "रोल्पा जिल्ला अस्पताल",
+      "type": "Government",
+      "address": "Liwang-3, Rolpa",
+      "phone": "086-420100",
+      "emergency": "086-420101",
+      "beds": 25,
+      "services": [
+        "Emergency",
+        "General Medicine"
+      ]
+    },
+    {
+      "name": "Liwang Hospital",
+      "name_np": "लिवाङ अस्पताल",
+      "type": "Private",
+      "address": "Liwang, Rolpa",
+      "phone": "086-420222",
+      "services": [
+        "General Medicine"
+      ]
+    }
+  ]
+}

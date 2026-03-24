@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Kapilvastu",
+    "city_np": "कपिलवस्तु",
+    "district": "Kapilvastu",
+    "district_np": "कपिलवस्तु",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "076",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Kapilvastu Polyclinic",
+      "name_np": "कपिलवस्तु पोलिक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Taulihawa",
+      "phone": "076-560200"
+    },
+    {
+      "name": "Buddha Diagnostic",
+      "name_np": "बुद्ध डायग्नोस्टिक",
+      "type": "Diagnostic",
+      "address": "Kapilvastu",
+      "phone": "076-560300"
+    }
+  ]
+}

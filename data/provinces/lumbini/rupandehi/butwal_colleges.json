@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Butwal Multiple Campus",
+      "name_np": "बुटवल बहुमुखी क्याम्पस",
+      "type": "Constituent Campus",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BSc",
+        "BBS",
+        "MA"
+      ],
+      "address": "Butwal",
+      "phone": "071-542000"
+    },
+    {
+      "name": "Tilottama Campus",
+      "name_np": "तिलोत्तमा क्याम्पस",
+      "type": "Community",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BBS"
+      ],
+      "address": "Manigram, Butwal"
+    },
+    {
+      "name": "Lumbini Engineering College",
+      "name_np": "लुम्बिनी इन्जिनियरिङ कलेज",
+      "type": "Private",
+      "affiliation": "PU",
+      "programs": [
+        "BE"
+      ],
+      "address": "Butwal"
+    },
+    {
+      "name": "Crimson College of Technology",
+      "name_np": "क्रिमसन कलेज अफ टेक्नोलोजी",
+      "type": "Private",
+      "affiliation": "PU",
+      "programs": [
+        "BBA",
+        "BCA",
+        "BHM"
+      ],
+      "address": "Devinagar, Butwal"
+    }
+  ]
+}

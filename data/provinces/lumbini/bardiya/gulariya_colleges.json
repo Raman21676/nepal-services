@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Gulariya",
+    "city_np": "गुलरिया",
+    "district": "Bardiya",
+    "district_np": "बर्दिया",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "084",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Bardiya Multiple Campus",
+      "name_np": "बर्दिया बहुमुखी क्याम्पस",
+      "type": "Community",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BBS",
+        "BEd"
+      ],
+      "address": "Gulariya"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Lumbini Provincial Hospital Blood Bank",
+      "name_np": "लुम्बिनी प्रादेशिक अस्पताल रक्त बैंक",
+      "type": "Hospital",
+      "address": "Lumbini Provincial Hospital, Butwal",
+      "phone": "071-540200"
+    },
+    {
+      "name": "Red Cross Blood Bank Butwal",
+      "name_np": "रेडक्रस रक्त बैंक बुटवल",
+      "type": "Regional",
+      "address": "Butwal",
+      "phone": "071-540100"
+    }
+  ]
+}

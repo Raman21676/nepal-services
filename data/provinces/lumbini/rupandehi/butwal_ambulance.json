@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "name_np": "नेशनल एम्बुलेन्स",
+      "type": "Emergency",
+      "phone": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Lumbini Provincial Hospital Ambulance",
+      "name_np": "लुम्बिनी प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "071-540200",
+      "hours": "24/7"
+    },
+    {
+      "name": "Crimson Hospital Ambulance",
+      "name_np": "क्रिमसन अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "071-562744",
+      "hours": "24/7"
+    },
+    {
+      "name": "Siddhababa Hospital Ambulance",
+      "name_np": "सिद्धबाबा अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "071-549201",
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepal Red Cross Rupandehi",
+      "name_np": "नेपाल रेडक्रस रुपन्देही",
+      "type": "NGO",
+      "phone": "1130",
+      "hours": "24/7"
+    }
+  ]
+}

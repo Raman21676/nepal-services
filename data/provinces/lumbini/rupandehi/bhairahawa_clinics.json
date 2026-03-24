@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Bhairahawa Medical Clinic",
+      "name_np": "भैरहवा मेडिकल क्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Bhairahawa",
+      "phone": "071-520200"
+    },
+    {
+      "name": "Siddharthanagar Clinic",
+      "name_np": "सिद्धार्थनगर क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Siddharthanagar",
+      "phone": "071-520300"
+    },
+    {
+      "name": "Lumbini Pathology",
+      "name_np": "लुम्बिनी प्याथोलोजी",
+      "type": "Diagnostic",
+      "address": "Bhairahawa",
+      "phone": "071-520400"
+    }
+  ]
+}

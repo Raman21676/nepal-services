@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Bhairahawa Pharmacy",
+      "name_np": "भैरहवा फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Main Road, Bhairahawa",
+      "phone": "071-520500"
+    },
+    {
+      "name": "Siddhartha Medical Store",
+      "name_np": "सिद्धार्थ मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Bhairahawa",
+      "phone": "071-520600"
+    },
+    {
+      "name": "Lumbini Pharmacy",
+      "name_np": "लुम्बिनी फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Near Lumbini Gate",
+      "phone": "071-520700"
+    }
+  ]
+}

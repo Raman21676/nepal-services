@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Tamghas",
+    "city_np": "तम्घास",
+    "district": "Gulmi",
+    "district_np": "गुल्मी",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "079",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Tamghas Clinic",
+      "name_np": "तम्घास क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Tamghas",
+      "phone": "079-520200"
+    },
+    {
+      "name": "Gulmi Diagnostic Center",
+      "name_np": "गुल्मी डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic",
+      "address": "Tamghas",
+      "phone": "079-520300"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Rolpa Multiple Campus",
+      "name_np": "रोल्पा बहुमुखी क्याम्पस",
+      "type": "Community",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BBS"
+      ],
+      "address": "Liwang"
+    }
+  ]
+}

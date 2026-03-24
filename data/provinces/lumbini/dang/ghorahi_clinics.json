@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Ghorahi",
+    "city_np": "घोराही",
+    "district": "Dang",
+    "district_np": "दाङ",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "082",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Ghorahi Medical Clinic",
+      "name_np": "घोराही मेडिकल क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Ghorahi",
+      "phone": "082-521300"
+    },
+    {
+      "name": "Dang Diagnostic",
+      "name_np": "दाङ डायग्नोस्टिक",
+      "type": "Diagnostic",
+      "address": "Ghorahi",
+      "phone": "082-521400"
+    }
+  ]
+}

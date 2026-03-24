@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "name_np": "नेपाल प्रहरी",
+      "type": "Police",
+      "phone": "100",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "name_np": "दमकल",
+      "type": "Fire",
+      "phone": "101",
+      "hours": "24/7"
+    },
+    {
+      "name": "Siddharthanagar Municipality",
+      "name_np": "सिद्धार्थनगर नगरपालिका",
+      "type": "Municipality",
+      "phone": "071-520850",
+      "address": "Siddharthanagar"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Liwang Pharmacy",
+      "name_np": "लिवाङ फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Liwang",
+      "phone": "086-420400"
+    },
+    {
+      "name": "Rolpa Medical Store",
+      "name_np": "रोल्पा मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Liwang",
+      "phone": "086-420500"
+    }
+  ]
+}

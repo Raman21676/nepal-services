@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Sandhikarka",
+    "city_np": "सन्धिखर्क",
+    "district": "Argakhanchi",
+    "district_np": "अर्घाखाँची",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "077",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Sandhikarka Pharmacy",
+      "name_np": "सन्धिखर्क फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Sandhikarka",
+      "phone": "077-420400"
+    },
+    {
+      "name": "Arghakhanchi Medical Store",
+      "name_np": "अर्घाखाँची मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Sandhikarka",
+      "phone": "077-420500"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Tamghas",
+    "city_np": "तम्घास",
+    "district": "Gulmi",
+    "district_np": "गुल्मी",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "079",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Gulmi Multiple Campus",
+      "name_np": "गुल्मी बहुमुखी क्याम्पस",
+      "type": "Community",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BBS",
+        "BEd"
+      ],
+      "address": "Tamghas"
+    },
+    {
+      "name": "Resunga Campus",
+      "name_np": "रेशुङ्गा क्याम्पस",
+      "type": "Private",
+      "affiliation": "TU",
+      "programs": [
+        "BBS"
+      ],
+      "address": "Tamghas"
+    }
+  ]
+}

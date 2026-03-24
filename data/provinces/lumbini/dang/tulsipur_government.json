@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Tulsipur",
+    "city_np": "तुलसिपुर",
+    "district": "Dang",
+    "district_np": "दाङ",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "082",
+    "last_updated": "2025-01-20"
+  },
+  "government": [
+    {
+      "name": "Dang District Administration Office",
+      "name_np": "दाङ जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "Tulsipur, Dang",
+      "phone": "082-520100"
+    },
+    {
+      "name": "Dang District Coordination Committee",
+      "name_np": "दाङ जिल्ला समन्वय समिति",
+      "type": "District Committee",
+      "address": "Tulsipur",
+      "phone": "082-520200"
+    },
+    {
+      "name": "Tulsipur Sub-Metropolitan City Office",
+      "name_np": "तुलसिपुर उपमहानगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Tulsipur",
+      "phone": "082-520500"
+    }
+  ]
+}

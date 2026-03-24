@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "city_np": "नेपालगंज",
+    "district": "Banke",
+    "district_np": "बाँके",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "081",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Laxmi Saraswati Polyclinic",
+      "name_np": "लक्ष्मी सरस्वती पोलिक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Sadar Line, Nepalgunj",
+      "phone": "081-520157"
+    },
+    {
+      "name": "Sagarmatha Polyclinic",
+      "name_np": "सगरमाथा पोलिक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Sadar Line Road, Nepalgunj",
+      "phone": "081-520158"
+    },
+    {
+      "name": "Shifa Pathology",
+      "name_np": "शिफा प्याथोलोजी",
+      "type": "Diagnostic",
+      "address": "Pasang Lhamu Road, Nepalgunj",
+      "phone": "081-530888"
+    },
+    {
+      "name": "New Prem Health Clinic",
+      "name_np": "नयाँ प्रेम हेल्थ क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Bus Park Road, Nepalgunj",
+      "phone": "081-530999"
+    },
+    {
+      "name": "Bhawani Kalika Diagnostic",
+      "name_np": "भवानी कालिका डायग्नोस्टिक",
+      "type": "Diagnostic",
+      "address": "Surkhet Road, Nepalgunj",
+      "phone": "081-531111"
+    }
+  ]
+}

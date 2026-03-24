@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Universal College of Medical Sciences",
+      "name_np": "युनिभर्सल मेडिकल कलेज",
+      "type": "Medical College",
+      "affiliation": "TU",
+      "programs": [
+        "MBBS",
+        "MD/MS",
+        "Nursing"
+      ],
+      "address": "Ranigaon, Bhairahawa",
+      "phone": "071-520262"
+    },
+    {
+      "name": "Lumbini Medical College",
+      "name_np": "लुम्बिनी मेडिकल कलेज",
+      "type": "Medical College",
+      "affiliation": "KU",
+      "programs": [
+        "MBBS",
+        "Nursing"
+      ],
+      "address": "Palpa Road"
+    },
+    {
+      "name": "Bhairahawa Multiple Campus",
+      "name_np": "भैरहवा बहुमुखी क्याम्पस",
+      "type": "Constituent",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BSc",
+        "BBS"
+      ],
+      "address": "Bhairahawa"
+    }
+  ]
+}

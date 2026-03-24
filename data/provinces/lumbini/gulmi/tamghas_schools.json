@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Tamghas",
+    "city_np": "तम्घास",
+    "district": "Gulmi",
+    "district_np": "गुल्मी",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "079",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Gulmi Secondary School",
+      "name_np": "गुल्मी माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Tamghas",
+      "phone": "079-520600"
+    },
+    {
+      "name": "Resunga Academy",
+      "name_np": "रेशुङ्गा एकेडेमी",
+      "type": "Private",
+      "level": "Nursery-10",
+      "address": "Tamghas"
+    }
+  ]
+}

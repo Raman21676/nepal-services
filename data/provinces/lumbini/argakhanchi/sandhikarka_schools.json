@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Sandhikarka",
+    "city_np": "सन्धिखर्क",
+    "district": "Argakhanchi",
+    "district_np": "अर्घाखाँची",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "077",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Arghakhanchi Secondary School",
+      "name_np": "अर्घाखाँची माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Sandhikarka",
+      "phone": "077-420600"
+    },
+    {
+      "name": "Sandhikarka Academy",
+      "name_np": "सन्धिखर्क एकेडेमी",
+      "type": "Private",
+      "level": "Nursery-10",
+      "address": "Sandhikarka"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Kapilvastu",
+    "city_np": "कपिलवस्तु",
+    "district": "Kapilvastu",
+    "district_np": "कपिलवस्तु",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "076",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Kapilvastu Secondary School",
+      "name_np": "कपिलवस्तु माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Taulihawa",
+      "phone": "076-560600"
+    },
+    {
+      "name": "Buddha English School",
+      "name_np": "बुद्ध इङ्ग्लिश स्कूल",
+      "type": "Private",
+      "level": "Nursery-10",
+      "address": "Kapilvastu"
+    }
+  ]
+}

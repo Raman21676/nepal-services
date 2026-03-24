@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Tulsipur",
+    "city_np": "तुलसिपुर",
+    "district": "Dang",
+    "district_np": "दाङ",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "082",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Tulsipur Secondary School",
+      "name_np": "तुलसिपुर माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Tulsipur",
+      "phone": "082-520700"
+    },
+    {
+      "name": "Rapti Valley School",
+      "name_np": "राप्ती भ्याली स्कूल",
+      "type": "Private",
+      "level": "Nursery-10",
+      "address": "Tulsipur"
+    }
+  ]
+}

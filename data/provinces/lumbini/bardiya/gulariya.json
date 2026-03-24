@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "city": "Gulariya",
+    "city_np": "गुलरिया",
+    "district": "Bardiya",
+    "district_np": "बर्दिया",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "084",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Bardiya District Hospital",
+      "name_np": "बर्दिया जिल्ला अस्पताल",
+      "type": "Government",
+      "address": "Gulariya-4, Bardiya",
+      "phone": "084-460100",
+      "emergency": "084-460101",
+      "beds": 50,
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "Gulariya Hospital",
+      "name_np": "गुलरिया अस्पताल",
+      "type": "Private",
+      "address": "Gulariya, Bardiya",
+      "phone": "084-460222",
+      "services": [
+        "General Medicine",
+        "Maternity"
+      ]
+    },
+    {
+      "name": "Thakur Baba Hospital",
+      "name_np": "ठाकुर बाबा अस्पताल",
+      "type": "Private",
+      "address": "Main Road, Gulariya",
+      "phone": "084-460333",
+      "services": [
+        "General Medicine"
+      ]
+    }
+  ]
+}

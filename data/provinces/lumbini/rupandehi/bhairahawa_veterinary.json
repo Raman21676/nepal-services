@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Bhairahawa Veterinary Hospital",
+      "name_np": "भैरहवा पशु अस्पताल",
+      "type": "Government",
+      "address": "Bhairahawa, Rupandehi",
+      "phone": "071-521000"
+    },
+    {
+      "name": "Lumbini Pet Clinic",
+      "name_np": "लुम्बिनी पेट क्लिनिक",
+      "type": "Private",
+      "address": "Near Lumbini Gate",
+      "phone": "071-521100"
+    }
+  ]
+}

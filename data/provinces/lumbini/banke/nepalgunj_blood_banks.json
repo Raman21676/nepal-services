@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "city_np": "नेपालगंज",
+    "district": "Banke",
+    "district_np": "बाँके",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "081",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Lumbini Provincial Blood Bank",
+      "name_np": "लुम्बिनी प्रादेशिक रक्त बैंक",
+      "type": "Provincial",
+      "address": "Bheri Hospital Premises, Nepalgunj",
+      "phone": "081-520174"
+    },
+    {
+      "name": "NRCS Banke Blood Transfusion Center",
+      "name_np": "नेपाल रेडक्रस रक्त क transfusion केन्द्र",
+      "type": "Regional",
+      "address": "Nepalgunj",
+      "phone": "081-520104"
+    }
+  ]
+}

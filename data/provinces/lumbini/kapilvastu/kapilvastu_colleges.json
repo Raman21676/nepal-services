@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "city": "Kapilvastu",
+    "city_np": "कपिलवस्तु",
+    "district": "Kapilvastu",
+    "district_np": "कपिलवस्तु",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "076",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Kapilvastu Multiple Campus",
+      "name_np": "कपिलवस्तु बहुमुखी क्याम्पस",
+      "type": "Constituent",
+      "affiliation": "TU",
+      "programs": [
+        "BA",
+        "BBS",
+        "BEd"
+      ],
+      "address": "Taulihawa"
+    },
+    {
+      "name": "Shakya College",
+      "name_np": "शाक्य कलेज",
+      "type": "Private",
+      "affiliation": "TU",
+      "programs": [
+        "BBS",
+        "BCA"
+      ],
+      "address": "Kapilvastu"
+    }
+  ]
+}

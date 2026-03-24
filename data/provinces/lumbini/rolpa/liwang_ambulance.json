@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Liwang",
+    "city_np": "लिवाङ",
+    "district": "Rolpa",
+    "district_np": "रोल्पा",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "name_np": "नेशनल एम्बुलेन्स",
+      "type": "Emergency",
+      "phone": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Rolpa Hospital Ambulance",
+      "name_np": "रोल्पा अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "086-420100",
+      "hours": "24/7"
+    }
+  ]
+}

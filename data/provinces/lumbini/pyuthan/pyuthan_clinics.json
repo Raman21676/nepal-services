@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Pyuthan",
+    "city_np": "प्युठान",
+    "district": "Pyuthan",
+    "district_np": "प्युठान",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "086",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Pyuthan Clinic",
+      "name_np": "प्युठान क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Khalanga",
+      "phone": "086-420500"
+    },
+    {
+      "name": "Pyuthan Diagnostic",
+      "name_np": "प्युठान डायग्नोस्टिक",
+      "type": "Diagnostic",
+      "address": "Khalanga",
+      "phone": "086-420600"
+    }
+  ]
+}

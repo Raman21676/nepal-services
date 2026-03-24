@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Bhairahawa Blood Bank",
+      "name_np": "भैरहवा रक्त बैंक",
+      "type": "Regional",
+      "address": "Bhim Hospital, Bhairahawa",
+      "phone": "071-520100"
+    }
+  ]
+}

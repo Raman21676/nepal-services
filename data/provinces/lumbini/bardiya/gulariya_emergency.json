@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "city": "Gulariya",
+    "city_np": "गुलरिया",
+    "district": "Bardiya",
+    "district_np": "बर्दिया",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "084",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "name_np": "नेपाल प्रहरी",
+      "type": "Police",
+      "phone": "100",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "name_np": "दमकल",
+      "type": "Fire",
+      "phone": "101",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bardiya District Police Office",
+      "name_np": "बर्दिया जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "phone": "084-460600",
+      "hours": "24/7"
+    },
+    {
+      "name": "Gulariya Municipality",
+      "name_np": "गुलरिया नगरपालिका",
+      "type": "Municipality",
+      "phone": "084-460700",
+      "address": "Gulariya"
+    }
+  ]
+}

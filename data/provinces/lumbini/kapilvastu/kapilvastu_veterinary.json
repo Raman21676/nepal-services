@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "city": "Kapilvastu",
+    "city_np": "कपिलवस्तु",
+    "district": "Kapilvastu",
+    "district_np": "कपिलवस्तु",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "076",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Kapilvastu Veterinary Hospital",
+      "name_np": "कपिलवस्तु पशु अस्पताल",
+      "type": "Government",
+      "address": "Taulihawa, Kapilvastu",
+      "phone": "076-560700"
+    },
+    {
+      "name": "Buddha Animal Care",
+      "name_np": "बुद्ध एनिमल केयर",
+      "type": "Private",
+      "address": "Kapilvastu"
+    }
+  ]
+}

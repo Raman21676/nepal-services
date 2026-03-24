@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Butwal Medical Center",
+      "name_np": "बुटवल मेडिकल सेन्टर",
+      "type": "Polyclinic",
+      "address": "Main Road, Butwal",
+      "phone": "071-540300"
+    },
+    {
+      "name": "Sukhanagar Clinic",
+      "name_np": "सुखानगर क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Sukhanagar, Butwal",
+      "phone": "071-540400"
+    },
+    {
+      "name": "Devinagar Health Clinic",
+      "name_np": "देवीनगर हेल्थ क्लिनिक",
+      "type": "Health Clinic",
+      "address": "Devinagar, Butwal",
+      "phone": "071-540500"
+    },
+    {
+      "name": "Lumbini Diagnostic Center",
+      "name_np": "लुम्बिनी डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic",
+      "address": "Golpark, Butwal",
+      "phone": "071-540600"
+    }
+  ]
+}

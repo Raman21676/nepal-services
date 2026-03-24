@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Kapilvastu",
+    "city_np": "कपिलवस्तु",
+    "district": "Kapilvastu",
+    "district_np": "कपिलवस्तु",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "076",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Kapilvastu Blood Bank",
+      "name_np": "कपिलवस्तु रक्त बैंक",
+      "type": "Regional",
+      "address": "District Hospital, Kapilvastu",
+      "phone": "076-560100"
+    }
+  ]
+}

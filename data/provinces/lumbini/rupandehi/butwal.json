@@ -1,197 +1,99 @@
 {
   "metadata": {
-    "district": "Rupandehi",
-    "province": "Lumbini",
     "city": "Butwal",
-    "city_type": "Sub-Metropolitan City",
-    "population": "194,335",
-    "area_sq_km": "101.61",
-    "last_updated": "2025-01-24"
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
   },
   "hospitals": [
     {
       "name": "Lumbini Provincial Hospital",
-      "address": "Hospital Road, Butwal-6, Rupandehi",
-      "contact": "071-540200",
-      "contact_secondary": "071-532248",
-      "fax": "071-542282",
-      "email": "mail@lphospital.gov.np",
-      "website": "https://www.lphospital.gov.np",
+      "name_np": "लुम्बिनी प्रादेशिक अस्पताल",
       "type": "Government",
+      "address": "Hospital Road, Butwal",
+      "phone": "071-540200",
+      "emergency": "071-540201",
+      "beds": 200,
       "services": [
-        "24/7 Emergency",
+        "Emergency",
         "General Medicine",
         "Surgery",
-        "OPD",
-        "Radiology",
-        "Laboratory",
-        "ICU"
-      ],
-      "emergency": true,
-      "hours": "24/7"
+        "ICU",
+        "Radiology"
+      ]
     },
     {
       "name": "Crimson Hospital",
-      "address": "Tilottama-05, Manigram, Rupandehi (Near Butwal)",
-      "contact": "071-562744",
-      "contact_secondary": "071-562745",
-      "website": "https://crimsonhospital.com",
+      "name_np": "क्रिमसन अस्पताल",
       "type": "Private",
+      "address": "Manigram, Tilottama",
+      "phone": "071-562744",
+      "emergency": "071-562745",
       "beds": 100,
       "services": [
-        "24/7 Emergency",
         "Cathlab",
         "CT-Scan",
-        "Digital X-ray",
-        "Physiotherapy",
         "Dialysis",
         "ICU",
-        "CCU",
-        "Neuro Surgery"
-      ],
-      "emergency": true,
-      "hours": "24/7"
+        "CCU"
+      ]
     },
     {
-      "name": "Siddhababa Hospital & Research Center",
-      "address": "Om Marg, Sukhanagar, Butwal-8, Rupandehi",
-      "contact": "071-549201",
-      "contact_secondary": "071-549202",
-      "email": "siddhababa.hospital@gmail.com",
-      "website": "https://www.siddhababahospital.com.np",
+      "name": "Siddhababa Hospital",
+      "name_np": "सिद्धबाबा अस्पताल",
       "type": "Private",
-      "beds": 24,
+      "address": "Om Marg, Sukhanagar, Butwal",
+      "phone": "071-549201",
+      "emergency": "071-549202",
+      "beds": 50,
       "services": [
-        "24/7 Emergency",
         "Cardiology",
         "Nephrology",
         "Neurology",
-        "Pulmonology",
-        "Obstetrics & Gynecology",
-        "ICU",
-        "CCU"
-      ],
-      "emergency": true,
-      "hours": "24/7"
-    },
-    {
-      "name": "Butwal Hospital",
-      "address": "Jyoti-Path, Butwal-06, Rupandehi",
-      "contact": "071-536432",
-      "contact_secondary": "071-536984",
-      "email": "info@butwalhospital.com",
-      "website": "https://www.butwalhospital.com",
-      "type": "Private",
-      "services": [
-        "General Medicine",
-        "Surgery"
+        "ICU"
       ]
     },
     {
-      "name": "Meditech International Hospital",
-      "address": "Sarvan Path/Deepnagar, Butwal-8, Rupandehi",
-      "contact": "071-549072",
-      "contact_secondary": "9847017641",
-      "email": "info@meditechnepal.com",
+      "name": "Universal College of Medical Sciences",
+      "name_np": "युनिभर्सल मेडिकल कलेज",
       "type": "Private",
+      "address": "Ranigaon, Bhairahawa",
+      "phone": "071-520262",
+      "beds": 800,
       "services": [
-        "Multi-specialty",
-        "Nursing College"
+        "MBBS",
+        "MD/MS",
+        "Emergency",
+        "Multi-specialty"
       ]
     },
     {
-      "name": "AMDA Hospital (Siddhartha Children & Women Hospital)",
-      "address": "Butwal, Rupandehi",
-      "contact": "071-502101",
-      "contact_secondary": "071-502097",
+      "name": "Lumbini Medical College",
+      "name_np": "लुम्बिनी मेडिकल कलेज",
       "type": "Private",
+      "address": "Palpa Road, Butwal",
+      "phone": "071-520303",
+      "beds": 300,
       "services": [
-        "Children Health",
-        "Women Health",
+        "MBBS",
+        "Nursing",
         "General Medicine"
       ]
+    },
+    {
+      "name": "AMDA Hospital",
+      "name_np": "आम्दा अस्पताल",
+      "type": "Private",
+      "address": "Butwal-8, Rupandehi",
+      "phone": "071-502101",
+      "services": [
+        "Children Health",
+        "Women Health"
+      ]
     }
-  ],
-  "ambulance": [
-    {
-      "name": "National Ambulance",
-      "contact": "102",
-      "hours": "24/7"
-    },
-    {
-      "name": "Siddhababa Hospital Ambulance",
-      "contact": "071-549201",
-      "hours": "24/7"
-    },
-    {
-      "name": "Lumbini Provincial Hospital Ambulance",
-      "contact": "071-540200",
-      "hours": "24/7"
-    },
-    {
-      "name": "Crimson Hospital Ambulance",
-      "contact": "071-562744",
-      "hours": "24/7"
-    },
-    {
-      "name": "Nepal Red Cross Society",
-      "contact": "1130",
-      "hours": "24/7"
-    }
-  ],
-  "emergency": [
-    {
-      "name": "Nepal Police",
-      "contact": "100",
-      "type": "Police",
-      "hours": "24/7"
-    },
-    {
-      "name": "Fire Brigade",
-      "contact": "101",
-      "type": "Fire",
-      "hours": "24/7"
-    },
-    {
-      "name": "Butwal Sub-Metropolitan City",
-      "contact": "071-540035",
-      "fax": "071-541283",
-      "email": "info@butwalmun.gov.np",
-      "website": "https://butwalmun.gov.np",
-      "address": "Butwal-4, Rupandehi",
-      "hours": "Office Hours"
-    },
-    {
-      "name": "Butwal Fire Brigade",
-      "contact": "071-540826",
-      "type": "Fire",
-      "hours": "24/7"
-    },
-    {
-      "name": "Mayor's Office",
-      "contact": "9857031255",
-      "type": "Government"
-    }
-  ],
-  "ward_offices": [
-    {"ward": 1, "chairperson": "Narendra Basnet", "contact": "9847586699"},
-    {"ward": 2, "chairperson": "Sunil Shakya", "contact": "9857031062", "email": "sunilshakya31620@gmail.com"},
-    {"ward": 3, "chairperson": "Vishnu Dhakal", "contact": "9857027111", "email": "bdhakal2001@gmail.com"},
-    {"ward": 4, "chairperson": "Narishwar Sharma", "contact": "9857021160"},
-    {"ward": 5, "chairperson": "Hari Prasad Shrestha", "contact": "9857021240", "email": "anfabtl1@gmail.com"},
-    {"ward": 6, "chairperson": "Lok Nath Neupane", "contact": "9857027325", "email": "neupaneloknath349@gmail.com"},
-    {"ward": 7, "chairperson": "Padam Raj Gaha", "contact": "9857026324"},
-    {"ward": 8, "chairperson": "Yagya Prasad Pangeini", "contact": "9857044368", "email": "yagyaprasad12345@gmail.com"},
-    {"ward": 9, "chairperson": "Pradeep Kumar Shrestha", "contact": "9867185222"},
-    {"ward": 10, "chairperson": "Bal Bahadur Pun", "contact": "9857025092", "email": "balupunmagar@gmail.com"},
-    {"ward": 11, "chairperson": "Ramchandra Kshettri", "contact": "9857037440", "email": "rckhanalctr@gmail.com"},
-    {"ward": 12, "chairperson": "Dilli Prasad Sharma Upadhyay", "contact": "9857026020"},
-    {"ward": 13, "chairperson": "Narayan Prasad Pun", "contact": "9857026888"},
-    {"ward": 14, "chairperson": "Dadhiram Neupane", "contact": "9857033558", "email": "dadhiramneupane14@gmail.com"},
-    {"ward": 15, "chairperson": "Shiva Rana", "contact": "9857070039", "email": "ranashiva694@gmail.com"},
-    {"ward": 16, "chairperson": "Krishna Prasad Paudel", "contact": "9857034618", "email": "krishna34618@gmail.com"},
-    {"ward": 17, "chairperson": "Gyan Bahadur Reshmi", "contact": "9811460843"},
-    {"ward": 18, "chairperson": "Guru Prasad Pangeini", "contact": "9857026765", "email": "gurupd2022@gmail.com"},
-    {"ward": 19, "chairperson": "Chandra Singh Thapa (Magar)", "contact": "9857027468"}
   ]
 }

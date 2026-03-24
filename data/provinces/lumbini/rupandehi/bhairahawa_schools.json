@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Siddhartha Secondary School",
+      "name_np": "सिद्धार्थ माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Bhairahawa",
+      "phone": "071-520800"
+    },
+    {
+      "name": "Lumbini Secondary School",
+      "name_np": "लुम्बिनी माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Bhairahawa",
+      "phone": "071-520900"
+    },
+    {
+      "name": "Buddha Academy",
+      "name_np": "बुद्ध एकेडेमी",
+      "type": "Private",
+      "level": "Nursery-12",
+      "address": "Siddharthanagar"
+    }
+  ]
+}

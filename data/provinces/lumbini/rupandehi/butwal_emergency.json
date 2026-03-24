@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "city_np": "बुटवल",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "name_np": "नेपाल प्रहरी",
+      "type": "Police",
+      "phone": "100",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "name_np": "दमकल",
+      "type": "Fire",
+      "phone": "101",
+      "hours": "24/7"
+    },
+    {
+      "name": "Rupandehi District Police Office",
+      "name_np": "रुपन्देही जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "phone": "071-540300",
+      "hours": "24/7"
+    },
+    {
+      "name": "Butwal Fire Brigade",
+      "name_np": "बुटवल दमकल",
+      "type": "Fire",
+      "phone": "071-540826",
+      "hours": "24/7"
+    },
+    {
+      "name": "Butwal Sub-Metropolitan City",
+      "name_np": "बुटवल उपमहानगरपालिका",
+      "type": "Municipality",
+      "phone": "071-540035",
+      "address": "Butwal-4, Rupandehi"
+    }
+  ]
+}

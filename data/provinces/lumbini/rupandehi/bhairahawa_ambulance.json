@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "city_np": "भैरहवा",
+    "district": "Rupandehi",
+    "district_np": "रुपन्देही",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "071",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "name_np": "नेशनल एम्बुलेन्स",
+      "type": "Emergency",
+      "phone": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bhim Hospital Ambulance",
+      "name_np": "भीम अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "071-520100",
+      "hours": "24/7"
+    },
+    {
+      "name": "Lumbini Hospital Ambulance",
+      "name_np": "लुम्बिनी अस्पताल एम्बुलेन्स",
+      "type": "Hospital",
+      "phone": "071-520555",
+      "hours": "24/7"
+    }
+  ]
+}

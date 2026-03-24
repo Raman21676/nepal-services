@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Gulariya",
+    "city_np": "गुलरिया",
+    "district": "Bardiya",
+    "district_np": "बर्दिया",
+    "province": "Lumbini Province",
+    "province_np": "लुम्बिनी प्रदेश",
+    "phone_prefix": "084",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Gulariya Secondary School",
+      "name_np": "गुलरिया माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "1-12",
+      "address": "Gulariya",
+      "phone": "084-460600"
+    },
+    {
+      "name": "Bardiya Academy",
+      "name_np": "बर्दिया एकेडेमी",
+      "type": "Private",
+      "level": "Nursery-10",
+      "address": "Gulariya"
+    }
+  ]
+}
