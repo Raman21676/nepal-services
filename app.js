@@ -50,6 +50,18 @@ class NepalServicesApp {
         this.hideLoading();
     }
     
+    renderResults() {
+        if (this.uiRenderer) {
+            this.uiRenderer.renderResults();
+        }
+    }
+    
+    updateResultsCount() {
+        if (this.uiRenderer) {
+            this.uiRenderer.updateResultsCount();
+        }
+    }
+    
     populateFilters() {
         // Populate province filter
         const provinceFilter = document.getElementById('provinceFilter');

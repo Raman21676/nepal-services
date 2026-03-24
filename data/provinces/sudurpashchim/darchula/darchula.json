@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "district": "Darchula",
+    "province": "Sudurpashchim",
+    "city": "Darchula",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Darchula District Hospital",
+      "name_nepali": "दार्चुला जिल्ला अस्पताल",
+      "address": "Khalanga, Darchula",
+      "address_nepali": "खलंगा, दार्चुला",
+      "phone": "+977-9848400001",
+      "type": "Government",
+      "services": ["Emergency", "OPD", "General Medicine", "Maternity", "Pediatrics", "Laboratory"],
+      "emergency_24_7": true
+    },
+    {
+      "name": "Mahakali Municipality Hospital",
+      "name_nepali": "महाकाली नगरपालिका अस्पताल",
+      "address": "Mahakali-03, Darchula",
+      "address_nepali": "महाकाली-०३, दार्चुला",
+      "phone": "+977-9848400002",
+      "type": "Government",
+      "services": ["Primary Care", "OPD", "General Medicine", "Family Planning"],
+      "emergency_24_7": false
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Darchula District Hospital Ambulance",
+      "name_nepali": "दार्चुला जिल्ला अस्पताल एम्बुलेन्स",
+      "phone": "+977-9848400001",
+      "service_hours": "24/7",
+      "location": "Khalanga, Darchula",
+      "location_nepali": "खलंगा, दार्चुला"
+    },
+    {
+      "name": "Red Cross Society Darchula Ambulance",
+      "name_nepali": "रेड क्रस सोसाइटी दार्चुला एम्बुलेन्स",
+      "phone": "+977-9848400003",
+      "service_hours": "24/7",
+      "location": "Khalanga Bazar, Darchula",
+      "location_nepali": "खलंगा बजार, दार्चुला"
+    }
+  ],
+  "emergency": [
+    {
+      "service": "Police",
+      "service_nepali": "प्रहरी",
+      "phone": "100",
+      "description": "National Police Emergency",
+      "description_nepali": "राष्ट्रिय प्रहरी आपतकालीन"
+    },
+    {
+      "service": "Fire Brigade",
+      "service_nepali": "दमकल",
+      "phone": "101",
+      "description": "Fire Emergency Service",
+      "description_nepali": "आगलागी आपतकालीन सेवा"
+    },
+    {
+      "service": "Ambulance",
+      "service_nepali": "एम्बुलेन्स",
+      "phone": "102",
+      "description": "National Ambulance Emergency",
+      "description_nepali": "राष्ट्रिय एम्बुलेन्स आपतकालीन"
+    },
+    {
+      "service": "District Police Office",
+      "service_nepali": "जिल्ला प्रहरी कार्यालय",
+      "phone": "+977-9848400004",
+      "description": "Darchula District Police Office",
+      "description_nepali": "दार्चुला जिल्ला प्रहरी कार्यालय"
+    },
+    {
+      "service": "District Administration Office",
+      "service_nepali": "जिल्ला प्रशासन कार्यालय",
+      "phone": "+977-9848400005",
+      "description": "Darchula CDO Office",
+      "description_nepali": "दार्चुला सीडीओ कार्यालय"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward_number": 1,
+      "ward_number_nepali": "१",
+      "name": "Darchula Municipality Ward 1 Office",
+      "name_nepali": "दार्चुला नगरपालिका वडा नं. १ कार्यालय",
+      "address": "Ward 1, Darchula",
+      "address_nepali": "वडा नं. १, दार्चुला",
+      "phone": "+977-9848401001",
+      "ward_chairperson": "To Be Updated"
+    },
+    {
+      "ward_number": 2,
+      "ward_number_nepali": "२",
+      "name": "Darchula Municipality Ward 2 Office",
+      "name_nepali": "दार्चुला नगरपालिका वडा नं. २ कार्यालय",
+      "address": "Ward 2, Darchula",
+      "address_nepali": "वडा नं. २, दार्चुला",
+      "phone": "+977-9848401002",
+      "ward_chairperson": "To Be Updated"
+    },
+    {
+      "ward_number": 3,
+      "ward_number_nepali": "३",
+      "name": "Darchula Municipality Ward 3 Office",
+      "name_nepali": "दार्चुला नगरपालिका वडा नं. ३ कार्यालय",
+      "address": "Ward 3, Khalanga, Darchula",
+      "address_nepali": "वडा नं. ३, खलंगा, दार्चुला",
+      "phone": "+977-9848401003",
+      "ward_chairperson": "To Be Updated"
+    },
+    {
+      "ward_number": 4,
+      "ward_number_nepali": "४",
+      "name": "Darchula Municipality Ward 4 Office",
+      "name_nepali": "दार्चुला नगरपालिका वडा नं. ४ कार्यालय",
+      "address": "Ward 4, Darchula",
+      "address_nepali": "वडा नं. ४, दार्चुला",
+      "phone": "+977-9848401004",
+      "ward_chairperson": "To Be Updated"
+    },
+    {
+      "ward_number": 5,
+      "ward_number_nepali": "५",
+      "name": "Darchula Municipality Ward 5 Office",
+      "name_nepali": "दार्चुला नगरपालिका वडा नं. ५ कार्यालय",
+      "address": "Ward 5, Darchula",
+      "address_nepali": "वडा नं. ५, दार्चुला",
+      "phone": "+977-9848401005",
+      "ward_chairperson": "To Be Updated"
+    }
+  ]
+}

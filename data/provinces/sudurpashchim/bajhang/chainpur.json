@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "district": "Bajhang",
+    "province": "Sudurpashchim",
+    "city": "Chainpur",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Bajhang District Hospital",
+      "type": "Government",
+      "address": "Chainpur Municipality-04, Bajhang",
+      "phone": "092-540033",
+      "emergency": "092-540033",
+      "services": ["Emergency", "General Medicine", "Surgery", "Maternity", "Laboratory"]
+    },
+    {
+      "name": "Chainpur Hospital and Research Center",
+      "type": "Private",
+      "address": "Chainpur Municipality-05, Bajhang",
+      "phone": "092-540156",
+      "emergency": "092-540156",
+      "services": ["General Medicine", "Pediatrics", "Orthopedics", "Pharmacy"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Bajhang District Hospital Ambulance",
+      "phone": "092-540033",
+      "available": "24/7"
+    },
+    {
+      "name": "Red Cross Society Bajhang Ambulance",
+      "phone": "092-540089",
+      "available": "24/7"
+    },
+    {
+      "name": "Chainpur Municipality Ambulance",
+      "phone": "092-540201",
+      "available": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "phone": "100",
+      "type": "National Emergency"
+    },
+    {
+      "name": "Fire Brigade",
+      "phone": "101",
+      "type": "National Emergency"
+    },
+    {
+      "name": "Ambulance Emergency",
+      "phone": "102",
+      "type": "National Emergency"
+    },
+    {
+      "name": "District Police Office Bajhang",
+      "phone": "092-540014",
+      "type": "Local Police"
+    },
+    {
+      "name": "Chainpur Municipality Office",
+      "phone": "092-540101",
+      "type": "Municipal Emergency"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "name": "Chainpur Municipality Ward No. 1 Office",
+      "address": "Chainpur Municipality-01, Bajhang",
+      "phone": "092-540111"
+    },
+    {
+      "ward": 2,
+      "name": "Chainpur Municipality Ward No. 2 Office",
+      "address": "Chainpur Municipality-02, Bajhang",
+      "phone": "092-540112"
+    },
+    {
+      "ward": 3,
+      "name": "Chainpur Municipality Ward No. 3 Office",
+      "address": "Chainpur Municipality-03, Bajhang",
+      "phone": "092-540113"
+    },
+    {
+      "ward": 4,
+      "name": "Chainpur Municipality Ward No. 4 Office",
+      "address": "Chainpur Municipality-04, Bajhang",
+      "phone": "092-540114"
+    },
+    {
+      "ward": 5,
+      "name": "Chainpur Municipality Ward No. 5 Office",
+      "address": "Chainpur Municipality-05, Bajhang",
+      "phone": "092-540115"
+    }
+  ]
+}

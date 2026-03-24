@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "district": "Dadeldhura",
+    "province": "Sudurpashchim",
+    "city": "Dadeldhura",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Amargadhi Hospital",
+      "type": "Government",
+      "address": "Amargadhi, Dadeldhura",
+      "contact": "+977-9848788888",
+      "services": ["Emergency", "General Medicine", "Surgery", "Maternity"]
+    },
+    {
+      "name": "Seti Zonal Hospital",
+      "type": "Government",
+      "address": "Amargadhi-5, Dadeldhura",
+      "contact": "+977-9858788889",
+      "services": ["Emergency", "ICU", "General Surgery", "Orthopedics", "Pediatrics"]
+    },
+    {
+      "name": "Dadeldhura District Hospital",
+      "type": "Government",
+      "address": "Amargadhi, Dadeldhura",
+      "contact": "+977-9848788890",
+      "services": ["Emergency", "General Medicine", "Maternity", "OPD"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Amargadhi Hospital Ambulance",
+      "contact": "+977-9848788888",
+      "available": "24/7"
+    },
+    {
+      "name": "Red Cross Ambulance Service",
+      "contact": "+977-9858789001",
+      "available": "24/7"
+    },
+    {
+      "name": "Dadeldhura Municipality Ambulance",
+      "contact": "+977-9848789002",
+      "available": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Police"
+    },
+    {
+      "name": "Fire Service",
+      "contact": "101",
+      "type": "Fire"
+    },
+    {
+      "name": "Ambulance Emergency",
+      "contact": "102",
+      "type": "Medical"
+    },
+    {
+      "name": "Dadeldhura District Police Office",
+      "contact": "+977-9848789003",
+      "type": "Police"
+    },
+    {
+      "name": "Disaster Management Committee",
+      "contact": "+977-9848789004",
+      "type": "Disaster"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "name": "Dadeldhura Municipality Ward Office No. 1",
+      "address": "Amargadhi-1, Dadeldhura",
+      "contact": "+977-9848789011"
+    },
+    {
+      "ward": 2,
+      "name": "Dadeldhura Municipality Ward Office No. 2",
+      "address": "Amargadhi-2, Dadeldhura",
+      "contact": "+977-9848789012"
+    },
+    {
+      "ward": 3,
+      "name": "Dadeldhura Municipality Ward Office No. 3",
+      "address": "Amargadhi-3, Dadeldhura",
+      "contact": "+977-9848789013"
+    },
+    {
+      "ward": 4,
+      "name": "Dadeldhura Municipality Ward Office No. 4",
+      "address": "Amargadhi-4, Dadeldhura",
+      "contact": "+977-9848789014"
+    },
+    {
+      "ward": 5,
+      "name": "Dadeldhura Municipality Ward Office No. 5",
+      "address": "Amargadhi-5, Dadeldhura",
+      "contact": "+977-9848789015"
+    },
+    {
+      "ward": 6,
+      "name": "Dadeldhura Municipality Ward Office No. 6",
+      "address": "Amargadhi-6, Dadeldhura",
+      "contact": "+977-9848789016"
+    }
+  ]
+}

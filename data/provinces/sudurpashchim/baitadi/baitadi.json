@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "district": "Baitadi",
+    "province": "Sudurpashchim",
+    "city": "Baitadi",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Baitadi District Hospital",
+      "address": "Dasharathchand, Baitadi",
+      "phone": "+977-95-520200",
+      "type": "Government",
+      "services": ["Emergency", "General Medicine", "Surgery", "Maternity"],
+      "available_24h": true
+    },
+    {
+      "name": "Mahakali Hospital",
+      "address": "Baitadi Municipality-2",
+      "phone": "+977-95-520555",
+      "type": "Private",
+      "services": ["Emergency", "General Medicine", "Laboratory", "Pharmacy"],
+      "available_24h": true
+    },
+    {
+      "name": "Baitadi Model Hospital",
+      "address": "Baitadi Municipality-4",
+      "phone": "+977-95-521111",
+      "type": "Private",
+      "services": ["General Medicine", "Pediatrics", "Orthopedics"],
+      "available_24h": false
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Baitadi District Hospital Ambulance",
+      "phone": "+977-95-520200",
+      "available_24h": true
+    },
+    {
+      "name": "Red Cross Ambulance Service Baitadi",
+      "phone": "+977-985-8752000",
+      "available_24h": true
+    },
+    {
+      "name": "Mahakali Hospital Ambulance",
+      "phone": "+977-95-520555",
+      "available_24h": true
+    }
+  ],
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "phone": "100",
+      "available_24h": true
+    },
+    {
+      "service": "Baitadi District Police Office",
+      "phone": "+977-95-520100",
+      "available_24h": true
+    },
+    {
+      "service": "Fire Brigade",
+      "phone": "101",
+      "available_24h": true
+    },
+    {
+      "service": "Nepal Electricity Authority Baitadi",
+      "phone": "+977-95-520300",
+      "available_24h": false
+    },
+    {
+      "service": "District Administration Office",
+      "phone": "+977-95-520400",
+      "available_24h": false
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward_number": 1,
+      "name": "Baitadi Municipality Ward Office - 1",
+      "address": "Dasharathchand, Ward No. 1",
+      "phone": "+977-95-520001"
+    },
+    {
+      "ward_number": 2,
+      "name": "Baitadi Municipality Ward Office - 2",
+      "address": "Baitadi, Ward No. 2",
+      "phone": "+977-95-520002"
+    },
+    {
+      "ward_number": 3,
+      "name": "Baitadi Municipality Ward Office - 3",
+      "address": "Baitadi, Ward No. 3",
+      "phone": "+977-95-520003"
+    },
+    {
+      "ward_number": 4,
+      "name": "Baitadi Municipality Ward Office - 4",
+      "address": "Baitadi, Ward No. 4",
+      "phone": "+977-95-520004"
+    },
+    {
+      "ward_number": 5,
+      "name": "Baitadi Municipality Ward Office - 5",
+      "address": "Baitadi, Ward No. 5",
+      "phone": "+977-95-520005"
+    }
+  ]
+}

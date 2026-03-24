@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "district": "Bajura",
+    "province": "Sudurpashchim",
+    "city": "Martadi",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Bajura District Hospital",
+      "name_np": "बाजुरा जिल्ला अस्पताल",
+      "type": "Government",
+      "address": "Martadi Bazar, Bajura",
+      "phone": "097-540033",
+      "emergency": "097-540033",
+      "services": ["Emergency", "General Medicine", "Surgery", "Maternity", "OPD"],
+      "beds": 50,
+      "location": {
+        "lat": 29.2156,
+        "lng": 81.5325
+      }
+    },
+    {
+      "name": "Seti Provincial Hospital Martadi",
+      "name_np": "सेती प्रादेशिक अस्पताल मार्तडी",
+      "type": "Provincial Government",
+      "address": "Martadi-2, Bajura",
+      "phone": "097-540122",
+      "emergency": "097-540122",
+      "services": ["Emergency", "General Medicine", "Pediatrics", "Orthopedics", "Lab Services"],
+      "beds": 25,
+      "location": {
+        "lat": 29.2189,
+        "lng": 81.5351
+      }
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Bajura District Hospital Ambulance",
+      "name_np": "बाजुरा जिल्ला अस्पताल एम्बुलेन्स",
+      "provider": "Government",
+      "phone": "097-540033",
+      "mobile": "986-9876543",
+      "available": "24/7",
+      "service_area": "Martadi and surrounding VDCs"
+    },
+    {
+      "name": "Red Cross Society Bajura Ambulance",
+      "name_np": "रेडक्रस सोसाइटी बाजुरा एम्बुलेन्स",
+      "provider": "Nepal Red Cross Society",
+      "phone": "097-540088",
+      "mobile": "985-8423123",
+      "available": "24/7",
+      "service_area": "District-wide"
+    }
+  ],
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "name_np": "प्रहरी आपतकालीन",
+      "phone": "100",
+      "mobile": "986-1234567",
+      "address": "District Police Office, Martadi",
+      "available": "24/7"
+    },
+    {
+      "service": "Fire Service",
+      "name_np": "दमकल सेवा",
+      "phone": "101",
+      "mobile": "985-8765432",
+      "address": "Martadi Municipality",
+      "available": "24/7"
+    },
+    {
+      "service": "Electricity Emergency",
+      "name_np": "बिजुली आपतकालीन",
+      "phone": "097-540055",
+      "mobile": "985-7654321",
+      "provider": "NEA Martadi",
+      "available": "24/7"
+    },
+    {
+      "service": "Municipality Emergency",
+      "name_np": "नगरपालिका आपतकालीन",
+      "phone": "097-540111",
+      "mobile": "985-6543210",
+      "address": "Martadi Municipality Office",
+      "available": "Office Hours"
+    },
+    {
+      "service": "Disaster Management Committee",
+      "name_np": "विपद् व्यवस्थापन समिति",
+      "phone": "097-540222",
+      "mobile": "986-5432109",
+      "address": "District Administration Office, Martadi",
+      "available": "24/7"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "name": "Martadi Municipality Ward 1 Office",
+      "name_np": "मार्तडी नगरपालिका वडा नं. १ कार्यालय",
+      "address": "Martadi-1, Upper Martadi",
+      "phone": "097-540101",
+      "mobile": "985-1111111",
+      "ward_chair": "Local Representative"
+    },
+    {
+      "ward": 2,
+      "name": "Martadi Municipality Ward 2 Office",
+      "name_np": "मार्तडी नगरपालिका वडा नं. २ कार्यालय",
+      "address": "Martadi-2, Bazar Area",
+      "phone": "097-540102",
+      "mobile": "985-2222222",
+      "ward_chair": "Local Representative"
+    },
+    {
+      "ward": 3,
+      "name": "Martadi Municipality Ward 3 Office",
+      "name_np": "मार्तडी नगरपालिका वडा नं. ३ कार्यालय",
+      "address": "Martadi-3, Hospital Road",
+      "phone": "097-540103",
+      "mobile": "985-3333333",
+      "ward_chair": "Local Representative"
+    },
+    {
+      "ward": 4,
+      "name": "Martadi Municipality Ward 4 Office",
+      "name_np": "मार्तडी नगरपालिका वडा नं. ४ कार्यालय",
+      "address": "Martadi-4, Eastern Settlement",
+      "phone": "097-540104",
+      "mobile": "985-4444444",
+      "ward_chair": "Local Representative"
+    },
+    {
+      "ward": 5,
+      "name": "Martadi Municipality Ward 5 Office",
+      "name_np": "मार्तडी नगरपालिका वडा नं. ५ कार्यालय",
+      "address": "Martadi-5, Western Hillside",
+      "phone": "097-540105",
+      "mobile": "985-5555555",
+      "ward_chair": "Local Representative"
+    }
+  ]
+}

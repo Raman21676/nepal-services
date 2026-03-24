@@ -32,6 +32,8 @@
                         <option value="koshi">Koshi Province</option>
                         <option value="madhesh">Madhesh Province</option>
                         <option value="gandaki">Gandaki Province</option>
+                        <option value="karnali">Karnali Province</option>
+                        <option value="sudurpashchim">Sudurpashchim Province</option>
                     </select>
                 </div>
                 
@@ -96,6 +98,12 @@
             </div>
         </section>
 
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading services...</p>
+        </div>
+
         <!-- No Results Message -->
         <div id="noResults" class="no-results hidden">
             <h3>No results found</h3>
@@ -110,7 +118,7 @@
     </footer>
 
     <!-- Configuration -->
-    <script src="js/config.js"></script>
+    <script src="js/config.js?v=9"></script>
     
     <!-- Province Manifests -->
     <script src="js/manifests/bagmati-manifest.js"></script>
@@ -119,13 +127,14 @@
     <script src="js/manifests/gandaki-manifest.js"></script>
     <script src="js/manifests/lumbini-manifest.js"></script>
     <script src="js/manifests/karnali-manifest.js"></script>
+    <script src="js/manifests/sudurpashchim-manifest.js"></script>
     
     <!-- Modules -->
-    <script src="js/data-loader.js"></script>
-    <script src="js/filters.js"></script>
-    <script src="js/renderer.js"></script>
+    <script src="js/data-loader.js?v=9"></script>
+    <script src="js/filters.js?v=9"></script>
+    <script src="js/renderer.js?v=9"></script>
     
     <!-- Main App -->
-    <script src="app.js?v=6"></script>
+    <script src="app.js?v=9"></script>
 </body>
 </html>

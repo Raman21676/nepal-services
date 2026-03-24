@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "district": "Achham",
+    "province": "Sudurpashchim",
+    "city": "Mangalsen",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Achham District Hospital",
+      "type": "District Hospital",
+      "address": "Mangalsen-1, Achham",
+      "phone": ["097-680033", "097-680034"],
+      "emergency": true,
+      "services": ["Emergency", "General Medicine", "Surgery", "Maternity"]
+    },
+    {
+      "name": "Mangalsen Primary Health Center",
+      "type": "Health Center",
+      "address": "Mangalsen-3, Achham",
+      "phone": ["097-680123"],
+      "emergency": false,
+      "services": ["Primary Care", "Vaccination", "Family Planning"]
+    },
+    {
+      "name": "Seti Provincial Hospital Outreach",
+      "type": "Outreach Center",
+      "address": "Mangalsen-2, Achham",
+      "phone": ["097-680145"],
+      "emergency": false,
+      "services": ["Specialist Consultation", "Diagnostics"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Achham District Hospital Ambulance",
+      "phone": ["097-680033", "9858756900"],
+      "available": "24/7",
+      "type": "Hospital Ambulance"
+    },
+    {
+      "name": "Mangalsen Municipality Ambulance",
+      "phone": ["9858751234", "097-680100"],
+      "available": "24/7",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Red Cross Society Achham",
+      "phone": ["9858752222"],
+      "available": "6:00 AM - 10:00 PM",
+      "type": "Emergency Ambulance"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "phone": "100",
+      "type": "Police",
+      "available": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "phone": "101",
+      "type": "Fire",
+      "available": "24/7"
+    },
+    {
+      "name": "Ambulance Emergency",
+      "phone": "102",
+      "type": "Ambulance",
+      "available": "24/7"
+    },
+    {
+      "name": "District Police Office Achham",
+      "phone": "097-680077",
+      "type": "Police",
+      "available": "24/7"
+    },
+    {
+      "name": "District Administration Office",
+      "phone": "097-680011",
+      "type": "Administration",
+      "available": "Sunday-Friday, 10:00 AM - 5:00 PM"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "name": "Mangalsen Ward Office No. 1",
+      "address": "Mangalsen-1, Achham",
+      "phone": "097-680101",
+      "ward_president": "Ward President"
+    },
+    {
+      "ward": 2,
+      "name": "Mangalsen Ward Office No. 2",
+      "address": "Mangalsen-2, Achham",
+      "phone": "097-680102",
+      "ward_president": "Ward President"
+    },
+    {
+      "ward": 3,
+      "name": "Mangalsen Ward Office No. 3",
+      "address": "Mangalsen-3, Achham",
+      "phone": "097-680103",
+      "ward_president": "Ward President"
+    },
+    {
+      "ward": 4,
+      "name": "Mangalsen Ward Office No. 4",
+      "address": "Mangalsen-4, Achham",
+      "phone": "097-680104",
+      "ward_president": "Ward President"
+    },
+    {
+      "ward": 5,
+      "name": "Mangalsen Ward Office No. 5",
+      "address": "Mangalsen-5, Achham",
+      "phone": "097-680105",
+      "ward_president": "Ward President"
+    }
+  ]
+}

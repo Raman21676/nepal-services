@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "city": "Mahendranagar",
+    "city_type": "Municipality",
+    "population": "120,000",
+    "area_sq_km": "171.24",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Mahakali Provincial Hospital",
+      "address": "Ward No. 4, Bhimdatta Municipality, Mahendranagar",
+      "contact": "+977-99-520100",
+      "type": "Government",
+      "services": ["Emergency", "General Medicine", "Surgery", "Pediatrics", "Gynecology", "Laboratory"]
+    },
+    {
+      "name": "Cosmos Hospital",
+      "address": "Bhimdatta-10, Mahendranagar Main Road",
+      "contact": "+977-99-521234",
+      "type": "Private",
+      "services": ["Emergency", "General Surgery", "Orthopedics", "Radiology", "ICU", "Pharmacy"]
+    },
+    {
+      "name": "Life Care Hospital",
+      "address": "Ward No. 5, Bus Park Area, Mahendranagar",
+      "contact": "+977-99-522345",
+      "type": "Private",
+      "services": ["General Medicine", "Dental", "Physiotherapy", "Maternity", "X-Ray"]
+    },
+    {
+      "name": "Shree Krishna Hospital",
+      "address": "Bhimdatta-3, Near India Border, Mahendranagar",
+      "contact": "+977-99-523456",
+      "type": "Private",
+      "services": ["General Surgery", "ENT", "Pathology", "Ambulance Service"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Mahakali Provincial Hospital Ambulance",
+      "contact": "+977-99-520101",
+      "available": "24/7",
+      "service_area": "Within Kanchanpur District"
+    },
+    {
+      "name": "Red Cross Society Kanchanpur Ambulance",
+      "contact": "+977-99-521111",
+      "available": "24/7",
+      "service_area": "District Wide"
+    },
+    {
+      "name": "Cosmos Hospital Emergency Ambulance",
+      "contact": "+977-99-521235",
+      "available": "24/7",
+      "service_area": "Mahendranagar and Surrounding Areas"
+    },
+    {
+      "name": "Bhimdatta Municipality Ambulance Service",
+      "contact": "+977-99-524000",
+      "available": "24/7",
+      "service_area": "Bhimdatta Municipality Area"
+    }
+  ],
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "contact": "100",
+      "available": "24/7"
+    },
+    {
+      "service": "District Police Office Kanchanpur",
+      "contact": "+977-99-520200",
+      "available": "24/7"
+    },
+    {
+      "service": "Fire Brigade Mahendranagar",
+      "contact": "101",
+      "available": "24/7"
+    },
+    {
+      "service": "National Emergency Number",
+      "contact": "112",
+      "available": "24/7"
+    },
+    {
+      "service": "Blood Bank Kanchanpur",
+      "contact": "+977-99-520150",
+      "available": "24/7"
+    },
+    {
+      "service": "Electricity Emergency (NEA Mahendranagar)",
+      "contact": "+977-99-520300",
+      "available": "24/7"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "office_name": "Bhimdatta Municipality Ward No. 1 Office",
+      "address": "Kalali Road, Bhimdatta-1",
+      "contact": "+977-99-525001",
+      "ward_president": "Ram Bahadur Singh"
+    },
+    {
+      "ward": 2,
+      "office_name": "Bhimdatta Municipality Ward No. 2 Office",
+      "address": "Shivanagar, Bhimdatta-2",
+      "contact": "+977-99-525002",
+      "ward_president": "Sita Devi Sharma"
+    },
+    {
+      "ward": 3,
+      "office_name": "Bhimdatta Municipality Ward No. 3 Office",
+      "address": "India Border Area, Bhimdatta-3",
+      "contact": "+977-99-525003",
+      "ward_president": "Hari Prasad Joshi"
+    },
+    {
+      "ward": 4,
+      "office_name": "Bhimdatta Municipality Ward No. 4 Office",
+      "address": "Hospital Road, Bhimdatta-4",
+      "contact": "+977-99-525004",
+      "ward_president": "Gopal Bahadur Chand"
+    },
+    {
+      "ward": 5,
+      "office_name": "Bhimdatta Municipality Ward No. 5 Office",
+      "address": "Bus Park, Bhimdatta-5",
+      "contact": "+977-99-525005",
+      "ward_president": "Laxmi Devi Oli"
+    },
+    {
+      "ward": 6,
+      "office_name": "Bhimdatta Municipality Ward No. 6 Office",
+      "address": "Bazaar Area, Bhimdatta-6",
+      "contact": "+977-99-525006",
+      "ward_president": "Dilip Kumar Thapa"
+    },
+    {
+      "ward": 7,
+      "office_name": "Bhimdatta Municipality Ward No. 7 Office",
+      "address": "New Road, Bhimdatta-7",
+      "contact": "+977-99-525007",
+      "ward_president": "Manju Bista"
+    },
+    {
+      "ward": 8,
+      "office_name": "Bhimdatta Municipality Ward No. 8 Office",
+      "address": "Pipaladi, Bhimdatta-8",
+      "contact": "+977-99-525008",
+      "ward_president": "Ramesh Chand Yadav"
+    },
+    {
+      "ward": 9,
+      "office_name": "Bhimdatta Municipality Ward No. 9 Office",
+      "address": "Dadeldhura Road, Bhimdatta-9",
+      "contact": "+977-99-525009",
+      "ward_president": "Bimala Devi Bohara"
+    },
+    {
+      "ward": 10,
+      "office_name": "Bhimdatta Municipality Ward No. 10 Office",
+      "address": "College Road, Bhimdatta-10",
+      "contact": "+977-99-525010",
+      "ward_president": "Kamal Raj Pathak"
+    },
+    {
+      "ward": 11,
+      "office_name": "Bhimdatta Municipality Ward No. 11 Office",
+      "address": "Shuklaphanta Road, Bhimdatta-11",
+      "contact": "+977-99-525011",
+      "ward_president": "Prakash Rawal"
+    },
+    {
+      "ward": 12,
+      "office_name": "Bhimdatta Municipality Ward No. 12 Office",
+      "address": "Airport Road, Bhimdatta-12",
+      "contact": "+977-99-525012",
+      "ward_president": "Sabita Kumari Shah"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ class UIRenderer {
     }
     
     renderResults() {
-        const resultsContainer = document.getElementById('resultsContainer');
+        const resultsContainer = document.getElementById('resultsGrid');
         const start = (this.app.currentPage - 1) * CONFIG.ITEMS_PER_PAGE;
         const end = start + CONFIG.ITEMS_PER_PAGE;
         const pageData = this.app.filteredData.slice(start, end);
@@ -243,6 +243,14 @@ class UIRenderer {
     }
     
     createPhoneRow(phone) {
+        // Handle array of phones
+        if (Array.isArray(phone)) {
+            return phone.map(p => this.createPhoneRow(p)).join('');
+        }
+        // Handle non-string phone
+        if (typeof phone !== 'string') {
+            phone = String(phone);
+        }
         const cleanPhone = phone.replace(/\D/g, '');
         const displayPhone = phone;
         return `

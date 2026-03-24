@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "district": "Doti",
+    "province": "Sudurpashchim",
+    "city": "Silgadhi",
+    "city_type": "Municipality",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Doti District Hospital",
+      "type": "Government",
+      "address": "Silgadhi, Doti",
+      "phone": "094-410041",
+      "emergency": true,
+      "services": ["Emergency", "General Medicine", "Surgery", "Maternity", "Pediatrics"]
+    },
+    {
+      "name": "Seti Zonal Hospital",
+      "type": "Government",
+      "address": "Dipayal Silgadhi, Doti",
+      "phone": "094-410042",
+      "emergency": true,
+      "services": ["Emergency", "General Medicine", "Orthopedics", "Gynecology", "Laboratory"]
+    },
+    {
+      "name": "Silgadhi Community Hospital",
+      "type": "Community",
+      "address": "Silgadhi Municipality, Doti",
+      "phone": "094-410156",
+      "emergency": true,
+      "services": ["General Medicine", "Primary Care", "Pharmacy", "OPD"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Doti District Hospital Ambulance",
+      "phone": "094-410041",
+      "service_type": "Hospital",
+      "available_24h": true
+    },
+    {
+      "name": "Red Cross Doti Ambulance",
+      "phone": "094-410121",
+      "service_type": "NGO",
+      "available_24h": true
+    },
+    {
+      "name": "Silgadhi Municipality Ambulance",
+      "phone": "094-410221",
+      "service_type": "Municipal",
+      "available_24h": true
+    }
+  ],
+  "emergency": [
+    {
+      "service": "Police",
+      "phone": "100",
+      "department": "Nepal Police Doti"
+    },
+    {
+      "service": "Fire Brigade",
+      "phone": "101",
+      "department": "Doti Fire Station"
+    },
+    {
+      "service": "Ambulance",
+      "phone": "102",
+      "department": "Emergency Medical Services"
+    },
+    {
+      "service": "District Administration Office",
+      "phone": "094-410011",
+      "department": "Doti DAO"
+    },
+    {
+      "service": "Municipality Office",
+      "phone": "094-410111",
+      "department": "Silgadhi Municipality"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "office": "Silgadhi Municipality Ward 1 Office",
+      "address": "Ward No. 1, Silgadhi",
+      "phone": "094-410201",
+      "ward_president": "Ward Chairman"
+    },
+    {
+      "ward": 2,
+      "office": "Silgadhi Municipality Ward 2 Office",
+      "address": "Ward No. 2, Silgadhi",
+      "phone": "094-410202",
+      "ward_president": "Ward Chairman"
+    },
+    {
+      "ward": 3,
+      "office": "Silgadhi Municipality Ward 3 Office",
+      "address": "Ward No. 3, Silgadhi",
+      "phone": "094-410203",
+      "ward_president": "Ward Chairman"
+    },
+    {
+      "ward": 4,
+      "office": "Silgadhi Municipality Ward 4 Office",
+      "address": "Ward No. 4, Silgadhi",
+      "phone": "094-410204",
+      "ward_president": "Ward Chairman"
+    },
+    {
+      "ward": 5,
+      "office": "Silgadhi Municipality Ward 5 Office",
+      "address": "Ward No. 5, Silgadhi",
+      "phone": "094-410205",
+      "ward_president": "Ward Chairman"
+    },
+    {
+      "ward": 6,
+      "office": "Silgadhi Municipality Ward 6 Office",
+      "address": "Ward No. 6, Silgadhi",
+      "phone": "094-410206",
+      "ward_president": "Ward Chairman"
+    }
+  ]
+}
