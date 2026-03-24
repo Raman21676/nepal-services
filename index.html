@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Services Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>🏔️ Nepal Services Directory</h1>
+            <p class="subtitle">Find hospitals, schools, emergency contacts, and government offices across Nepal</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search and Filter Section -->
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search hospitals, schools, contacts..." autocomplete="off">
+                <button id="searchBtn" class="btn-primary">Search</button>
+            </div>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <label>City:</label>
+                    <select id="cityFilter">
+                        <option value="all">All Cities</option>
+                        <option value="kathmandu">Kathmandu</option>
+                        <option value="biratnagar">Biratnagar</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Category:</label>
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="hospitals">Hospitals</option>
+                        <option value="schools">Schools</option>
+                        <option value="ambulance">Ambulance Services</option>
+                        <option value="emergency">Emergency Contacts</option>
+                        <option value="ward">Ward Offices</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label>Type:</label>
+                    <select id="typeFilter">
+                        <option value="all">All Types</option>
+                        <option value="government">Government</option>
+                        <option value="private">Private</option>
+                        <option value="ngo">NGO/Non-profit</option>
+                    </select>
+                </div>
+                
+                <button id="resetBtn" class="btn-secondary">Reset Filters</button>
+            </div>
+            
+            <div class="results-info">
+                <span id="resultsCount">Loading data...</span>
+            </div>
+        </section>
+
+        <!-- Results Grid -->
+        <section id="resultsSection" class="results-section">
+            <div id="resultsGrid" class="results-grid">
+                <!-- Results will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="no-results hidden">
+            <h3>No results found</h3>
+            <p>Try adjusting your search or filters</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Data sourced from official government websites | <a href="https://github.com/Raman21676/nepal-services" target="_blank">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
