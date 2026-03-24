@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "city": "Butwal",
+    "city_type": "Sub-Metropolitan City",
+    "population": "194,335",
+    "area_sq_km": "101.61",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Lumbini Provincial Hospital",
+      "address": "Hospital Road, Butwal-6, Rupandehi",
+      "contact": "071-540200",
+      "contact_secondary": "071-532248",
+      "fax": "071-542282",
+      "email": "mail@lphospital.gov.np",
+      "website": "https://www.lphospital.gov.np",
+      "type": "Government",
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "OPD",
+        "Radiology",
+        "Laboratory",
+        "ICU"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Crimson Hospital",
+      "address": "Tilottama-05, Manigram, Rupandehi (Near Butwal)",
+      "contact": "071-562744",
+      "contact_secondary": "071-562745",
+      "website": "https://crimsonhospital.com",
+      "type": "Private",
+      "beds": 100,
+      "services": [
+        "24/7 Emergency",
+        "Cathlab",
+        "CT-Scan",
+        "Digital X-ray",
+        "Physiotherapy",
+        "Dialysis",
+        "ICU",
+        "CCU",
+        "Neuro Surgery"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Siddhababa Hospital & Research Center",
+      "address": "Om Marg, Sukhanagar, Butwal-8, Rupandehi",
+      "contact": "071-549201",
+      "contact_secondary": "071-549202",
+      "email": "siddhababa.hospital@gmail.com",
+      "website": "https://www.siddhababahospital.com.np",
+      "type": "Private",
+      "beds": 24,
+      "services": [
+        "24/7 Emergency",
+        "Cardiology",
+        "Nephrology",
+        "Neurology",
+        "Pulmonology",
+        "Obstetrics & Gynecology",
+        "ICU",
+        "CCU"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Butwal Hospital",
+      "address": "Jyoti-Path, Butwal-06, Rupandehi",
+      "contact": "071-536432",
+      "contact_secondary": "071-536984",
+      "email": "info@butwalhospital.com",
+      "website": "https://www.butwalhospital.com",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "Meditech International Hospital",
+      "address": "Sarvan Path/Deepnagar, Butwal-8, Rupandehi",
+      "contact": "071-549072",
+      "contact_secondary": "9847017641",
+      "email": "info@meditechnepal.com",
+      "type": "Private",
+      "services": [
+        "Multi-specialty",
+        "Nursing College"
+      ]
+    },
+    {
+      "name": "AMDA Hospital (Siddhartha Children & Women Hospital)",
+      "address": "Butwal, Rupandehi",
+      "contact": "071-502101",
+      "contact_secondary": "071-502097",
+      "type": "Private",
+      "services": [
+        "Children Health",
+        "Women Health",
+        "General Medicine"
+      ]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Siddhababa Hospital Ambulance",
+      "contact": "071-549201",
+      "hours": "24/7"
+    },
+    {
+      "name": "Lumbini Provincial Hospital Ambulance",
+      "contact": "071-540200",
+      "hours": "24/7"
+    },
+    {
+      "name": "Crimson Hospital Ambulance",
+      "contact": "071-562744",
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepal Red Cross Society",
+      "contact": "1130",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Butwal Sub-Metropolitan City",
+      "contact": "071-540035",
+      "fax": "071-541283",
+      "email": "info@butwalmun.gov.np",
+      "website": "https://butwalmun.gov.np",
+      "address": "Butwal-4, Rupandehi",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "Butwal Fire Brigade",
+      "contact": "071-540826",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Mayor's Office",
+      "contact": "9857031255",
+      "type": "Government"
+    }
+  ],
+  "ward_offices": [
+    {"ward": 1, "chairperson": "Narendra Basnet", "contact": "9847586699"},
+    {"ward": 2, "chairperson": "Sunil Shakya", "contact": "9857031062", "email": "sunilshakya31620@gmail.com"},
+    {"ward": 3, "chairperson": "Vishnu Dhakal", "contact": "9857027111", "email": "bdhakal2001@gmail.com"},
+    {"ward": 4, "chairperson": "Narishwar Sharma", "contact": "9857021160"},
+    {"ward": 5, "chairperson": "Hari Prasad Shrestha", "contact": "9857021240", "email": "anfabtl1@gmail.com"},
+    {"ward": 6, "chairperson": "Lok Nath Neupane", "contact": "9857027325", "email": "neupaneloknath349@gmail.com"},
+    {"ward": 7, "chairperson": "Padam Raj Gaha", "contact": "9857026324"},
+    {"ward": 8, "chairperson": "Yagya Prasad Pangeini", "contact": "9857044368", "email": "yagyaprasad12345@gmail.com"},
+    {"ward": 9, "chairperson": "Pradeep Kumar Shrestha", "contact": "9867185222"},
+    {"ward": 10, "chairperson": "Bal Bahadur Pun", "contact": "9857025092", "email": "balupunmagar@gmail.com"},
+    {"ward": 11, "chairperson": "Ramchandra Kshettri", "contact": "9857037440", "email": "rckhanalctr@gmail.com"},
+    {"ward": 12, "chairperson": "Dilli Prasad Sharma Upadhyay", "contact": "9857026020"},
+    {"ward": 13, "chairperson": "Narayan Prasad Pun", "contact": "9857026888"},
+    {"ward": 14, "chairperson": "Dadhiram Neupane", "contact": "9857033558", "email": "dadhiramneupane14@gmail.com"},
+    {"ward": 15, "chairperson": "Shiva Rana", "contact": "9857070039", "email": "ranashiva694@gmail.com"},
+    {"ward": 16, "chairperson": "Krishna Prasad Paudel", "contact": "9857034618", "email": "krishna34618@gmail.com"},
+    {"ward": 17, "chairperson": "Gyan Bahadur Reshmi", "contact": "9811460843"},
+    {"ward": 18, "chairperson": "Guru Prasad Pangeini", "contact": "9857026765", "email": "gurupd2022@gmail.com"},
+    {"ward": 19, "chairperson": "Chandra Singh Thapa (Magar)", "contact": "9857027468"}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Delhi Public School, BPKIHS", "address": "Ghopa, BPKIHS Campus, Dharan-5", "contact": "025-523308", "email": "dps_dharan@rediff.com", "website": "dpsbpkihsdharan.edu.np", "type": "Private", "board": "CBSE", "established": 1996},
+    {"name": "Nepal Police School, Dharan", "address": "Dharan", "type": "Police Boarding"},
+    {"name": "Depot Higher Secondary School", "address": "Dharan-18, Banjogara", "established": 1963, "type": "Public"},
+    {"name": "St. Joseph's Higher Secondary School", "address": "Dharan", "type": "Private"},
+    {"name": "Siddhartha Shishu Sadan", "address": "Dharan-3, Sunsari", "type": "Private"},
+    {"name": "Gyanodaya English Boarding School", "address": "Laxmi Sadak, Dharan-4", "type": "Private"},
+    {"name": "Sungabha Boarding School", "address": "Devigapath, Dharan", "type": "Private"}
+  ],
+  "colleges": [
+    {"name": "B.P. Koirala Institute of Health Sciences", "address": "Ghopa, Dharan", "contact": "025-525555", "email": "bpkihs@bpkihs.edu", "website": "www.bpkihs.edu", "type": "Autonomous University", "programs": ["MBBS", "BDS", "B.Sc. Nursing", "MD/MS", "MPH"], "beds": 700, "established": 1993},
+    {"name": "Mahendra Multiple Campus", "address": "College Road, Dharan-10", "contact": "025-521250", "email": "mmcdharan@gmail.com", "website": "mmcdharan.edu.np", "type": "Constituent", "affiliation": "TU", "programs": ["BA", "BBA", "BBS", "LLB", "MBS"], "established": 1955},
+    {"name": "Dharan Multiple Campus", "address": "Bijuli Office Road, Dharan", "contact": "025-525651", "email": "info@dmcdharan.edu.np", "type": "Private", "affiliation": "TU", "programs": ["B.Tech Food Technology", "+2", "CTEVT Diploma"], "established": 2011},
+    {"name": "Central Campus of Technology", "address": "Dharan-14, Hattisar", "contact": "025-570228", "email": "info@cctdharan.edu.np", "type": "Constituent", "affiliation": "TU", "programs": ["B.Tech Food Technology", "M.Tech Food Technology"], "established": 1972}
+  ],
+  "clinics": [
+    {"name": "Manjushree Poly Clinic", "address": "Putali Line, Dharan-10", "contact": "025-524363", "services": ["Pathology", "Diagnostic Imaging", "OPD"]},
+    {"name": "Bijayapur Hospital", "address": "Putali Line, Dharan-10", "contact": "025-533490", "email": "hospitalbijayapura@gmail.com"},
+    {"name": "Manju Shree Eye Care Center", "address": "Dharan", "services": ["Ophthalmology", "Eye Surgery", "Vision Care"]},
+    {"name": "Advance Pathology Lab", "address": "Dharan", "website": "advancepathologylab.com", "services": ["Health Checkup", "Cancer Screening", "Diabetes Check"]}
+  ],
+  "blood_banks": [
+    {"name": "BPKIHS Blood Bank", "address": "BPKIHS Campus, Ghopa, Dharan", "contact": "025-525555", "type": "Hospital", "established": 2013, "services": ["Whole Blood", "PCV", "PRP", "FFP", "Cryoprecipitate"]},
+    {"name": "Sunsari District BTSC", "address": "Dharan, Sunsari", "contact": "025-525555", "type": "District"}
+  ]
+}

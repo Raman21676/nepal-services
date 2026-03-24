@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Bagmati",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Hetauda Academy", "address": "Hetauda-11, Makwanpur", "contact": "057-525548", "type": "Private Residential", "level": "Primary to +2"},
+    {"name": "Reliance English Boarding School", "address": "Hetauda-2, Makwanpur", "type": "Private", "level": "ECD to Grade 12", "established": 1984},
+    {"name": "Siddhartha Secondary School", "address": "Hetauda-2, Makwanpur", "contact": "057-520700", "type": "Community", "level": "ECD to Grade 12"},
+    {"name": "Shree Bhutandevi Secondary School", "address": "Hetauda, Makwanpur", "type": "Public", "level": "ECD to Grade 12"},
+    {"name": "Banshagopal Secondary School", "address": "Hetauda-6, Chaughada", "contact": "057-530192", "type": "Community"},
+    {"name": "Jyoti Secondary School", "address": "Harnamadi, Hetauda-18", "type": "Public", "established": 1967, "note": "Reconstructed with JICA support after 2015 earthquake"}
+  ],
+  "colleges": [
+    {"name": "Makwanpur Multiple Campus (MMC)", "address": "Municipality Road, Hetauda", "contact": "057-520620", "website": "www.mmchetauda.org", "type": "Community", "affiliation": "TU", "programs": ["+2", "BBS", "BBM", "BBA", "BA", "B.Ed", "BSc", "MBS", "M.Ed"]},
+    {"name": "Hetauda Campus", "address": "Sirjana Marga, Hetauda", "type": "Community", "affiliation": "TU", "programs": ["+2", "B.Ed", "BBS", "BA", "M.Ed"]},
+    {"name": "Hetauda City College", "address": "Kantirajpath 4, Hetauda-4", "contact": "057-526660", "type": "Private", "affiliation": "TU", "programs": ["BCA", "BSc CSIT"]},
+    {"name": "Hetauda School of Management", "address": "Hetauda", "type": "Private", "affiliation": "TU", "programs": ["BCA", "BBS", "BIM", "MBS"]}
+  ],
+  "clinics": [
+    {"name": "Shree Subhakamana Laboratory", "address": "Hetauda-10", "contact": "9845291048", "services": ["Pathology", "Medical Testing"]},
+    {"name": "HI-TECH Pathology Laboratory", "address": "Hospital Road, Hetauda", "contact": "9804811882", "services": ["Pathology", "Diagnostics"]},
+    {"name": "CMC Chure Hill Hospital", "address": "Mahendra Highway, Hetauda", "services": ["CT Scan", "Digital X-Ray", "Pathology", "Dialysis"]},
+    {"name": "Siddhasthali Rural Community Hospital", "address": "6 Hospital Marg, Hetauda", "services": ["Laboratory", "X-Ray", "Dental", "OPD"], "beds": 11}
+  ],
+  "blood_banks": [
+    {"name": "Blood Bank Hetauda", "address": "Hetauda Hospital Complex, Rapti Road", "contact": "057-522977", "type": "District"},
+    {"name": "Hetauda Hospital Blood Bank Services", "address": "Hetauda Hospital, Rapti Road", "type": "Hospital"}
+  ]
+}

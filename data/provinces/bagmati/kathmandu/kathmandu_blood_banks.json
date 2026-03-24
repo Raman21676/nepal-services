@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "data_type": "blood_banks",
+    "last_updated": "2025-01-24"
+  },
+  "blood_banks": [
+    {
+      "name": "Central Blood Transfusion Service (NRCS)",
+      "address": "Dudhpati, Bhaktapur",
+      "contact": "01-6611661",
+      "contact_secondary": "01-6612266",
+      "website": "https://nrcs.org",
+      "type": "Central",
+      "hours": "7:00 AM - 7:00 PM",
+      "emergency": "24/7",
+      "services": ["Blood Collection", "Testing", "Storage", "Distribution"]
+    },
+    {
+      "name": "Central NRCS Blood Bank",
+      "address": "Soaltee-Mode, Kalimati, Kathmandu",
+      "contact": "01-4288485",
+      "contact_secondary": "01-4423846",
+      "emergency": "01-4410911",
+      "website": "https://nrcs.org",
+      "type": "Regional",
+      "hours": "24/7",
+      "services": ["Blood Donation", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Teaching Hospital Blood Bank",
+      "address": "Maharajgunj, Kathmandu",
+      "contact": "01-44123030",
+      "contact_secondary": "01-4410911",
+      "type": "Hospital",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Component Therapy"]
+    },
+    {
+      "name": "Bir Hospital Blood Bank",
+      "address": "New Road Gate, Kathmandu",
+      "contact": "01-4221119",
+      "contact_secondary": "01-4221988",
+      "type": "Hospital",
+      "hours": "24/7",
+      "services": ["Emergency Blood", "Surgical Blood Support"]
+    },
+    {
+      "name": "Civil Service Hospital Blood Bank",
+      "address": "Minbhawan, Kathmandu",
+      "contact": "01-4107000",
+      "contact_secondary": "01-4793000",
+      "type": "Hospital",
+      "hours": "24/7",
+      "services": ["Blood Transfusion Services"]
+    },
+    {
+      "name": "Nepal Police Hospital Blood Bank",
+      "address": "Maharajgunj, Kathmandu",
+      "contact": "01-4412430",
+      "contact_secondary": "01-5971944",
+      "type": "Hospital",
+      "hours": "24/7",
+      "services": ["Blood Bank Services"]
+    },
+    {
+      "name": "Gangalal Hospital Blood Bank",
+      "address": "Bansbari, Kathmandu",
+      "contact": "01-4371322",
+      "type": "Hospital",
+      "services": ["Cardiac Care Blood Services"]
+    },
+    {
+      "name": "Grande Hospital Blood Bank",
+      "address": "Dhapasi, Kathmandu",
+      "contact": "01-5159266",
+      "emergency": "9801202550",
+      "type": "Hospital",
+      "services": ["Blood Bank", "Component Separation"]
+    },
+    {
+      "name": "Hamro Life Bank Hotline",
+      "contact": "9801230045",
+      "website": "https://hamrolifebank.com",
+      "type": "Emergency Coordination",
+      "hours": "24/7",
+      "services": ["Blood Request Coordination", "Donor Matching", "Emergency Support"]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "district": "Banke",
+    "province": "Lumbini",
+    "city": "Nepalgunj",
+    "city_type": "Sub-Metropolitan City",
+    "population": "164,444",
+    "area_sq_km": "85.9",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Bheri Hospital",
+      "address": "Near Tribhuvan Chowk, Nepalgunj, Banke",
+      "contact": "081-520120",
+      "contact_secondary": "081-534120",
+      "email": "info@bherihospital.gov.np",
+      "website": "https://www.bherihospital.gov.np",
+      "type": "Government",
+      "beds": 150,
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "Pediatrics",
+        "Gynecology",
+        "OPD Services"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepalgunj Medical College",
+      "address": "Kohalpur & Nepalgunj Campuses, Banke",
+      "contact": "081-521572",
+      "contact_secondary": "081-522932",
+      "emergency_hotline": "081-540408",
+      "email": "info@ngmc.edu.np",
+      "website": "https://www.ngmc.edu.np",
+      "type": "Private",
+      "beds": 1050,
+      "services": [
+        "24/7 Emergency",
+        "MBBS Programs",
+        "General Medicine",
+        "Surgery",
+        "Cardiology",
+        "Neurosurgery",
+        "Plastic Surgery",
+        "Urology",
+        "ICU"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepalgunj Nursing Home",
+      "address": "Surkhet Road, Nepalgunj",
+      "contact": "081-522458",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "Maternity",
+        "OPD"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Sushil Koirala Prakhar Cancer Hospital",
+      "address": "Khajura-07, Banke (Near Nepalgunj)",
+      "contact": "081-560199",
+      "contact_secondary": "081-560200",
+      "email": "skpchkhajura@gmail.com",
+      "website": "https://prakhar.com.np",
+      "type": "Private",
+      "services": [
+        "Cancer Treatment",
+        "Oncology",
+        "Chemotherapy",
+        "Radiotherapy",
+        "Palliative Care"
+      ]
+    },
+    {
+      "name": "Care City Hospital",
+      "address": "Bhujaigau, Nepalgunj, Banke",
+      "contact": "081-538841",
+      "website": "https://carecityhospital.com",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "Pediatrics",
+        "Gynecology",
+        "ICU",
+        "NICU",
+        "HDU",
+        "Laboratory"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Lifeline General Hospital",
+      "address": "Sadarline, Nepalgunj, Banke",
+      "contact": "081-533074",
+      "contact_secondary": "9818764672",
+      "website": "https://lifelinegeneralhospital.com",
+      "type": "Private",
+      "services": [
+        "24/7 Dialysis",
+        "General Medicine",
+        "Dental",
+        "Nephrology"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Nepalgunj Neuro Trauma Hospital",
+      "address": "Jail Road-10, Nepalgunj, Banke",
+      "contact": "081-535777",
+      "contact_secondary": "9749979999",
+      "website": "https://nepalgunjneuro.com",
+      "type": "Private",
+      "services": [
+        "Neurosurgery",
+        "Trauma Care",
+        "Dialysis",
+        "General Medicine",
+        "Orthopedics"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Fateh Bal Eye Hospital",
+      "address": "Fultekra-6, Nepalgunj, Banke",
+      "contact": "081-530598",
+      "email": "fbeheye@gmail.com",
+      "website": "https://www.fbeh.org.np",
+      "type": "Private",
+      "services": [
+        "Eye Care",
+        "Cataract Surgery",
+        "Eye Treatment"
+      ],
+      "hours": "8:00 AM - 4:00 PM"
+    },
+    {
+      "name": "Sagar Hospital",
+      "address": "Ganeshman Chowk-10, Nepalgunj",
+      "contact": "081-536319",
+      "contact_secondary": "9866227155",
+      "email": "sagarhospitalnpj@gmail.com",
+      "website": "https://sagarhospital.com.np",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepal Red Cross Society Banke",
+      "contact": "081-520104",
+      "hours": "24/7"
+    },
+    {
+      "name": "Red Cross Ambulance Kohalpur",
+      "contact": "081-541300",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bheri Hospital Ambulance",
+      "contact": "081-520120",
+      "hours": "24/7"
+    },
+    {
+      "name": "NGMC Emergency Ambulance",
+      "contact": "081-540408",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepalgunj Sub-Metropolitan City",
+      "contact": "081-536338",
+      "email": "info@nepalgunjmun.gov.np",
+      "website": "https://www.nepalgunjmun.gov.np",
+      "address": "B.P. Chowk, Nepalgunj, Banke",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "Banke District Police Office",
+      "contact": "081-520299",
+      "contact_secondary": "9858090399",
+      "type": "Police"
+    }
+  ],
+  "ward_offices": [
+    {"ward": 1, "chairperson": "हिक्मत बहादुर थापा माझी", "contact": "9840189967", "email": "nepalgunj.ward1@gmail.com"},
+    {"ward": 2, "contact": "9848379622"},
+    {"ward": 3, "address": "Ward 3, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 4, "address": "Ward 4, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 5, "address": "Ward 5, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 6, "address": "Ward 6, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 7, "address": "Ward 7, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 8, "address": "Ward 8, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 9, "address": "Ward 9, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 10, "address": "Ward 10, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 11, "address": "Ward 11, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 12, "address": "Ward 12, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 13, "address": "Ward 13, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 14, "address": "Ward 14, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 15, "address": "Ward 15, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 16, "address": "Ward 16, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 17, "address": "Ward 17, Nepalgunj Sub-Metropolitan City"},
+    {"ward": 18, "contact": "9858024187"},
+    {"ward": 19, "chairperson": "प्रशुराम कुर्मी", "contact": "9858026751"},
+    {"ward": 20, "contact": "9858044777"},
+    {"ward": 21, "chairperson": "राज कुमार शाहु", "contact": "9858024287"},
+    {"ward": 22, "chairperson": "अब्दुल गफ्फार हलवाई", "contact": "9815543332"},
+    {"ward": 23, "chairperson": "जबर अलि बेहना", "contact": "9840485488"}
+  ]
+}

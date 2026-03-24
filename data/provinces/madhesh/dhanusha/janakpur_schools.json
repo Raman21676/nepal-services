@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Nobel Boarding School", "address": "Dhanusha, Janakpur", "contact": "523498", "type": "Private"},
+    {"name": "Bhola Singh Lions Mithila English School", "address": "Zero Mile, Janakpur", "contact": "520770", "type": "English Medium"},
+    {"name": "Chireshwor Janata Higher Secondary School", "address": "Dhanusha, Janakpur", "contact": "520107", "type": "Higher Secondary"},
+    {"name": "Fakirchanda Gami Higher Secondary School", "address": "Dhanusha, Janakpur", "contact": "521011", "type": "Higher Secondary"},
+    {"name": "Janaki Awasiya Higher Secondary School", "address": "Janakpur", "contact": "520469", "type": "Higher Secondary"},
+    {"name": "Rajarshi Janak Higher Secondary School", "address": "Dhanusha, Janakpur", "contact": "521860", "type": "Higher Secondary"},
+    {"name": "Akshar Vidhya Mandir", "address": "Wakil Tole, Janakpur", "contact": "041-520040", "email": "info@aksharschool.info", "type": "Smart School"},
+    {"name": "St. Xavier's High School", "address": "Janakpur", "contact": "521122", "type": "Private"}
+  ],
+  "colleges": [
+    {"name": "Janaki Medical College", "address": "Ramdaiya Bhawadi, Janakpurdham", "contact": "041-620202", "email": "info@janakimedicalcollege.edu.np", "website": "www.janakimedicalcollege.edu.np", "type": "Private", "affiliation": "TU", "programs": ["MBBS", "B.Sc. Nursing"], "beds": 525, "established": 1999},
+    {"name": "Ramsworup Ramsagar Multiple Campus (RR Campus)", "address": "Janakpur", "type": "Government", "affiliation": "TU", "note": "Oldest government college in Janakpur"},
+    {"name": "Janakpur Engineering College", "address": "Janakpur", "contact": "041-620888", "established": 2001, "programs": ["Diploma in Computer Engineering", "Civil Engineering"]},
+    {"name": "Model Multiple College", "address": "Janakpur", "contact": "523666", "type": "Private"},
+    {"name": "Janakpur Community College", "address": "Ramanand Chowk, Janakpur-8", "established": 2022, "affiliation": "Purbanchal University", "programs": ["BIT"]}
+  ],
+  "clinics": [
+    {"name": "Complete Diagnostic Center (CDC)", "address": "Janakpurdham-6, Hospital Road", "services": ["Pathology", "Biochemistry", "Microbiology", "Immunology", "Tumor markers"], "equipment": ["Roche (USA)", "BioMerieux (France)", "Sysmex (USA)"]},
+    {"name": "Janaki Medical College Teaching Hospital", "address": "Bramhapuri, Janakpur", "contact": "041-620202", "type": "Teaching Hospital", "beds": 350},
+    {"name": "Janaki Hospital", "address": "Janakpur", "contact": "520133", "type": "General Hospital"},
+    {"name": "Manipal Hospital Janakpur", "address": "Janakpur", "contact": "524596", "type": "Multi-specialty"},
+    {"name": "Nepal Red Cross Janaki Eye Hospital", "address": "Janakpur", "contact": "523031", "type": "Eye Hospital"}
+  ],
+  "blood_banks": [
+    {"name": "Dhanusha District BTSC", "address": "Janakpur Provincial Hospital", "contact": "041-520870", "type": "District"},
+    {"name": "Janaki Medical College Blood Bank", "address": "Bramhapuri, Janakpur", "contact": "01-4435957", "type": "Hospital"},
+    {"name": "Koshi Medical and Trauma Research Center Hospital", "address": "Brahampuri-9, Janakpur", "contact": "041-591092", "type": "Hospital"}
+  ]
+}

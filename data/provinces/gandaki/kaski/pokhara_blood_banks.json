@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "data_type": "blood_banks",
+    "last_updated": "2025-01-24"
+  },
+  "blood_banks": [
+    {
+      "name": "NRCS Regional BTSC Pokhara",
+      "address": "Ramghat, Pokhara",
+      "contact": "061-521091",
+      "contact_secondary": "061-540191",
+      "type": "Regional Blood Bank",
+      "services": ["Blood Collection", "Testing", "Storage", "Distribution"]
+    },
+    {
+      "name": "Manipal Teaching Hospital Blood Bank",
+      "address": "Phulbari, Pokhara",
+      "contact": "061-526416",
+      "type": "Hospital Blood Bank",
+      "services": ["Blood Transfusion Services"]
+    },
+    {
+      "name": "Gandaki Medical College Blood Bank",
+      "address": "Prithivichowk, Pokhara",
+      "contact": "061-538595",
+      "type": "Hospital Blood Bank",
+      "services": ["Blood Bank Services"]
+    },
+    {
+      "name": "Pokhara Academy of Health Sciences Blood Bank",
+      "address": "Ramghat, Pokhara",
+      "contact": "061-533231",
+      "type": "Hospital Blood Bank",
+      "services": ["Blood Transfusion"]
+    }
+  ]
+}

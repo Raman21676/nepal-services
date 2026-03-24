@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "data_type": "pharmacies",
+    "last_updated": "2025-01-24"
+  },
+  "pharmacies": [
+    {
+      "name": "Birganj Drug Agency",
+      "address": "Ghantaghar, Birgunj",
+      "contact": "051-523183",
+      "mobile": "9845020448",
+      "type": "Medical Store"
+    },
+    {
+      "name": "National Pharmacy",
+      "address": "Near Ghanta Ghar, Birgunj",
+      "type": "Pharmacy"
+    },
+    {
+      "name": "Trishakti Medical Hall",
+      "address": "Ghantaghar, Birgunj",
+      "mobile": "9845827415",
+      "type": "Medical Hall"
+    },
+    {
+      "name": "Bhawani Medical Stores",
+      "address": "Reshamkothi, 100m Ahead Gate 6, Birgunj",
+      "contact": "051-522340",
+      "type": "Medical Store"
+    },
+    {
+      "name": "National Healthcare Pvt. Ltd.",
+      "address": "Newroad, Ghantaghar, Birgunj",
+      "contact": "051-524336",
+      "website": "www.nationalhealthcare.com.np",
+      "type": "Pharmaceutical Company"
+    },
+    {
+      "name": "Shivashakti Pharmacy",
+      "address": "Birgunj",
+      "contact": "051-525215",
+      "type": "Pharmacy"
+    },
+    {
+      "name": "Fair Deal Medical Stores Pvt. Ltd.",
+      "address": "Birgunj-13",
+      "contact": "051-520211",
+      "type": "Medical Store"
+    }
+  ],
+  "veterinary": [
+    {
+      "name": "Veterinary Hospital",
+      "address": "Shreepur, Birgunj",
+      "contact": "051-522551",
+      "type": "Government Animal Hospital",
+      "services": ["Animal Treatment", "Livestock Services", "Veterinary Care"]
+    },
+    {
+      "name": "Birgunj Vet Pharma",
+      "address": "Prithibichowk, Birgunj",
+      "contact": "051-522522",
+      "type": "Veterinary Clinic & Drug Store",
+      "services": ["Veterinary Consultation", "Animal Medicines", "Pet Care"]
+    },
+    {
+      "name": "Pashu Chikitsalaya",
+      "address": "Shreepur, Birgunj",
+      "type": "Veterinary Clinic",
+      "services": ["Animal Treatment", "Livestock Healthcare"]
+    }
+  ]
+}

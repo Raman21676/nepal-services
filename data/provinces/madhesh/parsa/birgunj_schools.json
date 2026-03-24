@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "D.A.V. Rukmini Banarasi Kedia School", "address": "Birgunj, Parsa", "contact": "051-525500", "email": "info@davbirgunj.edu.np", "website": "https://davbirgunj.edu.np", "type": "Private", "board": "CBSE/NEB"},
+    {"name": "Delhi Public School, Birgunj", "address": "Lipnimal-8, Bara", "contact": "051-591067", "email": "principal.dps@cgeducation.com.np", "website": "https://dpsbirgunj.edu.np", "type": "Private", "board": "CBSE/NEB"},
+    {"name": "Gautam Secondary School", "address": "Power House Chowk, Shreepur-13, Birgunj", "contact": "051-527789", "type": "Private", "established": 1976},
+    {"name": "Alpine Secondary School", "address": "Durgatole, Shreepur-11, Birgunj", "contact": "051-527898", "type": "Private", "established": 1997},
+    {"name": "City School of Birgunj", "address": "Birgunj-13, Parsa", "contact": "051-520026", "type": "Private", "established": 2010},
+    {"name": "Southzone Secondary School", "address": "Birgunj-13, Parsa", "contact": "051-522100", "website": "www.southzoneschool.edu.np", "type": "Private", "established": 2009},
+    {"name": "Kadambari Academy", "address": "Shreepur, Birgunj", "contact": "051-534279", "type": "Private"},
+    {"name": "Birgunj Public Secondary School", "address": "Birgunj, Parsa", "type": "Public"}
+  ],
+  "colleges": [
+    {"name": "National Medical College (NMC)", "address": "Bhediyahi 15, Birgunj", "contact": "051-521780", "email": "info@nmcbir.edu.np", "website": "https://nmcbir.edu.np", "type": "Private", "affiliation": "TU", "programs": ["MBBS", "BDS", "MD/MS", "Nursing"], "beds": 800},
+    {"name": "MB Kedia Dental College", "address": "Chhapkaiya, Birgunj-2", "contact": "051-526600", "type": "Private", "affiliation": "TU", "programs": ["BDS"]},
+    {"name": "Birgunj Nursing Campus", "address": "Birta-04, Birgunj", "contact": "051-522580", "type": "Public", "affiliation": "IOM, TU", "programs": ["PCL Nursing", "B.N."]},
+    {"name": "Hari Khetan Multiple Campus", "address": "Alakhiya Road, Adarshnagar-10, Birgunj", "contact": "051-522961", "website": "https://www.hkmc.edu.np", "type": "Public", "affiliation": "TU", "programs": ["+2", "BBS", "BSc CSIT", "BA", "MA"]},
+    {"name": "Birgunj Commerce Campus", "address": "Birgunj, Parsa", "contact": "051-523485", "type": "Public", "affiliation": "TU", "programs": ["+2 Management", "BBS"]}
+  ],
+  "clinics": [
+    {"name": "Shanti Polyclinic", "address": "Tribhuvan Rajpath, Birgunj", "contact": "601239254", "services": ["Dermatology", "General Medicine"]},
+    {"name": "Sona Diagnostic Centre", "address": "Murli Bazar Chowk, Shreepur 11, Birgunj", "contact": "9855034588"},
+    {"name": "Mangalam Diagnostic Centre", "address": "Mahalaxmi Building, Alakhiya Road, Birgunj", "contact": "9845024844", "license": "NPHL-B-059"},
+    {"name": "Narayani Central Diagnostic Laboratory", "address": "Birgunj, Parsa", "contact": "051-522133", "license": "NPHL-B-065"},
+    {"name": "Archita Diagnostic Center", "address": "Birgunj, Parsa", "contact": "051-32227", "license": "NPHL-B-023"},
+    {"name": "Ashirwad Diagnostic Center", "address": "Birta-5, Birgunj", "contact": "9811173383"}
+  ],
+  "blood_banks": [
+    {"name": "NRCS Parsa District BTSC", "address": "Birgunj, Parsa", "contact": "051-522504", "type": "District"},
+    {"name": "National Medical College Blood Bank", "address": "Bhediyahi 15, Birgunj", "contact": "051-591014", "type": "Hospital", "license": "NPHL-B-086"},
+    {"name": "Narayani Hospital Blood Bank", "address": "Birgunj, Parsa", "type": "Hospital"}
+  ]
+}

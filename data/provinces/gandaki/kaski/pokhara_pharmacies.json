@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "data_type": "pharmacies",
+    "last_updated": "2025-01-24"
+  },
+  "pharmacies": [
+    {
+      "name": "Manipal Hospital Pharmacy",
+      "address": "Fulbari, Pokhara-11, Kaski",
+      "contact": "061-552666",
+      "email": "mth@nepalmanipal.edu.np",
+      "type": "Hospital Pharmacy",
+      "hours": "24/7",
+      "notes": "Attached to Manipal Teaching Hospital"
+    },
+    {
+      "name": "Fewa City Hospital Pharmacy",
+      "address": "Nagdhunga, Pokhara-08, Kaski",
+      "contact": "061-582685",
+      "email": "fewacitihospital@gmail.com",
+      "type": "Hospital Pharmacy",
+      "hours": "24/7"
+    },
+    {
+      "name": "Charak Hospital Pharmacy",
+      "address": "Nagdhunga, Pokhara",
+      "type": "Hospital Pharmacy"
+    },
+    {
+      "name": "Fishtail Hospital Pharmacy",
+      "address": "Pokhara",
+      "type": "Hospital Pharmacy"
+    },
+    {
+      "name": "Gandaki Medical College Hospital Pharmacy",
+      "address": "Prithivi Chowk, Pokhara",
+      "type": "Hospital Pharmacy"
+    },
+    {
+      "name": "Western Regional Hospital Pharmacy",
+      "address": "Hospital Chowk, Pokhara",
+      "type": "Government Hospital Pharmacy"
+    }
+  ],
+  "veterinary": [
+    {
+      "name": "Himalayan Animal Rescue Trust (HART)",
+      "address": "Shital Path, Titepani-17, Pokhara",
+      "contact": "061-526451",
+      "contact_secondary": "9846531069",
+      "email": "enquiries@hartnepal.org",
+      "website": "www.hartnepal.org",
+      "type": "Animal Rescue & Veterinary Clinic",
+      "hours": "Open 7 days",
+      "services": ["Low-cost Clinic", "Spay/Neuter", "Street Dog Rescue", "Anti-rabies Camps"],
+      "established": "2010"
+    },
+    {
+      "name": "Machhapuchhre Veterinary Clinic",
+      "address": "Pokhara, Kaski",
+      "mobile": "9846434115",
+      "type": "Veterinary Clinic",
+      "services": ["General Care", "Vaccinations", "Health Checkups"]
+    },
+    {
+      "name": "Sunshine Veterinary Centre",
+      "address": "Pokhara, Kaski",
+      "type": "Veterinary Clinic",
+      "services": ["Consultations", "Pet Care"]
+    },
+    {
+      "name": "Best Friends Veterinary Hospital",
+      "address": "Pokhara, Kaski",
+      "type": "Veterinary Hospital",
+      "services": ["Hospital Services", "Pet Surgery", "Animal Healthcare"]
+    }
+  ]
+}

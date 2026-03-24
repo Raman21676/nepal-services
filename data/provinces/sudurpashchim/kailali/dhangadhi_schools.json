@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Aishwarya Vidya Niketan Higher Secondary School", "address": "Hasanpur, Dhangadhi", "contact": "091-523270", "email": "amc_dhangadhi@yahoo.com", "established": 1976, "type": "Private"},
+    {"name": "Kailali Model Secondary School", "address": "Uttar Behadi-4, Dhangadhi", "contact": "091-410055", "email": "kmschool12@gmail.com", "website": "https://www.kailalimodelschool.edu.np", "established": 1995, "type": "Community"},
+    {"name": "Dhangadhi Model Technical Secondary School", "address": "Dhangadhi-8", "contact": "091-591126", "established": 1948, "type": "Public"},
+    {"name": "Siddhartha Shishu Sadan", "address": "Dhangadhi-1, L.N. Chowk", "established": 1988, "type": "Private"},
+    {"name": "Stepping Stone English School", "address": "Chauraha-2, Dhangadhi", "established": 2048, "type": "Private"},
+    {"name": "Three Stars English Boarding School", "address": "Dhangadhi-8", "established": 2061, "type": "Private"},
+    {"name": "Shree Milan English School", "address": "Dhangadhi-12, Jugeda", "established": 2050, "type": "Private"}
+  ],
+  "colleges": [
+    {"name": "Kailali Multiple Campus", "address": "Campus Road, Dhangadhi", "contact": "091-521223", "email": "info@kailalicampus.edu.np", "website": "kailalicampus.edu.np", "type": "Community", "affiliation": "TU/Far Western University", "programs": ["BBA", "BBS", "BA", "B.Ed", "BSc", "BSc CSIT", "BSc Forestry", "MBS", "MBA", "M.Ed", "MA"], "students": "9000+"},
+    {"name": "Sudur Paschimanchal Campus", "address": "Dhangadhi", "type": "Community", "affiliation": "TU", "programs": ["BBS", "BA", "B.Ed"]},
+    {"name": "Aishwarya Multiple Campus", "address": "Hasanpur, Dhangadhi", "contact": "091-523270", "website": "amcdhangadhi.edu.np", "established": 2063, "type": "Community", "affiliation": "TU", "programs": ["B.Sc", "BBS", "BCA", "MBA"]},
+    {"name": "Nepal Western Management and Engineering College", "address": "Dhangadhi-2, Santoshi Tole", "contact": "091-527005", "email": "info@nwa.edu.np", "website": "nwa.edu.np", "established": 2009, "type": "Private", "affiliation": "Pokhara University", "programs": ["BHM", "BBA-BI"]}
+  ],
+  "clinics": [
+    {"name": "Khaptad Diagnostic and Research Center", "address": "Hospital Line, Seti Provincial Hospital Line, Dhangadhi", "contact": "9858481985", "services": ["Medical Tests", "Diabetes", "Thyroid Specialist"]},
+    {"name": "Dhangadhi Diagnostic and Research Centre", "address": "Dhangadhi", "contact": "091-524005", "license": "NPHL-B-062", "type": "Standalone Laboratory"},
+    {"name": "National Pathlab & Research Center", "address": "Dhangadhi", "contact": "9851142039", "license": "NPHL-A-014", "type": "Category A Laboratory"},
+    {"name": "Life Care Diagnostic", "address": "Dhangadhi", "contact": "091-16574", "license": "NPHL-B-029", "type": "Standalone Laboratory"}
+  ],
+  "blood_banks": [
+    {"name": "Seti Provincial Hospital Blood Bank", "address": "Seti Provincial Hospital, Dhangadhi", "type": "Hospital"},
+    {"name": "NRCS Kailali Blood Transfusion Service", "address": "Dhangadhi, Kailali", "type": "Regional", "note": "NRNA donated mobile blood collection bus in 2022"}
+  ]
+}

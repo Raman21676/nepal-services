@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "data_type": "clinics",
+    "last_updated": "2025-01-24"
+  },
+  "clinics": [
+    {
+      "name": "Paschimanchal Diagnostic & Research Center (PDRC)",
+      "address": "Ramghat, Ward-10, Pokhara",
+      "contact": "061-588460",
+      "contact_secondary": "061-580460",
+      "type": "Diagnostic Center",
+      "services": ["Laboratory", "Radiology", "Health Checkups"]
+    },
+    {
+      "name": "Himalaya Polyclinic & Diagnostic Centre",
+      "address": "Parsyang-Chipledhunga, Pokhara",
+      "contact": "061-419541",
+      "type": "Polyclinic",
+      "services": ["OPD", "Diagnostics", "Pharmacy"]
+    },
+    {
+      "name": "LifeCare Diagnostics & Research Center",
+      "address": "New Road, Pokhara",
+      "contact": "061-521844",
+      "contact_secondary": "061-521845",
+      "type": "Diagnostic Center",
+      "services": ["Pathology", "Radiology", "Health Packages"]
+    },
+    {
+      "name": "United Reference Laboratory (URL)",
+      "address": "New Road, Pokhara",
+      "contact": "061-543503",
+      "contact_secondary": "061-570503",
+      "type": "Reference Lab",
+      "services": ["Advanced Diagnostics", "Specialized Tests"]
+    },
+    {
+      "name": "National Reference Laboratory (NRL)",
+      "address": "New Road, Pokhara",
+      "contact": "061-540003",
+      "type": "Reference Lab",
+      "services": ["Laboratory Services"]
+    },
+    {
+      "name": "URL Hospital Chowk Diagnostic",
+      "address": "Ramghat, Pokhara",
+      "contact": "061-584289",
+      "type": "Diagnostic Center",
+      "services": ["Diagnostics", "Health Checkups"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "AadiKabi BhanuBhakta Secondary School", "address": "Narayangadh, Chitwan", "type": "Secondary"},
+    {"name": "Amar Secondary School", "address": "Bharatpur, Chitwan", "type": "Secondary"},
+    {"name": "Bharatpur Secondary School", "address": "Bharatpur, Chitwan", "type": "Secondary"},
+    {"name": "Narayani Model Secondary School", "address": "Chitwan", "type": "Community", "note": "Highest pass rate among community schools in Chitwan"},
+    {"name": "Balkumari Girls Secondary School", "address": "Bharatpur, Chitwan", "type": "Community"},
+    {"name": "Saraswati Secondary School", "address": "Chitwan", "type": "Secondary"},
+    {"name": "Shree Secondary School", "address": "Chitwan", "type": "Secondary"},
+    {"name": "Vishwaprakash Secondary School", "address": "Chitwan", "type": "Secondary"}
+  ],
+  "colleges": [
+    {"name": "Chitwan Medical College", "address": "Bharatpur-13, Chitwan", "contact": "980-2932933", "website": "https://www.cmc.edu.np", "type": "Private", "affiliation": "TU", "programs": ["MBBS", "BDS", "BSc Nursing", "MD/MS"], "beds": 750},
+    {"name": "College of Medical Sciences", "address": "Bharatpur, Chitwan", "type": "Private", "affiliation": "KU", "beds": 550},
+    {"name": "Balkumari College", "address": "Narayanghat, Bharatpur", "type": "Higher Secondary", "affiliation": "TU", "programs": ["PCL Nursing", "BITM", "BBS"]},
+    {"name": "Boston International College", "address": "Bharatpur, Chitwan", "type": "Private", "programs": ["Management Studies"]},
+    {"name": "Forbes College", "address": "Chitwan, Bharatpur", "type": "Private", "programs": ["BCS IT", "BHM"]}
+  ],
+  "clinics": [
+    {"name": "Alpine Polyclinic", "address": "Hakim Chowk, Bharatpur", "services": ["OPD", "Laboratory", "Pharmacy", "X-Ray"]},
+    {"name": "National City Hospital", "address": "Hospital Road, Bharatpur-10", "contact": "056-493511", "services": ["Endoscopy", "Colonoscopy", "Diagnostic Services"]},
+    {"name": "Chitwan Hospital", "address": "Dursanchar Road, Bharatpur-10", "contact": "056-493101", "services": ["ICU", "OT", "Radiography", "Pathology"], "beds": 55},
+    {"name": "Bharosa Hospital", "address": "Dursanchar Road, Bharatpur-10", "contact": "056-594060", "services": ["Multi-specialty"], "beds": 51},
+    {"name": "Bharatpur Hospital", "address": "Bharatpur, Chitwan", "contact": "056-597003", "services": ["Emergency", "OPD", "ICU", "Surgery"]}
+  ],
+  "blood_banks": [
+    {"name": "Bharatpur Hospital Blood Bank", "address": "Block 'B', Bharatpur Hospital", "contact": "056-597003", "type": "Hospital", "capacity": "200 units"},
+    {"name": "NRCS Regional BTSC", "address": "Bharatpur, Chitwan", "contact": "056-520880", "type": "Regional"},
+    {"name": "BP Koirala Memorial Cancer Hospital Blood Bank", "address": "Bharatpur, Chitwan", "contact": "056-524501", "type": "Hospital"}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "data_type": "pharmacies",
+    "last_updated": "2025-01-24"
+  },
+  "pharmacies": [
+    {
+      "name": "Nepal Chemists and Druggists Association",
+      "address": "118 Ganeshgalli-1, Chhetrapati, Kathmandu",
+      "contact": "01-4269483",
+      "email": "ncdacentraloffice@gmail.com",
+      "website": "https://ncda.org.np",
+      "type": "Professional Association",
+      "hours": "Sunday-Friday",
+      "services": ["Membership", "Drug Price Enforcement", "Policy Advocacy"]
+    },
+    {
+      "name": "National Pharmacy",
+      "address": "Chabahil, Kathmandu",
+      "contact": "01-4466204",
+      "contact_secondary": "9801035218",
+      "email": "nationalpharmacy@hotmail.com",
+      "type": "Chain Pharmacy",
+      "hours": "7:00 AM - 8:00 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Home Delivery"]
+    },
+    {
+      "name": "Om Pharmacy",
+      "address": "New Road Gate, Kathmandu",
+      "contact": "01-4222644",
+      "contact_secondary": "01-4244658",
+      "type": "Chain Pharmacy",
+      "hours": "7:30 AM - 8:00 PM",
+      "services": ["Prescription", "Generic Medicines", "Medical Equipment"]
+    },
+    {
+      "name": "Bir Hospital Pharmacy",
+      "address": "Bir Hospital, Mahaboudha, New Road, Kathmandu",
+      "contact": "01-4230710",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Service", "Inpatient", "Outpatient", "Emergency Medications"]
+    },
+    {
+      "name": "Tribhuvan University Teaching Hospital Pharmacy",
+      "address": "Teaching Hospital, Maharajgunj, Kathmandu",
+      "contact": "01-4412303",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Service", "Hospital Formulary", "Specialty Medications"]
+    },
+    {
+      "name": "Patan Hospital Pharmacy",
+      "address": "Patan Hospital, Lagankhel, Lalitpur",
+      "contact": "01-5522278",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Service", "Outpatient", "Hospital Formulary"]
+    },
+    {
+      "name": "Star Hospital Pharmacy",
+      "address": "Star Hospital, Sanepa-2, Lalitpur",
+      "contact": "01-5450198",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Pharmacy", "ICU Medications", "Home Delivery"]
+    },
+    {
+      "name": "Grande International Hospital Pharmacy",
+      "address": "Grande International Hospital, Dhapasi, Kathmandu",
+      "contact": "01-5159266",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Service", "Open to Public", "Specialty Drugs"]
+    },
+    {
+      "name": "Alka Hospital Pharmacy",
+      "address": "Alka Hospital, Jawlakhel, Lalitpur",
+      "contact": "01-5970795",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Pharmacy", "Discount for Members", "Specialty Medications"]
+    },
+    {
+      "name": "HAMS Hospital Pharmacy",
+      "address": "HAMS Hospital, Dhumbarahi, Kathmandu",
+      "contact": "01-4377404",
+      "type": "Hospital Pharmacy",
+      "hours": "24 Hours",
+      "services": ["24-hour Pharmacy", "ICU", "NICU Medications"]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {
+      "name": "Gandaki Boarding School",
+      "address": "Lamachaur, Ward-16, Pokhara",
+      "contact": "061-440398",
+      "contact_secondary": "061-440414",
+      "type": "Private",
+      "level": "Nursery to +2",
+      "category": "boarding"
+    },
+    {
+      "name": "Shree Amarsingh Model Secondary School",
+      "address": "Ramghat-12, Pokhara",
+      "contact": "061-520359",
+      "contact_secondary": "061-532841",
+      "type": "Public",
+      "level": "Nursery to +2"
+    },
+    {
+      "name": "SOS Hermann Gmeiner School",
+      "address": "Chhorepatan, Ward-17, Pokhara",
+      "contact": "061-453307",
+      "type": "Private",
+      "level": "KG to +2",
+      "category": "boarding"
+    },
+    {
+      "name": "Shree Sainik Awasiya Mahavidyalaya",
+      "address": "Phoolbari, Ward-11, Pokhara",
+      "contact": "061-577745",
+      "contact_secondary": "061-577746",
+      "type": "Public",
+      "level": "Grade 6 to +2",
+      "category": "military_residential"
+    },
+    {
+      "name": "New Model Secondary School",
+      "address": "Naghdhunga, Ward-8, Pokhara",
+      "contact": "061-520484",
+      "type": "Private",
+      "level": "Nursery to +2",
+      "category": "boarding"
+    },
+    {
+      "name": "Pokhara Public School",
+      "address": "Swagatnagar, Ward-14, Pokhara",
+      "type": "Public",
+      "level": "Primary to Secondary"
+    },
+    {
+      "name": "Pokhara Kindergarten High School",
+      "address": "Gharipatan, Ward-17, Pokhara",
+      "contact": "061-460736",
+      "type": "Private",
+      "level": "KG to Secondary"
+    },
+    {
+      "name": "Shree Mahendra Secondary School",
+      "address": "Bhalam, Ryalechaur, Pokhara",
+      "contact": "061-528100",
+      "type": "Public",
+      "level": "Primary to Secondary"
+    },
+    {
+      "name": "Gandaki College of Engineering and Science",
+      "address": "Lamachaur, Pokhara",
+      "type": "Private",
+      "affiliation": "Pokhara University",
+      "programs": ["BE", "BSc CSIT"]
+    },
+    {
+      "name": "Pokhara Engineering College",
+      "address": "Phirke, Pokhara",
+      "type": "Private",
+      "affiliation": "Pokhara University",
+      "programs": ["BE"]
+    }
+  ]
+}

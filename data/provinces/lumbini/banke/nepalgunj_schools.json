@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "district": "Banke",
+    "province": "Lumbini",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Mahendra Secondary School", "address": "Nepalgunj, Banke", "contact": "081-520274", "established": 1959, "type": "Community", "level": "ECD to Grade 10, +2"},
+    {"name": "Mangal Prasad Secondary School", "address": "MP Road, Nepalgunj", "contact": "081-520150", "email": "mpschool1985@gmail.com", "established": 1928, "type": "Public", "level": "ECD to Class 12"},
+    {"name": "Adarsh Secondary School", "address": "Surkhet Road, Nepalgunj", "contact": "081-527594", "email": "adarshschoolnepalgunj@gmail.com", "established": 1999, "type": "Private", "level": "Nursery to +2"},
+    {"name": "Gyanodaya Secondary School", "address": "Khajura-3, Nepalgunj", "contact": "081-560097", "established": 1978, "type": "Community"},
+    {"name": "Gyanodaya Model Secondary School", "address": "Khajura-3, Nepalgunj", "contact": "081-560097", "type": "Community"},
+    {"name": "Shree Fultekra Ma Vi", "address": "Lumbini, Banke", "type": "Public"},
+    {"name": "Bal Vidhya Mandir Secondary School", "address": "Nepalgunj, Banke", "type": "Public"}
+  ],
+  "colleges": [
+    {"name": "Nepalgunj Medical College", "address": "B.P. Chowk, Nepalgunj-16", "contact": "081-521572", "email": "ngmcmdoffice@gmail.com", "website": "www.ngmc.edu.np", "type": "Private", "affiliation": "KU", "programs": ["MBBS", "BDS", "B.Sc Nursing", "MD/MS"], "beds": 1080},
+    {"name": "Mahendra Multiple Campus", "address": "Nepalgunj-13, Bhansar Road", "contact": "081-528041", "email": "mmcnepalgunj@gmail.com", "website": "www.mmcn.edu.np", "type": "Constituent", "affiliation": "TU", "programs": ["BA", "BSc", "BBS", "BBA", "BCA", "B.Ed", "MBS", "MA"], "students": "5000+"},
+    {"name": "Banke Education Campus", "address": "Nepalgunj, Banke", "contact": "081-524936", "email": "banke.education@gmail.com", "type": "Community", "affiliation": "TU", "programs": ["B.Ed"]},
+    {"name": "Nepalgunj Nursing Campus", "address": "Ward-10, near Bheri Hospital", "contact": "081-520174", "type": "Constituent", "affiliation": "IOM, TU", "programs": ["PCL Nursing", "BNS", "B.Sc Nursing"]},
+    {"name": "City College of Management", "address": "Banke, Nepalgunj", "contact": "081-531075", "type": "Private", "affiliation": "TU"},
+    {"name": "Nepalgunj College of Management and Technology", "address": "Ganeshmanchowk, Nepalgunj", "contact": "081-522883", "type": "Private", "affiliation": "TU"}
+  ],
+  "clinics": [
+    {"name": "Laxmi Saraswati Polyclinic", "address": "Nepalgunj, Banke", "contact": "081-520157"},
+    {"name": "Sagarmatha Polyclinic", "address": "Sadar Line Road, Nepalgunj", "contact": "081-520157"},
+    {"name": "Nepalgunj Polyclinic", "address": "Gurudwara Road, Nepalgunj"},
+    {"name": "Bheri Poly Clinic", "address": "Nepalgunj 21900"},
+    {"name": "Shifa Pathalogy", "address": "Pasang Lhamu Road, Nepalgunj", "contact": "9866841478", "hours": "10:00-17:00"},
+    {"name": "New Prem Health Clinic", "address": "Bus Park Road, Nepalgunj", "contact": "9802526228"},
+    {"name": "Central City Hospital", "address": "H12 Ratna Highway, Nepalgunj", "contact": "081-521343"},
+    {"name": "Bhawani Kalika Diagnostic Center", "address": "Nepalgunj, Banke"}
+  ],
+  "blood_banks": [
+    {"name": "Lumbini Provincial Blood Bank", "address": "Bheri Hospital Premises, Nepalgunj", "contact": "081-520174", "type": "Provincial", "established": "July 2025"},
+    {"name": "NRCS Regional BTSC", "address": "Banke, Nepalgunj", "contact": "081-520174", "type": "Regional"},
+    {"name": "Bheri Hospital Blood Bank", "address": "Bheri Zonal Hospital, Nepalgunj", "contact": "081-520305", "type": "Hospital"}
+  ]
+}

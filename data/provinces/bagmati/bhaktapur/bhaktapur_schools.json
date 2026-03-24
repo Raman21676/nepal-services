@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "city": "Bhaktapur",
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Sainik Awasiya Mahavidyalaya Bhaktapur", "address": "Sallaghari, Bhaktapur", "type": "Public Residential"},
+    {"name": "Adarsha Azad Secondary School", "address": "Bhaktapur", "type": "Secondary"},
+    {"name": "Bagiswori Secondary School", "address": "Chyamhasing, Bhaktapur", "type": "Secondary"},
+    {"name": "Saraswoti Vidhya Griha", "address": "Bhaktapur", "contact": "01-6610202", "type": "Secondary"},
+    {"name": "Scholars Home Academy", "address": "Bhaktapur", "contact": "01-6612892", "type": "Secondary"},
+    {"name": "Sharada Secondary School", "address": "Bhaktapur", "contact": "01-6610209", "type": "Secondary"},
+    {"name": "Suryavinayak English School", "address": "Bhaktapur", "contact": "01-6610878", "type": "English Medium"},
+    {"name": "Everest English School", "address": "Bhaktapur", "type": "English Medium"}
+  ],
+  "colleges": [
+    {"name": "Bhaktapur Multiple Campus", "address": "Doodhpati, Bhaktapur", "contact": "01-6610200", "type": "Public", "affiliation": "TU", "programs": ["BBA", "BCA", "BSc CSIT", "BBS", "BIT", "BIM", "MBS", "MA"]},
+    {"name": "Khwopa College of Engineering", "address": "Bhaktapur", "type": "Community", "affiliation": "TU", "programs": ["BE Computer", "BE Civil"]},
+    {"name": "Khwopa College", "address": "Bhaktapur", "type": "Community", "affiliation": "TU", "programs": ["BBS", "BIM", "BA"]},
+    {"name": "Bhaktapur Technical Training Center", "address": "Bhaktapur", "type": "Technical", "programs": ["Diploma in Engineering"]},
+    {"name": "Ambika Health Training Center", "address": "Katunje, Bhaktapur", "type": "Health Training", "programs": ["Health Assistant", "Nursing"]}
+  ],
+  "clinics": [
+    {"name": "Bhaktapur Polyclinic & Diagnostic Centre", "address": "Tulachhen-8, Sallaghari, Bhaktapur", "services": ["Cardiology", "Nephrology", "Orthopedics", "Gynecology", "Pathology"]},
+    {"name": "Bhaktapur Health Concern", "address": "Bhaktapur", "services": ["Routine Care", "Diagnostics", "Specialty Services"]},
+    {"name": "Ayu Superspeciality Clinic", "address": "Gatthaghar-3, Bhaktapur", "contact": "9762420022", "services": ["Ortho-surgery", "Superspecialty consultations"]},
+    {"name": "Clinic One - Bhaktapur", "address": "Bhaktapur", "services": ["OPD", "Vaccination", "Ultrasound", "X-ray", "ECHO", "Endoscopy"]},
+    {"name": "Bhaktapur Cancer Hospital", "address": "Dudhpati, Bhaktapur", "contact": "01-6611532", "type": "Cancer Specialty"}
+  ],
+  "blood_banks": [
+    {"name": "Bhaktapur NRCS Blood Bank", "address": "Bhaktapur", "contact": "01-6611661", "type": "Regional"},
+    {"name": "Bhaktapur Blood Bank", "address": "Bhaktapur", "contact": "01-6622991", "type": "District"}
+  ]
+}

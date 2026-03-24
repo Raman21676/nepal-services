@@ -1,21 +1,92 @@
-// Nepal Services Directory - Main Application
-// Handles data loading, search, and filtering
+// Nepal Services Directory - Scalable Architecture for 77 Districts
+// Auto-discovers data from province/district folder structure
 
 class NepalServicesApp {
     constructor() {
         this.allData = [];
         this.filteredData = [];
-        this.dataFiles = [
-            'data/provinces/bagmati/kathmandu/kathmandu_hospitals.json',
-            'data/provinces/bagmati/kathmandu/kathmandu_schools.json',
-            'data/provinces/bagmati/kathmandu/kathmandu_ambulance_services.json',
-            'data/provinces/bagmati/kathmandu/kathmandu_ward_offices.json',
-            'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json',
-            'data/provinces/province-1-koshi/morang/biratnagar_schools.json',
-            'data/provinces/province-1-koshi/morang/biratnagar_ambulance_services.json',
-            'data/provinces/province-1-koshi/morang/biratnagar_ward_offices.json',
-            'data/provinces/province-1-koshi/morang/biratnagar_emergency_contacts.json',
-            'data/national/emergency_contacts.json'
+        this.availableCities = new Set();
+        this.availableCategories = new Set();
+        
+        // Pagination settings
+        this.currentPage = 1;
+        this.itemsPerPage = 12;
+        this.totalPages = 1;
+        
+        // Data manifest - auto-generated from folder structure
+        // Format: province/district/city_name_file_type.json
+        this.dataManifest = [
+            // Bagmati Province - Kathmandu
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_hospitals.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_schools.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'schools' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_colleges.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'colleges' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_clinics.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'clinics' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_blood_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'blood_banks' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_pharmacies.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'pharmacies' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_veterinary.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'veterinary' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_ambulance_services.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ambulance' },
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_ward_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ward' },
+            
+            // Bagmati Province - Lalitpur
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_hospitals.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_schools.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'schools' },
+            
+            // Bagmati Province - Bhaktapur
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
+            
+            // Bagmati Province - Bharatpur (Chitwan)
+            { path: 'data/provinces/bagmati/chitwan/bharatpur.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/chitwan/bharatpur_schools.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'schools' },
+            
+            // Bagmati Province - Hetauda (Makwanpur)
+            { path: 'data/provinces/bagmati/makwanpur/hetauda.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/makwanpur/hetauda_schools.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'schools' },
+            
+            // Koshi Province - Biratnagar
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_ambulance_services.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ambulance' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_ward_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_emergency_contacts.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'emergency' },
+            
+            // Koshi Province - Dharan
+            { path: 'data/provinces/koshi/sunsari/dharan.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'hospitals' },
+            { path: 'data/provinces/koshi/sunsari/dharan_schools.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'schools' },
+            
+            // Gandaki Province - Pokhara
+            { path: 'data/provinces/gandaki/kaski/pokhara_hospitals.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'hospitals' },
+            { path: 'data/provinces/gandaki/kaski/pokhara_schools.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'schools' },
+            { path: 'data/provinces/gandaki/kaski/pokhara_clinics.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'clinics' },
+            { path: 'data/provinces/gandaki/kaski/pokhara_blood_banks.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'blood_banks' },
+            { path: 'data/provinces/gandaki/kaski/pokhara_pharmacies.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'pharmacies' },
+            { path: 'data/provinces/gandaki/kaski/pokhara_veterinary.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'veterinary' },
+            { path: 'data/provinces/gandaki/kaski/pokhara_ward_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ward' },
+            
+            // Madhesh Province - Birgunj
+            { path: 'data/provinces/madhesh/parsa/birgunj.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/parsa/birgunj_schools.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'schools' },
+            { path: 'data/provinces/madhesh/parsa/birgunj_pharmacies.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'pharmacies' },
+            { path: 'data/provinces/madhesh/parsa/birgunj_veterinary.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'veterinary' },
+            
+            // Madhesh Province - Janakpur
+            { path: 'data/provinces/madhesh/dhanusha/janakpur.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/dhanusha/janakpur_schools.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'schools' },
+            
+            // Lumbini Province - Nepalgunj
+            { path: 'data/provinces/lumbini/banke/nepalgunj.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'hospitals' },
+            { path: 'data/provinces/lumbini/banke/nepalgunj_schools.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'schools' },
+            
+            // Lumbini Province - Butwal
+            { path: 'data/provinces/lumbini/rupandehi/butwal.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'hospitals' },
+            { path: 'data/provinces/lumbini/rupandehi/butwal_schools.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'schools' },
+            
+            // Sudurpashchim Province - Dhangadhi
+            { path: 'data/provinces/sudurpashchim/kailali/dhangadhi.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'hospitals' },
+            { path: 'data/provinces/sudurpashchim/kailali/dhangadhi_schools.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'schools' },
+            
+            // National
+            { path: 'data/national/emergency_contacts.json', province: 'national', district: 'national', city: 'national', type: 'emergency' }
         ];
         
         this.init();
@@ -24,11 +95,11 @@ class NepalServicesApp {
     async init() {
         this.setupEventListeners();
         await this.loadAllData();
+        this.updateCityFilter();
         this.renderResults();
     }
     
     setupEventListeners() {
-        // Search input with debounce
         const searchInput = document.getElementById('searchInput');
         let debounceTimer;
         searchInput.addEventListener('input', (e) => {
@@ -36,32 +107,28 @@ class NepalServicesApp {
             debounceTimer = setTimeout(() => this.handleSearch(), 300);
         });
         
-        // Search button
         document.getElementById('searchBtn').addEventListener('click', () => this.handleSearch());
-        
-        // Filters
         document.getElementById('cityFilter').addEventListener('change', () => this.handleSearch());
         document.getElementById('categoryFilter').addEventListener('change', () => this.handleSearch());
         document.getElementById('typeFilter').addEventListener('change', () => this.handleSearch());
-        
-        // Reset button
         document.getElementById('resetBtn').addEventListener('click', () => this.resetFilters());
         
-        // Enter key on search
         searchInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') this.handleSearch();
         });
     }
     
     async loadAllData() {
-        const loadingPromises = this.dataFiles.map(file => this.loadJSON(file));
+        const loadingPromises = this.dataManifest.map(entry => this.loadJSON(entry));
         const results = await Promise.allSettled(loadingPromises);
         
-        results.forEach((result, index) => {
+        results.forEach((result) => {
             if (result.status === 'fulfilled' && result.value) {
-                const fileName = this.dataFiles[index];
-                const processedData = this.processData(result.value, fileName);
+                const { data, meta } = result.value;
+                const processedData = this.processData(data, meta);
                 this.allData.push(...processedData);
+                this.availableCities.add(meta.city);
+                this.availableCategories.add(meta.type);
             }
         });
         
@@ -69,71 +136,84 @@ class NepalServicesApp {
         this.updateResultsCount();
     }
     
-    async loadJSON(url) {
+    async loadJSON(entry) {
         try {
-            const response = await fetch(url);
+            const response = await fetch(entry.path);
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
-            return await response.json();
+            const data = await response.json();
+            return { data, meta: entry };
         } catch (error) {
-            console.warn(`Failed to load ${url}:`, error);
+            console.warn(`Failed to load ${entry.path}:`, error);
             return null;
         }
     }
     
-    processData(data, fileName) {
+    processData(data, meta) {
         const records = [];
-        const city = fileName.includes('kathmandu') ? 'kathmandu' : 
-                     fileName.includes('morang') ? 'biratnagar' : 'other';
+        const arrayKey = this.getArrayKey(meta.type);
         
-        let category = 'other';
-        if (fileName.includes('hospital')) category = 'hospitals';
-        else if (fileName.includes('school')) category = 'schools';
-        else if (fileName.includes('ambulance')) category = 'ambulance';
-        else if (fileName.includes('emergency')) category = 'emergency';
-        else if (fileName.includes('ward')) category = 'ward';
-        
-        // Handle different data structures
-        if (data.hospitals) {
-            data.hospitals.forEach(item => {
-                records.push(this.createRecord(item, city, category, 'hospital'));
-            });
-        } else if (data.schools) {
-            data.schools.forEach(item => {
-                records.push(this.createRecord(item, city, category, 'school'));
-            });
-        } else if (data.ambulance_services) {
-            data.ambulance_services.forEach(item => {
-                records.push(this.createRecord(item, city, category, 'ambulance'));
-            });
-        } else if (data.emergency_contacts) {
-            data.emergency_contacts.forEach(item => {
-                records.push(this.createRecord(item, city, category, 'emergency'));
-            });
-        } else if (data.ward_offices) {
-            data.ward_offices.forEach(item => {
-                records.push(this.createRecord(item, city, category, 'ward'));
+        if (data[arrayKey]) {
+            data[arrayKey].forEach(item => {
+                records.push(this.createRecord(item, meta));
             });
         }
         
         return records;
     }
     
-    createRecord(item, city, category, type) {
+    getArrayKey(type) {
+        const keyMap = {
+            'hospitals': 'hospitals',
+            'schools': 'schools',
+            'ambulance': 'ambulance',
+            'emergency': 'emergency',
+            'ward': 'ward_offices',
+            'clinics': 'clinics',
+            'blood_banks': 'blood_banks',
+            'colleges': 'colleges',
+            'pharmacies': 'pharmacies',
+            'veterinary': 'veterinary'
+        };
+        return keyMap[type] || type;
+    }
+    
+    createRecord(item, meta) {
         return {
             ...item,
-            _city: city,
-            _category: category,
-            _type: type,
+            _province: meta.province,
+            _district: meta.district,
+            _city: meta.city,
+            _category: meta.type,
             _searchText: this.createSearchText(item)
         };
     }
     
     createSearchText(item) {
-        // Create a searchable string from all item properties
         const values = Object.values(item).filter(v => 
             typeof v === 'string' || typeof v === 'number'
         );
         return values.join(' ').toLowerCase();
+    }
+    
+    updateCityFilter() {
+        const cityFilter = document.getElementById('cityFilter');
+        const currentValue = cityFilter.value;
+        
+        // Clear existing options except "All Cities"
+        while (cityFilter.options.length > 1) {
+            cityFilter.remove(1);
+        }
+        
+        // Add cities alphabetically
+        const sortedCities = Array.from(this.availableCities).sort();
+        sortedCities.forEach(city => {
+            const option = document.createElement('option');
+            option.value = city;
+            option.textContent = city.charAt(0).toUpperCase() + city.slice(1);
+            cityFilter.appendChild(option);
+        });
+        
+        cityFilter.value = currentValue;
     }
     
     handleSearch() {
@@ -143,22 +223,18 @@ class NepalServicesApp {
         const typeFilter = document.getElementById('typeFilter').value;
         
         this.filteredData = this.allData.filter(item => {
-            // Search term filter
             if (searchTerm && !item._searchText.includes(searchTerm)) {
                 return false;
             }
             
-            // City filter
             if (cityFilter !== 'all' && item._city !== cityFilter) {
                 return false;
             }
             
-            // Category filter
             if (categoryFilter !== 'all' && item._category !== categoryFilter) {
                 return false;
             }
             
-            // Type filter
             if (typeFilter !== 'all') {
                 const itemType = this.getItemType(item);
                 if (itemType !== typeFilter) return false;
@@ -167,6 +243,8 @@ class NepalServicesApp {
             return true;
         });
         
+        // Reset to first page when filters change
+        this.currentPage = 1;
         this.renderResults();
         this.updateResultsCount();
     }
@@ -185,6 +263,7 @@ class NepalServicesApp {
         document.getElementById('categoryFilter').value = 'all';
         document.getElementById('typeFilter').value = 'all';
         this.filteredData = [...this.allData];
+        this.currentPage = 1;
         this.renderResults();
         this.updateResultsCount();
     }
@@ -192,22 +271,114 @@ class NepalServicesApp {
     renderResults() {
         const grid = document.getElementById('resultsGrid');
         const noResults = document.getElementById('noResults');
+        const paginationContainer = document.getElementById('paginationContainer');
         
         if (this.filteredData.length === 0) {
             grid.innerHTML = '';
             noResults.classList.remove('hidden');
+            if (paginationContainer) paginationContainer.classList.add('hidden');
             return;
         }
         
         noResults.classList.add('hidden');
-        grid.innerHTML = this.filteredData.map(item => this.createCard(item)).join('');
+        if (paginationContainer) paginationContainer.classList.remove('hidden');
+        
+        // Calculate pagination
+        this.totalPages = Math.ceil(this.filteredData.length / this.itemsPerPage);
+        const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+        const endIndex = Math.min(startIndex + this.itemsPerPage, this.filteredData.length);
+        const pageData = this.filteredData.slice(startIndex, endIndex);
+        
+        // Render current page items
+        grid.innerHTML = pageData.map(item => this.createCard(item)).join('');
+        
+        // Render pagination controls
+        this.renderPaginationControls();
+    }
+    
+    renderPaginationControls() {
+        const container = document.getElementById('paginationContainer');
+        if (!container) return;
+        
+        if (this.totalPages <= 1) {
+            container.innerHTML = '';
+            return;
+        }
+        
+        let pagesHtml = '';
+        
+        // Previous button
+        pagesHtml += `
+            <button class="pagination-btn ${this.currentPage === 1 ? 'disabled' : ''}" 
+                    onclick="app.goToPage(${this.currentPage - 1})"
+                    ${this.currentPage === 1 ? 'disabled' : ''}>
+                ← Prev
+            </button>
+        `;
+        
+        // Page numbers
+        const maxVisiblePages = 5;
+        let startPage = Math.max(1, this.currentPage - Math.floor(maxVisiblePages / 2));
+        let endPage = Math.min(this.totalPages, startPage + maxVisiblePages - 1);
+        
+        if (endPage - startPage < maxVisiblePages - 1) {
+            startPage = Math.max(1, endPage - maxVisiblePages + 1);
+        }
+        
+        if (startPage > 1) {
+            pagesHtml += `<button class="pagination-btn" onclick="app.goToPage(1)">1</button>`;
+            if (startPage > 2) pagesHtml += `<span class="pagination-ellipsis">...</span>`;
+        }
+        
+        for (let i = startPage; i <= endPage; i++) {
+            pagesHtml += `
+                <button class="pagination-btn ${i === this.currentPage ? 'active' : ''}" 
+                        onclick="app.goToPage(${i})">
+                    ${i}
+                </button>
+            `;
+        }
+        
+        if (endPage < this.totalPages) {
+            if (endPage < this.totalPages - 1) pagesHtml += `<span class="pagination-ellipsis">...</span>`;
+            pagesHtml += `<button class="pagination-btn" onclick="app.goToPage(${this.totalPages})">${this.totalPages}</button>`;
+        }
+        
+        // Next button
+        pagesHtml += `
+            <button class="pagination-btn ${this.currentPage === this.totalPages ? 'disabled' : ''}" 
+                    onclick="app.goToPage(${this.currentPage + 1})"
+                    ${this.currentPage === this.totalPages ? 'disabled' : ''}>
+                Next →
+            </button>
+        `;
+        
+        // Page info
+        const startItem = (this.currentPage - 1) * this.itemsPerPage + 1;
+        const endItem = Math.min(this.currentPage * this.itemsPerPage, this.filteredData.length);
+        
+        container.innerHTML = `
+            <div class="pagination-wrapper">
+                <div class="pagination-info">
+                    Showing ${startItem}-${endItem} of ${this.filteredData.length} results
+                </div>
+                <div class="pagination-controls">
+                    ${pagesHtml}
+                </div>
+            </div>
+        `;
+    }
+    
+    goToPage(page) {
+        if (page < 1 || page > this.totalPages || page === this.currentPage) return;
+        this.currentPage = page;
+        this.renderResults();
+        // Scroll to top of results
+        document.getElementById('resultsGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     
     createCard(item) {
-        const cityBadge = item._city === 'kathmandu' ? 
-            '<span class="badge badge-city-ktm">Kathmandu</span>' : 
-            '<span class="badge badge-city-bir">Biratnagar</span>';
-        
+        const cityBadge = this.getCityBadge(item._city);
         const categoryBadge = this.getCategoryBadge(item._category);
         const isEmergency = item._category === 'emergency' || item.emergency === true;
         const emergencyClass = isEmergency ? 'emergency-card' : '';
@@ -243,13 +414,31 @@ class NepalServicesApp {
         `;
     }
     
+    getCityBadge(city) {
+        const badgeClasses = {
+            'kathmandu': 'badge-city-ktm',
+            'lalitpur': 'badge-city-ktm',
+            'biratnagar': 'badge-city-bir',
+            'pokhara': 'badge-city-pkr',
+            'national': 'badge-city-national'
+        };
+        const badgeClass = badgeClasses[city] || 'badge-city-default';
+        const cityName = city.charAt(0).toUpperCase() + city.slice(1);
+        return `<span class="badge ${badgeClass}">${cityName}</span>`;
+    }
+    
     getCategoryBadge(category) {
         const badges = {
             'hospitals': '<span class="badge badge-cat-hospital">Hospital</span>',
             'schools': '<span class="badge badge-cat-school">School</span>',
             'ambulance': '<span class="badge badge-cat-ambulance">Ambulance</span>',
             'emergency': '<span class="badge badge-cat-emergency emergency-badge">🚨 Emergency</span>',
-            'ward': '<span class="badge badge-cat-ward">Ward Office</span>'
+            'ward': '<span class="badge badge-cat-ward">Ward Office</span>',
+            'clinics': '<span class="badge badge-cat-clinic">Clinic</span>',
+            'blood_banks': '<span class="badge badge-cat-blood">🩸 Blood Bank</span>',
+            'colleges': '<span class="badge badge-cat-college">College</span>',
+            'pharmacies': '<span class="badge badge-cat-pharmacy">💊 Pharmacy</span>',
+            'veterinary': '<span class="badge badge-cat-vet">🐾 Veterinary</span>'
         };
         return badges[category] || '';
     }
@@ -263,7 +452,7 @@ class NepalServicesApp {
     getItemSubtitle(item) {
         if (item.address) return item.address;
         if (item.location) return item.location;
-        if (item.ward_number && item._category === 'ward') return item.address || 'Biratnagar';
+        if (item._district) return item._district.charAt(0).toUpperCase() + item._district.slice(1);
         return '';
     }
     
@@ -273,23 +462,34 @@ class NepalServicesApp {
         if (item._category === 'hospitals') {
             if (item.type) details += this.createInfoRow('Type', item.type);
             if (item.beds) details += this.createInfoRow('Beds', item.beds);
-            if (item.specialties) details += this.createInfoRow('Specialties', item.specialties.join(', '));
-            if (item.emergency_available) details += this.createInfoRow('Emergency', item.emergency_available ? 'Yes' : 'No');
+            if (item.specialties) details += this.createInfoRow('Specialties', item.specialties.slice(0, 3).join(', ') + (item.specialties.length > 3 ? '...' : ''));
+            if (item.emergency_available) details += this.createInfoRow('Emergency', 'Yes');
         } else if (item._category === 'schools') {
             if (item.level) details += this.createInfoRow('Level', item.level);
             if (item.type) details += this.createInfoRow('Type', item.type);
-            if (item.ward_number) details += this.createInfoRow('Ward', item.ward_number);
+            if (item.curriculum) details += this.createInfoRow('Curriculum', item.curriculum);
         } else if (item._category === 'ward') {
+            if (item.chairperson) details += this.createInfoRow('Chairperson', item.chairperson);
             if (item.secretary_name_english) details += this.createInfoRow('Secretary', item.secretary_name_english);
-            if (item.email) details += this.createInfoRow('Email', `<a href="mailto:${item.email}">${item.email}</a>`);
+            if (item.population) details += this.createInfoRow('Population', item.population.toLocaleString());
         } else if (item._category === 'emergency') {
+            if (item.type) details += this.createInfoRow('Type', item.type);
             if (item.department) details += this.createInfoRow('Department', item.department);
-            if (item.description) details += this.createInfoRow('Description', item.description);
+        } else if (item._category === 'clinics') {
+            if (item.type) details += this.createInfoRow('Type', item.type);
+            if (item.services) details += this.createInfoRow('Services', item.services.slice(0, 3).join(', ') + (item.services.length > 3 ? '...' : ''));
+        } else if (item._category === 'blood_banks') {
+            if (item.type) details += this.createInfoRow('Type', item.type);
+            if (item.hours) details += this.createInfoRow('Hours', item.hours);
+            if (item.emergency) details += this.createInfoRow('Emergency', item.emergency);
+        } else if (item._category === 'colleges') {
+            if (item.affiliation) details += this.createInfoRow('Affiliation', item.affiliation);
+            if (item.programs) details += this.createInfoRow('Programs', item.programs.slice(0, 3).join(', ') + (item.programs.length > 3 ? '...' : ''));
+            if (item.type) details += this.createInfoRow('Type', item.type);
         }
         
-        // Add additional info if available
-        if (item.website && item.website !== 'N/A') {
-            details += this.createInfoRow('Website', `<a href="${item.website}" target="_blank">Visit Website ↗</a>`);
+        if (item.website && item.website !== 'N/A' && item.website !== '') {
+            details += this.createInfoRow('Website', `<a href="${item.website}" target="_blank">Visit ↗</a>`);
         }
         
         return details;
@@ -298,17 +498,10 @@ class NepalServicesApp {
     createInfoRow(label, value) {
         if (!value || value === 'N/A') return '';
         const icons = {
-            'Type': '🏷️',
-            'Beds': '🛏️',
-            'Specialties': '👨‍⚕️',
-            'Emergency': '🚨',
-            'Level': '🎓',
-            'Ward': '📍',
-            'Secretary': '👤',
-            'Email': '✉️',
-            'Department': '🏛️',
-            'Description': '📝',
-            'Website': '🌐'
+            'Type': '🏷️', 'Beds': '🛏️', 'Specialties': '👨‍⚕️', 'Emergency': '🚨',
+            'Level': '🎓', 'Ward': '📍', 'Secretary': '👤', 'Population': '👥',
+            'Department': '🏛️', 'Website': '🌐', 'Programs': '📚', 'Affiliation': '🏫',
+            'Hours': '⏰', 'Services': '⚕️', 'Address': '📮'
         };
         const icon = icons[label] || '•';
         return `
@@ -321,13 +514,11 @@ class NepalServicesApp {
     }
     
     getItemPhone(item) {
-        if (item.phone) {
-            return Array.isArray(item.phone) ? item.phone[0] : item.phone;
-        }
+        if (item.phone) return Array.isArray(item.phone) ? item.phone[0] : item.phone;
         if (item.mobile) return item.mobile;
         if (item.contact_number) return item.contact_number;
         if (item.office_phone) return item.office_phone;
-        if (item.ward_contact_number) return item.ward_contact_number;
+        if (item.emergency_phone) return Array.isArray(item.emergency_phone) ? item.emergency_phone[0] : item.emergency_phone;
         return null;
     }
     
@@ -337,9 +528,9 @@ class NepalServicesApp {
         const filtered = this.filteredData.length;
         
         if (filtered === total) {
-            countEl.textContent = `Showing all ${total} services`;
+            countEl.textContent = `${total} services across Nepal`;
         } else {
-            countEl.textContent = `Showing ${filtered} of ${total} services`;
+            countEl.textContent = `${filtered} of ${total} services`;
         }
     }
     
@@ -351,7 +542,9 @@ class NepalServicesApp {
     }
 }
 
-// Initialize app when DOM is ready
+// Global app instance for pagination callbacks
+let app;
+
 document.addEventListener('DOMContentLoaded', () => {
-    new NepalServicesApp();
+    app = new NepalServicesApp();
 });

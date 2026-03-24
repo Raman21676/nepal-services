@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "city": "Bhaktapur",
+    "city_type": "Municipality",
+    "population": "83,658",
+    "area_sq_km": "6.88",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Bhaktapur Hospital",
+      "address": "Dudhpati, Bhaktapur Municipality",
+      "contact": "01-6610798",
+      "contact_secondary": "01-6610676",
+      "email": "bhaktapurhospital@bagmati.gov.np",
+      "website": "https://bhaktapurhospital.gov.np",
+      "type": "Government",
+      "beds": 102,
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "Maternity",
+        "Pediatrics",
+        "ICU",
+        "COVID Ward",
+        "Orthopedics",
+        "ENT",
+        "Eye",
+        "Dental",
+        "Gynecology",
+        "Physiotherapy"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Madhyapur Hospital",
+      "address": "Shankhadhar Chowk, Madhyapur Thimi-4, Bhaktapur",
+      "contact": "01-5093388",
+      "contact_secondary": "01-5093372",
+      "ambulance": "9851133613",
+      "email": "madhyapurhospital@gmail.com",
+      "website": "http://www.madhyapurhospital.com.np",
+      "type": "Private",
+      "beds": 100,
+      "services": [
+        "24/7 Emergency",
+        "NICU",
+        "ICU",
+        "MRI",
+        "Pharmacy",
+        "Laboratory"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Bhaktapur International Hospital",
+      "address": "Kaushaltar, Madhyapur Thimi, Bhaktapur",
+      "contact": "01-6637171",
+      "contact_secondary": "01-6637271",
+      "emergency_hotline": "9861991100",
+      "ambulance": "9861991100",
+      "email": "bihospital2021@gmail.com",
+      "website": "https://bihospital.org",
+      "type": "Private",
+      "beds": 50,
+      "services": [
+        "24/7 Emergency",
+        "Orthopedic",
+        "Cardiology",
+        "Gynecology",
+        "Dental",
+        "Radiology",
+        "Surgery",
+        "Neurology",
+        "ENT"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Bhaktapur Cancer Hospital",
+      "address": "Dudhpati, Bhaktapur Municipality, Chakhun",
+      "contact": "01-6611532",
+      "contact_secondary": "01-6614430",
+      "email": "bch@ntc.net.np",
+      "website": "https://bch.org.np",
+      "type": "Government/PPP",
+      "beds": 150,
+      "services": [
+        "Cancer Treatment",
+        "Chemotherapy",
+        "Radiotherapy",
+        "Oncology Surgery",
+        "Palliative Care"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "KMC Hospital",
+      "address": "Duwakot, Changunarayan Municipality, Bhaktapur",
+      "contact": "01-6616568",
+      "contact_secondary": "01-6616567",
+      "email": "info@kmc.edu.np",
+      "website": "https://kmc.edu.np",
+      "type": "Private",
+      "beds": 600,
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "HDU",
+        "Trauma Care",
+        "25+ Specialties"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Dr. Iwamura Memorial Hospital",
+      "address": "Sallaghari, Bhaktapur Municipality",
+      "contact": "01-6612705",
+      "ambulance": "9860025333",
+      "website": "https://www.iwamurahospital.com",
+      "type": "Private",
+      "services": [
+        "24 Hours Laboratory",
+        "Diagnostic Services"
+      ]
+    },
+    {
+      "name": "Siddhi Memorial Women and Children Hospital",
+      "address": "Adarsha Marga, Bhimsenthan-7, Bhaktapur",
+      "contact": "01-6612945",
+      "ambulance": "9841204991",
+      "email": "pravinrajbhandari@gmail.com",
+      "website": "https://smf.org.np",
+      "type": "Private",
+      "services": [
+        "Women and Children Care",
+        "24/7 Emergency"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepal Korea Friendship Municipality Hospital",
+      "address": "Madhyapur Thimi-5, Bhaktapur",
+      "contact": "01-6633442",
+      "ambulance": "01-6631000",
+      "email": "info@nkfmh.org.np",
+      "website": "https://nkfmh.org.np",
+      "type": "Government",
+      "services": [
+        "General Medicine",
+        "Dialysis Services"
+      ]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Bhaktapur Municipality Ambulance",
+      "contact": "01-6613200",
+      "contact_secondary": "9851082799",
+      "hours": "24/7"
+    },
+    {
+      "name": "Red Cross Ambulance Service",
+      "contact": "01-6612266",
+      "contact_secondary": "9841489408",
+      "hours": "24/7"
+    },
+    {
+      "name": "Madhyapur Hospital Ambulance",
+      "contact": "9851133613",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bhaktapur International Hospital Ambulance",
+      "contact": "9861991100",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bhaktapur Municipality",
+      "contact": "01-6610096",
+      "address": "Byasi, Bhaktapur (Ward No. 2)",
+      "email": "info@bhaktapurmun.gov.np",
+      "website": "https://www.bhaktapurmun.gov.np",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "Metropolitan Police Circle Bhaktapur",
+      "contact": "01-6614821",
+      "type": "Police"
+    },
+    {
+      "name": "District Police Office Bhaktapur",
+      "contact": "01-6610954",
+      "type": "Police"
+    },
+    {
+      "name": "Bhaktapur Blood Bank",
+      "contact": "01-6622991",
+      "type": "Blood Bank"
+    }
+  ],
+  "ward_offices": [
+    {"ward": 1, "address": "Ward 1, Bhaktapur Municipality"},
+    {"ward": 2, "address": "Byasi, Bhaktapur Municipality (Municipality Office)"},
+    {"ward": 3, "address": "Ward 3, Bhaktapur Municipality"},
+    {"ward": 4, "address": "Ward 4, Bhaktapur Municipality"},
+    {"ward": 5, "address": "Ward 5, Bhaktapur Municipality"},
+    {"ward": 6, "address": "Ward 6, Bhaktapur Municipality"},
+    {"ward": 7, "address": "Ward 7, Bhaktapur Municipality"},
+    {"ward": 8, "address": "Ward 8, Bhaktapur Municipality"},
+    {"ward": 9, "address": "Ward 9, Bhaktapur Municipality"},
+    {"ward": 10, "address": "Ward 10, Bhaktapur Municipality"},
+    {"ward": 11, "address": "Ward 11, Bhaktapur Municipality"},
+    {"ward": 12, "address": "Ward 12, Bhaktapur Municipality"},
+    {"ward": 13, "address": "Ward 13, Bhaktapur Municipality"},
+    {"ward": 14, "address": "Ward 14, Bhaktapur Municipality"},
+    {"ward": 15, "address": "Ward 15, Bhaktapur Municipality"},
+    {"ward": 16, "address": "Ward 16, Bhaktapur Municipality"},
+    {"ward": 17, "address": "Ward 17, Bhaktapur Municipality"}
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Little Angels' School", "address": "Hattiban, Lalitpur", "contact": "01-5915112", "type": "Private", "level": "Nursery to Grade XII", "curriculum": "National/Cambridge"},
+    {"name": "DAV Sushil Kedia School", "address": "Jawalakhel, Lalitpur", "contact": "01-5536626", "email": "school.admin@davnepal.com", "type": "Private", "level": "Secondary"},
+    {"name": "Shuvatara School", "address": "Sanepa/Lamatar, Lalitpur", "contact": "01-5132169", "email": "mail@shuvatara.edu.np", "type": "Private", "level": "Nursery to Grade XII"},
+    {"name": "Ullens School", "address": "Khumaltar-15, Lalitpur", "contact": "01-5230944", "website": "https://ullens.edu.np", "type": "Private", "level": "Primary to Higher Secondary", "curriculum": "IB Diploma"},
+    {"name": "Adarsha Vidya Mandir (AVM)", "address": "Manbhawan, Lalitpur", "type": "Private", "level": "Pre-School to High School"},
+    {"name": "St. Xavier's School", "address": "Jawalakhel, Lalitpur", "type": "Private"},
+    {"name": "Rato Bangala School", "address": "Patan Dhoka, Lalitpur", "type": "Private"},
+    {"name": "Nightingale International School", "address": "Kupondole, Lalitpur", "contact": "01-5535663", "type": "Private"}
+  ],
+  "colleges": [
+    {"name": "Patan Multiple Campus", "address": "Patan Dhoka, Lalitpur", "contact": "01-5549133", "website": "https://pmc.edu.np", "type": "Public", "affiliation": "TU", "programs": ["BSc", "BBS", "BBA", "BCA", "BIT", "MBS", "MA"]},
+    {"name": "Nepal College of Information Technology (NCIT)", "address": "Balkumari, Lalitpur", "contact": "01-5186354", "type": "Private", "affiliation": "Pokhara University", "programs": ["BCA", "BSE", "MCA"]},
+    {"name": "Patan Academy of Health Sciences", "address": "Patan, Lalitpur", "contact": "01-5545112", "type": "Public", "affiliation": "Autonomous", "programs": ["MBBS", "Nursing", "Public Health"]},
+    {"name": "Pulchowk Engineering Campus", "address": "Pulchowk, Lalitpur", "type": "Public", "affiliation": "IOE, TU", "programs": ["BE Computer", "BE Civil", "BE Electronics", "Architecture"]},
+    {"name": "Kathmandu University School of Management", "address": "Patan, Lalitpur", "type": "Private", "affiliation": "KU", "programs": ["BBA", "MBA"]}
+  ],
+  "clinics": [
+    {"name": "Clinic One - Jawalakhel", "address": "Jawalakhel, Lalitpur", "contact": "01-5971515", "services": ["General Consultation", "Ultrasound", "X-Ray", "Vaccination"]},
+    {"name": "Sunapati Polyclinic", "address": "Balkumari, Lalitpur", "services": ["OPD", "ECG", "Digital X-Ray", "Pathology"]},
+    {"name": "MEDEX Multispecialty Clinic", "address": "Bhanimandal-4, Lalitpur", "contact": "01-5971515"},
+    {"name": "Expert Clinic", "address": "Lalitpur", "website": "expertclinicnepal.com", "services": ["CT Scan", "EEG", "EMG", "Well-equipped Lab"]},
+    {"name": "Parijat Clinic", "address": "Bhaisepati, Lalitpur", "website": "parijatclinic.com.np"}
+  ],
+  "blood_banks": [
+    {"name": "Lalitpur NRCS Blood Bank", "address": "Pulchowk, Lalitpur", "contact": "01-5427033", "type": "Regional"},
+    {"name": "Patan Hospital Blood Bank", "address": "Lagankhel, Lalitpur", "contact": "01-5522295", "type": "Hospital"},
+    {"name": "Nepal Mediciti Blood Bank", "address": "Nakhkhu Ukalo, Lalitpur", "contact": "01-4217766", "type": "Hospital"}
+  ]
+}

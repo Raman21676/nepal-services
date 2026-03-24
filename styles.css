@@ -232,6 +232,26 @@ body {
     color: #92400e;
 }
 
+.badge-city-pkr {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.badge-city-national {
+    background: #fce7f3;
+    color: #9d174d;
+}
+
+.badge-city-default {
+    background: #f3f4f6;
+    color: #374151;
+}
+
+.badge-cat-clinic {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
 .badge-cat-hospital {
     background: #fee2e2;
     color: #991b1b;
@@ -255,6 +275,26 @@ body {
 .badge-cat-ward {
     background: #e0e7ff;
     color: #3730a3;
+}
+
+.badge-cat-blood {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.badge-cat-college {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-cat-pharmacy {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.badge-cat-vet {
+    background: #fef3c7;
+    color: #92400e;
 }
 
 .badge-type {
@@ -374,6 +414,69 @@ body {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* Pagination */
+.pagination-container {
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.pagination-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.pagination-info {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination-btn {
+    padding: 10px 16px;
+    border: 2px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 44px;
+}
+
+.pagination-btn:hover:not(.disabled):not(.active) {
+    background: var(--bg);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.pagination-btn.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.pagination-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: var(--bg);
+}
+
+.pagination-ellipsis {
+    color: var(--text-light);
+    padding: 0 8px;
+    font-weight: 600;
 }
 
 /* Footer */

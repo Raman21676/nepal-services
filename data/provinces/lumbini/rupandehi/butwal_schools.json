@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "data_type": "schools",
+    "last_updated": "2025-01-24"
+  },
+  "schools": [
+    {"name": "Deep Boarding High School", "address": "Sukkhanagar, Butwal-10", "contact": "071-543884", "type": "English Boarding"},
+    {"name": "Butwal Public School", "address": "Shankar Nagar/Yogikuti, Butwal", "contact": "071-542419", "type": "Public"},
+    {"name": "Kanti Higher Secondary School", "address": "Haatbazar Line, Butwal", "type": "Higher Secondary"},
+    {"name": "Cambridge English Boarding School", "address": "Kalikanagar, Butwal-13", "type": "English Boarding"},
+    {"name": "Everest English Boarding School", "address": "Sukhanagar, Butwal-10", "type": "English Boarding"},
+    {"name": "Axis Higher Secondary School", "address": "Sukkhanagar, Butwal-10", "type": "Higher Secondary"},
+    {"name": "New Horizon English Boarding School", "address": "Kalikanagar, Butwal", "contact": "071-437602", "type": "English Boarding"},
+    {"name": "Butwal Glory English Boarding School", "address": "Belbas, Butwal-15", "type": "English Boarding"}
+  ],
+  "colleges": [
+    {"name": "Butwal Multiple Campus", "address": "Golpark, Butwal-3", "contact": "071-540134", "website": "https://bumc.tu.edu.np", "type": "Public", "affiliation": "TU", "programs": ["BBS", "BBA", "MBS", "MA", "M.Ed"]},
+    {"name": "Lumbini Banijya Campus", "address": "Devinagar, Butwal-11", "contact": "071-410500", "website": "http://www.lbc.edu.np", "type": "Public", "affiliation": "TU", "programs": ["BBS", "BBM-A", "BMS", "BBA-FA", "MBS", "MBA-BF"]},
+    {"name": "Crimson College of Technology", "address": "Devinagar, Butwal-11", "contact": "071-410380", "website": "https://cct.edu.np", "type": "Private", "affiliation": "Pokhara University", "programs": ["BBA", "BCA", "BCIS", "B.Pharm", "BMLT"]},
+    {"name": "AIMS College", "address": "Kalikanagar, Butwal", "contact": "071-540350", "type": "Private", "affiliation": "TU", "programs": ["BBS", "BBA"]},
+    {"name": "Siddhartha International College", "address": "Kalikapath, Rajmarg Chauraha, Butwal-9", "contact": "071-550544", "email": "sic.butwal@gmail.com", "type": "Private", "affiliation": "Pokhara University", "programs": ["BBA", "BBA-BI"]}
+  ],
+  "clinics": [
+    {"name": "Siddhartha Diagnostic Center", "address": "Shrawanpath, Butwal-6", "contact": "071-591005", "email": "labsdcb@gmail.com", "hours": "Sun-Sat 8:00 AM - 9:00 PM", "services": ["Pathology", "Radiology"]},
+    {"name": "Ken Center", "address": "Butwal", "website": "https://kencenter.com.np", "services": ["Kidney", "Endocrine", "Neurology", "Diabetes", "Thyroid"]},
+    {"name": "Modern Diagnostic Center (MDC Nepal)", "address": "Opposite to Kalikanagar-09, Butwal", "contact": "01-4377425", "email": "customercare@mdcnepal.com", "services": ["Diagnostic Imaging", "Laboratory"]},
+    {"name": "Butwal Eye Care Center", "address": "Hospital Line, Butwal-6", "contact": "071-547210", "established": 2016, "services": ["Eye Examination", "Vision Correction"]},
+    {"name": "Zenus Hospital & Research Center", "address": "Butwal", "website": "https://www.zenushospital.com", "services": ["General Medicine", "Surgery", "Diagnostics", "Emergency"]}
+  ],
+  "blood_banks": [
+    {"name": "Lumbini Provincial Hospital Blood Bank", "address": "Butwal-8, Hospital Line", "contact": "071-532248", "email": "lzhospital@gmail.com", "type": "Hospital", "license": "D"},
+    {"name": "Butwal District BTSC", "address": "Butwal, Rupandehi", "contact": "071-550462", "type": "District"},
+    {"name": "Universal College of Medical Sciences Blood Bank", "address": "Rupandehi (Near Butwal)", "contact": "071-506138", "type": "Hospital"}
+  ]
+}

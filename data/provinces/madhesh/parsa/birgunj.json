@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "district": "Parsa",
+    "province": "Madhesh",
+    "city": "Birgunj",
+    "city_type": "Metropolitan City",
+    "population": "272,382",
+    "area_sq_km": "132.07",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Narayani Sub-Regional Hospital",
+      "address": "Chhapkaiya-3, Birgunj, Parsa",
+      "contact": "051-521993",
+      "contact_secondary": "051-522142",
+      "email": "info@narayanihospital.gov.np",
+      "website": "https://narayanihospital.gov.np",
+      "type": "Government",
+      "beds": 150,
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "Pediatrics",
+        "Gynecology",
+        "Orthopedics"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "National Medical College Teaching Hospital",
+      "address": "Bhediyahi-15, Birgunj",
+      "contact": "051-417015",
+      "contact_secondary": "051-417320",
+      "email": "info@nmcbir.edu.np",
+      "website": "https://nmcbir.edu.np",
+      "type": "Private",
+      "beds": 800,
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Pediatrics",
+        "Gynecology"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Kedia Eye Hospital",
+      "address": "Parwanipur-4, Birgunj Metropolitan City",
+      "contact": "051-411111",
+      "contact_secondary": "051-411112",
+      "email": "info@kediaeyes.org",
+      "website": "https://kediaeyes.org",
+      "type": "Private",
+      "services": [
+        "Ophthalmology",
+        "Eye Surgery",
+        "Cataract Operations",
+        "Eye Check-ups"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Birgunj Health Care Hospital",
+      "address": "Bahuwari-14, Birgunj, Parsa",
+      "contact": "051-411100",
+      "contact_secondary": "9814292004",
+      "email": "bhchospital.np@gmail.com",
+      "website": "https://bhchospital.com",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Cardiology",
+        "Pediatrics",
+        "Gynecology",
+        "Dermatology",
+        "Dental",
+        "Surgery"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Gandak Hospital",
+      "address": "Gandak Chowk, Ward No-14, Birgunj",
+      "contact": "051-410011",
+      "email": "hospitalgandak@gmail.com",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Nephrology",
+        "Dialysis"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Prabhu Hospital and Research Center",
+      "address": "Panitanki, Barack Road, Birgunj",
+      "contact": "051-520259",
+      "emergency_hotline": "9801559811",
+      "email": "prabhuhospital.org@gmail.com",
+      "website": "https://www.prabhuhospital.org",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "General Surgery"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Neelkantha Hospital",
+      "address": "Adalat Road, Birgunj-13",
+      "contact": "051-522108",
+      "email": "admin@neelkanthahospital.com",
+      "website": "https://www.neelkanthahospital.com",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Gynecology",
+        "Pediatrics"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Advance Medicare Hospital",
+      "address": "Main Road, Birta, Birgunj",
+      "contact": "051-525316",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Diagnostic Services",
+        "Emergency Care"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Birgunj Health Care Hospital Ambulance",
+      "contact": "9814292004",
+      "hours": "24/7"
+    },
+    {
+      "name": "Narayani Hospital Ambulance",
+      "contact": "051-521993",
+      "hours": "24/7"
+    },
+    {
+      "name": "National Medical College Ambulance",
+      "contact": "051-417015",
+      "hours": "24/7"
+    },
+    {
+      "name": "Prabhu Hospital Ambulance",
+      "contact": "9801559811",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Birgunj Metropolitan City",
+      "contact": "051-522561",
+      "contact_secondary": "9855084111",
+      "email": "info@birgunjmun.gov.np",
+      "website": "https://birgunjmun.gov.np",
+      "address": "Adarshnagar, Ward 13",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "District Police Office Parsa",
+      "contact": "051-522151",
+      "type": "Police"
+    },
+    {
+      "name": "District Administration Office",
+      "contact": "051-522251",
+      "type": "Government"
+    },
+    {
+      "name": "Maiti Nepal Birgunj",
+      "contact": "051-52661",
+      "contact_secondary": "9802941550",
+      "type": "NGO",
+      "address": "Chhapkaiya, Ward 2"
+    }
+  ],
+  "ward_offices": [
+    {"ward": 1, "address": "Ward 1, Birgunj Metropolitan City"},
+    {"ward": 2, "address": "Chhapkaiya, Birgunj Metropolitan City", "notes": "Maiti Nepal located here"},
+    {"ward": 3, "address": "Chhapkaiya, Birgunj Metropolitan City"},
+    {"ward": 4, "address": "Birta, Birgunj Metropolitan City"},
+    {"ward": 5, "address": "Ward 5, Birgunj Metropolitan City"},
+    {"ward": 6, "address": "Adarshanagar, Birgunj Metropolitan City"},
+    {"ward": 7, "address": "Ward 7, Birgunj Metropolitan City"},
+    {"ward": 8, "address": "Link Road, Birgunj Metropolitan City"},
+    {"ward": 9, "address": "Ward 9, Birgunj Metropolitan City"},
+    {"ward": 10, "address": "Adarshanagar, Birgunj Metropolitan City"},
+    {"ward": 11, "address": "Ward 11, Birgunj Metropolitan City"},
+    {"ward": 12, "address": "Murli, Birgunj Metropolitan City"},
+    {"ward": 13, "address": "Adarshanagar, Birgunj Metropolitan City", "notes": "Municipality Office"},
+    {"ward": 14, "address": "Ward 14, Birgunj Metropolitan City", "notes": "Gandak Hospital located here"},
+    {"ward": 15, "address": "Bhediyahi, Birgunj Metropolitan City", "notes": "NMC located here"},
+    {"ward": 16, "address": "Ward 16, Birgunj Metropolitan City"},
+    {"ward": 17, "address": "Ward 17, Birgunj Metropolitan City"},
+    {"ward": 18, "address": "Ward 18, Birgunj Metropolitan City"},
+    {"ward": 19, "address": "Ward 19, Birgunj Metropolitan City", "notes": "Birgunj Customs Office"},
+    {"ward": 20, "address": "Ward 20, Birgunj Metropolitan City"},
+    {"ward": 21, "address": "Parwanipur, Birgunj Metropolitan City", "notes": "Kedia Eye Hospital nearby"},
+    {"ward": 22, "address": "Ward 22, Birgunj Metropolitan City"},
+    {"ward": 23, "address": "Ward 23, Birgunj Metropolitan City"},
+    {"ward": 24, "address": "Ward 24, Birgunj Metropolitan City"},
+    {"ward": 25, "address": "Ward 25, Birgunj Metropolitan City"},
+    {"ward": 26, "address": "Ward 26, Birgunj Metropolitan City"},
+    {"ward": 27, "address": "Ward 27, Birgunj Metropolitan City"},
+    {"ward": 28, "address": "Ward 28, Birgunj Metropolitan City"},
+    {"ward": 29, "address": "Ward 29, Birgunj Metropolitan City"},
+    {"ward": 30, "address": "Ward 30, Birgunj Metropolitan City"},
+    {"ward": 31, "address": "Belwa, Birgunj Metropolitan City"},
+    {"ward": 32, "address": "Chorni/Badannagar, Birgunj Metropolitan City"}
+  ]
+}

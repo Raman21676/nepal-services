@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "city": "Dhangadhi",
+    "city_type": "Sub-Metropolitan City",
+    "population": "198,792",
+    "area_sq_km": "109.21",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Seti Provincial Hospital",
+      "address": "Dhangadhi-1, Kailali",
+      "contact": "091-525911",
+      "email": "seti.hospital@gmail.com",
+      "website": "https://sph.gov.np",
+      "type": "Government",
+      "beds": 125,
+      "services": [
+        "24/7 Emergency",
+        "Surgery",
+        "Cardiology",
+        "Pediatrics",
+        "NICU",
+        "Orthopedics",
+        "Obstetrics",
+        "ENT",
+        "Dental",
+        "ICU",
+        "HDU",
+        "Dialysis",
+        "Radiology",
+        "Pathology"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Maya Metro Hospital",
+      "address": "Chatakpur-3, Dhangadhi",
+      "contact": "091-416140",
+      "contact_secondary": "9804633106",
+      "email": "mayametrohpl@gmail.com",
+      "website": "https://www.mayametrohpl.com",
+      "type": "Private",
+      "beds": 100,
+      "services": [
+        "24/7 Emergency",
+        "Trauma",
+        "OPD",
+        "Digital X-Ray",
+        "MRI",
+        "CT Scan",
+        "ICU",
+        "NICU",
+        "PICU",
+        "Laparoscopic Surgery"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Navajeevan Hospital",
+      "address": "Dhangadhi-4, Kailali",
+      "contact": "091-521233",
+      "contact_secondary": "091-521733",
+      "website": "https://navajeevanaspatal.com",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "International Patient Care",
+        "Diagnostic Services",
+        "Pharmacy",
+        "Physiotherapy",
+        "ENT",
+        "Psychiatry"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Nisarga Hospital",
+      "address": "Near Nepal Rastra Bank, Dhangadhi-5, Hasanpur",
+      "contact": "9865680100",
+      "email": "nisargahospitalnepal@gmail.com",
+      "website": "https://nisargahospitalnepal.com",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "KG Hospital Dhangadhi",
+      "address": "Dhangadhi, Kailali",
+      "contact": "9858477356",
+      "website": "https://kghospital.com.np",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "General Surgery",
+        "Laparoscopic Surgery",
+        "ICU",
+        "Maternity",
+        "Diagnostics"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Kailali Hospital",
+      "address": "Bhimdatta Highway, Dhangadhi",
+      "contact": "091-524555",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "CP Hospital",
+      "address": "Dhangadhi, Kailali",
+      "contact": "091-410102",
+      "contact_secondary": "9858424782",
+      "type": "Private",
+      "services": [
+        "General Medicine"
+      ]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "National Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Dhangadhi Sub-Metropolitan City Ambulance",
+      "contact": "091-590690",
+      "hours": "24/7",
+      "notes": "Free for Dhangadhi residents"
+    },
+    {
+      "name": "Seti Provincial Hospital Ambulance",
+      "contact": "091-525911",
+      "hours": "24/7"
+    },
+    {
+      "name": "Maya Metro Hospital Ambulance",
+      "contact": "091-416140",
+      "hours": "24/7"
+    },
+    {
+      "name": "Navajeevan Hospital Ambulance",
+      "contact": "091-521233",
+      "hours": "24/7"
+    },
+    {
+      "name": "KG Hospital Ambulance",
+      "contact": "9858477356",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Dhangadhi Sub-Metropolitan City",
+      "contact": "091-521429",
+      "contact_secondary": "091-520733",
+      "toll_free": "1810500090",
+      "email": "info@dhangadhimun.gov.np",
+      "website": "https://www.dhangadhimun.gov.np",
+      "address": "Dhangadhi, Kailali",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "Mayor's Office",
+      "contact": "9858423074",
+      "type": "Government"
+    },
+    {
+      "name": "Deputy Mayor's Office",
+      "contact": "9841883788",
+      "type": "Government"
+    }
+  ],
+  "ward_offices": [
+    {"ward": 1, "address": "Purano Airport Area, Dhangadhi", "contact": "091-520604"},
+    {"ward": 2, "address": "Santoshi Tole, Ratopool Area, Dhangadhi"},
+    {"ward": 3, "chairperson": "Bal Bahadur Aer", "address": "Bhansar-Rajpur Road Area, Dhangadhi"},
+    {"ward": 4, "chairperson": "Deepak Thapa", "address": "Shivapuri Road Area, Dhangadhi"},
+    {"ward": 5, "address": "Ward 5, Dhangadhi"},
+    {"ward": 6, "address": "Jaali-Peepal Chowk to Campus Bridge Road, Dhangadhi"},
+    {"ward": 7, "address": "Ward 7, Dhangadhi"},
+    {"ward": 8, "address": "Ward 8, Dhangadhi"},
+    {"ward": 9, "address": "Ward 9, Dhangadhi"},
+    {"ward": 10, "address": "Ward 10, Dhangadhi"},
+    {"ward": 11, "address": "Ward 11, Dhangadhi"},
+    {"ward": 12, "address": "Ward 12, Dhangadhi"},
+    {"ward": 13, "address": "Ward 13, Dhangadhi"},
+    {"ward": 14, "address": "Ward 14, Dhangadhi"},
+    {"ward": 15, "chairperson": "Phool Ram Chaudhary", "address": "Ward 15, Dhangadhi"},
+    {"ward": 16, "address": "Ward 16, Dhangadhi"},
+    {"ward": 17, "address": "Urma-Dhurjanna Road Area, Dhangadhi"},
+    {"ward": 18, "address": "Ward 18, Dhangadhi"},
+    {"ward": 19, "address": "Ward 19, Dhangadhi"}
+  ]
+}

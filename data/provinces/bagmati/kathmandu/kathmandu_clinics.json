@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "data_type": "clinics",
+    "last_updated": "2025-01-24"
+  },
+  "clinics": [
+    {
+      "name": "Nita Polyclinic & Diagnostic Center",
+      "address": "Near Rastrapati Bhawan, Maharajgunj-3, Kathmandu",
+      "contact": "01-4003006",
+      "email": "info@nitapolyclinic.com.np",
+      "website": "https://nitapolyclinic.com.np",
+      "type": "Polyclinic",
+      "services": ["Pathology", "4D Ultrasound", "ECG", "Digital X-ray", "Multi-Specialty Consultations", "Vaccinations", "IME"]
+    },
+    {
+      "name": "M.G. Polyclinic & Diagnostic Center",
+      "address": "Bimala Sadan, Maitidevi Marga, Kathmandu-30",
+      "contact": "01-4533399",
+      "contact_secondary": "9818128688",
+      "email": "mgpolyclinic.dc@gmail.com",
+      "website": "https://mgpolyclinic.com.np",
+      "type": "Polyclinic",
+      "services": ["Doctor Consultation", "Pharmacy", "Laboratory", "Radiology", "Cardiology", "Video X-Ray"]
+    },
+    {
+      "name": "Kathmandu Polyclinic",
+      "address": "Prasutimarg, Thapathali, Kathmandu",
+      "contact": "980-3222693",
+      "website": "https://kathmandupolyclinic.com.np",
+      "type": "Polyclinic",
+      "services": ["General Medicine", "Cardiology", "Gynecology", "Pediatrics", "Radiology", "Dermatology"]
+    },
+    {
+      "name": "Norvic International Hospital - OPD",
+      "address": "Thapathali, Kathmandu",
+      "contact": "01-5970032",
+      "contact_secondary": "01-4101600",
+      "emergency": "01-5911623",
+      "email": "info@norvichospital.com",
+      "website": "https://www.norvichospital.com",
+      "type": "Hospital OPD",
+      "services": ["Cardiac Care", "Diagnostics", "24-hour Emergency", "CCU", "ICU", "NICU", "IME"]
+    },
+    {
+      "name": "Grande International Hospital",
+      "address": "Dhapasi, Tokha, Kathmandu",
+      "contact": "01-5159266",
+      "contact_secondary": "9801202550",
+      "email": "info@grandehospital.com",
+      "website": "https://www.grandehospital.com",
+      "type": "Multi-specialty",
+      "services": ["Cardiology", "Neurology", "Gynecology", "Gastroenterology", "Oncology", "Orthopedics"]
+    },
+    {
+      "name": "Om Hospital & Research Centre",
+      "address": "Chabahil, Kathmandu",
+      "contact": "01-4476225",
+      "emergency": "9802076225",
+      "email": "omhrc@omhospitalnepal.com",
+      "website": "https://www.omhospitalnepal.com",
+      "type": "Multi-specialty",
+      "services": ["Gynecology", "Internal Medicine", "Ophthalmology", "Gastroenterology", "Neurology", "Dental"]
+    },
+    {
+      "name": "Nepal International Clinic",
+      "address": "Kaldhara, Thamel, Kathmandu",
+      "contact": "01-4434642",
+      "contact_secondary": "01-4435357",
+      "email": "nepalinternationalclinic@gmail.com",
+      "website": "http://nepalinternationalclinic.com",
+      "type": "General Clinic",
+      "services": ["General Medical Care", "X-ray", "Ultrasound", "Laboratory", "Vaccinations"]
+    },
+    {
+      "name": "DentaLife Oral Concern",
+      "address": "Jamal, Siddhi Bhawan - Kantipath, Kathmandu",
+      "contact": "01-4163520",
+      "contact_secondary": "9843488192",
+      "email": "support@dentalife.com.np",
+      "website": "https://dentalife.com.np",
+      "type": "Dental",
+      "services": ["Dental Implants", "Root Canal", "Teeth Whitening", "Clear Aligners", "Orthodontics"]
+    },
+    {
+      "name": "Tilganga Institute of Ophthalmology",
+      "address": "Gaushala, Bagmati Bridge, Ring Road, Kathmandu",
+      "contact": "01-5970048",
+      "contact_secondary": "01-4465294",
+      "email": "info@tilganga.org",
+      "website": "https://www.tilganga.org",
+      "type": "Eye Hospital",
+      "services": ["Cataract", "Cornea", "Retina", "Glaucoma", "LASIK", "Eye Bank", "24/7 Emergency Eye"]
+    },
+    {
+      "name": "Kathmandu ENT Hospital",
+      "address": "Await Marg, Kathmandu",
+      "contact": "01-",
+      "website": "https://ktmenthospital.com.np",
+      "type": "ENT",
+      "services": ["ENT Clinic", "Otology", "Rhinology", "Head and Neck Surgery", "Sleep Medicine"]
+    },
+    {
+      "name": "Good Life Physiotherapy",
+      "address": "Sangam Chok, Baneshwor, Kathmandu",
+      "website": "https://goodlife.org.np",
+      "type": "Physiotherapy",
+      "services": ["Paralysis Care", "Spine Pain", "Sports Injury", "Post-operative Rehabilitation"]
+    },
+    {
+      "name": "Arogin Care Home & Physiotherapy",
+      "address": "Near Embassy of Finland, Bishalnagar, Kathmandu",
+      "contact": "01-4423423",
+      "email": "info@arogincarehome.com",
+      "website": "https://arogincarehome.com",
+      "type": "Physiotherapy",
+      "services": ["24/7 Nursing Care", "Physiotherapy", "Stroke Rehabilitation", "Palliative Care"]
+    }
+  ]
+}

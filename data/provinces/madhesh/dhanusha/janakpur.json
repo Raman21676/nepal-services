@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "city": "Janakpur",
+    "city_type": "Sub-Metropolitan City",
+    "population": "194,556",
+    "area_sq_km": "91.97",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Provincial Hospital Janakpur",
+      "address": "Hospital Road, Janakpur, Dhanusha",
+      "contact": "041-526937",
+      "contact_secondary": "041-520133",
+      "email": "hospitaljanakpurzonal@gmail.com",
+      "website": "https://phj.p2.gov.np",
+      "type": "Government",
+      "beds": 150,
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "CCU",
+        "OPD",
+        "Surgery",
+        "Pathology Lab",
+        "USG",
+        "X-ray",
+        "Vaccination",
+        "Ambulance"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Janakpur Trauma Hospital",
+      "address": "Parikrama Road, Janakpur",
+      "contact": "041-521648",
+      "email": "janakpurtraumahospital@gmail.com",
+      "type": "Government",
+      "services": [
+        "24/7 Trauma Care",
+        "Emergency Surgery",
+        "Orthopedic Services"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Janaki Medical College and Teaching Hospital",
+      "address": "Ramadiya Bhawadi, Janakpurdham-8, Dhanusha",
+      "contact": "041-524174",
+      "contact_secondary": "01-4435957",
+      "email": "info@janakimedicalcollege.edu.np",
+      "website": "https://janakimedicalcollege.edu.np",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "MBBS Teaching",
+        "ICU",
+        "Surgery",
+        "Pathology",
+        "Radiology",
+        "Ambulance"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Kavya Hospital",
+      "address": "Sankat Mochan to Devichowk Road, Janakpur",
+      "contact": "041-525525",
+      "contact_secondary": "9854010007",
+      "email": "info@kavyahospitals.com",
+      "website": "https://kavyahospital.com",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "General Surgery",
+        "ICU",
+        "Trauma Center"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Janakpur City Hospital",
+      "address": "Janakpur, Dhanusha",
+      "contact": "041-525501",
+      "contact_secondary": "041-525899",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ]
+    },
+    {
+      "name": "Janakpur Madhes Hospital",
+      "address": "Ward No. 13, Parikrama Road, Janakpurdham",
+      "contact": "9815826492",
+      "contact_secondary": "9845736319",
+      "type": "Private",
+      "services": [
+        "24/7 Emergency",
+        "General Surgery",
+        "Laparoscopy",
+        "Gynecology",
+        "Pediatrics",
+        "Dental",
+        "Eye",
+        "ENT",
+        "Orthopedic",
+        "Neurology"
+      ],
+      "emergency": true,
+      "hours": "24/7"
+    },
+    {
+      "name": "Janakpur Cancer Hospital",
+      "address": "Janakpur, Dhanusha",
+      "contact": "9800856555",
+      "email": "support@binayfoundation.org",
+      "type": "Private",
+      "services": [
+        "Cancer Care",
+        "Oncology"
+      ]
+    },
+    {
+      "name": "Save Life Hospital & Research Center",
+      "address": "Janakpur, Dhanusha",
+      "contact": "9851208156",
+      "contact_secondary": "9854025752",
+      "email": "savelifehospital2077@gmail.com",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Research"
+      ]
+    },
+    {
+      "name": "Janaki Health Care & Research Center",
+      "address": "Dasharath Pokhari, Janakpurdham-8, Dhanusha",
+      "contact": "9854024125",
+      "type": "Private",
+      "services": [
+        "General Medicine",
+        "Research"
+      ]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Provincial Hospital Janakpur Ambulance",
+      "contact": "041-520133",
+      "hours": "24/7"
+    },
+    {
+      "name": "National Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    },
+    {
+      "name": "Janakpur Madhes Hospital Ambulance",
+      "contact": "9815826492",
+      "hours": "24/7"
+    },
+    {
+      "name": "Kavya Hospital Ambulance",
+      "contact": "041-525525",
+      "hours": "24/7"
+    },
+    {
+      "name": "Mahavir Yuwa Committee Ambulance",
+      "contact": "041-525980",
+      "contact_secondary": "9844187431",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Janakpur Sub-Metropolitan City",
+      "contact": "041-520520",
+      "email": "info@janakpurdham.gov.np",
+      "website": "https://www.janakpurmun.gov.np",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "District Police Office Dhanusha",
+      "contact": "041-520099",
+      "type": "Police"
+    },
+    {
+      "name": "District Administration Office",
+      "contact": "041-520075",
+      "type": "Government"
+    }
+  ],
+  "ward_offices": [
+    {"ward": 1, "address": "Ward 1, Janakpur Sub-Metropolitan City"},
+    {"ward": 2, "address": "Ward 2, Janakpur Sub-Metropolitan City"},
+    {"ward": 3, "address": "Ward 3, Janakpur Sub-Metropolitan City"},
+    {"ward": 4, "address": "Ward 4, Janakpur Sub-Metropolitan City"},
+    {"ward": 5, "address": "Ward 5, Janakpur Sub-Metropolitan City"},
+    {"ward": 6, "address": "Ward 6, Janakpur Sub-Metropolitan City"},
+    {"ward": 7, "address": "Ward 7, Janakpur Sub-Metropolitan City"},
+    {"ward": 8, "address": "Ward 8, Janakpur Sub-Metropolitan City"},
+    {"ward": 9, "address": "Ward 9, Janakpur Sub-Metropolitan City"},
+    {"ward": 10, "address": "Ward 10, Janakpur Sub-Metropolitan City"},
+    {"ward": 11, "address": "Ward 11, Janakpur Sub-Metropolitan City"},
+    {"ward": 12, "address": "Ward 12, Janakpur Sub-Metropolitan City"},
+    {"ward": 13, "address": "Ward 13, Janakpur Sub-Metropolitan City"},
+    {"ward": 14, "address": "Ward 14, Janakpur Sub-Metropolitan City"},
+    {"ward": 15, "address": "Ward 15, Janakpur Sub-Metropolitan City"},
+    {"ward": 16, "address": "Ward 16, Janakpur Sub-Metropolitan City"},
+    {"ward": 17, "address": "Ward 17, Janakpur Sub-Metropolitan City"},
+    {"ward": 18, "address": "Ward 18, Janakpur Sub-Metropolitan City"},
+    {"ward": 19, "address": "Ward 19, Janakpur Sub-Metropolitan City"},
+    {"ward": 20, "address": "Ward 20, Janakpur Sub-Metropolitan City"},
+    {"ward": 21, "address": "Ward 21, Janakpur Sub-Metropolitan City"},
+    {"ward": 22, "address": "Ward 22, Janakpur Sub-Metropolitan City"},
+    {"ward": 23, "address": "Ward 23, Janakpur Sub-Metropolitan City"},
+    {"ward": 24, "address": "Ward 24, Janakpur Sub-Metropolitan City"},
+    {"ward": 25, "address": "Ward 25, Janakpur Sub-Metropolitan City"}
+  ]
+}

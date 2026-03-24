@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "city": "Bharatpur",
+    "city_type": "Metropolitan City",
+    "population": "369,268",
+    "area_sq_km": "432.95",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Chitwan Medical College Teaching Hospital",
+      "address": "Bharatpur-10, Chitwan",
+      "contact": "056-524643",
+      "email": "cmch@cmc.com.np",
+      "website": "www.cmc.com.np",
+      "type": "Private",
+      "beds": 750,
+      "services": [
+        "24/7 Emergency",
+        "General Medicine",
+        "Surgery",
+        "Cardiology",
+        "Nephrology",
+        "Neurosurgery",
+        "CT Scan",
+        "MRI",
+        "Dialysis"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Bharatpur Hospital",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-520660",
+      "website": "www.bharatpurhospital.gov.np",
+      "type": "Government",
+      "beds": 300,
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery",
+        "Obstetrics",
+        "Pediatrics"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Narayani Hospital",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-525555",
+      "website": "www.narayanihospital.com.np",
+      "type": "Private",
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery",
+        "ICU"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Bharatpur Eye Hospital",
+      "address": "By Pass Road, Bharatpur-10, Chitwan",
+      "contact": "056-521106",
+      "email": "bharatpureyehospital@gmail.com",
+      "website": "www.bharatpureyehospital.org.np",
+      "type": "Charitable",
+      "services": [
+        "Comprehensive Eye Care",
+        "Cataract Surgery",
+        "Glaucoma",
+        "Retina",
+        "Pediatric Ophthalmology"
+      ],
+      "emergency": true
+    },
+    {
+      "name": "Bharatpur Samudayik Hospital",
+      "address": "Bharatpur-10, Chitwan",
+      "contact": "056-524111",
+      "website": "www.bsh.com.np",
+      "type": "Community",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Maternity"
+      ]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Chitwan Medical College Ambulance",
+      "contact": "056-524643",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bharatpur Hospital Ambulance",
+      "contact": "056-520660",
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepal Police Ambulance",
+      "contact": "100",
+      "hours": "24/7",
+      "emergency": true
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Nepal Police",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Service",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bharatpur Metropolitan City",
+      "contact": "056-511467",
+      "address": "Bharatpur-10, Chitwan",
+      "hours": "Office Hours"
+    },
+    {
+      "name": "Health Branch",
+      "contact": "056-594241",
+      "type": "Health",
+      "hours": "Office Hours"
+    }
+  ],
+  "ward_offices": [
+    {
+      "ward": 1,
+      "chairperson": "Keshav Maharjan",
+      "contact": "9855055280",
+      "address": "Ward 1, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 2,
+      "chairperson": "Birendra Prasad Sharma",
+      "contact": "9855055281",
+      "address": "Ward 2, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 3,
+      "chairperson": "Kiran Bhattarai",
+      "contact": "9855055282",
+      "address": "Ward 3, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 4,
+      "chairperson": "Krishna Prasad Subedi",
+      "contact": "9855055283",
+      "address": "Ward 4, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 5,
+      "chairperson": "Tika Ram Poudel",
+      "contact": "9855055284",
+      "address": "Ward 5, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 6,
+      "chairperson": "Ramesh Karki",
+      "contact": "9855055285",
+      "address": "Ward 6, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 7,
+      "chairperson": "Kumar Pun",
+      "contact": "9855055286",
+      "address": "Ward 7, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 8,
+      "chairperson": "Prakash Paudel",
+      "contact": "9855055287",
+      "address": "Ward 8, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 9,
+      "chairperson": "Mohan Prasad Sharma",
+      "contact": "9855055288",
+      "address": "Ward 9, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 10,
+      "chairperson": "Suman Paudel",
+      "contact": "9855055289",
+      "address": "Ward 10, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 11,
+      "chairperson": "Sagar Giri",
+      "contact": "9855055290",
+      "address": "Ward 11, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 12,
+      "chairperson": "Dipak Bhattarai",
+      "contact": "9855055291",
+      "address": "Ward 12, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 13,
+      "chairperson": "Somnath Timalsina",
+      "contact": "9855055292",
+      "address": "Ward 13, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 14,
+      "chairperson": "Pabitra Gurung",
+      "contact": "9855055293",
+      "address": "Ward 14, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 15,
+      "chairperson": "Dilli Ram Giri",
+      "contact": "9855055294",
+      "address": "Ward 15, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 16,
+      "chairperson": "Jay Ram Timilsina",
+      "contact": "9855055295",
+      "address": "Ward 16, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 17,
+      "chairperson": "Sher Bahadur Darlami Magar",
+      "contact": "9855055296",
+      "address": "Ward 17, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 18,
+      "chairperson": "Mohan Lal Belbase",
+      "contact": "9855055297",
+      "address": "Ward 18, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 19,
+      "chairperson": "Shambhu Sapkota",
+      "contact": "9855055298",
+      "address": "Ward 19, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 20,
+      "chairperson": "Hari Prasad Rijal",
+      "contact": "9855055299",
+      "address": "Ward 20, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 21,
+      "chairperson": "Tek Nath Lamsal",
+      "contact": "9855055300",
+      "address": "Ward 21, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 22,
+      "chairperson": "Shiva Prasad Sedhain",
+      "contact": "9855055301",
+      "address": "Ward 22, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 23,
+      "chairperson": "Mohan Prasad Paudel",
+      "contact": "9855055302",
+      "address": "Ward 23, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 24,
+      "chairperson": "Ghanashyam Paudel",
+      "contact": "9855055303",
+      "address": "Ward 24, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 25,
+      "chairperson": "Nir Bahadur Gurung",
+      "contact": "9855055304",
+      "address": "Ward 25, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 26,
+      "chairperson": "Rajan Subedi",
+      "contact": "9855055305",
+      "address": "Ward 26, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 27,
+      "chairperson": "Raj Kumar Thapa",
+      "contact": "9855055306",
+      "address": "Ward 27, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 28,
+      "chairperson": "Aasha Kumari Pun",
+      "contact": "9855055307",
+      "address": "Ward 28, Bharatpur Metropolitan City"
+    },
+    {
+      "ward": 29,
+      "chairperson": "Gita Pariyar",
+      "contact": "9855055308",
+      "address": "Ward 29, Bharatpur Metropolitan City"
+    }
+  ]
+}

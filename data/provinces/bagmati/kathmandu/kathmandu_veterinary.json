@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "data_type": "veterinary",
+    "last_updated": "2025-01-24"
+  },
+  "veterinary": [
+    {
+      "name": "Central Referral Veterinary Hospital",
+      "address": "Tripureshwor, Kathmandu",
+      "contact": "01-5361382",
+      "contact_secondary": "01-5329064",
+      "email": "crvhnepal@gmail.com",
+      "website": "http://crvh.gov.np",
+      "type": "Government Animal Hospital",
+      "hours": "10:00 AM - 5:00 PM (Sun-Fri)",
+      "services": ["General Consultation", "Vaccination", "Surgery", "Livestock Treatment"],
+      "established": "1940"
+    },
+    {
+      "name": "Advanced Pet Hospital and Research Centre",
+      "address": "Bishal Basti, Bishal Nagar, Kathmandu",
+      "contact": "01-4419371",
+      "mobile": "9841209744",
+      "type": "Private Animal Hospital",
+      "hours": "24 Hours",
+      "services": ["24/7 Emergency", "Surgery", "Vaccination", "Dogs & Cats Specialist"],
+      "established": "2012"
+    },
+    {
+      "name": "Kathmandu Veterinary Clinic",
+      "address": "150m west of Narayan Gopal Chowk, Ring Road, Maharajgunj",
+      "contact": "01-4720266",
+      "website": "https://kathmanduvetclinic.com.np",
+      "type": "Private Veterinary Clinic",
+      "hours": "Limited Hours (2hr morning, 2hr evening)",
+      "services": ["Vaccinations", "Wellness Exams", "Surgery", "Spaying/Neutering"],
+      "established": "1978"
+    },
+    {
+      "name": "Animal Medical Centre",
+      "address": "Chuchchepati, Chabahil, Kathmandu",
+      "mobile": "9843544022",
+      "type": "Private Veterinary Hospital",
+      "hours": "Regular Hours",
+      "services": ["Emergency", "Vaccination", "Skin Treatment", "Grooming", "Spaying"]
+    },
+    {
+      "name": "City Veterinary Hospital",
+      "address": "Satdobato-15, Lalitpur, Opposite Swimming Pool Gate",
+      "mobile": "9801117334",
+      "website": "https://cityvetnepal.com",
+      "type": "Private Animal Hospital",
+      "hours": "24 Hours",
+      "services": ["24/7 Emergency", "Surgery", "Dentistry", "X-Ray", "Microchipping", "Pet Travel Documents"]
+    },
+    {
+      "name": "Paws & Claws Animal Hospital",
+      "address": "Baluwatar, Kathmandu",
+      "contact": "01-4547744",
+      "mobile": "9841209744",
+      "type": "Private Animal Hospital",
+      "hours": "Regular Hours",
+      "services": ["Vaccinations", "Dermatology", "Chemotherapy", "Orthopedic Surgery", "Eye Care"]
+    },
+    {
+      "name": "Kathmandu Animal Hospital and Research Centre",
+      "address": "Baluwatar, Kathmandu",
+      "contact": "01-4001700",
+      "type": "Private Animal Hospital",
+      "hours": "8:30 AM - 6:00 PM (Sun-Fri)",
+      "services": ["General Services", "Emergency", "Surgery", "Vaccination", "Research"]
+    },
+    {
+      "name": "BMB Veterinary Hospital",
+      "address": "Ward 10, Pipal Bot Marg, Kathmandu 44600",
+      "type": "Private Veterinary Hospital",
+      "hours": "24 Hours",
+      "services": ["24-hour Emergency", "General Care", "Surgery", "Vaccination"]
+    }
+  ]
+}
