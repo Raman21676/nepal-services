@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "city": "Bhaktapur",
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "data_type": "blood_banks",
+    "last_updated": "2025-01-24"
+  },
+  "blood_banks": [
+    {
+      "name": "Bhaktapur NRCS Blood Bank",
+      "address": "Dudhpati, Bhaktapur",
+      "contact": "01-6611661",
+      "contact_secondary": "01-6612266",
+      "type": "Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Donation", "Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Bhaktapur Hospital Blood Bank",
+      "address": "Dudhpati, Bhaktapur",
+      "contact": "01-6610798",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Bhaktapur Cancer Hospital Blood Bank",
+      "address": "Dudhpati, Bhaktapur",
+      "contact": "01-6611532",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Cancer Patient Support"]
+    },
+    {
+      "name": "Siddhi Memorial Hospital Blood Bank",
+      "address": "Adarsha Marga, Bhaktapur",
+      "contact": "01-6612945",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7"
+    },
+    {
+      "name": "Dr. Iwamura Memorial Hospital Blood Bank",
+      "address": "Sallaghari, Bhaktapur",
+      "contact": "01-6612705",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bhaktapur International Hospital Blood Bank",
+      "address": "Kaushaltar, Madhyapur Thimi",
+      "contact": "01-6637171",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7"
+    }
+  ]
+}

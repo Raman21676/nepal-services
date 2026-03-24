@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "city": "Bhaktapur",
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "data_type": "veterinary",
+    "last_updated": "2025-01-24"
+  },
+  "veterinary": [
+    {
+      "name": "Vet For Your Pet - The Animal Clinic",
+      "address": "Bhaktapur Road, Suryabinayak, Bhaktapur",
+      "contact": "01-6613244",
+      "email": "newa.sandeep@gmail.com",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Consultation", "Vaccination", "Treatment", "Surgery"]
+    },
+    {
+      "name": "Surya Binayak Veterinary & Clinic",
+      "address": "Suryabinayak, Bhaktapur",
+      "contact": "01-6612583",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Vaccination", "Treatment"]
+    },
+    {
+      "name": "Gaurishankar Vet",
+      "address": "Sanothimi, Bhaktapur",
+      "contact": "01-6632367",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Livestock Services"]
+    },
+    {
+      "name": "Mobile Polevet Clinic",
+      "address": "Sangam Road, Bhaktapur",
+      "contact": "01-524238",
+      "type": "Mobile Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Mobile Pet Care", "Vaccination"]
+    },
+    {
+      "name": "Bhaktapur Animal Welfare Society (BAWS)",
+      "address": "Suryabinayak, Bhaktapur",
+      "type": "Animal Welfare Organization",
+      "hours": "Sunday-Friday",
+      "services": ["Stray Animal Care", "ABC Program", "Rabies Vaccination", "Rescue Treatment"],
+      "website": "https://www.spcai.org",
+      "notes": "Professional NGO for animal welfare established 2011"
+    },
+    {
+      "name": "Veterinary Centre Bhaktapur",
+      "address": "Bhaktapur",
+      "type": "Government Veterinary",
+      "hours": "Sunday-Friday",
+      "services": ["Animal Health", "Vaccination", "Livestock Services"]
+    },
+    {
+      "name": "Livestock Service Office Bhaktapur",
+      "address": "Bhaktapur",
+      "type": "Government Veterinary",
+      "hours": "Sunday-Friday",
+      "services": ["Livestock Health", "Veterinary Services", "Animal Husbandry"]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "city": "Bhaktapur",
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "data_type": "ward_offices",
+    "last_updated": "2025-01-24",
+    "note": "Bhaktapur has 4 municipalities: Bhaktapur Municipality (17 wards), Madhyapur Thimi (17 wards), Suryabinayak (17 wards), Changunarayan (17 wards). Total 68 wards. Major ward offices listed below."
+  },
+  "ward_offices": [
+    {
+      "ward": 1,
+      "name": "Ward 1 Office - Bhaktapur Municipality",
+      "address": "Dudhpati, Bhaktapur",
+      "municipality": "Bhaktapur Municipality"
+    },
+    {
+      "ward": 2,
+      "name": "Ward 2 Office - Bhaktapur Municipality",
+      "address": "Tachapal, Bhaktapur",
+      "municipality": "Bhaktapur Municipality"
+    },
+    {
+      "ward": 5,
+      "name": "Ward 5 Office - Bhaktapur Municipality",
+      "address": "Dekocha, Bhaktapur",
+      "municipality": "Bhaktapur Municipality",
+      "notes": "Khwopa College located here"
+    },
+    {
+      "ward": 9,
+      "name": "Ward 9 Office - Bhaktapur Municipality",
+      "address": "Chyamasing, Bhaktapur",
+      "municipality": "Bhaktapur Municipality"
+    },
+    {
+      "ward": 1,
+      "name": "Ward 1 Office - Madhyapur Thimi",
+      "address": "Madhyapur Thimi",
+      "municipality": "Madhyapur Thimi Municipality",
+      "contact": "01-6630555"
+    },
+    {
+      "ward": 3,
+      "name": "Ward 3 Office - Madhyapur Thimi",
+      "address": "Gatthaghar, Madhyapur Thimi",
+      "municipality": "Madhyapur Thimi Municipality"
+    },
+    {
+      "ward": 5,
+      "name": "Ward 5 Office - Madhyapur Thimi",
+      "address": "Kaushaltar, Madhyapur Thimi",
+      "municipality": "Madhyapur Thimi Municipality"
+    },
+    {
+      "ward": 1,
+      "name": "Ward 1 Office - Suryabinayak",
+      "address": "Suryabinayak",
+      "municipality": "Suryabinayak Municipality",
+      "contact": "01-6612193"
+    },
+    {
+      "ward": 7,
+      "name": "Ward 7 Office - Suryabinayak",
+      "address": "Suryabinayak",
+      "municipality": "Suryabinayak Municipality"
+    },
+    {
+      "ward": 1,
+      "name": "Ward 1 Office - Changunarayan",
+      "address": "Changunarayan",
+      "municipality": "Changunarayan Municipality",
+      "contact": "01-5141086"
+    },
+    {
+      "ward": 7,
+      "name": "Ward 7 Office - Changunarayan",
+      "address": "Duwakot, Changunarayan",
+      "municipality": "Changunarayan Municipality"
+    }
+  ]
+}

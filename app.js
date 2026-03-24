@@ -42,6 +42,14 @@ class NepalServicesApp {
             // Bagmati Province - Bhaktapur
             { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
             { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_colleges.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'colleges' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_clinics.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'clinics' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_pharmacies.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'pharmacies' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_veterinary.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'veterinary' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_blood_banks.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'blood_banks' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_ambulance_services.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'ambulance' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_emergency_contacts.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'emergency' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_ward_offices.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'ward' },
             
             // Bagmati Province - Bharatpur (Chitwan)
             { path: 'data/provinces/bagmati/chitwan/bharatpur.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'hospitals' },
