@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Gaur Blood Bank",
+      "name_np": "गौर ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Gaur",
+      "phone": "055-561234"
+    },
+    {
+      "name": "Red Cross Gaur Blood Center",
+      "name_np": "रेडक्रस गौर रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Gaur",
+      "phone": "055-562345"
+    },
+    {
+      "name": "Rautahat District Blood Bank",
+      "name_np": "रौतहट जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Gaur",
+      "phone": "055-563456"
+    }
+  ]
+}

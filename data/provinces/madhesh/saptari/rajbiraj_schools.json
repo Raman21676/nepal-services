@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Rajbiraj Secondary School",
+      "name_np": "श्री राजविराज माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Rajbiraj Chowk, Saptari",
+      "phone": "031-541234"
+    },
+    {
+      "name": "Rajbiraj Public School",
+      "name_np": "राजविराज पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Rajbiraj",
+      "phone": "031-542345"
+    },
+    {
+      "name": "Saptari English Boarding School",
+      "name_np": "सप्तरी अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Rajbiraj",
+      "phone": "031-543456"
+    },
+    {
+      "name": "Shree Mahendra Higher Secondary",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Bus Stand Road, Rajbiraj",
+      "phone": "031-544567"
+    },
+    {
+      "name": "Chinnamasta Model School",
+      "name_np": "छिन्नमस्ता मोडल स्कूल",
+      "type": "Private School",
+      "address": "Near District Court, Rajbiraj",
+      "phone": "031-545678"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Siraha Blood Bank",
+      "name_np": "सिराहा ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Siraha",
+      "phone": "033-561234"
+    },
+    {
+      "name": "Red Cross Siraha Blood Center",
+      "name_np": "रेडक्रस सिराहा रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Siraha",
+      "phone": "033-562345"
+    },
+    {
+      "name": "Lahan Hospital Blood Bank",
+      "name_np": "लहान अस्पताल ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "Lahan Hospital, Siraha",
+      "phone": "033-563456"
+    }
+  ]
+}

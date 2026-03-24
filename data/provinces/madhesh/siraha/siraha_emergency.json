@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Siraha",
+      "name_np": "जिल्ला प्रहरी कार्यालय सिराहा",
+      "type": "Police",
+      "address": "District Headquarters, Siraha",
+      "phone": "033-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Siraha",
+      "phone": "033-581234"
+    },
+    {
+      "name": "Siraha Fire Station",
+      "name_np": "सिराहा दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Siraha",
+      "phone": "033-582345"
+    },
+    {
+      "name": "Lahan Hospital Emergency",
+      "name_np": "लहान अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Lahan, Siraha",
+      "phone": "033-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Siraha",
+      "name_np": "नेपाल विद्युत प्राधिकरण सिराहा",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Siraha",
+      "phone": "033-584567"
+    },
+    {
+      "name": "Siraha District Administration Office",
+      "name_np": "सिराहा जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Siraha",
+      "phone": "033-585678"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Gaur Diagnostic Center",
+      "name_np": "गौर डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Gaur Chowk, Rautahat",
+      "phone": "055-521234"
+    },
+    {
+      "name": "Rautahat Medical Center",
+      "name_np": "रौतहट मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Gaur",
+      "phone": "055-522345"
+    },
+    {
+      "name": "Gaur Eye Care Hospital",
+      "name_np": "गौर आँखा केयर अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Hospital Road, Gaur",
+      "phone": "055-523456"
+    },
+    {
+      "name": "Shree Durga Health Care",
+      "name_np": "श्री दुर्गा हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Gaur",
+      "phone": "055-524567"
+    },
+    {
+      "name": "Rautahat Pathology Lab",
+      "name_np": "रौतहट प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Stand Road, Gaur",
+      "phone": "055-525678"
+    },
+    {
+      "name": "Chandranigahapur Medical Clinic",
+      "name_np": "चन्द्रनिगाहापुर मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Chandranigahapur, Rautahat",
+      "phone": "055-526789"
+    }
+  ]
+}

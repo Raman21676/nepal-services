@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Mahottari",
+      "name_np": "जिल्ला प्रहरी कार्यालय महोत्तरी",
+      "type": "Police",
+      "address": "District Headquarters, Jaleshwar",
+      "phone": "044-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Jaleshwar",
+      "phone": "044-581234"
+    },
+    {
+      "name": "Jaleshwar Fire Station",
+      "name_np": "जलेश्वर दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Jaleshwar",
+      "phone": "044-582345"
+    },
+    {
+      "name": "Mahottari Hospital Emergency",
+      "name_np": "महोत्तरी अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Hospital Road, Jaleshwar",
+      "phone": "044-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Jaleshwar",
+      "name_np": "नेपाल विद्युत प्राधिकरण जलेश्वर",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Jaleshwar",
+      "phone": "044-584567"
+    },
+    {
+      "name": "Mahottari District Administration Office",
+      "name_np": "महोत्तरी जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Jaleshwar",
+      "phone": "044-585678"
+    }
+  ]
+}

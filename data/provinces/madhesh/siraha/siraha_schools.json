@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Siraha Secondary School",
+      "name_np": "श्री सिराहा माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Siraha Chowk, Siraha",
+      "phone": "033-541234"
+    },
+    {
+      "name": "Siraha Public School",
+      "name_np": "सिराहा पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Siraha",
+      "phone": "033-542345"
+    },
+    {
+      "name": "Lahan English Boarding School",
+      "name_np": "लहान अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Lahan, Siraha",
+      "phone": "033-543456"
+    },
+    {
+      "name": "Shree Mahendra Higher Secondary",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Bazaar Area, Siraha",
+      "phone": "033-544567"
+    },
+    {
+      "name": "Siraha Model Academy",
+      "name_np": "सिराहा मोडल एकेडेमी",
+      "type": "Private School",
+      "address": "Near District Court, Siraha",
+      "phone": "033-545678"
+    }
+  ]
+}

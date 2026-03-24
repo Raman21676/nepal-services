@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Kalaiya",
+    "district": "Bara",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Bara",
+      "name_np": "जिल्ला प्रहरी कार्यालय बारा",
+      "type": "Police",
+      "address": "District Headquarters, Kalaiya",
+      "phone": "053-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Kalaiya",
+      "phone": "053-581234"
+    },
+    {
+      "name": "Kalaiya Fire Station",
+      "name_np": "कलैया दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Kalaiya",
+      "phone": "053-582345"
+    },
+    {
+      "name": "Gadhimai Hospital Emergency",
+      "name_np": "गढीमाई अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Gadhimai Chowk, Kalaiya",
+      "phone": "053-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Kalaiya",
+      "name_np": "नेपाल विद्युत प्राधिकरण कलैया",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Kalaiya",
+      "phone": "053-584567"
+    },
+    {
+      "name": "Bara District Administration Office",
+      "name_np": "बारा जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Kalaiya",
+      "phone": "053-585678"
+    }
+  ]
+}

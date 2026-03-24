@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Siraha Multiple Campus",
+      "name_np": "सिराहा बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Siraha Chowk, Siraha",
+      "phone": "033-551234"
+    },
+    {
+      "name": "Lahan Technical Institute",
+      "name_np": "लहान प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Lahan, Siraha",
+      "phone": "033-552345"
+    },
+    {
+      "name": "Siraha College of Education",
+      "name_np": "सिराहा शिक्षा महाविद्यालय",
+      "type": "Education College",
+      "address": "Main Road, Siraha",
+      "phone": "033-553456"
+    },
+    {
+      "name": "Siraha Nursing College",
+      "name_np": "सिराहा नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Siraha",
+      "phone": "033-554567"
+    }
+  ]
+}

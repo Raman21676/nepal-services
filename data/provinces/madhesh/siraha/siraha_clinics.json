@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Siraha Diagnostic Center",
+      "name_np": "सिराहा डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Siraha Chowk, Siraha",
+      "phone": "033-521234"
+    },
+    {
+      "name": "Siraha Medical Center",
+      "name_np": "सिराहा मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Siraha",
+      "phone": "033-522345"
+    },
+    {
+      "name": "Lahan Eye Care Hospital",
+      "name_np": "लहान आँखा केयर अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Lahan, Siraha",
+      "phone": "033-523456"
+    },
+    {
+      "name": "Shree Hanuman Health Care",
+      "name_np": "श्री हनुमान हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Siraha",
+      "phone": "033-524567"
+    },
+    {
+      "name": "Siraha Pathology Lab",
+      "name_np": "सिराहा प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Stand Road, Siraha",
+      "phone": "033-525678"
+    },
+    {
+      "name": "Mithila Diagnostic Clinic",
+      "name_np": "मिथिला डाइग्नोस्टिक क्लिनिक",
+      "type": "Diagnostic Center",
+      "address": "Near District Court, Siraha",
+      "phone": "033-526789"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "Narayani Hospital Ambulance",
+      "name_np": "नारायणी अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Narayani Hospital, Birgunj",
+      "phone": "051-570123"
+    },
+    {
+      "name": "Birgunj Municipality Ambulance",
+      "name_np": "वीरगञ्ज नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Birgunj",
+      "phone": "051-571234"
+    },
+    {
+      "name": "Red Cross Ambulance Service",
+      "name_np": "रेडक्रस एम्बुलेन्स सेवा",
+      "type": "Emergency Ambulance",
+      "address": "Red Cross Building, Ghantaghar",
+      "phone": "051-572345"
+    },
+    {
+      "name": "National Medical College Ambulance",
+      "name_np": "नेशनल मेडिकल कलेज एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "NMC, Tikulia, Birgunj",
+      "phone": "051-573456"
+    }
+  ]
+}

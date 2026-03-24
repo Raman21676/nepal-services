@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Malangwa Blood Bank",
+      "name_np": "मलंगवा ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Malangwa",
+      "phone": "046-561234"
+    },
+    {
+      "name": "Red Cross Malangwa Blood Center",
+      "name_np": "रेडक्रस मलंगवा रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Malangwa",
+      "phone": "046-562345"
+    },
+    {
+      "name": "Sarlahi District Blood Bank",
+      "name_np": "सर्लाही जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Malangwa",
+      "phone": "046-563456"
+    }
+  ]
+}

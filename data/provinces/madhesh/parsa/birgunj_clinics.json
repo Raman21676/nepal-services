@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Narayani Diagnostic Center",
+      "name_np": "नारायणी डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Adarshanagar, Birgunj",
+      "phone": "051-521234"
+    },
+    {
+      "name": "Birgunj Medical Center",
+      "name_np": "वीरगञ्ज मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Ghantaghar Road, Birgunj",
+      "phone": "051-522456"
+    },
+    {
+      "name": "Parsa Heart Care Clinic",
+      "name_np": "पर्सा हृदय हेरचाह क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Maisthan, Birgunj",
+      "phone": "051-523789"
+    },
+    {
+      "name": "Birgunj Eye Hospital",
+      "name_np": "वीरगञ्ज आँखा अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Pakadi Road, Birgunj",
+      "phone": "051-524567"
+    },
+    {
+      "name": "Shree Medical Clinic",
+      "name_np": "श्री मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Ithari Tole, Birgunj",
+      "phone": "051-525678"
+    },
+    {
+      "name": "National Pathology Lab",
+      "name_np": "नेशनल प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Main Road, Birgunj",
+      "phone": "051-526789"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Jaleshwar",
+      "phone": "044-570123"
+    },
+    {
+      "name": "Jaleshwar Municipality Ambulance",
+      "name_np": "जलेश्वर नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Jaleshwar",
+      "phone": "044-571234"
+    },
+    {
+      "name": "Red Cross Jaleshwar Ambulance",
+      "name_np": "रेडक्रस जलेश्वर एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Jaleshwar Chowk, Mahottari",
+      "phone": "044-572345"
+    },
+    {
+      "name": "Mahottari Hospital Ambulance",
+      "name_np": "महोत्तरी अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Hospital Road, Jaleshwar",
+      "phone": "044-573456"
+    }
+  ]
+}

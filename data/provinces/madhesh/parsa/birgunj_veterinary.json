@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Birgunj Veterinary Hospital",
+      "name_np": "वीरगञ्ज पशु अस्पताल",
+      "type": "Veterinary Hospital",
+      "address": "Veterinary Road, Birgunj",
+      "phone": "051-590123"
+    },
+    {
+      "name": "Parsa District Livestock Office",
+      "name_np": "पर्सा जिल्ला पशुसेवा कार्यालय",
+      "type": "Government Veterinary Service",
+      "address": "District HQ, Birgunj",
+      "phone": "051-591234"
+    },
+    {
+      "name": "Shree Animal Care Center",
+      "name_np": "श्री पशु हेरचाह केन्द्र",
+      "type": "Private Veterinary Clinic",
+      "address": "Adarshanagar, Birgunj",
+      "phone": "051-592345"
+    },
+    {
+      "name": "Narayani Pet Clinic",
+      "name_np": "नारायणी पेट क्लिनिक",
+      "type": "Pet Clinic",
+      "address": "Maisthan, Birgunj",
+      "phone": "051-593456"
+    }
+  ]
+}

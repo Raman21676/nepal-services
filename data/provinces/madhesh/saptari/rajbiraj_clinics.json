@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Rajbiraj Diagnostic Center",
+      "name_np": "राजविराज डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Rajbiraj Chowk, Saptari",
+      "phone": "031-521234"
+    },
+    {
+      "name": "Saptari Medical Center",
+      "name_np": "सप्तरी मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Rajbiraj",
+      "phone": "031-522345"
+    },
+    {
+      "name": "Rajbiraj Eye Hospital",
+      "name_np": "राजविराज आँखा अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Hospital Road, Rajbiraj",
+      "phone": "031-523456"
+    },
+    {
+      "name": "Shree Chinnamasta Health Care",
+      "name_np": "श्री छिन्नमस्ता हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Rajbiraj",
+      "phone": "031-524567"
+    },
+    {
+      "name": "Gajendra Narayan Pathology Lab",
+      "name_np": "गजेन्द्र नारायण प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Stand Road, Rajbiraj",
+      "phone": "031-525678"
+    },
+    {
+      "name": "Rajdevi Medical Clinic",
+      "name_np": "राजदेवी मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Near District Court, Rajbiraj",
+      "phone": "031-526789"
+    }
+  ]
+}

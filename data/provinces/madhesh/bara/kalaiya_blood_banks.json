@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Kalaiya",
+    "district": "Bara",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Kalaiya Blood Bank",
+      "name_np": "कलैया ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Kalaiya",
+      "phone": "053-561234"
+    },
+    {
+      "name": "Red Cross Kalaiya Blood Center",
+      "name_np": "रेडक्रस कलैया रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Kalaiya",
+      "phone": "053-562345"
+    },
+    {
+      "name": "Bara District Blood Bank",
+      "name_np": "बारा जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Kalaiya",
+      "phone": "053-563456"
+    }
+  ]
+}

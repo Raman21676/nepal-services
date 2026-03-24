@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Thakur Ram Multiple Campus",
+      "name_np": "ठाकुर राम बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Ghantaghar, Birgunj",
+      "phone": "051-551234"
+    },
+    {
+      "name": "National Medical College",
+      "name_np": "नेशनल मेडिकल कलेज",
+      "type": "Medical College",
+      "address": "Tikulia, Birgunj",
+      "phone": "051-552345"
+    },
+    {
+      "name": "Birgunj Institute of Technology",
+      "name_np": "वीरगञ्ज प्रविधि संस्थान",
+      "type": "Engineering College",
+      "address": "Adarshanagar, Birgunj",
+      "phone": "051-553456"
+    },
+    {
+      "name": "Shree Mahendra Morang Campus",
+      "name_np": "श्री महेन्द्र मोरङ क्याम्पस",
+      "type": "Community Campus",
+      "address": "Maisthan, Birgunj",
+      "phone": "051-554567"
+    }
+  ]
+}

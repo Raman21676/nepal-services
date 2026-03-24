@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Malangwa",
+      "phone": "046-570123"
+    },
+    {
+      "name": "Malangwa Municipality Ambulance",
+      "name_np": "मलंगवा नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Malangwa",
+      "phone": "046-571234"
+    },
+    {
+      "name": "Red Cross Malangwa Ambulance",
+      "name_np": "रेडक्रस मलंगवा एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Malangwa Chowk, Sarlahi",
+      "phone": "046-572345"
+    },
+    {
+      "name": "Haripur Hospital Ambulance",
+      "name_np": "हरिपुर अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Haripur, Sarlahi",
+      "phone": "046-573456"
+    }
+  ]
+}

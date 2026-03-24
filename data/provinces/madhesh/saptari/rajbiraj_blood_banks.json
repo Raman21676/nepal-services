@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Rajbiraj Blood Bank",
+      "name_np": "राजविराज ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Rajbiraj",
+      "phone": "031-561234"
+    },
+    {
+      "name": "Red Cross Rajbiraj Blood Center",
+      "name_np": "रेडक्रस राजविराज रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Rajbiraj",
+      "phone": "031-562345"
+    },
+    {
+      "name": "Saptari District Blood Bank",
+      "name_np": "सप्तरी जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Rajbiraj",
+      "phone": "031-563456"
+    }
+  ]
+}

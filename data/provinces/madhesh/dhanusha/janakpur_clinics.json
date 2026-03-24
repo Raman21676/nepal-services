@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Janakpur Diagnostic Center",
+      "name_np": "जनकपुर डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Janak Chowk, Janakpur",
+      "phone": "041-521234"
+    },
+    {
+      "name": "Dhanusha Medical Center",
+      "name_np": "धनुषा मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Bhanu Chowk, Janakpur",
+      "phone": "041-522345"
+    },
+    {
+      "name": "Janaki Eye Hospital",
+      "name_np": "जानकी आँखा अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Station Road, Janakpur",
+      "phone": "041-523456"
+    },
+    {
+      "name": "Mithila Health Care",
+      "name_np": "मिथिला हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Pulchowk, Janakpur",
+      "phone": "041-524567"
+    },
+    {
+      "name": "Ram Janaki Pathology Lab",
+      "name_np": "राम जानकी प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Main Road, Janakpur",
+      "phone": "041-525678"
+    },
+    {
+      "name": "Shree Krishna Clinic",
+      "name_np": "श्री कृष्ण क्लिनिक",
+      "type": "General Clinic",
+      "address": "Mangalbazar, Janakpur",
+      "phone": "041-526789"
+    }
+  ]
+}

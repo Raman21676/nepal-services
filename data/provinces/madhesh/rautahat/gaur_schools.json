@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Gaur Secondary School",
+      "name_np": "श्री गौर माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Gaur Chowk, Rautahat",
+      "phone": "055-541234"
+    },
+    {
+      "name": "Gaur Public School",
+      "name_np": "गौर पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Gaur",
+      "phone": "055-542345"
+    },
+    {
+      "name": "Rautahat English Boarding School",
+      "name_np": "रौतहट अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Gaur",
+      "phone": "055-543456"
+    },
+    {
+      "name": "Shree Mahendra Higher Secondary",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Bus Stand Road, Gaur",
+      "phone": "055-544567"
+    },
+    {
+      "name": "Chandranigahapur Model School",
+      "name_np": "चन्द्रनिगाहापुर मोडल स्कूल",
+      "type": "Private School",
+      "address": "Chandranigahapur, Rautahat",
+      "phone": "055-545678"
+    }
+  ]
+}

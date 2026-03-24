@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Rautahat",
+      "name_np": "जिल्ला प्रहरी कार्यालय रौतहट",
+      "type": "Police",
+      "address": "District Headquarters, Gaur",
+      "phone": "055-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Gaur",
+      "phone": "055-581234"
+    },
+    {
+      "name": "Gaur Fire Station",
+      "name_np": "गौर दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Gaur",
+      "phone": "055-582345"
+    },
+    {
+      "name": "Chandranigahapur Hospital Emergency",
+      "name_np": "चन्द्रनिगाहापुर अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Chandranigahapur, Rautahat",
+      "phone": "055-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Gaur",
+      "name_np": "नेपाल विद्युत प्राधिकरण गौर",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Gaur",
+      "phone": "055-584567"
+    },
+    {
+      "name": "Rautahat District Administration Office",
+      "name_np": "रौतहट जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Gaur",
+      "phone": "055-585678"
+    }
+  ]
+}

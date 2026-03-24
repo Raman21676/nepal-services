@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Gaur",
+      "phone": "055-570123"
+    },
+    {
+      "name": "Gaur Municipality Ambulance",
+      "name_np": "गौर नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Gaur",
+      "phone": "055-571234"
+    },
+    {
+      "name": "Red Cross Gaur Ambulance",
+      "name_np": "रेडक्रस गौर एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Gaur Chowk, Rautahat",
+      "phone": "055-572345"
+    },
+    {
+      "name": "Chandranigahapur Hospital Ambulance",
+      "name_np": "चन्द्रनिगाहापुर अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Chandranigahapur, Rautahat",
+      "phone": "055-573456"
+    }
+  ]
+}

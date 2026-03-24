@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Siraha",
+      "phone": "033-570123"
+    },
+    {
+      "name": "Siraha Municipality Ambulance",
+      "name_np": "सिराहा नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Siraha",
+      "phone": "033-571234"
+    },
+    {
+      "name": "Red Cross Siraha Ambulance",
+      "name_np": "रेडक्रस सिराहा एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Siraha Chowk, Siraha",
+      "phone": "033-572345"
+    },
+    {
+      "name": "Lahan Hospital Ambulance",
+      "name_np": "लहान अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Lahan Hospital, Siraha",
+      "phone": "033-573456"
+    }
+  ]
+}

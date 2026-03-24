@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Dhanusha",
+      "name_np": "जिल्ला प्रहरी कार्यालय धनुषा",
+      "type": "Police",
+      "address": "District Headquarters, Janakpur",
+      "phone": "041-580123"
+    },
+    {
+      "name": "Provincial Hospital Emergency",
+      "name_np": "प्रादेशिक अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Provincial Hospital, Janakpur",
+      "phone": "041-581234"
+    },
+    {
+      "name": "Janakpur Fire Station",
+      "name_np": "जनकपुर दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Janakpur",
+      "phone": "041-582345"
+    },
+    {
+      "name": "Rama Medical College Emergency",
+      "name_np": "रामा मेडिकल कलेज आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "RMC, Janakpur",
+      "phone": "041-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Janakpur",
+      "name_np": "नेपाल विद्युत प्राधिकरण जनकपुर",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Janakpur",
+      "phone": "041-584567"
+    },
+    {
+      "name": "Dhanusha District Administration Office",
+      "name_np": "धनुषा जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Janakpur",
+      "phone": "041-585678"
+    }
+  ]
+}

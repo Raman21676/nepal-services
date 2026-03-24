@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Jaleshwar Secondary School",
+      "name_np": "श्री जलेश्वर माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Jaleshwar Chowk, Mahottari",
+      "phone": "044-541234"
+    },
+    {
+      "name": "Jaleshwar Public School",
+      "name_np": "जलेश्वर पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Jaleshwar",
+      "phone": "044-542345"
+    },
+    {
+      "name": "Mahottari English Boarding School",
+      "name_np": "महोत्तरी अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Jaleshwar",
+      "phone": "044-543456"
+    },
+    {
+      "name": "Shree Mahendra Higher Secondary",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Bus Stand Road, Jaleshwar",
+      "phone": "044-544567"
+    },
+    {
+      "name": "Mithila Model School",
+      "name_np": "मिथिला मोडल स्कूल",
+      "type": "Private School",
+      "address": "Near District Court, Jaleshwar",
+      "phone": "044-545678"
+    }
+  ]
+}

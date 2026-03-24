@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "Provincial Hospital Ambulance",
+      "name_np": "प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Provincial Hospital, Janakpur",
+      "phone": "041-570123"
+    },
+    {
+      "name": "Janakpur Sub-Metropolitan Ambulance",
+      "name_np": "जनकपुर उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Janakpur",
+      "phone": "041-571234"
+    },
+    {
+      "name": "Rama Medical College Ambulance",
+      "name_np": "रामा मेडिकल कलेज एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "RMC, Janakpur",
+      "phone": "041-572345"
+    },
+    {
+      "name": "Red Cross Janakpur Ambulance",
+      "name_np": "रेडक्रस जनकपुर एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Janak Chowk, Janakpur",
+      "phone": "041-573456"
+    }
+  ]
+}

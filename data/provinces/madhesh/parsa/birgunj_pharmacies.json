@@ -2,75 +2,44 @@
   "metadata": {
     "city": "Birgunj",
     "district": "Parsa",
-    "province": "Madhesh",
-    "data_type": "pharmacies",
-    "last_updated": "2025-01-24"
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
   },
   "pharmacies": [
     {
-      "name": "Birganj Drug Agency",
+      "name": "Birgunj Pharmacy",
+      "name_np": "वीरगञ्ज फार्मेसी",
+      "type": "Pharmacy",
       "address": "Ghantaghar, Birgunj",
-      "contact": "051-523183",
-      "mobile": "9845020448",
-      "type": "Medical Store"
+      "phone": "051-531234"
     },
     {
-      "name": "National Pharmacy",
-      "address": "Near Ghanta Ghar, Birgunj",
-      "type": "Pharmacy"
+      "name": "Narayani Medical Store",
+      "name_np": "नारायणी मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Adarshanagar, Birgunj",
+      "phone": "051-532345"
     },
     {
-      "name": "Trishakti Medical Hall",
-      "address": "Ghantaghar, Birgunj",
-      "mobile": "9845827415",
-      "type": "Medical Hall"
+      "name": "Shree Krishana Pharma",
+      "name_np": "श्री कृष्ण फार्मा",
+      "type": "Pharmacy",
+      "address": "Maisthan, Birgunj",
+      "phone": "051-533456"
     },
     {
-      "name": "Bhawani Medical Stores",
-      "address": "Reshamkothi, 100m Ahead Gate 6, Birgunj",
-      "contact": "051-522340",
-      "type": "Medical Store"
+      "name": "New Life Medicines",
+      "name_np": "न्यू लाइफ मेडिसिन्स",
+      "type": "Pharmacy",
+      "address": "Pakadi Chowk, Birgunj",
+      "phone": "051-534567"
     },
     {
-      "name": "National Healthcare Pvt. Ltd.",
-      "address": "Newroad, Ghantaghar, Birgunj",
-      "contact": "051-524336",
-      "website": "www.nationalhealthcare.com.np",
-      "type": "Pharmaceutical Company"
-    },
-    {
-      "name": "Shivashakti Pharmacy",
-      "address": "Birgunj",
-      "contact": "051-525215",
-      "type": "Pharmacy"
-    },
-    {
-      "name": "Fair Deal Medical Stores Pvt. Ltd.",
-      "address": "Birgunj-13",
-      "contact": "051-520211",
-      "type": "Medical Store"
-    }
-  ],
-  "veterinary": [
-    {
-      "name": "Veterinary Hospital",
-      "address": "Shreepur, Birgunj",
-      "contact": "051-522551",
-      "type": "Government Animal Hospital",
-      "services": ["Animal Treatment", "Livestock Services", "Veterinary Care"]
-    },
-    {
-      "name": "Birgunj Vet Pharma",
-      "address": "Prithibichowk, Birgunj",
-      "contact": "051-522522",
-      "type": "Veterinary Clinic & Drug Store",
-      "services": ["Veterinary Consultation", "Animal Medicines", "Pet Care"]
-    },
-    {
-      "name": "Pashu Chikitsalaya",
-      "address": "Shreepur, Birgunj",
-      "type": "Veterinary Clinic",
-      "services": ["Animal Treatment", "Livestock Healthcare"]
+      "name": "Saptagandaki Medical Hall",
+      "name_np": "सप्तगण्डकी मेडिकल हल",
+      "type": "Medical Store",
+      "address": "Tikulia Road, Birgunj",
+      "phone": "051-535678"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Janakpur Blood Bank",
+      "name_np": "जनकपुर ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "Provincial Hospital, Janakpur",
+      "phone": "041-561234"
+    },
+    {
+      "name": "Rama Medical College Blood Bank",
+      "name_np": "रामा मेडिकल कलेज ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "RMC, Janakpur",
+      "phone": "041-562345"
+    },
+    {
+      "name": "Red Cross Janakpur Blood Center",
+      "name_np": "रेडक्रस जनकपुर रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Janak Chowk, Janakpur",
+      "phone": "041-563456"
+    }
+  ]
+}

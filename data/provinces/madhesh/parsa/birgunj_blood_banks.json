@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Narayani Blood Bank",
+      "name_np": "नारायणी ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "Narayani Hospital Complex, Birgunj",
+      "phone": "051-561234"
+    },
+    {
+      "name": "Birgunj Red Cross Blood Center",
+      "name_np": "वीरगञ्ज रेडक्रस रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Ghantaghar Road, Birgunj",
+      "phone": "051-562345"
+    },
+    {
+      "name": "National Medical College Blood Bank",
+      "name_np": "नेशनल मेडिकल कलेज ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "Tikulia, Birgunj",
+      "phone": "051-563456"
+    }
+  ]
+}

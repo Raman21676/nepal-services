@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Jaleshwar Diagnostic Center",
+      "name_np": "जलेश्वर डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Jaleshwar Chowk, Mahottari",
+      "phone": "044-521234"
+    },
+    {
+      "name": "Mahottari Medical Center",
+      "name_np": "महोत्तरी मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Jaleshwar",
+      "phone": "044-522345"
+    },
+    {
+      "name": "Jaleshwar Eye Hospital",
+      "name_np": "जलेश्वर आँखा अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Hospital Road, Jaleshwar",
+      "phone": "044-523456"
+    },
+    {
+      "name": "Shree Ram Janaki Health Care",
+      "name_np": "श्री राम जानकी हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Jaleshwar",
+      "phone": "044-524567"
+    },
+    {
+      "name": "Mahottari Pathology Lab",
+      "name_np": "महोत्तरी प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Stand Road, Jaleshwar",
+      "phone": "044-525678"
+    },
+    {
+      "name": "Mithila Clinic",
+      "name_np": "मिथिला क्लिनिक",
+      "type": "General Clinic",
+      "address": "Near District Court, Jaleshwar",
+      "phone": "044-526789"
+    }
+  ]
+}

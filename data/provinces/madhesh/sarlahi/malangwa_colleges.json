@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Malangwa Multiple Campus",
+      "name_np": "मलंगवा बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Malangwa Chowk, Sarlahi",
+      "phone": "046-551234"
+    },
+    {
+      "name": "Sarlahi Technical Institute",
+      "name_np": "सर्लाही प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Main Road, Malangwa",
+      "phone": "046-552345"
+    },
+    {
+      "name": "Haripur College",
+      "name_np": "हरिपुर कलेज",
+      "type": "Community Campus",
+      "address": "Haripur, Sarlahi",
+      "phone": "046-553456"
+    },
+    {
+      "name": "Malangwa Nursing College",
+      "name_np": "मलंगवा नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Malangwa",
+      "phone": "046-554567"
+    }
+  ]
+}

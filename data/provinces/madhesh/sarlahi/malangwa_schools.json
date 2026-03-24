@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Malangwa Secondary School",
+      "name_np": "श्री मलंगवा माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Malangwa Chowk, Sarlahi",
+      "phone": "046-541234"
+    },
+    {
+      "name": "Malangwa Public School",
+      "name_np": "मलंगवा पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Malangwa",
+      "phone": "046-542345"
+    },
+    {
+      "name": "Sarlahi English Boarding School",
+      "name_np": "सर्लाही अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Malangwa",
+      "phone": "046-543456"
+    },
+    {
+      "name": "Shree Mahendra Higher Secondary",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Bus Stand Road, Malangwa",
+      "phone": "046-544567"
+    },
+    {
+      "name": "Haripur Model School",
+      "name_np": "हरिपुर मोडल स्कूल",
+      "type": "Private School",
+      "address": "Haripur, Sarlahi",
+      "phone": "046-545678"
+    }
+  ]
+}

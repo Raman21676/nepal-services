@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Kalaiya",
+    "district": "Bara",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Kalaiya Secondary School",
+      "name_np": "श्री कलैया माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Kalaiya Chowk, Bara",
+      "phone": "053-541234"
+    },
+    {
+      "name": "Kalaiya Public School",
+      "name_np": "कलैया पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Kalaiya",
+      "phone": "053-542345"
+    },
+    {
+      "name": "Gadhimai English Boarding School",
+      "name_np": "गढीमाई अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Gadhimai Chowk, Kalaiya",
+      "phone": "053-543456"
+    },
+    {
+      "name": "Shree Mahendra High School Kalaiya",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय कलैया",
+      "type": "Higher Secondary School",
+      "address": "Bus Park, Kalaiya",
+      "phone": "053-544567"
+    },
+    {
+      "name": "Bara Model School",
+      "name_np": "बारा मोडल स्कूल",
+      "type": "Private School",
+      "address": "Hospital Road, Kalaiya",
+      "phone": "053-545678"
+    }
+  ]
+}

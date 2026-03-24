@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Saptari",
+      "name_np": "जिल्ला प्रहरी कार्यालय सप्तरी",
+      "type": "Police",
+      "address": "District Headquarters, Rajbiraj",
+      "phone": "031-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Rajbiraj",
+      "phone": "031-581234"
+    },
+    {
+      "name": "Rajbiraj Fire Station",
+      "name_np": "राजविराज दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Rajbiraj",
+      "phone": "031-582345"
+    },
+    {
+      "name": "Gajendra Narayan Hospital Emergency",
+      "name_np": "गजेन्द्र नारायण अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Rajbiraj",
+      "name_np": "नेपाल विद्युत प्राधिकरण राजविराज",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Rajbiraj",
+      "phone": "031-584567"
+    },
+    {
+      "name": "Saptari District Administration Office",
+      "name_np": "सप्तरी जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Rajbiraj",
+      "phone": "031-585678"
+    }
+  ]
+}

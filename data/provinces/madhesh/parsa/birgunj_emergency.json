@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Parsa",
+      "name_np": "जिल्ला प्रहरी कार्यालय पर्सा",
+      "type": "Police",
+      "address": "District Headquarters, Birgunj",
+      "phone": "051-580123"
+    },
+    {
+      "name": "Narayani Hospital Emergency",
+      "name_np": "नारायणी अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Narayani Hospital, Birgunj",
+      "phone": "051-581234"
+    },
+    {
+      "name": "Birgunj Fire Station",
+      "name_np": "वीरगञ्ज दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Birgunj",
+      "phone": "051-582345"
+    },
+    {
+      "name": "National Medical College Emergency",
+      "name_np": "नेशनल मेडिकल कलेज आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Tikulia, Birgunj",
+      "phone": "051-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Birgunj",
+      "name_np": "नेपाल विद्युत प्राधिकरण वीरगञ्ज",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Birgunj",
+      "phone": "051-584567"
+    },
+    {
+      "name": "Parsa District Administration Office",
+      "name_np": "पर्सा जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Birgunj",
+      "phone": "051-585678"
+    }
+  ]
+}

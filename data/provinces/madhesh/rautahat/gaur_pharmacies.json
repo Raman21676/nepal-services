@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Gaur Pharmacy",
+      "name_np": "गौर फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Gaur Chowk, Rautahat",
+      "phone": "055-531234"
+    },
+    {
+      "name": "Rautahat Medical Store",
+      "name_np": "रौतहट मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Main Road, Gaur",
+      "phone": "055-532345"
+    },
+    {
+      "name": "Durga Pharma",
+      "name_np": "दुर्गा फार्मा",
+      "type": "Pharmacy",
+      "address": "Bazaar Area, Gaur",
+      "phone": "055-533456"
+    },
+    {
+      "name": "Shree Medical Hall",
+      "name_np": "श्री मेडिकल हल",
+      "type": "Medical Store",
+      "address": "Bus Stand, Gaur",
+      "phone": "055-534567"
+    },
+    {
+      "name": "New Gaur Medicines",
+      "name_np": "न्यू गौर मेडिसिन्स",
+      "type": "Pharmacy",
+      "address": "Hospital Road, Gaur",
+      "phone": "055-535678"
+    }
+  ]
+}

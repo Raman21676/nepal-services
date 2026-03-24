@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Malangwa Diagnostic Center",
+      "name_np": "मलंगवा डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Malangwa Chowk, Sarlahi",
+      "phone": "046-521234"
+    },
+    {
+      "name": "Sarlahi Medical Center",
+      "name_np": "सर्लाही मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Malangwa",
+      "phone": "046-522345"
+    },
+    {
+      "name": "Malangwa Eye Care Hospital",
+      "name_np": "मलंगवा आँखा केयर अस्पताल",
+      "type": "Eye Hospital",
+      "address": "Hospital Road, Malangwa",
+      "phone": "046-523456"
+    },
+    {
+      "name": "Shree Bhagwati Health Care",
+      "name_np": "श्री भगवती हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Malangwa",
+      "phone": "046-524567"
+    },
+    {
+      "name": "Sarlahi Pathology Lab",
+      "name_np": "सर्लाही प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Stand Road, Malangwa",
+      "phone": "046-525678"
+    },
+    {
+      "name": "Haripur Medical Clinic",
+      "name_np": "हरिपुर मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Haripur, Sarlahi",
+      "phone": "046-526789"
+    }
+  ]
+}

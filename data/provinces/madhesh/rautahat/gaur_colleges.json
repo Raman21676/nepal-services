@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Gaur Multiple Campus",
+      "name_np": "गौर बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Gaur Chowk, Rautahat",
+      "phone": "055-551234"
+    },
+    {
+      "name": "Rautahat Technical Institute",
+      "name_np": "रौतहट प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Main Road, Gaur",
+      "phone": "055-552345"
+    },
+    {
+      "name": "Chandranigahapur College",
+      "name_np": "चन्द्रनिगाहापुर कलेज",
+      "type": "Community Campus",
+      "address": "Chandranigahapur, Rautahat",
+      "phone": "055-553456"
+    },
+    {
+      "name": "Gaur Nursing College",
+      "name_np": "गौर नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Gaur",
+      "phone": "055-554567"
+    }
+  ]
+}

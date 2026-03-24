@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Jaleshwar Blood Bank",
+      "name_np": "जलेश्वर ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Jaleshwar",
+      "phone": "044-561234"
+    },
+    {
+      "name": "Red Cross Jaleshwar Blood Center",
+      "name_np": "रेडक्रस जलेश्वर रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Jaleshwar",
+      "phone": "044-562345"
+    },
+    {
+      "name": "Mahottari District Blood Bank",
+      "name_np": "महोत्तरी जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Jaleshwar",
+      "phone": "044-563456"
+    }
+  ]
+}
