@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-24",
+    "source": "Nepal Red Cross, Google Search, Hospital websites",
+    "total_records": 10
+  },
+  "ambulance_services": [
+    {
+      "id": 1,
+      "name": "Nepal Red Cross Society - Biratnagar",
+      "type": "Emergency Ambulance",
+      "address": "Rangeli Road, Biratnagar, Morang",
+      "phone": ["021-423326", "1130"],
+      "emergency_number": "1130",
+      "website": "https://nrcs.org/",
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 2,
+      "name": "Biratnagar Ambulance Service",
+      "type": "Private Ambulance",
+      "address": "Biratnagar, Morang",
+      "phone": ["981-0432196"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 3,
+      "name": "Ambulance Service Biratnagar",
+      "type": "Private Ambulance",
+      "address": "Biratnagar-10, Morang",
+      "phone": ["980-2790755"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 4,
+      "name": "Free Ambulance Service Biratnagar",
+      "type": "Free Ambulance",
+      "address": "Biratnagar, Morang",
+      "phone": ["9762959224", "9862625896", "9762959225", "9811139062"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 5,
+      "name": "Birat Nursing Home Ambulance",
+      "type": "Hospital Ambulance",
+      "address": "Kamal Pokhari Marg, Biratnagar",
+      "phone": ["021-571042"],
+      "emergency_number": null,
+      "website": "http://biratnursinghome.com/",
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 6,
+      "name": "Nobel Medical College Ambulance",
+      "type": "Hospital Ambulance",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-460503"],
+      "emergency_number": null,
+      "website": "https://www.nobelmedicalcollege.com.np/",
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 7,
+      "name": "Life Guard Hospital Ambulance",
+      "type": "Hospital Ambulance",
+      "address": "Bargachhi, Biratnagar",
+      "phone": ["9742742333"],
+      "emergency_number": null,
+      "website": "https://www.lifeguardhospital.com.np/",
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 8,
+      "name": "Koshi Hospital Ambulance",
+      "type": "Government Hospital Ambulance",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-570103"],
+      "emergency_number": null,
+      "website": "http://koshihospital.gov.np/",
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 9,
+      "name": "Nepal Red Cross Blood Bank Biratnagar",
+      "type": "Blood Bank",
+      "address": "Rangeli Road, Biratnagar",
+      "phone": ["021-423326"],
+      "emergency_number": null,
+      "website": "https://nrcs.org/",
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 10,
+      "name": "Biratnagar Police Ambulance",
+      "type": "Police Ambulance",
+      "address": "Biratnagar, Morang",
+      "phone": ["100", "021-420100"],
+      "emergency_number": "100",
+      "website": null,
+      "district": "Morang",
+      "gps": null,
+      "available_24_7": true
+    }
+  ]
+}

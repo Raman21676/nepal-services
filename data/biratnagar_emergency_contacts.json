@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-24",
+    "description": "Emergency contact numbers and government offices for Biratnagar"
+  },
+  "emergency_numbers": [
+    {
+      "service": "Police Emergency",
+      "number": "100",
+      "description": "24/7 Police emergency hotline"
+    },
+    {
+      "service": "Fire Brigade",
+      "number": "101",
+      "description": "Fire emergency services"
+    },
+    {
+      "service": "Ambulance",
+      "number": "102",
+      "description": "Ambulance emergency services"
+    },
+    {
+      "service": "Traffic Police",
+      "number": "103",
+      "description": "Traffic police emergency"
+    },
+    {
+      "service": "Nepal Red Cross Ambulance",
+      "number": "1130",
+      "description": "Red Cross ambulance service"
+    },
+    {
+      "service": "Natural Disaster Emergency",
+      "number": "1149",
+      "description": "Disaster response and rescue"
+    },
+    {
+      "service": "Child Helpline",
+      "number": "1098",
+      "description": "Child protection and support"
+    },
+    {
+      "service": "Women Helpline",
+      "number": "1145",
+      "description": "Women's emergency support"
+    },
+    {
+      "service": "Tourist Police",
+      "number": "1144",
+      "description": "Tourist police helpline"
+    },
+    {
+      "service": "Electricity Emergency (NEA)",
+      "number": "1912",
+      "description": "Nepal Electricity Authority emergency"
+    }
+  ],
+  "fire_brigade": [
+    {
+      "id": 1,
+      "name": "Biratnagar Fire Brigade",
+      "address": "Biratnagar Metropolitan City, Morang",
+      "phone": ["021-420200", "101"],
+      "district": "Morang"
+    }
+  ],
+  "electricity_offices": [
+    {
+      "id": 1,
+      "name": "Nepal Electricity Authority - Biratnagar",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-570300", "1912"],
+      "website": "https://www.nea.org.np/",
+      "district": "Morang"
+    },
+    {
+      "id": 2,
+      "name": "NEA Distribution Center Biratnagar",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-570301"],
+      "website": "https://www.nea.org.np/",
+      "district": "Morang"
+    }
+  ],
+  "water_offices": [
+    {
+      "id": 1,
+      "name": "Koshi Province Water Supply Biratnagar",
+      "address": "Biratnagar Metropolitan City, Morang",
+      "phone": ["021-570400"],
+      "website": null,
+      "district": "Morang"
+    }
+  ],
+  "government_offices": [
+    {
+      "id": 1,
+      "name": "Biratnagar Metropolitan City Office",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-420100"],
+      "website": "https://www.biratnagarmun.gov.np/",
+      "district": "Morang"
+    },
+    {
+      "id": 2,
+      "name": "District Administration Office Morang",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-420300"],
+      "website": null,
+      "district": "Morang"
+    },
+    {
+      "id": 3,
+      "name": "District Police Office Morang",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-420400", "100"],
+      "website": null,
+      "district": "Morang"
+    },
+    {
+      "id": 4,
+      "name": "District Health Office Morang",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-570100"],
+      "website": null,
+      "district": "Morang"
+    },
+    {
+      "id": 5,
+      "name": "District Education Office Morang",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-570200"],
+      "website": null,
+      "district": "Morang"
+    },
+    {
+      "id": 6,
+      "name": "Department of Transport Management Biratnagar",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-420500"],
+      "website": "https://www.dotm.gov.np/",
+      "district": "Morang"
+    }
+  ],
+  "important_contacts": [
+    {
+      "name": "Biratnagar Mayor's Office",
+      "phone": ["021-420101"],
+      "address": "Biratnagar Metropolitan City"
+    },
+    {
+      "name": "Biratnagar Airport",
+      "phone": ["021-570500"],
+      "address": "Biratnagar, Morang"
+    },
+    {
+      "name": "Nepal Telecom Biratnagar",
+      "phone": ["021-570600"],
+      "address": "Biratnagar, Morang"
+    },
+    {
+      "name": "Ncell Biratnagar Office",
+      "phone": ["9809000000"],
+      "address": "Biratnagar, Morang"
+    }
+  ]
+}
