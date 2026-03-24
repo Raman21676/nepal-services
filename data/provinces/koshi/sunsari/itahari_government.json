@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Itahari",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Itahari Sub-Metropolitan City Office",
+      "name_np": "ईटहरी उपमहानगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Itahari-9, Sunsari",
+      "phone": "025-580041"
+    },
+    {
+      "name": "District Administration Office Sunsari (Itahari Branch)",
+      "name_np": "जिल्ला प्रशासन कार्यालय सुनसरी (ईटहरी शाखा)",
+      "type": "District Administration",
+      "address": "Itahari, Sunsari",
+      "phone": "025-580223"
+    },
+    {
+      "name": "Nepal Electricity Authority Itahari Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण ईटहरी वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Itahari-6, Sunsari",
+      "phone": "025-580337"
+    },
+    {
+      "name": "Itahari Drinking Water and Sanitation Division Office",
+      "name_np": "ईटहari खानेपानी तथा सरसफाई डिभिजन कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Itahari-9, Sunsari",
+      "phone": "025-580156"
+    },
+    {
+      "name": "Itahari Area Police Office",
+      "name_np": "ईटहरी क्षेत्रीय प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Itahari-9, Sunsari",
+      "phone": "025-580194"
+    },
+    {
+      "name": "Land Revenue Office Itahari",
+      "name_np": "मालपोत कार्यालय ईटहरी",
+      "type": "Land Revenue Office",
+      "address": "Itahari-9, Sunsari",
+      "phone": "025-580287"
+    },
+    {
+      "name": "Itahari Post Office",
+      "name_np": "ईटहरी हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Itahari-9, Sunsari",
+      "phone": "025-580033"
+    },
+    {
+      "name": "Transport Management Office Itahari",
+      "name_np": "यातायात व्यवस्था कार्यालय ईटहरी",
+      "type": "Transport Office",
+      "address": "Itahari-6, Sunsari",
+      "phone": "025-580515"
+    },
+    {
+      "name": "Division Forest Office Sunsari (Itahari)",
+      "name_np": "डिभिजन वन कार्यालय सुनसरी (ईटहरी)",
+      "type": "Forest Office",
+      "address": "Itahari, Sunsari",
+      "phone": "025-580412"
+    },
+    {
+      "name": "Agriculture Knowledge Center Sunsari",
+      "name_np": "कृषि ज्ञान केन्द्र सुनसरी",
+      "type": "Agriculture Office",
+      "address": "Itahari, Sunsari",
+      "phone": "025-580278"
+    },
+    {
+      "name": "Veterinary Hospital and Livestock Service Expert Center Sunsari",
+      "name_np": "पशु अस्पताल तथा पशुपंक्षी सेवा विज्ञ केन्द्र सुनसरी",
+      "type": "Veterinary Office",
+      "address": "Itahari, Sunsari",
+      "phone": "025-580366"
+    }
+  ]
+}

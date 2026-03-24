@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Myanglung (Manglung)",
+    "district": "Terhathum",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Myanglung Municipality Office (Manglung)",
+      "name_np": "म्याङलुङ नगरपालिका कार्यालय (माङलुङ)",
+      "type": "Municipal Office",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460141"
+    },
+    {
+      "name": "District Administration Office Terhathum",
+      "name_np": "जिल्ला प्रशासन कार्यालय तेह्रथुम",
+      "type": "District Administration",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460111"
+    },
+    {
+      "name": "Nepal Electricity Authority Terhathum Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण तेह्रथुम वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460315"
+    },
+    {
+      "name": "Myanglung Drinking Water and Sanitation Division Office",
+      "name_np": "म्याङलुङ खानेपानी तथा सरसफाई डिभिजन कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460267"
+    },
+    {
+      "name": "Terhathum District Police Office",
+      "name_np": "तेह्रथुम जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460194"
+    },
+    {
+      "name": "Land Revenue Office Terhathum",
+      "name_np": "मालपोत कार्यालय तेह्रथुम",
+      "type": "Land Revenue Office",
+      "address": "Myanglung, Terhathum",
+      "phone": "026-460288"
+    },
+    {
+      "name": "Myanglung Post Office",
+      "name_np": "म्याङलुङ हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460033"
+    },
+    {
+      "name": "Transport Management Office Terhathum",
+      "name_np": "यातायात व्यवस्था कार्यालय तेह्रथुम",
+      "type": "Transport Office",
+      "address": "Myanglung-5, Terhathum",
+      "phone": "026-460412"
+    },
+    {
+      "name": "Division Forest Office Terhathum",
+      "name_np": "डिभिजन वन कार्यालय तेह्रथुम",
+      "type": "Forest Office",
+      "address": "Myanglung, Terhathum",
+      "phone": "026-460378"
+    },
+    {
+      "name": "Agriculture Knowledge Center Terhathum",
+      "name_np": "कृषि ज्ञान केन्द्र तेह्रथुम",
+      "type": "Agriculture Office",
+      "address": "Myanglung, Terhathum",
+      "phone": "026-460256"
+    },
+    {
+      "name": "Veterinary Hospital and Livestock Service Expert Center Terhathum",
+      "name_np": "पशु अस्पताल तथा पशुपंक्षी सेवा विज्ञ केन्द्र तेह्रथुम",
+      "type": "Veterinary Office",
+      "address": "Myanglung, Terhathum",
+      "phone": "026-460345"
+    }
+  ]
+}

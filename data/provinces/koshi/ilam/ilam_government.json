@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Ilam Municipality Office",
+      "name_np": "इलाम नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Ilam-6, Ilam",
+      "phone": "027-580141"
+    },
+    {
+      "name": "District Administration Office Ilam",
+      "name_np": "जिल्ला प्रशासन कार्यालय इलाम",
+      "type": "District Administration",
+      "address": "Ilam-6, Ilam",
+      "phone": "027-580111"
+    },
+    {
+      "name": "Nepal Electricity Authority Ilam Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण इलाम वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Ilam-6, Ilam",
+      "phone": "027-580315"
+    },
+    {
+      "name": "Ilam Drinking Water and Sanitation Division Office",
+      "name_np": "इलाम खानेपानी तथा सरसफाई डिभिजन कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Ilam-6, Ilam",
+      "phone": "027-580267"
+    },
+    {
+      "name": "Ilam District Police Office",
+      "name_np": "इलाम जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Ilam-6, Ilam",
+      "phone": "027-580194"
+    },
+    {
+      "name": "Land Revenue Office Ilam",
+      "name_np": "मालपोत कार्यालय इलाम",
+      "type": "Land Revenue Office",
+      "address": "Ilam, Ilam",
+      "phone": "027-580288"
+    },
+    {
+      "name": "Ilam Post Office",
+      "name_np": "इलाम हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Ilam-6, Ilam",
+      "phone": "027-580033"
+    },
+    {
+      "name": "Tea Development and Management Office Ilam",
+      "name_np": "चिया विकास तथा व्यवस्थापन कार्यालय इलाम",
+      "type": "Tea Development Office",
+      "address": "Ilam, Ilam",
+      "phone": "027-580412"
+    },
+    {
+      "name": "Division Forest Office Ilam",
+      "name_np": "डिभिजन वन कार्यालय इलाम",
+      "type": "Forest Office",
+      "address": "Ilam, Ilam",
+      "phone": "027-580378"
+    },
+    {
+      "name": "Agriculture Knowledge Center Ilam",
+      "name_np": "कृषि ज्ञान केन्द्र इलाम",
+      "type": "Agriculture Office",
+      "address": "Ilam, Ilam",
+      "phone": "027-580256"
+    },
+    {
+      "name": "Veterinary Hospital and Livestock Service Expert Center Ilam",
+      "name_np": "पशु अस्पताल तथा पशुपंक्षी सेवा विज्ञ केन्द्र इलाम",
+      "type": "Veterinary Office",
+      "address": "Ilam, Ilam",
+      "phone": "027-580345"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Damak Municipality Office",
+      "name_np": "दमक नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-580141"
+    },
+    {
+      "name": "District Administration Office Jhapa (Damak Branch)",
+      "name_np": "जिल्ला प्रशासन कार्यालय झापा (दमक शाखा)",
+      "type": "District Administration",
+      "address": "Damak, Jhapa",
+      "phone": "023-580223"
+    },
+    {
+      "name": "Nepal Electricity Authority Damak Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण दमक वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-580334"
+    },
+    {
+      "name": "Damak Drinking Water and Sanitation Division Office",
+      "name_np": "दमक खानेपानी तथा सरसफाई डिभिजन कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-580267"
+    },
+    {
+      "name": "Damak Area Police Office",
+      "name_np": "दमक क्षेत्रीय प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-580194"
+    },
+    {
+      "name": "Land Revenue Office Damak",
+      "name_np": "मालपोत कार्यालय दमक",
+      "type": "Land Revenue Office",
+      "address": "Damak, Jhapa",
+      "phone": "023-580288"
+    },
+    {
+      "name": "Damak Post Office",
+      "name_np": "दमक हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-580033"
+    },
+    {
+      "name": "Transport Management Office Damak",
+      "name_np": "यातायात व्यवस्था कार्यालय दमक",
+      "type": "Transport Office",
+      "address": "Damak-7, Jhapa",
+      "phone": "023-580412"
+    },
+    {
+      "name": "Division Forest Office Jhapa (Damak)",
+      "name_np": "डिभिजन वन कार्यालय झापा (दमक)",
+      "type": "Forest Office",
+      "address": "Damak, Jhapa",
+      "phone": "023-580378"
+    },
+    {
+      "name": "Agriculture Knowledge Center Jhapa (Damak)",
+      "name_np": "कृषि ज्ञान केन्द्र झापा (दमक)",
+      "type": "Agriculture Office",
+      "address": "Damak, Jhapa",
+      "phone": "023-580256"
+    },
+    {
+      "name": "Veterinary Hospital and Livestock Service Expert Center Jhapa (Damak)",
+      "name_np": "पशु अस्पताल तथा पशुपंक्षी सेवा विज्ञ केन्द्र झापा (दमक)",
+      "type": "Veterinary Office",
+      "address": "Damak, Jhapa",
+      "phone": "023-580345"
+    }
+  ]
+}

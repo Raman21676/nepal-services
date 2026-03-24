@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Khandbari (Chainpur)",
+    "district": "Sankhuwasabha",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Chainpur Municipality Office (Khandbari)",
+      "name_np": "चैनपुर नगरपालिका कार्यालय (खाँडबारी)",
+      "type": "Municipal Office",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560141"
+    },
+    {
+      "name": "District Administration Office Sankhuwasabha",
+      "name_np": "जिल्ला प्रशासन कार्यालय संखुवासभा",
+      "type": "District Administration",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560111"
+    },
+    {
+      "name": "Nepal Electricity Authority Sankhuwasabha Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण संखुवासभा वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560315"
+    },
+    {
+      "name": "Khandbari Drinking Water and Sanitation Division Office",
+      "name_np": "खाँडबारी खानेपानी तथा सरसफाई डिभिजन कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560267"
+    },
+    {
+      "name": "Sankhuwasabha District Police Office",
+      "name_np": "संखुवासभा जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560194"
+    },
+    {
+      "name": "Land Revenue Office Sankhuwasabha",
+      "name_np": "मालपोत कार्यालय संखुवासभा",
+      "type": "Land Revenue Office",
+      "address": "Khandbari, Sankhuwasabha",
+      "phone": "029-560288"
+    },
+    {
+      "name": "Khandbari Post Office",
+      "name_np": "खाँडबारी हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560033"
+    },
+    {
+      "name": "Transport Management Office Sankhuwasabha",
+      "name_np": "यातायात व्यवस्था कार्यालय संखुवासभा",
+      "type": "Transport Office",
+      "address": "Khandbari-5, Sankhuwasabha",
+      "phone": "029-560412"
+    },
+    {
+      "name": "Division Forest Office Sankhuwasabha",
+      "name_np": "डिभिजन वन कार्यालय संखुवासभा",
+      "type": "Forest Office",
+      "address": "Khandbari, Sankhuwasabha",
+      "phone": "029-560378"
+    },
+    {
+      "name": "Agriculture Knowledge Center Sankhuwasabha",
+      "name_np": "कृषि ज्ञान केन्द्र संखुवासभा",
+      "type": "Agriculture Office",
+      "address": "Khandbari, Sankhuwasabha",
+      "phone": "029-560256"
+    },
+    {
+      "name": "Veterinary Hospital and Livestock Service Expert Center Sankhuwasabha",
+      "name_np": "पशु अस्पताल तथा पशुपंक्षी सेवा विज्ञ केन्द्र संखुवासभा",
+      "type": "Veterinary Office",
+      "address": "Khandbari, Sankhuwasabha",
+      "phone": "029-560345"
+    }
+  ]
+}

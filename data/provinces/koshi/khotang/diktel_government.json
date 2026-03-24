@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Diktel",
+    "district": "Khotang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Rupakot Majhuwagadhi Municipality Office (Diktel)",
+      "name_np": "रुपाकोट मझुवागढी नगरपालिका कार्यालय (दिक्तेल)",
+      "type": "Municipal Office",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420141"
+    },
+    {
+      "name": "District Administration Office Khotang",
+      "name_np": "जिल्ला प्रशासन कार्यालय खोटाङ",
+      "type": "District Administration",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420111"
+    },
+    {
+      "name": "Nepal Electricity Authority Khotang Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण खोटाङ वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420315"
+    },
+    {
+      "name": "Diktel Drinking Water and Sanitation Division Office",
+      "name_np": "दिक्तेल खानेपानी तथा सरसफाई डिभिजन कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420267"
+    },
+    {
+      "name": "Khotang District Police Office",
+      "name_np": "खोटाङ जिल्ला प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420194"
+    },
+    {
+      "name": "Land Revenue Office Khotang",
+      "name_np": "मालपोत कार्यालय खोटाङ",
+      "type": "Land Revenue Office",
+      "address": "Diktel, Khotang",
+      "phone": "036-420288"
+    },
+    {
+      "name": "Diktel Post Office",
+      "name_np": "दिक्तेल हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420033"
+    },
+    {
+      "name": "Transport Management Office Khotang",
+      "name_np": "यातायात व्यवस्था कार्यालय खोटाङ",
+      "type": "Transport Office",
+      "address": "Diktel-5, Khotang",
+      "phone": "036-420412"
+    },
+    {
+      "name": "Division Forest Office Khotang",
+      "name_np": "डिभिजन वन कार्यालय खोटाङ",
+      "type": "Forest Office",
+      "address": "Diktel, Khotang",
+      "phone": "036-420378"
+    },
+    {
+      "name": "Agriculture Knowledge Center Khotang",
+      "name_np": "कृषि ज्ञान केन्द्र खोटाङ",
+      "type": "Agriculture Office",
+      "address": "Diktel, Khotang",
+      "phone": "036-420256"
+    },
+    {
+      "name": "Veterinary Hospital and Livestock Service Expert Center Khotang",
+      "name_np": "पशु अस्पताल तथा पशुपंक्षी सेवा विज्ञ केन्द्र खोटाङ",
+      "type": "Veterinary Office",
+      "address": "Diktel, Khotang",
+      "phone": "036-420345"
+    }
+  ]
+}
