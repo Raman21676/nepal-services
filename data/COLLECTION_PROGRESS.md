@@ -19,7 +19,7 @@
 ### Gandaki Province (1 city)
 | City | District | Status | Hospitals | Wards |
 |------|----------|--------|-----------|-------|
-| Pokhara | Kaski | ✅ Complete | 8 | 33 |
+| Pokhara | Kaski | ✅ Complete | 8 | 10 | 10+ | 6 | 4 | 6 | ✅ | ✅ | 33 |
 
 ### Madhesh Province (2 cities)
 | City | District | Status | Hospitals | Wards |
