@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "total_hospitals": 8,
+    "last_updated": "2026-03-24",
+    "source": "Pokhara Metropolitan City, Health Facility Assessment Report 2024, Official Hospital Websites"
+  },
+  "hospitals": [
+    {
+      "hospital_name": "Gandaki Medical College Teaching Hospital and Research Center",
+      "type": "Medical College & Teaching Hospital",
+      "ownership": "Private",
+      "established": 2007,
+      "address": "Prithvi Chowk, Pokhara Lekhnath Metropolitan City-9, Kaski",
+      "phone": ["+977-61-538595", "+977-61-538596"],
+      "email": "info@gmc.edu.np",
+      "website": "https://www.gmc.edu.np",
+      "beds": 750,
+      "emergency_available": true,
+      "emergency_phone": ["+977-61-538595"],
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology",
+        "Nephrology",
+        "Urology",
+        "ENT",
+        "Ophthalmology",
+        "Dermatology",
+        "Psychiatry",
+        "Radiology",
+        "Pathology",
+        "Anesthesiology",
+        "Dental"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "Dialysis",
+        "CT Scan",
+        "MRI",
+        "Laboratory",
+        "Pharmacy",
+        "Ambulance",
+        "Blood Bank"
+      ],
+      "opd_daily": 880,
+      "affiliation": "Tribhuvan University (TU)",
+      "recognition": ["NMC Nepal", "NMC India", "WHO", "MEC Nepal"],
+      "location": {
+        "latitude": 28.2378,
+        "longitude": 83.9912,
+        "plus_code": "6X6Q+V3H"
+      }
+    },
+    {
+      "hospital_name": "Charak Memorial Hospital",
+      "type": "Multispecialty Hospital",
+      "ownership": "Private",
+      "address": "Nagdhunga, Pokhara-8, Kaski",
+      "phone": ["+977-61-582778", "+977-61-582779", "+977-61-552494"],
+      "email": "info@cmh.com.np",
+      "website": "https://cmh.com.np",
+      "beds": 150,
+      "emergency_available": true,
+      "emergency_phone": ["+977-61-582778"],
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Neurosurgery",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "ENT",
+        "Ophthalmology",
+        "Dermatology"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "Dialysis (Government Recognized)",
+        "Trauma Center (Head & Spine Injury)",
+        "CT Scan",
+        "X-Ray",
+        "Ultrasound",
+        "Laboratory",
+        "Pharmacy",
+        "Helipad for Emergency Rescue",
+        "Social Security Fund Health Scheme"
+      ],
+      "location": {
+        "latitude": 28.2096,
+        "longitude": 83.9856
+      }
+    },
+    {
+      "hospital_name": "CIWEC Travel Medicine Hospital Pokhara",
+      "type": "Travel Medicine & General Hospital",
+      "ownership": "Private",
+      "address": "Mansarovar Path (Meera Hotel Lane), Barahi Tole, Lakeside, Pokhara",
+      "phone": ["+977-61-453082", "+977-61-457053"],
+      "email": "pkradministrator@ciwec-clinic.com",
+      "website": "https://ciwechospital.com",
+      "emergency_available": true,
+      "emergency_phone": ["+977-61-453082"],
+      "specialties": [
+        "Travel Medicine",
+        "General Medicine",
+        "High Altitude Medicine",
+        "Tropical Medicine",
+        "Dermatology",
+        "Obstetrics & Gynecology",
+        "Orthopedics",
+        "Ophthalmology"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "Inpatient Services",
+        "Outpatient Services",
+        "Laboratory (On-site)",
+        "Digital X-Ray",
+        "Ultrasound with Doppler",
+        "Cardiac Ultrasound",
+        "Pharmacy",
+        "Ambulance Service",
+        "Health Screening Packages",
+        "Immunization Services",
+        "Rabies Prevention (Vaccine & HRIG)"
+      ],
+      "note": "Specializes in travel-related illnesses and high altitude sickness. Most reliable source of rabies prevention in South Asia.",
+      "location": {
+        "latitude": 28.2094,
+        "longitude": 83.9593
+      }
+    },
+    {
+      "hospital_name": "Fishtail Hospital & Research Center",
+      "type": "Multispecialty Hospital",
+      "ownership": "Private",
+      "address": "Dautari Bhawan, Gairapatan, Pokhara-4, Kaski",
+      "phone": ["+977-61-5789999", "+977-61-577553", "+977-61-544700"],
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics"
+      ],
+      "services": [
+        "Emergency Services",
+        "ICU",
+        "Laboratory",
+        "Radiology",
+        "Pharmacy"
+      ],
+      "location": {
+        "latitude": 28.2390,
+        "longitude": 83.9820
+      }
+    },
+    {
+      "hospital_name": "Manipal College of Medical Sciences",
+      "type": "Medical College & Teaching Hospital",
+      "ownership": "Private",
+      "address": "Phulbari, Pokhara, Kaski",
+      "phone": ["+977-61-440039", "+977-61-440040"],
+      "website": "https://www.manipalpokhara.edu.np",
+      "beds": 750,
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology",
+        "Nephrology",
+        "Urology",
+        "ENT",
+        "Ophthalmology",
+        "Psychiatry"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "Dialysis",
+        "CT Scan",
+        "MRI",
+        "Laboratory",
+        "Blood Bank",
+        "Ambulance"
+      ],
+      "affiliation": "Kathmandu University",
+      "recognition": ["NMC Nepal", "NMC India", "WHO"],
+      "location": {
+        "latitude": 28.1895,
+        "longitude": 84.0000
+      }
+    },
+    {
+      "hospital_name": "Pokhara Academy of Health Sciences (PAHS)",
+      "type": "Academic & Tertiary Care Hospital",
+      "ownership": "Government",
+      "address": "Zero Kilometer, Pokhara, Kaski",
+      "phone": ["+977-61-520183", "+977-61-520184"],
+      "email": "pahs@pahs.edu.np",
+      "website": "https://www.pahs.edu.np",
+      "beds": 350,
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology",
+        "Nephrology",
+        "ENT",
+        "Ophthalmology",
+        "Psychiatry"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "Dialysis",
+        "CT Scan",
+        "MRI",
+        "Laboratory",
+        "Blood Bank",
+        "Ambulance",
+        "Pharmacy"
+      ],
+      "note": "Premier government hospital in Pokhara with medical education programs",
+      "location": {
+        "latitude": 28.2156,
+        "longitude": 83.9911
+      }
+    },
+    {
+      "hospital_name": "Kaski District Hospital",
+      "type": "District Hospital",
+      "ownership": "Government",
+      "address": "Pokhara, Kaski",
+      "phone": ["+977-61-520555"],
+      "beds": 100,
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "General Surgery",
+        "Obstetrics & Gynecology",
+        "Pediatrics"
+      ],
+      "services": [
+        "Emergency Services",
+        "OPD",
+        "Laboratory",
+        "X-Ray",
+        "Pharmacy"
+      ]
+    },
+    {
+      "hospital_name": "Gandaki Provincial Hospital",
+      "type": "Provincial Hospital",
+      "ownership": "Provincial Government",
+      "address": "Pokhara, Kaski",
+      "phone": ["+977-61-543278"],
+      "beds": 200,
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics"
+      ],
+      "services": [
+        "Emergency Services",
+        "OPD",
+        "Laboratory",
+        "Radiology",
+        "Pharmacy"
+      ]
+    }
+  ],
+  "pokhara_health_overview": {
+    "total_facilities": 660,
+    "public_facilities": 53,
+    "private_facilities": 607,
+    "breakdown": {
+      "public_hospitals": 3,
+      "ayurvedic_hospital": 1,
+      "tb_center": 1,
+      "basic_hospital": 1,
+      "primary_health_care_centers": 2,
+      "health_posts": 19,
+      "urban_health_clinics": 23,
+      "urban_promotion_center": 1,
+      "private_hospitals_nursing_homes": 28,
+      "dental_clinics": 77,
+      "private_clinics": 44,
+      "private_polyclinics": 27,
+      "private_pharmacies": 352
+    },
+    "health_workforce": {
+      "medical_doctors": 1517,
+      "pharmacists_lab_technicians": 1792,
+      "nursing_midwifery": 1591
+    }
+  }
+}

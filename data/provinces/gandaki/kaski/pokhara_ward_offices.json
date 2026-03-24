@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "total_wards": 33,
+    "last_updated": "2026-03-24",
+    "source": "Pokhara Metropolitan City Official Website (pokharamun.gov.np)",
+    "mayor": "Dhana Raj Acharya",
+    "mayor_phone": ["061-575340", "9856003035"],
+    "deputy_mayor": "Manjudevi Gurung",
+    "deputy_mayor_phone": ["061-571502", "9856003034"],
+    "health_department_phone": "061-543278",
+    "emergency_helpline": "1181 (Hello Mayor)",
+    "admin_phone": "061-571104",
+    "fire_brigade": "061-570222"
+  },
+  "ward_offices": [
+    {
+      "ward_number": 1,
+      "name": "Ward No. 1 Office",
+      "address": "Pokhara Metropolitan City-1",
+      "population": 13947,
+      "area_sq_km": 1.54,
+      "email": "ward1@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-१"
+    },
+    {
+      "ward_number": 2,
+      "name": "Ward No. 2 Office",
+      "address": "Pokhara Metropolitan City-2",
+      "population": 10100,
+      "area_sq_km": 0.6,
+      "email": "ward2@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-२"
+    },
+    {
+      "ward_number": 3,
+      "name": "Ward No. 3 Office",
+      "address": "Pokhara Metropolitan City-3",
+      "population": 8284,
+      "area_sq_km": 0.63,
+      "email": "ward3@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-३"
+    },
+    {
+      "ward_number": 4,
+      "name": "Ward No. 4 Office",
+      "address": "Pokhara Metropolitan City-4",
+      "population": 9152,
+      "area_sq_km": 0.51,
+      "email": "ward4@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-४"
+    },
+    {
+      "ward_number": 5,
+      "name": "Ward No. 5 Office",
+      "address": "Pokhara Metropolitan City-5 (Dharmasthali area)",
+      "population": 22325,
+      "area_sq_km": 1.78,
+      "email": "ward5@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-५"
+    },
+    {
+      "ward_number": 6,
+      "name": "Ward No. 6 Office",
+      "address": "Pokhara Metropolitan City-6",
+      "population": 14455,
+      "area_sq_km": 6.33,
+      "email": "ward6@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-६"
+    },
+    {
+      "ward_number": 7,
+      "name": "Ward No. 7 Office",
+      "address": "Pokhara Metropolitan City-7",
+      "population": 16139,
+      "area_sq_km": 1.97,
+      "email": "ward7@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-७"
+    },
+    {
+      "ward_number": 8,
+      "name": "Ward No. 8 Office",
+      "address": "Pokhara Metropolitan City-8 (Nagdhunga, Charak Hospital area)",
+      "population": 25439,
+      "area_sq_km": 1.76,
+      "email": "ward8@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-८"
+    },
+    {
+      "ward_number": 9,
+      "name": "Ward No. 9 Office",
+      "address": "Pokhara Metropolitan City-9 (Prithvi Chowk, GMC area)",
+      "population": 15981,
+      "area_sq_km": 1.22,
+      "email": "ward9@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-९"
+    },
+    {
+      "ward_number": 10,
+      "name": "Ward No. 10 Office",
+      "address": "Pokhara Metropolitan City-10",
+      "population": 18435,
+      "area_sq_km": 1.96,
+      "email": "ward10@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१०"
+    },
+    {
+      "ward_number": 11,
+      "name": "Ward No. 11 Office",
+      "address": "Pokhara Metropolitan City-11",
+      "population": 17594,
+      "area_sq_km": 6.97,
+      "email": "ward11@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-११"
+    },
+    {
+      "ward_number": 12,
+      "name": "Ward No. 12 Office",
+      "address": "Pokhara Metropolitan City-12 (Amarsingh area)",
+      "population": 12710,
+      "area_sq_km": 1.4,
+      "email": "ward12@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१२"
+    },
+    {
+      "ward_number": 13,
+      "name": "Ward No. 13 Office",
+      "address": "Pokhara Metropolitan City-13",
+      "population": 22399,
+      "area_sq_km": 15.38,
+      "email": "ward13@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१३"
+    },
+    {
+      "ward_number": 14,
+      "name": "Ward No. 14 Office",
+      "address": "Pokhara Metropolitan City-14",
+      "population": 31561,
+      "area_sq_km": 13.36,
+      "email": "ward14@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१४"
+    },
+    {
+      "ward_number": 15,
+      "name": "Ward No. 15 Office",
+      "address": "Pokhara Metropolitan City-15",
+      "population": 24406,
+      "area_sq_km": 5.12,
+      "email": "ward15@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१५"
+    },
+    {
+      "ward_number": 16,
+      "name": "Ward No. 16 Office",
+      "address": "Pokhara Metropolitan City-16",
+      "population": 24465,
+      "area_sq_km": 34.68,
+      "email": "ward16@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१६"
+    },
+    {
+      "ward_number": 17,
+      "name": "Ward No. 17 Office",
+      "address": "Pokhara Metropolitan City-17",
+      "population": 46005,
+      "area_sq_km": 7.89,
+      "email": "ward17@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१७"
+    },
+    {
+      "ward_number": 18,
+      "name": "Ward No. 18 Office",
+      "address": "Pokhara Metropolitan City-18 (Janjagriti area)",
+      "population": 12945,
+      "area_sq_km": 17.77,
+      "email": "ward18@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१८"
+    },
+    {
+      "ward_number": 19,
+      "name": "Ward No. 19 Office",
+      "address": "Pokhara Metropolitan City-19 (Purunchaur area)",
+      "population": 13855,
+      "area_sq_km": 11.04,
+      "email": "ward19@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-१९"
+    },
+    {
+      "ward_number": 20,
+      "name": "Ward No. 20 Office",
+      "address": "Pokhara Metropolitan City-20 (Mauja area)",
+      "population": 3936,
+      "area_sq_km": 22.94,
+      "email": "ward20@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२०"
+    },
+    {
+      "ward_number": 21,
+      "name": "Ward No. 21 Office",
+      "address": "Pokhara Metropolitan City-21",
+      "email": "ward21@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२१"
+    },
+    {
+      "ward_number": 22,
+      "name": "Ward No. 22 Office",
+      "address": "Pokhara Metropolitan City-22 (Okhledada, Shukraraj area)",
+      "email": "ward22@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२२"
+    },
+    {
+      "ward_number": 23,
+      "name": "Ward No. 23 Office",
+      "address": "Pokhara Metropolitan City-23",
+      "email": "ward23@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२३"
+    },
+    {
+      "ward_number": 24,
+      "name": "Ward No. 24 Office",
+      "address": "Pokhara Metropolitan City-24",
+      "email": "ward24@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२४"
+    },
+    {
+      "ward_number": 25,
+      "name": "Ward No. 25 Office",
+      "address": "Pokhara Metropolitan City-25",
+      "email": "ward25@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२५"
+    },
+    {
+      "ward_number": 26,
+      "name": "Ward No. 26 Office",
+      "address": "Pokhara Metropolitan City-26",
+      "email": "ward26@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२६"
+    },
+    {
+      "ward_number": 27,
+      "name": "Ward No. 27 Office",
+      "address": "Pokhara Metropolitan City-27",
+      "email": "ward27@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२७"
+    },
+    {
+      "ward_number": 28,
+      "name": "Ward No. 28 Office",
+      "address": "Pokhara Metropolitan City-28",
+      "email": "ward28@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-२८"
+    },
+    {
+      "ward_number": 29,
+      "name": "Ward No. 29 Office",
+      "address": "Pokhara Metropolitan City-29",
+      "email": "ward29@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-२९"
+    },
+    {
+      "ward_number": 30,
+      "name": "Ward No. 30 Office",
+      "address": "Pokhara Metropolitan City-30",
+      "email": "ward30@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-३०"
+    },
+    {
+      "ward_number": 31,
+      "name": "Ward No. 31 Office",
+      "address": "Pokhara Metropolitan City-31",
+      "email": "ward31@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वार्ड-नं-३१"
+    },
+    {
+      "ward_number": 32,
+      "name": "Ward No. 32 Office",
+      "address": "Pokhara Metropolitan City-32 (Bahramarupa area)",
+      "email": "ward32@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं.३२"
+    },
+    {
+      "ward_number": 33,
+      "name": "Ward No. 33 Office",
+      "address": "Pokhara Metropolitan City-33",
+      "email": "ward33@pokharamun.gov.np",
+      "website": "https://pokharamun.gov.np/content/वडा-नं-३३"
+    }
+  ],
+  "pokhara_metropolitan_contact": {
+    "office_name": "Pokhara Metropolitan City Office",
+    "address": "Pokhara-8, Nagdhunga, Kaski, Gandaki Province",
+    "phone": ["+977-61-571105", "+977-61-571104"],
+    "emergency_helpline": "1181 (Hello Mayor)",
+    "health_department": "061-543278",
+    "fire_brigade": "061-570222",
+    "email": {
+      "general": "info@pokharamun.gov.np",
+      "mayor": "mayor@pokharamun.gov.np",
+      "deputy_mayor": "deputymayor@pokharamun.gov.np",
+      "cao": "cao@pokharamun.gov.np",
+      "mayor_secretariat": "mayorsecretariat@pokharamun.gov.np"
+    },
+    "website": "https://pokharamun.gov.np",
+    "ward_secretary_pdf": "https://pokharamun.gov.np/sites/pokharamun.gov.np/files/sachib%20details.pdf"
+  }
+}
