@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "data_type": "veterinary",
+    "last_updated": "2025-01-24"
+  },
+  "veterinary": [
+    {
+      "name": "City Veterinary Hospital",
+      "address": "Satdobato, Lalitpur (Opposite to swimming pool gate)",
+      "contact": "9801117334",
+      "type": "Veterinary Hospital",
+      "hours": "24/7",
+      "services": ["Surgery", "Vaccination", "Dentistry", "Pet Shop", "Home Service", "Emergency Care"],
+      "website": "https://cityvetnepal.com"
+    },
+    {
+      "name": "Livestock Service Office",
+      "address": "Lagankhel, Lalitpur",
+      "contact": "01-5547377",
+      "type": "Government Veterinary",
+      "hours": "Sunday-Friday",
+      "services": ["Animal Health", "Vaccination", "Livestock Services"],
+      "email": "vhlseclalitpur@gmail.com"
+    },
+    {
+      "name": "Patan Vet Clinic",
+      "address": "Jhamsikhel, Lalitpur",
+      "contact": "01-5542733",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Consultation", "Vaccination", "Treatment"]
+    },
+    {
+      "name": "Veterinary Hospital",
+      "address": "Lagankhel, Lalitpur",
+      "contact": "01-5521469",
+      "type": "Government Veterinary Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Animal Treatment", "Surgery", "Vaccination"]
+    },
+    {
+      "name": "Vet Clinic",
+      "address": "Pulchowk, Lalitpur",
+      "contact": "01-5524236",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Treatment"]
+    },
+    {
+      "name": "Pushpanjali Vet Clinic",
+      "address": "Bhaisepati, Lalitpur",
+      "contact": "01-5541265",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Consultation", "Treatment"]
+    },
+    {
+      "name": "Jibachha Veterinary Hospital",
+      "address": "Jhamsikhel, Lalitpur",
+      "contact": "01-5542733",
+      "type": "Veterinary Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Surgery", "Vaccination"]
+    },
+    {
+      "name": "Mobile Veterinary Clinic",
+      "address": "Near Central Zoo, Jawalakhel, Lalitpur",
+      "contact": "01-5541293",
+      "type": "Mobile Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Mobile Pet Care", "Vaccination", "Treatment"]
+    },
+    {
+      "name": "Alpine Veterinary Hospital",
+      "address": "Sanepa, Lalitpur (Opposite Star Hospital)",
+      "contact": "9860439769",
+      "type": "Veterinary Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Happypets Animal Clinic",
+      "address": "Imadol, Lalitpur",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Vaccination", "Dental Care", "Dermatology", "Surgery", "Diagnostics"],
+      "website": "https://happypets.com.np"
+    },
+    {
+      "name": "SN Pet Animal Clinic",
+      "address": "Imadol, Lalitpur",
+      "type": "Veterinary Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Treatment"]
+    },
+    {
+      "name": "KAT Veterinary Hospital",
+      "address": "Lalitpur",
+      "type": "Animal Welfare Hospital",
+      "hours": "24/7",
+      "services": ["Stray Animal Care", "Surgery", "Vaccination"],
+      "notes": "Operated by Kathmandu Animal Treatment Centre"
+    }
+  ]
+}

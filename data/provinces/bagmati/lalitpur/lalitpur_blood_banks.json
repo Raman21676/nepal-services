@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "data_type": "blood_banks",
+    "last_updated": "2025-01-24"
+  },
+  "blood_banks": [
+    {
+      "name": "Nepal Red Cross Society Lalitpur Blood Bank",
+      "address": "Pulchowk, Lalitpur",
+      "contact": "01-5427033",
+      "type": "Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Donation", "Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Patan Hospital Blood Bank",
+      "address": "Lagankhel, Lalitpur",
+      "contact": "01-5522295",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Nepal Mediciti Hospital Blood Bank",
+      "address": "Nakhkhu, Bhaisepati, Lalitpur",
+      "contact": "01-4217766",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Component Therapy"]
+    },
+    {
+      "name": "B&B Hospital Blood Bank",
+      "address": "Gwarko, Lalitpur",
+      "contact": "01-5970999",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Star Hospital Blood Bank",
+      "address": "Sanepa, Lalitpur",
+      "contact": "01-5450198",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Blood Component"]
+    },
+    {
+      "name": "Sumeru Hospital Blood Bank",
+      "address": "Dhapakhel, Lalitpur",
+      "contact": "01-5275377",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion"]
+    },
+    {
+      "name": "Alka Hospital Blood Bank",
+      "address": "Jawalakhel, Lalitpur",
+      "contact": "01-5970795",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion"]
+    }
+  ]
+}

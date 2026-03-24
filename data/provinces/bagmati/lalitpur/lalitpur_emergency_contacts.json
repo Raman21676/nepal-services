@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "data_type": "emergency_contacts",
+    "last_updated": "2025-01-24"
+  },
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "contact": "100",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Fire Brigade",
+      "contact": "101",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Ambulance Emergency",
+      "contact": "102",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Traffic Police",
+      "contact": "103",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Child Helpline",
+      "contact": "104",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Tourist Police",
+      "contact": "1144",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Lalitpur Fire Brigade",
+      "contact": "01-5535373",
+      "address": "Pulchok, Lalitpur",
+      "type": "Fire Service",
+      "hours": "24/7"
+    },
+    {
+      "service": "Lalitpur Metropolitan Municipality Chief",
+      "contact": "01-5555584",
+      "type": "Municipality",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Lalitpur Metropolitan Municipality Deputy Chief",
+      "contact": "01-5555582",
+      "type": "Municipality",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Chief Administrative Officer",
+      "contact": "01-5522563",
+      "type": "Municipality",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "District Administration Office",
+      "contact": "01-5523051",
+      "address": "Lalitpur",
+      "type": "Government",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Metropolitan Police Complex",
+      "contact": "01-5521350",
+      "address": "Lalitpur",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "service": "Police Station Pulchok",
+      "contact": "01-5522151",
+      "address": "Pulchok, Lalitpur",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "service": "Police Division Sanepa",
+      "contact": "01-5521548",
+      "address": "Sanepa, Lalitpur",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "service": "District Public Health Office",
+      "contact": "01-5547915",
+      "address": "Lalitpur",
+      "type": "Health",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Nepal Red Cross Society Lalitpur",
+      "contact": "01-5541320",
+      "address": "Pulchok, Lalitpur",
+      "type": "NGO",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Blood Transfusion Center",
+      "contact": "01-5527033",
+      "address": "Pulchok, Lalitpur",
+      "type": "Blood Bank",
+      "hours": "24/7"
+    },
+    {
+      "service": "Nepal Telecom Jawalakhel",
+      "contact": "01-5010722",
+      "address": "Jawalakhel, Lalitpur",
+      "type": "Utility",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Nepal Electricity Authority Pulchok",
+      "contact": "01-5522043",
+      "address": "Pulchok, Lalitpur",
+      "type": "Utility",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Nepal Electricity Authority Lagankhel",
+      "contact": "01-5004312",
+      "address": "Lagankhel, Lalitpur",
+      "type": "Utility",
+      "hours": "Office Hours"
+    }
+  ]
+}

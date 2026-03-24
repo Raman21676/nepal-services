@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "data_type": "colleges",
+    "last_updated": "2025-01-24"
+  },
+  "colleges": [
+    {
+      "name": "Patan Multiple Campus",
+      "address": "Patan Dhoka, Lalitpur",
+      "contact": "01-5549133",
+      "contact_secondary": "01-5546353",
+      "email": "info@pmc.edu.np",
+      "website": "https://pmc.tu.edu.np",
+      "type": "Public",
+      "affiliation": "Tribhuvan University",
+      "programs": ["BSc", "BBS", "BBA", "BBM", "BA", "BSc CSIT", "BASW", "BCA", "BIT", "MBS", "MA", "MSc"],
+      "faculties": ["Humanities", "Management", "Science"],
+      "established": "1954"
+    },
+    {
+      "name": "Himalaya College of Engineering",
+      "address": "Chyasal, Lalitpur",
+      "contact": "01-5440555",
+      "contact_secondary": "9851063670",
+      "type": "Private",
+      "affiliation": "Tribhuvan University",
+      "programs": ["BE", "BArch"],
+      "faculties": ["Engineering", "Architecture"]
+    },
+    {
+      "name": "Nepal College of Information Technology (NCIT)",
+      "address": "Balkumari, Lalitpur",
+      "contact": "01-5186354",
+      "contact_secondary": "01-5186358",
+      "email": "info@ncit.edu.np",
+      "website": "https://ncit.edu.np",
+      "type": "Private",
+      "affiliation": "Pokhara University",
+      "programs": ["BCA", "BE", "BBA", "MBA"],
+      "faculties": ["IT", "Engineering", "Management"]
+    },
+    {
+      "name": "Everest Engineering College",
+      "address": "Sanepa-2, Lalitpur",
+      "contact": "01-5420742",
+      "type": "Private",
+      "affiliation": "Tribhuvan University",
+      "programs": ["BE"],
+      "faculties": ["Engineering"]
+    },
+    {
+      "name": "KIST Medical College",
+      "address": "Imadol, Lalitpur",
+      "contact": "01-5201681",
+      "type": "Private",
+      "affiliation": "Tribhuvan University",
+      "programs": ["MBBS", "MD"],
+      "faculties": ["Medical"]
+    },
+    {
+      "name": "Tranquillity Hospital and Research Centre",
+      "address": "Khumaltar, Lalitpur",
+      "contact": "01-5544940",
+      "type": "Medical College",
+      "affiliation": "Tribhuvan University",
+      "programs": ["Nursing", "Health Sciences"]
+    },
+    {
+      "name": "Patan Academy of Health Sciences",
+      "address": "Lagankhel, Lalitpur",
+      "contact": "01-5522278",
+      "type": "Public",
+      "affiliation": "Autonomous",
+      "programs": ["MBBS", "MD", "MS", "Nursing"],
+      "faculties": ["Medical", "Nursing"]
+    }
+  ]
+}

@@ -30,6 +30,14 @@ class NepalServicesApp {
             // Bagmati Province - Lalitpur
             { path: 'data/provinces/bagmati/lalitpur/lalitpur_hospitals.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'hospitals' },
             { path: 'data/provinces/bagmati/lalitpur/lalitpur_schools.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'schools' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_colleges.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'colleges' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_clinics.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'clinics' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_pharmacies.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'pharmacies' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_veterinary.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'veterinary' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_blood_banks.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'blood_banks' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_ambulance_services.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'ambulance' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_emergency_contacts.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'emergency' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_ward_offices.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'ward' },
             
             // Bagmati Province - Bhaktapur
             { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },

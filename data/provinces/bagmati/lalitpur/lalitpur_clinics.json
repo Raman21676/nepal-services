@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "data_type": "clinics",
+    "last_updated": "2025-01-24"
+  },
+  "clinics": [
+    {
+      "name": "Patan Hospital Private Clinic",
+      "address": "Lagankhel, Patan, Lalitpur",
+      "contact": "01-5548007",
+      "type": "Multi-specialty Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["OB/GYN", "Surgery", "Pediatrics", "Dermatology", "Internal Medicine", "Orthopedics"]
+    },
+    {
+      "name": "Omkar Polyclinic",
+      "address": "Ringroad, Bagdol, Lalitpur",
+      "contact": "01-5190120",
+      "type": "Polyclinic",
+      "hours": "7 days",
+      "services": ["General Check-up", "Pediatrics", "Gynecology", "Dermatology", "Cardiology", "Radiology", "Orthopedics", "ENT", "Pathology Lab"]
+    },
+    {
+      "name": "Gosaikunda Clinic",
+      "address": "Satdobato, Lalitpur",
+      "contact": "01-5151517",
+      "type": "Health Clinic",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "Mahalaxmi Clinic & Diagnostic Center",
+      "address": "Mahalaxmisthan, Lalitpur",
+      "contact": "01-5170277",
+      "type": "Diagnostic Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["General Consultation", "Diagnostic Services"]
+    },
+    {
+      "name": "Nidan Hospital",
+      "address": "Pulchowk, Lalitpur",
+      "contact": "01-5555662",
+      "type": "Hospital/Clinic",
+      "hours": "24/7",
+      "services": ["Emergency", "OPD", "Diagnostic Services"]
+    },
+    {
+      "name": "Megha Hospital",
+      "address": "Dhobighat, Lalitpur",
+      "contact": "01-5175155",
+      "type": "Hospital/Clinic",
+      "hours": "24/7"
+    },
+    {
+      "name": "MIDAT Hospital",
+      "address": "Lagankhel, Patan, Lalitpur",
+      "contact": "01-5526316",
+      "type": "Specialty Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Lagankhel Polyclinic",
+      "address": "Lagankhel, Lalitpur",
+      "contact": "01-5526316",
+      "type": "Polyclinic",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "Nanda Polyclinic",
+      "address": "Mahapal, Lalitpur",
+      "type": "Polyclinic",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "Kist Polyclinic - Dental",
+      "address": "Kharibot, Lalitpur",
+      "contact": "01-5201681",
+      "type": "Dental Clinic",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "32 Smiles Dental Care",
+      "address": "Manbhawan, Lalitpur (near British Camp)",
+      "type": "Dental Clinic",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "Oral Dental Home",
+      "address": "Jawalakhel, Kumaripati, Lalitpur",
+      "type": "Dental Clinic",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "Rhythm Neuropsychiatric Hospital",
+      "address": "Ekantakuna, Jawalakhel, Lalitpur",
+      "contact": "01-5450977",
+      "type": "Specialty Hospital",
+      "hours": "24/7",
+      "services": ["Psychiatry", "Psychology", "De-addiction", "Neurology"]
+    },
+    {
+      "name": "Care & Cure Multispeciality Hospital",
+      "address": "Lalitpur",
+      "type": "Multi-specialty Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Godawari Medicity Hospital",
+      "address": "Thaiba, Lalitpur",
+      "type": "Hospital",
+      "hours": "24/7"
+    }
+  ]
+}
