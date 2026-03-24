@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "city": "Chautara",
+    "district": "Sindhupalchok",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Chautara Sangachokgadhi Municipality Office",
+      "name_np": "चौतारा साँगाचोकगढी नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620001",
+      "email": "info@chautarasangachokgadhimun.gov.np"
+    },
+    {
+      "name": "District Administration Office Sindhupalchok",
+      "name_np": "जिल्ला प्रशासन कार्यालय सिन्धुपाल्चोक",
+      "type": "District Administration",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620144",
+      "email": "daosindhupalchok@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Sindhupalchok",
+      "name_np": "नेपाल विद्युत प्राधिकरण - सिन्धुपाल्चोक",
+      "type": "Electricity Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Sindhupalchok Water Supply Office",
+      "name_np": "सिन्धुपाल्चोक खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620166"
+    },
+    {
+      "name": "District Police Office Sindhupalchok",
+      "name_np": "जिल्ला प्रहरी कार्यालय सिन्धुपाल्चोक",
+      "type": "Police",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620111",
+      "emergency": "100"
+    },
+    {
+      "name": "Sindhupalchok Land Revenue Office",
+      "name_np": "सिन्धुपाल्चोक मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620122"
+    },
+    {
+      "name": "Chautara Post Office",
+      "name_np": "चौतारा हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620177"
+    },
+    {
+      "name": "District Transport Office Sindhupalchok",
+      "name_np": "जिल्ला यातायात कार्यालय सिन्धुपाल्चोक",
+      "type": "Transport Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620188"
+    },
+    {
+      "name": "District Forest Office Sindhupalchok",
+      "name_np": "जिल्ला वन कार्यालय सिन्धुपाल्चोक",
+      "type": "Forest Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620199"
+    },
+    {
+      "name": "Agriculture Knowledge Center Sindhupalchok",
+      "name_np": "कृषि ज्ञान केन्द्र सिन्धुपाल्चोक",
+      "type": "Agriculture Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620211"
+    },
+    {
+      "name": "District Veterinary Office Sindhupalchok",
+      "name_np": "जिल्ला पशु सेवा कार्यालय सिन्धुपाल्चोक",
+      "type": "Veterinary Office",
+      "address": "Chautara, Sindhupalchok",
+      "phone": "011-620222"
+    },
+    {
+      "name": "Helambu Rural Municipality Office",
+      "name_np": "हेलम्बु गाउँपालिका कार्यालय",
+      "type": "Rural Municipal Office",
+      "address": "Helambu, Sindhupalchok",
+      "phone": "011-620233"
+    },
+    {
+      "name": "Panchpokhari Thangpal Rural Municipality Office",
+      "name_np": "पाँचपोखरी थाङ्पाल गाउँपालिका कार्यालय",
+      "type": "Rural Municipal Office",
+      "address": "Melamchi, Sindhupalchok",
+      "phone": "011-620244"
+    }
+  ]
+}

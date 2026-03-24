@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Lalitpur Metropolitan City Office",
+      "name_np": "ललितपुर महानगरपालिका कार्यालय",
+      "type": "Metropolitan Office",
+      "address": "Pulchowk, Lalitpur",
+      "phone": "01-5527200",
+      "email": "info@lalitpurmun.gov.np",
+      "website": "https://lalitpurmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Lalitpur",
+      "name_np": "जिल्ला प्रशासन कार्यालय ललितपुर",
+      "type": "District Administration",
+      "address": "Pulchowk, Lalitpur",
+      "phone": "01-5527005",
+      "email": "daolalitpur@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Head Office",
+      "name_np": "नेपाल विद्युत प्राधिकरण - केन्द्रीय कार्यालय",
+      "type": "Electricity Office",
+      "address": "Kumaripati, Lalitpur",
+      "phone": "01-5532400",
+      "website": "https://www.nea.org.np",
+      "customer_service": "1912"
+    },
+    {
+      "name": "NEA Distribution Center - Lalitpur",
+      "name_np": "वितरण केन्द्र ललितपुर",
+      "type": "Electricity Office",
+      "address": "Pulchowk, Lalitpur",
+      "phone": "01-5522271"
+    },
+    {
+      "name": "Kathmandu Upatyaka Khanepani Limited - Patan",
+      "name_np": "खानेपानी कार्यालय पाटन",
+      "type": "Water Supply Office",
+      "address": "Patan Dhoka, Lalitpur",
+      "phone": "01-5521423"
+    },
+    {
+      "name": "Lalitpur District Police Office",
+      "name_np": "जिल्ला प्रहरी कार्यालय ललितपुर",
+      "type": "Police",
+      "address": "Jhamsikhel, Lalitpur",
+      "phone": "01-5521207",
+      "emergency": "100"
+    },
+    {
+      "name": "Metropolitan Police Range Lalitpur",
+      "name_np": "महानगरीय प्रहरी वृत्त ललितपुर",
+      "type": "Police",
+      "address": "Pulchowk, Lalitpur",
+      "phone": "01-5521444",
+      "emergency": "100"
+    },
+    {
+      "name": "Lalitpur Land Revenue Office",
+      "name_np": "ललितपुर मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Lagankhel, Lalitpur",
+      "phone": "01-5521203"
+    },
+    {
+      "name": "Lalitpur Post Office",
+      "name_np": "ललितपुर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Pulchowk, Lalitpur",
+      "phone": "01-5521383"
+    },
+    {
+      "name": "Regional Transport Office - Lalitpur",
+      "name_np": "क्षेत्रीय यातायात कार्यालय ललितपुर",
+      "type": "Transport Office",
+      "address": "Ekantakuna, Lalitpur",
+      "phone": "01-5520937"
+    },
+    {
+      "name": "Company Registrar's Office",
+      "name_np": "कम्पनी रजिष्ट्रार कार्यालय",
+      "type": "Company Registration",
+      "address": "Tripureshwor, Kathmandu",
+      "phone": "01-4259660",
+      "website": "https://www.ocr.gov.np"
+    }
+  ]
+}

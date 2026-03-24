@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "city": "Dhulikhel",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Dhulikhel Municipality Office",
+      "name_np": "धुलिखेल नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490001",
+      "email": "info@dhulikhelmun.gov.np"
+    },
+    {
+      "name": "Banepa Municipality Office",
+      "name_np": "बनेपा नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Banepa, Kavrepalanchok",
+      "phone": "011-661001",
+      "email": "info@banepamun.gov.np"
+    },
+    {
+      "name": "District Administration Office Kavrepalanchok",
+      "name_np": "जिल्ला प्रशासन कार्यालय काभ्रेपलाञ्चोक",
+      "type": "District Administration",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490144",
+      "email": "daokavre@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Dhulikhel",
+      "name_np": "नेपाल विद्युत प्राधिकरण - धुलिखेल",
+      "type": "Electricity Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "NEA Banepa Distribution",
+      "name_np": "वितरण केन्द्र बनेपा",
+      "type": "Electricity Office",
+      "address": "Banepa, Kavrepalanchok",
+      "phone": "011-661122"
+    },
+    {
+      "name": "Dhulikhel Water Supply Office",
+      "name_np": "धुलिखेल खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490166"
+    },
+    {
+      "name": "District Police Office Kavrepalanchok",
+      "name_np": "जिल्ला प्रहरी कार्यालय काभ्रेपलाञ्चोक",
+      "type": "Police",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490111",
+      "emergency": "100"
+    },
+    {
+      "name": "Banepa Police Station",
+      "name_np": "बनेपा प्रहरी कार्यालय",
+      "type": "Police",
+      "address": "Banepa, Kavrepalanchok",
+      "phone": "011-661133",
+      "emergency": "100"
+    },
+    {
+      "name": "Kavrepalanchok Land Revenue Office",
+      "name_np": "काभ्रेपलाञ्चोक मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490122"
+    },
+    {
+      "name": "Dhulikhel Post Office",
+      "name_np": "धुलिखेल हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490177"
+    },
+    {
+      "name": "Banepa Post Office",
+      "name_np": "बनेपा हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Banepa, Kavrepalanchok",
+      "phone": "011-661144"
+    },
+    {
+      "name": "District Transport Office Kavrepalanchok",
+      "name_np": "जिल्ला यातायात कार्यालय काभ्रेपलाञ्चोक",
+      "type": "Transport Office",
+      "address": "Banepa, Kavrepalanchok",
+      "phone": "011-661155"
+    },
+    {
+      "name": "District Forest Office Kavrepalanchok",
+      "name_np": "जिल्ला वन कार्यालय काभ्रेपलाञ्चोक",
+      "type": "Forest Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490188"
+    },
+    {
+      "name": "Agriculture Knowledge Center Kavrepalanchok",
+      "name_np": "कृषि ज्ञान केन्द्र काभ्रेपलाञ्चोक",
+      "type": "Agriculture Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490199"
+    },
+    {
+      "name": "District Veterinary Office Kavrepalanchok",
+      "name_np": "जिल्ला पशु सेवा कार्यालय काभ्रेपलाञ्चोक",
+      "type": "Veterinary Office",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": "011-490211"
+    }
+  ]
+}

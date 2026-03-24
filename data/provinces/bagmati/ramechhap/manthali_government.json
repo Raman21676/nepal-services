@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "city": "Manthali",
+    "district": "Ramechhap",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Manthali Municipality Office",
+      "name_np": "मन्थली नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540001",
+      "email": "info@manthalimun.gov.np"
+    },
+    {
+      "name": "District Administration Office Ramechhap",
+      "name_np": "जिल्ला प्रशासन कार्यालय रामेछाप",
+      "type": "District Administration",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540144",
+      "email": "daoramechhap@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Ramechhap",
+      "name_np": "नेपाल विद्युत प्राधिकरण - रामेछाप",
+      "type": "Electricity Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Ramechhap Water Supply Office",
+      "name_np": "रामेछाप खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540166"
+    },
+    {
+      "name": "District Police Office Ramechhap",
+      "name_np": "जिल्ला प्रहरी कार्यालय रामेछाप",
+      "type": "Police",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540111",
+      "emergency": "100"
+    },
+    {
+      "name": "Ramechhap Land Revenue Office",
+      "name_np": "रामेछाप मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540122"
+    },
+    {
+      "name": "Manthali Post Office",
+      "name_np": "मन्थली हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540177"
+    },
+    {
+      "name": "District Transport Office Ramechhap",
+      "name_np": "जिल्ला यातायात कार्यालय रामेछाप",
+      "type": "Transport Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540188"
+    },
+    {
+      "name": "District Forest Office Ramechhap",
+      "name_np": "जिल्ला वन कार्यालय रामेछाप",
+      "type": "Forest Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540199"
+    },
+    {
+      "name": "Agriculture Knowledge Center Ramechhap",
+      "name_np": "कृषि ज्ञान केन्द्र रामेछाप",
+      "type": "Agriculture Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540211"
+    },
+    {
+      "name": "District Veterinary Office Ramechhap",
+      "name_np": "जिल्ला पशु सेवा कार्यालय रामेछाप",
+      "type": "Veterinary Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540222"
+    },
+    {
+      "name": "Ramechhap Airport Office",
+      "name_np": "रामेछाप विमानस्थल कार्यालय",
+      "type": "Airport Office",
+      "address": "Manthali, Ramechhap",
+      "phone": "048-540233"
+    }
+  ]
+}

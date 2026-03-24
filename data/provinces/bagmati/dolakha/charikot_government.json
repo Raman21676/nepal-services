@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "city": "Charikot",
+    "district": "Dolakha",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Bhimeshwor Municipality Office",
+      "name_np": "भीमेश्वर नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420001",
+      "email": "info@bhimeshwormun.gov.np"
+    },
+    {
+      "name": "District Administration Office Dolakha",
+      "name_np": "जिल्ला प्रशासन कार्यालय दोलखा",
+      "type": "District Administration",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420144",
+      "email": "daodolakha@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Dolakha",
+      "name_np": "नेपाल विद्युत प्राधिकरण - दोलखा",
+      "type": "Electricity Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Dolakha Water Supply Office",
+      "name_np": "दोलखा खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420166"
+    },
+    {
+      "name": "District Police Office Dolakha",
+      "name_np": "जिल्ला प्रहरी कार्यालय दोलखा",
+      "type": "Police",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420111",
+      "emergency": "100"
+    },
+    {
+      "name": "Dolakha Land Revenue Office",
+      "name_np": "दोलखा मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420122"
+    },
+    {
+      "name": "Charikot Post Office",
+      "name_np": "चरिकोट हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420177"
+    },
+    {
+      "name": "District Transport Office Dolakha",
+      "name_np": "जिल्ला यातायात कार्यालय दोलखा",
+      "type": "Transport Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420188"
+    },
+    {
+      "name": "District Forest Office Dolakha",
+      "name_np": "जिल्ला वन कार्यालय दोलखा",
+      "type": "Forest Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420199"
+    },
+    {
+      "name": "Agriculture Knowledge Center Dolakha",
+      "name_np": "कृषि ज्ञान केन्द्र दोलखा",
+      "type": "Agriculture Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420211"
+    },
+    {
+      "name": "District Veterinary Office Dolakha",
+      "name_np": "जिल्ला पशु सेवा कार्यालय दोलखा",
+      "type": "Veterinary Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420222"
+    },
+    {
+      "name": "Gaurishankar Conservation Area Office",
+      "name_np": "गौरीशङ्कर संरक्षण क्षेत्र कार्यालय",
+      "type": "Conservation Office",
+      "address": "Charikot, Dolakha",
+      "phone": "049-420233"
+    }
+  ]
+}

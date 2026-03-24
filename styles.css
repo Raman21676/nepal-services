@@ -297,6 +297,11 @@ body {
     color: #92400e;
 }
 
+.badge-cat-gov {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
 .badge-type {
     background: var(--bg);
     color: var(--text-light);

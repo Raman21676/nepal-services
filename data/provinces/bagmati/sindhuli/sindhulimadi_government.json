@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "city": "Sindhulimadi",
+    "district": "Sindhuli",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Kamalamai Municipality Office",
+      "name_np": "कमलामाई नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520001",
+      "email": "info@kamalamaimun.gov.np"
+    },
+    {
+      "name": "District Administration Office Sindhuli",
+      "name_np": "जिल्ला प्रशासन कार्यालय सिन्धुली",
+      "type": "District Administration",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520144",
+      "email": "daosindhuli@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Sindhuli",
+      "name_np": "नेपाल विद्युत प्राधिकरण - सिन्धुली",
+      "type": "Electricity Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Sindhuli Water Supply Office",
+      "name_np": "सिन्धुली खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520166"
+    },
+    {
+      "name": "District Police Office Sindhuli",
+      "name_np": "जिल्ला प्रहरी कार्यालय सिन्धुली",
+      "type": "Police",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520111",
+      "emergency": "100"
+    },
+    {
+      "name": "Sindhuli Land Revenue Office",
+      "name_np": "सिन्धुली मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520122"
+    },
+    {
+      "name": "Sindhulimadi Post Office",
+      "name_np": "सिन्धुलीमाडी हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520177"
+    },
+    {
+      "name": "District Transport Office Sindhuli",
+      "name_np": "जिल्ला यातायात कार्यालय सिन्धुली",
+      "type": "Transport Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520188"
+    },
+    {
+      "name": "District Forest Office Sindhuli",
+      "name_np": "जिल्ला वन कार्यालय सिन्धुली",
+      "type": "Forest Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520199"
+    },
+    {
+      "name": "Agriculture Knowledge Center Sindhuli",
+      "name_np": "कृषि ज्ञान केन्द्र सिन्धुली",
+      "type": "Agriculture Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520211"
+    },
+    {
+      "name": "District Veterinary Office Sindhuli",
+      "name_np": "जिल्ला पशु सेवा कार्यालय सिन्धुली",
+      "type": "Veterinary Office",
+      "address": "Sindhulimadi, Sindhuli",
+      "phone": "047-520222"
+    },
+    {
+      "name": "Sindhuli Gadhi Fort Office",
+      "name_np": "सिन्धुली गढी कार्यालय",
+      "type": "Heritage Office",
+      "address": "Sindhuli Gadhi, Sindhuli",
+      "phone": "047-520233"
+    }
+  ]
+}

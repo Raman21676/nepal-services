@@ -67,15 +67,30 @@ class NepalServicesApp {
             { path: 'data/provinces/bagmati/makwanpur/hetauda.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'hospitals' },
             { path: 'data/provinces/bagmati/makwanpur/hetauda_schools.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'schools' },
             
+            // Bagmati Province - Government Offices (Kathmandu Valley)
+            { path: 'data/provinces/bagmati/kathmandu/kathmandu_government.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'government' },
+            { path: 'data/provinces/bagmati/lalitpur/lalitpur_government.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'government' },
+            { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_government.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'government' },
+            { path: 'data/provinces/bagmati/chitwan/bharatpur_government.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'government' },
+            { path: 'data/provinces/bagmati/makwanpur/hetauda_government.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'government' },
+            
             // Bagmati Province - Other Districts
             { path: 'data/provinces/bagmati/dhading/dhadingbesi.json', province: 'bagmati', district: 'dhading', city: 'dhadingbesi', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/dhading/dhadingbesi_government.json', province: 'bagmati', district: 'dhading', city: 'dhadingbesi', type: 'government' },
             { path: 'data/provinces/bagmati/kavrepalanchok/dhulikhel.json', province: 'bagmati', district: 'kavrepalanchok', city: 'dhulikhel', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/kavrepalanchok/dhulikhel_government.json', province: 'bagmati', district: 'kavrepalanchok', city: 'dhulikhel', type: 'government' },
             { path: 'data/provinces/bagmati/dolakha/charikot.json', province: 'bagmati', district: 'dolakha', city: 'charikot', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/dolakha/charikot_government.json', province: 'bagmati', district: 'dolakha', city: 'charikot', type: 'government' },
             { path: 'data/provinces/bagmati/nuwakot/bidur.json', province: 'bagmati', district: 'nuwakot', city: 'bidur', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/nuwakot/bidur_government.json', province: 'bagmati', district: 'nuwakot', city: 'bidur', type: 'government' },
             { path: 'data/provinces/bagmati/ramechhap/manthali.json', province: 'bagmati', district: 'ramechhap', city: 'manthali', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/ramechhap/manthali_government.json', province: 'bagmati', district: 'ramechhap', city: 'manthali', type: 'government' },
             { path: 'data/provinces/bagmati/rasuwa/dhunche.json', province: 'bagmati', district: 'rasuwa', city: 'dhunche', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/rasuwa/dhunche_government.json', province: 'bagmati', district: 'rasuwa', city: 'dhunche', type: 'government' },
             { path: 'data/provinces/bagmati/sindhuli/sindhulimadi.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/sindhuli/sindhulimadi_government.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'government' },
             { path: 'data/provinces/bagmati/sindhupalchok/chautara.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/sindhupalchok/chautara_government.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'government' },
             
             // Koshi Province - Biratnagar
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
@@ -214,7 +229,8 @@ class NepalServicesApp {
             'blood_banks': 'blood_banks',
             'colleges': 'colleges',
             'pharmacies': 'pharmacies',
-            'veterinary': 'veterinary'
+            'veterinary': 'veterinary',
+            'government': 'government_offices'
         };
         return keyMap[type] || type;
     }
@@ -480,7 +496,8 @@ class NepalServicesApp {
             'blood_banks': '<span class="badge badge-cat-blood">🩸 Blood Bank</span>',
             'colleges': '<span class="badge badge-cat-college">College</span>',
             'pharmacies': '<span class="badge badge-cat-pharmacy">💊 Pharmacy</span>',
-            'veterinary': '<span class="badge badge-cat-vet">🐾 Veterinary</span>'
+            'veterinary': '<span class="badge badge-cat-vet">🐾 Veterinary</span>',
+            'government': '<span class="badge badge-cat-gov">🏛️ Government</span>'
         };
         return badges[category] || '';
     }

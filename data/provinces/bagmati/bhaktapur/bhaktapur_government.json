@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "city": "Bhaktapur",
+    "district": "Bhaktapur",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Bhaktapur Municipality Office",
+      "name_np": "भक्तपुर नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Bhaktapur Durbar Square, Bhaktapur",
+      "phone": "01-6610870",
+      "email": "info@bhaktapurmun.gov.np",
+      "website": "https://bhaktapurmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Bhaktapur",
+      "name_np": "जिल्ला प्रशासन कार्यालय भक्तपुर",
+      "type": "District Administration",
+      "address": "Bhaktapur, Nepal",
+      "phone": "01-6611244",
+      "email": "daobhaktapur@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Bhaktapur",
+      "name_np": "नेपाल विद्युत प्राधिकरण - भक्तपुर",
+      "type": "Electricity Office",
+      "address": "Suryabinayak, Bhaktapur",
+      "phone": "01-6610622",
+      "customer_service": "1912"
+    },
+    {
+      "name": "NEA Distribution Center - Bhaktapur",
+      "name_np": "वितरण केन्द्र भक्तपुर",
+      "type": "Electricity Office",
+      "address": "Bhaktapur Industrial Area, Nepal",
+      "phone": "01-6611548"
+    },
+    {
+      "name": "KUKL Bhaktapur Branch",
+      "name_np": "खानेपानी कार्यालय भक्तपुर",
+      "type": "Water Supply Office",
+      "address": "Bhaktapur, Nepal",
+      "phone": "01-6611092"
+    },
+    {
+      "name": "Bhaktapur District Police Office",
+      "name_np": "जिल्ला प्रहरी कार्यालय भक्तपुर",
+      "type": "Police",
+      "address": "Bhaktapur, Nepal",
+      "phone": "01-6611322",
+      "emergency": "100"
+    },
+    {
+      "name": "Bhaktapur Land Revenue Office",
+      "name_np": "भक्तपुर मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Bhaktapur, Nepal",
+      "phone": "01-6610987"
+    },
+    {
+      "name": "Bhaktapur Post Office",
+      "name_np": "भक्तपुर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Bhaktapur Durbar Square Area",
+      "phone": "01-6610981"
+    },
+    {
+      "name": "District Transport Office Bhaktapur",
+      "name_np": "जिल्ला यातायात कार्यालय भक्तपुर",
+      "type": "Transport Office",
+      "address": "Suryabinayak, Bhaktapur",
+      "phone": "01-6610888"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Bharatpur Metropolitan City Office",
+      "name_np": "भरतपुर महानगरपालिका कार्यालय",
+      "type": "Metropolitan Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520001",
+      "email": "info@bharatpurmun.gov.np",
+      "website": "https://bharatpurmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Chitwan",
+      "name_np": "जिल्ला प्रशासन कार्यालय चितवन",
+      "type": "District Administration",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520155",
+      "email": "daochitwan@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Bharatpur",
+      "name_np": "नेपाल विद्युत प्राधिकरण - भरतपुर",
+      "type": "Electricity Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520432",
+      "customer_service": "1912"
+    },
+    {
+      "name": "NEA Distribution Center - Bharatpur",
+      "name_np": "वितरण केन्द्र भरतपुर",
+      "type": "Electricity Office",
+      "address": "Bharatpur-10, Chitwan",
+      "phone": "056-527710"
+    },
+    {
+      "name": "Bharatpur Water Supply Office",
+      "name_np": "भरतपुर खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520555"
+    },
+    {
+      "name": "District Police Office Chitwan",
+      "name_np": "जिल्ला प्रहरी कार्यालय चितवन",
+      "type": "Police",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520111",
+      "emergency": "100",
+      "mobile": "9855040111"
+    },
+    {
+      "name": "Chitwan Traffic Police Office",
+      "name_np": "चितवन ट्राफिक प्रहरी कार्यालय",
+      "type": "Traffic Police",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-521305",
+      "emergency": "103"
+    },
+    {
+      "name": "Chitwan Land Revenue Office",
+      "name_np": "चितवन मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520133"
+    },
+    {
+      "name": "Bharatpur Post Office",
+      "name_np": "भरतपुर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520144"
+    },
+    {
+      "name": "District Transport Office Chitwan",
+      "name_np": "जिल्ला यातायात कार्यालय चितवन",
+      "type": "Transport Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520166"
+    },
+    {
+      "name": "Customs Office - Bharatpur",
+      "name_np": "भन्सार कार्यालय भरतपुर",
+      "type": "Customs Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520177"
+    },
+    {
+      "name": "Regional Forest Office Chitwan",
+      "name_np": "क्षेत्रीय वन कार्यालय चितवन",
+      "type": "Forest Office",
+      "address": "Kasara, Chitwan",
+      "phone": "056-580041"
+    },
+    {
+      "name": "Chitwan National Park Office",
+      "name_np": "चितवन राष्ट्रिय निकुञ्ज कार्यालय",
+      "type": "National Park Office",
+      "address": "Kasara, Chitwan",
+      "phone": "056-580121",
+      "email": "info@chitwannationalpark.gov.np"
+    },
+    {
+      "name": "District Veterinary Office Chitwan",
+      "name_np": "जिल्ला पशु सेवा कार्यालय चितवन",
+      "type": "Veterinary Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520188"
+    },
+    {
+      "name": "Agriculture Knowledge Center Chitwan",
+      "name_np": "कृषि ज्ञान केन्द्र चितवन",
+      "type": "Agriculture Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520199"
+    },
+    {
+      "name": "Nepal Telecom Bharatpur",
+      "name_np": "नेपाल टेलिकम भरतपुर",
+      "type": "Telecom Office",
+      "address": "Bharatpur, Chitwan",
+      "phone": "056-520200"
+    }
+  ]
+}

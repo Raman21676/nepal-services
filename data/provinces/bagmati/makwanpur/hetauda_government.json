@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Hetauda Sub-Metropolitan City Office",
+      "name_np": "हेटौडा उपमहानगरपालिका कार्यालय",
+      "type": "Sub-Metropolitan Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520001",
+      "email": "info@hetaudamun.gov.np"
+    },
+    {
+      "name": "District Administration Office Makwanpur",
+      "name_np": "जिल्ला प्रशासन कार्यालय मकवानपुर",
+      "type": "District Administration",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520155",
+      "email": "daomakwanpur@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Hetauda",
+      "name_np": "नेपाल विद्युत प्राधिकरण - हेटौडा",
+      "type": "Electricity Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520333",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Hetauda Water Supply Office",
+      "name_np": "हेटौडा खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520444"
+    },
+    {
+      "name": "District Police Office Makwanpur",
+      "name_np": "जिल्ला प्रहरी कार्यालय मकवानपुर",
+      "type": "Police",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520111",
+      "emergency": "100"
+    },
+    {
+      "name": "Makwanpur Land Revenue Office",
+      "name_np": "मकवानपुर मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520222"
+    },
+    {
+      "name": "Hetauda Post Office",
+      "name_np": "हेटौडा हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520555"
+    },
+    {
+      "name": "District Transport Office Makwanpur",
+      "name_np": "जिल्ला यातायात कार्यालय मकवानपुर",
+      "type": "Transport Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520666"
+    },
+    {
+      "name": "District Forest Office Makwanpur",
+      "name_np": "जिल्ला वन कार्यालय मकवानपुर",
+      "type": "Forest Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520777"
+    },
+    {
+      "name": "District Agriculture Office Makwanpur",
+      "name_np": "कृषि ज्ञान केन्द्र मकवानपुर",
+      "type": "Agriculture Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520888"
+    },
+    {
+      "name": "District Veterinary Office Makwanpur",
+      "name_np": "जिल्ला पशु सेवा कार्यालय मकवानपुर",
+      "type": "Veterinary Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520999"
+    },
+    {
+      "name": "Nepal Telecom Hetauda",
+      "name_np": "नेपाल टेलिकम हेटौडा",
+      "type": "Telecom Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-520000"
+    },
+    {
+      "name": "Hetauda Industrial Area Office",
+      "name_np": "हेटौडा औद्योगिक क्षेत्र कार्यालय",
+      "type": "Industrial Office",
+      "address": "Hetauda, Makwanpur",
+      "phone": "057-521000"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "city": "Dhunche",
+    "district": "Rasuwa",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Gosaikunda Rural Municipality Office",
+      "name_np": "गोसाइकुण्ड गाउँपालिका कार्यालय",
+      "type": "Rural Municipal Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570001",
+      "email": "info@gosaikundamun.gov.np"
+    },
+    {
+      "name": "District Administration Office Rasuwa",
+      "name_np": "जिल्ला प्रशासन कार्यालय रसुवा",
+      "type": "District Administration",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570144",
+      "email": "daorasuwa@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Rasuwa",
+      "name_np": "नेपाल विद्युत प्राधिकरण - रसुवा",
+      "type": "Electricity Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Rasuwa Water Supply Office",
+      "name_np": "रसुवा खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570166"
+    },
+    {
+      "name": "District Police Office Rasuwa",
+      "name_np": "जिल्ला प्रहरी कार्यालय रसुवा",
+      "type": "Police",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570111",
+      "emergency": "100"
+    },
+    {
+      "name": "Rasuwa Land Revenue Office",
+      "name_np": "रसुवा मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570122"
+    },
+    {
+      "name": "Dhunche Post Office",
+      "name_np": "धुन्चे हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570177"
+    },
+    {
+      "name": "District Transport Office Rasuwa",
+      "name_np": "जिल्ला यातायात कार्यालय रसुवा",
+      "type": "Transport Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570188"
+    },
+    {
+      "name": "District Forest Office Rasuwa",
+      "name_np": "जिल्ला वन कार्यालय रसुवा",
+      "type": "Forest Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570199"
+    },
+    {
+      "name": "Agriculture Knowledge Center Rasuwa",
+      "name_np": "कृषि ज्ञान केन्द्र रसुवा",
+      "type": "Agriculture Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570211"
+    },
+    {
+      "name": "District Veterinary Office Rasuwa",
+      "name_np": "जिल्ला पशु सेवा कार्यालय रसुवा",
+      "type": "Veterinary Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570222"
+    },
+    {
+      "name": "Langtang National Park Office",
+      "name_np": "लाङटाङ राष्ट्रिय निकुञ्ज कार्यालय",
+      "type": "National Park Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": "010-570233",
+      "email": "info@langtangnationalpark.gov.np"
+    },
+    {
+      "name": "Rasuwa Customs Office",
+      "name_np": "रसुवा भन्सार कार्यालय",
+      "type": "Customs Office",
+      "address": "Rasuwa Gadhi, Rasuwa",
+      "phone": "010-570244"
+    }
+  ]
+}

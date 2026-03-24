@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "city": "Dhadingbesi",
+    "district": "Dhading",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Nilkantha Municipality Office",
+      "name_np": "निलकण्ठ नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520001",
+      "email": "info@nilkanthamun.gov.np"
+    },
+    {
+      "name": "District Administration Office Dhading",
+      "name_np": "जिल्ला प्रशासन कार्यालय धादिङ",
+      "type": "District Administration",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520144",
+      "email": "daodhading@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Dhading",
+      "name_np": "नेपाल विद्युत प्राधिकरण - धादिङ",
+      "type": "Electricity Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520166",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Dhading Water Supply Office",
+      "name_np": "धादिङ खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520177"
+    },
+    {
+      "name": "District Police Office Dhading",
+      "name_np": "जिल्ला प्रहरी कार्यालय धादिङ",
+      "type": "Police",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520122",
+      "emergency": "100"
+    },
+    {
+      "name": "Dhading Land Revenue Office",
+      "name_np": "धादिङ मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520133"
+    },
+    {
+      "name": "Dhadingbesi Post Office",
+      "name_np": "धादिङबेसी हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520188"
+    },
+    {
+      "name": "District Transport Office Dhading",
+      "name_np": "जिल्ला यातायात कार्यालय धादिङ",
+      "type": "Transport Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520199"
+    },
+    {
+      "name": "District Forest Office Dhading",
+      "name_np": "जिल्ला वन कार्यालय धादिङ",
+      "type": "Forest Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520211"
+    },
+    {
+      "name": "Agriculture Knowledge Center Dhading",
+      "name_np": "कृषि ज्ञान केन्द्र धादिङ",
+      "type": "Agriculture Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520222"
+    },
+    {
+      "name": "District Veterinary Office Dhading",
+      "name_np": "जिल्ला पशु सेवा कार्यालय धादिङ",
+      "type": "Veterinary Office",
+      "address": "Dhadingbesi, Dhading",
+      "phone": "010-520233"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "city": "Bidur",
+    "district": "Nuwakot",
+    "province": "Bagmati Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Bidur Municipality Office",
+      "name_np": "बिदुर नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560001",
+      "email": "info@bidurmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Nuwakot",
+      "name_np": "जिल्ला प्रशासन कार्यालय नुवाकोट",
+      "type": "District Administration",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560144",
+      "email": "daonuwakot@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Nuwakot",
+      "name_np": "नेपाल विद्युत प्राधिकरण - नुवाकोट",
+      "type": "Electricity Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560155",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Nuwakot Water Supply Office",
+      "name_np": "नुवाकोट खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560166"
+    },
+    {
+      "name": "District Police Office Nuwakot",
+      "name_np": "जिल्ला प्रहरी कार्यालय नुवाकोट",
+      "type": "Police",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560111",
+      "emergency": "100"
+    },
+    {
+      "name": "Nuwakot Land Revenue Office",
+      "name_np": "नुवाकोट मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560122"
+    },
+    {
+      "name": "Bidur Post Office",
+      "name_np": "बिदुर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560177"
+    },
+    {
+      "name": "District Transport Office Nuwakot",
+      "name_np": "जिल्ला यातायात कार्यालय नुवाकोट",
+      "type": "Transport Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560188"
+    },
+    {
+      "name": "District Forest Office Nuwakot",
+      "name_np": "जिल्ला वन कार्यालय नुवाकोट",
+      "type": "Forest Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560199"
+    },
+    {
+      "name": "Agriculture Knowledge Center Nuwakot",
+      "name_np": "कृषि ज्ञान केन्द्र नुवाकोट",
+      "type": "Agriculture Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560211"
+    },
+    {
+      "name": "District Veterinary Office Nuwakot",
+      "name_np": "जिल्ला पशु सेवा कार्यालय नुवाकोट",
+      "type": "Veterinary Office",
+      "address": "Bidur, Nuwakot",
+      "phone": "010-560222"
+    },
+    {
+      "name": "Nuwakot Durbar Conservation Office",
+      "name_np": "नुवाकोट दरबार संरक्षण कार्यालय",
+      "type": "Heritage Office",
+      "address": "Nuwakot Durbar, Nuwakot",
+      "phone": "010-560233"
+    }
+  ]
+}
