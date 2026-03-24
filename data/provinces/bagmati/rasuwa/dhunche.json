@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Dhunche",
+    "district": "Rasuwa",
+    "province": "Bagmati",
+    "data_type": "hospitals",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Rasuwa District Hospital",
+      "address": "Dhunche, Rasuwa",
+      "contact": "010-540200",
+      "type": "District Hospital",
+      "beds": 25,
+      "services": ["Emergency", "OPD"],
+      "hours": "24/7"
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "contact": "010-540200",
+      "hours": "24/7"
+    },
+    {
+      "name": "Emergency Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    }
+  ]
+}

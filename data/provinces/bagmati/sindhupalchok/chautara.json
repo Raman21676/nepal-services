@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Chautara",
+    "district": "Sindhupalchok",
+    "province": "Bagmati",
+    "data_type": "hospitals",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Chautara Hospital",
+      "address": "Chautara, Sindhupalchok",
+      "contact": "011-490100",
+      "type": "District Hospital",
+      "beds": 50,
+      "services": ["Emergency", "OPD", "Surgery"],
+      "hours": "24/7"
+    },
+    {
+      "name": "Sindhupalchok District Hospital",
+      "address": "Chautara, Sindhupalchok",
+      "type": "Government",
+      "services": ["General Medicine", "Emergency"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Chautara Hospital Ambulance",
+      "contact": "011-490100",
+      "hours": "24/7"
+    },
+    {
+      "name": "Emergency Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    }
+  ]
+}

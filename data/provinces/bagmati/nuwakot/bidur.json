@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Bidur",
+    "district": "Nuwakot",
+    "province": "Bagmati",
+    "data_type": "hospitals",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Trishuli Hospital",
+      "address": "Bidur, Nuwakot",
+      "contact": "010-560200",
+      "type": "District Hospital",
+      "beds": 50,
+      "services": ["Emergency", "OPD", "Surgery", "ICU"],
+      "hours": "24/7"
+    },
+    {
+      "name": "Nuwakot District Hospital",
+      "address": "Bidur, Nuwakot",
+      "type": "Government",
+      "services": ["General Medicine", "Emergency"]
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Trishuli Hospital Ambulance",
+      "contact": "010-560200",
+      "hours": "24/7"
+    },
+    {
+      "name": "Emergency Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    }
+  ]
+}

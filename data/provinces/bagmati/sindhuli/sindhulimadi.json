@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "city": "Sindhulimadi",
+    "district": "Sindhuli",
+    "province": "Bagmati",
+    "data_type": "hospitals",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Sindhuli Hospital",
+      "address": "Sindhulimadi, Sindhuli",
+      "contact": "047-520200",
+      "email": "shsindhuli132@gmail.com",
+      "type": "District Hospital",
+      "beds": 50,
+      "services": ["Emergency", "OPD", "Surgery", "ICU"],
+      "hours": "24/7"
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Sindhuli Hospital Ambulance",
+      "contact": "047-520200",
+      "hours": "24/7"
+    },
+    {
+      "name": "Emergency Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    }
+  ]
+}

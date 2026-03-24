@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "city": "Charikot",
+    "district": "Dolakha",
+    "province": "Bagmati",
+    "data_type": "hospitals",
+    "last_updated": "2025-01-24"
+  },
+  "hospitals": [
+    {
+      "name": "Pashupati Chaulagain Memorial Hospital",
+      "address": "Charikot, Dolakha",
+      "contact": "049-421025",
+      "email": "charikothospital@gmail.com",
+      "type": "District Hospital",
+      "beds": 50,
+      "services": ["Emergency", "OPD", "Surgery", "ICU", "Dialysis"],
+      "hours": "24/7"
+    },
+    {
+      "name": "Tsho Rolpa General Hospital",
+      "address": "Bhimeshwor Municipality-6, Patikhola, Charikot, Dolakha",
+      "contact": "049-421106",
+      "email": "tshorolpahospital063@gmail.com",
+      "type": "Private",
+      "services": ["General Medicine", "Surgery", "Emergency"],
+      "hours": "24/7"
+    },
+    {
+      "name": "Dolakha Samudayik Hospital",
+      "address": "Charikot, Dolakha",
+      "type": "Community Hospital",
+      "services": ["General Healthcare"]
+    },
+    {
+      "name": "Jiri Hospital",
+      "address": "Jiri, Dolakha",
+      "type": "Government",
+      "services": ["General Medicine", "Emergency"],
+      "note": "Second main hospital in Dolakha district, Gateway to Mt. Everest"
+    }
+  ],
+  "ambulance": [
+    {
+      "name": "Charikot Hospital Ambulance",
+      "contact": "049-421025",
+      "hours": "24/7"
+    },
+    {
+      "name": "Emergency Ambulance",
+      "contact": "102",
+      "hours": "24/7"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Fire",
+      "hours": "24/7"
+    }
+  ]
+}

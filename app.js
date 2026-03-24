@@ -67,6 +67,16 @@ class NepalServicesApp {
             { path: 'data/provinces/bagmati/makwanpur/hetauda.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'hospitals' },
             { path: 'data/provinces/bagmati/makwanpur/hetauda_schools.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'schools' },
             
+            // Bagmati Province - Other Districts
+            { path: 'data/provinces/bagmati/dhading/dhadingbesi.json', province: 'bagmati', district: 'dhading', city: 'dhadingbesi', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/kavrepalanchok/dhulikhel.json', province: 'bagmati', district: 'kavrepalanchok', city: 'dhulikhel', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/dolakha/charikot.json', province: 'bagmati', district: 'dolakha', city: 'charikot', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/nuwakot/bidur.json', province: 'bagmati', district: 'nuwakot', city: 'bidur', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/ramechhap/manthali.json', province: 'bagmati', district: 'ramechhap', city: 'manthali', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/rasuwa/dhunche.json', province: 'bagmati', district: 'rasuwa', city: 'dhunche', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/sindhuli/sindhulimadi.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'hospitals' },
+            { path: 'data/provinces/bagmati/sindhupalchok/chautara.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'hospitals' },
+            
             // Koshi Province - Biratnagar
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
