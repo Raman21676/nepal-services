@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Taplejung",
+    "district": "Taplejung",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Taplejung Polyclinic",
+      "name_np": "ताप्लेजुङ पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Taplejung, Taplejung",
+      "phone": "024-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Taplejung Diagnostic Centre",
+      "name_np": "ताप्लेजुङ डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Taplejung, Taplejung",
+      "phone": "024-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Taplejung",
+      "name_np": "सिटी हेल्थ क्लिनिक ताप्लेजुङ",
+      "type": "General Clinic",
+      "address": "Market Area, Taplejung, Taplejung",
+      "phone": "024-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Taplejung Dental Care",
+      "name_np": "ताप्लेजुङ डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Taplejung, Taplejung",
+      "phone": "024-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Taplejung Maternity Clinic",
+      "name_np": "ताप्लेजुङ म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Taplejung, Taplejung",
+      "phone": "024-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Taplejung Heart Care Clinic",
+      "name_np": "ताप्लेजुङ हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Taplejung, Taplejung",
+      "phone": "024-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

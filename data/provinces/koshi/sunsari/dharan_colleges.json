@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Dharan Multiple Campus",
+      "name_np": "धरान बहुमुखी क्याम्पस",
+      "type": "Community College",
+      "programs": [
+        "+2 Science",
+        "+2 Management",
+        "+2 Humanities",
+        "Bachelor Programs"
+      ],
+      "address": "College Road, Dharan, Sunsari",
+      "phone": "021-523001",
+      "affiliation": "Tribhuvan University"
+    },
+    {
+      "name": "Dharan Model College",
+      "name_np": "धरान मोडल कलेज",
+      "type": "Private College",
+      "programs": [
+        "+2 Science",
+        "+2 Management",
+        "+2 Education"
+      ],
+      "address": "Main Bazaar, Dharan, Sunsari",
+      "phone": "021-523002",
+      "affiliation": "National Examination Board"
+    },
+    {
+      "name": "Dharan Technical School",
+      "name_np": "धरान टेक्निकल स्कूल",
+      "type": "Technical Institute",
+      "programs": [
+        "Diploma in Engineering",
+        "Technical Courses",
+        "Vocational Training"
+      ],
+      "address": "Industrial Area, Dharan, Sunsari",
+      "phone": "021-523003",
+      "affiliation": "CTEVT"
+    }
+  ]
+}

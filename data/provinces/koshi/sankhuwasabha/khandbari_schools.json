@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Khandbari",
+    "district": "Sankhuwasabha",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Khandbari Higher Secondary School",
+      "name_np": "खाँडबारी उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Khandbari, Sankhuwasabha",
+      "phone": "029-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Khandbari English Boarding School",
+      "name_np": "खाँडबारी इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Khandbari, Sankhuwasabha",
+      "phone": "029-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Khandbari Academy",
+      "name_np": "खाँडबारी एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Khandbari, Sankhuwasabha",
+      "phone": "029-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Khandbari Model School",
+      "name_np": "खाँडबारी मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Khandbari, Sankhuwasabha",
+      "phone": "029-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

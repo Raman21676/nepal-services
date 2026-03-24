@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Gaighat Polyclinic",
+      "name_np": "गाईघाट पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Gaighat, Udayapur",
+      "phone": "035-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Gaighat Diagnostic Centre",
+      "name_np": "गाईघाट डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Gaighat, Udayapur",
+      "phone": "035-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Gaighat",
+      "name_np": "सिटी हेल्थ क्लिनिक गाईघाट",
+      "type": "General Clinic",
+      "address": "Market Area, Gaighat, Udayapur",
+      "phone": "035-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Gaighat Dental Care",
+      "name_np": "गाईघाट डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Gaighat, Udayapur",
+      "phone": "035-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Gaighat Maternity Clinic",
+      "name_np": "गाईघाट म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Gaighat, Udayapur",
+      "phone": "035-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Gaighat Heart Care Clinic",
+      "name_np": "गाईघाट हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Gaighat, Udayapur",
+      "phone": "035-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

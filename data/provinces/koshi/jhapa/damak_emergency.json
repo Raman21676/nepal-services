@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "name_np": "प्रहरी आपतकालीन",
+      "phone": "100",
+      "type": "National Emergency"
+    },
+    {
+      "service": "Fire Brigade",
+      "name_np": "दमकल",
+      "phone": "101",
+      "type": "National Emergency"
+    },
+    {
+      "service": "Ambulance Emergency",
+      "name_np": "एम्बुलेन्स आपतकालीन",
+      "phone": "102",
+      "type": "National Emergency"
+    },
+    {
+      "service": "Damak Police Station",
+      "name_np": "दमक प्रहरी चौकी",
+      "phone": "023-520100",
+      "type": "Local Police"
+    },
+    {
+      "service": "Jhapa District Police Office",
+      "name_np": "Jhapa जिल्ला प्रहरी कार्यालय",
+      "phone": "023-520101",
+      "type": "District Police"
+    },
+    {
+      "service": "Electricity Emergency",
+      "name_np": "बिजुली आपतकालीन",
+      "phone": "023-520102",
+      "type": "Utility Emergency"
+    }
+  ]
+}

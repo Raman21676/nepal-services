@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Okhaldhunga",
+    "district": "Okhaldhunga",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Okhaldhunga Higher Secondary School",
+      "name_np": "खोटाँग उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Okhaldhunga, Okhaldhunga",
+      "phone": "037-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Okhaldhunga English Boarding School",
+      "name_np": "खोटाँग इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Okhaldhunga, Okhaldhunga",
+      "phone": "037-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Okhaldhunga Academy",
+      "name_np": "खोटाँग एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Okhaldhunga, Okhaldhunga",
+      "phone": "037-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Okhaldhunga Model School",
+      "name_np": "खोटाँग मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Okhaldhunga, Okhaldhunga",
+      "phone": "037-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

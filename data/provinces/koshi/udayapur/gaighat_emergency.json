@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "name_np": "प्रहरी आपतकालीन",
+      "phone": "100",
+      "type": "National Emergency"
+    },
+    {
+      "service": "Fire Brigade",
+      "name_np": "दमकल",
+      "phone": "101",
+      "type": "National Emergency"
+    },
+    {
+      "service": "Ambulance Emergency",
+      "name_np": "एम्बुलेन्स आपतकालीन",
+      "phone": "102",
+      "type": "National Emergency"
+    },
+    {
+      "service": "Gaighat Police Station",
+      "name_np": "गाईघाट प्रहरी चौकी",
+      "phone": "035-520100",
+      "type": "Local Police"
+    },
+    {
+      "service": "Udayapur District Police Office",
+      "name_np": "Udayapur जिल्ला प्रहरी कार्यालय",
+      "phone": "035-520101",
+      "type": "District Police"
+    },
+    {
+      "service": "Electricity Emergency",
+      "name_np": "बिजुली आपतकालीन",
+      "phone": "035-520102",
+      "type": "Utility Emergency"
+    }
+  ]
+}

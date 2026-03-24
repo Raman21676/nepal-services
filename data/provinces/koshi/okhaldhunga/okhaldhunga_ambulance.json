@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Okhaldhunga",
+    "district": "Okhaldhunga",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "service_name": "Okhaldhunga Hospital Ambulance",
+      "name_np": "खोटाँग अस्पताल एम्बुलेन्स",
+      "phone": "037-526001",
+      "type": "Hospital Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Okhaldhunga Red Cross Ambulance",
+      "name_np": "Okhaldhunga रेडक्रस एम्बुलेन्स",
+      "phone": "037-526002",
+      "type": "NGO Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Okhaldhunga Emergency Ambulance",
+      "name_np": "खोटाँग आपतकालीन एम्बुलेन्स",
+      "phone": "037-526003",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Okhaldhunga Life Care Ambulance",
+      "name_np": "खोटाँग लाइफ केयर एम्बुलेन्स",
+      "phone": "037-526004",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    }
+  ]
+}

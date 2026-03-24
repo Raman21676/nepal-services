@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Salleri",
+    "district": "Solukhumbu",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "service_name": "Salleri Hospital Ambulance",
+      "name_np": "सल्लेरी अस्पताल एम्बुलेन्स",
+      "phone": "038-526001",
+      "type": "Hospital Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Solukhumbu Red Cross Ambulance",
+      "name_np": "Solukhumbu रेडक्रस एम्बुलेन्स",
+      "phone": "038-526002",
+      "type": "NGO Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Salleri Emergency Ambulance",
+      "name_np": "सल्लेरी आपतकालीन एम्बुलेन्स",
+      "phone": "038-526003",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Salleri Life Care Ambulance",
+      "name_np": "सल्लेरी लाइफ केयर एम्बुलेन्स",
+      "phone": "038-526004",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    }
+  ]
+}

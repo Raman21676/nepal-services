@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Khandbari",
+    "district": "Sankhuwasabha",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Khandbari Blood Bank",
+      "name_np": "खाँडबारी ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "District Hospital, Khandbari, Sankhuwasabha",
+      "phone": "029-525001",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Nepal Red Cross Society Khandbari",
+      "name_np": "नेपाल रेडक्रस सोसाइटी खाँडबारी",
+      "type": "NGO Blood Bank",
+      "address": "Red Cross Building, Khandbari, Sankhuwasabha",
+      "phone": "029-525002",
+      "hours": "8:00 AM - 6:00 PM"
+    }
+  ]
+}

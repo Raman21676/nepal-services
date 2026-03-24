@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Gaighat Veterinary Hospital",
+      "name_np": "गाईघाट पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Gaighat, Udayapur",
+      "phone": "035-527001"
+    },
+    {
+      "name": "Gaighat Animal Clinic",
+      "name_np": "गाईघाट जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Gaighat, Udayapur",
+      "phone": "035-527002"
+    },
+    {
+      "name": "Gaighat Pet Care Center",
+      "name_np": "गाईघाट पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Gaighat, Udayapur",
+      "phone": "035-527003"
+    }
+  ]
+}

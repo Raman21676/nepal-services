@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Ilam Pharmacy",
+      "name_np": "इलाम फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Ilam, Ilam",
+      "phone": "027-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Ilam Medical Store",
+      "name_np": "इलाम मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Ilam, Ilam",
+      "phone": "027-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Ilam Life Care Pharmacy",
+      "name_np": "इलाम लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Ilam, Ilam",
+      "phone": "027-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Ilam 24 Hour Pharmacy",
+      "name_np": "इलाम २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Ilam, Ilam",
+      "phone": "027-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Ilam Generic Medicine Store",
+      "name_np": "इलाम जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Ilam, Ilam",
+      "phone": "027-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

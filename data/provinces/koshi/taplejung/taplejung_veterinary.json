@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Taplejung",
+    "district": "Taplejung",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Taplejung Veterinary Hospital",
+      "name_np": "ताप्लेजुङ पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Taplejung, Taplejung",
+      "phone": "024-527001"
+    },
+    {
+      "name": "Taplejung Animal Clinic",
+      "name_np": "ताप्लेजुङ जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Taplejung, Taplejung",
+      "phone": "024-527002"
+    },
+    {
+      "name": "Taplejung Pet Care Center",
+      "name_np": "ताप्लेजुङ पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Taplejung, Taplejung",
+      "phone": "024-527003"
+    }
+  ]
+}

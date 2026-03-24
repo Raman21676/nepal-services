@@ -2,33 +2,45 @@
   "metadata": {
     "city": "Dharan",
     "district": "Sunsari",
-    "province": "Koshi",
-    "data_type": "schools",
-    "last_updated": "2025-01-24"
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
   },
   "schools": [
-    {"name": "Delhi Public School, BPKIHS", "address": "Ghopa, BPKIHS Campus, Dharan-5", "contact": "025-523308", "email": "dps_dharan@rediff.com", "website": "dpsbpkihsdharan.edu.np", "type": "Private", "board": "CBSE", "established": 1996},
-    {"name": "Nepal Police School, Dharan", "address": "Dharan", "type": "Police Boarding"},
-    {"name": "Depot Higher Secondary School", "address": "Dharan-18, Banjogara", "established": 1963, "type": "Public"},
-    {"name": "St. Joseph's Higher Secondary School", "address": "Dharan", "type": "Private"},
-    {"name": "Siddhartha Shishu Sadan", "address": "Dharan-3, Sunsari", "type": "Private"},
-    {"name": "Gyanodaya English Boarding School", "address": "Laxmi Sadak, Dharan-4", "type": "Private"},
-    {"name": "Sungabha Boarding School", "address": "Devigapath, Dharan", "type": "Private"}
-  ],
-  "colleges": [
-    {"name": "B.P. Koirala Institute of Health Sciences", "address": "Ghopa, Dharan", "contact": "025-525555", "email": "bpkihs@bpkihs.edu", "website": "www.bpkihs.edu", "type": "Autonomous University", "programs": ["MBBS", "BDS", "B.Sc. Nursing", "MD/MS", "MPH"], "beds": 700, "established": 1993},
-    {"name": "Mahendra Multiple Campus", "address": "College Road, Dharan-10", "contact": "025-521250", "email": "mmcdharan@gmail.com", "website": "mmcdharan.edu.np", "type": "Constituent", "affiliation": "TU", "programs": ["BA", "BBA", "BBS", "LLB", "MBS"], "established": 1955},
-    {"name": "Dharan Multiple Campus", "address": "Bijuli Office Road, Dharan", "contact": "025-525651", "email": "info@dmcdharan.edu.np", "type": "Private", "affiliation": "TU", "programs": ["B.Tech Food Technology", "+2", "CTEVT Diploma"], "established": 2011},
-    {"name": "Central Campus of Technology", "address": "Dharan-14, Hattisar", "contact": "025-570228", "email": "info@cctdharan.edu.np", "type": "Constituent", "affiliation": "TU", "programs": ["B.Tech Food Technology", "M.Tech Food Technology"], "established": 1972}
-  ],
-  "clinics": [
-    {"name": "Manjushree Poly Clinic", "address": "Putali Line, Dharan-10", "contact": "025-524363", "services": ["Pathology", "Diagnostic Imaging", "OPD"]},
-    {"name": "Bijayapur Hospital", "address": "Putali Line, Dharan-10", "contact": "025-533490", "email": "hospitalbijayapura@gmail.com"},
-    {"name": "Manju Shree Eye Care Center", "address": "Dharan", "services": ["Ophthalmology", "Eye Surgery", "Vision Care"]},
-    {"name": "Advance Pathology Lab", "address": "Dharan", "website": "advancepathologylab.com", "services": ["Health Checkup", "Cancer Screening", "Diabetes Check"]}
-  ],
-  "blood_banks": [
-    {"name": "BPKIHS Blood Bank", "address": "BPKIHS Campus, Ghopa, Dharan", "contact": "025-525555", "type": "Hospital", "established": 2013, "services": ["Whole Blood", "PCV", "PRP", "FFP", "Cryoprecipitate"]},
-    {"name": "Sunsari District BTSC", "address": "Dharan, Sunsari", "contact": "025-525555", "type": "District"}
+    {
+      "name": "Dharan Higher Secondary School",
+      "name_np": "धरान उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Dharan, Sunsari",
+      "phone": "021-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Dharan English Boarding School",
+      "name_np": "धरान इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Dharan, Sunsari",
+      "phone": "021-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Dharan Academy",
+      "name_np": "धरान एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Dharan, Sunsari",
+      "phone": "021-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Dharan Model School",
+      "name_np": "धरान मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Dharan, Sunsari",
+      "phone": "021-522004",
+      "affiliation": "Government of Nepal"
+    }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "service_name": "Gaighat Hospital Ambulance",
+      "name_np": "गाईघाट अस्पताल एम्बुलेन्स",
+      "phone": "035-526001",
+      "type": "Hospital Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Udayapur Red Cross Ambulance",
+      "name_np": "Udayapur रेडक्रस एम्बुलेन्स",
+      "phone": "035-526002",
+      "type": "NGO Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Gaighat Emergency Ambulance",
+      "name_np": "गाईघाट आपतकालीन एम्बुलेन्स",
+      "phone": "035-526003",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Gaighat Life Care Ambulance",
+      "name_np": "गाईघाट लाइफ केयर एम्बुलेन्स",
+      "phone": "035-526004",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Manglung",
+    "district": "Terhathum",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Manglung Blood Bank",
+      "name_np": "मंगलुङ ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "District Hospital, Manglung, Terhathum",
+      "phone": "026-525001",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Nepal Red Cross Society Manglung",
+      "name_np": "नेपाल रेडक्रस सोसाइटी मंगलुङ",
+      "type": "NGO Blood Bank",
+      "address": "Red Cross Building, Manglung, Terhathum",
+      "phone": "026-525002",
+      "hours": "8:00 AM - 6:00 PM"
+    }
+  ]
+}

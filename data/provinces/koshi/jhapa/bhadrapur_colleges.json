@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Bhadrapur Multiple Campus",
+      "name_np": "भद्रपुर बहुमुखी क्याम्पस",
+      "type": "Community College",
+      "programs": [
+        "+2 Science",
+        "+2 Management",
+        "+2 Humanities",
+        "Bachelor Programs"
+      ],
+      "address": "College Road, Bhadrapur, Jhapa",
+      "phone": "023-523001",
+      "affiliation": "Tribhuvan University"
+    },
+    {
+      "name": "Bhadrapur Model College",
+      "name_np": "भद्रपुर मोडल कलेज",
+      "type": "Private College",
+      "programs": [
+        "+2 Science",
+        "+2 Management",
+        "+2 Education"
+      ],
+      "address": "Main Bazaar, Bhadrapur, Jhapa",
+      "phone": "023-523002",
+      "affiliation": "National Examination Board"
+    },
+    {
+      "name": "Bhadrapur Technical School",
+      "name_np": "भद्रपुर टेक्निकल स्कूल",
+      "type": "Technical Institute",
+      "programs": [
+        "Diploma in Engineering",
+        "Technical Courses",
+        "Vocational Training"
+      ],
+      "address": "Industrial Area, Bhadrapur, Jhapa",
+      "phone": "023-523003",
+      "affiliation": "CTEVT"
+    }
+  ]
+}

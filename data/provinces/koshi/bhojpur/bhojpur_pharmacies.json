@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Bhojpur",
+    "district": "Bhojpur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Bhojpur Pharmacy",
+      "name_np": "भोजपुर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Bhojpur, Bhojpur",
+      "phone": "029-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Bhojpur Medical Store",
+      "name_np": "भोजपुर मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Bhojpur, Bhojpur",
+      "phone": "029-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Bhojpur Life Care Pharmacy",
+      "name_np": "भोजपुर लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Bhojpur, Bhojpur",
+      "phone": "029-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Bhojpur 24 Hour Pharmacy",
+      "name_np": "भोजपुर २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Bhojpur, Bhojpur",
+      "phone": "029-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Bhojpur Generic Medicine Store",
+      "name_np": "भोजपुर जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Bhojpur, Bhojpur",
+      "phone": "029-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

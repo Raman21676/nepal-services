@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Phidim",
+    "district": "Panchthar",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Phidim Veterinary Hospital",
+      "name_np": "फिदिम पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Phidim, Panchthar",
+      "phone": "024-527001"
+    },
+    {
+      "name": "Phidim Animal Clinic",
+      "name_np": "फिदिम जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Phidim, Panchthar",
+      "phone": "024-527002"
+    },
+    {
+      "name": "Phidim Pet Care Center",
+      "name_np": "फिदिम पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Phidim, Panchthar",
+      "phone": "024-527003"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Diktel",
+    "district": "Khotang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Diktel Pharmacy",
+      "name_np": "दिक्तेल फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Diktel, Khotang",
+      "phone": "036-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Diktel Medical Store",
+      "name_np": "दिक्तेल मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Diktel, Khotang",
+      "phone": "036-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Diktel Life Care Pharmacy",
+      "name_np": "दिक्तेल लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Diktel, Khotang",
+      "phone": "036-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Diktel 24 Hour Pharmacy",
+      "name_np": "दिक्तेल २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Diktel, Khotang",
+      "phone": "036-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Diktel Generic Medicine Store",
+      "name_np": "दिक्तेल जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Diktel, Khotang",
+      "phone": "036-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

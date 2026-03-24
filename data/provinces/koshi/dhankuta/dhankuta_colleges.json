@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Dhankuta",
+    "district": "Dhankuta",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Dhankuta Multiple Campus",
+      "name_np": "धनकुटा बहुमुखी क्याम्पस",
+      "type": "Community College",
+      "programs": [
+        "+2 Science",
+        "+2 Management",
+        "+2 Humanities",
+        "Bachelor Programs"
+      ],
+      "address": "College Road, Dhankuta, Dhankuta",
+      "phone": "026-523001",
+      "affiliation": "Tribhuvan University"
+    },
+    {
+      "name": "Dhankuta Model College",
+      "name_np": "धनकुटा मोडल कलेज",
+      "type": "Private College",
+      "programs": [
+        "+2 Science",
+        "+2 Management",
+        "+2 Education"
+      ],
+      "address": "Main Bazaar, Dhankuta, Dhankuta",
+      "phone": "026-523002",
+      "affiliation": "National Examination Board"
+    },
+    {
+      "name": "Dhankuta Technical School",
+      "name_np": "धनकुटा टेक्निकल स्कूल",
+      "type": "Technical Institute",
+      "programs": [
+        "Diploma in Engineering",
+        "Technical Courses",
+        "Vocational Training"
+      ],
+      "address": "Industrial Area, Dhankuta, Dhankuta",
+      "phone": "026-523003",
+      "affiliation": "CTEVT"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Dhankuta",
+    "district": "Dhankuta",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Dhankuta Veterinary Hospital",
+      "name_np": "धनकुटा पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Dhankuta, Dhankuta",
+      "phone": "026-527001"
+    },
+    {
+      "name": "Dhankuta Animal Clinic",
+      "name_np": "धनकुटा जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Dhankuta, Dhankuta",
+      "phone": "026-527002"
+    },
+    {
+      "name": "Dhankuta Pet Care Center",
+      "name_np": "धनकुटा पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Dhankuta, Dhankuta",
+      "phone": "026-527003"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Bhojpur",
+    "district": "Bhojpur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Bhojpur Blood Bank",
+      "name_np": "भोजपुर ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "District Hospital, Bhojpur, Bhojpur",
+      "phone": "029-525001",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Nepal Red Cross Society Bhojpur",
+      "name_np": "नेपाल रेडक्रस सोसाइटी भोजपुर",
+      "type": "NGO Blood Bank",
+      "address": "Red Cross Building, Bhojpur, Bhojpur",
+      "phone": "029-525002",
+      "hours": "8:00 AM - 6:00 PM"
+    }
+  ]
+}

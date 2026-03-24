@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Taplejung",
+    "district": "Taplejung",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Taplejung Blood Bank",
+      "name_np": "ताप्लेजुङ ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "District Hospital, Taplejung, Taplejung",
+      "phone": "024-525001",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Nepal Red Cross Society Taplejung",
+      "name_np": "नेपाल रेडक्रस सोसाइटी ताप्लेजुङ",
+      "type": "NGO Blood Bank",
+      "address": "Red Cross Building, Taplejung, Taplejung",
+      "phone": "024-525002",
+      "hours": "8:00 AM - 6:00 PM"
+    }
+  ]
+}

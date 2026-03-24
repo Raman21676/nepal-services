@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Okhaldhunga",
+    "district": "Okhaldhunga",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Okhaldhunga Pharmacy",
+      "name_np": "खोटाँग फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Okhaldhunga, Okhaldhunga",
+      "phone": "037-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Okhaldhunga Medical Store",
+      "name_np": "खोटाँग मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Okhaldhunga, Okhaldhunga",
+      "phone": "037-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Okhaldhunga Life Care Pharmacy",
+      "name_np": "खोटाँग लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Okhaldhunga, Okhaldhunga",
+      "phone": "037-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Okhaldhunga 24 Hour Pharmacy",
+      "name_np": "खोटाँग २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Okhaldhunga, Okhaldhunga",
+      "phone": "037-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Okhaldhunga Generic Medicine Store",
+      "name_np": "खोटाँग जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Okhaldhunga, Okhaldhunga",
+      "phone": "037-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Bhadrapur Pharmacy",
+      "name_np": "भद्रपुर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Bhadrapur, Jhapa",
+      "phone": "023-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Bhadrapur Medical Store",
+      "name_np": "भद्रपुर मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Bhadrapur, Jhapa",
+      "phone": "023-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Bhadrapur Life Care Pharmacy",
+      "name_np": "भद्रपुर लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Bhadrapur, Jhapa",
+      "phone": "023-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Bhadrapur 24 Hour Pharmacy",
+      "name_np": "भद्रपुर २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Bhadrapur, Jhapa",
+      "phone": "023-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Bhadrapur Generic Medicine Store",
+      "name_np": "भद्रपुर जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Bhadrapur, Jhapa",
+      "phone": "023-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

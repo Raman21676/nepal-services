@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Dharan Polyclinic",
+      "name_np": "धरान पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Dharan, Sunsari",
+      "phone": "021-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Dharan Diagnostic Centre",
+      "name_np": "धरान डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Dharan, Sunsari",
+      "phone": "021-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Dharan",
+      "name_np": "सिटी हेल्थ क्लिनिक धरान",
+      "type": "General Clinic",
+      "address": "Market Area, Dharan, Sunsari",
+      "phone": "021-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Dharan Dental Care",
+      "name_np": "धरान डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Dharan, Sunsari",
+      "phone": "021-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Dharan Maternity Clinic",
+      "name_np": "धरान म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Dharan, Sunsari",
+      "phone": "021-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Dharan Heart Care Clinic",
+      "name_np": "धरान हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Dharan, Sunsari",
+      "phone": "021-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

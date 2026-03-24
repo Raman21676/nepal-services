@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Phidim",
+    "district": "Panchthar",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Phidim Polyclinic",
+      "name_np": "फिदिम पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Phidim, Panchthar",
+      "phone": "024-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Phidim Diagnostic Centre",
+      "name_np": "फिदिम डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Phidim, Panchthar",
+      "phone": "024-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Phidim",
+      "name_np": "सिटी हेल्थ क्लिनिक फिदिम",
+      "type": "General Clinic",
+      "address": "Market Area, Phidim, Panchthar",
+      "phone": "024-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Phidim Dental Care",
+      "name_np": "फिदिम डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Phidim, Panchthar",
+      "phone": "024-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Phidim Maternity Clinic",
+      "name_np": "फिदिम म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Phidim, Panchthar",
+      "phone": "024-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Phidim Heart Care Clinic",
+      "name_np": "फिदिम हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Phidim, Panchthar",
+      "phone": "024-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Salleri",
+    "district": "Solukhumbu",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Salleri Polyclinic",
+      "name_np": "सल्लेरी पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Salleri, Solukhumbu",
+      "phone": "038-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Salleri Diagnostic Centre",
+      "name_np": "सल्लेरी डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Salleri, Solukhumbu",
+      "phone": "038-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Salleri",
+      "name_np": "सिटी हेल्थ क्लिनिक सल्लेरी",
+      "type": "General Clinic",
+      "address": "Market Area, Salleri, Solukhumbu",
+      "phone": "038-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Salleri Dental Care",
+      "name_np": "सल्लेरी डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Salleri, Solukhumbu",
+      "phone": "038-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Salleri Maternity Clinic",
+      "name_np": "सल्लेरी म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Salleri, Solukhumbu",
+      "phone": "038-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Salleri Heart Care Clinic",
+      "name_np": "सल्लेरी हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Salleri, Solukhumbu",
+      "phone": "038-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

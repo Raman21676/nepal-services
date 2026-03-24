@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Taplejung",
+    "district": "Taplejung",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Taplejung Higher Secondary School",
+      "name_np": "ताप्लेजुङ उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Taplejung, Taplejung",
+      "phone": "024-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Taplejung English Boarding School",
+      "name_np": "ताप्लेजुङ इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Taplejung, Taplejung",
+      "phone": "024-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Taplejung Academy",
+      "name_np": "ताप्लेजुङ एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Taplejung, Taplejung",
+      "phone": "024-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Taplejung Model School",
+      "name_np": "ताप्लेजुङ मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Taplejung, Taplejung",
+      "phone": "024-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

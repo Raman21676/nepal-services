@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Salleri",
+    "district": "Solukhumbu",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Salleri Pharmacy",
+      "name_np": "सल्लेरी फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Salleri, Solukhumbu",
+      "phone": "038-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Salleri Medical Store",
+      "name_np": "सल्लेरी मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Salleri, Solukhumbu",
+      "phone": "038-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Salleri Life Care Pharmacy",
+      "name_np": "सल्लेरी लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Salleri, Solukhumbu",
+      "phone": "038-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Salleri 24 Hour Pharmacy",
+      "name_np": "सल्लेरी २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Salleri, Solukhumbu",
+      "phone": "038-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Salleri Generic Medicine Store",
+      "name_np": "सल्लेरी जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Salleri, Solukhumbu",
+      "phone": "038-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

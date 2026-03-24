@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Taplejung",
+    "district": "Taplejung",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Taplejung Pharmacy",
+      "name_np": "ताप्लेजुङ फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Taplejung, Taplejung",
+      "phone": "024-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Taplejung Medical Store",
+      "name_np": "ताप्लेजुङ मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Taplejung, Taplejung",
+      "phone": "024-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Taplejung Life Care Pharmacy",
+      "name_np": "ताप्लेजुङ लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Taplejung, Taplejung",
+      "phone": "024-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Taplejung 24 Hour Pharmacy",
+      "name_np": "ताप्लेजुङ २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Taplejung, Taplejung",
+      "phone": "024-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Taplejung Generic Medicine Store",
+      "name_np": "ताप्लेजुङ जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Taplejung, Taplejung",
+      "phone": "024-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

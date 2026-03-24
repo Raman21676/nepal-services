@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Itahari",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Itahari Pharmacy",
+      "name_np": "ईटहरी फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Itahari, Sunsari",
+      "phone": "025-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Itahari Medical Store",
+      "name_np": "ईटहरी मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Itahari, Sunsari",
+      "phone": "025-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Itahari Life Care Pharmacy",
+      "name_np": "ईटहरी लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Itahari, Sunsari",
+      "phone": "025-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Itahari 24 Hour Pharmacy",
+      "name_np": "ईटहरी २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Itahari, Sunsari",
+      "phone": "025-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Itahari Generic Medicine Store",
+      "name_np": "ईटहरी जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Itahari, Sunsari",
+      "phone": "025-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

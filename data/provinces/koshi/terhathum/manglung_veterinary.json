@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Manglung",
+    "district": "Terhathum",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Manglung Veterinary Hospital",
+      "name_np": "मंगलुङ पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Manglung, Terhathum",
+      "phone": "026-527001"
+    },
+    {
+      "name": "Manglung Animal Clinic",
+      "name_np": "मंगलुङ जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Manglung, Terhathum",
+      "phone": "026-527002"
+    },
+    {
+      "name": "Manglung Pet Care Center",
+      "name_np": "मंगलुङ पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Manglung, Terhathum",
+      "phone": "026-527003"
+    }
+  ]
+}

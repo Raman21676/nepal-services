@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Bhojpur",
+    "district": "Bhojpur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Bhojpur Higher Secondary School",
+      "name_np": "भोजपुर उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Bhojpur, Bhojpur",
+      "phone": "029-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Bhojpur English Boarding School",
+      "name_np": "भोजपुर इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Bhojpur, Bhojpur",
+      "phone": "029-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Bhojpur Academy",
+      "name_np": "भोजपुर एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Bhojpur, Bhojpur",
+      "phone": "029-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Bhojpur Model School",
+      "name_np": "भोजपुर मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Bhojpur, Bhojpur",
+      "phone": "029-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

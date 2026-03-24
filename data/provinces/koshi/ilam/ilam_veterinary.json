@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Ilam Veterinary Hospital",
+      "name_np": "इलाम पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Ilam, Ilam",
+      "phone": "027-527001"
+    },
+    {
+      "name": "Ilam Animal Clinic",
+      "name_np": "इलाम जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Ilam, Ilam",
+      "phone": "027-527002"
+    },
+    {
+      "name": "Ilam Pet Care Center",
+      "name_np": "इलाम पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Ilam, Ilam",
+      "phone": "027-527003"
+    }
+  ]
+}

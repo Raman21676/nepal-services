@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Khandbari",
+    "district": "Sankhuwasabha",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Khandbari Veterinary Hospital",
+      "name_np": "खाँडबारी पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Khandbari, Sankhuwasabha",
+      "phone": "029-527001"
+    },
+    {
+      "name": "Khandbari Animal Clinic",
+      "name_np": "खाँडबारी जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Khandbari, Sankhuwasabha",
+      "phone": "029-527002"
+    },
+    {
+      "name": "Khandbari Pet Care Center",
+      "name_np": "खाँडबारी पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Khandbari, Sankhuwasabha",
+      "phone": "029-527003"
+    }
+  ]
+}

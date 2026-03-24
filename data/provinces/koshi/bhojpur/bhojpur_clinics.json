@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Bhojpur",
+    "district": "Bhojpur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Bhojpur Polyclinic",
+      "name_np": "भोजपुर पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Bhojpur, Bhojpur",
+      "phone": "029-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Bhojpur Diagnostic Centre",
+      "name_np": "भोजपुर डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Bhojpur, Bhojpur",
+      "phone": "029-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Bhojpur",
+      "name_np": "सिटी हेल्थ क्लिनिक भोजपुर",
+      "type": "General Clinic",
+      "address": "Market Area, Bhojpur, Bhojpur",
+      "phone": "029-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Bhojpur Dental Care",
+      "name_np": "भोजपुर डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Bhojpur, Bhojpur",
+      "phone": "029-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Bhojpur Maternity Clinic",
+      "name_np": "भोजपुर म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Bhojpur, Bhojpur",
+      "phone": "029-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Bhojpur Heart Care Clinic",
+      "name_np": "भोजपुर हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Bhojpur, Bhojpur",
+      "phone": "029-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

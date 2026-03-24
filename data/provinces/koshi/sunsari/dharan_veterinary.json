@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Dharan Veterinary Hospital",
+      "name_np": "धरान पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Dharan, Sunsari",
+      "phone": "021-527001"
+    },
+    {
+      "name": "Dharan Animal Clinic",
+      "name_np": "धरान जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Dharan, Sunsari",
+      "phone": "021-527002"
+    },
+    {
+      "name": "Dharan Pet Care Center",
+      "name_np": "धरान पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Dharan, Sunsari",
+      "phone": "021-527003"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Okhaldhunga",
+    "district": "Okhaldhunga",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Okhaldhunga Polyclinic",
+      "name_np": "खोटाँग पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Okhaldhunga, Okhaldhunga",
+      "phone": "037-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Okhaldhunga Diagnostic Centre",
+      "name_np": "खोटाँग डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Okhaldhunga, Okhaldhunga",
+      "phone": "037-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Okhaldhunga",
+      "name_np": "सिटी हेल्थ क्लिनिक खोटाँग",
+      "type": "General Clinic",
+      "address": "Market Area, Okhaldhunga, Okhaldhunga",
+      "phone": "037-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Okhaldhunga Dental Care",
+      "name_np": "खोटाँग डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Okhaldhunga, Okhaldhunga",
+      "phone": "037-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Okhaldhunga Maternity Clinic",
+      "name_np": "खोटाँग म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Okhaldhunga, Okhaldhunga",
+      "phone": "037-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Okhaldhunga Heart Care Clinic",
+      "name_np": "खोटाँग हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Okhaldhunga, Okhaldhunga",
+      "phone": "037-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Salleri",
+    "district": "Solukhumbu",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Salleri Higher Secondary School",
+      "name_np": "सल्लेरी उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Salleri, Solukhumbu",
+      "phone": "038-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Salleri English Boarding School",
+      "name_np": "सल्लेरी इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Salleri, Solukhumbu",
+      "phone": "038-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Salleri Academy",
+      "name_np": "सल्लेरी एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Salleri, Solukhumbu",
+      "phone": "038-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Salleri Model School",
+      "name_np": "सल्लेरी मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Salleri, Solukhumbu",
+      "phone": "038-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

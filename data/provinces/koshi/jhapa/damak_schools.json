@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Damak Higher Secondary School",
+      "name_np": "दमक उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Damak, Jhapa",
+      "phone": "023-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Damak English Boarding School",
+      "name_np": "दमक इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Damak, Jhapa",
+      "phone": "023-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Damak Academy",
+      "name_np": "दमक एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Damak, Jhapa",
+      "phone": "023-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Damak Model School",
+      "name_np": "दमक मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Damak, Jhapa",
+      "phone": "023-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

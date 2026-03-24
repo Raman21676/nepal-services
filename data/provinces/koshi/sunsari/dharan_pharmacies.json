@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Dharan Pharmacy",
+      "name_np": "धरान फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Dharan, Sunsari",
+      "phone": "021-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Dharan Medical Store",
+      "name_np": "धरान मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Dharan, Sunsari",
+      "phone": "021-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Dharan Life Care Pharmacy",
+      "name_np": "धरान लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Dharan, Sunsari",
+      "phone": "021-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Dharan 24 Hour Pharmacy",
+      "name_np": "धरान २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Dharan, Sunsari",
+      "phone": "021-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Dharan Generic Medicine Store",
+      "name_np": "धरान जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Dharan, Sunsari",
+      "phone": "021-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

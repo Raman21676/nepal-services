@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Bhadrapur Blood Bank",
+      "name_np": "भद्रपुर ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "District Hospital, Bhadrapur, Jhapa",
+      "phone": "023-525001",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Nepal Red Cross Society Bhadrapur",
+      "name_np": "नेपाल रेडक्रस सोसाइटी भद्रपुर",
+      "type": "NGO Blood Bank",
+      "address": "Red Cross Building, Bhadrapur, Jhapa",
+      "phone": "023-525002",
+      "hours": "8:00 AM - 6:00 PM"
+    }
+  ]
+}

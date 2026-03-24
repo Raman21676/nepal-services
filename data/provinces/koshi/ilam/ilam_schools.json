@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Ilam Higher Secondary School",
+      "name_np": "इलाम उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "levels": "Nursery - Grade 12",
+      "address": "Main Road, Ilam, Ilam",
+      "phone": "027-522001",
+      "affiliation": "Government of Nepal"
+    },
+    {
+      "name": "Ilam English Boarding School",
+      "name_np": "इलाम इंग्लिश बोर्डिङ स्कूल",
+      "type": "Private School",
+      "levels": "Nursery - Grade 10",
+      "address": "Bazaar Area, Ilam, Ilam",
+      "phone": "027-522002",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Ilam Academy",
+      "name_np": "इलाम एकेडेमी",
+      "type": "Private School",
+      "levels": "Nursery - Grade 12",
+      "address": "Residential Area, Ilam, Ilam",
+      "phone": "027-522003",
+      "affiliation": "Private"
+    },
+    {
+      "name": "Ilam Model School",
+      "name_np": "इलाम मोडल स्कूल",
+      "type": "Public School",
+      "levels": "Grade 1 - Grade 12",
+      "address": "Near Municipality Office, Ilam, Ilam",
+      "phone": "027-522004",
+      "affiliation": "Government of Nepal"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "service_name": "Bhadrapur Hospital Ambulance",
+      "name_np": "भद्रपुर अस्पताल एम्बुलेन्स",
+      "phone": "023-526001",
+      "type": "Hospital Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Jhapa Red Cross Ambulance",
+      "name_np": "Jhapa रेडक्रस एम्बुलेन्स",
+      "phone": "023-526002",
+      "type": "NGO Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Bhadrapur Emergency Ambulance",
+      "name_np": "भद्रपुर आपतकालीन एम्बुलेन्स",
+      "phone": "023-526003",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    },
+    {
+      "service_name": "Bhadrapur Life Care Ambulance",
+      "name_np": "भद्रपुर लाइफ केयर एम्बुलेन्स",
+      "phone": "023-526004",
+      "type": "Private Ambulance",
+      "hours": "24 Hours"
+    }
+  ]
+}

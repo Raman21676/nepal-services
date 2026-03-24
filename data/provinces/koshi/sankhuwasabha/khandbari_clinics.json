@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Khandbari",
+    "district": "Sankhuwasabha",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Khandbari Polyclinic",
+      "name_np": "खाँडबारी पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Khandbari, Sankhuwasabha",
+      "phone": "029-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Khandbari Diagnostic Centre",
+      "name_np": "खाँडबारी डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Khandbari, Sankhuwasabha",
+      "phone": "029-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Khandbari",
+      "name_np": "सिटी हेल्थ क्लिनिक खाँडबारी",
+      "type": "General Clinic",
+      "address": "Market Area, Khandbari, Sankhuwasabha",
+      "phone": "029-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Khandbari Dental Care",
+      "name_np": "खाँडबारी डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Khandbari, Sankhuwasabha",
+      "phone": "029-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Khandbari Maternity Clinic",
+      "name_np": "खाँडबारी म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Khandbari, Sankhuwasabha",
+      "phone": "029-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Khandbari Heart Care Clinic",
+      "name_np": "खाँडबारी हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Khandbari, Sankhuwasabha",
+      "phone": "029-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

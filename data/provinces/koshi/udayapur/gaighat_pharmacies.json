@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Gaighat Pharmacy",
+      "name_np": "गाईघाट फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Main Market, Gaighat, Udayapur",
+      "phone": "035-521001",
+      "hours": "7:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Gaighat Medical Store",
+      "name_np": "गाईघाट मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hospital Road, Gaighat, Udayapur",
+      "phone": "035-521002",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Gaighat Life Care Pharmacy",
+      "name_np": "गाईघाट लाइफ केयर फार्मेसी",
+      "type": "Retail Pharmacy",
+      "address": "Bus Park, Gaighat, Udayapur",
+      "phone": "035-521003",
+      "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+      "name": "Gaighat 24 Hour Pharmacy",
+      "name_np": "गाईघाट २४ घण्टा फार्मेसी",
+      "type": "24-Hour Pharmacy",
+      "address": "Near District Hospital, Gaighat, Udayapur",
+      "phone": "035-521004",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Gaighat Generic Medicine Store",
+      "name_np": "गाईघाट जेनेरिक मेडिसिन स्टोर",
+      "type": "Generic Medicine Store",
+      "address": "Market Chowk, Gaighat, Udayapur",
+      "phone": "035-521005",
+      "hours": "8:00 AM - 7:00 PM"
+    }
+  ]
+}

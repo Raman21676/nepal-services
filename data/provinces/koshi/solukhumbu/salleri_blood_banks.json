@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "city": "Salleri",
+    "district": "Solukhumbu",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Salleri Blood Bank",
+      "name_np": "सल्लेरी ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "District Hospital, Salleri, Solukhumbu",
+      "phone": "038-525001",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Nepal Red Cross Society Salleri",
+      "name_np": "नेपाल रेडक्रस सोसाइटी सल्लेरी",
+      "type": "NGO Blood Bank",
+      "address": "Red Cross Building, Salleri, Solukhumbu",
+      "phone": "038-525002",
+      "hours": "8:00 AM - 6:00 PM"
+    }
+  ]
+}

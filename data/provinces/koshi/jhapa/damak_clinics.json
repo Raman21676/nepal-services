@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Damak Polyclinic",
+      "name_np": "दमक पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Damak, Jhapa",
+      "phone": "023-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Damak Diagnostic Centre",
+      "name_np": "दमक डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Damak, Jhapa",
+      "phone": "023-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Damak",
+      "name_np": "सिटी हेल्थ क्लिनिक दमक",
+      "type": "General Clinic",
+      "address": "Market Area, Damak, Jhapa",
+      "phone": "023-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Damak Dental Care",
+      "name_np": "दमक डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Damak, Jhapa",
+      "phone": "023-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Damak Maternity Clinic",
+      "name_np": "दमक म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Damak, Jhapa",
+      "phone": "023-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Damak Heart Care Clinic",
+      "name_np": "दमक हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Damak, Jhapa",
+      "phone": "023-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

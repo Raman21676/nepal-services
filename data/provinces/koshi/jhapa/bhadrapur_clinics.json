@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Bhadrapur Polyclinic",
+      "name_np": "भद्रपुर पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Main Road, Bhadrapur, Jhapa",
+      "phone": "023-520001",
+      "services": [
+        "OPD",
+        "General Medicine",
+        "Pathology"
+      ]
+    },
+    {
+      "name": "Bhadrapur Diagnostic Centre",
+      "name_np": "भद्रपुर डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Hospital Road, Bhadrapur, Jhapa",
+      "phone": "023-520002",
+      "services": [
+        "Laboratory Tests",
+        "X-Ray",
+        "Ultrasound"
+      ]
+    },
+    {
+      "name": "City Health Clinic Bhadrapur",
+      "name_np": "सिटी हेल्थ क्लिनिक भद्रपुर",
+      "type": "General Clinic",
+      "address": "Market Area, Bhadrapur, Jhapa",
+      "phone": "023-520003",
+      "services": [
+        "General Consultation",
+        "Health Checkup"
+      ]
+    },
+    {
+      "name": "Bhadrapur Dental Care",
+      "name_np": "भद्रपुर डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Central Chowk, Bhadrapur, Jhapa",
+      "phone": "023-520004",
+      "services": [
+        "Dental Surgery",
+        "Root Canal",
+        "Orthodontics"
+      ]
+    },
+    {
+      "name": "Bhadrapur Maternity Clinic",
+      "name_np": "भद्रपुर म्याटर्निटी क्लिनिक",
+      "type": "Maternity Clinic",
+      "address": "Near District Hospital, Bhadrapur, Jhapa",
+      "phone": "023-520005",
+      "services": [
+        "Gynecology",
+        "Pediatrics",
+        "Antenatal Care"
+      ]
+    },
+    {
+      "name": "Bhadrapur Heart Care Clinic",
+      "name_np": "भद्रपुर हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Bus Park Road, Bhadrapur, Jhapa",
+      "phone": "023-520006",
+      "services": [
+        "Cardiology",
+        "ECG",
+        "Echo"
+      ]
+    }
+  ]
+}

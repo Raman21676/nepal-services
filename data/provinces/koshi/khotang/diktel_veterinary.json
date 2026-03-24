@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Diktel",
+    "district": "Khotang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Diktel Veterinary Hospital",
+      "name_np": "दिक्तेल पशु अस्पताल",
+      "type": "Government Veterinary Hospital",
+      "address": "District Veterinary Office, Diktel, Khotang",
+      "phone": "036-527001"
+    },
+    {
+      "name": "Diktel Animal Clinic",
+      "name_np": "दिक्तेल जनावर क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Main Road, Diktel, Khotang",
+      "phone": "036-527002"
+    },
+    {
+      "name": "Diktel Pet Care Center",
+      "name_np": "दिक्तेल पेट केयर सेन्टर",
+      "type": "Pet Clinic",
+      "address": "Market Area, Diktel, Khotang",
+      "phone": "036-527003"
+    }
+  ]
+}
