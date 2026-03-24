@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "data_type": "clinics",
+    "last_updated": "2025-01-24"
+  },
+  "clinics": [
+    {
+      "name": "Birat Medical College Teaching Hospital",
+      "address": "Biratnagar, Morang",
+      "contact": "021-470958",
+      "type": "Teaching Hospital",
+      "hours": "24/7",
+      "services": ["Emergency", "OPD", "Surgery", "ICU", "Diagnostic"]
+    },
+    {
+      "name": "Nobel Medical College Teaching Hospital",
+      "address": "Biratnagar, Morang",
+      "contact": "021-460736",
+      "type": "Teaching Hospital",
+      "hours": "24/7",
+      "services": ["Emergency", "OPD", "Surgery", "ICU"]
+    },
+    {
+      "name": "B.P. Koirala Institute of Health Sciences (BPKIHS)",
+      "address": "Dharan (Service center Biratnagar)",
+      "contact": "025-525555",
+      "type": "Specialty Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Biratnagar Eye Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "Eye Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Eye Care", "Eye Surgery"]
+    },
+    {
+      "name": "Ram Laxman Eye Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "Eye Hospital",
+      "hours": "Sunday-Friday"
+    },
+    {
+      "name": "District Hospital Morang",
+      "address": "Biratnagar, Morang",
+      "contact": "021-521200",
+      "type": "Government Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Sukraraj Tropical Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "Infectious Disease Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Life Care Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "General Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Metropolitan Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "General Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "New Model Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "General Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Om Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "General Hospital",
+      "hours": "24/7"
+    },
+    {
+      "name": "Biratnagar Dental Hospital",
+      "address": "Biratnagar, Morang",
+      "type": "Dental Hospital",
+      "hours": "Sunday-Friday"
+    }
+  ]
+}

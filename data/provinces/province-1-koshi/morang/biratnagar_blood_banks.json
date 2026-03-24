@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "data_type": "blood_banks",
+    "last_updated": "2025-01-24"
+  },
+  "blood_banks": [
+    {
+      "name": "NRCS Regional Blood Transfusion Service Center",
+      "address": "Rangeli Road, Biratnagar",
+      "contact": "021-523326",
+      "type": "Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Donation", "Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "Red Cross Blood Bank Biratnagar",
+      "address": "Devkota Chowk, Biratnagar",
+      "contact": "021-423326",
+      "type": "Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Donation", "Blood Transfusion"]
+    },
+    {
+      "name": "Birat Medical College Blood Bank",
+      "address": "Biratnagar, Morang",
+      "contact": "021-470958",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Component Therapy"]
+    },
+    {
+      "name": "Nobel Medical College Blood Bank",
+      "address": "Biratnagar, Morang",
+      "contact": "021-460736",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion"]
+    },
+    {
+      "name": "Leo Blood Bank Nepal",
+      "address": "Biratnagar, Morang",
+      "contact": "9804329529",
+      "email": "support@leobloodbanknepal.com",
+      "type": "NGO Blood Bank",
+      "hours": "24/7",
+      "services": ["Emergency Blood", "Blood Donation"]
+    },
+    {
+      "name": "District Hospital Morang Blood Bank",
+      "address": "Biratnagar, Morang",
+      "contact": "021-521200",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7"
+    }
+  ]
+}

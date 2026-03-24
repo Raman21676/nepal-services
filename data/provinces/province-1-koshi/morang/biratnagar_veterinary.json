@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "data_type": "veterinary",
+    "last_updated": "2025-01-24"
+  },
+  "veterinary": [
+    {
+      "name": "Veterinary Hospital and Livestock Service Centre",
+      "address": "Biratnagar, Morang",
+      "contact": "021-471958",
+      "email": "vhlsmorang@gmail.com",
+      "type": "Government Veterinary Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Animal Treatment", "Vaccination", "Disease Control", "Livestock Services"]
+    },
+    {
+      "name": "Animal Care Centre",
+      "address": "Biratnagar, Morang",
+      "contact": "01-5526958",
+      "type": "Pet Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Care", "Vaccination", "Pet Surgery"]
+    },
+    {
+      "name": "Animal Quarantine Office",
+      "address": "Rani, Morang (Near Biratnagar)",
+      "type": "Government Office",
+      "hours": "Sunday-Friday",
+      "services": ["Animal Quarantine", "Health Certificate", "Import/Export Clearance"]
+    },
+    {
+      "name": "Biratnagar Veterinary Clinic",
+      "address": "Biratnagar, Morang",
+      "type": "Private Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Treatment", "Vaccination", "Deworming"]
+    },
+    {
+      "name": "District Livestock Office",
+      "address": "Biratnagar, Morang",
+      "contact": "021-522100",
+      "type": "Government Office",
+      "hours": "Sunday-Friday",
+      "services": ["Livestock Services", "Animal Health Programs"]
+    }
+  ]
+}

@@ -62,6 +62,11 @@ class NepalServicesApp {
             // Koshi Province - Biratnagar
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_colleges.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'colleges' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_clinics.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'clinics' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_pharmacies.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'pharmacies' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_veterinary.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'veterinary' },
+            { path: 'data/provinces/province-1-koshi/morang/biratnagar_blood_banks.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'blood_banks' },
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_ambulance_services.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ambulance' },
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_ward_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward' },
             { path: 'data/provinces/province-1-koshi/morang/biratnagar_emergency_contacts.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'emergency' },
