@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance_services": [
+    {
+      "name": "Mugu District Hospital Ambulance",
+      "name_np": "मुगु जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520100"
+    },
+    {
+      "name": "Red Cross Ambulance Mugu",
+      "name_np": "रेडक्रस एम्बुलेन्स मुगु",
+      "type": "Emergency Ambulance",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "984-8760004"
+    }
+  ]
+}

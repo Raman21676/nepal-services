@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary_services": [
+    {
+      "name": "District Veterinary Hospital Jumla",
+      "name_np": "जिल्ला पशुसेवा अस्पताल जुम्ला",
+      "type": "Government Veterinary Hospital",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520130"
+    },
+    {
+      "name": "Livestock Service Center Jumla",
+      "name_np": "पशु सेवा केन्द्र जुम्ला",
+      "type": "Livestock Center",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-520140"
+    }
+  ]
+}

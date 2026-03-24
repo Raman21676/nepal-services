@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Khalanga",
+    "district": "Jajarkot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Jajarkot Multiple Campus",
+      "name_np": "जाजरकोट बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Bheri-1, Khalanga, Jajarkot",
+      "phone": "089-521100"
+    },
+    {
+      "name": "Bheri Nursing College",
+      "name_np": "भेरी नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Bheri-2, Khalanga, Jajarkot",
+      "phone": "089-521200"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency_services": [
+    {
+      "name": "District Police Office Jumla",
+      "name_np": "जिल्ला प्रहरी कार्यालय जुम्ला",
+      "type": "Police",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520110"
+    },
+    {
+      "name": "Jumla Hospital Emergency",
+      "name_np": "जुम्ला अस्पताल आपतकालीन",
+      "type": "Hospital Emergency",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520100"
+    },
+    {
+      "name": "District Administration Office Jumla",
+      "name_np": "जिल्ला प्रशासन कार्यालय जुम्ला",
+      "type": "Administration",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-520120"
+    },
+    {
+      "name": "National Emergency Number",
+      "name_np": "राष्ट्रिय आपतकालीन नम्बर",
+      "type": "Emergency Hotline",
+      "address": "All Nepal",
+      "phone": "112"
+    }
+  ]
+}

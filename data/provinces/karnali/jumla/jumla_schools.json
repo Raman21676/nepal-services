@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Jumla Higher Secondary School",
+      "name_np": "जुम्ला उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520600"
+    },
+    {
+      "name": "Karnali Model School",
+      "name_np": "कर्णाली मोडेल स्कूल",
+      "type": "Public School",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-520700"
+    },
+    {
+      "name": "Chandannath Secondary School",
+      "name_np": "चन्दननाथ माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Chandannath-6, Jumla",
+      "phone": "084-520800"
+    }
+  ]
+}

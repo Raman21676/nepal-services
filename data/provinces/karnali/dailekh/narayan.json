@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Dailekh District Hospital",
+      "name_np": "दैलेख जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Narayan Municipality-4, Dailekh",
+      "phone": "089-520100"
+    },
+    {
+      "name": "Narayan Community Hospital",
+      "name_np": "नारायण सामुदायिक अस्पताल",
+      "type": "Community Hospital",
+      "address": "Narayan-5, Dailekh",
+      "phone": "089-520200"
+    },
+    {
+      "name": "Mahabu Health Post",
+      "name_np": "महाबु स्वास्थ्य चौकी",
+      "type": "Health Post",
+      "address": "Mahabu Rural Municipality, Dailekh",
+      "phone": "089-520300"
+    },
+    {
+      "name": "Narayan Primary Health Center",
+      "name_np": "नारायण प्राथमिक स्वास्थ्य केन्द्र",
+      "type": "Primary Health Center",
+      "address": "Narayan-6, Dailekh",
+      "phone": "089-520400"
+    }
+  ]
+}

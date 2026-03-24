@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Dailekh Higher Secondary School",
+      "name_np": "दैलेख उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520800"
+    },
+    {
+      "name": "Narayan Model Secondary School",
+      "name_np": "नारायण मोडेल माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Narayan-5, Dailekh",
+      "phone": "089-520900"
+    },
+    {
+      "name": "Shree Saraswati Secondary School",
+      "name_np": "श्री सरस्वती माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Narayan-6, Dailekh",
+      "phone": "089-521000"
+    }
+  ]
+}

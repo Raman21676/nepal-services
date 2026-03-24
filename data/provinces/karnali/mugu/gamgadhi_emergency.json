@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency_services": [
+    {
+      "name": "District Police Office Mugu",
+      "name_np": "जिल्ला प्रहरी कार्यालय मुगु",
+      "type": "Police",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520110"
+    },
+    {
+      "name": "Mugu Hospital Emergency",
+      "name_np": "मुगु अस्पताल आपतकालीन",
+      "type": "Hospital Emergency",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520100"
+    },
+    {
+      "name": "District Administration Office Mugu",
+      "name_np": "जिल्ला प्रशासन कार्यालय मुगु",
+      "type": "Administration",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520120"
+    },
+    {
+      "name": "National Emergency Number",
+      "name_np": "राष्ट्रिय आपतकालीन नम्बर",
+      "type": "Emergency Hotline",
+      "address": "All Nepal",
+      "phone": "112"
+    }
+  ]
+}

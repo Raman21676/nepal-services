@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Simkot Rural Municipality",
+      "name_np": "सिमकोट गाउँपालिका",
+      "type": "Rural Municipality",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520150"
+    },
+    {
+      "name": "District Administration Office Humla",
+      "name_np": "जिल्ला प्रशासन कार्यालय हुम्ला",
+      "type": "District Administration",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520120"
+    },
+    {
+      "name": "District Coordination Committee Humla",
+      "name_np": "जिल्ला समन्वय समिति हुम्ला",
+      "type": "District Coordination",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520160"
+    },
+    {
+      "name": "Inland Revenue Office Humla",
+      "name_np": "भित्री राजस्व कार्यालय हुम्ला",
+      "type": "Revenue Office",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520170"
+    },
+    {
+      "name": "District Court Humla",
+      "name_np": "जिल्ला अदालत हुम्ला",
+      "type": "Court",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520180"
+    }
+  ]
+}

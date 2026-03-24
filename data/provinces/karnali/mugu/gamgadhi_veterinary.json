@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary_services": [
+    {
+      "name": "District Veterinary Hospital Mugu",
+      "name_np": "जिल्ला पशुसेवा अस्पताल मुगु",
+      "type": "Government Veterinary Hospital",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520130"
+    },
+    {
+      "name": "Livestock Service Center Mugu",
+      "name_np": "पशु सेवा केन्द्र मुगु",
+      "type": "Livestock Center",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520140"
+    }
+  ]
+}

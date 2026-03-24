@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Narayan Diagnostic Center",
+      "name_np": "नारायण डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Clinic",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520500"
+    },
+    {
+      "name": "Dailekh Medical Clinic",
+      "name_np": "दैलेख मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Narayan-5, Dailekh",
+      "phone": "984-8950001"
+    }
+  ]
+}

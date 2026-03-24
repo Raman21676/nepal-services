@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Salyan",
+    "district": "Salyan",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Salyan Higher Secondary School",
+      "name_np": "सल्यान उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Shaarada-1, Salyan",
+      "phone": "088-520800"
+    },
+    {
+      "name": "Shaarada Model Secondary School",
+      "name_np": "शारदा मोडेल माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Shaarada-2, Salyan",
+      "phone": "088-520900"
+    },
+    {
+      "name": "Bagchaur Secondary School",
+      "name_np": "बागचौर माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Bagchaur, Salyan",
+      "phone": "088-521000"
+    }
+  ]
+}

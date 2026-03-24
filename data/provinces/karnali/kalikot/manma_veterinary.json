@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Manma",
+    "district": "Kalikot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary_services": [
+    {
+      "name": "District Veterinary Hospital Kalikot",
+      "name_np": "जिल्ला पशुसेवा अस्पताल कालिकोट",
+      "type": "Government Veterinary Hospital",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520130"
+    },
+    {
+      "name": "Livestock Service Center Kalikot",
+      "name_np": "पशु सेवा केन्द्र कालिकोट",
+      "type": "Livestock Center",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520140"
+    }
+  ]
+}

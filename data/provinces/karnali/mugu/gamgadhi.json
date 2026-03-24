@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Mugu District Hospital",
+      "name_np": "मुगु जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Chhayanath Rara Municipality-1, Gamgadhi, Mugu",
+      "phone": "087-520100"
+    },
+    {
+      "name": "Rara Health Post",
+      "name_np": "रारा स्वास्थ्य चौकी",
+      "type": "Health Post",
+      "address": "Rara Lake Area, Mugu",
+      "phone": "087-520200"
+    },
+    {
+      "name": "Gamgadhi Primary Health Center",
+      "name_np": "गमगढी प्राथमिक स्वास्थ्य केन्द्र",
+      "type": "Primary Health Center",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520300"
+    }
+  ]
+}

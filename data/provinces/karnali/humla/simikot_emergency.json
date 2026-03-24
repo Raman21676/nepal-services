@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency_services": [
+    {
+      "name": "District Police Office Humla",
+      "name_np": "जिल्ला प्रहरी कार्यालय हुम्ला",
+      "type": "Police",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520110"
+    },
+    {
+      "name": "Humla Hospital Emergency",
+      "name_np": "हुम्ला अस्पताल आपतकालीन",
+      "type": "Hospital Emergency",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520100"
+    },
+    {
+      "name": "District Administration Office Humla",
+      "name_np": "जिल्ला प्रशासन कार्यालय हुम्ला",
+      "type": "Administration",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520120"
+    },
+    {
+      "name": "National Emergency Number",
+      "name_np": "राष्ट्रिय आपतकालीन नम्बर",
+      "type": "Emergency Hotline",
+      "address": "All Nepal",
+      "phone": "112"
+    }
+  ]
+}

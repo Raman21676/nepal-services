@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary_services": [
+    {
+      "name": "District Veterinary Hospital Humla",
+      "name_np": "जिल्ला पशुसेवा अस्पताल हुम्ला",
+      "type": "Government Veterinary Hospital",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520130"
+    },
+    {
+      "name": "Livestock Service Center Humla",
+      "name_np": "पशु सेवा केन्द्र हुम्ला",
+      "type": "Livestock Center",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520140"
+    }
+  ]
+}

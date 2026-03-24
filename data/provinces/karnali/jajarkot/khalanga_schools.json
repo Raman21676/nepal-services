@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Khalanga",
+    "district": "Jajarkot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Jajarkot Higher Secondary School",
+      "name_np": "जाजरकोट उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Bheri-1, Khalanga, Jajarkot",
+      "phone": "089-520800"
+    },
+    {
+      "name": "Khalanga Model Secondary School",
+      "name_np": "खलङ्गा मोडेल माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Bheri-2, Khalanga, Jajarkot",
+      "phone": "089-520900"
+    },
+    {
+      "name": "Bheri Secondary School",
+      "name_np": "भेरी माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Bheri-3, Khalanga, Jajarkot",
+      "phone": "089-521000"
+    }
+  ]
+}

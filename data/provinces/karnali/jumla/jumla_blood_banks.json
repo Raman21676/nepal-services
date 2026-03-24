@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Jumla District Hospital Blood Bank",
+      "name_np": "जुम्ला जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520100"
+    },
+    {
+      "name": "Nepal Red Cross Society Jumla",
+      "name_np": "नेपाल रेडक्रस सोसाइटी जुम्ला",
+      "type": "Blood Bank",
+      "address": "Chandannath-4, Jumla",
+      "phone": "984-8450003"
+    }
+  ]
+}

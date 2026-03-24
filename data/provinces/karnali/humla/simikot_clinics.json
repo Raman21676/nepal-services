@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Humla Medical Clinic",
+      "name_np": "हुम्ला मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "984-8770001"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Mugu Higher Secondary School",
+      "name_np": "मुगु उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520500"
+    },
+    {
+      "name": "Gamgadhi Secondary School",
+      "name_np": "गमगढी माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520600"
+    }
+  ]
+}

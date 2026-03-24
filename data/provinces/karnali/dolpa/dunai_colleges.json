@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Dunai",
+    "district": "Dolpa",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Dolpa Multiple Campus",
+      "name_np": "डोल्पा बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520700"
+    }
+  ]
+}

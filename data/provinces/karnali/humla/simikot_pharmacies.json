@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Simikot Medical Store",
+      "name_np": "सिमिकोट मेडिकल स्टोर",
+      "type": "Pharmacy",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520400"
+    },
+    {
+      "name": "Humla Pharma Center",
+      "name_np": "हुम्ला फार्मा सेन्टर",
+      "type": "Medical Store",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "984-8770002"
+    }
+  ]
+}

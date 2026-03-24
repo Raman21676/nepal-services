@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Chhayanath Rara Municipality",
+      "name_np": "छायानाथ रारा नगरपालिका",
+      "type": "Municipality",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520150"
+    },
+    {
+      "name": "District Administration Office Mugu",
+      "name_np": "जिल्ला प्रशासन कार्यालय मुगु",
+      "type": "District Administration",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520120"
+    },
+    {
+      "name": "District Coordination Committee Mugu",
+      "name_np": "जिल्ला समन्वय समिति मुगु",
+      "type": "District Coordination",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520160"
+    },
+    {
+      "name": "Inland Revenue Office Mugu",
+      "name_np": "भित्री राजस्व कार्यालय मुगु",
+      "type": "Revenue Office",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520170"
+    },
+    {
+      "name": "District Court Mugu",
+      "name_np": "जिल्ला अदालत मुगु",
+      "type": "Court",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520180"
+    }
+  ]
+}

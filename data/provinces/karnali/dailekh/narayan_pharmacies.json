@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Narayan Medical Hall",
+      "name_np": "नारायण मेडिकल हल",
+      "type": "Pharmacy",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520600"
+    },
+    {
+      "name": "Dailekh Pharma Center",
+      "name_np": "दैलेख फार्मा सेन्टर",
+      "type": "Medical Store",
+      "address": "Narayan-5, Dailekh",
+      "phone": "984-8950002"
+    },
+    {
+      "name": "Himalayan Drug Store",
+      "name_np": "हिमालयन ड्रग स्टोर",
+      "type": "Pharmacy",
+      "address": "Narayan-6, Dailekh",
+      "phone": "089-520700"
+    }
+  ]
+}

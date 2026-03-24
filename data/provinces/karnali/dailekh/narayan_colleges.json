@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Narayan Multiple Campus",
+      "name_np": "नारायण बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-521100"
+    },
+    {
+      "name": "Dailekh Nursing College",
+      "name_np": "दैलेख नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Narayan-5, Dailekh",
+      "phone": "089-521200"
+    }
+  ]
+}

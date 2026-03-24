@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Narayan Municipality",
+      "name_np": "नारायण नगरपालिका",
+      "type": "Municipality",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520160"
+    },
+    {
+      "name": "District Administration Office Dailekh",
+      "name_np": "जिल्ला प्रशासन कार्यालय दैलेख",
+      "type": "District Administration",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520120"
+    },
+    {
+      "name": "District Coordination Committee Dailekh",
+      "name_np": "जिल्ला समन्वय समिति दैलेख",
+      "type": "District Coordination",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520170"
+    },
+    {
+      "name": "Inland Revenue Office Dailekh",
+      "name_np": "भित्री राजस्व कार्यालय दैलेख",
+      "type": "Revenue Office",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520180"
+    },
+    {
+      "name": "District Court Dailekh",
+      "name_np": "जिल्ला अदालत दैलेख",
+      "type": "Court",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520190"
+    }
+  ]
+}

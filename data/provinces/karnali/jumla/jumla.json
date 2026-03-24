@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Jumla District Hospital",
+      "name_np": "जुम्ला जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Chandannath Municipality-5, Jumla",
+      "phone": "084-520100"
+    },
+    {
+      "name": "Karnali Hospital Jumla",
+      "name_np": "कर्णाली अस्पताल जुम्ला",
+      "type": "Community Hospital",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-520200"
+    },
+    {
+      "name": "Tatopani Health Post",
+      "name_np": "तातोपानी स्वास्थ्य चौकी",
+      "type": "Health Post",
+      "address": "Tatopani, Jumla",
+      "phone": "084-520300"
+    }
+  ]
+}

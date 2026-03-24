@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency_services": [
+    {
+      "name": "Birendranagar Police Station",
+      "name_np": "बीरेन्द्रनगर प्रहरी चौकी",
+      "type": "Police",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-520200"
+    },
+    {
+      "name": "District Police Office Surkhet",
+      "name_np": "जिल्ला प्रहरी कार्यालय सुर्खेत",
+      "type": "Police",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-520100"
+    },
+    {
+      "name": "Bheri Hospital Emergency",
+      "name_np": "भेरी अस्पताल आपतकालीन",
+      "type": "Hospital Emergency",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-524366"
+    },
+    {
+      "name": "Fire Service Surkhet",
+      "name_np": "दमकल सेवा सुर्खेत",
+      "type": "Fire Service",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "083-520300"
+    },
+    {
+      "name": "National Emergency Number",
+      "name_np": "राष्ट्रिय आपतकालीन नम्बर",
+      "type": "Emergency Hotline",
+      "address": "All Nepal",
+      "phone": "112"
+    }
+  ]
+}

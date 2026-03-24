@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Mugu Multiple Campus",
+      "name_np": "मुगु बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520700"
+    }
+  ]
+}

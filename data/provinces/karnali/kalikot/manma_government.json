@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Manma",
+    "district": "Kalikot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Khandachakra Municipality",
+      "name_np": "खाँडाचक्र नगरपालिका",
+      "type": "Municipality",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520150"
+    },
+    {
+      "name": "District Administration Office Kalikot",
+      "name_np": "जिल्ला प्रशासन कार्यालय कालिकोट",
+      "type": "District Administration",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520120"
+    },
+    {
+      "name": "District Coordination Committee Kalikot",
+      "name_np": "जिल्ला समन्वय समिति कालिकोट",
+      "type": "District Coordination",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520160"
+    },
+    {
+      "name": "Inland Revenue Office Kalikot",
+      "name_np": "भित्री राजस्व कार्यालय कालिकोट",
+      "type": "Revenue Office",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520170"
+    },
+    {
+      "name": "District Court Kalikot",
+      "name_np": "जिल्ला अदालत कालिकोट",
+      "type": "Court",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520180"
+    }
+  ]
+}

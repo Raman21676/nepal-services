@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Mugu Medical Clinic",
+      "name_np": "मुगु मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "984-8760001"
+    }
+  ]
+}

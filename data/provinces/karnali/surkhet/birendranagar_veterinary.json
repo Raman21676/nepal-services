@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary_services": [
+    {
+      "name": "District Veterinary Hospital Surkhet",
+      "name_np": "जिल्ला पशुसेवा अस्पताल सुर्खेत",
+      "type": "Government Veterinary Hospital",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-520450"
+    },
+    {
+      "name": "Livestock Service Center Birendranagar",
+      "name_np": "पशु सेवा केन्द्र बीरेन्द्रनगर",
+      "type": "Livestock Center",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-520460"
+    },
+    {
+      "name": "Bheri Veterinary Clinic",
+      "name_np": "भेरी पशु चिकित्सा क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "985-8031234"
+    }
+  ]
+}

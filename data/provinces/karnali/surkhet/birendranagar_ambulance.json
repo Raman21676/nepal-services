@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance_services": [
+    {
+      "name": "Bheri Hospital Ambulance",
+      "name_np": "भेरी अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-524366"
+    },
+    {
+      "name": "Karnali Provincial Hospital Ambulance",
+      "name_np": "कर्णाली प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": "083-520800"
+    },
+    {
+      "name": "Red Cross Ambulance Service",
+      "name_np": "रेडक्रस एम्बुलेन्स सेवा",
+      "type": "Emergency Ambulance",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-521100"
+    },
+    {
+      "name": "Private Ambulance Birendranagar",
+      "name_np": "निजी एम्बुलेन्स बीरेन्द्रनगर",
+      "type": "Private Ambulance",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "985-8030001"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Birendra Higher Secondary School",
+      "name_np": "बीरेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-520111"
+    },
+    {
+      "name": "Karnali Secondary School",
+      "name_np": "कर्णाली माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-520222"
+    },
+    {
+      "name": "Shree Saraswati Secondary School",
+      "name_np": "श्री सरस्वती माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "083-520333"
+    },
+    {
+      "name": "Bheri Model Higher Secondary School",
+      "name_np": "भेरी मोडेल उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-520444"
+    },
+    {
+      "name": "Siddhartha Boarding School",
+      "name_np": "सिद्धार्थ बोर्डिङ स्कूल",
+      "type": "Private School",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": "083-520555"
+    },
+    {
+      "name": "Gyan Jyoti Secondary School",
+      "name_np": "ज्ञान ज्योति माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Birendranagar-9, Surkhet",
+      "phone": "083-520666"
+    }
+  ]
+}

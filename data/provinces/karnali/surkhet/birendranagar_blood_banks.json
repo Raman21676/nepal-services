@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Bheri Hospital Blood Bank",
+      "name_np": "भेरी अस्पताल ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-524366"
+    },
+    {
+      "name": "Karnali Provincial Hospital Blood Bank",
+      "name_np": "कर्णाली प्रादेशिक अस्पताल ब्लड बैंक",
+      "type": "Provincial Blood Bank",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": "083-520800"
+    },
+    {
+      "name": "Nepal Red Cross Society Surkhet",
+      "name_np": "नेपाल रेडक्रस सोसाइटी सुर्खेत",
+      "type": "Blood Bank",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-521100"
+    }
+  ]
+}

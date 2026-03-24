@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Karnali Province Government",
+      "name_np": "कर्णाली प्रदेश सरकार",
+      "type": "Provincial Government",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-520000"
+    },
+    {
+      "name": "District Administration Office Surkhet",
+      "name_np": "जिल्ला प्रशासन कार्यालय सुर्खेत",
+      "type": "District Administration",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-520010"
+    },
+    {
+      "name": "Birendranagar Municipality",
+      "name_np": "बीरेन्द्रनगर नगरपालिका",
+      "type": "Municipality",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-520020"
+    },
+    {
+      "name": "District Coordination Committee Surkhet",
+      "name_np": "जिल्ला समन्वय समिति सुर्खेत",
+      "type": "District Coordination",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "083-520030"
+    },
+    {
+      "name": "Inland Revenue Office Surkhet",
+      "name_np": "भित्री राजस्व कार्यालय सुर्खेत",
+      "type": "Revenue Office",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-520040"
+    },
+    {
+      "name": "District Court Surkhet",
+      "name_np": "जिल्ला अदालत सुर्खेत",
+      "type": "Court",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-520050"
+    },
+    {
+      "name": "Chief Minister Office Karnali",
+      "name_np": "मुख्यमन्त्री कार्यालय कर्णाली",
+      "type": "Chief Minister Office",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-520060"
+    }
+  ]
+}

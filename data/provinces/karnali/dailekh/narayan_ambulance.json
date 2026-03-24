@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Narayan",
+    "district": "Dailekh",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance_services": [
+    {
+      "name": "Dailekh District Hospital Ambulance",
+      "name_np": "दैलेख जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Narayan-4, Dailekh",
+      "phone": "089-520100"
+    },
+    {
+      "name": "Red Cross Ambulance Dailekh",
+      "name_np": "रेडक्रस एम्बुलेन्स दैलेख",
+      "type": "Emergency Ambulance",
+      "address": "Narayan-4, Dailekh",
+      "phone": "984-8950004"
+    }
+  ]
+}

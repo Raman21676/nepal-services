@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Gamgadhi Medical Store",
+      "name_np": "गमगढी मेडिकल स्टोर",
+      "type": "Pharmacy",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520400"
+    },
+    {
+      "name": "Rara Medical Hall",
+      "name_np": "रारा मेडिकल हल",
+      "type": "Medical Store",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "984-8760002"
+    }
+  ]
+}

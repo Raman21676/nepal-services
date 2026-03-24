@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Manma",
+    "district": "Kalikot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Kalikot Medical Clinic",
+      "name_np": "कालिकोट मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "984-8440001"
+    }
+  ]
+}

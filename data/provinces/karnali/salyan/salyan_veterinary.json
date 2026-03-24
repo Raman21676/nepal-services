@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Salyan",
+    "district": "Salyan",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary_services": [
+    {
+      "name": "District Veterinary Hospital Salyan",
+      "name_np": "जिल्ला पशुसेवा अस्पताल सल्यान",
+      "type": "Government Veterinary Hospital",
+      "address": "Shaarada-1, Salyan",
+      "phone": "088-520140"
+    },
+    {
+      "name": "Livestock Service Center Salyan",
+      "name_np": "पशु सेवा केन्द्र सल्यान",
+      "type": "Livestock Center",
+      "address": "Shaarada-2, Salyan",
+      "phone": "088-520150"
+    }
+  ]
+}

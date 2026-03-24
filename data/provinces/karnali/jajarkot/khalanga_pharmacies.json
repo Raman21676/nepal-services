@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Khalanga",
+    "district": "Jajarkot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Khalanga Medical Hall",
+      "name_np": "खलङ्गा मेडिकल हल",
+      "type": "Pharmacy",
+      "address": "Bheri-1, Khalanga, Jajarkot",
+      "phone": "089-520600"
+    },
+    {
+      "name": "Jajarkot Pharma Center",
+      "name_np": "जाजरकोट फार्मा सेन्टर",
+      "type": "Medical Store",
+      "address": "Bheri-2, Khalanga, Jajarkot",
+      "phone": "984-8960002"
+    },
+    {
+      "name": "Nalagad Medical Store",
+      "name_np": "नलगाड मेडिकल स्टोर",
+      "type": "Pharmacy",
+      "address": "Nalagad, Jajarkot",
+      "phone": "089-520700"
+    }
+  ]
+}

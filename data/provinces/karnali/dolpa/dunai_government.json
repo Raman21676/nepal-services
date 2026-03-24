@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Dunai",
+    "district": "Dolpa",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Thuli Bheri Municipality",
+      "name_np": "ठूली भेरी नगरपालिका",
+      "type": "Municipality",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520150"
+    },
+    {
+      "name": "District Administration Office Dolpa",
+      "name_np": "जिल्ला प्रशासन कार्यालय डोल्पा",
+      "type": "District Administration",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520120"
+    },
+    {
+      "name": "District Coordination Committee Dolpa",
+      "name_np": "जिल्ला समन्वय समिति डोल्पा",
+      "type": "District Coordination",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520160"
+    },
+    {
+      "name": "Inland Revenue Office Dolpa",
+      "name_np": "भित्री राजस्व कार्यालय डोल्पा",
+      "type": "Revenue Office",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520170"
+    },
+    {
+      "name": "District Court Dolpa",
+      "name_np": "जिल्ला अदालत डोल्पा",
+      "type": "Court",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520180"
+    }
+  ]
+}

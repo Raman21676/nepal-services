@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Dunai",
+    "district": "Dolpa",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Dolpa Higher Secondary School",
+      "name_np": "डोल्पा उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520500"
+    },
+    {
+      "name": "Dunai Secondary School",
+      "name_np": "डुनई माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520600"
+    }
+  ]
+}

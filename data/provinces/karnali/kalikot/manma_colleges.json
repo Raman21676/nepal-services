@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Manma",
+    "district": "Kalikot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Kalikot Multiple Campus",
+      "name_np": "कालिकोट बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520700"
+    }
+  ]
+}

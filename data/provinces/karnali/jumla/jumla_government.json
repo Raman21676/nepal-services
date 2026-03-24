@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Chandannath Municipality",
+      "name_np": "चन्दननाथ नगरपालिका",
+      "type": "Municipality",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520150"
+    },
+    {
+      "name": "District Administration Office Jumla",
+      "name_np": "जिल्ला प्रशासन कार्यालय जुम्ला",
+      "type": "District Administration",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-520120"
+    },
+    {
+      "name": "District Coordination Committee Jumla",
+      "name_np": "जिल्ला समन्वय समिति जुम्ला",
+      "type": "District Coordination",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520160"
+    },
+    {
+      "name": "Inland Revenue Office Jumla",
+      "name_np": "भित्री राजस्व कार्यालय जुम्ला",
+      "type": "Revenue Office",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-520170"
+    },
+    {
+      "name": "District Court Jumla",
+      "name_np": "जिल्ला अदालत जुम्ला",
+      "type": "Court",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520180"
+    }
+  ]
+}

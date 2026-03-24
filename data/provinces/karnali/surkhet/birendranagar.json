@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Karnali Provincial Hospital",
+      "name_np": "कर्णाली प्रादेशिक अस्पताल",
+      "type": "Provincial Hospital",
+      "address": "Birendranagar Municipality-8, Surkhet",
+      "phone": "083-520800"
+    },
+    {
+      "name": "Bheri Hospital",
+      "name_np": "भेरी अस्पताल",
+      "type": "Referral Hospital",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-524366"
+    },
+    {
+      "name": "Surkhet District Hospital",
+      "name_np": "सुर्खेत जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Birendranagar-10, Surkhet",
+      "phone": "083-525555"
+    },
+    {
+      "name": "Karnali Academy of Health Sciences",
+      "name_np": "कर्णाली स्वास्थ्य विज्ञान प्रतिष्ठान",
+      "type": "Teaching Hospital",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": "083-520500"
+    },
+    {
+      "name": "Shree Birendra Hospital",
+      "name_np": "श्री बीरेन्द्र अस्पताल",
+      "type": "Private Hospital",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-520123"
+    },
+    {
+      "name": "Samajik Hospital",
+      "name_np": "सामाजिक अस्पताल",
+      "type": "Community Hospital",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "083-521234"
+    }
+  ]
+}

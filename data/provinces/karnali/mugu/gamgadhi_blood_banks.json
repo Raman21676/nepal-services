@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Gamgadhi",
+    "district": "Mugu",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Mugu District Hospital Blood Bank",
+      "name_np": "मुगु जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "087-520100"
+    },
+    {
+      "name": "Nepal Red Cross Society Mugu",
+      "name_np": "नेपाल रेडक्रस सोसाइटी मुगु",
+      "type": "Blood Bank",
+      "address": "Chhayanath Rara-1, Gamgadhi, Mugu",
+      "phone": "984-8760003"
+    }
+  ]
+}

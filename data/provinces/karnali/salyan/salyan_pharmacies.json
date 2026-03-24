@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Salyan",
+    "district": "Salyan",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Salyan Medical Hall",
+      "name_np": "सल्यान मेडिकल हल",
+      "type": "Pharmacy",
+      "address": "Shaarada-1, Salyan",
+      "phone": "088-520600"
+    },
+    {
+      "name": "Himalayan Pharma Center",
+      "name_np": "हिमालयन फार्मा सेन्टर",
+      "type": "Medical Store",
+      "address": "Shaarada-2, Salyan",
+      "phone": "984-8850002"
+    },
+    {
+      "name": "Bagchaur Medical Store",
+      "name_np": "बागचौर मेडिकल स्टोर",
+      "type": "Pharmacy",
+      "address": "Bagchaur, Salyan",
+      "phone": "088-520700"
+    }
+  ]
+}

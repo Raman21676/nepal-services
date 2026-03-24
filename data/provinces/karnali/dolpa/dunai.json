@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Dunai",
+    "district": "Dolpa",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "hospitals": [
+    {
+      "name": "Dolpa District Hospital",
+      "name_np": "डोल्पा जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Thuli Bheri Municipality-1, Dunai, Dolpa",
+      "phone": "087-520100"
+    },
+    {
+      "name": "Shey Phoksundo Health Post",
+      "name_np": "शे फोक्सुण्डो स्वास्थ्य चौकी",
+      "type": "Health Post",
+      "address": "Shey Phoksundo Rural Municipality, Dolpa",
+      "phone": "087-520200"
+    },
+    {
+      "name": "Dunai Primary Health Center",
+      "name_np": "डुनई प्राथमिक स्वास्थ्य केन्द्र",
+      "type": "Primary Health Center",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "087-520300"
+    }
+  ]
+}

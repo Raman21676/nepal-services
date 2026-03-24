@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Birendra Medical Hall",
+      "name_np": "बीरेन्द्र मेडिकल हल",
+      "type": "Pharmacy",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-521111"
+    },
+    {
+      "name": "Karnali Pharmacy",
+      "name_np": "कर्णाली फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-522222"
+    },
+    {
+      "name": "Bheri Medical Store",
+      "name_np": "भेरी मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "083-523333"
+    },
+    {
+      "name": "Surkhet Pharma Center",
+      "name_np": "सुर्खेत फार्मा सेन्टर",
+      "type": "Pharmacy",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-524444"
+    },
+    {
+      "name": "Himalayan Drug House",
+      "name_np": "हिमालयन ड्रग हाउस",
+      "type": "Pharmacy",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": "083-525555"
+    },
+    {
+      "name": "City Care Pharmacy",
+      "name_np": "सिटी केयर फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": "083-526666"
+    }
+  ]
+}

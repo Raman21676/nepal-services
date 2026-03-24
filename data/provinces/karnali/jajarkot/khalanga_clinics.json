@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Khalanga",
+    "district": "Jajarkot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Khalanga Diagnostic Center",
+      "name_np": "खलङ्गा डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Clinic",
+      "address": "Bheri-1, Khalanga, Jajarkot",
+      "phone": "089-520500"
+    },
+    {
+      "name": "Jajarkot Medical Clinic",
+      "name_np": "जाजरकोट मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Bheri-2, Khalanga, Jajarkot",
+      "phone": "984-8960001"
+    }
+  ]
+}

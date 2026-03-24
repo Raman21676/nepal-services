@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "city": "Dunai",
+    "district": "Dolpa",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Dolpa Medical Clinic",
+      "name_np": "डोल्पा मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Thuli Bheri-1, Dunai, Dolpa",
+      "phone": "984-8750001"
+    }
+  ]
+}

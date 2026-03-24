@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Jumla",
+    "district": "Jumla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Jumla Multiple Campus",
+      "name_np": "जुम्ला बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Chandannath-5, Jumla",
+      "phone": "084-520900"
+    },
+    {
+      "name": "Karnali Nursing College",
+      "name_np": "कर्णाली नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Chandannath-4, Jumla",
+      "phone": "084-521000"
+    }
+  ]
+}

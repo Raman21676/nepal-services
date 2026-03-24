@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Birendra Diagnostic Center",
+      "name_np": "बीरेन्द्र डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Clinic",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": "083-523456"
+    },
+    {
+      "name": "Karnali Polyclinic",
+      "name_np": "कर्णाली पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": "083-524567"
+    },
+    {
+      "name": "Surkhet Eye Care Center",
+      "name_np": "सुर्खेत आँखा उपचार केन्द्र",
+      "type": "Eye Clinic",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": "083-525678"
+    },
+    {
+      "name": "Bheri Dental Clinic",
+      "name_np": "भेरी डेन्टल क्लिनिक",
+      "type": "Dental Clinic",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": "083-526789"
+    },
+    {
+      "name": "New Life Medical Clinic",
+      "name_np": "न्यू लाइफ मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": "083-527890"
+    }
+  ]
+}

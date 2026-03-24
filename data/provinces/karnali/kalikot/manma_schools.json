@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Manma",
+    "district": "Kalikot",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Kalikot Higher Secondary School",
+      "name_np": "कालिकोट उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520500"
+    },
+    {
+      "name": "Manma Secondary School",
+      "name_np": "मान्मा माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Khandachakra-1, Manma, Kalikot",
+      "phone": "084-520600"
+    }
+  ]
+}

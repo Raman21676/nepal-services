@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Humla Higher Secondary School",
+      "name_np": "हुम्ला उच्च माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520500"
+    },
+    {
+      "name": "Simikot Secondary School",
+      "name_np": "सिमिकोट माध्यमिक विद्यालय",
+      "type": "Public School",
+      "address": "Simkot-1, Simikot, Humla",
+      "phone": "087-520600"
+    }
+  ]
+}
