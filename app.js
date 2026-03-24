@@ -6,16 +6,16 @@ class NepalServicesApp {
         this.allData = [];
         this.filteredData = [];
         this.dataFiles = [
-            'data/kathmandu_hospitals.json',
-            'data/kathmandu_schools.json',
-            'data/kathmandu_ambulance_services.json',
-            'data/kathmandu_ward_offices.json',
-            'data/biratnagar_hospitals.json',
-            'data/biratnagar_schools.json',
-            'data/biratnagar_ambulance_services.json',
-            'data/biratnagar_ward_offices.json',
-            'data/biratnagar_emergency_contacts.json',
-            'data/emergency_contacts.json'
+            'data/provinces/bagmati/kathmandu/kathmandu_hospitals.json',
+            'data/provinces/bagmati/kathmandu/kathmandu_schools.json',
+            'data/provinces/bagmati/kathmandu/kathmandu_ambulance_services.json',
+            'data/provinces/bagmati/kathmandu/kathmandu_ward_offices.json',
+            'data/provinces/province-1-koshi/morang/biratnagar_hospitals.json',
+            'data/provinces/province-1-koshi/morang/biratnagar_schools.json',
+            'data/provinces/province-1-koshi/morang/biratnagar_ambulance_services.json',
+            'data/provinces/province-1-koshi/morang/biratnagar_ward_offices.json',
+            'data/provinces/province-1-koshi/morang/biratnagar_emergency_contacts.json',
+            'data/national/emergency_contacts.json'
         ];
         
         this.init();
@@ -83,7 +83,7 @@ class NepalServicesApp {
     processData(data, fileName) {
         const records = [];
         const city = fileName.includes('kathmandu') ? 'kathmandu' : 
-                     fileName.includes('biratnagar') ? 'biratnagar' : 'other';
+                     fileName.includes('morang') ? 'biratnagar' : 'other';
         
         let category = 'other';
         if (fileName.includes('hospital')) category = 'hospitals';
