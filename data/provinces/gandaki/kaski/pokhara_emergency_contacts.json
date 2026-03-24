@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "data_type": "emergency_contacts",
+    "last_updated": "2025-01-24"
+  },
+  "emergency": [
+    {
+      "service": "Police Emergency",
+      "contact": "100",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Fire Brigade",
+      "contact": "101",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Ambulance Emergency",
+      "contact": "102",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Traffic Police",
+      "contact": "103",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Child Helpline",
+      "contact": "104",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Tourist Police",
+      "contact": "1144",
+      "type": "National Emergency",
+      "hours": "24/7"
+    },
+    {
+      "service": "Pokhara Fire Brigade",
+      "contact": "061-520119",
+      "address": "Pokhara",
+      "type": "Fire Service",
+      "hours": "24/7"
+    },
+    {
+      "service": "Pokhara Metropolitan City Office",
+      "contact": "061-514831",
+      "address": "Pokhara",
+      "type": "Municipality",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Pokhara Metropolitan City Mayor",
+      "contact": "061-514832",
+      "address": "Pokhara",
+      "type": "Municipality",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "District Administration Office Kaski",
+      "contact": "061-520100",
+      "address": "Pokhara",
+      "type": "Government",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "District Police Office Kaski",
+      "contact": "061-520105",
+      "address": "Pokhara",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "service": "Tourist Police Pokhara",
+      "contact": "061-465401",
+      "address": "Lakeside, Pokhara",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "service": "Nepal Red Cross Society Pokhara",
+      "contact": "061-521091",
+      "address": "Pokhara",
+      "type": "NGO",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "NRCS Regional Blood Transfusion Center",
+      "contact": "061-521091",
+      "address": "Pokhara",
+      "type": "Blood Bank",
+      "hours": "24/7"
+    },
+    {
+      "service": "Nepal Electricity Authority Pokhara",
+      "contact": "061-520200",
+      "address": "Pokhara",
+      "type": "Utility",
+      "hours": "Office Hours"
+    },
+    {
+      "service": "Pokhara Airport (Tribhuvan International Airport Domestic)",
+      "contact": "061-465022",
+      "address": "Pokhara",
+      "type": "Airport",
+      "hours": "Flight Hours"
+    }
+  ]
+}

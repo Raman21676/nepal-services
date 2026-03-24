@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "data_type": "ambulance_services",
+    "last_updated": "2025-01-24"
+  },
+  "ambulance": [
+    {
+      "name": "Manipal Teaching Hospital Ambulance",
+      "contact": "061-526416",
+      "address": "Fulbari, Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Gandaki Medical College Ambulance",
+      "contact": "061-526416",
+      "address": "Nayagaun, Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fewa City Hospital Ambulance",
+      "contact": "9842285269",
+      "address": "Nagdhunga, Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7",
+      "emergency": "061-588193"
+    },
+    {
+      "name": "Charak Hospital Ambulance",
+      "contact": "061-520300",
+      "address": "Chipledhunga, Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fishtail Hospital Ambulance",
+      "contact": "061-520190",
+      "address": "Lakeside, Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Western Regional Hospital Ambulance",
+      "contact": "061-520200",
+      "address": "Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Sewa Hospital Ambulance",
+      "contact": "061-528161",
+      "contact_secondary": "061-528162",
+      "address": "Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Namaste Hospital Ambulance",
+      "contact": "9806176007",
+      "address": "Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Red Cross Ambulance Pokhara",
+      "contact": "061-521091",
+      "address": "Pokhara",
+      "type": "NGO Ambulance",
+      "hours": "24/7"
+    },
+    {
+      "name": "Metro City Hospital Ambulance",
+      "contact": "061-537932",
+      "address": "Srijana Chowk, Pokhara",
+      "type": "Hospital Ambulance",
+      "hours": "24/7"
+    }
+  ]
+}
