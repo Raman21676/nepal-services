@@ -12,7 +12,7 @@
 |------|----------|--------|-----------|----------|---------|------------|------------|-------------|-----------|-----------|-------|
 | Kathmandu | Kathmandu | ✅ Complete | 35 | 8+ | 15+ | 10 | 8 | 8 | ✅ | ✅ | 32 |
 | Lalitpur | Lalitpur | ✅ Complete | 5 | 7 | 15+ | 15+ | 12 | 10 | ✅ | ✅ | 29 |
-| Bhaktapur | Bhaktapur | 🟡 Basic | 8 | - | - | - | - | - | - | - | 17 |
+| Bhaktapur | Bhaktapur | ✅ Complete | 8 | 7 | 14+ | 16+ | 7 | 6 | ✅ | ✅ | 17+ |
 | Bharatpur | Chitwan | 🟡 Basic | 5 | - | - | - | - | - | - | - | 29 |
 | Hetauda | Makwanpur | 🟡 Basic | 8 | - | - | - | - | - | - | - | 19 |
 
