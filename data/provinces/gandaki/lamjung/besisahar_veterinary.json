@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Lamjung Veterinary Hospital",
+      "name_np": "लमजुङ पशु अस्पताल",
+      "type": "Veterinary Hospital",
+      "address": "Veterinary Road, Besisahar",
+      "phone": "066-590123"
+    },
+    {
+      "name": "Lamjung District Livestock Office",
+      "name_np": "लमजुङ जिल्ला पशुसेवा कार्यालय",
+      "type": "Government Veterinary Service",
+      "address": "District HQ, Besisahar",
+      "phone": "066-591234"
+    },
+    {
+      "name": "Annapurna Animal Care Center",
+      "name_np": "अन्नपूर्ण पशु हेरचाह केन्द्र",
+      "type": "Private Veterinary Clinic",
+      "address": "Bazaar Area, Besisahar",
+      "phone": "066-592345"
+    },
+    {
+      "name": "Marsyangdi Veterinary Clinic",
+      "name_np": "मर्स्याङ्दी पशु चिकित्सा क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Marsyangdi, Lamjung",
+      "phone": "066-593456"
+    }
+  ]
+}

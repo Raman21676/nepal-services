@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Beni",
+    "district": "Myagdi",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Beni Multiple Campus",
+      "name_np": "बेनी बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-551234"
+    },
+    {
+      "name": "Beni Technical Institute",
+      "name_np": "बेनी प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Main Road, Beni",
+      "phone": "069-552345"
+    },
+    {
+      "name": "Pakhapani College",
+      "name_np": "पाखापानी कलेज",
+      "type": "Community Campus",
+      "address": "Pakhapani, Myagdi",
+      "phone": "069-553456"
+    },
+    {
+      "name": "Myagdi Nursing College",
+      "name_np": "म्याग्दी नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Beni",
+      "phone": "069-554567"
+    }
+  ]
+}

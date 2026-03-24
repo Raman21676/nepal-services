@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Syangja Blood Bank",
+      "name_np": "स्याङ्जा ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Syangja",
+      "phone": "063-561234"
+    },
+    {
+      "name": "Red Cross Syangja Blood Center",
+      "name_np": "रेडक्रस स्याङ्जा रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Syangja",
+      "phone": "063-562345"
+    },
+    {
+      "name": "Syangja District Blood Bank",
+      "name_np": "स्याङ्जा जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Syangja",
+      "phone": "063-563456"
+    }
+  ]
+}

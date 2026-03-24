@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "district": "Mustang",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Jomsom Blood Bank",
+      "name_np": "जोमसोम ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Jomsom",
+      "phone": "069-561234"
+    },
+    {
+      "name": "Red Cross Mustang Blood Center",
+      "name_np": "रेडक्रस मुस्ताङ रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Jomsom",
+      "phone": "069-562345"
+    },
+    {
+      "name": "Mustang District Blood Bank",
+      "name_np": "मुस्ताङ जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Jomsom",
+      "phone": "069-563456"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Kawasoti",
+    "district": "Nawalpur",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Kawasoti Blood Bank",
+      "name_np": "कावासोती ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Kawasoti",
+      "phone": "078-561234"
+    },
+    {
+      "name": "Red Cross Nawalpur Blood Center",
+      "name_np": "रेडक्रस नवलपुर रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Kawasoti",
+      "phone": "078-562345"
+    },
+    {
+      "name": "Nawalpur District Blood Bank",
+      "name_np": "नवलपुर जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Kawasoti",
+      "phone": "078-563456"
+    }
+  ]
+}

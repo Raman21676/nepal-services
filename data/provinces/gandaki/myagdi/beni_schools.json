@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Beni",
+    "district": "Myagdi",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Myagdi Higher Secondary School",
+      "name_np": "श्री म्याग्दी उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-541234"
+    },
+    {
+      "name": "Beni Public School",
+      "name_np": "बेनी पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Beni",
+      "phone": "069-542345"
+    },
+    {
+      "name": "Annapurna English Boarding School",
+      "name_np": "अन्नपूर्ण अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Beni",
+      "phone": "069-543456"
+    },
+    {
+      "name": "Shree Pakhapani Secondary School",
+      "name_np": "श्री पाखापानी माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Pakhapani, Myagdi",
+      "phone": "069-544567"
+    },
+    {
+      "name": "Beni Model School",
+      "name_np": "बेनी मोडल स्कूल",
+      "type": "Private School",
+      "address": "Beni Municipality, Myagdi",
+      "phone": "069-545678"
+    }
+  ]
+}

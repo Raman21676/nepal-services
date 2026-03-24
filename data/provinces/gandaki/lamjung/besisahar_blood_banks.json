@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Besisahar Blood Bank",
+      "name_np": "बेसीसहर ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Besisahar",
+      "phone": "066-561234"
+    },
+    {
+      "name": "Red Cross Lamjung Blood Center",
+      "name_np": "रेडक्रस लमजुङ रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Besisahar",
+      "phone": "066-562345"
+    },
+    {
+      "name": "Lamjung District Blood Bank",
+      "name_np": "लमजुङ जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Besisahar",
+      "phone": "066-563456"
+    }
+  ]
+}

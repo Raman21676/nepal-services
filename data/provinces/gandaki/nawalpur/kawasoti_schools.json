@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Kawasoti",
+    "district": "Nawalpur",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Nawal Higher Secondary School",
+      "name_np": "श्री नवल उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-541234"
+    },
+    {
+      "name": "Kawasoti Public School",
+      "name_np": "कावासोती पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Kawasoti",
+      "phone": "078-542345"
+    },
+    {
+      "name": "Kalika English Boarding School",
+      "name_np": "कालिका अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Kawasoti",
+      "phone": "078-543456"
+    },
+    {
+      "name": "Shree Daunne Secondary School",
+      "name_np": "श्री दाउन्ने माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Daunne, Nawalpur",
+      "phone": "078-544567"
+    },
+    {
+      "name": "Kawasoti Model School",
+      "name_np": "कावासोती मोडल स्कूल",
+      "type": "Private School",
+      "address": "Kawasoti Municipality, Nawalpur",
+      "phone": "078-545678"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "district": "Mustang",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Mustang Veterinary Hospital",
+      "name_np": "मुस्ताङ पशु अस्पताल",
+      "type": "Veterinary Hospital",
+      "address": "Veterinary Road, Jomsom",
+      "phone": "069-590123"
+    },
+    {
+      "name": "Mustang District Livestock Office",
+      "name_np": "मुस्ताङ जिल्ला पशुसेवा कार्यालय",
+      "type": "Government Veterinary Service",
+      "address": "District HQ, Jomsom",
+      "phone": "069-591234"
+    },
+    {
+      "name": "Thak Khola Animal Care Center",
+      "name_np": "ठाक खोला पशु हेरचाह केन्द्र",
+      "type": "Private Veterinary Clinic",
+      "address": "Bazaar Area, Jomsom",
+      "phone": "069-592345"
+    },
+    {
+      "name": "Kagbeni Veterinary Clinic",
+      "name_np": "कागबेनी पशु चिकित्सा क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Kagbeni, Mustang",
+      "phone": "069-593456"
+    }
+  ]
+}

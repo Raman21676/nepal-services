@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Kusma",
+      "phone": "067-570123"
+    },
+    {
+      "name": "Kusma Municipality Ambulance",
+      "name_np": "कुस्मा नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Kusma",
+      "phone": "067-571234"
+    },
+    {
+      "name": "Red Cross Parbat Ambulance",
+      "name_np": "रेडक्रस पर्वत एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-572345"
+    },
+    {
+      "name": "Phalebas Hospital Ambulance",
+      "name_np": "फलेवास अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Phalebas, Parbat",
+      "phone": "067-573456"
+    }
+  ]
+}

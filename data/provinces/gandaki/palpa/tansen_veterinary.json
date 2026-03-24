@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Palpa Veterinary Hospital",
+      "name_np": "पाल्पा पशु अस्पताल",
+      "type": "Veterinary Hospital",
+      "address": "Veterinary Road, Tansen",
+      "phone": "075-590123"
+    },
+    {
+      "name": "Palpa District Livestock Office",
+      "name_np": "पाल्पा जिल्ला पशुसेवा कार्यालय",
+      "type": "Government Veterinary Service",
+      "address": "District HQ, Tansen",
+      "phone": "075-591234"
+    },
+    {
+      "name": "Shreenagar Animal Care Center",
+      "name_np": "श्रीनगर पशु हेरचाह केन्द्र",
+      "type": "Private Veterinary Clinic",
+      "address": "Bazaar Area, Tansen",
+      "phone": "075-592345"
+    },
+    {
+      "name": "Rampur Veterinary Clinic",
+      "name_np": "रामपुर पशु चिकित्सा क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Rampur, Palpa",
+      "phone": "075-593456"
+    }
+  ]
+}

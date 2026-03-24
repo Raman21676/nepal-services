@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Parbat",
+      "name_np": "जिल्ला प्रहरी कार्यालय पर्वत",
+      "type": "Police",
+      "address": "District Headquarters, Kusma",
+      "phone": "067-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Kusma",
+      "phone": "067-581234"
+    },
+    {
+      "name": "Kusma Fire Station",
+      "name_np": "कुस्मा दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Kusma",
+      "phone": "067-582345"
+    },
+    {
+      "name": "Phalebas Hospital Emergency",
+      "name_np": "फलेवास अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Phalebas, Parbat",
+      "phone": "067-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Parbat",
+      "name_np": "नेपाल विद्युत प्राधिकरण पर्वत",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Kusma",
+      "phone": "067-584567"
+    },
+    {
+      "name": "Parbat District Administration Office",
+      "name_np": "पर्वत जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Kusma",
+      "phone": "067-585678"
+    }
+  ]
+}

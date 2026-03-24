@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Baglung",
+      "name_np": "जिल्ला प्रहरी कार्यालय बागलुङ",
+      "type": "Police",
+      "address": "District Headquarters, Baglung",
+      "phone": "068-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Baglung",
+      "phone": "068-581234"
+    },
+    {
+      "name": "Baglung Fire Station",
+      "name_np": "बागलुङ दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Baglung",
+      "phone": "068-582345"
+    },
+    {
+      "name": "Galkot Hospital Emergency",
+      "name_np": "गल्कोट अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Galkot, Baglung",
+      "phone": "068-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Baglung",
+      "name_np": "नेपाल विद्युत प्राधिकरण बागलुङ",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Baglung",
+      "phone": "068-584567"
+    },
+    {
+      "name": "Baglung District Administration Office",
+      "name_np": "बागलुङ जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Baglung",
+      "phone": "068-585678"
+    }
+  ]
+}

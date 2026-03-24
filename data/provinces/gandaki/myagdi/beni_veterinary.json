@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Beni",
+    "district": "Myagdi",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "veterinary": [
+    {
+      "name": "Myagdi Veterinary Hospital",
+      "name_np": "म्याग्दी पशु अस्पताल",
+      "type": "Veterinary Hospital",
+      "address": "Veterinary Road, Beni",
+      "phone": "069-590123"
+    },
+    {
+      "name": "Myagdi District Livestock Office",
+      "name_np": "म्याग्दी जिल्ला पशुसेवा कार्यालय",
+      "type": "Government Veterinary Service",
+      "address": "District HQ, Beni",
+      "phone": "069-591234"
+    },
+    {
+      "name": "Annapurna Animal Care Center",
+      "name_np": "अन्नपूर्ण पशु हेरचाह केन्द्र",
+      "type": "Private Veterinary Clinic",
+      "address": "Bazaar Area, Beni",
+      "phone": "069-592345"
+    },
+    {
+      "name": "Pakhapani Veterinary Clinic",
+      "name_np": "पाखापानी पशु चिकित्सा क्लिनिक",
+      "type": "Private Veterinary Clinic",
+      "address": "Pakhapani, Myagdi",
+      "phone": "069-593456"
+    }
+  ]
+}

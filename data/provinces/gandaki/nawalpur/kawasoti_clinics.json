@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Kawasoti",
+    "district": "Nawalpur",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Kawasoti Diagnostic Center",
+      "name_np": "कावासोती डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-521234"
+    },
+    {
+      "name": "Nawal Medical Center",
+      "name_np": "नवल मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Kawasoti",
+      "phone": "078-522345"
+    },
+    {
+      "name": "Kawasoti Eye Care Center",
+      "name_np": "कावासोती आँखा केयर सेन्टर",
+      "type": "Eye Clinic",
+      "address": "Hospital Road, Kawasoti",
+      "phone": "078-523456"
+    },
+    {
+      "name": "Nawalpur Health Care",
+      "name_np": "नवलपुर हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Kawasoti",
+      "phone": "078-524567"
+    },
+    {
+      "name": "Kawasoti Pathology Lab",
+      "name_np": "कावासोती प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Park, Kawasoti",
+      "phone": "078-525678"
+    },
+    {
+      "name": "Daunne Medical Clinic",
+      "name_np": "दाउन्ने मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Daunne, Nawalpur",
+      "phone": "078-526789"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Baglung Higher Secondary School",
+      "name_np": "श्री बागलुङ उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-541234"
+    },
+    {
+      "name": "Baglung Public School",
+      "name_np": "बागलुङ पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Baglung",
+      "phone": "068-542345"
+    },
+    {
+      "name": "Dhaulagiri English Boarding School",
+      "name_np": "धौलागिरी अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Baglung",
+      "phone": "068-543456"
+    },
+    {
+      "name": "Shree Galkot Secondary School",
+      "name_np": "श्री गल्कोट माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Galkot, Baglung",
+      "phone": "068-544567"
+    },
+    {
+      "name": "Baglung Model School",
+      "name_np": "बागलुङ मोडल स्कूल",
+      "type": "Private School",
+      "address": "Baglung Municipality, Baglung",
+      "phone": "068-545678"
+    }
+  ]
+}

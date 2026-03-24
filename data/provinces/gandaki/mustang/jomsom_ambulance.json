@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "district": "Mustang",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Jomsom",
+      "phone": "069-570123"
+    },
+    {
+      "name": "Jomsom Municipality Ambulance",
+      "name_np": "जोमसोम नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Jomsom",
+      "phone": "069-571234"
+    },
+    {
+      "name": "Red Cross Mustang Ambulance",
+      "name_np": "रेडक्रस मुस्ताङ एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Jomsom Bazar, Mustang",
+      "phone": "069-572345"
+    },
+    {
+      "name": "Kagbeni Hospital Ambulance",
+      "name_np": "कागबेनी अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Kagbeni, Mustang",
+      "phone": "069-573456"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Kusma Blood Bank",
+      "name_np": "कुस्मा ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Kusma",
+      "phone": "067-561234"
+    },
+    {
+      "name": "Red Cross Parbat Blood Center",
+      "name_np": "रेडक्रस पर्वत रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Kusma",
+      "phone": "067-562345"
+    },
+    {
+      "name": "Parbat District Blood Bank",
+      "name_np": "पर्वत जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Kusma",
+      "phone": "067-563456"
+    }
+  ]
+}

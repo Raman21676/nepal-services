@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Gorkha",
+    "district": "Gorkha",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Gorkha",
+      "phone": "064-570123"
+    },
+    {
+      "name": "Gorkha Municipality Ambulance",
+      "name_np": "गोरखा नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Gorkha",
+      "phone": "064-571234"
+    },
+    {
+      "name": "Red Cross Gorkha Ambulance",
+      "name_np": "रेडक्रस गोरखा एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-572345"
+    },
+    {
+      "name": "Manakamana Hospital Ambulance",
+      "name_np": "मनकामना अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Manakamana, Gorkha",
+      "phone": "064-573456"
+    }
+  ]
+}

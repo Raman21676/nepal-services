@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Parbat Higher Secondary School",
+      "name_np": "श्री पर्वत उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-541234"
+    },
+    {
+      "name": "Kusma Public School",
+      "name_np": "कुस्मा पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Kusma",
+      "phone": "067-542345"
+    },
+    {
+      "name": "Panchase English Boarding School",
+      "name_np": "पंचासे अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Kusma",
+      "phone": "067-543456"
+    },
+    {
+      "name": "Shree Phalebas Secondary School",
+      "name_np": "श्री फलेवास माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Phalebas, Parbat",
+      "phone": "067-544567"
+    },
+    {
+      "name": "Kusma Model School",
+      "name_np": "कुस्मा मोडल स्कूल",
+      "type": "Private School",
+      "address": "Kusma Municipality, Parbat",
+      "phone": "067-545678"
+    }
+  ]
+}

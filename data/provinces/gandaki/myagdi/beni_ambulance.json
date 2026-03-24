@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Beni",
+    "district": "Myagdi",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Beni",
+      "phone": "069-570123"
+    },
+    {
+      "name": "Beni Municipality Ambulance",
+      "name_np": "बेनी नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Beni",
+      "phone": "069-571234"
+    },
+    {
+      "name": "Red Cross Myagdi Ambulance",
+      "name_np": "रेडक्रस म्याग्दी एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Beni Bazar, Myagdi",
+      "phone": "069-572345"
+    },
+    {
+      "name": "Pakhapani Hospital Ambulance",
+      "name_np": "पाखापानी अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Pakhapani, Myagdi",
+      "phone": "069-573456"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Syangja",
+      "phone": "063-570123"
+    },
+    {
+      "name": "Syangja Municipality Ambulance",
+      "name_np": "स्याङ्जा नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Syangja",
+      "phone": "063-571234"
+    },
+    {
+      "name": "Red Cross Syangja Ambulance",
+      "name_np": "रेडक्रस स्याङ्जा एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Syangja Bazar, Syangja",
+      "phone": "063-572345"
+    },
+    {
+      "name": "Waling Hospital Ambulance",
+      "name_np": "वालिङ अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Waling, Syangja",
+      "phone": "063-573456"
+    }
+  ]
+}

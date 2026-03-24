@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Tansen Multiple Campus",
+      "name_np": "तानसेन बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Tansen Bazar, Palpa",
+      "phone": "075-551234"
+    },
+    {
+      "name": "Tansen Technical Institute",
+      "name_np": "तानसेन प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Main Road, Tansen",
+      "phone": "075-552345"
+    },
+    {
+      "name": "Rampur College",
+      "name_np": "रामपुर कलेज",
+      "type": "Community Campus",
+      "address": "Rampur, Palpa",
+      "phone": "075-553456"
+    },
+    {
+      "name": "Palpa Nursing College",
+      "name_np": "पाल्पा नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Tansen",
+      "phone": "075-554567"
+    }
+  ]
+}

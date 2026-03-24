@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Gorkha",
+    "district": "Gorkha",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Gorkha Campus",
+      "name_np": "गोरखा क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-551234"
+    },
+    {
+      "name": "Gorkha Technical Institute",
+      "name_np": "गोरखा प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Main Road, Gorkha",
+      "phone": "064-552345"
+    },
+    {
+      "name": "Ligligkot College",
+      "name_np": "लिगलिगकोट कलेज",
+      "type": "Community Campus",
+      "address": "Ligligkot, Gorkha",
+      "phone": "064-553456"
+    },
+    {
+      "name": "Gorkha Nursing College",
+      "name_np": "गोरखा नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Gorkha",
+      "phone": "064-554567"
+    }
+  ]
+}

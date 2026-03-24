@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Baglung",
+      "phone": "068-570123"
+    },
+    {
+      "name": "Baglung Municipality Ambulance",
+      "name_np": "बागलुङ नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Baglung",
+      "phone": "068-571234"
+    },
+    {
+      "name": "Red Cross Baglung Ambulance",
+      "name_np": "रेडक्रस बागलुङ एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Baglung Bazar, Baglung",
+      "phone": "068-572345"
+    },
+    {
+      "name": "Galkot Hospital Ambulance",
+      "name_np": "गल्कोट अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Galkot, Baglung",
+      "phone": "068-573456"
+    }
+  ]
+}

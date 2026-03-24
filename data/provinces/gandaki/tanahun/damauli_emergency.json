@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Damauli",
+    "district": "Tanahun",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Tanahun",
+      "name_np": "जिल्ला प्रहरी कार्यालय तनहुँ",
+      "type": "Police",
+      "address": "District Headquarters, Damauli",
+      "phone": "065-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Damauli",
+      "phone": "065-581234"
+    },
+    {
+      "name": "Damauli Fire Station",
+      "name_np": "दमौली दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Damauli",
+      "phone": "065-582345"
+    },
+    {
+      "name": "Bimalnagar Hospital Emergency",
+      "name_np": "बिमलनगर अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Bimalnagar, Tanahun",
+      "phone": "065-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Tanahun",
+      "name_np": "नेपाल विद्युत प्राधिकरण तनहुँ",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Damauli",
+      "phone": "065-584567"
+    },
+    {
+      "name": "Tanahun District Administration Office",
+      "name_np": "तनहुँ जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Damauli",
+      "phone": "065-585678"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Damauli",
+    "district": "Tanahun",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Damauli",
+      "phone": "065-570123"
+    },
+    {
+      "name": "Damauli Municipality Ambulance",
+      "name_np": "दमौली नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Damauli",
+      "phone": "065-571234"
+    },
+    {
+      "name": "Red Cross Tanahun Ambulance",
+      "name_np": "रेडक्रस तनहुँ एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-572345"
+    },
+    {
+      "name": "Bimalnagar Hospital Ambulance",
+      "name_np": "बिमलनगर अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Bimalnagar, Tanahun",
+      "phone": "065-573456"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Baglung Blood Bank",
+      "name_np": "बागलुङ ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Baglung",
+      "phone": "068-561234"
+    },
+    {
+      "name": "Red Cross Baglung Blood Center",
+      "name_np": "रेडक्रस बागलुङ रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Baglung",
+      "phone": "068-562345"
+    },
+    {
+      "name": "Baglung District Blood Bank",
+      "name_np": "बागलुङ जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Baglung",
+      "phone": "068-563456"
+    }
+  ]
+}

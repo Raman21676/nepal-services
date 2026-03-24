@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Kawasoti",
+    "district": "Nawalpur",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Kawasoti",
+      "phone": "078-570123"
+    },
+    {
+      "name": "Kawasoti Municipality Ambulance",
+      "name_np": "कावासोती नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Kawasoti",
+      "phone": "078-571234"
+    },
+    {
+      "name": "Red Cross Nawalpur Ambulance",
+      "name_np": "रेडक्रस नवलपुर एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Kawasoti Bazar, Nawalpur",
+      "phone": "078-572345"
+    },
+    {
+      "name": "Daunne Hospital Ambulance",
+      "name_np": "दाउन्ने अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Daunne, Nawalpur",
+      "phone": "078-573456"
+    }
+  ]
+}

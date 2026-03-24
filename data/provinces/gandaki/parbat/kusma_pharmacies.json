@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Kusma Pharmacy",
+      "name_np": "कुस्मा फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-531234"
+    },
+    {
+      "name": "Parbat Medical Store",
+      "name_np": "पर्वत मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Main Road, Kusma",
+      "phone": "067-532345"
+    },
+    {
+      "name": "Parbat Pharma",
+      "name_np": "पर्वत फार्मा",
+      "type": "Pharmacy",
+      "address": "Bazaar Area, Kusma",
+      "phone": "067-533456"
+    },
+    {
+      "name": "Shree Medical Hall",
+      "name_np": "श्री मेडिकल हल",
+      "type": "Medical Store",
+      "address": "Bus Stand, Kusma",
+      "phone": "067-534567"
+    },
+    {
+      "name": "New Kusma Medicines",
+      "name_np": "न्यू कुस्मा मेडिसिन्स",
+      "type": "Pharmacy",
+      "address": "Hospital Road, Kusma",
+      "phone": "067-535678"
+    }
+  ]
+}

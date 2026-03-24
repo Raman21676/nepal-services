@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "colleges": [
+    {
+      "name": "Kusma Multiple Campus",
+      "name_np": "कुस्मा बहुमुखी क्याम्पस",
+      "type": "Tribhuvan University Affiliated",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-551234"
+    },
+    {
+      "name": "Kusma Technical Institute",
+      "name_np": "कुस्मा प्राविधिक संस्थान",
+      "type": "Technical College",
+      "address": "Main Road, Kusma",
+      "phone": "067-552345"
+    },
+    {
+      "name": "Phalebas College",
+      "name_np": "फलेवास कलेज",
+      "type": "Community Campus",
+      "address": "Phalebas, Parbat",
+      "phone": "067-553456"
+    },
+    {
+      "name": "Parbat Nursing College",
+      "name_np": "पर्वत नर्सिङ कलेज",
+      "type": "Nursing College",
+      "address": "Hospital Road, Kusma",
+      "phone": "067-554567"
+    }
+  ]
+}

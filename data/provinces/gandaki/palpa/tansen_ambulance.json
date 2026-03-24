@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Tansen",
+      "phone": "075-570123"
+    },
+    {
+      "name": "Tansen Municipality Ambulance",
+      "name_np": "तानसेन नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Tansen",
+      "phone": "075-571234"
+    },
+    {
+      "name": "Red Cross Palpa Ambulance",
+      "name_np": "रेडक्रस पाल्पा एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Tansen Bazar, Palpa",
+      "phone": "075-572345"
+    },
+    {
+      "name": "Rampur Hospital Ambulance",
+      "name_np": "रामपुर अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Rampur, Palpa",
+      "phone": "075-573456"
+    }
+  ]
+}

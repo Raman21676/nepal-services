@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Palpa Higher Secondary School",
+      "name_np": "श्री पाल्पा उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Tansen Bazar, Palpa",
+      "phone": "075-541234"
+    },
+    {
+      "name": "Tansen Public School",
+      "name_np": "तानसेन पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Tansen",
+      "phone": "075-542345"
+    },
+    {
+      "name": "Saraswati English Boarding School",
+      "name_np": "सरस्वती अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Tansen",
+      "phone": "075-543456"
+    },
+    {
+      "name": "Shree Rampur Secondary School",
+      "name_np": "श्री रामपुर माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Rampur, Palpa",
+      "phone": "075-544567"
+    },
+    {
+      "name": "Tansen Model School",
+      "name_np": "तानसेन मोडल स्कूल",
+      "type": "Private School",
+      "address": "Tansen Municipality, Palpa",
+      "phone": "075-545678"
+    }
+  ]
+}

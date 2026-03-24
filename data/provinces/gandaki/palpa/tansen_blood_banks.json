@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Tansen Blood Bank",
+      "name_np": "तानसेन ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital, Tansen",
+      "phone": "075-561234"
+    },
+    {
+      "name": "Red Cross Palpa Blood Center",
+      "name_np": "रेडक्रस पाल्पा रक्त केन्द्र",
+      "type": "Blood Bank",
+      "address": "Red Cross Building, Tansen",
+      "phone": "075-562345"
+    },
+    {
+      "name": "Palpa District Blood Bank",
+      "name_np": "पाल्पा जिल्ला ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "District Hospital Complex, Tansen",
+      "phone": "075-563456"
+    }
+  ]
+}

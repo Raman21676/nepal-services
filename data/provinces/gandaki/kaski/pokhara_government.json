@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Pokhara Metropolitan City Office",
+      "name_np": "पोखरा महानगरपालिका कार्यालय",
+      "type": "Metropolitan Office",
+      "address": "Pokhara-7, Mahendrapool, Kaski",
+      "phone": "061-540100"
+    },
+    {
+      "name": "District Administration Office, Kaski",
+      "name_np": "जिल्ला प्रशासन कार्यालय, कास्की",
+      "type": "District Administration",
+      "address": "Pokhara, Kaski",
+      "phone": "061-540200"
+    },
+    {
+      "name": "Nepal Electricity Authority, Pokhara Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण, पोखरा वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Chipledhunga, Pokhara",
+      "phone": "061-540300"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office, Kaski",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय, कास्की",
+      "type": "Water Supply Office",
+      "address": "Pokhara, Kaski",
+      "phone": "061-540400"
+    },
+    {
+      "name": "District Police Office, Kaski",
+      "name_np": "जिल्ला प्रहरी कार्यालय, कास्की",
+      "type": "Police",
+      "address": "Pokhara, Kaski",
+      "phone": "061-540500"
+    },
+    {
+      "name": "Land Revenue Office, Kaski",
+      "name_np": "मालपोत कार्यालय, कास्की",
+      "type": "Land Revenue Office",
+      "address": "Pokhara, Kaski",
+      "phone": "061-540600"
+    },
+    {
+      "name": "Pokhara Post Office",
+      "name_np": "पोखरा हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Mahendrapool, Pokhara",
+      "phone": "061-540700"
+    },
+    {
+      "name": "Transport Management Office, Kaski",
+      "name_np": "यातायात व्यवस्था कार्यालय, कास्की",
+      "type": "Transport Office",
+      "address": "Pokhara, Kaski",
+      "phone": "061-540800"
+    },
+    {
+      "name": "Division Forest Office, Kaski",
+      "name_np": "डिभिजन वन कार्यालय, कास्की",
+      "type": "Forest Office",
+      "address": "Pokhara, Kaski",
+      "phone": "061-540900"
+    },
+    {
+      "name": "Agriculture Knowledge Center, Kaski",
+      "name_np": "कृषि ज्ञान केन्द्र, कास्की",
+      "type": "Agriculture Office",
+      "address": "Pokhara, Kaski",
+      "phone": "061-541000"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Gorkha",
+    "district": "Gorkha",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Gorkha",
+      "name_np": "जिल्ला प्रहरी कार्यालय गोरखा",
+      "type": "Police",
+      "address": "District Headquarters, Gorkha",
+      "phone": "064-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Gorkha",
+      "phone": "064-581234"
+    },
+    {
+      "name": "Gorkha Fire Station",
+      "name_np": "गोरखा दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Gorkha",
+      "phone": "064-582345"
+    },
+    {
+      "name": "Manakamana Hospital Emergency",
+      "name_np": "मनकामना अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Manakamana, Gorkha",
+      "phone": "064-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Gorkha",
+      "name_np": "नेपाल विद्युत प्राधिकरण गोरखा",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Gorkha",
+      "phone": "064-584567"
+    },
+    {
+      "name": "Gorkha District Administration Office",
+      "name_np": "गोरखा जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Gorkha",
+      "phone": "064-585678"
+    }
+  ]
+}

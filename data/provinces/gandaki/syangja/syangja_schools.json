@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Galyang Higher Secondary School",
+      "name_np": "श्री गल्याङ उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Syangja Bazar, Syangja",
+      "phone": "063-541234"
+    },
+    {
+      "name": "Syangja Public School",
+      "name_np": "स्याङ्जा पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Syangja",
+      "phone": "063-542345"
+    },
+    {
+      "name": "Kali Devi English Boarding School",
+      "name_np": "कालीदेवी अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Syangja",
+      "phone": "063-543456"
+    },
+    {
+      "name": "Shree Waling Secondary School",
+      "name_np": "श्री वालिङ माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Waling, Syangja",
+      "phone": "063-544567"
+    },
+    {
+      "name": "Syangja Model School",
+      "name_np": "स्याङ्जा मोडल स्कूल",
+      "type": "Private School",
+      "address": "Syangja Municipality, Syangja",
+      "phone": "063-545678"
+    }
+  ]
+}

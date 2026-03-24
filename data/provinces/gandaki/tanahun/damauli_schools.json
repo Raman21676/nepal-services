@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Damauli",
+    "district": "Tanahun",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Vyas Higher Secondary School",
+      "name_np": "श्री व्यास उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Damauli Bazar, Tanahun",
+      "phone": "065-541234"
+    },
+    {
+      "name": "Damauli Public School",
+      "name_np": "दमौली पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Damauli",
+      "phone": "065-542345"
+    },
+    {
+      "name": "Seti Devi English Boarding School",
+      "name_np": "सेतिदेवी अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Damauli",
+      "phone": "065-543456"
+    },
+    {
+      "name": "Shree Gandaki Secondary School",
+      "name_np": "श्री गण्डकी माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Bimalnagar, Tanahun",
+      "phone": "065-544567"
+    },
+    {
+      "name": "Damauli Model School",
+      "name_np": "दमौली मोडल स्कूल",
+      "type": "Private School",
+      "address": "Damauli Municipality, Tanahun",
+      "phone": "065-545678"
+    }
+  ]
+}

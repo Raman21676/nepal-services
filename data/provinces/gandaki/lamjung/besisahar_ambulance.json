@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "ambulance": [
+    {
+      "name": "District Hospital Ambulance",
+      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "District Hospital, Besisahar",
+      "phone": "066-570123"
+    },
+    {
+      "name": "Besisahar Municipality Ambulance",
+      "name_np": "बेसीसहर नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Ambulance",
+      "address": "Municipal Office, Besisahar",
+      "phone": "066-571234"
+    },
+    {
+      "name": "Red Cross Lamjung Ambulance",
+      "name_np": "रेडक्रस लमजुङ एम्बुलेन्स",
+      "type": "Emergency Ambulance",
+      "address": "Besisahar Bazar, Lamjung",
+      "phone": "066-572345"
+    },
+    {
+      "name": "Marsyangdi Hospital Ambulance",
+      "name_np": "मर्स्याङ्दी अस्पताल एम्बुलेन्स",
+      "type": "Hospital Ambulance",
+      "address": "Marsyangdi, Lamjung",
+      "phone": "066-573456"
+    }
+  ]
+}

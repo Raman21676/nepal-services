@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "pharmacies": [
+    {
+      "name": "Syangja Pharmacy",
+      "name_np": "स्याङ्जा फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Syangja Bazar, Syangja",
+      "phone": "063-531234"
+    },
+    {
+      "name": "Galyang Medical Store",
+      "name_np": "गल्याङ मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Main Road, Syangja",
+      "phone": "063-532345"
+    },
+    {
+      "name": "Syangja Pharma",
+      "name_np": "स्याङ्जा फार्मा",
+      "type": "Pharmacy",
+      "address": "Bazaar Area, Syangja",
+      "phone": "063-533456"
+    },
+    {
+      "name": "Shree Medical Hall",
+      "name_np": "श्री मेडिकल हल",
+      "type": "Medical Store",
+      "address": "Bus Stand, Syangja",
+      "phone": "063-534567"
+    },
+    {
+      "name": "New Syangja Medicines",
+      "name_np": "न्यू स्याङ्जा मेडिसिन्स",
+      "type": "Pharmacy",
+      "address": "Hospital Road, Syangja",
+      "phone": "063-535678"
+    }
+  ]
+}

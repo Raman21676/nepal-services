@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "district": "Mustang",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Mustang",
+      "name_np": "जिल्ला प्रहरी कार्यालय मुस्ताङ",
+      "type": "Police",
+      "address": "District Headquarters, Jomsom",
+      "phone": "069-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Jomsom",
+      "phone": "069-581234"
+    },
+    {
+      "name": "Jomsom Fire Station",
+      "name_np": "जोमसोम दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Jomsom",
+      "phone": "069-582345"
+    },
+    {
+      "name": "Kagbeni Hospital Emergency",
+      "name_np": "कागबेनी अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Kagbeni, Mustang",
+      "phone": "069-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Mustang",
+      "name_np": "नेपाल विद्युत प्राधिकरण मुस्ताङ",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Jomsom",
+      "phone": "069-584567"
+    },
+    {
+      "name": "Mustang District Administration Office",
+      "name_np": "मुस्ताङ जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Jomsom",
+      "phone": "069-585678"
+    }
+  ]
+}

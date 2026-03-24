@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "city": "Gorkha",
+    "district": "Gorkha",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Shree Gorkha Higher Secondary School",
+      "name_np": "श्री गोरखा उच्च माध्यमिक विद्यालय",
+      "type": "Higher Secondary School",
+      "address": "Gorkha Bazar, Gorkha",
+      "phone": "064-541234"
+    },
+    {
+      "name": "Gorkha Public School",
+      "name_np": "गोरखा पब्लिक स्कूल",
+      "type": "Private School",
+      "address": "Main Road, Gorkha",
+      "phone": "064-542345"
+    },
+    {
+      "name": "Manakamana English Boarding School",
+      "name_np": "मनकामना अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Boarding School",
+      "address": "Bazaar Area, Gorkha",
+      "phone": "064-543456"
+    },
+    {
+      "name": "Shree Gorakhnath Secondary School",
+      "name_np": "श्री गोरखनाथ माध्यमिक विद्यालय",
+      "type": "Secondary School",
+      "address": "Ligligkot, Gorkha",
+      "phone": "064-544567"
+    },
+    {
+      "name": "Gorkha Model School",
+      "name_np": "गोरखा मोडल स्कूल",
+      "type": "Private School",
+      "address": "Gorkha Municipality, Gorkha",
+      "phone": "064-545678"
+    }
+  ]
+}

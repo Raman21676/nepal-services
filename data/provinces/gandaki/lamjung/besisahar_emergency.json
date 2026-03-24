@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "emergency": [
+    {
+      "name": "District Police Office Lamjung",
+      "name_np": "जिल्ला प्रहरी कार्यालय लमजुङ",
+      "type": "Police",
+      "address": "District Headquarters, Besisahar",
+      "phone": "066-580123"
+    },
+    {
+      "name": "District Hospital Emergency",
+      "name_np": "जिल्ला अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "District Hospital, Besisahar",
+      "phone": "066-581234"
+    },
+    {
+      "name": "Besisahar Fire Station",
+      "name_np": "बेसीसहर दमकल सेवा",
+      "type": "Fire Service",
+      "address": "Fire Station Road, Besisahar",
+      "phone": "066-582345"
+    },
+    {
+      "name": "Marsyangdi Hospital Emergency",
+      "name_np": "मर्स्याङ्दी अस्पताल आकस्मिक",
+      "type": "Hospital Emergency",
+      "address": "Marsyangdi, Lamjung",
+      "phone": "066-583456"
+    },
+    {
+      "name": "Nepal Electricity Authority Lamjung",
+      "name_np": "नेपाल विद्युत प्राधिकरण लमजुङ",
+      "type": "Electricity Emergency",
+      "address": "NEA Office, Besisahar",
+      "phone": "066-584567"
+    },
+    {
+      "name": "Lamjung District Administration Office",
+      "name_np": "लमजुङ जिल्ला प्रशासन कार्यालय",
+      "type": "District Administration",
+      "address": "District HQ, Besisahar",
+      "phone": "066-585678"
+    }
+  ]
+}

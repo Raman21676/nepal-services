@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki Province",
+    "last_updated": "2025-01-20"
+  },
+  "clinics": [
+    {
+      "name": "Kusma Diagnostic Center",
+      "name_np": "कुस्मा डाइग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Kusma Bazar, Parbat",
+      "phone": "067-521234"
+    },
+    {
+      "name": "Parbat Medical Center",
+      "name_np": "पर्वत मेडिकल सेन्टर",
+      "type": "Multi-specialty Clinic",
+      "address": "Main Road, Kusma",
+      "phone": "067-522345"
+    },
+    {
+      "name": "Kusma Eye Care Center",
+      "name_np": "कुस्मा आँखा केयर सेन्टर",
+      "type": "Eye Clinic",
+      "address": "Hospital Road, Kusma",
+      "phone": "067-523456"
+    },
+    {
+      "name": "Kushma Health Care",
+      "name_np": "कुश्मा हेल्थ केयर",
+      "type": "General Clinic",
+      "address": "Bazaar Area, Kusma",
+      "phone": "067-524567"
+    },
+    {
+      "name": "Kusma Pathology Lab",
+      "name_np": "कुस्मा प्याथोलोजी ल्याब",
+      "type": "Pathology Lab",
+      "address": "Bus Park, Kusma",
+      "phone": "067-525678"
+    },
+    {
+      "name": "Phalebas Medical Clinic",
+      "name_np": "फलेवास मेडिकल क्लिनिक",
+      "type": "General Clinic",
+      "address": "Phalebas, Parbat",
+      "phone": "067-526789"
+    }
+  ]
+}
