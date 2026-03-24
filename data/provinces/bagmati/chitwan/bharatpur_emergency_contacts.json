@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "data_type": "emergency",
+    "last_updated": "2025-01-24"
+  },
+  "emergency": [
+    {
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Emergency Service",
+      "department": "Nepal Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Emergency Service",
+      "department": "Fire Service",
+      "hours": "24/7"
+    },
+    {
+      "name": "Ambulance Service",
+      "contact": "102",
+      "type": "Emergency Service",
+      "department": "Health",
+      "hours": "24/7"
+    },
+    {
+      "name": "Traffic Police",
+      "contact": "103",
+      "type": "Emergency Service",
+      "department": "Traffic",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bharatpur Police Station",
+      "contact": "056-520111",
+      "type": "Police",
+      "department": "Nepal Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "District Police Office Chitwan",
+      "contact": "056-520111",
+      "type": "Police",
+      "department": "Nepal Police",
+      "hours": "24/7"
+    },
+    {
+      "name": "Nepal Red Cross Society Chitwan",
+      "contact": "056-520880",
+      "type": "NGO",
+      "department": "Emergency Response",
+      "hours": "24/7"
+    },
+    {
+      "name": "Chitwan National Park Emergency",
+      "contact": "056-520090",
+      "type": "Emergency Service",
+      "department": "National Park",
+      "hours": "24/7",
+      "services": ["Wildlife Emergency", "Rescue"]
+    },
+    {
+      "name": "Electricity Emergency (NEA)",
+      "contact": "1150",
+      "type": "Utility",
+      "department": "Nepal Electricity Authority",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bharatpur Airport",
+      "contact": "056-520090",
+      "type": "Airport",
+      "department": "Civil Aviation",
+      "hours": "Daily"
+    }
+  ]
+}

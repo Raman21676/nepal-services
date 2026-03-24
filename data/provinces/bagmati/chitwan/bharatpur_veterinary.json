@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "data_type": "veterinary",
+    "last_updated": "2025-01-24"
+  },
+  "veterinary": [
+    {
+      "name": "Livestock Service Office, Bharatpur",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-520176",
+      "email": "vhlsecchitwan@gmail.com",
+      "type": "Government Veterinary Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Animal Treatment", "Vaccination", "Disease Control", "Livestock Services"]
+    },
+    {
+      "name": "NCTS Veterinary Teaching Hospital",
+      "address": "National College of Technical Science, Bharatpur",
+      "type": "Teaching Hospital",
+      "hours": "Sunday-Friday",
+      "services": ["Veterinary Training", "Animal Treatment", "Clinical Practice"]
+    },
+    {
+      "name": "Chitwan National Park Veterinary Unit",
+      "address": "Kasara, Chitwan National Park",
+      "type": "Government Office",
+      "hours": "24/7",
+      "services": ["Wildlife Veterinary", "Animal Rescue", "Conservation Medicine"]
+    },
+    {
+      "name": "Bharatpur Veterinary Clinic",
+      "address": "Bharatpur, Chitwan",
+      "type": "Private Clinic",
+      "hours": "Sunday-Friday",
+      "services": ["Pet Treatment", "Vaccination", "Deworming"]
+    }
+  ]
+}

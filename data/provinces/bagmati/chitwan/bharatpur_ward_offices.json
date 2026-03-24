@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "data_type": "ward",
+    "last_updated": "2025-01-24"
+  },
+  "ward_offices": [
+    {
+      "ward_number": 1,
+      "name": "Bharatpur Metropolitan City Ward 1",
+      "address": "Ward 1, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 2,
+      "name": "Bharatpur Metropolitan City Ward 2",
+      "address": "Ward 2, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 3,
+      "name": "Bharatpur Metropolitan City Ward 3",
+      "address": "Ward 3, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 4,
+      "name": "Bharatpur Metropolitan City Ward 4",
+      "address": "Ward 4, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 5,
+      "name": "Bharatpur Metropolitan City Ward 5",
+      "address": "Ward 5, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 6,
+      "name": "Bharatpur Metropolitan City Ward 6",
+      "address": "Ward 6, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 7,
+      "name": "Bharatpur Metropolitan City Ward 7",
+      "address": "Krishnapur, Bharatpur",
+      "chairperson": "Ward Chairperson",
+      "note": "BPKMCH located in this ward"
+    },
+    {
+      "ward_number": 8,
+      "name": "Bharatpur Metropolitan City Ward 8",
+      "address": "Ward 8, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 9,
+      "name": "Bharatpur Metropolitan City Ward 9",
+      "address": "Ward 9, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 10,
+      "name": "Bharatpur Metropolitan City Ward 10",
+      "address": "Hospital Road, Bharatpur",
+      "chairperson": "Ward Chairperson",
+      "note": "Bharatpur Hospital located in this ward"
+    },
+    {
+      "ward_number": 11,
+      "name": "Bharatpur Metropolitan City Ward 11",
+      "address": "Ward 11, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 12,
+      "name": "Bharatpur Metropolitan City Ward 12",
+      "address": "Ward 12, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 13,
+      "name": "Bharatpur Metropolitan City Ward 13",
+      "address": "Ward 13, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 14,
+      "name": "Bharatpur Metropolitan City Ward 14",
+      "address": "Ward 14, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 15,
+      "name": "Bharatpur Metropolitan City Ward 15",
+      "address": "Ward 15, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 16,
+      "name": "Bharatpur Metropolitan City Ward 16",
+      "address": "Ward 16, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 17,
+      "name": "Bharatpur Metropolitan City Ward 17",
+      "address": "Ward 17, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 18,
+      "name": "Bharatpur Metropolitan City Ward 18",
+      "address": "Ward 18, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 19,
+      "name": "Bharatpur Metropolitan City Ward 19",
+      "address": "Ward 19, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 20,
+      "name": "Bharatpur Metropolitan City Ward 20",
+      "address": "Ward 20, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 21,
+      "name": "Bharatpur Metropolitan City Ward 21",
+      "address": "Ward 21, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 22,
+      "name": "Bharatpur Metropolitan City Ward 22",
+      "address": "Ward 22, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 23,
+      "name": "Bharatpur Metropolitan City Ward 23",
+      "address": "Ward 23, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 24,
+      "name": "Bharatpur Metropolitan City Ward 24",
+      "address": "Ward 24, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 25,
+      "name": "Bharatpur Metropolitan City Ward 25",
+      "address": "Ward 25, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 26,
+      "name": "Bharatpur Metropolitan City Ward 26",
+      "address": "Ward 26, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 27,
+      "name": "Bharatpur Metropolitan City Ward 27",
+      "address": "Ward 27, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 28,
+      "name": "Bharatpur Metropolitan City Ward 28",
+      "address": "Ward 28, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 29,
+      "name": "Bharatpur Metropolitan City Ward 29",
+      "address": "Ward 29, Bharatpur",
+      "chairperson": "Ward Chairperson"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "data_type": "blood_banks",
+    "last_updated": "2025-01-24"
+  },
+  "blood_banks": [
+    {
+      "name": "NRCS Regional Blood Transfusion Service Center",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-520880",
+      "type": "Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Donation", "Blood Transfusion", "Emergency Blood Supply"]
+    },
+    {
+      "name": "B.P. Koirala Memorial Cancer Hospital Blood Bank",
+      "address": "Bharatpur-7, Chitwan",
+      "contact": "056-524501",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion", "Component Therapy"]
+    },
+    {
+      "name": "CMS Teaching Hospital Blood Bank",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-493012",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion"]
+    },
+    {
+      "name": "Chitwan Medical College Blood Bank",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-493101",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7",
+      "services": ["Blood Transfusion"]
+    },
+    {
+      "name": "Bharatpur Hospital Blood Bank",
+      "address": "Bharatpur, Chitwan",
+      "contact": "056-520111",
+      "type": "Hospital Blood Bank",
+      "hours": "24/7"
+    }
+  ]
+}

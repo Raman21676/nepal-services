@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "data_type": "pharmacies",
+    "last_updated": "2025-01-24"
+  },
+  "pharmacies": [
+    {
+      "name": "Bharatpur Samudayik Hospital Pharmacy",
+      "address": "Hospital Road, Bharatpur-10, Chitwan",
+      "contact": "056-595200",
+      "type": "Hospital Pharmacy",
+      "hours": "24/7"
+    },
+    {
+      "name": "CMC Hospital Pharmacy",
+      "address": "Chitwan Medical College, Bharatpur",
+      "contact": "056-493101",
+      "type": "Hospital Pharmacy",
+      "hours": "24/7"
+    },
+    {
+      "name": "CMS Pharmacy",
+      "address": "College of Medical Sciences, Bharatpur",
+      "contact": "056-493012",
+      "type": "Hospital Pharmacy",
+      "hours": "24/7"
+    },
+    {
+      "name": "Bharatpur Hospital Sajha Pharmacy",
+      "address": "Bharatpur Hospital, Chitwan",
+      "contact": "056-520111",
+      "type": "Hospital Pharmacy",
+      "hours": "24/7"
+    },
+    {
+      "name": "City Pharma",
+      "address": "Sahid Chowk, Bharatpur",
+      "type": "Pharmacy",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Royal Pharma",
+      "address": "Sahid Chowk, Bharatpur",
+      "type": "Pharmacy",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Baba Pharma",
+      "address": "Sahid Chowk, Bharatpur",
+      "type": "Pharmacy",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Sajha Pharmacy",
+      "address": "Bharatpur, Chitwan",
+      "type": "Pharmacy",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Metro Pharmacy",
+      "address": "Naurangey, Bharatpur",
+      "type": "Pharmacy",
+      "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+      "name": "Jansewa Pharma",
+      "address": "Bharatpur, Chitwan",
+      "type": "Pharmacy",
+      "hours": "6:00 AM - 10:00 PM"
+    }
+  ]
+}
