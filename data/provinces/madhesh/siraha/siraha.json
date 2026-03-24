@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Siraha Hospital",
+      "name_np": "सिराहा अस्पताल",
+      "type": "District Hospital",
+      "address": "Siraha-5, Siraha",
+      "phone": "033-560044",
+      "emergency": "033-560045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Lahan Hospital",
+      "name_np": "लहान अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Lahan, Siraha",
+      "phone": "033-561111"
+    }
+  ]
+}

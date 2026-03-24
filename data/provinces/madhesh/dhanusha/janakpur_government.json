@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Janakpur Sub-Metropolitan City Office",
+      "name_np": "जनकपुर उपमहानगरपालिका कार्यालय",
+      "type": "Sub-Metropolitan Office",
+      "address": "Janakpur-5, Dhanusha",
+      "phone": "041-520100",
+      "email": "info@janakpurmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Dhanusha",
+      "name_np": "जिल्ला प्रशासन कार्यालय धनुषा",
+      "type": "District Administration",
+      "address": "Janakpur, Dhanusha",
+      "phone": "041-520155",
+      "email": "daodhanusha@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Janakpur",
+      "name_np": "नेपाल विद्युत प्राधिकरण - जनकपुर",
+      "type": "Electricity Office",
+      "address": "Janakpur-8, Dhanusha",
+      "phone": "041-520333",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Janakpur Water Supply Office",
+      "name_np": "जनकपुर खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Janakpur-6, Dhanusha",
+      "phone": "041-520555"
+    },
+    {
+      "name": "District Police Office Dhanusha",
+      "name_np": "जिल्ला प्रहरी कार्यालय धनुषा",
+      "type": "Police",
+      "address": "Janakpur, Dhanusha",
+      "phone": "041-520111",
+      "emergency": "100"
+    },
+    {
+      "name": "Dhanusha Land Revenue Office",
+      "name_np": "धनुषा मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Janakpur-7, Dhanusha",
+      "phone": "041-520133"
+    },
+    {
+      "name": "Janakpur Post Office",
+      "name_np": "जनकपुर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Janakpur-4, Dhanusha",
+      "phone": "041-520177"
+    },
+    {
+      "name": "District Transport Office Dhanusha",
+      "name_np": "जिल्ला यातायात कार्यालय धनुषा",
+      "type": "Transport Office",
+      "address": "Janakpur-9, Dhanusha",
+      "phone": "041-520188"
+    },
+    {
+      "name": "Janakpur Airport Office",
+      "name_np": "जनकपुर विमानस्थल कार्यालय",
+      "type": "Airport Office",
+      "address": "Janakpur-10, Dhanusha",
+      "phone": "041-520199"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Gaur Hospital",
+      "name_np": "गौर अस्पताल",
+      "type": "District Hospital",
+      "address": "Gaur-5, Rautahat",
+      "phone": "055-520044",
+      "emergency": "055-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Chandranigahapur Hospital",
+      "name_np": "चन्द्रनिगाहपुर अस्पताल",
+      "type": "Primary Health Center",
+      "address": "Chandranigahapur, Rautahat",
+      "phone": "055-521111"
+    }
+  ]
+}

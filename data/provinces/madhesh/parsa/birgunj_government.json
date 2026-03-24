@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Birgunj Metropolitan City Office",
+      "name_np": "वीरगञ्ज महानगरपालिका कार्यालय",
+      "type": "Metropolitan Office",
+      "address": "Birgunj-8, Parsa",
+      "phone": "051-520100",
+      "email": "info@birgunjmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Parsa",
+      "name_np": "जिल्ला प्रशासन कार्यालय पर्सा",
+      "type": "District Administration",
+      "address": "Birgunj, Parsa",
+      "phone": "051-520155",
+      "email": "daoparsa@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Birgunj",
+      "name_np": "नेपाल विद्युत प्राधिकरण - वीरगञ्ज",
+      "type": "Electricity Office",
+      "address": "Birgunj-9, Parsa",
+      "phone": "051-520333",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Parsa Water Supply Office",
+      "name_np": "पर्सा खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Birgunj-5, Parsa",
+      "phone": "051-520555"
+    },
+    {
+      "name": "District Police Office Parsa",
+      "name_np": "जिल्ला प्रहरी कार्यालय पर्सा",
+      "type": "Police",
+      "address": "Birgunj, Parsa",
+      "phone": "051-520111",
+      "emergency": "100"
+    },
+    {
+      "name": "Parsa Land Revenue Office",
+      "name_np": "पर्सा मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Birgunj-6, Parsa",
+      "phone": "051-520133"
+    },
+    {
+      "name": "Birgunj Post Office",
+      "name_np": "वीरगञ्ज हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Birgunj-7, Parsa",
+      "phone": "051-520177"
+    },
+    {
+      "name": "District Transport Office Parsa",
+      "name_np": "जिल्ला यातायात कार्यालय पर्सा",
+      "type": "Transport Office",
+      "address": "Birgunj-10, Parsa",
+      "phone": "051-520188"
+    },
+    {
+      "name": "Birgunj Customs Office",
+      "name_np": "वीरगञ्ज भन्सार कार्यालय",
+      "type": "Customs Office",
+      "address": "Birgunj-11, Parsa",
+      "phone": "051-520199"
+    },
+    {
+      "name": "District Forest Office Parsa",
+      "name_np": "जिल्ला वन कार्यालय पर्सा",
+      "type": "Forest Office",
+      "address": "Birgunj-3, Parsa",
+      "phone": "051-520211"
+    }
+  ]
+}

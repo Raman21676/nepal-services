@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Malangwa Hospital",
+      "name_np": "मलंगवा अस्पताल",
+      "type": "District Hospital",
+      "address": "Malangwa-5, Sarlahi",
+      "phone": "046-520044",
+      "emergency": "046-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Sarlahi District Hospital",
+      "name_np": "सर्लाही जिल्ला अस्पताल",
+      "type": "District Hospital",
+      "address": "Malangwa-6, Sarlahi",
+      "phone": "046-521111"
+    }
+  ]
+}

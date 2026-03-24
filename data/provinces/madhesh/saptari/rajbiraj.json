@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Gajendra Narayan Singh Hospital",
+      "name_np": "गजेन्द्रनारायण सिंह अस्पताल",
+      "type": "Zonal Hospital",
+      "address": "Rajbiraj-4, Saptari",
+      "phone": "031-520055",
+      "emergency": "031-520056",
+      "beds": "100",
+      "services": ["Emergency", "General Medicine", "Surgery", "Orthopedics"]
+    },
+    {
+      "name": "Sagarmatha Hospital",
+      "name_np": "सगरमाथा अस्पताल",
+      "type": "Private",
+      "address": "Rajbiraj-5, Saptari",
+      "phone": "031-521111"
+    }
+  ]
+}

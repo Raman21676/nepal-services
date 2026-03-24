@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Health and Population"
+  },
+  "hospitals": [
+    {
+      "name": "Jaleshwar Hospital",
+      "name_np": "जलेश्वर अस्पताल",
+      "type": "District Hospital",
+      "address": "Jaleshwar-4, Mahottari",
+      "phone": "044-520044",
+      "emergency": "044-520045",
+      "beds": "50",
+      "services": ["General Medicine", "Surgery", "Emergency"]
+    },
+    {
+      "name": "Mahottari Hospital",
+      "name_np": "महोत्तरी अस्पताल",
+      "type": "Private",
+      "address": "Jaleshwar-5, Mahottari",
+      "phone": "044-521111"
+    }
+  ]
+}
