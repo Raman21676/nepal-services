@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "government_offices": [
+    {
+      "name": "Dharan Sub-Metropolitan City Office",
+      "name_np": "धरान उपमहानगरपालिका कार्यालय",
+      "type": "Sub-Metropolitan Office",
+      "address": "Dharan-8, Sunsari",
+      "phone": "025-520100",
+      "email": "info@dharanmun.gov.np"
+    },
+    {
+      "name": "District Administration Office Sunsari",
+      "name_np": "जिल्ला प्रशासन कार्यालय सुनसरी",
+      "type": "District Administration",
+      "address": "Dharan, Sunsari",
+      "phone": "025-520155",
+      "email": "daosunsari@nepal.gov.np"
+    },
+    {
+      "name": "Nepal Electricity Authority - Dharan",
+      "name_np": "नेपाल विद्युत प्राधिकरण - धरान",
+      "type": "Electricity Office",
+      "address": "Dharan-9, Sunsari",
+      "phone": "025-520333",
+      "customer_service": "1912"
+    },
+    {
+      "name": "Dharan Water Supply Office",
+      "name_np": "धरान खानेपानी कार्यालय",
+      "type": "Water Supply Office",
+      "address": "Dharan-5, Sunsari",
+      "phone": "025-520555"
+    },
+    {
+      "name": "District Police Office Sunsari",
+      "name_np": "जिल्ला प्रहरी कार्यालय सुनसरी",
+      "type": "Police",
+      "address": "Dharan, Sunsari",
+      "phone": "025-520111",
+      "emergency": "100"
+    },
+    {
+      "name": "Sunsari Land Revenue Office",
+      "name_np": "सुनसरी मालपोत कार्यालय",
+      "type": "Land Office",
+      "address": "Dharan-6, Sunsari",
+      "phone": "025-520133"
+    },
+    {
+      "name": "Dharan Post Office",
+      "name_np": "धरान हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Dharan-7, Sunsari",
+      "phone": "025-520177"
+    },
+    {
+      "name": "District Transport Office Sunsari",
+      "name_np": "जिल्ला यातायात कार्यालय सुनसरी",
+      "type": "Transport Office",
+      "address": "Dharan-11, Sunsari",
+      "phone": "025-520188"
+    },
+    {
+      "name": "District Forest Office Sunsari",
+      "name_np": "जिल्ला वन कार्यालय सुनसरी",
+      "type": "Forest Office",
+      "address": "Dharan-3, Sunsari",
+      "phone": "025-520211"
+    },
+    {
+      "name": "Agriculture Knowledge Center Sunsari",
+      "name_np": "कृषि ज्ञान केन्द्र सुनसरी",
+      "type": "Agriculture Office",
+      "address": "Dharan-2, Sunsari",
+      "phone": "025-520222"
+    }
+  ]
+}
