@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Kalaiya",
+    "district": "Bara",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Kalaiya Municipality Office",
+      "name_np": "कलैया नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Kalaiya-8, Bara",
+      "phone": "053-550200"
+    },
+    {
+      "name": "District Administration Office, Bara",
+      "name_np": "जिल्ला प्रशासन कार्यालय, बारा",
+      "type": "District Administration",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550100"
+    },
+    {
+      "name": "Nepal Electricity Authority, Kalaiya Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण, कलैया वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550300"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office, Bara",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय, बारा",
+      "type": "Water Supply Office",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550400"
+    },
+    {
+      "name": "District Police Office, Bara",
+      "name_np": "जिल्ला प्रहरी कार्यालय, बारा",
+      "type": "Police",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550500"
+    },
+    {
+      "name": "Land Revenue Office, Bara",
+      "name_np": "मालपोत कार्यालय, बारा",
+      "type": "Land Revenue Office",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550600"
+    },
+    {
+      "name": "Kalaiya Post Office",
+      "name_np": "कलैया हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Kalaiya-1, Bara",
+      "phone": "053-550700"
+    },
+    {
+      "name": "Transport Management Office, Bara",
+      "name_np": "यातायात व्यवस्था कार्यालय, बारा",
+      "type": "Transport Office",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550800"
+    },
+    {
+      "name": "Division Forest Office, Bara",
+      "name_np": "डिभिजन वन कार्यालय, बारा",
+      "type": "Forest Office",
+      "address": "Kalaiya, Bara",
+      "phone": "053-550900"
+    },
+    {
+      "name": "Agriculture Knowledge Center, Bara",
+      "name_np": "कृषि ज्ञान केन्द्र, बारा",
+      "type": "Agriculture Office",
+      "address": "Kalaiya, Bara",
+      "phone": "053-551000"
+    }
+  ]
+}

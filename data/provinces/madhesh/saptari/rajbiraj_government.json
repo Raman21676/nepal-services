@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Rajbiraj Municipality Office",
+      "name_np": "राजविराज नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520100"
+    },
+    {
+      "name": "District Administration Office, Saptari",
+      "name_np": "जिल्ला प्रशासन कार्यालय, सप्तरी",
+      "type": "District Administration",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520200"
+    },
+    {
+      "name": "Nepal Electricity Authority, Rajbiraj Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण, राजविराज वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520300"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office, Saptari",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय, सप्तरी",
+      "type": "Water Supply Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520400"
+    },
+    {
+      "name": "District Police Office, Saptari",
+      "name_np": "जिल्ला प्रहरी कार्यालय, सप्तरी",
+      "type": "Police",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520500"
+    },
+    {
+      "name": "Land Revenue Office, Saptari",
+      "name_np": "मालपोत कार्यालय, सप्तरी",
+      "type": "Land Revenue Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520600"
+    },
+    {
+      "name": "Rajbiraj Post Office",
+      "name_np": "राजविराज हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520700"
+    },
+    {
+      "name": "Transport Management Office, Saptari",
+      "name_np": "यातायात व्यवस्था कार्यालय, सप्तरी",
+      "type": "Transport Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520800"
+    },
+    {
+      "name": "Division Forest Office, Saptari",
+      "name_np": "डिभिजन वन कार्यालय, सप्तरी",
+      "type": "Forest Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-520900"
+    },
+    {
+      "name": "Agriculture Knowledge Center, Saptari",
+      "name_np": "कृषि ज्ञान केन्द्र, सप्तरी",
+      "type": "Agriculture Office",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-521000"
+    },
+    {
+      "name": "Gajendra Narayan Singh Hospital",
+      "name_np": "गजेन्द्र नारायण सिंह अस्पताल",
+      "type": "District Hospital",
+      "address": "Rajbiraj, Saptari",
+      "phone": "031-521100"
+    }
+  ]
+}

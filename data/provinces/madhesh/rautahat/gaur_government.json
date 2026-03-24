@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Gaur Municipality Office",
+      "name_np": "गौर नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540100"
+    },
+    {
+      "name": "District Administration Office, Rautahat",
+      "name_np": "जिल्ला प्रशासन कार्यालय, रौतहट",
+      "type": "District Administration",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540200"
+    },
+    {
+      "name": "Nepal Electricity Authority, Gaur Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण, गौर वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540300"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office, Rautahat",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय, रौतहट",
+      "type": "Water Supply Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540400"
+    },
+    {
+      "name": "District Police Office, Rautahat",
+      "name_np": "जिल्ला प्रहरी कार्यालय, रौतहट",
+      "type": "Police",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540500"
+    },
+    {
+      "name": "Land Revenue Office, Rautahat",
+      "name_np": "मालपोत कार्यालय, रौतहट",
+      "type": "Land Revenue Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540600"
+    },
+    {
+      "name": "Gaur Post Office",
+      "name_np": "गौर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540700"
+    },
+    {
+      "name": "Transport Management Office, Rautahat",
+      "name_np": "यातायात व्यवस्था कार्यालय, रौतहट",
+      "type": "Transport Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540800"
+    },
+    {
+      "name": "Division Forest Office, Rautahat",
+      "name_np": "डिभिजन वन कार्यालय, रौतहट",
+      "type": "Forest Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-540900"
+    },
+    {
+      "name": "Agriculture Knowledge Center, Rautahat",
+      "name_np": "कृषि ज्ञान केन्द्र, रौतहट",
+      "type": "Agriculture Office",
+      "address": "Gaur, Rautahat",
+      "phone": "055-541000"
+    }
+  ]
+}

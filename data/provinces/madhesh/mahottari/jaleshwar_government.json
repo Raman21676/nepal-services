@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Mahottari",
+    "province": "Madhesh Province",
+    "last_updated": "2025-01-20",
+    "source": "Ministry of Federal Affairs and General Administration"
+  },
+  "government_offices": [
+    {
+      "name": "Jaleshwor Municipality Office",
+      "name_np": "जलेश्वर नगरपालिका कार्यालय",
+      "type": "Municipal Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520100"
+    },
+    {
+      "name": "District Administration Office, Mahottari",
+      "name_np": "जिल्ला प्रशासन कार्यालय, महोत्तरी",
+      "type": "District Administration",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520200"
+    },
+    {
+      "name": "Nepal Electricity Authority, Jaleshwor Distribution Center",
+      "name_np": "नेपाल विद्युत प्राधिकरण, जलेश्वर वितरण केन्द्र",
+      "type": "Electricity Office (NEA)",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520300"
+    },
+    {
+      "name": "Water Supply and Sanitation Division Office, Mahottari",
+      "name_np": "खानेपानी तथा सरसफाइ डिभिजन कार्यालय, महोत्तरी",
+      "type": "Water Supply Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520400"
+    },
+    {
+      "name": "District Police Office, Mahottari",
+      "name_np": "जिल्ला प्रहरी कार्यालय, महोत्तरी",
+      "type": "Police",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520500"
+    },
+    {
+      "name": "Land Revenue Office, Mahottari",
+      "name_np": "मालपोत कार्यालय, महोत्तरी",
+      "type": "Land Revenue Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520600"
+    },
+    {
+      "name": "Jaleshwor Post Office",
+      "name_np": "जलेश्वर हुलाक कार्यालय",
+      "type": "Post Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520700"
+    },
+    {
+      "name": "Transport Management Office, Mahottari",
+      "name_np": "यातायात व्यवस्था कार्यालय, महोत्तरी",
+      "type": "Transport Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520800"
+    },
+    {
+      "name": "Division Forest Office, Mahottari",
+      "name_np": "डिभिजन वन कार्यालय, महोत्तरी",
+      "type": "Forest Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-520900"
+    },
+    {
+      "name": "Agriculture Knowledge Center, Mahottari",
+      "name_np": "कृषि ज्ञान केन्द्र, महोत्तरी",
+      "type": "Agriculture Office",
+      "address": "Jaleshwor, Mahottari",
+      "phone": "044-521000"
+    }
+  ]
+}

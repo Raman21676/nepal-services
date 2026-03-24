@@ -142,15 +142,25 @@ class NepalServicesApp {
             { path: 'data/provinces/gandaki/kaski/pokhara_emergency_contacts.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'emergency' },
             { path: 'data/provinces/gandaki/kaski/pokhara_ward_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ward' },
             
-            // Madhesh Province - Birgunj
+            // Madhesh Province - Major Cities
             { path: 'data/provinces/madhesh/parsa/birgunj.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },
-            { path: 'data/provinces/madhesh/parsa/birgunj_schools.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'schools' },
-            { path: 'data/provinces/madhesh/parsa/birgunj_pharmacies.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'pharmacies' },
-            { path: 'data/provinces/madhesh/parsa/birgunj_veterinary.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'veterinary' },
-            
-            // Madhesh Province - Janakpur
+            { path: 'data/provinces/madhesh/parsa/birgunj_government.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'government' },
             { path: 'data/provinces/madhesh/dhanusha/janakpur.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'hospitals' },
-            { path: 'data/provinces/madhesh/dhanusha/janakpur_schools.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'schools' },
+            { path: 'data/provinces/madhesh/dhanusha/janakpur_government.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'government' },
+            
+            // Madhesh Province - District Headquarters
+            { path: 'data/provinces/madhesh/bara/kalaiya.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/bara/kalaiya_government.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'government' },
+            { path: 'data/provinces/madhesh/mahottari/jaleshwar.json', province: 'madhesh', district: 'mahottari', city: 'jaleshwar', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/mahottari/jaleshwar_government.json', province: 'madhesh', district: 'mahottari', city: 'jaleshwar', type: 'government' },
+            { path: 'data/provinces/madhesh/siraha/siraha.json', province: 'madhesh', district: 'siraha', city: 'siraha', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/siraha/siraha_government.json', province: 'madhesh', district: 'siraha', city: 'siraha', type: 'government' },
+            { path: 'data/provinces/madhesh/saptari/rajbiraj.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/saptari/rajbiraj_government.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'government' },
+            { path: 'data/provinces/madhesh/rautahat/gaur.json', province: 'madhesh', district: 'rautahat', city: 'gaur', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/rautahat/gaur_government.json', province: 'madhesh', district: 'rautahat', city: 'gaur', type: 'government' },
+            { path: 'data/provinces/madhesh/sarlahi/malangwa.json', province: 'madhesh', district: 'sarlahi', city: 'malangwa', type: 'hospitals' },
+            { path: 'data/provinces/madhesh/sarlahi/malangwa_government.json', province: 'madhesh', district: 'sarlahi', city: 'malangwa', type: 'government' },
             
             // Lumbini Province - Nepalgunj
             { path: 'data/provinces/lumbini/banke/nepalgunj.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'hospitals' },
