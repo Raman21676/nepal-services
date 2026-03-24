@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "last_updated": "2026-03-24",
+    "description": "Emergency contact numbers for Kathmandu Valley"
+  },
+  "emergency_numbers": [
+    {
+      "service": "Police Emergency",
+      "number": "100",
+      "description": "24/7 Police emergency hotline"
+    },
+    {
+      "service": "Fire Brigade",
+      "number": "101",
+      "description": "Fire emergency services"
+    },
+    {
+      "service": "Ambulance",
+      "number": "102",
+      "description": "Ambulance emergency services"
+    },
+    {
+      "service": "Traffic Police",
+      "number": "103",
+      "description": "Traffic police emergency"
+    },
+    {
+      "service": "Nepal Red Cross Ambulance",
+      "number": "1130",
+      "description": "Red Cross ambulance service"
+    },
+    {
+      "service": "Natural Disaster Emergency",
+      "number": "1149",
+      "description": "Disaster response and rescue"
+    },
+    {
+      "service": "Child Helpline",
+      "number": "1098",
+      "description": "Child protection and support"
+    },
+    {
+      "service": "Women Helpline",
+      "number": "1145",
+      "description": "Women's emergency support"
+    },
+    {
+      "service": "Tourist Police",
+      "number": "1144",
+      "description": "Tourist police helpline"
+    },
+    {
+      "service": "Electricity Emergency (NEA)",
+      "number": "1912",
+      "description": "Nepal Electricity Authority emergency"
+    },
+    {
+      "service": "Water Supply (KUKL)",
+      "number": "01-4258060",
+      "description": "Kathmandu Upatyaka Khanepani Limited"
+    }
+  ],
+  "fire_brigade": [
+    {
+      "id": 1,
+      "name": "Kathmandu Fire Brigade",
+      "address": "Rani Pokhari, Kathmandu",
+      "phone": ["01-4251200", "101"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "Lalitpur Fire Brigade",
+      "address": "Patan, Lalitpur",
+      "phone": ["01-5522022"],
+      "district": "Lalitpur"
+    },
+    {
+      "id": 3,
+      "name": "Bhaktapur Fire Brigade",
+      "address": "Bhaktapur",
+      "phone": ["01-6610666"],
+      "district": "Bhaktapur"
+    }
+  ],
+  "electricity_offices": [
+    {
+      "id": 1,
+      "name": "Nepal Electricity Authority - Head Office",
+      "address": "Ratnapark, Kathmandu",
+      "phone": ["01-4160311", "1912"],
+      "website": "https://www.nea.org.np/",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "NEA - Distribution and Consumer Services",
+      "address": "Ratnapark, Kathmandu",
+      "phone": ["01-4153055"],
+      "website": "https://www.nea.org.np/",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 3,
+      "name": "NEA - Kathmandu Branch",
+      "address": "Kuleshwor, Kathmandu",
+      "phone": ["01-4282079"],
+      "website": "https://www.nea.org.np/",
+      "district": "Kathmandu"
+    }
+  ],
+  "water_offices": [
+    {
+      "id": 1,
+      "name": "Kathmandu Upatyaka Khanepani Limited (KUKL) - Head Office",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": ["01-4258060", "01-4258061"],
+      "website": "https://www.kukl.gov.np/",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "KUKL - Customer Service",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": ["01-4258062"],
+      "website": "https://www.kukl.gov.np/",
+      "district": "Kathmandu"
+    }
+  ],
+  "government_offices": [
+    {
+      "id": 1,
+      "name": "Kathmandu Metropolitan City Office",
+      "address": "Rastriya Sabha Griha, Kathmandu",
+      "phone": ["01-4262025"],
+      "website": "https://kathmandu.gov.np/",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "Lalitpur Metropolitan City Office",
+      "address": "Pulchowk, Lalitpur",
+      "phone": ["01-5527001"],
+      "website": "https://lalitpur.gov.np/",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 3,
+      "name": "Bhaktapur Municipality Office",
+      "address": "Bhaktapur",
+      "phone": ["01-6610620"],
+      "website": "https://bhaktapur.gov.np/",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 4,
+      "name": "District Administration Office Kathmandu",
+      "address": "Babar Mahal, Kathmandu",
+      "phone": ["01-4261538"],
+      "website": null,
+      "district": "Kathmandu"
+    },
+    {
+      "id": 5,
+      "name": "Department of Transport Management",
+      "address": "Ekantakuna, Lalitpur",
+      "phone": ["01-5555496"],
+      "website": "https://www.dotm.gov.np/",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 6,
+      "name": "Department of Immigration",
+      "address": "Kalikasthan, Kathmandu",
+      "phone": ["01-4429659", "01-4433934"],
+      "website": "https://www.immigration.gov.np/",
+      "district": "Kathmandu"
+    }
+  ]
+}

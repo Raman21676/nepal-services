@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "last_updated": "2026-03-24",
+    "source": "Nepal Red Cross, Government Websites, Public Directories",
+    "total_records": 12
+  },
+  "ambulance_services": [
+    {
+      "id": 1,
+      "name": "Nepal Red Cross Society - Kathmandu District",
+      "type": "Emergency Ambulance",
+      "address": "Hanumansthan Marg, Kathmandu 44600",
+      "phone": ["01-4228094", "01-5328094", "1130"],
+      "emergency_number": "1130",
+      "website": "https://ktmredcross.org.np/",
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Lalitpur District",
+      "type": "Emergency Ambulance",
+      "address": "Lalitpur",
+      "phone": ["01-5545666"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Lalitpur",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 3,
+      "name": "Nepal Red Cross Society - Bhaktapur District",
+      "type": "Emergency Ambulance",
+      "address": "Bhaktapur",
+      "phone": ["01-6612266"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Bhaktapur",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 4,
+      "name": "Paropakar Ambulance Service",
+      "type": "Emergency Ambulance",
+      "address": "Thapathali, Kathmandu",
+      "phone": ["01-4251614", "01-4211959"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 5,
+      "name": "Bishal Bazzar Ambulance Service",
+      "type": "Emergency Ambulance",
+      "address": "New Road, Kathmandu",
+      "phone": ["01-4244121"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 6,
+      "name": "Kathmandu Model Hospital Ambulance",
+      "type": "Hospital Ambulance",
+      "address": "Bagbazar, Kathmandu",
+      "phone": ["01-4240805", "01-4244121"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 7,
+      "name": "Shiva Shakti Yuba Sewa Ambulance",
+      "type": "Emergency Ambulance",
+      "address": "Kathmandu",
+      "phone": ["01-4244121"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 8,
+      "name": "Bhagawan Mahavir Jain Niketan Ambulance",
+      "type": "Emergency Ambulance",
+      "address": "Kathmandu",
+      "phone": ["01-4418619", "01-4422280"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 9,
+      "name": "Nepal Police Ambulance",
+      "type": "Police Ambulance",
+      "address": "Kathmandu",
+      "phone": ["100", "01-5971944"],
+      "emergency_number": "100",
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 10,
+      "name": "Kathmandu Metropolitan City Ambulance",
+      "type": "Municipal Ambulance",
+      "address": "Kathmandu",
+      "phone": ["102"],
+      "emergency_number": "102",
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 11,
+      "name": "Kathmandu Ambulance Service (Private)",
+      "type": "Private Ambulance",
+      "address": "Kathmandu",
+      "phone": ["9843080688"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    },
+    {
+      "id": 12,
+      "name": "Blood Transmission Service",
+      "type": "Blood Bank",
+      "address": "Kathmandu",
+      "phone": ["01-4229344", "01-4225344"],
+      "emergency_number": null,
+      "website": null,
+      "district": "Kathmandu",
+      "gps": null,
+      "available_24_7": true
+    }
+  ]
+}
