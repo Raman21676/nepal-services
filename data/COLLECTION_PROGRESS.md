@@ -8,13 +8,13 @@
 ## Completed Cities by Province
 
 ### Bagmati Province (5 cities)
-| City | District | Status | Hospitals | Wards |
-|------|----------|--------|-----------|-------|
-| Kathmandu | Kathmandu | ✅ Complete | 35 | 32 |
-| Lalitpur | Lalitpur | ✅ Complete | 5 | 29 |
-| Bhaktapur | Bhaktapur | ✅ Complete | 8 | 17 |
-| Bharatpur | Chitwan | ✅ Complete | 5 | 29 |
-| Hetauda | Makwanpur | ✅ Complete | 8 | 19 |
+| City | District | Status | Hospitals | Colleges | Clinics | Pharmacies | Veterinary | Blood Banks | Ambulance | Emergency | Wards |
+|------|----------|--------|-----------|----------|---------|------------|------------|-------------|-----------|-----------|-------|
+| Kathmandu | Kathmandu | ✅ Complete | 35 | 8+ | 15+ | 10 | 8 | 8 | ✅ | ✅ | 32 |
+| Lalitpur | Lalitpur | ✅ Complete | 5 | 7 | 15+ | 15+ | 12 | 10 | ✅ | ✅ | 29 |
+| Bhaktapur | Bhaktapur | 🟡 Basic | 8 | - | - | - | - | - | - | - | 17 |
+| Bharatpur | Chitwan | 🟡 Basic | 5 | - | - | - | - | - | - | - | 29 |
+| Hetauda | Makwanpur | 🟡 Basic | 8 | - | - | - | - | - | - | - | 19 |
 
 ### Gandaki Province (1 city)
 | City | District | Status | Hospitals | Wards |
@@ -66,14 +66,14 @@ Each city JSON file contains:
 ## Statistics
 - **Total Hospitals Collected**: ~120+
 - **Total Schools**: ~75+
-- **Total Colleges**: ~50+
-- **Total Clinics**: ~60+
-- **Total Pharmacies**: ~25+
-- **Total Veterinary Services**: ~20+
-- **Total Blood Banks**: ~35+
-- **Total Emergency Contacts**: ~180+
+- **Total Colleges**: ~55+
+- **Total Clinics**: ~75+
+- **Total Pharmacies**: ~40+
+- **Total Veterinary Services**: ~30+
+- **Total Blood Banks**: ~40+
+- **Total Emergency Contacts**: ~200+
 - **Total Ward Offices**: ~300+
-- **Total Data Files**: ~70+
+- **Total Data Files**: ~80+
 - **Website Links Included**: Yes, for all services where available
 
 ## Quality Assurance
