@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "city": "Lalitpur",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-24",
+    "source": "Lalitpur Metropolitan City, Patan Hospital, B&B Hospital"
+  },
+  "hospitals": [
+    {
+      "hospital_name": "Patan Hospital",
+      "type": "Government Teaching Hospital",
+      "ownership": "Government",
+      "address": "Patan, Lalitpur",
+      "phone": ["+977-1-5522295", "+977-1-5521036"],
+      "website": "https://patanhospital.gov.np",
+      "beds": 450,
+      "emergency_available": true,
+      "emergency_phone": ["+977-1-5522295"],
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology",
+        "ENT",
+        "Ophthalmology"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "Laboratory",
+        "Radiology",
+        "Pharmacy",
+        "Blood Bank"
+      ],
+      "note": "One of the oldest and most reputed government hospitals in Nepal"
+    },
+    {
+      "hospital_name": "B&B Hospital",
+      "type": "Multispecialty Hospital",
+      "ownership": "Private",
+      "address": "Gwarko, Lalitpur",
+      "phone": ["+977-1-5531935", "+977-1-5531936"],
+      "email": "info@bbhospital.org",
+      "website": "https://bbhospital.org",
+      "beds": 200,
+      "emergency_available": true,
+      "emergency_phone": ["+977-1-5531935"],
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology",
+        "Urology",
+        "ENT",
+        "Ophthalmology",
+        "Dermatology"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "Dialysis",
+        "CT Scan",
+        "Laboratory",
+        "Pharmacy",
+        "Ambulance"
+      ]
+    },
+    {
+      "hospital_name": "Kist Medical College Teaching Hospital",
+      "type": "Medical College & Teaching Hospital",
+      "ownership": "Private",
+      "address": "Imadol, Lalitpur",
+      "phone": ["+977-1-5201495", "+977-1-5201496"],
+      "website": "https://kistmcth.edu.np",
+      "beds": 700,
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "Cardiology",
+        "Neurology",
+        "Nephrology",
+        "Urology",
+        "ENT",
+        "Ophthalmology",
+        "Psychiatry"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "NICU",
+        "Dialysis",
+        "CT Scan",
+        "MRI",
+        "Laboratory",
+        "Blood Bank",
+        "Ambulance"
+      ],
+      "affiliation": "Tribhuvan University"
+    },
+    {
+      "hospital_name": "Nepal Mediciti Hospital",
+      "type": "Multispecialty Hospital",
+      "ownership": "Private",
+      "address": "Bhaisepati, Lalitpur",
+      "phone": ["+977-1-4217766", "+977-1-4217767"],
+      "email": "info@nepalmediciti.com",
+      "website": "https://nepalmediciti.com",
+      "beds": 350,
+      "emergency_available": true,
+      "emergency_phone": ["+977-1-4217766"],
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Cardiology",
+        "Neurology",
+        "Oncology",
+        "Nephrology",
+        "Urology",
+        "Gastroenterology",
+        "Pulmonology",
+        "Endocrinology",
+        "Rheumatology"
+      ],
+      "services": [
+        "24/7 Emergency",
+        "ICU",
+        "CCU",
+        "NICU",
+        "Dialysis",
+        "Chemotherapy",
+        "CT Scan",
+        "MRI",
+        "PET CT",
+        "Laboratory",
+        "Pharmacy",
+        "Ambulance"
+      ]
+    },
+    {
+      "hospital_name": "Alka Hospital",
+      "type": "Multispecialty Hospital",
+      "ownership": "Private",
+      "address": "Jawalakhel, Lalitpur",
+      "phone": ["+977-1-5545666", "+977-1-5545678"],
+      "email": "info@alkahospital.com",
+      "website": "https://alkahospital.com",
+      "beds": 100,
+      "emergency_available": true,
+      "specialties": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics",
+        "Obstetrics & Gynecology",
+        "Pediatrics",
+        "ENT",
+        "Ophthalmology"
+      ],
+      "services": [
+        "Emergency Services",
+        "ICU",
+        "Laboratory",
+        "Radiology",
+        "Pharmacy"
+      ]
+    }
+  ],
+  "lalitpur_metropolitan_contact": {
+    "office_name": "Lalitpur Metropolitan City",
+    "address": "Pulchowk, Lalitpur, Bagmati Province",
+    "phone": ["+977-1-5422563"],
+    "email": {
+      "general": "info@lmc.gov.np",
+      "mayor": "mayor@lmc.gov.np",
+      "deputy_mayor": "deputy_mayor@lmc.gov.np",
+      "cao": "cao@lmc.gov.np"
+    },
+    "website": "https://lmc.gov.np",
+    "mayor": "Chiri Babu Maharjan",
+    "mayor_mobile": "9851022723",
+    "deputy_mayor": "Manjali Shakya Bajracharya",
+    "deputy_mayor_mobile": "9851018101",
+    "cao": "Rekha Das Shrestha",
+    "cao_mobile": "9851250013"
+  }
+}
