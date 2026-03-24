@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "blood_banks": [
+    {
+      "name": "Biratnagar Blood Bank",
+      "name_np": "विराटनगर ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "Narayani Hospital Campus, Biratnagar-8, Morang",
+      "phone": "021-528001",
+      "hours": "24 Hours",
+      "emergency": "Available"
+    },
+    {
+      "name": "Nobel Medical College Blood Bank",
+      "name_np": "नोबेल मेडिकल कलेज ब्लड बैंक",
+      "type": "Hospital Blood Bank",
+      "address": "Nobel Medical College, Biratnagar-11, Morang",
+      "phone": "021-528002",
+      "hours": "24 Hours"
+    },
+    {
+      "name": "Red Cross Blood Bank Biratnagar",
+      "name_np": "रेडक्रस ब्लड बैंक",
+      "type": "Blood Bank",
+      "address": "Biratnagar-9, Morang",
+      "phone": "021-528003",
+      "hours": "8:00 AM - 8:00 PM"
+    }
+  ]
+}

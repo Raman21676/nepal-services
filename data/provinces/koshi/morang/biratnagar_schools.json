@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "schools": [
+    {
+      "name": "Biratnagar Higher Secondary School",
+      "name_np": "विराटनगर उच्च माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Biratnagar-8, Morang",
+      "phone": "021-526001",
+      "curriculum": "Nepali"
+    },
+    {
+      "name": "Bal Kalyan Higher Secondary School",
+      "name_np": "बाल कल्यान उच्च माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Biratnagar-9, Morang",
+      "phone": "021-526002",
+      "curriculum": "Nepali"
+    },
+    {
+      "name": "Adarsha Secondary School",
+      "name_np": "आदर्श माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Biratnagar-10, Morang",
+      "phone": "021-526003"
+    },
+    {
+      "name": "Gyan Niketan Secondary School",
+      "name_np": "ज्ञान निकेतन माध्यमिक विद्यालय",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Biratnagar-7, Morang",
+      "phone": "021-526004",
+      "curriculum": "English Medium"
+    },
+    {
+      "name": "Shree Pashupati Secondary School",
+      "name_np": "श्री पशुपति माध्यमिक विद्यालय",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Biratnagar-6, Morang",
+      "phone": "021-526005"
+    },
+    {
+      "name": "Koshi Vidya Mandir",
+      "name_np": "कोशी विद्या मन्दिर",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Biratnagar-5, Morang",
+      "phone": "021-526006",
+      "curriculum": "English Medium"
+    },
+    {
+      "name": "Biratnagar Model Secondary School",
+      "name_np": "विराटनगर मोडल माध्यमिक विद्यालय",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Biratnagar-11, Morang",
+      "phone": "021-526007",
+      "curriculum": "English Medium"
+    }
+  ]
+}

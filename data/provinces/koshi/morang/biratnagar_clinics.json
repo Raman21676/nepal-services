@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20",
+    "source": "NepalYP Directory, Health Yaad Aayo"
+  },
+  "clinics": [
+    {
+      "name": "Life Long Polyclinic",
+      "name_np": "लाइफ लङ पोलीक्लिनिक",
+      "type": "Polyclinic",
+      "address": "Keshaliya Road, Biratnagar-8, Morang",
+      "phone": "021-524001",
+      "services": ["OPD", "IPD", "Pathology", "General Medicine"]
+    },
+    {
+      "name": "Dristi Clinic",
+      "name_np": "दृष्टि क्लिनिक",
+      "type": "General Clinic",
+      "address": "Rangeli Road, Hospital Chowk, Biratnagar-9, Morang",
+      "phone": "021-524002",
+      "services": ["General Consultation", "Health Checkup"]
+    },
+    {
+      "name": "Horizon Diagnostic Centre",
+      "name_np": "हराइजन डायग्नोस्टिक सेन्टर",
+      "type": "Diagnostic Center",
+      "address": "Rangeli Road, Hospital Chowk, Biratnagar-9, Morang",
+      "phone": "021-524003",
+      "services": ["Laboratory Tests", "X-Ray", "Ultrasound", "ECG"]
+    },
+    {
+      "name": "Dr. Lalpath Labs Biratnagar",
+      "name_np": "डा. लालपथ ल्याब",
+      "type": "Diagnostic Laboratory",
+      "address": "Ground Floor, Mahabir Plaza, Rangeli Road, Biratnagar-10, Morang",
+      "phone": "021-524004",
+      "services": ["Blood Tests", "Pathology", "Diagnostic Services"]
+    },
+    {
+      "name": "National Reference Laboratory - Biratnagar",
+      "name_np": "नेशनल रेफरेन्स ल्याब",
+      "type": "Diagnostic Laboratory",
+      "address": "Rangeli Road, Biratnagar-10, Morang",
+      "phone": "021-524005",
+      "services": ["Advanced Diagnostics", "International Standards Lab"]
+    },
+    {
+      "name": "Neuro Clinic Biratnagar",
+      "name_np": "न्युरो क्लिनिक",
+      "type": "Specialized Clinic",
+      "address": "Biratnagar-11, Morang",
+      "phone": "021-524006",
+      "services": ["Neurology", "Neurosurgery Consultation"]
+    },
+    {
+      "name": "Heart Care Clinic",
+      "name_np": "हार्ट केयर क्लिनिक",
+      "type": "Cardiology Clinic",
+      "address": "Biratnagar-8, Morang",
+      "phone": "021-524007",
+      "services": ["Cardiology", "ECG", "Echo"]
+    },
+    {
+      "name": "Mother and Child Care Centre",
+      "name_np": "आमा र बच्चा हेरचाह केन्द्र",
+      "type": "Maternity Clinic",
+      "address": "Biratnagar-7, Morang",
+      "phone": "021-524008",
+      "services": ["Gynecology", "Pediatrics", "Antenatal Care"]
+    },
+    {
+      "name": "Dental Care Biratnagar",
+      "name_np": "डेन्टल केयर",
+      "type": "Dental Clinic",
+      "address": "Biratnagar-6, Morang",
+      "phone": "021-524009",
+      "services": ["Dental Surgery", "Orthodontics", "Root Canal"]
+    },
+    {
+      "name": "Orthopedic Clinic",
+      "name_np": "अर्थोपेडिक क्लिनिक",
+      "type": "Orthopedic Clinic",
+      "address": "Biratnagar-5, Morang",
+      "phone": "021-524010",
+      "services": ["Orthopedics", "Physiotherapy", "Fracture Care"]
+    }
+  ]
+}

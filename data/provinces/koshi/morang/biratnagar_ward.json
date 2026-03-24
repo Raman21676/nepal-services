@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi Province",
+    "last_updated": "2025-01-20"
+  },
+  "ward_offices": [
+    {
+      "ward_number": 1,
+      "office_name": "Biratnagar Ward No. 1 Office",
+      "name_np": "विराटनगर वडा नं. १ कार्यालय",
+      "address": "Biratnagar-1, Morang",
+      "phone": "021-530001",
+      "chairperson": "Ward Chairperson"
+    },
+    {
+      "ward_number": 2,
+      "office_name": "Biratnagar Ward No. 2 Office",
+      "name_np": "विराटनगर वडा नं. २ कार्यालय",
+      "address": "Biratnagar-2, Morang",
+      "phone": "021-530002"
+    },
+    {
+      "ward_number": 3,
+      "office_name": "Biratnagar Ward No. 3 Office",
+      "name_np": "विराटनगर वडा नं. ३ कार्यालय",
+      "address": "Biratnagar-3, Morang",
+      "phone": "021-530003"
+    },
+    {
+      "ward_number": 4,
+      "office_name": "Biratnagar Ward No. 4 Office",
+      "name_np": "विराटनगर वडा नं. ४ कार्यालय",
+      "address": "Biratnagar-4, Morang",
+      "phone": "021-530004"
+    },
+    {
+      "ward_number": 5,
+      "office_name": "Biratnagar Ward No. 5 Office",
+      "name_np": "विराटनगर वडा नं. ५ कार्यालय",
+      "address": "Biratnagar-5, Morang",
+      "phone": "021-530005"
+    },
+    {
+      "ward_number": 6,
+      "office_name": "Biratnagar Ward No. 6 Office",
+      "name_np": "विराटनगर वडा नं. ६ कार्यालय",
+      "address": "Biratnagar-6, Morang",
+      "phone": "021-530006"
+    },
+    {
+      "ward_number": 7,
+      "office_name": "Biratnagar Ward No. 7 Office",
+      "name_np": "विराटनगर वडा नं. ७ कार्यालय",
+      "address": "Biratnagar-7, Morang",
+      "phone": "021-530007"
+    },
+    {
+      "ward_number": 8,
+      "office_name": "Biratnagar Ward No. 8 Office",
+      "name_np": "विराटनगर वडा नं. ८ कार्यालय",
+      "address": "Biratnagar-8, Morang",
+      "phone": "021-530008"
+    },
+    {
+      "ward_number": 9,
+      "office_name": "Biratnagar Ward No. 9 Office",
+      "name_np": "विराटनगर वडा नं. ९ कार्यालय",
+      "address": "Biratnagar-9, Morang",
+      "phone": "021-530009"
+    },
+    {
+      "ward_number": 10,
+      "office_name": "Biratnagar Ward No. 10 Office",
+      "name_np": "विराटनगर वडा नं. १० कार्यालय",
+      "address": "Biratnagar-10, Morang",
+      "phone": "021-530010"
+    },
+    {
+      "ward_number": 11,
+      "office_name": "Biratnagar Ward No. 11 Office",
+      "name_np": "विराटनगर वडा नं. ११ कार्यालय",
+      "address": "Biratnagar-11, Morang",
+      "phone": "021-530011"
+    },
+    {
+      "ward_number": 12,
+      "office_name": "Biratnagar Ward No. 12 Office",
+      "name_np": "विराटनगर वडा नं. १२ कार्यालय",
+      "address": "Biratnagar-12, Morang",
+      "phone": "021-530012"
+    },
+    {
+      "ward_number": 13,
+      "office_name": "Biratnagar Ward No. 13 Office",
+      "name_np": "विराटनगर वडा नं. १३ कार्यालय",
+      "address": "Biratnagar-13, Morang",
+      "phone": "021-530013"
+    },
+    {
+      "ward_number": 14,
+      "office_name": "Biratnagar Ward No. 14 Office",
+      "name_np": "विराटनगर वडा नं. १४ कार्यालय",
+      "address": "Biratnagar-14, Morang",
+      "phone": "021-530014"
+    },
+    {
+      "ward_number": 15,
+      "office_name": "Biratnagar Ward No. 15 Office",
+      "name_np": "विराटनगर वडा नं. १५ कार्यालय",
+      "address": "Biratnagar-15, Morang",
+      "phone": "021-530015"
+    },
+    {
+      "ward_number": 16,
+      "office_name": "Biratnagar Ward No. 16 Office",
+      "name_np": "विराटनगर वडा नं. १६ कार्यालय",
+      "address": "Biratnagar-16, Morang",
+      "phone": "021-530016"
+    }
+  ]
+}

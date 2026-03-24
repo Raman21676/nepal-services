@@ -94,6 +94,15 @@ class NepalServicesApp {
             
             // Koshi Province - Major Cities
             { path: 'data/provinces/koshi/morang/biratnagar.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
+            { path: 'data/provinces/koshi/morang/biratnagar_clinics.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'clinics' },
+            { path: 'data/provinces/koshi/morang/biratnagar_pharmacies.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'pharmacies' },
+            { path: 'data/provinces/koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
+            { path: 'data/provinces/koshi/morang/biratnagar_colleges.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'colleges' },
+            { path: 'data/provinces/koshi/morang/biratnagar_blood_banks.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'blood_banks' },
+            { path: 'data/provinces/koshi/morang/biratnagar_ambulance.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ambulance' },
+            { path: 'data/provinces/koshi/morang/biratnagar_emergency.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'emergency' },
+            { path: 'data/provinces/koshi/morang/biratnagar_veterinary.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'veterinary' },
+            { path: 'data/provinces/koshi/morang/biratnagar_ward.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward' },
             { path: 'data/provinces/koshi/morang/biratnagar_government.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'government' },
             { path: 'data/provinces/koshi/sunsari/dharan.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'hospitals' },
             { path: 'data/provinces/koshi/sunsari/dharan_government.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'government' },
