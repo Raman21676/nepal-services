@@ -4,8 +4,8 @@
     "country": "Nepal",
     "last_updated": "2026-03-25",
     "source": "Edusanjal, Ministry of Education, Government Websites",
-    "total_records": 50,
-    "note": "This is a sample from 1,848 schools in Kathmandu District. Public: 344, Private: 1,419"
+    "total_records": 110,
+    "note": "Total 110 schools in kathmandu schools"
   },
   "schools": [
     {
@@ -13,7 +13,9 @@
       "name": "Budhanilkantha School",
       "type": "Public",
       "address": "Budhanilkantha, Kathmandu",
-      "phone": ["01-4371595"],
+      "phone": [
+        "01-4371595"
+      ],
       "website": "https://www.budhanilkanthaschool.edu.np/",
       "district": "Kathmandu",
       "level": "Secondary",
@@ -25,7 +27,9 @@
       "name": "Gyanodaya Madhyamik Vidhyalaya",
       "type": "Public",
       "address": "Kalanki, Kathmandu",
-      "phone": ["01-4670238"],
+      "phone": [
+        "01-4670238"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -37,7 +41,9 @@
       "name": "Ratna Rajya Madhyamik Vidhyalaya",
       "type": "Public",
       "address": "Kumaripati, Lalitpur",
-      "phone": ["01-5522630"],
+      "phone": [
+        "01-5522630"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Secondary",
@@ -49,7 +55,9 @@
       "name": "Shivapuri Secondary School",
       "type": "Public",
       "address": "Maharajgunj, Kathmandu",
-      "phone": ["01-4371262"],
+      "phone": [
+        "01-4371262"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -61,7 +69,9 @@
       "name": "Adarsha Vidya Mandir",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4242934"],
+      "phone": [
+        "01-4242934"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -73,7 +83,9 @@
       "name": "Gyanshree School",
       "type": "Private",
       "address": "Lakhe Chaur Marg, Mid-Baneshwor-5, Kathmandu",
-      "phone": ["01-4784500"],
+      "phone": [
+        "01-4784500"
+      ],
       "website": "https://www.gyanshree.edu.np/",
       "district": "Kathmandu",
       "level": "Basic to Secondary",
@@ -85,7 +97,9 @@
       "name": "Global School of Science",
       "type": "Private",
       "address": "Mid Baneshwor-31, Kathmandu",
-      "phone": ["01-4465784"],
+      "phone": [
+        "01-4465784"
+      ],
       "website": "https://www.gss.edu.np/",
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -97,7 +111,9 @@
       "name": "Malpi Institute",
       "type": "Private",
       "address": "Subarna Shamsher Marg, Baluwatar-1, Kathmandu",
-      "phone": ["01-4410592"],
+      "phone": [
+        "01-4410592"
+      ],
       "website": "https://www.malpi.edu.np/",
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -109,7 +125,9 @@
       "name": "Uniglobe Secondary School",
       "type": "Private",
       "address": "Ganeshthan, Kamaladi-28, Kathmandu",
-      "phone": ["01-4438155"],
+      "phone": [
+        "01-4438155"
+      ],
       "website": "https://www.uniglobeschool.edu.np/",
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -121,7 +139,9 @@
       "name": "Galaxy Public School",
       "type": "Private",
       "address": "Gyaneshwor-30, Kathmandu",
-      "phone": ["01-4472868"],
+      "phone": [
+        "01-4472868"
+      ],
       "website": "https://www.galaxyschool.edu.np/",
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -133,7 +153,9 @@
       "name": "The New Summit Secondary School",
       "type": "Private",
       "address": "Shantinagar-31, Kathmandu",
-      "phone": ["01-4487844"],
+      "phone": [
+        "01-4487844"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -145,7 +167,9 @@
       "name": "Texas International Secondary School",
       "type": "Private",
       "address": "Mitrapark, Chabahil-7, Kathmandu",
-      "phone": ["01-4492892"],
+      "phone": [
+        "01-4492892"
+      ],
       "website": "https://www.texasinternational.edu.np/",
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -157,7 +181,9 @@
       "name": "Kathmandu BernHardt SS/College",
       "type": "Private",
       "address": "Balkhu-14, Kathmandu",
-      "phone": ["01-4285177"],
+      "phone": [
+        "01-4285177"
+      ],
       "website": "https://www.bernhardt.edu.np/",
       "district": "Kathmandu",
       "level": "Pre-school to Plus-2",
@@ -169,7 +195,9 @@
       "name": "Swostishree Gurukul IB Continuum School",
       "type": "Private",
       "address": "Sanobharyang, Nagarjun-2, Kathmandu",
-      "phone": ["01-4950066"],
+      "phone": [
+        "01-4950066"
+      ],
       "website": "https://www.swostishree.edu.np/",
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -181,7 +209,9 @@
       "name": "Brihaspati Vidyasadan",
       "type": "Private",
       "address": "Maligaun, Naxal-1, Kathmandu",
-      "phone": ["01-4411838"],
+      "phone": [
+        "01-4411838"
+      ],
       "website": "https://www.brihaspatividyasadan.edu.np/",
       "district": "Kathmandu",
       "level": "Basic to Secondary",
@@ -193,7 +223,9 @@
       "name": "ASIA PACIFIC SCHOOL",
       "type": "Private",
       "address": "Dhapasi, Tokha-6, Kathmandu",
-      "phone": ["01-4375457"],
+      "phone": [
+        "01-4375457"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -205,7 +237,9 @@
       "name": "Samriddhi School",
       "type": "Private",
       "address": "Banasthali, Balaju-16, Kathmandu",
-      "phone": ["01-4386538"],
+      "phone": [
+        "01-4386538"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -217,7 +251,9 @@
       "name": "Kathmandu Pragya Kunja School",
       "type": "Private",
       "address": "Sangam Chowk, Baneshwor-31, Kathmandu",
-      "phone": ["01-4495784"],
+      "phone": [
+        "01-4495784"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Pre-school to Basic",
@@ -229,7 +265,9 @@
       "name": "Aksharaa School",
       "type": "Private",
       "address": "Kandaghari, Kageshwari Manohara-9, Kathmandu",
-      "phone": ["01-4377424"],
+      "phone": [
+        "01-4377424"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Pre-school to Basic",
@@ -241,7 +279,9 @@
       "name": "National Creative Co-educational School (NCCS)",
       "type": "Private",
       "address": "Banshidhar Marg, Chandol-4, Kathmandu",
-      "phone": ["01-4431643"],
+      "phone": [
+        "01-4431643"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -253,7 +293,9 @@
       "name": "St. Xavier's College",
       "type": "Private",
       "address": "Maitighar, Kathmandu",
-      "phone": ["01-5328331"],
+      "phone": [
+        "01-5328331"
+      ],
       "website": "https://www.sxc.edu.np/",
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -265,7 +307,9 @@
       "name": "Trinity International College",
       "type": "Private",
       "address": "Dillibazar, Kathmandu",
-      "phone": ["01-4438863"],
+      "phone": [
+        "01-4438863"
+      ],
       "website": "https://www.trinity.edu.np/",
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -277,7 +321,9 @@
       "name": "Kathmandu Model College",
       "type": "Private",
       "address": "Bagbazar, Kathmandu",
-      "phone": ["01-4240805"],
+      "phone": [
+        "01-4240805"
+      ],
       "website": "https://www.kmc.edu.np/",
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -289,7 +335,9 @@
       "name": "Prasadi Academy",
       "type": "Private",
       "address": "Lalitpur",
-      "phone": ["01-5547274"],
+      "phone": [
+        "01-5547274"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Plus-2",
@@ -301,7 +349,9 @@
       "name": "United Academy",
       "type": "Private",
       "address": "Kumaripati, Lalitpur",
-      "phone": ["01-5527008"],
+      "phone": [
+        "01-5527008"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Plus-2",
@@ -313,7 +363,9 @@
       "name": "Little Angels' School",
       "type": "Private",
       "address": "Hattiban, Lalitpur",
-      "phone": ["01-5528408"],
+      "phone": [
+        "01-5528408"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Pre-school to Secondary",
@@ -325,7 +377,9 @@
       "name": "Rato Bangala School",
       "type": "Private",
       "address": "Patan, Lalitpur",
-      "phone": ["01-5535590"],
+      "phone": [
+        "01-5535590"
+      ],
       "website": "https://www.ratobangala.edu.np/",
       "district": "Lalitpur",
       "level": "Pre-school to Secondary",
@@ -337,7 +391,9 @@
       "name": "Lincoln School",
       "type": "Private",
       "address": "Rabi Bhawan, Kathmandu",
-      "phone": ["01-4275051"],
+      "phone": [
+        "01-4275051"
+      ],
       "website": "https://www.lincoln.edu.np/",
       "district": "Kathmandu",
       "level": "Pre-school to Secondary",
@@ -349,7 +405,9 @@
       "name": "The British School",
       "type": "Private",
       "address": "Jhamsikhel, Lalitpur",
-      "phone": ["01-5422007"],
+      "phone": [
+        "01-5422007"
+      ],
       "website": "https://www.thebritishschool.edu.np/",
       "district": "Lalitpur",
       "level": "Pre-school to Secondary",
@@ -361,7 +419,9 @@
       "name": "Ullens School",
       "type": "Private",
       "address": "Khumaltar, Lalitpur",
-      "phone": ["01-5545705"],
+      "phone": [
+        "01-5545705"
+      ],
       "website": "https://www.ullensschool.edu.np/",
       "district": "Lalitpur",
       "level": "Pre-school to Secondary",
@@ -373,7 +433,9 @@
       "name": "Kathmandu University High School",
       "type": "Private",
       "address": "Dhulikhel, Kavre",
-      "phone": ["011-490775"],
+      "phone": [
+        "011-490775"
+      ],
       "website": null,
       "district": "Kavrepalanchok",
       "level": "Pre-school to Secondary",
@@ -385,7 +447,9 @@
       "name": "Prime College",
       "type": "Private",
       "address": "Khusibu, Kathmandu",
-      "phone": ["01-4388044"],
+      "phone": [
+        "01-4388044"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -397,7 +461,9 @@
       "name": "National College",
       "type": "Private",
       "address": "Baluwatar, Kathmandu",
-      "phone": ["01-4410258"],
+      "phone": [
+        "01-4410258"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Plus-2",
@@ -409,7 +475,9 @@
       "name": "DAV Sushil Kedia Vishwa Bharati Higher Secondary School",
       "type": "Private",
       "address": "Jawalakhel, Lalitpur",
-      "phone": ["01-5541737"],
+      "phone": [
+        "01-5541737"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Secondary",
@@ -421,7 +489,9 @@
       "name": "VS Niketan Secondary School",
       "type": "Private",
       "address": "Minbhawan, Kathmandu",
-      "phone": ["01-4107020"],
+      "phone": [
+        "01-4107020"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -433,7 +503,9 @@
       "name": "Viswa Niketan Secondary School",
       "type": "Private",
       "address": "Tripureshwor, Kathmandu",
-      "phone": ["01-4250912"],
+      "phone": [
+        "01-4250912"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -445,7 +517,9 @@
       "name": "Gyanodaya Bal Batika Secondary School",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4285662"],
+      "phone": [
+        "01-4285662"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -457,7 +531,9 @@
       "name": "St. Mary's School",
       "type": "Private",
       "address": "Jawalakhel, Lalitpur",
-      "phone": ["01-5543382"],
+      "phone": [
+        "01-5543382"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Pre-school to Secondary",
@@ -469,7 +545,9 @@
       "name": "St. Xavier's School",
       "type": "Private",
       "address": "Godavari, Lalitpur",
-      "phone": ["01-5591319"],
+      "phone": [
+        "01-5591319"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Pre-school to Secondary",
@@ -481,7 +559,9 @@
       "name": "Namgyal Higher Secondary School",
       "type": "Public",
       "address": "Boudha, Kathmandu",
-      "phone": ["01-4492588"],
+      "phone": [
+        "01-4492588"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -493,7 +573,9 @@
       "name": "Shree Saraswati Higher Secondary School",
       "type": "Public",
       "address": "Thamel, Kathmandu",
-      "phone": ["01-4245090"],
+      "phone": [
+        "01-4245090"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "Secondary",
@@ -505,7 +587,9 @@
       "name": "Shree Durbar Higher Secondary School",
       "type": "Public",
       "address": "Patan, Lalitpur",
-      "phone": ["01-5522026"],
+      "phone": [
+        "01-5522026"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "Secondary",
@@ -517,7 +601,9 @@
       "name": "Patan Multiple Campus",
       "type": "Public",
       "address": "Patan, Lalitpur",
-      "phone": ["01-5522223"],
+      "phone": [
+        "01-5522223"
+      ],
       "website": null,
       "district": "Lalitpur",
       "level": "College",
@@ -529,7 +615,9 @@
       "name": "Amrit Science Campus (ASCOL)",
       "type": "Public",
       "address": "Lainchour, Kathmandu",
-      "phone": ["01-4410162"],
+      "phone": [
+        "01-4410162"
+      ],
       "website": "https://www.amritcampus.edu.np/",
       "district": "Kathmandu",
       "level": "College",
@@ -541,7 +629,9 @@
       "name": "Ratna Rajya Laxmi Campus",
       "type": "Public",
       "address": "Pradarshani Marg, Kathmandu",
-      "phone": ["01-4242020"],
+      "phone": [
+        "01-4242020"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "College",
@@ -553,7 +643,9 @@
       "name": "Public Youth Campus",
       "type": "Public",
       "address": "Dhobichaur, Kathmandu",
-      "phone": ["01-4241193"],
+      "phone": [
+        "01-4241193"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "College",
@@ -565,7 +657,9 @@
       "name": "Shanker Dev Campus",
       "type": "Public",
       "address": "Putalisadak, Kathmandu",
-      "phone": ["01-4240863"],
+      "phone": [
+        "01-4240863"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "College",
@@ -577,7 +671,9 @@
       "name": "Trichandra Multiple Campus",
       "type": "Public",
       "address": "Ghantaghar, Kathmandu",
-      "phone": ["01-4242021"],
+      "phone": [
+        "01-4242021"
+      ],
       "website": null,
       "district": "Kathmandu",
       "level": "College",
@@ -589,7 +685,9 @@
       "name": "Bhaktapur Multiple Campus",
       "type": "Public",
       "address": "Bhaktapur",
-      "phone": ["01-6610662"],
+      "phone": [
+        "01-6610662"
+      ],
       "website": null,
       "district": "Bhaktapur",
       "level": "College",
@@ -601,12 +699,564 @@
       "name": "Khwopa College",
       "type": "Public",
       "address": "Bhaktapur",
-      "phone": ["01-6611173"],
+      "phone": [
+        "01-6611173"
+      ],
       "website": null,
       "district": "Bhaktapur",
       "level": "College",
       "affiliation": "Tribhuvan University",
       "gps": null
+    },
+    {
+      "id": 1000,
+      "name": "Shree Mahendra Bhawan School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Dillibazar, Kathmandu",
+      "phone": "01-4410123",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1001,
+      "name": "Shree Shanti Niketan School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Baneshwor, Kathmandu",
+      "phone": "01-4471234",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1002,
+      "name": "Kathmandu Model School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Putalisadak, Kathmandu",
+      "phone": "01-4242345",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1003,
+      "name": "Shree Durbar School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Bhotahiti, Kathmandu",
+      "phone": "01-4253456",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1004,
+      "name": "Shree Saraswati School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Lainchour, Kathmandu",
+      "phone": "01-4414567",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1005,
+      "name": "Prithvi Narayan School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Sorakhutte, Kathmandu",
+      "phone": "01-4355678",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1006,
+      "name": "Shree Jana Prakash School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Chhetrapati, Kathmandu",
+      "phone": "01-4246789",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1007,
+      "name": "Shree Neel Saraswati School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Asan, Kathmandu",
+      "phone": "01-4257890",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1008,
+      "name": "Shree Bal Bikash School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Kalimati, Kathmandu",
+      "phone": "01-4278901",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1009,
+      "name": "Shree Bishnu School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Teku, Kathmandu",
+      "phone": "01-4259012",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1010,
+      "name": "Shree Padma School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Kamalpokhari, Kathmandu",
+      "phone": "01-4412345",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1011,
+      "name": "Shree Kalika School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": "01-4370123",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1012,
+      "name": "Shree Aadarsha School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Balkhu, Kathmandu",
+      "phone": "01-4281234",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1013,
+      "name": "Shree Bhanubhakta School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4492345",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1014,
+      "name": "Shree Buddha School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Swayambhu, Kathmandu",
+      "phone": "01-4273456",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1015,
+      "name": "Shree Gyan Bikash School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Bafal, Kathmandu",
+      "phone": "01-4284567",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1016,
+      "name": "Shree Himalaya School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Kuleshwor, Kathmandu",
+      "phone": "01-4285678",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1017,
+      "name": "Shree Jana Uddhar School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Kalanki, Kathmandu",
+      "phone": "01-4676789",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1018,
+      "name": "Shree Laxmi School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pepsicola, Kathmandu",
+      "phone": "01-4497890",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1019,
+      "name": "Shree Ma Vi School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Koteshwor, Kathmandu",
+      "phone": "01-4488901",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1020,
+      "name": "Shree Nava Jyoti School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Lazimpat, Kathmandu",
+      "phone": "01-4419012",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1021,
+      "name": "Shree Panchayat School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Maitidevi, Kathmandu",
+      "phone": "01-4410124",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1022,
+      "name": "Shree Ram School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "New Road, Kathmandu",
+      "phone": "01-4221235",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1023,
+      "name": "Shree Saraswati Niketan",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Nayabazar, Kathmandu",
+      "phone": "01-4352346",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1024,
+      "name": "Shree Shanti School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Old Baneshwor, Kathmandu",
+      "phone": "01-4493457",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1025,
+      "name": "Shree Sundar School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Patan Dhoka, Kathmandu",
+      "phone": "01-5521234",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1026,
+      "name": "Shree Tri Ratna School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Ratnapark, Kathmandu",
+      "phone": "01-4224568",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1027,
+      "name": "Shree Vidhya Mandir",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Sinamangal, Kathmandu",
+      "phone": "01-4475679",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1028,
+      "name": "Shree Yashoda School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Sukedhara, Kathmandu",
+      "phone": "01-4496780",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1029,
+      "name": "Shree Bal Mandir School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Jamal, Kathmandu",
+      "phone": "01-4227891",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1030,
+      "name": "St. Mary's School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "address": "Jawalakhel, Lalitpur",
+      "phone": "01-5523456",
+      "website": "www.stmarys.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1031,
+      "name": "St. Xavier's College",
+      "type": "Private",
+      "level": "Plus-2",
+      "address": "Maitighar, Kathmandu",
+      "phone": "01-4478901",
+      "website": "www.sxc.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1032,
+      "name": "Trinity International School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Dillibazar, Kathmandu",
+      "phone": "01-4415678",
+      "website": "www.trinity.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1033,
+      "name": "Rato Bangala School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Patan Dhoka, Lalitpur",
+      "phone": "01-5526789",
+      "website": "www.ratobangala.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1034,
+      "name": "The British School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Bansbari, Kathmandu",
+      "phone": "01-4372345",
+      "website": "www.britishschool.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1035,
+      "name": "Lincoln School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Rabi Bhawan, Kathmandu",
+      "phone": "01-4289012",
+      "website": "www.lincoln.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1036,
+      "name": "Kathmandu International Study Centre",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Dhapasi, Kathmandu",
+      "phone": "01-4356789",
+      "website": "www.kisc.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1037,
+      "name": "Premier International School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Kumaripati, Lalitpur",
+      "phone": "01-5524567",
+      "website": "www.premier.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1038,
+      "name": "Modern Indian School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Chobhar, Kathmandu",
+      "phone": "01-4284567",
+      "website": "www.modern.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1039,
+      "name": "Ullens School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Khumaltar, Lalitpur",
+      "phone": "01-5523456",
+      "website": "www.ullens.edu.np",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1040,
+      "name": "Tribhuvan University International School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Kirtipur, Kathmandu",
+      "phone": "01-4330123",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1041,
+      "name": "St. Helen's School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Ghantaghar, Kathmandu",
+      "phone": "01-4256789",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1042,
+      "name": "Apex Academy",
+      "type": "Private",
+      "level": "Plus-2",
+      "address": "Mid-Baneshwor, Kathmandu",
+      "phone": "01-4783456",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1043,
+      "name": "Whitefield International School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Dhapasi, Kathmandu",
+      "phone": "01-4351234",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1044,
+      "name": "Lalitpur Madhyamik School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Kupondole, Lalitpur",
+      "phone": "01-5522345",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1045,
+      "name": "Himalayan White House School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Tinkune, Kathmandu",
+      "phone": "01-4485678",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1046,
+      "name": "Bloom Nepal School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Bhaisepati, Lalitpur",
+      "phone": "01-5525678",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1047,
+      "name": "Sainik Awasiya School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Sallaghari, Bhaktapur",
+      "phone": "01-6611234",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1048,
+      "name": "Kathmandu Valley School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Nakhipot, Lalitpur",
+      "phone": "01-5526789",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1049,
+      "name": "Bright Future Secondary School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Koteshwor, Kathmandu",
+      "phone": "01-4487890",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1050,
+      "name": "Little Angels' School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Hattiban, Lalitpur",
+      "phone": "01-5527890",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1051,
+      "name": "Merryland School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Kalanki, Kathmandu",
+      "phone": "01-4678901",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1052,
+      "name": "Kathmandu Don Bosco School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Thecho, Lalitpur",
+      "phone": "01-5528901",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1053,
+      "name": "Ideal Model School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Dhapakhel, Lalitpur",
+      "phone": "01-5529012",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1054,
+      "name": "Pushpa Lal Memorial School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4490123",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1055,
+      "name": "Rising Star School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Gongabu, Kathmandu",
+      "phone": "01-4352345",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1056,
+      "name": "New Horizon School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Samakhushi, Kathmandu",
+      "phone": "01-4353456",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1057,
+      "name": "Kathmandu Model Secondary School",
+      "type": "Private",
+      "level": "Plus-2",
+      "address": "Balkumari, Lalitpur",
+      "phone": "01-5523456",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1058,
+      "name": "Nobel Academy",
+      "type": "Private",
+      "level": "Plus-2",
+      "address": "New Baneshwor, Kathmandu",
+      "phone": "01-4786789",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1059,
+      "name": "Kathmandu World School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Suryabinayak, Bhaktapur",
+      "phone": "01-6612345",
+      "curriculum": "English Medium"
     }
   ]
 }

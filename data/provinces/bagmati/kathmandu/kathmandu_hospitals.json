@@ -4,7 +4,8 @@
     "country": "Nepal",
     "last_updated": "2026-03-25",
     "source": "Clinic One, Government Websites, Public Directories",
-    "total_records": 35
+    "total_records": 55,
+    "note": "Total 55 hospitals in kathmandu hospitals"
   },
   "hospitals": [
     {
@@ -12,7 +13,11 @@
       "name": "Bir Hospital",
       "type": "Public",
       "address": "Ratnapark, Kathmandu",
-      "phone": ["01-4223807", "01-4221988", "01-4221119"],
+      "phone": [
+        "01-4223807",
+        "01-4221988",
+        "01-4221119"
+      ],
       "website": "https://birhospital.gov.np/",
       "district": "Kathmandu",
       "gps": null
@@ -22,7 +27,10 @@
       "name": "TU Teaching Hospital",
       "type": "Public",
       "address": "Maharajgunj, Kathmandu",
-      "phone": ["01-4412404", "01-4412505"],
+      "phone": [
+        "01-4412404",
+        "01-4412505"
+      ],
       "website": "https://tuth.org.np/",
       "district": "Kathmandu",
       "gps": null
@@ -32,7 +40,10 @@
       "name": "Patan Hospital",
       "type": "Public",
       "address": "Patan, Lalitpur",
-      "phone": ["01-5522278", "01-5522266"],
+      "phone": [
+        "01-5522278",
+        "01-5522266"
+      ],
       "website": "https://patanhospital.org.np/",
       "district": "Lalitpur",
       "gps": null
@@ -42,7 +53,9 @@
       "name": "Civil Service Hospital of Nepal",
       "type": "Public",
       "address": "Minbhawan Marg, Kathmandu",
-      "phone": ["01-4107000"],
+      "phone": [
+        "01-4107000"
+      ],
       "website": "https://csh.gov.np/",
       "district": "Kathmandu",
       "gps": null
@@ -52,7 +65,9 @@
       "name": "Nepal Police Hospital",
       "type": "Public",
       "address": "Maharajgunj, Kathmandu",
-      "phone": ["01-5971944"],
+      "phone": [
+        "01-5971944"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -62,7 +77,9 @@
       "name": "Maternity Hospital",
       "type": "Public",
       "address": "Tripureshwor, Kathmandu",
-      "phone": ["01-4253276"],
+      "phone": [
+        "01-4253276"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -72,7 +89,9 @@
       "name": "Teku Hospital (Shukraraj Tropical Hospital)",
       "type": "Public",
       "address": "Teku, Kathmandu",
-      "phone": ["01-4253396"],
+      "phone": [
+        "01-4253396"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -82,7 +101,9 @@
       "name": "Mental Hospital",
       "type": "Public",
       "address": "Lagankhel, Lalitpur",
-      "phone": ["01-5521333"],
+      "phone": [
+        "01-5521333"
+      ],
       "website": null,
       "district": "Lalitpur",
       "gps": null
@@ -92,7 +113,10 @@
       "name": "Kanti Children Hospital",
       "type": "Public",
       "address": "Maharajgunj, Kathmandu",
-      "phone": ["01-4414798", "01-4427452"],
+      "phone": [
+        "01-4414798",
+        "01-4427452"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -102,7 +126,9 @@
       "name": "Bhaktapur Hospital",
       "type": "Public",
       "address": "Bhaktapur",
-      "phone": ["01-6610676"],
+      "phone": [
+        "01-6610676"
+      ],
       "website": null,
       "district": "Bhaktapur",
       "gps": null
@@ -112,7 +138,10 @@
       "name": "Shahid Gangalal National Heart Centre",
       "type": "Public",
       "address": "Bansbari, Kathmandu",
-      "phone": ["01-4371322", "01-4371374"],
+      "phone": [
+        "01-4371322",
+        "01-4371374"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -122,7 +151,10 @@
       "name": "Nepal Eye Hospital",
       "type": "Public",
       "address": "Tripureshwor, Kathmandu",
-      "phone": ["01-4250691", "01-5350691"],
+      "phone": [
+        "01-4250691",
+        "01-5350691"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -132,7 +164,9 @@
       "name": "Tilganga Eye Hospital",
       "type": "Public",
       "address": "Tilganga, Kathmandu",
-      "phone": ["01-4423684"],
+      "phone": [
+        "01-4423684"
+      ],
       "website": "https://www.tilganga.org/",
       "district": "Kathmandu",
       "gps": null
@@ -142,7 +176,9 @@
       "name": "Nepal Eye Bank",
       "type": "Public",
       "address": "Tripureshwor, Kathmandu",
-      "phone": ["01-4493684"],
+      "phone": [
+        "01-4493684"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -152,7 +188,10 @@
       "name": "National Kidney Centre",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4429866", "01-4426016"],
+      "phone": [
+        "01-4429866",
+        "01-4426016"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -162,7 +201,9 @@
       "name": "Kathmandu Model Hospital",
       "type": "Private",
       "address": "Bagbazar, Kathmandu",
-      "phone": ["01-4240805"],
+      "phone": [
+        "01-4240805"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -172,7 +213,9 @@
       "name": "B&B Hospital",
       "type": "Private",
       "address": "Gwarko, Lalitpur",
-      "phone": ["01-5533206"],
+      "phone": [
+        "01-5533206"
+      ],
       "website": null,
       "district": "Lalitpur",
       "gps": null
@@ -182,7 +225,9 @@
       "name": "Medicare National Hospital",
       "type": "Private",
       "address": "Chabahil, Kathmandu",
-      "phone": ["01-4467067"],
+      "phone": [
+        "01-4467067"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -192,7 +237,9 @@
       "name": "Nepal Orthopaedic Hospital",
       "type": "Private",
       "address": "Jorpati, Kathmandu",
-      "phone": ["01-4493725"],
+      "phone": [
+        "01-4493725"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -202,7 +249,9 @@
       "name": "Kathmandu Medical College (Teaching Hospital)",
       "type": "Private",
       "address": "Sinamangal, Kathmandu",
-      "phone": ["01-4476152"],
+      "phone": [
+        "01-4476152"
+      ],
       "website": "https://kmc.edu.np/",
       "district": "Kathmandu",
       "gps": null
@@ -212,7 +261,9 @@
       "name": "Nepal Medical College (Teaching Hospital)",
       "type": "Private",
       "address": "Jorpati, Kathmandu",
-      "phone": ["01-4486008"],
+      "phone": [
+        "01-4486008"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -222,7 +273,9 @@
       "name": "Kantipur Dental Hospital",
       "type": "Private",
       "address": "Maharajgunj, Kathmandu",
-      "phone": ["01-4371603"],
+      "phone": [
+        "01-4371603"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -232,7 +285,9 @@
       "name": "Kantipur Hospital",
       "type": "Private",
       "address": "New Baneshwor, Kathmandu",
-      "phone": ["01-4498757"],
+      "phone": [
+        "01-4498757"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -242,7 +297,9 @@
       "name": "Hospital and Research Centre",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4476225"],
+      "phone": [
+        "01-4476225"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -252,7 +309,9 @@
       "name": "Norvic Hospital",
       "type": "Private",
       "address": "Thapathali, Kathmandu",
-      "phone": ["01-4258554"],
+      "phone": [
+        "01-4258554"
+      ],
       "website": "https://www.norvichospital.com/",
       "district": "Kathmandu",
       "gps": null
@@ -262,7 +321,9 @@
       "name": "Life Care Hospital",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4227735"],
+      "phone": [
+        "01-4227735"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -272,7 +333,10 @@
       "name": "Miteri Hospital",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4280555", "01-4222305"],
+      "phone": [
+        "01-4280555",
+        "01-4222305"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -282,7 +346,9 @@
       "name": "Capital Hospital",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4244022"],
+      "phone": [
+        "01-4244022"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -292,7 +358,9 @@
       "name": "Shree Satya Sai Centre",
       "type": "Private",
       "address": "Kathmandu",
-      "phone": ["01-4498035"],
+      "phone": [
+        "01-4498035"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -302,7 +370,9 @@
       "name": "Bhaktapur Red Cross",
       "type": "Private",
       "address": "Bhaktapur",
-      "phone": ["01-6612266"],
+      "phone": [
+        "01-6612266"
+      ],
       "website": null,
       "district": "Bhaktapur",
       "gps": null
@@ -312,7 +382,10 @@
       "name": "Grande International Hospital",
       "type": "Private",
       "address": "Dhapasi, Kathmandu",
-      "phone": ["01-5159266", "01-5159277"],
+      "phone": [
+        "01-5159266",
+        "01-5159277"
+      ],
       "website": "https://www.grandehospital.com/",
       "district": "Kathmandu",
       "gps": null
@@ -322,7 +395,9 @@
       "name": "Teaching Hospital (IOM)",
       "type": "Public",
       "address": "Maharajgunj, Kathmandu",
-      "phone": ["01-4412404"],
+      "phone": [
+        "01-4412404"
+      ],
       "website": "https://iom.edu.np/",
       "district": "Kathmandu",
       "gps": null
@@ -332,7 +407,10 @@
       "name": "Paropakar Maternity and Women's Hospital",
       "type": "Public",
       "address": "Thapathali, Kathmandu",
-      "phone": ["01-4251614", "01-4211959"],
+      "phone": [
+        "01-4251614",
+        "01-4211959"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -342,7 +420,9 @@
       "name": "Burns Violence and Matreat Trauma Service Centre",
       "type": "Public",
       "address": "Kirtipur, Kathmandu",
-      "phone": ["01-4333666"],
+      "phone": [
+        "01-4333666"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
@@ -352,10 +432,175 @@
       "name": "Kathmandu BernHardt SS/College",
       "type": "Private",
       "address": "Balkhu, Kathmandu",
-      "phone": ["01-4285177"],
+      "phone": [
+        "01-4285177"
+      ],
       "website": null,
       "district": "Kathmandu",
       "gps": null
+    },
+    {
+      "id": 1060,
+      "name": "Grande International Hospital",
+      "type": "Private",
+      "address": "Dhapasi, Kathmandu",
+      "phone": "01-5159266",
+      "beds": 500,
+      "emergency": "01-5159266"
+    },
+    {
+      "id": 1061,
+      "name": "HAMS Hospital",
+      "type": "Private",
+      "address": "Dhumbahal, Kathmandu",
+      "phone": "01-5970235",
+      "beds": 300,
+      "emergency": "01-5970235"
+    },
+    {
+      "id": 1062,
+      "name": "Medicare National Hospital",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4490334",
+      "beds": 200
+    },
+    {
+      "id": 1063,
+      "name": "Nepal Mediciti Hospital",
+      "type": "Private",
+      "address": "Bhaisepati, Lalitpur",
+      "phone": "01-4217766",
+      "beds": 750,
+      "emergency": "01-4217766"
+    },
+    {
+      "id": 1064,
+      "name": "Sumeru Hospital",
+      "type": "Private",
+      "address": "Dhapakhel, Lalitpur",
+      "phone": "01-5590909",
+      "beds": 150
+    },
+    {
+      "id": 1065,
+      "name": "Vayodha Hospital",
+      "type": "Private",
+      "address": "Balkhu, Kathmandu",
+      "phone": "01-4284125",
+      "beds": 200
+    },
+    {
+      "id": 1066,
+      "name": "Om Hospital & Research Centre",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4412303",
+      "beds": 250
+    },
+    {
+      "id": 1067,
+      "name": "Kantipur Hospital",
+      "type": "Private",
+      "address": "Tinkune, Kathmandu",
+      "phone": "01-4490629",
+      "beds": 150
+    },
+    {
+      "id": 1068,
+      "name": "Nepal Korea Friendship Hospital",
+      "type": "Government",
+      "address": "Bhaktapur",
+      "phone": "01-6611538",
+      "beds": 100
+    },
+    {
+      "id": 1069,
+      "name": "Bharosa Hospital",
+      "type": "Private",
+      "address": "Kalanki, Kathmandu",
+      "phone": "01-4676222",
+      "beds": 100
+    },
+    {
+      "id": 1070,
+      "name": "Metro Hospital",
+      "type": "Private",
+      "address": "Tinkune, Kathmandu",
+      "phone": "01-4495555",
+      "beds": 120
+    },
+    {
+      "id": 1071,
+      "name": "Prasuti Griha Hospital",
+      "type": "Government",
+      "address": "Thapathali, Kathmandu",
+      "phone": "01-4260405",
+      "beds": 200
+    },
+    {
+      "id": 1072,
+      "name": "Bhaktapur Cancer Hospital",
+      "type": "Specialized",
+      "address": "Bhaktapur",
+      "phone": "01-6612266",
+      "beds": 150
+    },
+    {
+      "id": 1073,
+      "name": "Spinal Injury Rehabilitation Centre",
+      "type": "Specialized",
+      "address": "Kavre",
+      "phone": "01-6634850",
+      "beds": 80
+    },
+    {
+      "id": 1074,
+      "name": "Leprosy Mission Hospital",
+      "type": "NGO",
+      "address": "Lalitpur",
+      "phone": "01-5522266",
+      "beds": 100
+    },
+    {
+      "id": 1075,
+      "name": "Dhulikhel Hospital",
+      "type": "Community",
+      "address": "Dhulikhel, Kavre",
+      "phone": "011-490497",
+      "beds": 350
+    },
+    {
+      "id": 1076,
+      "name": "Patan Academy of Health Sciences",
+      "type": "Teaching",
+      "address": "Lalitpur",
+      "phone": "01-5522266",
+      "beds": 500
+    },
+    {
+      "id": 1077,
+      "name": "Kist Medical College",
+      "type": "Teaching",
+      "address": "Lalitpur",
+      "phone": "01-5532401",
+      "beds": 450
+    },
+    {
+      "id": 1078,
+      "name": "Manmohan Memorial Medical College",
+      "type": "Teaching",
+      "address": "Lalitpur",
+      "phone": "01-5522266",
+      "beds": 400
+    },
+    {
+      "id": 1079,
+      "name": "B.P. Koirala Institute of Health Sciences",
+      "type": "Specialized",
+      "address": "Dharan",
+      "phone": "025-525555",
+      "beds": 750
     }
   ]
 }

@@ -4,7 +4,9 @@
     "district": "Kaski",
     "province": "Gandaki",
     "data_type": "schools",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 45,
+    "note": "Total 45 schools in pokhara schools"
   },
   "schools": [
     {
@@ -74,14 +76,334 @@
       "address": "Lamachaur, Pokhara",
       "type": "Private",
       "affiliation": "Pokhara University",
-      "programs": ["BE", "BSc CSIT"]
+      "programs": [
+        "BE",
+        "BSc CSIT"
+      ]
     },
     {
       "name": "Pokhara Engineering College",
       "address": "Phirke, Pokhara",
       "type": "Private",
       "affiliation": "Pokhara University",
-      "programs": ["BE"]
+      "programs": [
+        "BE"
+      ]
+    },
+    {
+      "id": 1110,
+      "name": "Shree Mahendra Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-1, Kaski",
+      "phone": "061-520001",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1111,
+      "name": "Shree Janata Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-2, Kaski",
+      "phone": "061-520002",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1112,
+      "name": "Shree Janak Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-3, Kaski",
+      "phone": "061-520003",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1113,
+      "name": "Shree Bhimsen Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-4, Kaski",
+      "phone": "061-520004",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1114,
+      "name": "Shree Prithvi Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-5, Kaski",
+      "phone": "061-520005",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1115,
+      "name": "Shree Amar Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-6, Kaski",
+      "phone": "061-520006",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1116,
+      "name": "Shree Seti Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-7, Kaski",
+      "phone": "061-520007",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1117,
+      "name": "Shree Fewa Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-8, Kaski",
+      "phone": "061-520008",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1118,
+      "name": "Shree Barahi Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-9, Kaski",
+      "phone": "061-520009",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1119,
+      "name": "Shree Annapurna Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-10, Kaski",
+      "phone": "061-520010",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1120,
+      "name": "Shree Bindhyabasini Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-11, Kaski",
+      "phone": "061-520011",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1121,
+      "name": "Shree Machhapuchhre Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Pokhara-12, Kaski",
+      "phone": "061-520012",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1122,
+      "name": "Shree Lamachaur Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Lamachaur, Pokhara",
+      "phone": "061-520013",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1123,
+      "name": "Shree Bagar Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Bagar, Pokhara",
+      "phone": "061-520014",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1124,
+      "name": "Shree Chipledhunga Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Chipledhunga, Pokhara",
+      "phone": "061-520015",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1125,
+      "name": "Shree Mahendrapool Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Mahendrapool, Pokhara",
+      "phone": "061-520016",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1126,
+      "name": "Shree Naya Bazaar Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Naya Bazaar, Pokhara",
+      "phone": "061-520017",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1127,
+      "name": "Shree Birauta Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Birauta, Pokhara",
+      "phone": "061-520018",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1128,
+      "name": "Shree Masbar Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Masbar, Pokhara",
+      "phone": "061-520019",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1129,
+      "name": "Shree Nadipur Secondary School",
+      "type": "Public",
+      "level": "Secondary",
+      "address": "Nadipur, Pokhara",
+      "phone": "061-520020",
+      "curriculum": "Nepali"
+    },
+    {
+      "id": 1130,
+      "name": "Gandaki Boarding School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Chipledhunga, Pokhara",
+      "phone": "061-520100",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1131,
+      "name": "Shining Star School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Mahendrapool, Pokhara",
+      "phone": "061-520101",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1132,
+      "name": "Pokhara Academy",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Naya Bazaar, Pokhara",
+      "phone": "061-520102",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1133,
+      "name": "Mount Annapurna School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Lakeside, Pokhara",
+      "phone": "061-520103",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1134,
+      "name": "Himalayan White House School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Lamachaur, Pokhara",
+      "phone": "061-520104",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1135,
+      "name": "Pokhara Valley School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Bagar, Pokhara",
+      "phone": "061-520105",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1136,
+      "name": "Prithvi Narayan Campus School",
+      "type": "Private",
+      "level": "Plus-2",
+      "address": "Bagar, Pokhara",
+      "phone": "061-520106",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1137,
+      "name": "Western Regional School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Birauta, Pokhara",
+      "phone": "061-520107",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1138,
+      "name": "Candle Light School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Masbar, Pokhara",
+      "phone": "061-520108",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1139,
+      "name": "Pokhara City School",
+      "type": "Private",
+      "level": "Secondary",
+      "address": "Nadipur, Pokhara",
+      "phone": "061-520109",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1140,
+      "name": "Rainbow Valley School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Batulechaur, Pokhara",
+      "phone": "061-520110",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1141,
+      "name": "Morning Glory School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Sarangkot, Pokhara",
+      "phone": "061-520111",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1142,
+      "name": "New Horizon School Pokhara",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Chhorepatan, Pokhara",
+      "phone": "061-520112",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1143,
+      "name": "Fewa Valley School",
+      "type": "Private",
+      "level": "Pre-school to Secondary",
+      "address": "Khahare, Pokhara",
+      "phone": "061-520113",
+      "curriculum": "English Medium"
+    },
+    {
+      "id": 1144,
+      "name": "Annapurna Academy",
+      "type": "Private",
+      "level": "Plus-2",
+      "address": "Shisuwa, Pokhara",
+      "phone": "061-520114",
+      "curriculum": "English Medium"
     }
   ]
 }

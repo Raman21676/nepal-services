@@ -4,7 +4,9 @@
     "district": "Kaski",
     "province": "Gandaki",
     "data_type": "clinics",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 26,
+    "note": "Total 26 clinics in pokhara clinics"
   },
   "clinics": [
     {
@@ -13,14 +15,22 @@
       "contact": "061-588460",
       "contact_secondary": "061-580460",
       "type": "Diagnostic Center",
-      "services": ["Laboratory", "Radiology", "Health Checkups"]
+      "services": [
+        "Laboratory",
+        "Radiology",
+        "Health Checkups"
+      ]
     },
     {
       "name": "Himalaya Polyclinic & Diagnostic Centre",
       "address": "Parsyang-Chipledhunga, Pokhara",
       "contact": "061-419541",
       "type": "Polyclinic",
-      "services": ["OPD", "Diagnostics", "Pharmacy"]
+      "services": [
+        "OPD",
+        "Diagnostics",
+        "Pharmacy"
+      ]
     },
     {
       "name": "LifeCare Diagnostics & Research Center",
@@ -28,7 +38,11 @@
       "contact": "061-521844",
       "contact_secondary": "061-521845",
       "type": "Diagnostic Center",
-      "services": ["Pathology", "Radiology", "Health Packages"]
+      "services": [
+        "Pathology",
+        "Radiology",
+        "Health Packages"
+      ]
     },
     {
       "name": "United Reference Laboratory (URL)",
@@ -36,21 +50,169 @@
       "contact": "061-543503",
       "contact_secondary": "061-570503",
       "type": "Reference Lab",
-      "services": ["Advanced Diagnostics", "Specialized Tests"]
+      "services": [
+        "Advanced Diagnostics",
+        "Specialized Tests"
+      ]
     },
     {
       "name": "National Reference Laboratory (NRL)",
       "address": "New Road, Pokhara",
       "contact": "061-540003",
       "type": "Reference Lab",
-      "services": ["Laboratory Services"]
+      "services": [
+        "Laboratory Services"
+      ]
     },
     {
       "name": "URL Hospital Chowk Diagnostic",
       "address": "Ramghat, Pokhara",
       "contact": "061-584289",
       "type": "Diagnostic Center",
-      "services": ["Diagnostics", "Health Checkups"]
+      "services": [
+        "Diagnostics",
+        "Health Checkups"
+      ]
+    },
+    {
+      "id": 1165,
+      "name": "Pokhara Diagnostic Centre",
+      "type": "Diagnostic",
+      "address": "Chipledhunga, Pokhara",
+      "phone": "061-531001"
+    },
+    {
+      "id": 1166,
+      "name": "Manipal Clinic",
+      "type": "Private",
+      "address": "Phulbari, Pokhara",
+      "phone": "061-526416"
+    },
+    {
+      "id": 1167,
+      "name": "Fewa Medical Centre",
+      "type": "Private",
+      "address": "Lakeside, Pokhara",
+      "phone": "061-531002"
+    },
+    {
+      "id": 1168,
+      "name": "Charak Polyclinic",
+      "type": "Private",
+      "address": "Mahendrapool, Pokhara",
+      "phone": "061-531003"
+    },
+    {
+      "id": 1169,
+      "name": "Gandaki Medical Clinic",
+      "type": "Private",
+      "address": "Lekhnath, Pokhara",
+      "phone": "061-531004"
+    },
+    {
+      "id": 1170,
+      "name": "Nobel Medical Clinic",
+      "type": "Private",
+      "address": "Birauta, Pokhara",
+      "phone": "061-531005"
+    },
+    {
+      "id": 1171,
+      "name": "Pokhara Dental Clinic",
+      "type": "Dental",
+      "address": "New Road, Pokhara",
+      "phone": "061-531006"
+    },
+    {
+      "id": 1172,
+      "name": "Mountain View Clinic",
+      "type": "Private",
+      "address": "Barahi Path, Pokhara",
+      "phone": "061-531007"
+    },
+    {
+      "id": 1173,
+      "name": "Lakeside Health Centre",
+      "type": "Private",
+      "address": "Lakeside, Pokhara",
+      "phone": "061-531008"
+    },
+    {
+      "id": 1174,
+      "name": "City Medical Clinic",
+      "type": "Private",
+      "address": "Naya Bazaar, Pokhara",
+      "phone": "061-531009"
+    },
+    {
+      "id": 1175,
+      "name": "Annapurna Health Care",
+      "type": "Private",
+      "address": "Bagar, Pokhara",
+      "phone": "061-531010"
+    },
+    {
+      "id": 1176,
+      "name": "Himalayan Clinic",
+      "type": "Private",
+      "address": "Lamachaur, Pokhara",
+      "phone": "061-531011"
+    },
+    {
+      "id": 1177,
+      "name": "Metro Polyclinic Pokhara",
+      "type": "Private",
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": "061-531012"
+    },
+    {
+      "id": 1178,
+      "name": "Pokhara Eye Care Centre",
+      "type": "Specialized",
+      "address": "Chipledhunga, Pokhara",
+      "phone": "061-531013"
+    },
+    {
+      "id": 1179,
+      "name": "Life Line Clinic",
+      "type": "Private",
+      "address": "Mahendrapool, Pokhara",
+      "phone": "061-531014"
+    },
+    {
+      "id": 1180,
+      "name": "Shree Pashupati Clinic",
+      "type": "Private",
+      "address": "Birauta, Pokhara",
+      "phone": "061-531015"
+    },
+    {
+      "id": 1181,
+      "name": "Hope Medical Clinic",
+      "type": "Private",
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": "061-531016"
+    },
+    {
+      "id": 1182,
+      "name": "Family Health Centre",
+      "type": "Private",
+      "address": "Amarsingh Chowk, Pokhara",
+      "phone": "061-531017"
+    },
+    {
+      "id": 1183,
+      "name": "Modern Clinic Pokhara",
+      "type": "Private",
+      "address": "Nadipur, Pokhara",
+      "phone": "061-531018"
+    },
+    {
+      "id": 1184,
+      "name": "Sunrise Medical Centre",
+      "type": "Private",
+      "address": "Batulechaur, Pokhara",
+      "phone": "061-531019"
     }
   ]
 }

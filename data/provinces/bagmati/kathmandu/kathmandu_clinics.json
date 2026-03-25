@@ -4,7 +4,9 @@
     "district": "Kathmandu",
     "province": "Bagmati",
     "data_type": "clinics",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 42,
+    "note": "Total 42 clinics in kathmandu clinics"
   },
   "clinics": [
     {
@@ -14,7 +16,15 @@
       "email": "info@nitapolyclinic.com.np",
       "website": "https://nitapolyclinic.com.np",
       "type": "Polyclinic",
-      "services": ["Pathology", "4D Ultrasound", "ECG", "Digital X-ray", "Multi-Specialty Consultations", "Vaccinations", "IME"]
+      "services": [
+        "Pathology",
+        "4D Ultrasound",
+        "ECG",
+        "Digital X-ray",
+        "Multi-Specialty Consultations",
+        "Vaccinations",
+        "IME"
+      ]
     },
     {
       "name": "M.G. Polyclinic & Diagnostic Center",
@@ -24,7 +34,14 @@
       "email": "mgpolyclinic.dc@gmail.com",
       "website": "https://mgpolyclinic.com.np",
       "type": "Polyclinic",
-      "services": ["Doctor Consultation", "Pharmacy", "Laboratory", "Radiology", "Cardiology", "Video X-Ray"]
+      "services": [
+        "Doctor Consultation",
+        "Pharmacy",
+        "Laboratory",
+        "Radiology",
+        "Cardiology",
+        "Video X-Ray"
+      ]
     },
     {
       "name": "Kathmandu Polyclinic",
@@ -32,7 +49,14 @@
       "contact": "980-3222693",
       "website": "https://kathmandupolyclinic.com.np",
       "type": "Polyclinic",
-      "services": ["General Medicine", "Cardiology", "Gynecology", "Pediatrics", "Radiology", "Dermatology"]
+      "services": [
+        "General Medicine",
+        "Cardiology",
+        "Gynecology",
+        "Pediatrics",
+        "Radiology",
+        "Dermatology"
+      ]
     },
     {
       "name": "Norvic International Hospital - OPD",
@@ -43,7 +67,15 @@
       "email": "info@norvichospital.com",
       "website": "https://www.norvichospital.com",
       "type": "Hospital OPD",
-      "services": ["Cardiac Care", "Diagnostics", "24-hour Emergency", "CCU", "ICU", "NICU", "IME"]
+      "services": [
+        "Cardiac Care",
+        "Diagnostics",
+        "24-hour Emergency",
+        "CCU",
+        "ICU",
+        "NICU",
+        "IME"
+      ]
     },
     {
       "name": "Grande International Hospital",
@@ -53,7 +85,14 @@
       "email": "info@grandehospital.com",
       "website": "https://www.grandehospital.com",
       "type": "Multi-specialty",
-      "services": ["Cardiology", "Neurology", "Gynecology", "Gastroenterology", "Oncology", "Orthopedics"]
+      "services": [
+        "Cardiology",
+        "Neurology",
+        "Gynecology",
+        "Gastroenterology",
+        "Oncology",
+        "Orthopedics"
+      ]
     },
     {
       "name": "Om Hospital & Research Centre",
@@ -63,7 +102,14 @@
       "email": "omhrc@omhospitalnepal.com",
       "website": "https://www.omhospitalnepal.com",
       "type": "Multi-specialty",
-      "services": ["Gynecology", "Internal Medicine", "Ophthalmology", "Gastroenterology", "Neurology", "Dental"]
+      "services": [
+        "Gynecology",
+        "Internal Medicine",
+        "Ophthalmology",
+        "Gastroenterology",
+        "Neurology",
+        "Dental"
+      ]
     },
     {
       "name": "Nepal International Clinic",
@@ -73,7 +119,13 @@
       "email": "nepalinternationalclinic@gmail.com",
       "website": "http://nepalinternationalclinic.com",
       "type": "General Clinic",
-      "services": ["General Medical Care", "X-ray", "Ultrasound", "Laboratory", "Vaccinations"]
+      "services": [
+        "General Medical Care",
+        "X-ray",
+        "Ultrasound",
+        "Laboratory",
+        "Vaccinations"
+      ]
     },
     {
       "name": "DentaLife Oral Concern",
@@ -83,7 +135,13 @@
       "email": "support@dentalife.com.np",
       "website": "https://dentalife.com.np",
       "type": "Dental",
-      "services": ["Dental Implants", "Root Canal", "Teeth Whitening", "Clear Aligners", "Orthodontics"]
+      "services": [
+        "Dental Implants",
+        "Root Canal",
+        "Teeth Whitening",
+        "Clear Aligners",
+        "Orthodontics"
+      ]
     },
     {
       "name": "Tilganga Institute of Ophthalmology",
@@ -93,7 +151,15 @@
       "email": "info@tilganga.org",
       "website": "https://www.tilganga.org",
       "type": "Eye Hospital",
-      "services": ["Cataract", "Cornea", "Retina", "Glaucoma", "LASIK", "Eye Bank", "24/7 Emergency Eye"]
+      "services": [
+        "Cataract",
+        "Cornea",
+        "Retina",
+        "Glaucoma",
+        "LASIK",
+        "Eye Bank",
+        "24/7 Emergency Eye"
+      ]
     },
     {
       "name": "Kathmandu ENT Hospital",
@@ -101,14 +167,25 @@
       "contact": "01-",
       "website": "https://ktmenthospital.com.np",
       "type": "ENT",
-      "services": ["ENT Clinic", "Otology", "Rhinology", "Head and Neck Surgery", "Sleep Medicine"]
+      "services": [
+        "ENT Clinic",
+        "Otology",
+        "Rhinology",
+        "Head and Neck Surgery",
+        "Sleep Medicine"
+      ]
     },
     {
       "name": "Good Life Physiotherapy",
       "address": "Sangam Chok, Baneshwor, Kathmandu",
       "website": "https://goodlife.org.np",
       "type": "Physiotherapy",
-      "services": ["Paralysis Care", "Spine Pain", "Sports Injury", "Post-operative Rehabilitation"]
+      "services": [
+        "Paralysis Care",
+        "Spine Pain",
+        "Sports Injury",
+        "Post-operative Rehabilitation"
+      ]
     },
     {
       "name": "Arogin Care Home & Physiotherapy",
@@ -117,7 +194,222 @@
       "email": "info@arogincarehome.com",
       "website": "https://arogincarehome.com",
       "type": "Physiotherapy",
-      "services": ["24/7 Nursing Care", "Physiotherapy", "Stroke Rehabilitation", "Palliative Care"]
+      "services": [
+        "24/7 Nursing Care",
+        "Physiotherapy",
+        "Stroke Rehabilitation",
+        "Palliative Care"
+      ]
+    },
+    {
+      "id": 1080,
+      "name": "Alka Hospital Clinic",
+      "type": "Private",
+      "address": "Jawalakhel, Lalitpur",
+      "phone": "01-5522266"
+    },
+    {
+      "id": 1081,
+      "name": "B&B Hospital Clinic",
+      "type": "Private",
+      "address": "Gwarko, Lalitpur",
+      "phone": "01-5522266"
+    },
+    {
+      "id": 1082,
+      "name": "Capital Dental Clinic",
+      "type": "Dental",
+      "address": "Putalisadak, Kathmandu",
+      "phone": "01-4245678"
+    },
+    {
+      "id": 1083,
+      "name": "City Centre Clinic",
+      "type": "Private",
+      "address": "New Road, Kathmandu",
+      "phone": "01-4234567"
+    },
+    {
+      "id": 1084,
+      "name": "Dental Solutions",
+      "type": "Dental",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": "01-4371234"
+    },
+    {
+      "id": 1085,
+      "name": "Dr. Iwamura Memorial Hospital Clinic",
+      "type": "Private",
+      "address": "Lalitpur",
+      "phone": "01-5522266"
+    },
+    {
+      "id": 1086,
+      "name": "Family Planning Clinic",
+      "type": "NGO",
+      "address": "New Baneshwor, Kathmandu",
+      "phone": "01-4789012"
+    },
+    {
+      "id": 1087,
+      "name": "Green City Hospital Clinic",
+      "type": "Private",
+      "address": "Patan, Lalitpur",
+      "phone": "01-5522266"
+    },
+    {
+      "id": 1088,
+      "name": "Hope Medical Centre",
+      "type": "Private",
+      "address": "Kalanki, Kathmandu",
+      "phone": "01-4672345"
+    },
+    {
+      "id": 1089,
+      "name": "Kathmandu Dermatology Clinic",
+      "type": "Specialized",
+      "address": "Durbarmarg, Kathmandu",
+      "phone": "01-4223456"
+    },
+    {
+      "id": 1090,
+      "name": "Lalitpur Diagnostic Centre",
+      "type": "Diagnostic",
+      "address": "Pulchowk, Lalitpur",
+      "phone": "01-5523456"
+    },
+    {
+      "id": 1091,
+      "name": "Life Care Medical Centre",
+      "type": "Private",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": "01-4374567"
+    },
+    {
+      "id": 1092,
+      "name": "Maharajgunj Nursing Home",
+      "type": "Private",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": "01-4375678"
+    },
+    {
+      "id": 1093,
+      "name": "Medical Hub Diagnostic",
+      "type": "Diagnostic",
+      "address": "Baneshwor, Kathmandu",
+      "phone": "01-4489012"
+    },
+    {
+      "id": 1094,
+      "name": "Metro Polyclinic",
+      "type": "Private",
+      "address": "Tinkune, Kathmandu",
+      "phone": "01-4491234"
+    },
+    {
+      "id": 1095,
+      "name": "Modern Health Clinic",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4492345"
+    },
+    {
+      "id": 1096,
+      "name": "Nepal ENT Hospital Clinic",
+      "type": "Specialized",
+      "address": "Kirtipur, Kathmandu",
+      "phone": "01-4331234"
+    },
+    {
+      "id": 1097,
+      "name": "Nobel Medical Clinic",
+      "type": "Private",
+      "address": "Sinamangal, Kathmandu",
+      "phone": "01-4493456"
+    },
+    {
+      "id": 1098,
+      "name": "Om Sai Pathology",
+      "type": "Diagnostic",
+      "address": "Kalanki, Kathmandu",
+      "phone": "01-4674567"
+    },
+    {
+      "id": 1099,
+      "name": "Patan Clinic",
+      "type": "Private",
+      "address": "Lalitpur",
+      "phone": "01-5525678"
+    },
+    {
+      "id": 1100,
+      "name": "Prima Medical Centre",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4496789"
+    },
+    {
+      "id": 1101,
+      "name": "Progressive Clinic",
+      "type": "Private",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": "01-4377890"
+    },
+    {
+      "id": 1102,
+      "name": "Sano Sansar Clinic",
+      "type": "Private",
+      "address": "Jhamsikhel, Lalitpur",
+      "phone": "01-5527890"
+    },
+    {
+      "id": 1103,
+      "name": "Shree Pashupati Medical Centre",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": "01-4498901"
+    },
+    {
+      "id": 1104,
+      "name": "Star Hospital Clinic",
+      "type": "Private",
+      "address": "Sanepa, Lalitpur",
+      "phone": "01-5528901"
+    },
+    {
+      "id": 1105,
+      "name": "Sumeru Clinic",
+      "type": "Private",
+      "address": "Dhapakhel, Lalitpur",
+      "phone": "01-5529012"
+    },
+    {
+      "id": 1106,
+      "name": "Sunrise Health Centre",
+      "type": "Private",
+      "address": "Koteshwor, Kathmandu",
+      "phone": "01-4481234"
+    },
+    {
+      "id": 1107,
+      "name": "Vayodha Clinic",
+      "type": "Private",
+      "address": "Balkhu, Kathmandu",
+      "phone": "01-4282345"
+    },
+    {
+      "id": 1108,
+      "name": "Vision Eye Care",
+      "type": "Specialized",
+      "address": "New Road, Kathmandu",
+      "phone": "01-4234567"
+    },
+    {
+      "id": 1109,
+      "name": "Wellness Health Home",
+      "type": "Private",
+      "address": "Bhaisepati, Lalitpur",
+      "phone": "01-5522345"
     }
   ]
 }

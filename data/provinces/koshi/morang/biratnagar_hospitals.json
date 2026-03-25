@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "last_updated": "2026-03-25",
+    "total_records": 20
+  },
+  "hospitals": [
+    {
+      "id": 1220,
+      "name": "Bir Hospital Biratnagar",
+      "type": "Government",
+      "address": "Biratnagar-9, Morang",
+      "phone": "021-420251",
+      "beds": 200,
+      "emergency": "021-420251"
+    },
+    {
+      "id": 1221,
+      "name": "Nobel Medical College Teaching Hospital",
+      "type": "Teaching",
+      "address": "Biratnagar-11, Morang",
+      "phone": "021-460305",
+      "beds": 750,
+      "emergency": "021-460305"
+    },
+    {
+      "id": 1222,
+      "name": "Birat Medical College & Teaching Hospital",
+      "type": "Teaching",
+      "address": "Biratnagar-8, Morang",
+      "phone": "021-460736",
+      "beds": 700,
+      "emergency": "021-460736"
+    },
+    {
+      "id": 1223,
+      "name": "Koshi Hospital",
+      "type": "Government",
+      "address": "Biratnagar-15, Morang",
+      "phone": "021-470061",
+      "beds": 100,
+      "emergency": "021-470061"
+    },
+    {
+      "id": 1224,
+      "name": "Sukraraj Tropical & Infectious Disease Hospital",
+      "type": "Specialized",
+      "address": "Biratnagar-2, Morang",
+      "phone": "021-524500",
+      "beds": 150
+    },
+    {
+      "id": 1225,
+      "name": "NORVIC International Hospital",
+      "type": "Private",
+      "address": "Biratnagar-5, Morang",
+      "phone": "021-590770",
+      "beds": 150,
+      "emergency": "021-590770"
+    },
+    {
+      "id": 1226,
+      "name": "Scheer Memorial Adventist Hospital",
+      "type": "Private",
+      "address": "Biratnagar-3, Morang",
+      "phone": "021-520106",
+      "beds": 120,
+      "emergency": "021-520106"
+    },
+    {
+      "id": 1227,
+      "name": "Dhanwantari Hospital",
+      "type": "Private",
+      "address": "Biratnagar-7, Morang",
+      "phone": "021-523789",
+      "beds": 80
+    },
+    {
+      "id": 1228,
+      "name": "Life Guard Hospital",
+      "type": "Private",
+      "address": "Biratnagar-10, Morang",
+      "phone": "021-530494",
+      "beds": 100
+    },
+    {
+      "id": 1229,
+      "name": "Biratnagar Eye Hospital",
+      "type": "Specialized",
+      "address": "Biratnagar-4, Morang",
+      "phone": "021-524333",
+      "beds": 50
+    },
+    {
+      "id": 1230,
+      "name": "Morang Cancer Hospital",
+      "type": "Specialized",
+      "address": "Biratnagar-12, Morang",
+      "phone": "021-535555",
+      "beds": 100
+    },
+    {
+      "id": 1231,
+      "name": "Advance Hospital",
+      "type": "Private",
+      "address": "Main Road, Biratnagar",
+      "phone": "021-530001",
+      "beds": 80
+    },
+    {
+      "id": 1232,
+      "name": "Hope Hospital",
+      "type": "Private",
+      "address": "Bhrikutichowk, Biratnagar",
+      "phone": "021-530002",
+      "beds": 60
+    },
+    {
+      "id": 1233,
+      "name": "Kantipur Hospital Biratnagar",
+      "type": "Private",
+      "address": "Rangeli Road, Biratnagar",
+      "phone": "021-530003",
+      "beds": 70
+    },
+    {
+      "id": 1234,
+      "name": "Metro Hospital",
+      "type": "Private",
+      "address": "Biratnagar-13, Morang",
+      "phone": "021-530004",
+      "beds": 90
+    },
+    {
+      "id": 1235,
+      "name": "New Life Hospital",
+      "type": "Private",
+      "address": "Biratnagar-14, Morang",
+      "phone": "021-530005",
+      "beds": 75
+    },
+    {
+      "id": 1236,
+      "name": "Om Hospital Biratnagar",
+      "type": "Private",
+      "address": "Biratnagar-16, Morang",
+      "phone": "021-530006",
+      "beds": 85
+    },
+    {
+      "id": 1237,
+      "name": "Prime Hospital",
+      "type": "Private",
+      "address": "Biratnagar-17, Morang",
+      "phone": "021-530007",
+      "beds": 95
+    },
+    {
+      "id": 1238,
+      "name": "Sagarmatha Hospital",
+      "type": "Private",
+      "address": "Biratnagar-18, Morang",
+      "phone": "021-530008",
+      "beds": 110
+    },
+    {
+      "id": 1239,
+      "name": "Biratnagar City Hospital",
+      "type": "Private",
+      "address": "Biratnagar-19, Morang",
+      "phone": "021-530009",
+      "beds": 100
+    }
+  ]
+}
