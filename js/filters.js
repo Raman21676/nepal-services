@@ -1,49 +1,135 @@
 /**
  * Nepal Services Directory - Filters Module
- * Handles all filter-related functionality
+ * Handles all filter-related functionality with Fuse.js fuzzy search
  */
 
 class FilterManager {
     constructor(app) {
         this.app = app;
+        this.fuse = null;
         this.setupEventListeners();
     }
     
     setupEventListeners() {
         const searchInput = document.getElementById('searchInput');
+        const clearBtn = document.getElementById('clearSearch');
         let debounceTimer;
         
+        // Search input with debounce
         searchInput.addEventListener('input', (e) => {
             clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(() => this.handleSearch(), 300);
+            
+            // Show/hide clear button
+            if (e.target.value) {
+                clearBtn.classList.remove('hidden');
+            } else {
+                clearBtn.classList.add('hidden');
+            }
+            
+            debounceTimer = setTimeout(() => this.handleSearch(), 200);
         });
         
+        // Clear search button
+        clearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            clearBtn.classList.add('hidden');
+            searchInput.focus();
+            this.handleSearch();
+        });
+        
+        // Search button
         document.getElementById('searchBtn').addEventListener('click', () => this.handleSearch());
+        
+        // Filter dropdowns
         document.getElementById('provinceFilter').addEventListener('change', () => this.handleProvinceChange());
         document.getElementById('districtFilter').addEventListener('change', () => this.handleDistrictChange());
         document.getElementById('cityFilter').addEventListener('change', () => this.handleSearch());
         document.getElementById('categoryFilter').addEventListener('change', () => this.handleSearch());
         document.getElementById('typeFilter').addEventListener('change', () => this.handleSearch());
+        
+        // Reset button
         document.getElementById('resetBtn').addEventListener('click', () => this.resetFilters());
         
+        // Quick filters
+        document.querySelectorAll('.quick-filter').forEach(btn => {
+            btn.addEventListener('click', (e) => this.handleQuickFilter(e));
+        });
+        
+        // View toggle
+        document.querySelectorAll('.view-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => this.handleViewToggle(e));
+        });
+        
+        // Search suggestions
+        document.querySelectorAll('.suggestion-tag').forEach(tag => {
+            tag.addEventListener('click', (e) => {
+                const searchTerm = e.target.dataset.search;
+                searchInput.value = searchTerm;
+                clearBtn.classList.remove('hidden');
+                this.handleSearch();
+            });
+        });
+        
+        // Enter key
         searchInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') this.handleSearch();
         });
     }
     
+    initFuse() {
+        // Initialize Fuse.js for fuzzy search
+        const options = {
+            keys: [
+                { name: 'name', weight: 0.4 },
+                { name: 'hospital_name', weight: 0.4 },
+                { name: 'school_name', weight: 0.4 },
+                { name: 'service_name', weight: 0.4 },
+                { name: 'office_name', weight: 0.4 },
+                { name: 'contact_name', weight: 0.4 },
+                { name: 'address', weight: 0.2 },
+                { name: 'type', weight: 0.15 },
+                { name: '_city', weight: 0.1 },
+                { name: '_district', weight: 0.1 },
+                { name: 'specialties', weight: 0.15 },
+                { name: 'services', weight: 0.15 },
+                { name: 'programs', weight: 0.15 }
+            ],
+            threshold: 0.4,
+            distance: 100,
+            includeScore: true,
+            minMatchCharLength: 2,
+            shouldSort: true,
+            findAllMatches: true,
+            ignoreLocation: true,
+            useExtendedSearch: true
+        };
+        
+        this.fuse = new Fuse(this.app.allData, options);
+    }
+    
     handleSearch() {
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+        const searchTerm = document.getElementById('searchInput').value.trim();
         const provinceFilter = document.getElementById('provinceFilter').value;
         const districtFilter = document.getElementById('districtFilter').value;
         const cityFilter = document.getElementById('cityFilter').value;
         const categoryFilter = document.getElementById('categoryFilter').value;
         const typeFilter = document.getElementById('typeFilter').value;
         
-        this.app.filteredData = this.app.allData.filter(item => {
-            if (searchTerm && !item._searchText.includes(searchTerm)) {
-                return false;
+        let results = [];
+        
+        // If there's a search term, use Fuse.js for fuzzy search
+        if (searchTerm) {
+            if (!this.fuse) {
+                this.initFuse();
             }
-            
+            const fuseResults = this.fuse.search(searchTerm);
+            results = fuseResults.map(r => r.item);
+        } else {
+            results = [...this.app.allData];
+        }
+        
+        // Apply additional filters
+        results = results.filter(item => {
             if (provinceFilter !== 'all' && item._province !== provinceFilter) {
                 return false;
             }
@@ -70,9 +156,58 @@ class FilterManager {
             return true;
         });
         
+        this.app.filteredData = results;
         this.app.currentPage = 1;
         this.app.renderResults();
         this.app.updateResultsCount();
+        
+        // Update quick filter active state
+        this.updateQuickFilterState(categoryFilter);
+    }
+    
+    handleQuickFilter(e) {
+        const category = e.currentTarget.dataset.category;
+        const categoryFilter = document.getElementById('categoryFilter');
+        
+        // Toggle active state
+        if (categoryFilter.value === category) {
+            categoryFilter.value = 'all';
+        } else {
+            categoryFilter.value = category;
+        }
+        
+        this.handleSearch();
+    }
+    
+    updateQuickFilterState(activeCategory) {
+        document.querySelectorAll('.quick-filter').forEach(btn => {
+            if (btn.dataset.category === activeCategory) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+    }
+    
+    handleViewToggle(e) {
+        const view = e.currentTarget.dataset.view;
+        const resultsGrid = document.getElementById('resultsGrid');
+        
+        // Update button states
+        document.querySelectorAll('.view-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        e.currentTarget.classList.add('active');
+        
+        // Update grid class
+        if (view === 'list') {
+            resultsGrid.classList.add('list-view');
+        } else {
+            resultsGrid.classList.remove('list-view');
+        }
+        
+        // Store preference
+        localStorage.setItem('preferredView', view);
     }
     
     getItemType(item) {
@@ -116,7 +251,7 @@ class FilterManager {
             sortedDistricts.forEach(district => {
                 const option = document.createElement('option');
                 option.value = district;
-                option.textContent = district.charAt(0).toUpperCase() + district.slice(1);
+                option.textContent = this.capitalizeFirst(district);
                 districtFilter.appendChild(option);
             });
         }
@@ -153,7 +288,7 @@ class FilterManager {
             sortedCities.forEach(city => {
                 const option = document.createElement('option');
                 option.value = city;
-                option.textContent = city.charAt(0).toUpperCase() + city.slice(1);
+                option.textContent = this.capitalizeFirst(city);
                 cityFilter.appendChild(option);
             });
         } else {
@@ -167,7 +302,7 @@ class FilterManager {
             sortedCities.forEach(city => {
                 const option = document.createElement('option');
                 option.value = city;
-                option.textContent = city.charAt(0).toUpperCase() + city.slice(1);
+                option.textContent = this.capitalizeFirst(city);
                 cityFilter.appendChild(option);
             });
         }
@@ -192,7 +327,7 @@ class FilterManager {
         sortedDistricts.forEach(district => {
             const option = document.createElement('option');
             option.value = district;
-            option.textContent = district.charAt(0).toUpperCase() + district.slice(1);
+            option.textContent = this.capitalizeFirst(district);
             districtFilter.appendChild(option);
         });
         
@@ -201,31 +336,67 @@ class FilterManager {
         sortedCities.forEach(city => {
             const option = document.createElement('option');
             option.value = city;
-            option.textContent = city.charAt(0).toUpperCase() + city.slice(1);
+            option.textContent = this.capitalizeFirst(city);
             cityFilter.appendChild(option);
         });
     }
     
     resetFilters() {
         document.getElementById('searchInput').value = '';
+        document.getElementById('clearSearch').classList.add('hidden');
         document.getElementById('provinceFilter').value = 'all';
         document.getElementById('districtFilter').value = 'all';
         document.getElementById('cityFilter').value = 'all';
         document.getElementById('categoryFilter').value = 'all';
         document.getElementById('typeFilter').value = 'all';
         
+        // Reset quick filters
+        document.querySelectorAll('.quick-filter').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        
         // Repopulate all options
-        const districtFilter = document.getElementById('districtFilter');
-        const cityFilter = document.getElementById('cityFilter');
-        
-        while (districtFilter.options.length > 1) districtFilter.remove(1);
-        while (cityFilter.options.length > 1) cityFilter.remove(1);
-        
         this.populateAllOptions();
         
         this.app.filteredData = [...this.app.allData];
         this.app.currentPage = 1;
         this.app.renderResults();
         this.app.updateResultsCount();
+        
+        // Show toast
+        this.showToast('Filters reset successfully', 'success');
+    }
+    
+    capitalizeFirst(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+    
+    showToast(message, type = 'info') {
+        const container = document.getElementById('toastContainer');
+        const toast = document.createElement('div');
+        toast.className = `toast ${type}`;
+        
+        const icon = type === 'success' ? 'check-circle' : 
+                    type === 'error' ? 'exclamation-circle' : 'info-circle';
+        
+        toast.innerHTML = `
+            <i class="fas fa-${icon}"></i>
+            <span>${message}</span>
+        `;
+        
+        container.appendChild(toast);
+        
+        setTimeout(() => {
+            toast.style.animation = 'slideInRight 0.3s ease reverse';
+            setTimeout(() => toast.remove(), 300);
+        }, 3000);
+    }
+    
+    restoreViewPreference() {
+        const preferredView = localStorage.getItem('preferredView') || 'grid';
+        const btn = document.querySelector(`.view-btn[data-view="${preferredView}"]`);
+        if (btn) {
+            btn.click();
+        }
     }
 }

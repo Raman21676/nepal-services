@@ -68,16 +68,17 @@ const CONFIG = {
     
     // City badge CSS classes
     CITY_BADGE_CLASSES: {
-        'kathmandu': 'badge-city-kathmandu',
+        'kathmandu': 'badge-city-ktm',
         'lalitpur': 'badge-city-lalitpur',
         'bhaktapur': 'badge-city-bhaktapur',
-        'pokhara': 'badge-city-pokhara',
-        'biratnagar': 'badge-city-biratnagar',
-        'bharatpur': 'badge-city-bharatpur',
-        'birgunj': 'badge-city-birgunj',
-        'janakpur': 'badge-city-janakpur',
-        'hetauda': 'badge-city-hetauda',
-        'dharan': 'badge-city-dharan'
+        'pokhara': 'badge-city-pkr',
+        'biratnagar': 'badge-city-bir',
+        'bharatpur': 'badge-city-default',
+        'birgunj': 'badge-city-default',
+        'janakpur': 'badge-city-default',
+        'hetauda': 'badge-city-default',
+        'dharan': 'badge-city-dharan',
+        'butwal': 'badge-city-butwal'
     }
 };
 

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="mountain1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e2e8f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#94a3b8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#cbd5e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64748b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountain3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#475569;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1440" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="1.5" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="80" r="1" fill="white" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="40" r="1.5" fill="white" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="60" r="1" fill="white" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="30" r="1.5" fill="white" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1100" cy="70" r="1" fill="white" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1300" cy="45" r="1.5" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Moon -->
+  <circle cx="1200" cy="60" r="30" fill="#fef3c7" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.7;0.9" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Background mountains -->
+  <path d="M0,400 L0,250 Q200,150 400,220 Q600,290 800,200 Q1000,110 1200,180 Q1320,220 1440,190 L1440,400 Z" 
+        fill="url(#mountain3)" opacity="0.6"/>
+  
+  <!-- Middle mountains -->
+  <path d="M0,400 L0,300 Q150,220 300,260 Q450,300 600,240 Q750,180 900,220 Q1050,260 1200,210 Q1320,240 1440,220 L1440,400 Z" 
+        fill="url(#mountain2)" opacity="0.8"/>
+  
+  <!-- Front mountains -->
+  <path d="M-50,400 L-50,320 Q100,280 250,310 Q400,340 550,290 Q700,240 850,280 Q1000,320 1150,270 Q1300,300 1450,280 L1450,400 Z" 
+        fill="url(#mountain3)"/>
+  
+  <!-- Snow peaks -->
+  <path d="M250,310 L300,260 L350,310 Z" fill="white" opacity="0.9"/>
+  <path d="M550,290 L600,240 L650,290 Z" fill="white" opacity="0.9"/>
+  <path d="M850,280 L900,220 L950,280 Z" fill="white" opacity="0.9"/>
+</svg>

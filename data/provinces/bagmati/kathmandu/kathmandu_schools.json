@@ -4,8 +4,8 @@
     "country": "Nepal",
     "last_updated": "2026-03-25",
     "source": "Edusanjal, Ministry of Education, Government Websites",
-    "total_records": 110,
-    "note": "Total 110 schools in kathmandu schools"
+    "total_records": 170,
+    "note": "Total 170 schools in Kathmandu"
   },
   "schools": [
     {
@@ -1257,6 +1257,1226 @@
       "address": "Suryabinayak, Bhaktapur",
       "phone": "01-6612345",
       "curriculum": "English Medium"
+    },
+    {
+      "id": 1060,
+      "name": "Omega Secondary School",
+      "type": "Private",
+      "address": "Kumaripati, Lalitpur",
+      "phone": [
+        "01-5408653",
+        "01-5450563"
+      ],
+      "website": "https://www.omegacollege.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 99.44% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1061,
+      "name": "L.R.I. School",
+      "type": "Private",
+      "address": "Kalanki, Kathmandu",
+      "phone": [
+        "01-5970115",
+        "01-5218515"
+      ],
+      "website": "https://www.lrischool.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 100% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1062,
+      "name": "Kathmandu BernHardt College",
+      "type": "Private",
+      "address": "Bafal, Kathmandu",
+      "phone": [
+        "01-5237330",
+        "01-5237361"
+      ],
+      "website": "https://kbc.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Top 25 +2 School - 99.61% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1063,
+      "name": "Kathmandu Model College",
+      "type": "Private",
+      "address": "Bagbazar, Kathmandu",
+      "phone": [
+        "01-5342121"
+      ],
+      "website": "https://ktmmodelcollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 99% pass rate (2079), 3962 students",
+      "gps": null
+    },
+    {
+      "id": 1064,
+      "name": "Kathmandu Model Secondary School",
+      "type": "Private",
+      "address": "Balkumari, Lalitpur",
+      "phone": [
+        "01-5201331",
+        "01-5201334"
+      ],
+      "website": "https://kmclalitpur.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 99.62% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1065,
+      "name": "Global College of Management",
+      "type": "Private",
+      "address": "Mid Baneshwor, Kathmandu",
+      "phone": [
+        "01-5970316"
+      ],
+      "website": "https://web.globalcollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Management",
+        "Science"
+      ],
+      "note": "Top choice for Management stream, 1830 students",
+      "gps": null
+    },
+    {
+      "id": 1066,
+      "name": "Global School of Science",
+      "type": "Private",
+      "address": "Mid Baneshwor-31, Kathmandu",
+      "phone": [
+        "01-5970317"
+      ],
+      "website": "https://sci.globalcollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science"
+      ],
+      "note": "Top 25 +2 School - 98.99% pass rate (2079), Science focus",
+      "gps": null
+    },
+    {
+      "id": 1067,
+      "name": "GoldenGate International Secondary School",
+      "type": "Private",
+      "address": "Battisputali, Kathmandu",
+      "phone": [
+        "01-4577082",
+        "01-4595164",
+        "01-4579434"
+      ],
+      "website": "https://sec.goldengateintl.com",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Top 25 +2 School, 2200 students",
+      "gps": null
+    },
+    {
+      "id": 1068,
+      "name": "Triton SS & College",
+      "type": "Private",
+      "address": "Koteshwor-32, Kathmandu",
+      "phone": [
+        "01-5104450",
+        "01-5104529"
+      ],
+      "website": "https://www.triton.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 96% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1069,
+      "name": "Trinity International SS/College",
+      "type": "Private",
+      "address": "Dillibazar, Kathmandu",
+      "phone": [
+        "01-4545955",
+        "01-4545954",
+        "01-4545956"
+      ],
+      "website": "https://www.trinity.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Top 25 +2 School - 97.78% pass rate (2079), 3800 students",
+      "gps": null
+    },
+    {
+      "id": 1070,
+      "name": "D.A.V. College",
+      "type": "Private",
+      "address": "Jawalakhel, Lalitpur",
+      "phone": [
+        "01-5429029",
+        "01-5433044"
+      ],
+      "website": "https://davcollege.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Top 25 +2 School - 95% pass rate (2079), 2000 students",
+      "gps": null
+    },
+    {
+      "id": 1071,
+      "name": "Nepal Mega College",
+      "type": "Private",
+      "address": "Babarmahal, Kathmandu",
+      "phone": [
+        "01-5705488"
+      ],
+      "website": "https://www.nepalmegacollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 93% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1072,
+      "name": "Pinnacle Academy SS/College",
+      "type": "Private",
+      "address": "Lagankhel, Lalitpur",
+      "phone": [
+        "01-5544023",
+        "01-5544024",
+        "01-5540882"
+      ],
+      "website": "https://www.pinnacleacademy.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 97.2% pass rate (2079)",
+      "gps": null
+    },
+    {
+      "id": 1073,
+      "name": "Premier College",
+      "type": "Private",
+      "address": "New Baneshwor, Kathmandu",
+      "phone": [
+        "01-4797198",
+        "01-4790246"
+      ],
+      "website": "https://premiercollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Top 25 +2 School, 1400 students",
+      "gps": null
+    },
+    {
+      "id": 1074,
+      "name": "Prasadi Academy",
+      "type": "Private",
+      "address": "Manbhawan, Lalitpur",
+      "phone": [
+        "01-5430562"
+      ],
+      "website": "https://prasadi.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Top 25 +2 School - 99.99% pass rate (2079), 1600 students",
+      "gps": null
+    },
+    {
+      "id": 1075,
+      "name": "V.S. Niketan Higher Secondary School",
+      "type": "Private",
+      "address": "Minbhawan, Kathmandu",
+      "phone": [
+        "01-4111899",
+        "01-4111602",
+        "01-4106576"
+      ],
+      "website": "https://www.vsniketan.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Top 25 +2 School - 98.03% pass rate (2079), 1486 students",
+      "gps": null
+    },
+    {
+      "id": 1076,
+      "name": "Manaslu World College",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": [
+        "01-4584807",
+        "9801362382"
+      ],
+      "website": "https://manasluworldcollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 99.27% pass rate (2079), 1316 students",
+      "gps": null
+    },
+    {
+      "id": 1077,
+      "name": "Moonlight Secondary School",
+      "type": "Private",
+      "address": "Kumaripati, Lalitpur",
+      "phone": [
+        "01-5408618",
+        "01-5408754",
+        "01-5408746"
+      ],
+      "website": "https://molihss.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Top 25 +2 School - 97.8% pass rate (2079), 942 students",
+      "gps": null
+    },
+    {
+      "id": 1078,
+      "name": "United Academy",
+      "type": "Private",
+      "address": "Kumaripati, Lalitpur",
+      "phone": [
+        "01-5537939",
+        "01-5438938"
+      ],
+      "website": "https://academy.united.edu.np",
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 98% pass rate (2079), Established 1997",
+      "gps": null
+    },
+    {
+      "id": 1079,
+      "name": "Uniglobe Secondary School",
+      "type": "Private",
+      "address": "Kamaladi, Kathmandu",
+      "phone": [
+        "01-5321875",
+        "01-5320722",
+        "01-5351409"
+      ],
+      "website": "https://uniglobecollege.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 96% pass rate (2079), 2400 students",
+      "gps": null
+    },
+    {
+      "id": 1080,
+      "name": "Reliance International Academy",
+      "type": "Private",
+      "address": "Kapan, Kathmandu",
+      "phone": [
+        "01-4822336"
+      ],
+      "website": "https://ria.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Top 25 +2 School - 95.42% pass rate (2079), 1831 students",
+      "gps": null
+    },
+    {
+      "id": 1081,
+      "name": "Liverpool International College",
+      "type": "Private",
+      "address": "New Baneshwor, Kathmandu",
+      "phone": [
+        "01-4781230",
+        "01-4791230",
+        "01-4794560"
+      ],
+      "website": "https://liverpool.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 92.3% pass rate (2079), 1791 students",
+      "gps": null
+    },
+    {
+      "id": 1082,
+      "name": "Viswa Niketan College",
+      "type": "Private",
+      "address": "Tripureshwor, Kathmandu",
+      "phone": [
+        "01-5366306",
+        "01-5348838",
+        "01-5365235"
+      ],
+      "website": "https://viswaniketan.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 96.4% pass rate (2079), 2513 students",
+      "gps": null
+    },
+    {
+      "id": 1083,
+      "name": "Samriddhi School",
+      "type": "Private",
+      "address": "Balaju, Kathmandu",
+      "phone": [
+        "01-4970590",
+        "01-4970591"
+      ],
+      "website": "https://samriddhischool.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Management"
+      ],
+      "note": "Top 25 +2 School - 97% pass rate (2079), 714 students",
+      "gps": null
+    },
+    {
+      "id": 1084,
+      "name": "Southwestern State College",
+      "type": "Private",
+      "address": "Basundhara, Kathmandu",
+      "phone": [
+        "01-4955457",
+        "01-4955458"
+      ],
+      "website": "https://southwestern.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Top 25 +2 School - 98% pass rate (2079), 2472 students",
+      "gps": null
+    },
+    {
+      "id": 1085,
+      "name": "St. Xavier's College",
+      "type": "Private",
+      "address": "Maitighar, Kathmandu",
+      "phone": [
+        "01-5321365",
+        "01-5344636"
+      ],
+      "website": "https://www.sxc.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science"
+      ],
+      "note": "Top choice for Science stream - 99.99% pass rate, 1000 students",
+      "gps": null
+    },
+    {
+      "id": 1086,
+      "name": "Kathmandu International Study Centre (KISC)",
+      "type": "Private International",
+      "address": "Dhapakhel, Lalitpur",
+      "phone": [
+        "01-5530732"
+      ],
+      "website": "https://kisc.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "International school with Cambridge curriculum",
+      "gps": null
+    },
+    {
+      "id": 1087,
+      "name": "The British School Kathmandu",
+      "type": "Private International",
+      "address": "Bansbari, Kathmandu",
+      "phone": [
+        "01-4373921",
+        "01-4373922"
+      ],
+      "website": "https://www.tbskathmandu.org",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "British Curriculum",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Premier British international school",
+      "gps": null
+    },
+    {
+      "id": 1088,
+      "name": "Lincoln School",
+      "type": "Private International",
+      "address": "Rabi Bhawan, Kathmandu",
+      "phone": [
+        "01-4270450",
+        "01-4270460"
+      ],
+      "website": "https://www.lincoln-school.org",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "American Curriculum",
+      "programs": [
+        "IB Diploma",
+        "American High School"
+      ],
+      "note": "American international school, IB World School",
+      "gps": null
+    },
+    {
+      "id": 1089,
+      "name": "Ullens School",
+      "type": "Private",
+      "address": "Khumaltar, Lalitpur",
+      "phone": [
+        "01-5550577",
+        "01-5550578"
+      ],
+      "website": "https://www.ullensschool.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Cambridge affiliated international school",
+      "gps": null
+    },
+    {
+      "id": 1090,
+      "name": "Rupy's International School",
+      "type": "Private",
+      "address": "Bakhundole, Lalitpur",
+      "phone": [
+        "01-5544291",
+        "01-5521794"
+      ],
+      "website": "https://www.rupys.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Cambridge CIE Centre NP740",
+      "gps": null
+    },
+    {
+      "id": 1091,
+      "name": "Little Angels' School",
+      "type": "Private",
+      "address": "Hattiban, Lalitpur",
+      "phone": [
+        "01-5912723",
+        "01-5915112",
+        "01-5914113"
+      ],
+      "website": "https://las.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Established 1981, Cambridge CIE Centre NP705",
+      "gps": null
+    },
+    {
+      "id": 1092,
+      "name": "Saipal Academy",
+      "type": "Private",
+      "address": "Bhaisepati, Lalitpur",
+      "phone": [
+        "01-5591575",
+        "01-5591576"
+      ],
+      "website": "https://www.saipalacademy.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Cambridge affiliated school",
+      "gps": null
+    },
+    {
+      "id": 1093,
+      "name": "Chelsea International Academy",
+      "type": "Private",
+      "address": "Budhanilkantha, Kathmandu",
+      "phone": [
+        "01-4373222",
+        "01-4373333"
+      ],
+      "website": "https://www.chelseaktm.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Cambridge CIE Centre NP727",
+      "gps": null
+    },
+    {
+      "id": 1094,
+      "name": "Malpi Institute",
+      "type": "Private",
+      "address": "Panipokhari, Kathmandu",
+      "phone": [
+        "01-4005040",
+        "01-4005041"
+      ],
+      "website": "https://www.malpi.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Established 1999, Top A Level School, Cambridge CIE Centre NP708",
+      "gps": null
+    },
+    {
+      "id": 1095,
+      "name": "Xavier Academy",
+      "type": "Private",
+      "address": "Lazimpat, Kathmandu",
+      "phone": [
+        "01-4004700",
+        "01-4004800"
+      ],
+      "website": "https://www.xavieracademy.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Established 1997, Pioneer institution in Kathmandu",
+      "gps": null
+    },
+    {
+      "id": 1096,
+      "name": "BridgeWatter Education Foundation",
+      "type": "Private",
+      "address": "Sinamangal, Kathmandu",
+      "phone": [
+        "980-2334186"
+      ],
+      "website": "https://bridgewater.com.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Law",
+        "Humanities"
+      ],
+      "note": "Comprehensive education programs",
+      "gps": null
+    },
+    {
+      "id": 1097,
+      "name": "Trinity International College",
+      "type": "Private",
+      "address": "Dillibazar, Kathmandu",
+      "phone": [
+        "01-4545955"
+      ],
+      "website": "https://www.trinity.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "3800 students, Top ranking institution",
+      "gps": null
+    },
+    {
+      "id": 1098,
+      "name": "Ambition Academy",
+      "type": "Private",
+      "address": "Baneshwor, Kathmandu",
+      "phone": [
+        "01-4785678"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Quality education institute",
+      "gps": null
+    },
+    {
+      "id": 1099,
+      "name": "Morgan International College",
+      "type": "Private",
+      "address": "Basundhara, Kathmandu",
+      "phone": [
+        "01-4955457"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Growing educational institution",
+      "gps": null
+    },
+    {
+      "id": 1100,
+      "name": "Trinity International SS/College",
+      "type": "Private",
+      "address": "Dillibazar, Kathmandu",
+      "phone": [
+        "01-4545954"
+      ],
+      "website": "https://www.trinity.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities",
+        "Law"
+      ],
+      "note": "Comprehensive +2 programs",
+      "gps": null
+    },
+    {
+      "id": 1101,
+      "name": "Budhanilkantha School",
+      "type": "Public",
+      "address": "Budhanilkantha, Kathmandu",
+      "phone": [
+        "01-4371390",
+        "01-4371595"
+      ],
+      "website": "https://www.budhanilkanthaschool.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "National School of Nepal, Premier government school",
+      "gps": null
+    },
+    {
+      "id": 1102,
+      "name": "GEMS Institute of Higher Studies",
+      "type": "Private",
+      "address": "Dhapasi, Kathmandu",
+      "phone": [
+        "01-4967701",
+        "01-4967702"
+      ],
+      "website": "https://www.gems.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Cambridge CIE Centre NP730",
+      "gps": null
+    },
+    {
+      "id": 1103,
+      "name": "Kasthamandap A Level Academy",
+      "type": "Private",
+      "address": "Koteswor, Kathmandu",
+      "phone": [
+        "01-5145072"
+      ],
+      "website": "https://www.kasthamandap.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "A-Level"
+      ],
+      "note": "Cambridge CIE Centre NP707",
+      "gps": null
+    },
+    {
+      "id": 1104,
+      "name": "Sagarmatha Multiple College",
+      "type": "Private",
+      "address": "Dillibazar, Kathmandu",
+      "phone": [
+        "01-4437567",
+        "01-4437568"
+      ],
+      "website": "https://www.sagarmatha.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Established educational institution",
+      "gps": null
+    },
+    {
+      "id": 1105,
+      "name": "Texas College",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": [
+        "01-4957475"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Growing academic institution",
+      "gps": null
+    },
+    {
+      "id": 1106,
+      "name": "DAV Sushil Kedia Vishwa Bharti",
+      "type": "Private",
+      "address": "Jawalakhel, Lalitpur",
+      "phone": [
+        "01-5429029"
+      ],
+      "website": "https://davcollege.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Comprehensive school and college",
+      "gps": null
+    },
+    {
+      "id": 1107,
+      "name": "Orchid College",
+      "type": "Private",
+      "address": "Bharatpur, Chitwan",
+      "phone": [
+        "056-520143"
+      ],
+      "website": null,
+      "district": "Chitwan",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Quality education in Chitwan",
+      "gps": null
+    },
+    {
+      "id": 1108,
+      "name": "New Horizon Mavi",
+      "type": "Private",
+      "address": "Butwal, Rupandehi",
+      "phone": [
+        "071-540143"
+      ],
+      "website": null,
+      "district": "Rupandehi",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Established +2 institution",
+      "gps": null
+    },
+    {
+      "id": 1109,
+      "name": "Prime College",
+      "type": "Private",
+      "address": "Naya Bazaar, Kathmandu",
+      "phone": [
+        "01-4385057",
+        "01-4385058"
+      ],
+      "website": "https://www.prime.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Leading +2 college",
+      "gps": null
+    },
+    {
+      "id": 1110,
+      "name": "Everest College",
+      "type": "Private",
+      "address": "Thapathali, Kathmandu",
+      "phone": [
+        "01-4240805"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Quality education provider",
+      "gps": null
+    },
+    {
+      "id": 1111,
+      "name": "National School of Science",
+      "type": "Private",
+      "address": "Lainchaur, Kathmandu",
+      "phone": [
+        "01-4004702",
+        "01-4004703"
+      ],
+      "website": "https://www.nss.edu.np",
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Science-focused institution",
+      "gps": null
+    },
+    {
+      "id": 1112,
+      "name": "Caribbean Higher Secondary School",
+      "type": "Private",
+      "address": "Kumaripati, Lalitpur",
+      "phone": [
+        "01-5543889"
+      ],
+      "website": null,
+      "district": "Lalitpur",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Established +2 school",
+      "gps": null
+    },
+    {
+      "id": 1113,
+      "name": "Sagarmatha Higher Secondary School",
+      "type": "Public",
+      "address": "Dillibazar, Kathmandu",
+      "phone": [
+        "01-4410239"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "level": "Secondary (+2)",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Government school",
+      "gps": null
+    },
+    {
+      "id": 1114,
+      "name": "Gorkha International Public School",
+      "type": "Private",
+      "address": "Ghorahi, Dang",
+      "phone": [
+        "082-563456"
+      ],
+      "website": null,
+      "district": "Dang",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "International standard education",
+      "gps": null
+    },
+    {
+      "id": 1115,
+      "name": "Siddharth English School",
+      "type": "Private",
+      "address": "Banepa, Kavre",
+      "phone": [
+        "011-661234"
+      ],
+      "website": null,
+      "district": "Kavre",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Quality education in Kavre",
+      "gps": null
+    },
+    {
+      "id": 1116,
+      "name": "Motherland School",
+      "type": "Private",
+      "address": "Pokhara, Kaski",
+      "phone": [
+        "061-460143"
+      ],
+      "website": null,
+      "district": "Kaski",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Growing school in Pokhara",
+      "gps": null
+    },
+    {
+      "id": 1117,
+      "name": "Prativa Secondary School",
+      "type": "Public",
+      "address": "Pokhara, Kaski",
+      "phone": [
+        "061-520143"
+      ],
+      "website": null,
+      "district": "Kaski",
+      "level": "Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management",
+        "Humanities"
+      ],
+      "note": "Government school",
+      "gps": null
+    },
+    {
+      "id": 1118,
+      "name": "Fishtail Academy",
+      "type": "Private",
+      "address": "Pokhara, Kaski",
+      "phone": [
+        "061-465143"
+      ],
+      "website": null,
+      "district": "Kaski",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board",
+      "programs": [
+        "Science",
+        "Management"
+      ],
+      "note": "Quality education in Pokhara",
+      "gps": null
+    },
+    {
+      "id": 1119,
+      "name": "Rato Bangala School",
+      "type": "Private",
+      "address": "Patan, Lalitpur",
+      "phone": [
+        "01-5527600",
+        "01-5527601"
+      ],
+      "website": "https://www.ratobangala.edu.np",
+      "district": "Lalitpur",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International",
+      "programs": [
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Premier school, CIE Independent Centre NP704",
+      "gps": null
     }
   ]
 }

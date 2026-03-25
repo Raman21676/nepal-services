@@ -4,8 +4,8 @@
     "country": "Nepal",
     "last_updated": "2026-03-25",
     "source": "Clinic One, Government Websites, Public Directories",
-    "total_records": 55,
-    "note": "Total 55 hospitals in kathmandu hospitals"
+    "total_records": 100,
+    "note": "Total 100 hospitals in Kathmandu"
   },
   "hospitals": [
     {
@@ -601,6 +601,860 @@
       "address": "Dharan",
       "phone": "025-525555",
       "beds": 750
+    },
+    {
+      "id": 1080,
+      "name": "Annapurna Neurological Institute & Allied Sciences",
+      "type": "Private",
+      "address": "Maitighar-11, Kathmandu",
+      "phone": [
+        "01-5970334",
+        "9801203340"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "Neurology",
+        "Neurosurgery"
+      ],
+      "note": "Specialized neurological hospital",
+      "gps": null
+    },
+    {
+      "id": 1081,
+      "name": "B&B Hospital",
+      "type": "Private",
+      "address": "Gwarko, Lalitpur",
+      "phone": [
+        "01-5970999",
+        "9851022773"
+      ],
+      "website": "https://www.bnbhospital.com.np",
+      "district": "Lalitpur",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Orthopedics"
+      ],
+      "note": "Premier private hospital",
+      "gps": null
+    },
+    {
+      "id": 1082,
+      "name": "Norvic International Hospital",
+      "type": "Private",
+      "address": "Thapathali, Kathmandu",
+      "phone": [
+        "01-5970032",
+        "01-4258554",
+        "01-4218230"
+      ],
+      "website": "https://www.norvichospital.com",
+      "district": "Kathmandu",
+      "services": [
+        "Cardiac Care",
+        "Diagnostics",
+        "Emergency",
+        "CCU",
+        "ICU",
+        "NICU"
+      ],
+      "note": "Leading cardiac hospital",
+      "gps": null
+    },
+    {
+      "id": 1083,
+      "name": "Grande International Hospital",
+      "type": "Private",
+      "address": "Dhapasi, Tokha, Kathmandu",
+      "phone": [
+        "01-5159266",
+        "9801202550",
+        "01-4381047"
+      ],
+      "website": "https://www.grandehospital.com",
+      "district": "Kathmandu",
+      "services": [
+        "Cardiology",
+        "Neurology",
+        "Gynecology",
+        "Gastroenterology",
+        "Oncology",
+        "Orthopedics",
+        "Kidney Transplant"
+      ],
+      "note": "Multi-specialty with transplant services",
+      "gps": null
+    },
+    {
+      "id": 1084,
+      "name": "Om Hospital & Research Centre",
+      "type": "Private",
+      "address": "Chabahil, Kathmandu",
+      "phone": [
+        "01-4476225",
+        "01-4576224"
+      ],
+      "website": "https://www.omhospitalnepal.com",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Gynecology",
+        "Pediatrics"
+      ],
+      "note": "Established private hospital",
+      "gps": null
+    },
+    {
+      "id": 1085,
+      "name": "Nepal Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Jorpati, Kathmandu",
+      "phone": [
+        "01-4911008",
+        "01-4912009"
+      ],
+      "website": "https://www.nmcth.edu",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education"
+      ],
+      "note": "Teaching hospital with MBBS program",
+      "gps": null
+    },
+    {
+      "id": 1086,
+      "name": "Kathmandu Medical College",
+      "type": "Private",
+      "address": "Sinamangal, Kathmandu",
+      "phone": [
+        "01-4476152",
+        "9851084282"
+      ],
+      "website": "https://www.kmc.edu.np",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education",
+        "Nursing"
+      ],
+      "note": "TU affiliated teaching hospital",
+      "gps": null
+    },
+    {
+      "id": 1087,
+      "name": "Nepal Orthopedic Hospital",
+      "type": "Private",
+      "address": "Jorpati, Kathmandu",
+      "phone": [
+        "01-4493725",
+        "9851036690"
+      ],
+      "website": "https://www.nepalorthopedichospital.org",
+      "district": "Kathmandu",
+      "services": [
+        "Orthopedics",
+        "Trauma Care",
+        "Rehabilitation"
+      ],
+      "note": "Specialized orthopedic care",
+      "gps": null
+    },
+    {
+      "id": 1088,
+      "name": "Kanti Children's Hospital",
+      "type": "Public",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": [
+        "01-4414798",
+        "01-4427452"
+      ],
+      "website": "https://www.kantichildrensHospital.gov.np",
+      "district": "Kathmandu",
+      "services": [
+        "Pediatrics",
+        "Neonatology",
+        "Pediatric Surgery"
+      ],
+      "note": "National children's referral hospital",
+      "gps": null
+    },
+    {
+      "id": 1089,
+      "name": "Paropakar Maternity and Women's Hospital",
+      "type": "Public",
+      "address": "Thapathali, Kathmandu",
+      "phone": [
+        "01-4253276"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "Maternity",
+        "Gynecology",
+        "Neonatology"
+      ],
+      "note": "National maternity referral center",
+      "gps": null
+    },
+    {
+      "id": 1090,
+      "name": "Mental Hospital",
+      "type": "Public",
+      "address": "Lagankhel, Lalitpur",
+      "phone": [
+        "01-5521333"
+      ],
+      "website": null,
+      "district": "Lalitpur",
+      "services": [
+        "Psychiatry",
+        "Mental Health",
+        "Counseling"
+      ],
+      "note": "National mental health center",
+      "gps": null
+    },
+    {
+      "id": 1091,
+      "name": "Tilganga Institute of Ophthalmology",
+      "type": "Public/NGO",
+      "address": "Gaushala, Kathmandu",
+      "phone": [
+        "01-4493684",
+        "01-4423684",
+        "01-4493775"
+      ],
+      "website": "https://www.tilganga.org",
+      "district": "Kathmandu",
+      "services": [
+        "Eye Care",
+        "Ophthalmology",
+        "Eye Surgery",
+        "Training"
+      ],
+      "note": "Premier eye care center, Nepal Eye Bank",
+      "gps": null
+    },
+    {
+      "id": 1092,
+      "name": "Nepal Eye Hospital",
+      "type": "Public",
+      "address": "Tripureshwor, Kathmandu",
+      "phone": [
+        "01-4250691",
+        "01-4260813"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "Eye Care",
+        "Ophthalmology",
+        "Eye Surgery"
+      ],
+      "note": "Government eye hospital",
+      "gps": null
+    },
+    {
+      "id": 1093,
+      "name": "Martyr Gangalal National Heart Centre",
+      "type": "Public",
+      "address": "Bansbari, Kathmandu",
+      "phone": [
+        "01-4371322",
+        "01-4371374"
+      ],
+      "website": "https://www.mgnhc.gov.np",
+      "district": "Kathmandu",
+      "services": [
+        "Cardiology",
+        "Cardiac Surgery",
+        "Heart Care"
+      ],
+      "note": "National cardiac center",
+      "gps": null
+    },
+    {
+      "id": 1094,
+      "name": "Manmohan Cardiothoracic Vascular and Transplant Center",
+      "type": "Public",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": [
+        "01-4412308",
+        "9851007922"
+      ],
+      "website": "https://www.mcvtc.edu.np",
+      "district": "Kathmandu",
+      "services": [
+        "Cardiac Surgery",
+        "Vascular Surgery",
+        "Organ Transplant"
+      ],
+      "note": "Advanced cardiac and transplant center",
+      "gps": null
+    },
+    {
+      "id": 1095,
+      "name": "Bhaktapur Cancer Hospital",
+      "type": "Public",
+      "address": "Bhaktapur",
+      "phone": [
+        "01-6612266",
+        "9851199098"
+      ],
+      "website": null,
+      "district": "Bhaktapur",
+      "services": [
+        "Cancer Treatment",
+        "Chemotherapy",
+        "Radiation Therapy"
+      ],
+      "note": "Regional cancer center",
+      "gps": null
+    },
+    {
+      "id": 1096,
+      "name": "Kathmandu Cancer Center",
+      "type": "Private",
+      "address": "Bhaktapur",
+      "phone": [
+        "01-5144140",
+        "9849995332"
+      ],
+      "website": "https://www.kccrc.org",
+      "district": "Bhaktapur",
+      "services": [
+        "Cancer Treatment",
+        "Oncology",
+        "Radiotherapy"
+      ],
+      "note": "Comprehensive cancer care",
+      "gps": null
+    },
+    {
+      "id": 1097,
+      "name": "Nepal Cancer Hospital and Research Center",
+      "type": "Private",
+      "address": "Harisiddhi, Lalitpur",
+      "phone": [
+        "01-5571444"
+      ],
+      "website": "https://www.nch.com.np",
+      "district": "Lalitpur",
+      "services": [
+        "Cancer Treatment",
+        "Research",
+        "Oncology"
+      ],
+      "note": "Specialized cancer hospital",
+      "gps": null
+    },
+    {
+      "id": 1098,
+      "name": "Birendra Army Hospital",
+      "type": "Army",
+      "address": "Chhauni, Kathmandu",
+      "phone": [
+        "01-4411220"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Military Healthcare"
+      ],
+      "note": "Army hospital - service personnel and civilians",
+      "gps": null
+    },
+    {
+      "id": 1099,
+      "name": "Nepal Police Hospital",
+      "type": "Police",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": [
+        "01-4414129",
+        "9851280877"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Police Healthcare"
+      ],
+      "note": "Police hospital - service personnel and civilians",
+      "gps": null
+    },
+    {
+      "id": 1100,
+      "name": "Nepal APF Hospital",
+      "type": "Paramilitary",
+      "address": "Balambu, Kathmandu",
+      "phone": [
+        "01-4414129",
+        "9841959879"
+      ],
+      "website": "https://hospital.apf.gov.np",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Emergency"
+      ],
+      "note": "Armed Police Force hospital",
+      "gps": null
+    },
+    {
+      "id": 1101,
+      "name": "Kist Medical College and Teaching Hospital",
+      "type": "Private",
+      "address": "Imadol, Lalitpur",
+      "phone": [
+        "01-5201496",
+        "01-5201497",
+        "9851125777"
+      ],
+      "website": "https://www.kistmcth.edu.np",
+      "district": "Lalitpur",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education",
+        "MBBS"
+      ],
+      "note": "Teaching hospital with MBBS program",
+      "gps": null
+    },
+    {
+      "id": 1102,
+      "name": "Mediciti Hospital",
+      "type": "Private",
+      "address": "Bhaisepati, Lalitpur",
+      "phone": [
+        "01-4217766",
+        "9801235653"
+      ],
+      "website": "https://www.nepalmediciti.com",
+      "district": "Lalitpur",
+      "services": [
+        "Neurosciences",
+        "Cardiac",
+        "Orthopedics",
+        "Cancer Care",
+        "Diagnostics"
+      ],
+      "note": "Comprehensive multi-specialty hospital",
+      "gps": null
+    },
+    {
+      "id": 1103,
+      "name": "Alka Hospital",
+      "type": "Private",
+      "address": "Jawalakhel, Lalitpur",
+      "phone": [
+        "9801207004",
+        "9851233579"
+      ],
+      "website": "https://www.alkahospital.com",
+      "district": "Lalitpur",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Gynecology",
+        "Orthopedics"
+      ],
+      "note": "Established private hospital",
+      "gps": null
+    },
+    {
+      "id": 1104,
+      "name": "Aarogya Health Foundation",
+      "type": "NGO",
+      "address": "Lalitpur",
+      "phone": [
+        "9766382616"
+      ],
+      "website": null,
+      "district": "Lalitpur",
+      "services": [
+        "Community Health",
+        "Primary Care"
+      ],
+      "note": "Community health services",
+      "gps": null
+    },
+    {
+      "id": 1105,
+      "name": "Cancer Care Nepal",
+      "type": "NGO",
+      "address": "Lalitpur",
+      "phone": [
+        "9851041376"
+      ],
+      "website": null,
+      "district": "Lalitpur",
+      "services": [
+        "Cancer Support",
+        "Palliative Care"
+      ],
+      "note": "Cancer support organization",
+      "gps": null
+    },
+    {
+      "id": 1106,
+      "name": "Life Care Hospital",
+      "type": "Private",
+      "address": "Kathmandu",
+      "phone": [
+        "01-4227735"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Emergency",
+        "Diagnostics"
+      ],
+      "note": "Private hospital",
+      "gps": null
+    },
+    {
+      "id": 1107,
+      "name": "Miteri Hospital",
+      "type": "Private",
+      "address": "Kathmandu",
+      "phone": [
+        "01-4280555",
+        "01-4222305"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Maternity"
+      ],
+      "note": "Established private hospital",
+      "gps": null
+    },
+    {
+      "id": 1108,
+      "name": "Capital Hospital",
+      "type": "Private",
+      "address": "Kathmandu",
+      "phone": [
+        "01-4244022"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Diagnostics"
+      ],
+      "note": "Private hospital",
+      "gps": null
+    },
+    {
+      "id": 1109,
+      "name": "Shree Satya Sai Centre",
+      "type": "Charity",
+      "address": "Kathmandu",
+      "phone": [
+        "01-4498035"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Free Health Camps"
+      ],
+      "note": "Charitable health services",
+      "gps": null
+    },
+    {
+      "id": 1110,
+      "name": "National Kidney Centre",
+      "type": "Private",
+      "address": "Kathmandu",
+      "phone": [
+        "01-4429866",
+        "01-4426016"
+      ],
+      "website": "https://www.nkc.org.np",
+      "district": "Kathmandu",
+      "services": [
+        "Nephrology",
+        "Dialysis",
+        "Kidney Transplant"
+      ],
+      "note": "Specialized kidney care center",
+      "gps": null
+    },
+    {
+      "id": 1111,
+      "name": "Chirayu Dialysis Center",
+      "type": "Private",
+      "address": "Basundhara-3, Kathmandu",
+      "phone": [
+        "9705843743"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "Dialysis",
+        "Nephrology"
+      ],
+      "note": "Dialysis center",
+      "gps": null
+    },
+    {
+      "id": 1112,
+      "name": "Green City Hospital",
+      "type": "Private",
+      "address": "Basundhara, Kathmandu",
+      "phone": [
+        "9851058588",
+        "9841435013"
+      ],
+      "website": "https://www.greencityhospital.com",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Emergency"
+      ],
+      "note": "Private hospital",
+      "gps": null
+    },
+    {
+      "id": 1113,
+      "name": "Maya Daya Swasthya Clinic",
+      "type": "NGO",
+      "address": "Budhanilkantha-13, Kathmandu",
+      "phone": [
+        "9851084282"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "Primary Care",
+        "Community Health"
+      ],
+      "note": "Community health clinic",
+      "gps": null
+    },
+    {
+      "id": 1114,
+      "name": "Narayani Vayodha Hospital",
+      "type": "Private",
+      "address": "Birgunj, Parsa",
+      "phone": [
+        "9819280743",
+        "9865521469"
+      ],
+      "website": null,
+      "district": "Parsa",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Cardiology"
+      ],
+      "note": "Multi-specialty hospital in Birgunj",
+      "gps": null
+    },
+    {
+      "id": 1115,
+      "name": "Narayani Sub Regional Hospital",
+      "type": "Public",
+      "address": "Birgunj, Parsa",
+      "phone": [
+        "9851155255",
+        "9869248850"
+      ],
+      "website": null,
+      "district": "Parsa",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Emergency"
+      ],
+      "note": "Government regional hospital",
+      "gps": null
+    },
+    {
+      "id": 1116,
+      "name": "Bharatpur Hospital",
+      "type": "Public",
+      "address": "Bharatpur-10, Chitwan",
+      "phone": [
+        "9855081411",
+        "9845710279"
+      ],
+      "website": "https://www.bharatpurhospital.gov.np",
+      "district": "Chitwan",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Emergency",
+        "Cancer Care"
+      ],
+      "note": "Regional hospital with cancer services",
+      "gps": null
+    },
+    {
+      "id": 1117,
+      "name": "B.P. Koirala Memorial Cancer Hospital",
+      "type": "Public",
+      "address": "Bharatpur-07, Chitwan",
+      "phone": [
+        "9855081401",
+        "9845153922"
+      ],
+      "website": "https://www.bpkmch.gov.np",
+      "district": "Chitwan",
+      "services": [
+        "Cancer Treatment",
+        "Radiotherapy",
+        "Chemotherapy",
+        "Research"
+      ],
+      "note": "National cancer research and treatment center",
+      "gps": null
+    },
+    {
+      "id": 1118,
+      "name": "Chitwan Medical College",
+      "type": "Private",
+      "address": "Bharatpur, Chitwan",
+      "phone": [
+        "9802955095",
+        "9802955175"
+      ],
+      "website": "https://www.cmc.edu.np",
+      "district": "Chitwan",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education",
+        "MBBS"
+      ],
+      "note": "TU affiliated teaching hospital",
+      "gps": null
+    },
+    {
+      "id": 1119,
+      "name": "College of Medical Sciences",
+      "type": "Private",
+      "address": "Bharatpur, Chitwan",
+      "phone": [
+        "056-524202",
+        "056-524203"
+      ],
+      "website": "https://www.cmsnepal.edu.np",
+      "district": "Chitwan",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education"
+      ],
+      "note": "Kathmandu University affiliated",
+      "gps": null
+    },
+    {
+      "id": 1120,
+      "name": "Ashwins Medical College & Hospital",
+      "type": "Private",
+      "address": "Lalitpur-18, Lalitpur",
+      "phone": [
+        "01-4217766",
+        "9801235653"
+      ],
+      "website": null,
+      "district": "Lalitpur",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education"
+      ],
+      "note": "Teaching hospital",
+      "gps": null
+    },
+    {
+      "id": 1121,
+      "name": "Nepal-Bharat Maitri Hospital",
+      "type": "Public",
+      "address": "Mitrapark, Kathmandu",
+      "phone": [
+        "01-4470073"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ],
+      "note": "India-Nepal collaboration hospital",
+      "gps": null
+    },
+    {
+      "id": 1122,
+      "name": "Manmohan Memorial Medical College",
+      "type": "Private",
+      "address": "Swoyambhu, Kathmandu",
+      "phone": [
+        "9851073001",
+        "9763698583"
+      ],
+      "website": "https://www.mmmedicalcollege.edu.np",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Surgery",
+        "Medical Education"
+      ],
+      "note": "TU affiliated teaching hospital",
+      "gps": null
+    },
+    {
+      "id": 1123,
+      "name": "Nepal Army Institute of Health Sciences",
+      "type": "Army",
+      "address": "Kathmandu",
+      "phone": [
+        "01-4261220"
+      ],
+      "website": "https://www.naihs.edu.np",
+      "district": "Kathmandu",
+      "services": [
+        "General Medicine",
+        "Medical Education",
+        "Nursing"
+      ],
+      "note": "Army medical college and hospital",
+      "gps": null
+    },
+    {
+      "id": 1124,
+      "name": "Kantipur Dental Hospital",
+      "type": "Private",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": [
+        "01-4371603"
+      ],
+      "website": null,
+      "district": "Kathmandu",
+      "services": [
+        "Dental Care",
+        "Oral Surgery",
+        "Orthodontics"
+      ],
+      "note": "Specialized dental hospital",
+      "gps": null
     }
   ]
 }
