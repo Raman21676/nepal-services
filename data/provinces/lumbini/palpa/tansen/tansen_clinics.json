@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Clinics and specialized medical centers in Tansen, Palpa"
+  },
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Tansen Dental Clinic",
+      "type": "Dental",
+      "services": ["Dental Checkup", "Root Canal", "Teeth Cleaning", "Orthodontics"],
+      "address": "Tansen-5, Palpa",
+      "phone": ["075-520100"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 2,
+      "name": "Palpa Diagnostic Center",
+      "type": "Diagnostic",
+      "services": ["Blood Tests", "X-Ray", "Ultrasound", "ECG"],
+      "address": "Tansen-4, Palpa",
+      "phone": ["075-520200"],
+      "hours": "6:00 AM - 8:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 3,
+      "name": "Tansen Eye Care",
+      "type": "Eye Care",
+      "services": ["Eye Checkup", "Cataract Screening", "Spectacles"],
+      "address": "Tansen-6, Palpa",
+      "phone": ["075-520300"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 4,
+      "name": "Hill Physiotherapy Center",
+      "type": "Physiotherapy",
+      "services": ["Physiotherapy", "Rehabilitation", "Pain Management"],
+      "address": "Tansen-3, Palpa",
+      "phone": ["075-520400"],
+      "hours": "8:00 AM - 7:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 5,
+      "name": "Tansen Women's Clinic",
+      "type": "Gynecology",
+      "services": ["Women's Health", "Pregnancy Care", "Family Planning"],
+      "address": "Tansen-7, Palpa",
+      "phone": ["075-520500"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 6,
+      "name": "Palpa Children's Clinic",
+      "type": "Pediatrics",
+      "services": ["Child Health", "Vaccination", "Growth Monitoring"],
+      "address": "Tansen-2, Palpa",
+      "phone": ["075-520600"],
+      "hours": "9:00 AM - 5:00 PM",
+      "district": "Palpa"
+    }
+  ]
+}

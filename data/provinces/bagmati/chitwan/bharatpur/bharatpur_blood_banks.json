@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 4,
+    "note": "Blood banks in Bharatpur, Chitwan"
+  },
+  "blood_banks": [
+    {
+      "id": 1,
+      "name": "Bharatpur Blood Bank",
+      "type": "Government",
+      "address": "Bharatpur Hospital, Chitwan",
+      "phone": ["056-520500"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "Chitwan Medical College Blood Bank",
+      "type": "Private",
+      "address": "Chitwan Medical College, Bharatpur",
+      "phone": ["056-520501"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "Red Cross Blood Bank Chitwan",
+      "type": "NGO",
+      "address": "Bharatpur-6, Chitwan",
+      "phone": ["056-520502"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "College of Medical Sciences Blood Bank",
+      "type": "Private",
+      "address": "College of Medical Sciences, Bharatpur",
+      "phone": ["056-520503"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    }
+  ]
+}

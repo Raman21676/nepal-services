@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 12,
+    "note": "Ambulance services in Kathmandu Valley"
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service",
+      "type": "Government",
+      "phone": ["102", "01-4433175"],
+      "address": "Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "Red Cross Ambulance Kathmandu",
+      "type": "NGO",
+      "phone": ["01-4270912"],
+      "address": "Red Cross Building, Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 3,
+      "name": "Bir Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-4223807"],
+      "address": "Ratnapark, Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 4,
+      "name": "TU Teaching Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-4412404"],
+      "address": "Maharajgunj, Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 5,
+      "name": "Patan Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-5522278"],
+      "address": "Patan, Lalitpur",
+      "hours": "24/7",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 6,
+      "name": "Grande Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-5159266"],
+      "address": "Dhapasi, Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 7,
+      "name": "Norvic Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-5970032"],
+      "address": "Thapathali, Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 8,
+      "name": "B&B Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-5531934"],
+      "address": "Gwarko, Lalitpur",
+      "hours": "24/7",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 9,
+      "name": "Medicare Ambulance",
+      "type": "Hospital",
+      "phone": ["01-4467060"],
+      "address": "Chabahil, Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 10,
+      "name": "Bhaktapur Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["01-6612268"],
+      "address": "Bhaktapur",
+      "hours": "24/7",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 11,
+      "name": "Private Ambulance Service Kathmandu",
+      "type": "Private",
+      "phone": ["01-4433176"],
+      "address": "Kathmandu",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 12,
+      "name": "Valley Ambulance Service",
+      "type": "Private",
+      "phone": ["01-4433177"],
+      "address": "Kathmandu Valley",
+      "hours": "24/7",
+      "district": "Kathmandu"
+    }
+  ]
+}

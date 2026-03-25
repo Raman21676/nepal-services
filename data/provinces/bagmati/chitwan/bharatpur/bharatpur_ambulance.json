@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Ambulance services in Bharatpur, Chitwan"
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Bharatpur Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["056-520900", "102"],
+      "address": "Bharatpur Hospital, Chitwan",
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "Chitwan Medical College Ambulance",
+      "type": "Hospital",
+      "phone": ["056-520901"],
+      "address": "Chitwan Medical College, Bharatpur",
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "College of Medical Sciences Ambulance",
+      "type": "Hospital",
+      "phone": ["056-520902"],
+      "address": "College of Medical Sciences, Bharatpur",
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "Red Cross Ambulance Chitwan",
+      "type": "NGO",
+      "phone": ["056-520903"],
+      "address": "Bharatpur-6, Chitwan",
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 5,
+      "name": "Private Ambulance Service Bharatpur",
+      "type": "Private",
+      "phone": ["056-520904"],
+      "address": "Bharatpur Bus Park, Chitwan",
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 6,
+      "name": "Emergency Ambulance Chitwan",
+      "type": "Emergency",
+      "phone": ["102", "056-520905"],
+      "address": "Bharatpur-10, Chitwan",
+      "hours": "24/7",
+      "district": "Chitwan"
+    }
+  ]
+}
