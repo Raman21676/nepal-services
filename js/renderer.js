@@ -276,7 +276,9 @@ class UIRenderer {
     }
     
     createInfoRow(icon, labelKey, value) {
-        const label = (typeof i18n !== 'undefined') ? i18n.t(`card.${labelKey}`) : labelKey;
+        // Convert to lowercase for translation lookup
+        const translationKey = labelKey.toLowerCase();
+        const label = (typeof i18n !== 'undefined' && i18n.isLoaded) ? i18n.t(`card.${translationKey}`) : labelKey;
         return `
             <div class="info-row">
                 <span class="info-label">${icon} ${label}</span>
@@ -296,7 +298,7 @@ class UIRenderer {
         }
         const cleanPhone = phone.replace(/\D/g, '');
         const displayPhone = this.escapeHtml(phone);
-        const label = (typeof i18n !== 'undefined') ? i18n.t('card.phone') : 'Phone';
+        const label = (typeof i18n !== 'undefined' && i18n.isLoaded) ? i18n.t('card.phone') : 'Phone';
         return `
             <div class="info-row">
                 <span class="info-label">📞 ${label}</span>

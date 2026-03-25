@@ -5,7 +5,8 @@
   },
   "hero": {
     "badge": "All 7 Provinces",
-    "title": "Nepal Services Directory",
+    "titleNepal": "Nepal",
+    "title": "Services Directory",
     "subtitle": "Discover hospitals, schools, emergency contacts, and government offices across Nepal",
     "stats": {
       "hospitals": "Hospitals",
