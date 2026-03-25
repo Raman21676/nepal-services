@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Pakhribas",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Pakhribas Hospital",
+      "type": "Public",
+      "address": "Pakhribas-5, Dhankuta",
+      "phone": ["026-520100"],
+      "district": "Dhankuta",
+      "gps": null
+    }
+  ]
+}

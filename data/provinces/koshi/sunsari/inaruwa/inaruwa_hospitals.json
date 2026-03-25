@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Inaruwa",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Inaruwa Hospital",
+      "type": "Public",
+      "address": "Inaruwa-5, Sunsari",
+      "phone": ["025-520100"],
+      "district": "Sunsari",
+      "gps": null
+    }
+  ]
+}

@@ -112,4 +112,28 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/banke/khajura/khajura_emergency.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'emergency' },
     { path: 'data/provinces/lumbini/banke/khajura/khajura_government.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'government' },
     { path: 'data/provinces/lumbini/banke/khajura/khajura_veterinary.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'veterinary' },
+    
+    // Dang Secondary City - Lamahi
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_hospitals.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_colleges.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'colleges' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_schools.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'schools' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_clinics.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'clinics' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_pharmacies.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'pharmacies' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_ambulance.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'ambulance' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_blood_banks.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'blood_banks' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_emergency.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'emergency' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_government.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'government' },
+    { path: 'data/provinces/lumbini/dang/lamahi/lamahi_veterinary.json', province: 'lumbini', district: 'dang', city: 'lamahi', type: 'veterinary' },
+    
+    // Rupandehi Secondary City - Tilottama
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_hospitals.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_colleges.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'colleges' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_schools.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'schools' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_clinics.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'clinics' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_pharmacies.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'pharmacies' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_ambulance.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'ambulance' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_blood_banks.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'blood_banks' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_emergency.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'emergency' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_government.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'government' },
+    { path: 'data/provinces/lumbini/rupandehi/tilottama/tilottama_veterinary.json', province: 'lumbini', district: 'rupandehi', city: 'tilottama', type: 'veterinary' },
 ];

@@ -100,4 +100,16 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_emergency.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'emergency' },
     { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_government.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'government' },
     { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_veterinary.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'veterinary' },
+    
+    // Syangja Secondary City - Waling
+    { path: 'data/provinces/gandaki/syangja/waling/waling_hospitals.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'hospitals' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_colleges.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'colleges' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_schools.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'schools' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_clinics.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'clinics' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_pharmacies.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'pharmacies' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_ambulance.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'ambulance' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_blood_banks.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'blood_banks' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_emergency.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'emergency' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_government.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'government' },
+    { path: 'data/provinces/gandaki/syangja/waling/waling_veterinary.json', province: 'gandaki', district: 'syangja', city: 'waling', type: 'veterinary' },
 ];

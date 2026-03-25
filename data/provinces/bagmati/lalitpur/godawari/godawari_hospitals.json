@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Godawari",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Godawari Hospital",
+      "type": "Public",
+      "address": "Godawari-5, Lalitpur",
+      "phone": ["01-5571000"],
+      "district": "Lalitpur",
+      "gps": null
+    }
+  ]
+}

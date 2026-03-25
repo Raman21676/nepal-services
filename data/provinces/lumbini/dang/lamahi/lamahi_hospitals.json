@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Lamahi",
+    "district": "Dang",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lamahi Hospital",
+      "type": "Public",
+      "address": "Lamahi-5, Dang",
+      "phone": ["082-520100"],
+      "district": "Dang",
+      "gps": null
+    }
+  ]
+}

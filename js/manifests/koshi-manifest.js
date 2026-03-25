@@ -98,4 +98,40 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/morang/belbari/belbari_emergency.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'emergency' },
     { path: 'data/provinces/koshi/morang/belbari/belbari_government.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'government' },
     { path: 'data/provinces/koshi/morang/belbari/belbari_veterinary.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'veterinary' },
+    
+    // Jhapa Secondary City - Mechinagar
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_hospitals.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'hospitals' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_colleges.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'colleges' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_schools.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'schools' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_clinics.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'clinics' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_pharmacies.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_ambulance.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'ambulance' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_blood_banks.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'blood_banks' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_emergency.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'emergency' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_government.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'government' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_veterinary.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'veterinary' },
+    
+    // Sunsari Secondary City - Inaruwa
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_hospitals.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'hospitals' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_colleges.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'colleges' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_schools.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'schools' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_clinics.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'clinics' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_pharmacies.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_ambulance.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'ambulance' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_blood_banks.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'blood_banks' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_emergency.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'emergency' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_government.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'government' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_veterinary.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'veterinary' },
+    
+    // Dhankuta Secondary City - Pakhribas
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_hospitals.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'hospitals' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_colleges.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'colleges' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_schools.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'schools' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_clinics.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'clinics' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_pharmacies.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_ambulance.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'ambulance' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_blood_banks.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'blood_banks' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_emergency.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'emergency' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_government.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'government' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_veterinary.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'veterinary' },
 ];

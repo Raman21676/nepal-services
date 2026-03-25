@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Waling",
+    "district": "Syangja",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Waling Hospital",
+      "type": "Public",
+      "address": "Waling-5, Syangja",
+      "phone": ["063-520100"],
+      "district": "Syangja",
+      "gps": null
+    }
+  ]
+}

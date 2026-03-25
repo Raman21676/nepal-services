@@ -100,4 +100,28 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/chitwan/ratnanagar/ratnanagar_emergency.json', province: 'bagmati', district: 'chitwan', city: 'ratnanagar', type: 'emergency' },
     { path: 'data/provinces/bagmati/chitwan/ratnanagar/ratnanagar_government.json', province: 'bagmati', district: 'chitwan', city: 'ratnanagar', type: 'government' },
     { path: 'data/provinces/bagmati/chitwan/ratnanagar/ratnanagar_veterinary.json', province: 'bagmati', district: 'chitwan', city: 'ratnanagar', type: 'veterinary' },
+    
+    // Lalitpur Secondary City - Godawari
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_hospitals.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'hospitals' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_colleges.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'colleges' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_schools.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'schools' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_clinics.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'clinics' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_pharmacies.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'pharmacies' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_ambulance.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'ambulance' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_blood_banks.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'blood_banks' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_emergency.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'emergency' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_government.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'government' },
+    { path: 'data/provinces/bagmati/lalitpur/godawari/godawari_veterinary.json', province: 'bagmati', district: 'lalitpur', city: 'godawari', type: 'veterinary' },
+    
+    // Bhaktapur Secondary City - Suryabinayak
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_hospitals.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'hospitals' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_colleges.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'colleges' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'schools' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_clinics.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'clinics' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_pharmacies.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'pharmacies' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_ambulance.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'ambulance' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_blood_banks.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'blood_banks' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_emergency.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'emergency' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_government.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'government' },
+    { path: 'data/provinces/bagmati/bhaktapur/suryabinayak/suryabinayak_veterinary.json', province: 'bagmati', district: 'bhaktapur', city: 'suryabinayak', type: 'veterinary' },
 ];

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Suryabinayak",
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Suryabinayak Hospital",
+      "type": "Public",
+      "address": "Suryabinayak-5, Bhaktapur",
+      "phone": ["01-6611000"],
+      "district": "Bhaktapur",
+      "gps": null
+    }
+  ]
+}
