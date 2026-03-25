@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Rukumkot",
+    "district": "Eastern Rukum",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education",
+    "total_records": 2
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Eastern Rukum Secondary School",
+      "level": "Secondary",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410160"],
+      "district": "Eastern Rukum",
+      "email": null
+    },
+    {
+      "id": 2,
+      "name": "Rukumkot Secondary School",
+      "level": "Secondary",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410161"],
+      "district": "Eastern Rukum",
+      "email": null
+    }
+  ]
+}

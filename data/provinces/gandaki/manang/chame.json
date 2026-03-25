@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "District Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Manang District Hospital",
+      "type": "Public",
+      "address": "Chame, Manang",
+      "phone": ["066-440100"],
+      "district": "Manang",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Ramgram",
+    "district": "Parasi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Red Cross Society",
+    "total_records": 1
+  },
+  "blood_banks": [
+    {
+      "id": 1,
+      "name": "Parasi Blood Bank",
+      "type": "Regional Blood Bank",
+      "address": "Parasi District Hospital, Ramgram",
+      "phone": ["078-520100"],
+      "district": "Parasi",
+      "service_hours": "24/7"
+    }
+  ]
+}

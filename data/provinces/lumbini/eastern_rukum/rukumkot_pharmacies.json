@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Rukumkot",
+    "district": "Eastern Rukum",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 2
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Rukumkot Medical Store",
+      "type": "Retail",
+      "address": "Rukumkot Bazar, Eastern Rukum",
+      "phone": ["088-410180"],
+      "district": "Eastern Rukum"
+    },
+    {
+      "id": 2,
+      "name": "Eastern Rukum Pharmacy",
+      "type": "Retail",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410181"],
+      "district": "Eastern Rukum"
+    }
+  ]
+}

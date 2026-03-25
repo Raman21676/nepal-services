@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Rukumkot",
+    "district": "Eastern Rukum",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "District Administration Office",
+    "total_records": 2
+  },
+  "government_offices": [
+    {
+      "id": 1,
+      "name": "District Administration Office, Eastern Rukum",
+      "type": "Administration",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410010"],
+      "district": "Eastern Rukum"
+    },
+    {
+      "id": 2,
+      "name": "District Coordination Committee, Eastern Rukum",
+      "type": "Coordination",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410020"],
+      "district": "Eastern Rukum"
+    }
+  ]
+}

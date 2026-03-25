@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Police, DoHS",
+    "total_records": 3
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "District Police Office, Manang",
+      "category": "Police",
+      "phone": ["100", "066-440144"],
+      "address": "Chame, Manang",
+      "description": "24/7 emergency police services"
+    },
+    {
+      "id": 2,
+      "name": "Manang District Hospital Emergency",
+      "category": "Hospital",
+      "phone": ["066-440100"],
+      "address": "Chame, Manang",
+      "description": "24/7 emergency medical services"
+    },
+    {
+      "id": 3,
+      "name": "Himalayan Rescue Association (HRA)",
+      "category": "Rescue",
+      "phone": ["066-440123", "9851012345"],
+      "address": "Chame, Manang",
+      "description": "High altitude rescue and emergency medical services"
+    }
+  ]
+}

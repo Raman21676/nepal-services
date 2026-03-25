@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Ramgram",
+    "district": "Parasi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "District Administration Office",
+    "total_records": 2
+  },
+  "government_offices": [
+    {
+      "id": 1,
+      "name": "District Administration Office, Parasi",
+      "type": "Administration",
+      "address": "Ramgram, Parasi",
+      "phone": ["078-520010"],
+      "district": "Parasi"
+    },
+    {
+      "id": 2,
+      "name": "District Coordination Committee, Parasi",
+      "type": "Coordination",
+      "address": "Ramgram, Parasi",
+      "phone": ["078-520020"],
+      "district": "Parasi"
+    }
+  ]
+}

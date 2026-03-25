@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Rukumkot",
+    "district": "Eastern Rukum",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education",
+    "total_records": 2
+  },
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Eastern Rukum Multiple Campus",
+      "type": "Community",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410150"],
+      "district": "Eastern Rukum",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities"]
+    },
+    {
+      "id": 2,
+      "name": "Rukumkot Multiple Campus",
+      "type": "Community",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410151"],
+      "district": "Eastern Rukum",
+      "programs": ["+2 Education", "+2 Management"]
+    }
+  ]
+}

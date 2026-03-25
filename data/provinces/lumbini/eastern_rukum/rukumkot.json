@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Rukumkot",
+    "district": "Eastern Rukum",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "District Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Eastern Rukum District Hospital",
+      "type": "Public",
+      "address": "Rukumkot, Eastern Rukum",
+      "phone": ["088-410100"],
+      "district": "Eastern Rukum",
+      "gps": null
+    }
+  ]
+}

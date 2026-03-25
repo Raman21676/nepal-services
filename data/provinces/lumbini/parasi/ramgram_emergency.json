@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Ramgram",
+    "district": "Parasi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Police, DoHS",
+    "total_records": 3
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "District Police Office, Parasi",
+      "category": "Police",
+      "phone": ["100", "078-520144"],
+      "address": "Ramgram, Parasi",
+      "description": "24/7 emergency police services"
+    },
+    {
+      "id": 2,
+      "name": "Parasi District Hospital Emergency",
+      "category": "Hospital",
+      "phone": ["078-520100"],
+      "address": "Ramgram, Parasi",
+      "description": "24/7 emergency medical services"
+    },
+    {
+      "id": 3,
+      "name": "Fire Service, Ramgram",
+      "category": "Fire",
+      "phone": ["101"],
+      "address": "Ramgram, Parasi",
+      "description": "Fire emergency services"
+    }
+  ]
+}

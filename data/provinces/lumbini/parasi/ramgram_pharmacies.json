@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Ramgram",
+    "district": "Parasi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 2
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Ramgram Medical Store",
+      "type": "Retail",
+      "address": "Ramgram Bazar, Parasi",
+      "phone": ["078-520180"],
+      "district": "Parasi"
+    },
+    {
+      "id": 2,
+      "name": "Parasi Pharmacy",
+      "type": "Retail",
+      "address": "Ramgram, Parasi",
+      "phone": ["078-520181"],
+      "district": "Parasi"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "District Administration Office",
+    "total_records": 2
+  },
+  "government_offices": [
+    {
+      "id": 1,
+      "name": "District Administration Office, Manang",
+      "type": "Administration",
+      "address": "Chame, Manang",
+      "phone": ["066-440010"],
+      "district": "Manang"
+    },
+    {
+      "id": 2,
+      "name": "Manang Ngisyang Rural Municipality Office",
+      "type": "Municipality",
+      "address": "Chame, Manang",
+      "phone": ["066-440020"],
+      "district": "Manang"
+    }
+  ]
+}

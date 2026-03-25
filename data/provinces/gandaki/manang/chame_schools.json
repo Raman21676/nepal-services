@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education",
+    "total_records": 1
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Manang Secondary School",
+      "level": "Secondary",
+      "address": "Chame, Manang",
+      "phone": ["066-440160"],
+      "district": "Manang",
+      "email": null
+    }
+  ]
+}

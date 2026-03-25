@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Rukumkot",
+    "district": "Eastern Rukum",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Police, DoHS",
+    "total_records": 3
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "District Police Office, Eastern Rukum",
+      "category": "Police",
+      "phone": ["100", "088-410144"],
+      "address": "Rukumkot, Eastern Rukum",
+      "description": "24/7 emergency police services"
+    },
+    {
+      "id": 2,
+      "name": "Eastern Rukum District Hospital Emergency",
+      "category": "Hospital",
+      "phone": ["088-410100"],
+      "address": "Rukumkot, Eastern Rukum",
+      "description": "24/7 emergency medical services"
+    },
+    {
+      "id": 3,
+      "name": "Fire Service, Rukumkot",
+      "category": "Fire",
+      "phone": ["101"],
+      "address": "Rukumkot, Eastern Rukum",
+      "description": "Fire emergency services"
+    }
+  ]
+}

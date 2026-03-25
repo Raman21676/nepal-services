@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Ramgram",
+    "district": "Parasi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "District Health Office",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Parasi District Hospital",
+      "type": "Public",
+      "address": "Ramgram, Parasi",
+      "phone": ["078-520100"],
+      "district": "Parasi",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Bardaghat Hospital",
+      "type": "Public",
+      "address": "Bardaghat, Parasi",
+      "phone": ["078-520101"],
+      "district": "Parasi",
+      "gps": null
+    }
+  ]
+}

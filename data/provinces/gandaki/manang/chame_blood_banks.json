@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Red Cross Society",
+    "total_records": 1
+  },
+  "blood_banks": [
+    {
+      "id": 1,
+      "name": "Manang Blood Bank",
+      "type": "District Blood Bank",
+      "address": "Manang District Hospital, Chame",
+      "phone": ["066-440100"],
+      "district": "Manang",
+      "service_hours": "During office hours"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Manang District Hospital Ambulance",
+      "provider": "District Hospital",
+      "phone": ["066-440100"],
+      "type": "Hospital",
+      "service": "24/7 emergency transport (limited by road conditions)",
+      "district": "Manang",
+      "address": "Chame, Manang"
+    }
+  ]
+}

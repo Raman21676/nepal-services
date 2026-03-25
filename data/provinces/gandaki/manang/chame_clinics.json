@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Chame Health Post",
+      "type": "Health Post",
+      "address": "Chame, Manang",
+      "phone": ["066-440170"],
+      "district": "Manang"
+    }
+  ]
+}
