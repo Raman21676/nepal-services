@@ -4,8 +4,8 @@
     "country": "Nepal",
     "last_updated": "2026-03-25",
     "source": "Edusanjal, Ministry of Education, Government Websites",
-    "total_records": 146,
-    "note": "Total 170 schools in Kathmandu"
+    "total_records": 160,
+    "note": "Total 160 schools in Kathmandu including major international schools"
   },
   "schools": [
     {
@@ -2064,6 +2064,308 @@
         "Management"
       ],
       "note": "Quality education in Pokhara",
+      "gps": null
+    },
+    {
+      "id": 147,
+      "name": "Nexus International School",
+      "type": "Private",
+      "address": "Kumaripati, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5541931"
+      ],
+      "email": "info@nexus.edu.np",
+      "website": "https://www.nexus.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Lower Secondary",
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "International school offering Cambridge curriculum",
+      "gps": null
+    },
+    {
+      "id": 148,
+      "name": "Rato Bangala School",
+      "type": "Private",
+      "address": "Patan Dhoka, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5531526",
+        "01-5531527"
+      ],
+      "email": "info@ratobangala.edu.np",
+      "website": "https://www.ratobangala.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board + Cambridge",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "A-Level"
+      ],
+      "note": "Premier international school in Kathmandu valley",
+      "gps": null
+    },
+    {
+      "id": 149,
+      "name": "Lincoln School",
+      "type": "Private",
+      "address": "Rabi Bhawan, Kathmandu",
+      "phone": [
+        "01-4279195"
+      ],
+      "email": "info@lincoln.edu.np",
+      "website": "https://www.lincoln.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "International Baccalaureate (IB)",
+      "programs": [
+        "IB PYP",
+        "IB MYP",
+        "IB Diploma"
+      ],
+      "note": "American international school offering IB curriculum",
+      "gps": null
+    },
+    {
+      "id": 150,
+      "name": "The British School Kathmandu",
+      "type": "Private",
+      "address": "Bhaisepati, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5591480"
+      ],
+      "email": "info@tbs.edu.np",
+      "website": "https://www.tbs.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "British curriculum international school",
+      "gps": null
+    },
+    {
+      "id": 151,
+      "name": "Kathmandu International Study Centre (KISC)",
+      "type": "Private",
+      "address": "Dhapakhel, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5571607"
+      ],
+      "email": "info@kisc.edu.np",
+      "website": "https://www.kisc.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Christian international school with Cambridge curriculum",
+      "gps": null
+    },
+    {
+      "id": 152,
+      "name": "Premier International School",
+      "type": "Private",
+      "address": "Bhaisepati, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5590179"
+      ],
+      "email": "info@premierschool.edu.np",
+      "website": "https://www.premierschool.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Lower Secondary",
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "International school offering Cambridge education",
+      "gps": null
+    },
+    {
+      "id": 153,
+      "name": "The Chandbagh School",
+      "type": "Private",
+      "address": "Bansbari, Kathmandu",
+      "phone": [
+        "01-4373801"
+      ],
+      "email": "info@chandbagh.edu.np",
+      "website": "https://www.chandbagh.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Higher Secondary",
+      "affiliation": "National Examinations Board + Cambridge",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "+2",
+        "A-Level"
+      ],
+      "note": "Leading school with both national and international curriculum",
+      "gps": null
+    },
+    {
+      "id": 154,
+      "name": "HIMS International School",
+      "type": "Private",
+      "address": "Dhumbarahi, Kathmandu",
+      "phone": [
+        "01-4434868"
+      ],
+      "email": "info@hims.edu.np",
+      "website": "https://www.hims.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Lower Secondary",
+        "IGCSE"
+      ],
+      "note": "International school with focus on holistic education",
+      "gps": null
+    },
+    {
+      "id": 155,
+      "name": "Modern Indian School",
+      "type": "Private",
+      "address": "Chobhar, Kathmandu",
+      "phone": [
+        "01-5151022"
+      ],
+      "email": "info@modernindianschool.edu.np",
+      "website": "https://www.modernindianschool.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "CBSE (India)",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "Senior Secondary"
+      ],
+      "note": "Indian CBSE curriculum school",
+      "gps": null
+    },
+    {
+      "id": 156,
+      "name": "St. Mary's School",
+      "type": "Private",
+      "address": "Jawalakhel, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5521207"
+      ],
+      "email": "info@stmarys.edu.np",
+      "website": "https://www.stmarys.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "National Examinations Board + Cambridge",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "A-Level"
+      ],
+      "note": "Prestigious girls' school with international curriculum options",
+      "gps": null
+    },
+    {
+      "id": 157,
+      "name": "St. Xavier's School",
+      "type": "Private",
+      "address": "Jawalakhel, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5523412"
+      ],
+      "email": "info@sxj.edu.np",
+      "website": "https://www.stxaviers.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Higher Secondary",
+      "affiliation": "National Examinations Board + Cambridge",
+      "programs": [
+        "Primary",
+        "Secondary",
+        "+2 Science",
+        "A-Level"
+      ],
+      "note": "Prestigious Jesuit school with excellent academic record",
+      "gps": null
+    },
+    {
+      "id": 158,
+      "name": "Ullens School",
+      "type": "Private",
+      "address": "Khumaltar, Lalitpur, Kathmandu",
+      "phone": [
+        "01-5530705"
+      ],
+      "email": "info@ullens.edu.np",
+      "website": "https://www.ullens.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Lower Secondary",
+        "IGCSE",
+        "A-Level"
+      ],
+      "note": "Progressive international school with Cambridge curriculum",
+      "gps": null
+    },
+    {
+      "id": 159,
+      "name": "Leo International School",
+      "type": "Private",
+      "address": "Sukedhara, Kathmandu",
+      "phone": [
+        "01-4950203"
+      ],
+      "email": "info@leoschool.edu.np",
+      "website": "https://www.leointernational.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Lower Secondary",
+        "IGCSE"
+      ],
+      "note": "International school with focus on child-centered learning",
+      "gps": null
+    },
+    {
+      "id": 160,
+      "name": "Rise International School",
+      "type": "Private",
+      "address": "Samakhushi, Kathmandu",
+      "phone": [
+        "01-4359400"
+      ],
+      "email": "info@rise.edu.np",
+      "website": "https://www.riseinternational.edu.np",
+      "district": "Kathmandu",
+      "level": "Basic to Secondary",
+      "affiliation": "Cambridge International (CAIE)",
+      "programs": [
+        "Primary",
+        "Lower Secondary",
+        "IGCSE"
+      ],
+      "note": "International school offering Cambridge education",
       "gps": null
     }
   ]
