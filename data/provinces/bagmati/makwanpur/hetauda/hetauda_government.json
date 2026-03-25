@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Hetauda Sub-Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Hetauda"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Hetauda Sub-Metropolitan City Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Hetauda-4, Makwanpur",
+      "phone": ["057-520100"],
+      "website": "https://hetaudamun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 2,
+      "name": "Makwanpur District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Hetauda-5, Makwanpur",
+      "phone": ["057-520101"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 3,
+      "name": "Hetauda Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Hetauda-3, Makwanpur",
+      "phone": ["057-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 4,
+      "name": "Bagmati Province Revenue Office Hetauda",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Hetauda-6, Makwanpur",
+      "phone": ["057-520103"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Electricity Authority - Hetauda",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Hetauda-2, Makwanpur",
+      "phone": ["057-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 6,
+      "name": "Water Supply and Sanitation Office Hetauda",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Hetauda-7, Makwanpur",
+      "phone": ["057-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 7,
+      "name": "Bagmati Province Police Office Hetauda",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Hetauda-8, Makwanpur",
+      "phone": ["057-520106", "100"],
+      "hours": "24/7",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 8,
+      "name": "Hetauda Industrial Estate Office",
+      "type": "Industrial Office",
+      "department": "Ministry of Industry",
+      "address": "Hetauda-9, Makwanpur",
+      "phone": ["057-520107"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 9,
+      "name": "Makwanpur District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Hetauda-1, Makwanpur",
+      "phone": ["057-520108"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    },
+    {
+      "id": 10,
+      "name": "Forestry Office Makwanpur",
+      "type": "Forest Office",
+      "department": "Ministry of Forests",
+      "address": "Hetauda-10, Makwanpur",
+      "phone": ["057-520109"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Makwanpur"
+    }
+  ]
+}

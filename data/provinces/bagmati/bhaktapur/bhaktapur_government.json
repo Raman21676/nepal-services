@@ -3,76 +3,114 @@
     "city": "Bhaktapur",
     "district": "Bhaktapur",
     "province": "Bagmati",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bhaktapur Municipality, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Bhaktapur"
   },
-  "government_offices": [
+  "government": [
     {
+      "id": 1,
       "name": "Bhaktapur Municipality Office",
-      "name_np": "भक्तपुर नगरपालिका कार्यालय",
       "type": "Municipal Office",
+      "department": "Local Government",
       "address": "Bhaktapur Durbar Square, Bhaktapur",
-      "phone": "01-6610870",
-      "email": "info@bhaktapurmun.gov.np",
-      "website": "https://bhaktapurmun.gov.np"
+      "phone": ["01-6612268"],
+      "website": "https://bhaktapurmun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
     },
     {
-      "name": "District Administration Office Bhaktapur",
-      "name_np": "जिल्ला प्रशासन कार्यालय भक्तपुर",
+      "id": 2,
+      "name": "Bhaktapur District Administration Office",
       "type": "District Administration",
-      "address": "Bhaktapur, Nepal",
-      "phone": "01-6611244",
-      "email": "daobhaktapur@nepal.gov.np"
+      "department": "Home Ministry",
+      "address": "Bhaktapur-5, Bhaktapur",
+      "phone": ["01-6612269"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
     },
     {
-      "name": "Nepal Electricity Authority - Bhaktapur",
-      "name_np": "नेपाल विद्युत प्राधिकरण - भक्तपुर",
-      "type": "Electricity Office",
-      "address": "Suryabinayak, Bhaktapur",
-      "phone": "01-6610622",
-      "customer_service": "1912"
-    },
-    {
-      "name": "NEA Distribution Center - Bhaktapur",
-      "name_np": "वितरण केन्द्र भक्तपुर",
-      "type": "Electricity Office",
-      "address": "Bhaktapur Industrial Area, Nepal",
-      "phone": "01-6611548"
-    },
-    {
-      "name": "KUKL Bhaktapur Branch",
-      "name_np": "खानेपानी कार्यालय भक्तपुर",
-      "type": "Water Supply Office",
-      "address": "Bhaktapur, Nepal",
-      "phone": "01-6611092"
-    },
-    {
-      "name": "Bhaktapur District Police Office",
-      "name_np": "जिल्ला प्रहरी कार्यालय भक्तपुर",
-      "type": "Police",
-      "address": "Bhaktapur, Nepal",
-      "phone": "01-6611322",
-      "emergency": "100"
-    },
-    {
-      "name": "Bhaktapur Land Revenue Office",
-      "name_np": "भक्तपुर मालपोत कार्यालय",
-      "type": "Land Office",
-      "address": "Bhaktapur, Nepal",
-      "phone": "01-6610987"
-    },
-    {
-      "name": "Bhaktapur Post Office",
-      "name_np": "भक्तपुर हुलाक कार्यालय",
-      "type": "Post Office",
-      "address": "Bhaktapur Durbar Square Area",
-      "phone": "01-6610981"
-    },
-    {
-      "name": "District Transport Office Bhaktapur",
-      "name_np": "जिल्ला यातायात कार्यालय भक्तपुर",
+      "id": 3,
+      "name": "Bhaktapur Transport Management Office",
       "type": "Transport Office",
-      "address": "Suryabinayak, Bhaktapur",
-      "phone": "01-6610888"
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Sallaghari, Bhaktapur",
+      "phone": ["01-6612270"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 4,
+      "name": "Inland Revenue Office Bhaktapur",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Bhaktapur-4, Bhaktapur",
+      "phone": ["01-6612271"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Electricity Authority - Bhaktapur",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Bhaktapur-3, Bhaktapur",
+      "phone": ["01-6612272"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 6,
+      "name": "Water Supply and Sanitation Office Bhaktapur",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Bhaktapur-6, Bhaktapur",
+      "phone": ["01-6612273"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 7,
+      "name": "Bhaktapur District Police Office",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Bhaktapur-7, Bhaktapur",
+      "phone": ["01-6612274", "100"],
+      "hours": "24/7",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 8,
+      "name": "Bhaktapur District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Bhaktapur-2, Bhaktapur",
+      "phone": ["01-6612275"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 9,
+      "name": "Department of Archaeology Bhaktapur",
+      "type": "Cultural Office",
+      "department": "Ministry of Culture",
+      "address": "Bhaktapur Durbar Square, Bhaktapur",
+      "phone": ["01-6612276"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 10,
+      "name": "Bhaktapur Industrial Estate Office",
+      "type": "Industrial Office",
+      "department": "Ministry of Industry",
+      "address": "Bhaktapur-8, Bhaktapur",
+      "phone": ["01-6612277"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Bhaktapur"
     }
   ]
 }

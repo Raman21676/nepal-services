@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bharatpur Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Bharatpur"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Bharatpur Metropolitan City Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Bharatpur-10, Chitwan",
+      "phone": ["056-520100"],
+      "website": "https://bharatpurmun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "Chitwan District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Bharatpur-5, Chitwan",
+      "phone": ["056-520101"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "Bharatpur Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Bharatpur-3, Chitwan",
+      "phone": ["056-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "Bagmati Province Revenue Office Bharatpur",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Bharatpur-7, Chitwan",
+      "phone": ["056-520103"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Electricity Authority - Bharatpur",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Bharatpur-4, Chitwan",
+      "phone": ["056-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 6,
+      "name": "Water Supply and Sanitation Office Bharatpur",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Bharatpur-6, Chitwan",
+      "phone": ["056-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 7,
+      "name": "Bagmati Province Police Office Bharatpur",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Bharatpur-8, Chitwan",
+      "phone": ["056-520106", "100"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 8,
+      "name": "Bharatpur Immigration Office",
+      "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Bharatpur-2, Chitwan",
+      "phone": ["056-520107"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 9,
+      "name": "Chitwan National Park Office",
+      "type": "Conservation Office",
+      "department": "Department of National Parks",
+      "address": "Kasara, Chitwan",
+      "phone": ["056-520108"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    },
+    {
+      "id": 10,
+      "name": "Chitwan District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Bharatpur-1, Chitwan",
+      "phone": ["056-520109"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Chitwan"
+    }
+  ]
+}

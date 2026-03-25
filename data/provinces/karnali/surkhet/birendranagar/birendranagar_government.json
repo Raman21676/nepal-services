@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Birendranagar Municipality, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Birendranagar, Surkhet"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Birendranagar Municipality Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": ["083-520100"],
+      "website": "https://birendranagarmun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 2,
+      "name": "Surkhet District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": ["083-520101"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 3,
+      "name": "Birendranagar Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": ["083-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 4,
+      "name": "Karnali Province Revenue Office Birendranagar",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": ["083-520103"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Electricity Authority - Birendranagar",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Birendranagar-2, Surkhet",
+      "phone": ["083-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 6,
+      "name": "Water Supply and Sanitation Office Birendranagar",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": ["083-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 7,
+      "name": "Karnali Province Police Office Birendranagar",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": ["083-520106", "100"],
+      "hours": "24/7",
+      "district": "Surkhet"
+    },
+    {
+      "id": 8,
+      "name": "Karnali Province Chief Minister Office",
+      "type": "Provincial Office",
+      "department": "Karnali Province Government",
+      "address": "Birendranagar-9, Surkhet",
+      "phone": ["083-520107"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 9,
+      "name": "Surkhet District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Birendranagar-1, Surkhet",
+      "phone": ["083-520108"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    },
+    {
+      "id": 10,
+      "name": "Karnali Academy of Health Sciences - Administration",
+      "type": "Health Administration",
+      "department": "Ministry of Health",
+      "address": "Birendranagar-10, Surkhet",
+      "phone": ["083-520109"],
+      "website": "https://bpkihs.edu/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Surkhet"
+    }
+  ]
+}

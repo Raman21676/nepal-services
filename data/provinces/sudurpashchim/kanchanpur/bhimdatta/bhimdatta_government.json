@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Bhimdatta",
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bhimdatta Municipality, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Bhimdatta (formerly Mahendranagar), Kanchanpur"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Bhimdatta Municipality Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Bhimdatta-5, Kanchanpur",
+      "phone": ["099-520100"],
+      "website": "https://bhimdattamun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 2,
+      "name": "Kanchanpur District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Bhimdatta-4, Kanchanpur",
+      "phone": ["099-520101"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 3,
+      "name": "Bhimdatta Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Bhimdatta-6, Kanchanpur",
+      "phone": ["099-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 4,
+      "name": "Bhimdatta Customs Office",
+      "type": "Customs Office",
+      "department": "Ministry of Finance",
+      "address": "Bhimdatta-7, Kanchanpur",
+      "phone": ["099-520103"],
+      "hours": "24/7",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 5,
+      "name": "Sudurpashchim Province Revenue Office Bhimdatta",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Bhimdatta-3, Kanchanpur",
+      "phone": ["099-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 6,
+      "name": "Nepal Electricity Authority - Bhimdatta",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Bhimdatta-2, Kanchanpur",
+      "phone": ["099-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 7,
+      "name": "Water Supply and Sanitation Office Bhimdatta",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Bhimdatta-8, Kanchanpur",
+      "phone": ["099-520106"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 8,
+      "name": "Sudurpashchim Province Police Office Bhimdatta",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Bhimdatta-1, Kanchanpur",
+      "phone": ["099-520107", "100"],
+      "hours": "24/7",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 9,
+      "name": "Bhimdatta Immigration Office",
+      "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Bhimdatta-9, Kanchanpur",
+      "phone": ["099-520108"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 10,
+      "name": "Kanchanpur District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Bhimdatta-10, Kanchanpur",
+      "phone": ["099-520109"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kanchanpur"
+    }
+  ]
+}

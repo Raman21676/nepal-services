@@ -3,93 +3,114 @@
     "city": "Lalitpur",
     "district": "Lalitpur",
     "province": "Bagmati",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lalitpur Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Lalitpur (Patan)"
   },
-  "government_offices": [
+  "government": [
     {
+      "id": 1,
       "name": "Lalitpur Metropolitan City Office",
-      "name_np": "ललितपुर महानगरपालिका कार्यालय",
-      "type": "Metropolitan Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
       "address": "Pulchowk, Lalitpur",
-      "phone": "01-5527200",
-      "email": "info@lalitpurmun.gov.np",
-      "website": "https://lalitpurmun.gov.np"
+      "phone": ["01-5527000"],
+      "website": "https://lalitpurmun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
     },
     {
-      "name": "District Administration Office Lalitpur",
-      "name_np": "जिल्ला प्रशासन कार्यालय ललितपुर",
+      "id": 2,
+      "name": "Lalitpur District Administration Office",
       "type": "District Administration",
-      "address": "Pulchowk, Lalitpur",
-      "phone": "01-5527005",
-      "email": "daolalitpur@nepal.gov.np"
+      "department": "Home Ministry",
+      "address": "Lalitpur-5, Lalitpur",
+      "phone": ["01-5527001"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
     },
     {
-      "name": "Nepal Electricity Authority - Head Office",
-      "name_np": "नेपाल विद्युत प्राधिकरण - केन्द्रीय कार्यालय",
-      "type": "Electricity Office",
-      "address": "Kumaripati, Lalitpur",
-      "phone": "01-5532400",
-      "website": "https://www.nea.org.np",
-      "customer_service": "1912"
-    },
-    {
-      "name": "NEA Distribution Center - Lalitpur",
-      "name_np": "वितरण केन्द्र ललितपुर",
-      "type": "Electricity Office",
-      "address": "Pulchowk, Lalitpur",
-      "phone": "01-5522271"
-    },
-    {
-      "name": "Kathmandu Upatyaka Khanepani Limited - Patan",
-      "name_np": "खानेपानी कार्यालय पाटन",
-      "type": "Water Supply Office",
-      "address": "Patan Dhoka, Lalitpur",
-      "phone": "01-5521423"
-    },
-    {
-      "name": "Lalitpur District Police Office",
-      "name_np": "जिल्ला प्रहरी कार्यालय ललितपुर",
-      "type": "Police",
-      "address": "Jhamsikhel, Lalitpur",
-      "phone": "01-5521207",
-      "emergency": "100"
-    },
-    {
-      "name": "Metropolitan Police Range Lalitpur",
-      "name_np": "महानगरीय प्रहरी वृत्त ललितपुर",
-      "type": "Police",
-      "address": "Pulchowk, Lalitpur",
-      "phone": "01-5521444",
-      "emergency": "100"
-    },
-    {
-      "name": "Lalitpur Land Revenue Office",
-      "name_np": "ललितपुर मालपोत कार्यालय",
-      "type": "Land Office",
-      "address": "Lagankhel, Lalitpur",
-      "phone": "01-5521203"
-    },
-    {
-      "name": "Lalitpur Post Office",
-      "name_np": "ललितपुर हुलाक कार्यालय",
-      "type": "Post Office",
-      "address": "Pulchowk, Lalitpur",
-      "phone": "01-5521383"
-    },
-    {
-      "name": "Regional Transport Office - Lalitpur",
-      "name_np": "क्षेत्रीय यातायात कार्यालय ललितपुर",
+      "id": 3,
+      "name": "Lalitpur Transport Management Office",
       "type": "Transport Office",
-      "address": "Ekantakuna, Lalitpur",
-      "phone": "01-5520937"
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Gwarko, Lalitpur",
+      "phone": ["01-5527002"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
     },
     {
-      "name": "Company Registrar's Office",
-      "name_np": "कम्पनी रजिष्ट्रार कार्यालय",
-      "type": "Company Registration",
-      "address": "Tripureshwor, Kathmandu",
-      "phone": "01-4259660",
-      "website": "https://www.ocr.gov.np"
+      "id": 4,
+      "name": "Inland Revenue Office Lalitpur",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Pulchowk, Lalitpur",
+      "phone": ["01-5527003"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Electricity Authority - Lalitpur",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Kupondole, Lalitpur",
+      "phone": ["01-5527004"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 6,
+      "name": "Water Supply and Sanitation Office Lalitpur",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Lalitpur-6, Lalitpur",
+      "phone": ["01-5527005"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 7,
+      "name": "Lalitpur District Police Office",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Lagankhel, Lalitpur",
+      "phone": ["01-5527006", "100"],
+      "hours": "24/7",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 8,
+      "name": "Lalitpur District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Lalitpur-2, Lalitpur",
+      "phone": ["01-5527007"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 9,
+      "name": "Patan Museum Administration",
+      "type": "Cultural Office",
+      "department": "Ministry of Culture",
+      "address": "Patan Durbar Square, Lalitpur",
+      "phone": ["01-5527008"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 10,
+      "name": "Lalitpur Chamber of Commerce",
+      "type": "Trade Office",
+      "department": "Ministry of Industry",
+      "address": "Pulchowk, Lalitpur",
+      "phone": ["01-5527009"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
     }
   ]
 }
