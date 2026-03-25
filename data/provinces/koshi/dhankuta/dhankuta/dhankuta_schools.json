@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "city": "Dhankuta",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education, Dhankuta District Education Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 7,
+    "note": "Major schools in Dhankuta - Former zonal headquarters"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Dhankuta Multiple Campus",
+      "type": "Higher Secondary",
+      "address": "Dhankuta-4, Dhankuta",
+      "phone": ["026-520222"],
+      "district": "Dhankuta",
+      "levels": ["10+2", "Bachelor", "Master"],
+      "established": "1960"
+    },
+    {
+      "id": 2,
+      "name": "Shree Dhankuta Higher Secondary School",
+      "type": "Secondary",
+      "address": "Dhankuta-5, Dhankuta",
+      "phone": ["026-521222"],
+      "district": "Dhankuta",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1958"
+    },
+    {
+      "id": 3,
+      "name": "Hill View Higher Secondary School",
+      "type": "Secondary",
+      "address": "Dhankuta-6, Dhankuta",
+      "phone": ["026-522222"],
+      "district": "Dhankuta",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1970"
+    },
+    {
+      "id": 4,
+      "name": "Dhankuta Model School",
+      "type": "Private",
+      "address": "Dhankuta-3, Dhankuta",
+      "phone": ["026-523222"],
+      "district": "Dhankuta",
+      "levels": ["Primary", "Secondary"],
+      "established": "1982"
+    },
+    {
+      "id": 5,
+      "name": "Shree Mahendra Higher Secondary School",
+      "type": "Secondary",
+      "address": "Dhankuta-2, Dhankuta",
+      "phone": ["026-524222"],
+      "district": "Dhankuta",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1965"
+    },
+    {
+      "id": 6,
+      "name": "Green Hills English School",
+      "type": "Private",
+      "address": "Dhankuta-7, Dhankuta",
+      "phone": ["026-525222"],
+      "district": "Dhankuta",
+      "levels": ["Primary", "Secondary"],
+      "established": "1985"
+    },
+    {
+      "id": 7,
+      "name": "Bhanu Memorial Higher Secondary School",
+      "type": "Secondary",
+      "address": "Dhankuta-1, Dhankuta",
+      "phone": ["026-526222"],
+      "district": "Dhankuta",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1975"
+    }
+  ]
+}

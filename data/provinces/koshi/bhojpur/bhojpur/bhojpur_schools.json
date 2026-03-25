@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Bhojpur",
+    "district": "Bhojpur",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education, Bhojpur District Education Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 6,
+    "note": "Major schools in Bhojpur district"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Bhojpur Multiple Campus",
+      "type": "Higher Secondary",
+      "address": "Bhojpur-5, Bhojpur",
+      "phone": ["029-420222"],
+      "district": "Bhojpur",
+      "levels": ["10+2", "Bachelor"],
+      "established": "1965"
+    },
+    {
+      "id": 2,
+      "name": "Shree Bhojpur Higher Secondary School",
+      "type": "Secondary",
+      "address": "Bhojpur-4, Bhojpur",
+      "phone": ["029-421222"],
+      "district": "Bhojpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1970"
+    },
+    {
+      "id": 3,
+      "name": "Himalaya Higher Secondary School",
+      "type": "Secondary",
+      "address": "Bhojpur-6, Bhojpur",
+      "phone": ["029-422222"],
+      "district": "Bhojpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1975"
+    },
+    {
+      "id": 4,
+      "name": "Bhojpur Model School",
+      "type": "Private",
+      "address": "Bhojpur-3, Bhojpur",
+      "phone": ["029-423222"],
+      "district": "Bhojpur",
+      "levels": ["Primary", "Secondary"],
+      "established": "1990"
+    },
+    {
+      "id": 5,
+      "name": "Shree Mahendra Higher Secondary School",
+      "type": "Secondary",
+      "address": "Bhojpur-2, Bhojpur",
+      "phone": ["029-424222"],
+      "district": "Bhojpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1968"
+    },
+    {
+      "id": 6,
+      "name": "Eastern Hills English School",
+      "type": "Private",
+      "address": "Bhojpur-1, Bhojpur",
+      "phone": ["029-425222"],
+      "district": "Bhojpur",
+      "levels": ["Primary", "Secondary"],
+      "established": "1985"
+    }
+  ]
+}
