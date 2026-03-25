@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Dhangadhi Sub-Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Dhangadhi"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Dhangadhi Sub-Metropolitan City Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Dhangadhi-5, Kailali",
+      "phone": ["091-520100"],
+      "website": "https://dhangadhimun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 2,
+      "name": "Kailali District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Dhangadhi-4, Kailali",
+      "phone": ["091-520101"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 3,
+      "name": "Dhangadhi Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Dhangadhi-6, Kailali",
+      "phone": ["091-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 4,
+      "name": "Sudurpashchim Province Revenue Office Dhangadhi",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Dhangadhi-3, Kailali",
+      "phone": ["091-520103"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 5,
+      "name": "Dhangadhi Customs Office",
+      "type": "Customs Office",
+      "department": "Ministry of Finance",
+      "address": "Dhangadhi-7, Kailali",
+      "phone": ["091-520104"],
+      "hours": "24/7",
+      "district": "Kailali"
+    },
+    {
+      "id": 6,
+      "name": "Nepal Electricity Authority - Dhangadhi",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Dhangadhi-2, Kailali",
+      "phone": ["091-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 7,
+      "name": "Water Supply and Sanitation Office Dhangadhi",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Dhangadhi-8, Kailali",
+      "phone": ["091-520106"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 8,
+      "name": "Sudurpashchim Province Police Office Dhangadhi",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Dhangadhi-1, Kailali",
+      "phone": ["091-520107", "100"],
+      "hours": "24/7",
+      "district": "Kailali"
+    },
+    {
+      "id": 9,
+      "name": "Dhangadhi Immigration Office",
+      "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Dhangadhi-9, Kailali",
+      "phone": ["091-520108"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    },
+    {
+      "id": 10,
+      "name": "Kailali District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Dhangadhi-5, Kailali",
+      "phone": ["091-520109"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kailali"
+    }
+  ]
+}

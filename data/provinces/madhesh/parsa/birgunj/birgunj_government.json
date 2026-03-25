@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Birgunj Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Birgunj"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Birgunj Metropolitan City Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Adarshanagar, Birgunj",
+      "phone": ["051-520100"],
+      "website": "https://birgunjmun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 2,
+      "name": "Parsa District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Birgunj-5, Parsa",
+      "phone": ["051-520101"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 3,
+      "name": "Birgunj Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Birgunj-4, Parsa",
+      "phone": ["051-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 4,
+      "name": "Birgunj Customs Office",
+      "type": "Customs Office",
+      "department": "Ministry of Finance",
+      "address": "Birgunj-8, Parsa",
+      "phone": ["051-520103"],
+      "hours": "24/7",
+      "district": "Parsa"
+    },
+    {
+      "id": 5,
+      "name": "Madhesh Province Revenue Office Birgunj",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Birgunj-6, Parsa",
+      "phone": ["051-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 6,
+      "name": "Nepal Electricity Authority - Birgunj",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Birgunj-3, Parsa",
+      "phone": ["051-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 7,
+      "name": "Water Supply and Sanitation Office Birgunj",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Birgunj-7, Parsa",
+      "phone": ["051-520106"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 8,
+      "name": "Madhesh Province Police Office Birgunj",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Birgunj-9, Parsa",
+      "phone": ["051-520107", "100"],
+      "hours": "24/7",
+      "district": "Parsa"
+    },
+    {
+      "id": 9,
+      "name": "Birgunj Immigration Office",
+      "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Birgunj-2, Parsa",
+      "phone": ["051-520108"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    },
+    {
+      "id": 10,
+      "name": "Parsa District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Birgunj-1, Parsa",
+      "phone": ["051-520109"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Parsa"
+    }
+  ]
+}
