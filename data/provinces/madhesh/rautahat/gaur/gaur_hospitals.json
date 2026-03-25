@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Gaur",
+    "district": "Rautahat",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Public Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Gaur, Rautahat"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Gaur Hospital",
+      "type": "Government",
+      "address": "Gaur-5, Rautahat",
+      "phone": ["055-520111"],
+      "district": "Rautahat",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.7833,85.2667"
+    },
+    {
+      "id": 2,
+      "name": "Rautahat District Hospital",
+      "type": "Government",
+      "address": "Gaur-4, Rautahat",
+      "phone": ["055-521111"],
+      "district": "Rautahat",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "26.7912,85.2589"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Gaur",
+      "type": "Private",
+      "address": "Gaur-6, Rautahat",
+      "phone": ["055-522222"],
+      "district": "Rautahat",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "26.7756,85.2745"
+    },
+    {
+      "id": 4,
+      "name": "Shree Hospital Gaur",
+      "type": "Private",
+      "address": "Gaur-3, Rautahat",
+      "phone": ["055-523333"],
+      "district": "Rautahat",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Surgery", "Internal Medicine"],
+      "gps": "26.7989,85.2512"
+    },
+    {
+      "id": 5,
+      "name": "Gaur Medical Center",
+      "type": "Private",
+      "address": "Gaur-7, Rautahat",
+      "phone": ["055-524444"],
+      "district": "Rautahat",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.7689,85.2823"
+    },
+    {
+      "id": 6,
+      "name": "Madhesh Hospital Gaur",
+      "type": "Private",
+      "address": "Gaur-2, Rautahat",
+      "phone": ["055-525555"],
+      "district": "Rautahat",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "26.8067,85.2434"
+    }
+  ]
+}

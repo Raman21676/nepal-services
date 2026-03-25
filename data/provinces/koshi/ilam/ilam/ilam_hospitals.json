@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate, Public Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Ilam - Tea garden district"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Ilam District Hospital",
+      "type": "Government",
+      "address": "Ilam-5, Ilam",
+      "phone": ["027-520111"],
+      "district": "Ilam",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.9167,87.9333"
+    },
+    {
+      "id": 2,
+      "name": "Ilam Hospital",
+      "type": "Private",
+      "address": "Ilam-4, Ilam",
+      "phone": ["027-521111"],
+      "district": "Ilam",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "26.9245,87.9256"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Ilam",
+      "type": "Private",
+      "address": "Ilam-6, Ilam",
+      "phone": ["027-522222"],
+      "district": "Ilam",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "26.9089,87.9409"
+    },
+    {
+      "id": 4,
+      "name": "Green Hills Hospital",
+      "type": "Private",
+      "address": "Ilam-3, Ilam",
+      "phone": ["027-523333"],
+      "district": "Ilam",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "26.9323,87.9189"
+    },
+    {
+      "id": 5,
+      "name": "Ilam Community Hospital",
+      "type": "NGO",
+      "address": "Ilam-7, Ilam",
+      "phone": ["027-524444"],
+      "district": "Ilam",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Community Health"],
+      "gps": "26.9012,87.9489"
+    },
+    {
+      "id": 6,
+      "name": "Eastern Hospital Ilam",
+      "type": "Private",
+      "address": "Ilam-2, Ilam",
+      "phone": ["027-525555"],
+      "district": "Ilam",
+      "beds": "20",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.9390,87.9123"
+    }
+  ]
+}

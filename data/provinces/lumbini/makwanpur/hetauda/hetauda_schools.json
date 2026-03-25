@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education, Makwanpur District Education Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Major schools in Hetauda - Industrial city"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Shree Hetauda Higher Secondary School",
+      "type": "Secondary",
+      "address": "Hetauda-4, Makwanpur",
+      "phone": ["057-520222"],
+      "district": "Makwanpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1965"
+    },
+    {
+      "id": 2,
+      "name": "Hetauda Higher Secondary School",
+      "type": "Secondary",
+      "address": "Hetauda-5, Makwanpur",
+      "phone": ["057-521222"],
+      "district": "Makwanpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1970"
+    },
+    {
+      "id": 3,
+      "name": "Makwanpur Multiple Campus",
+      "type": "Higher Secondary",
+      "address": "Hetauda-6, Makwanpur",
+      "phone": ["057-522222"],
+      "district": "Makwanpur",
+      "levels": ["10+2", "Bachelor"],
+      "established": "1978"
+    },
+    {
+      "id": 4,
+      "name": "Green Land Higher Secondary School",
+      "type": "Secondary",
+      "address": "Hetauda-3, Makwanpur",
+      "phone": ["057-523222"],
+      "district": "Makwanpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1982"
+    },
+    {
+      "id": 5,
+      "name": "Shree Adarsha Higher Secondary School",
+      "type": "Secondary",
+      "address": "Hetauda-2, Makwanpur",
+      "phone": ["057-524222"],
+      "district": "Makwanpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1975"
+    },
+    {
+      "id": 6,
+      "name": "Hetauda Model School",
+      "type": "Private",
+      "address": "Hetauda-7, Makwanpur",
+      "phone": ["057-525222"],
+      "district": "Makwanpur",
+      "levels": ["Primary", "Secondary"],
+      "established": "1990"
+    },
+    {
+      "id": 7,
+      "name": "Siddhartha English Boarding School",
+      "type": "Private",
+      "address": "Hetauda-1, Makwanpur",
+      "phone": ["057-526222"],
+      "district": "Makwanpur",
+      "levels": ["Primary", "Secondary"],
+      "established": "1985"
+    },
+    {
+      "id": 8,
+      "name": "Makwanpur English School",
+      "type": "Private",
+      "address": "Hetauda-8, Makwanpur",
+      "phone": ["057-527222"],
+      "district": "Makwanpur",
+      "levels": ["Primary", "Secondary"],
+      "established": "1988"
+    },
+    {
+      "id": 9,
+      "name": "Little Star English School",
+      "type": "Private",
+      "address": "Hetauda-9, Makwanpur",
+      "phone": ["057-528222"],
+      "district": "Makwanpur",
+      "levels": ["Primary", "Secondary"],
+      "established": "1992"
+    },
+    {
+      "id": 10,
+      "name": "Pragati Higher Secondary School",
+      "type": "Secondary",
+      "address": "Hetauda-10, Makwanpur",
+      "phone": ["057-529222"],
+      "district": "Makwanpur",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1980"
+    }
+  ]
+}

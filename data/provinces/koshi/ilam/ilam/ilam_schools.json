@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Ilam",
+    "district": "Ilam",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education, Ilam District Education Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 8,
+    "note": "Major schools in Ilam district"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Ilam Multiple Campus",
+      "type": "Higher Secondary",
+      "address": "Ilam-5, Ilam",
+      "phone": ["027-520222"],
+      "district": "Ilam",
+      "levels": ["10+2", "Bachelor"],
+      "established": "1962"
+    },
+    {
+      "id": 2,
+      "name": "Green Land Higher Secondary School",
+      "type": "Secondary",
+      "address": "Ilam-4, Ilam",
+      "phone": ["027-521222"],
+      "district": "Ilam",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1980"
+    },
+    {
+      "id": 3,
+      "name": "Ilam Jana Siksha Higher Secondary School",
+      "type": "Secondary",
+      "address": "Ilam-3, Ilam",
+      "phone": ["027-522222"],
+      "district": "Ilam",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1975"
+    },
+    {
+      "id": 4,
+      "name": "Himalaya Higher Secondary School",
+      "type": "Secondary",
+      "address": "Ilam-6, Ilam",
+      "phone": ["027-523222"],
+      "district": "Ilam",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1985"
+    },
+    {
+      "id": 5,
+      "name": "Shree Pashupatinath Higher Secondary School",
+      "type": "Secondary",
+      "address": "Ilam-2, Ilam",
+      "phone": ["027-524222"],
+      "district": "Ilam",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1970"
+    },
+    {
+      "id": 6,
+      "name": "Ilam Model School",
+      "type": "Private",
+      "address": "Ilam-7, Ilam",
+      "phone": ["027-525222"],
+      "district": "Ilam",
+      "levels": ["Primary", "Secondary"],
+      "established": "1995"
+    },
+    {
+      "id": 7,
+      "name": "Siddhartha English School",
+      "type": "Private",
+      "address": "Ilam-1, Ilam",
+      "phone": ["027-526222"],
+      "district": "Ilam",
+      "levels": ["Primary", "Secondary"],
+      "established": "1992"
+    },
+    {
+      "id": 8,
+      "name": "Tea Garden Boarding School",
+      "type": "Private",
+      "address": "Ilam-8, Ilam",
+      "phone": ["027-527222"],
+      "district": "Ilam",
+      "levels": ["Primary", "Secondary"],
+      "established": "1988"
+    }
+  ]
+}

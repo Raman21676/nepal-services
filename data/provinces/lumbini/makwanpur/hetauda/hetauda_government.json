@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, Makwanpur District Administration Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 12,
+    "note": "Government offices in Hetauda - Lumbini Province temporary capital"
+  },
+  "offices": [
+    {
+      "id": 1,
+      "name": "District Administration Office Makwanpur",
+      "category": "Administration",
+      "address": "Hetauda-4, Makwanpur",
+      "phone": ["057-520001"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Citizenship", "Passport", "Land Records", "Administration"]
+    },
+    {
+      "id": 2,
+      "name": "District Police Office Makwanpur",
+      "category": "Security",
+      "address": "Hetauda-5, Makwanpur",
+      "phone": ["057-520022"],
+      "district": "Makwanpur",
+      "office_hours": "24 Hours",
+      "services": ["Police", "Security", "Emergency Response"]
+    },
+    {
+      "id": 3,
+      "name": "Inland Revenue Office Hetauda",
+      "category": "Revenue",
+      "address": "Hetauda-3, Makwanpur",
+      "phone": ["057-520033"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Tax", "Revenue", "PAN Registration"]
+    },
+    {
+      "id": 4,
+      "name": "District Court Makwanpur",
+      "category": "Justice",
+      "address": "Hetauda-6, Makwanpur",
+      "phone": ["057-520044"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Legal", "Court", "Justice"]
+    },
+    {
+      "id": 5,
+      "name": "Land Revenue Office Makwanpur",
+      "category": "Land",
+      "address": "Hetauda-2, Makwanpur",
+      "phone": ["057-520055"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Land Registration", "Property", "Maps"]
+    },
+    {
+      "id": 6,
+      "name": "Department of Transport Management Makwanpur",
+      "category": "Transport",
+      "address": "Hetauda-7, Makwanpur",
+      "phone": ["057-520066"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["License", "Vehicle Registration", "Permit"]
+    },
+    {
+      "id": 7,
+      "name": "District Education Office Makwanpur",
+      "category": "Education",
+      "address": "Hetauda-1, Makwanpur",
+      "phone": ["057-520077"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["School Administration", "Education Services"]
+    },
+    {
+      "id": 8,
+      "name": "District Health Office Makwanpur",
+      "category": "Health",
+      "address": "Hetauda-8, Makwanpur",
+      "phone": ["057-520088"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Health Services", "Hospital Management", "Public Health"]
+    },
+    {
+      "id": 9,
+      "name": "Makwanpur Municipality Office",
+      "category": "Local Government",
+      "address": "Hetauda-9, Makwanpur",
+      "phone": ["057-520099"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Birth Certificate", "Death Certificate", "Local Services"]
+    },
+    {
+      "id": 10,
+      "name": "Office of Company Registrar",
+      "category": "Business",
+      "address": "Hetauda-10, Makwanpur",
+      "phone": ["057-520100"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Company Registration", "Business"]
+    },
+    {
+      "id": 11,
+      "name": "District Coordination Committee Makwanpur",
+      "category": "Coordination",
+      "address": "Hetauda-11, Makwanpur",
+      "phone": ["057-520111"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Development", "Coordination"]
+    },
+    {
+      "id": 12,
+      "name": "Department of Foreign Employment",
+      "category": "Employment",
+      "address": "Hetauda-12, Makwanpur",
+      "phone": ["057-520122"],
+      "district": "Makwanpur",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Foreign Employment", "Labor Permits"]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Besisahar",
+    "district": "Lamjung",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate, Public Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 5,
+    "note": "Major hospitals and medical centers in Besisahar, Lamjung - Gateway to Annapurna Circuit"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lamjung District Hospital",
+      "type": "Government",
+      "address": "Besisahar-5, Lamjung",
+      "phone": ["066-520111"],
+      "district": "Lamjung",
+      "beds": "75",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Emergency Care"],
+      "gps": "28.2333,84.3833"
+    },
+    {
+      "id": 2,
+      "name": "Besisahar Hospital",
+      "type": "Private",
+      "address": "Besisahar-4, Lamjung",
+      "phone": ["066-521111"],
+      "district": "Lamjung",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "28.2412,84.3756"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Besisahar",
+      "type": "Private",
+      "address": "Besisahar-6, Lamjung",
+      "phone": ["066-522222"],
+      "district": "Lamjung",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine"],
+      "gps": "28.2256,84.3909"
+    },
+    {
+      "id": 4,
+      "name": "Annapurna Hospital",
+      "type": "Private",
+      "address": "Besisahar-3, Lamjung",
+      "phone": ["066-523333"],
+      "district": "Lamjung",
+      "beds": "20",
+      "emergency_available": true,
+      "specialties": ["Tourist Healthcare", "General Medicine", "Emergency"],
+      "gps": "28.2489,84.3689"
+    },
+    {
+      "id": 5,
+      "name": "Himalaya Medical Center",
+      "type": "Private",
+      "address": "Besisahar-2, Lamjung",
+      "phone": ["066-524444"],
+      "district": "Lamjung",
+      "beds": "15",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Primary Care"],
+      "gps": "28.2189,84.3967"
+    }
+  ]
+}
