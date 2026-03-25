@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Tilaurakot",
+    "district": "Kapilvastu",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Pharmacies in Tilaurakot, Kapilvastu"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Tilaurakot Pharmacy",
+      "type": "Retail",
+      "address": "Tilaurakot-4, Kapilvastu",
+      "phone": ["076-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 2,
+      "name": "Kapilvastu District Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Kapilvastu District Hospital, Tilaurakot",
+      "phone": ["076-520111"],
+      "hours": "24/7",
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 3,
+      "name": "Lumbini Medical Store",
+      "type": "Retail",
+      "address": "Tilaurakot-5, Kapilvastu",
+      "phone": ["076-521111"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Tilaurakot",
+      "type": "Retail",
+      "address": "Tilaurakot-3, Kapilvastu",
+      "phone": ["076-522222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 5,
+      "name": "Buddha Medical Store",
+      "type": "Retail",
+      "address": "Tilaurakot-6, Kapilvastu",
+      "phone": ["076-523333"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 6,
+      "name": "24 Hour Medical Tilaurakot",
+      "type": "Retail",
+      "address": "Tilaurakot Bus Park, Kapilvastu",
+      "phone": ["076-524444"],
+      "hours": "24/7",
+      "district": "Kapilvastu"
+    }
+  ]
+}

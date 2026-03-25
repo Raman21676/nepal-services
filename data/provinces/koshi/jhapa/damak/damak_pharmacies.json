@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Pharmacies in Damak, Jhapa"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Damak Pharmacy",
+      "type": "Retail",
+      "address": "Damak-5, Jhapa",
+      "phone": ["023-580111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 2,
+      "name": "Damak Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Damak Hospital, Jhapa",
+      "phone": ["023-580111"],
+      "hours": "24/7",
+      "district": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Eastern Medical Store",
+      "type": "Retail",
+      "address": "Damak-4, Jhapa",
+      "phone": ["023-581111"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Damak",
+      "type": "Retail",
+      "address": "Damak-6, Jhapa",
+      "phone": ["023-582222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 5,
+      "name": "Jhapa Medical Store",
+      "type": "Retail",
+      "address": "Damak-3, Jhapa",
+      "phone": ["023-583333"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 6,
+      "name": "24 Hour Medical Damak",
+      "type": "Retail",
+      "address": "Damak Bus Park, Jhapa",
+      "phone": ["023-584444"],
+      "hours": "24/7",
+      "district": "Jhapa"
+    }
+  ]
+}

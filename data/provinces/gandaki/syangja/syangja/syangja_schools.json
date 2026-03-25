@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Syangja"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Syangja Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Syangja-5, Syangja",
+      "phone": ["063-520100"],
+      "district": "Syangja"
+    },
+    {
+      "id": 2,
+      "name": "Syangja Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Syangja-4, Syangja",
+      "phone": ["063-521111"],
+      "district": "Syangja"
+    },
+    {
+      "id": 3,
+      "name": "Waling Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BBS"],
+      "address": "Waling, Syangja",
+      "phone": ["063-522222"],
+      "district": "Syangja"
+    },
+    {
+      "id": 4,
+      "name": "Syangja Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Syangja-6, Syangja",
+      "phone": ["063-523333"],
+      "district": "Syangja"
+    },
+    {
+      "id": 5,
+      "name": "Gandaki Valley School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Syangja-3, Syangja",
+      "phone": ["063-524444"],
+      "district": "Syangja"
+    },
+    {
+      "id": 6,
+      "name": "Syangja College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Syangja-7, Syangja",
+      "phone": ["063-525555"],
+      "district": "Syangja"
+    }
+  ]
+}

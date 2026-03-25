@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Rajbiraj, Saptari"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Rajbiraj Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Rajbiraj-5, Saptari",
+      "phone": ["031-520100"],
+      "district": "Saptari"
+    },
+    {
+      "id": 2,
+      "name": "Rajbiraj Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Rajbiraj-4, Saptari",
+      "phone": ["031-521111"],
+      "district": "Saptari"
+    },
+    {
+      "id": 3,
+      "name": "Shree Saptari Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Rajbiraj-6, Saptari",
+      "phone": ["031-522222"],
+      "district": "Saptari"
+    },
+    {
+      "id": 4,
+      "name": "Madhesh Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Rajbiraj-3, Saptari",
+      "phone": ["031-523333"],
+      "district": "Saptari"
+    },
+    {
+      "id": 5,
+      "name": "Rajbiraj College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Rajbiraj-7, Saptari",
+      "phone": ["031-524444"],
+      "district": "Saptari"
+    },
+    {
+      "id": 6,
+      "name": "Saptari Nursing School",
+      "type": "Private",
+      "level": "Vocational",
+      "programs": ["PCL Nursing", "Staff Nurse"],
+      "address": "Rajbiraj-2, Saptari",
+      "phone": ["031-525555"],
+      "district": "Saptari"
+    },
+    {
+      "id": 7,
+      "name": "Eastern English School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Rajbiraj-8, Saptari",
+      "phone": ["031-526666"],
+      "district": "Saptari"
+    },
+    {
+      "id": 8,
+      "name": "Shree Rajbiraj Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Rajbiraj-1, Saptari",
+      "phone": ["031-527777"],
+      "district": "Saptari"
+    }
+  ]
+}

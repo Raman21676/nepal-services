@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Pharmacies in Gaighat, Udayapur"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Gaighat Pharmacy",
+      "type": "Retail",
+      "address": "Gaighat-4, Udayapur",
+      "phone": ["035-420111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Udayapur"
+    },
+    {
+      "id": 2,
+      "name": "Udayapur District Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Udayapur District Hospital, Gaighat",
+      "phone": ["035-420111"],
+      "hours": "24/7",
+      "district": "Udayapur"
+    },
+    {
+      "id": 3,
+      "name": "Koshi Medical Store",
+      "type": "Retail",
+      "address": "Gaighat-5, Udayapur",
+      "phone": ["035-421111"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Udayapur"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Gaighat",
+      "type": "Retail",
+      "address": "Gaighat-3, Udayapur",
+      "phone": ["035-422222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Udayapur"
+    },
+    {
+      "id": 5,
+      "name": "Valley Medical Store",
+      "type": "Retail",
+      "address": "Gaighat-6, Udayapur",
+      "phone": ["035-423333"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Udayapur"
+    },
+    {
+      "id": 6,
+      "name": "24 Hour Medical Gaighat",
+      "type": "Retail",
+      "address": "Gaighat Bus Park, Udayapur",
+      "phone": ["035-424444"],
+      "hours": "24/7",
+      "district": "Udayapur"
+    }
+  ]
+}

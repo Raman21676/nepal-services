@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Bidur",
+    "district": "Nuwakot",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Bidur, Nuwakot"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Nuwakot Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Bidur-5, Nuwakot",
+      "phone": ["010-520100"],
+      "district": "Nuwakot"
+    },
+    {
+      "id": 2,
+      "name": "Bidur Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Bidur-4, Nuwakot",
+      "phone": ["010-521111"],
+      "district": "Nuwakot"
+    },
+    {
+      "id": 3,
+      "name": "Shree Nuwakot Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bidur-6, Nuwakot",
+      "phone": ["010-522222"],
+      "district": "Nuwakot"
+    },
+    {
+      "id": 4,
+      "name": "Bidur Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bidur-3, Nuwakot",
+      "phone": ["010-523333"],
+      "district": "Nuwakot"
+    },
+    {
+      "id": 5,
+      "name": "Trishuli Valley School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Bidur-7, Nuwakot",
+      "phone": ["010-524444"],
+      "district": "Nuwakot"
+    },
+    {
+      "id": 6,
+      "name": "Bidur College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Bidur-2, Nuwakot",
+      "phone": ["010-525555"],
+      "district": "Nuwakot"
+    }
+  ]
+}

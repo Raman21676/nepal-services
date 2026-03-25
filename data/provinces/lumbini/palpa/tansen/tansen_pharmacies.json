@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Pharmacies in Tansen, Palpa"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Tansen Pharmacy",
+      "type": "Retail",
+      "address": "Tansen-5, Palpa",
+      "phone": ["075-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 2,
+      "name": "Lumbini Provincial Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Lumbini Provincial Hospital, Tansen",
+      "phone": ["075-520111"],
+      "hours": "24/7",
+      "district": "Palpa"
+    },
+    {
+      "id": 3,
+      "name": "United Mission Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "United Mission Hospital, Tansen",
+      "phone": ["075-521111"],
+      "hours": "24/7",
+      "district": "Palpa"
+    },
+    {
+      "id": 4,
+      "name": "Palpa Medical Store",
+      "type": "Retail",
+      "address": "Tansen-4, Palpa",
+      "phone": ["075-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Pharmacy Tansen",
+      "type": "Retail",
+      "address": "Tansen-6, Palpa",
+      "phone": ["075-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 6,
+      "name": "Hill Medical Store",
+      "type": "Retail",
+      "address": "Tansen-3, Palpa",
+      "phone": ["075-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 7,
+      "name": "City Pharmacy Tansen",
+      "type": "Retail",
+      "address": "Tansen-7, Palpa",
+      "phone": ["075-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Palpa"
+    },
+    {
+      "id": 8,
+      "name": "24 Hour Medical Tansen",
+      "type": "Retail",
+      "address": "Tansen Bus Park, Palpa",
+      "phone": ["075-520666"],
+      "hours": "24/7",
+      "district": "Palpa"
+    }
+  ]
+}

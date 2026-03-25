@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Tansen, Palpa"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Tansen Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Tansen-5, Palpa",
+      "phone": ["075-520100"],
+      "district": "Palpa"
+    },
+    {
+      "id": 2,
+      "name": "Tansen Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Tansen-4, Palpa",
+      "phone": ["075-521111"],
+      "district": "Palpa"
+    },
+    {
+      "id": 3,
+      "name": "Shree Palpa Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tansen-6, Palpa",
+      "phone": ["075-522222"],
+      "district": "Palpa"
+    },
+    {
+      "id": 4,
+      "name": "United Mission Higher Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Tansen-3, Palpa",
+      "phone": ["075-523333"],
+      "district": "Palpa"
+    },
+    {
+      "id": 5,
+      "name": "Tansen Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tansen-7, Palpa",
+      "phone": ["075-524444"],
+      "district": "Palpa"
+    },
+    {
+      "id": 6,
+      "name": "Palpa Engineering College",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BE Civil", "BE Computer"],
+      "address": "Tansen-2, Palpa",
+      "phone": ["075-525555"],
+      "district": "Palpa"
+    },
+    {
+      "id": 7,
+      "name": "Tansen Nursing School",
+      "type": "Private",
+      "level": "Vocational",
+      "programs": ["PCL Nursing", "Staff Nurse"],
+      "address": "Tansen-8, Palpa",
+      "phone": ["075-526666"],
+      "district": "Palpa"
+    },
+    {
+      "id": 8,
+      "name": "Shree Lumbini Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tansen-1, Palpa",
+      "phone": ["075-527777"],
+      "district": "Palpa"
+    }
+  ]
+}

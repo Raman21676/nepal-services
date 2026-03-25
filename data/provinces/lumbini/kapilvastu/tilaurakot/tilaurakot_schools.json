@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Tilaurakot",
+    "district": "Kapilvastu",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Tilaurakot, Kapilvastu"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Kapilvastu Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Tilaurakot-4, Kapilvastu",
+      "phone": ["076-520100"],
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 2,
+      "name": "Tilaurakot Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Tilaurakot-5, Kapilvastu",
+      "phone": ["076-521111"],
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 3,
+      "name": "Shree Kapilvastu Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tilaurakot-3, Kapilvastu",
+      "phone": ["076-522222"],
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 4,
+      "name": "Lumbini Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tilaurakot-6, Kapilvastu",
+      "phone": ["076-523333"],
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 5,
+      "name": "Buddha Academy",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Tilaurakot-2, Kapilvastu",
+      "phone": ["076-524444"],
+      "district": "Kapilvastu"
+    },
+    {
+      "id": 6,
+      "name": "Shakya College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Tilaurakot-7, Kapilvastu",
+      "phone": ["076-525555"],
+      "district": "Kapilvastu"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Damak, Jhapa"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Damak Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Damak-5, Jhapa",
+      "phone": ["023-580100"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 2,
+      "name": "Damak Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Damak-4, Jhapa",
+      "phone": ["023-581111"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Shree Jhapa Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Damak-6, Jhapa",
+      "phone": ["023-582222"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 4,
+      "name": "Damak Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Damak-3, Jhapa",
+      "phone": ["023-583333"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 5,
+      "name": "Eastern Academy Damak",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Damak-7, Jhapa",
+      "phone": ["023-584444"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 6,
+      "name": "Damak Technical School",
+      "type": "Government",
+      "level": "Vocational",
+      "programs": ["Diploma in Agriculture", "Technical Courses"],
+      "address": "Damak-2, Jhapa",
+      "phone": ["023-585555"],
+      "district": "Jhapa"
+    }
+  ]
+}

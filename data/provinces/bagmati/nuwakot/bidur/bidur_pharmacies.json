@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Bidur",
+    "district": "Nuwakot",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Pharmacies in Bidur, Nuwakot"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Bidur Pharmacy",
+      "type": "Retail",
+      "address": "Bidur-5, Nuwakot",
+      "phone": ["010-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Nuwakot"
+    },
+    {
+      "id": 2,
+      "name": "Nuwakot District Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Nuwakot District Hospital, Bidur",
+      "phone": ["010-520111"],
+      "hours": "24/7",
+      "district": "Nuwakot"
+    },
+    {
+      "id": 3,
+      "name": "Trishuli Medical Store",
+      "type": "Retail",
+      "address": "Bidur-4, Nuwakot",
+      "phone": ["010-521111"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Nuwakot"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Bidur",
+      "type": "Retail",
+      "address": "Bidur-6, Nuwakot",
+      "phone": ["010-522222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Nuwakot"
+    },
+    {
+      "id": 5,
+      "name": "Hill Medical Store Bidur",
+      "type": "Retail",
+      "address": "Bidur-3, Nuwakot",
+      "phone": ["010-523333"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Nuwakot"
+    },
+    {
+      "id": 6,
+      "name": "24 Hour Medical Bidur",
+      "type": "Retail",
+      "address": "Bidur Bus Park, Nuwakot",
+      "phone": ["010-524444"],
+      "hours": "24/7",
+      "district": "Nuwakot"
+    }
+  ]
+}

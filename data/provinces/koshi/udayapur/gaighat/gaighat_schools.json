@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Gaighat, Udayapur"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Udayapur Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Gaighat-4, Udayapur",
+      "phone": ["035-420100"],
+      "district": "Udayapur"
+    },
+    {
+      "id": 2,
+      "name": "Gaighat Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Gaighat-5, Udayapur",
+      "phone": ["035-421111"],
+      "district": "Udayapur"
+    },
+    {
+      "id": 3,
+      "name": "Shree Udayapur Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Gaighat-3, Udayapur",
+      "phone": ["035-422222"],
+      "district": "Udayapur"
+    },
+    {
+      "id": 4,
+      "name": "Gaighat Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Gaighat-6, Udayapur",
+      "phone": ["035-423333"],
+      "district": "Udayapur"
+    },
+    {
+      "id": 5,
+      "name": "Koshi Valley School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Gaighat-2, Udayapur",
+      "phone": ["035-424444"],
+      "district": "Udayapur"
+    },
+    {
+      "id": 6,
+      "name": "Gaighat College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Gaighat-7, Udayapur",
+      "phone": ["035-425555"],
+      "district": "Udayapur"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Pharmacies in Rajbiraj, Saptari"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Rajbiraj Pharmacy",
+      "type": "Retail",
+      "address": "Rajbiraj-5, Saptari",
+      "phone": ["031-520111"],
+      "hours": "7:00 AM - 10:00 PM",
+      "district": "Saptari"
+    },
+    {
+      "id": 2,
+      "name": "Gajendra Narayan Singh Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Gajendra Narayan Singh Hospital, Rajbiraj",
+      "phone": ["031-520111"],
+      "hours": "24/7",
+      "district": "Saptari"
+    },
+    {
+      "id": 3,
+      "name": "Saptari Medical Store",
+      "type": "Retail",
+      "address": "Rajbiraj-4, Saptari",
+      "phone": ["031-521111"],
+      "hours": "7:30 AM - 9:00 PM",
+      "district": "Saptari"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Rajbiraj",
+      "type": "Retail",
+      "address": "Rajbiraj-6, Saptari",
+      "phone": ["031-522222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Saptari"
+    },
+    {
+      "id": 5,
+      "name": "Madhesh Medical Store",
+      "type": "Retail",
+      "address": "Rajbiraj-3, Saptari",
+      "phone": ["031-523333"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Saptari"
+    },
+    {
+      "id": 6,
+      "name": "24 Hour Medical Rajbiraj",
+      "type": "Retail",
+      "address": "Rajbiraj Bus Stand, Saptari",
+      "phone": ["031-524444"],
+      "hours": "24/7",
+      "district": "Saptari"
+    }
+  ]
+}

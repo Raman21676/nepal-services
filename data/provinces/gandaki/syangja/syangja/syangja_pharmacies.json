@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Pharmacies in Syangja"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Syangja Pharmacy",
+      "type": "Retail",
+      "address": "Syangja-5, Syangja",
+      "phone": ["063-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Syangja"
+    },
+    {
+      "id": 2,
+      "name": "Gandaki Provincial Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Gandaki Provincial Hospital, Syangja",
+      "phone": ["063-520111"],
+      "hours": "24/7",
+      "district": "Syangja"
+    },
+    {
+      "id": 3,
+      "name": "Hill Medical Store",
+      "type": "Retail",
+      "address": "Syangja-4, Syangja",
+      "phone": ["063-521111"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Syangja"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Syangja",
+      "type": "Retail",
+      "address": "Syangja-6, Syangja",
+      "phone": ["063-522222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Syangja"
+    },
+    {
+      "id": 5,
+      "name": "Waling Medical Store",
+      "type": "Retail",
+      "address": "Waling, Syangja",
+      "phone": ["063-523333"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Syangja"
+    },
+    {
+      "id": 6,
+      "name": "24 Hour Medical Syangja",
+      "type": "Retail",
+      "address": "Syangja Bus Park",
+      "phone": ["063-524444"],
+      "hours": "24/7",
+      "district": "Syangja"
+    }
+  ]
+}
