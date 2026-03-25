@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 12,
+    "note": "Major hospitals and medical centers in Bharatpur, Chitwan"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Chitwan Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Bharatpur-10, Chitwan",
+      "phone": ["056-520111", "056-520112"],
+      "website": "https://cmc.edu.np/",
+      "district": "Chitwan",
+      "beds": "600",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurosurgery", "Oncology", "Nephrology", "Urology", "Medical Education"],
+      "gps": "27.6833,84.4333"
+    },
+    {
+      "id": 2,
+      "name": "Bharatpur Hospital",
+      "type": "Government",
+      "address": "Bharatpur-5, Chitwan",
+      "phone": ["056-521111", "056-521112"],
+      "district": "Chitwan",
+      "beds": "350",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics", "Emergency Care"],
+      "gps": "27.6767,84.4289"
+    },
+    {
+      "id": 3,
+      "name": "College of Medical Sciences",
+      "type": "Private",
+      "address": "Bharatpur-9, Chitwan",
+      "phone": ["056-522222", "056-522223"],
+      "district": "Chitwan",
+      "beds": "500",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "Cardiology", "General Medicine", "Surgery", "Nephrology"],
+      "gps": "27.6900,84.4400"
+    },
+    {
+      "id": 4,
+      "name": "Chitwan Hospital",
+      "type": "Private",
+      "address": "Bharatpur-3, Chitwan",
+      "phone": ["056-523333"],
+      "district": "Chitwan",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.6712,84.4189"
+    },
+    {
+      "id": 5,
+      "name": "Sauraha Clinic",
+      "type": "Private",
+      "address": "Sauraha, Chitwan (Near Bharatpur)",
+      "phone": ["056-524444"],
+      "district": "Chitwan",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["Tourist Healthcare", "General Medicine"],
+      "gps": "27.5789,84.5056"
+    },
+    {
+      "id": 6,
+      "name": "Narayani Hospital",
+      "type": "Private",
+      "address": "Bharatpur-6, Chitwan",
+      "phone": ["056-525555"],
+      "district": "Chitwan",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Surgery"],
+      "gps": "27.6856,84.4256"
+    },
+    {
+      "id": 7,
+      "name": "Bharatpur Cancer Hospital",
+      "type": "Government",
+      "address": "Bharatpur-7, Chitwan",
+      "phone": ["056-526666"],
+      "district": "Chitwan",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Oncology", "Cancer Treatment", "Radiotherapy"],
+      "gps": "27.6889,84.4456"
+    },
+    {
+      "id": 8,
+      "name": "Heart Care Hospital Chitwan",
+      "type": "Private",
+      "address": "Bharatpur-4, Chitwan",
+      "phone": ["056-527777"],
+      "district": "Chitwan",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Heart Surgery", "ICU"],
+      "gps": "27.6745,84.4312"
+    },
+    {
+      "id": 9,
+      "name": "Life Care Hospital Bharatpur",
+      "type": "Private",
+      "address": "Bharatpur-8, Chitwan",
+      "phone": ["056-528888"],
+      "district": "Chitwan",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Orthopedics", "Diagnostics"],
+      "gps": "27.6812,84.4190"
+    },
+    {
+      "id": 10,
+      "name": "Chitwan District Hospital",
+      "type": "Government",
+      "address": "Bharatpur-2, Chitwan",
+      "phone": ["056-529999"],
+      "district": "Chitwan",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "27.6690,84.4156"
+    },
+    {
+      "id": 11,
+      "name": "Om Hospital Bharatpur",
+      "type": "Private",
+      "address": "Bharatpur-1, Chitwan",
+      "phone": ["056-520000"],
+      "district": "Chitwan",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Pediatrics", "Emergency"],
+      "gps": "27.6923,84.4123"
+    },
+    {
+      "id": 12,
+      "name": "Shanti Hospital Chitwan",
+      "type": "Private",
+      "address": "Bharatpur-11, Chitwan",
+      "phone": ["056-520123"],
+      "district": "Chitwan",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Gynecology"],
+      "gps": "27.6656,84.4389"
+    }
+  ]
+}

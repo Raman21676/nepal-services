@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "district": "Banke",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Nepalgunj"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Bheri Hospital",
+      "type": "Government",
+      "address": "Nepalgunj-5, Banke",
+      "phone": ["081-520111", "081-520112"],
+      "district": "Banke",
+      "beds": "300",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "28.0500,81.6167"
+    },
+    {
+      "id": 2,
+      "name": "Nepalgunj Medical College",
+      "type": "Private",
+      "address": "Nepalgunj-10, Banke",
+      "phone": ["081-521234", "081-521235"],
+      "district": "Banke",
+      "beds": "400",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "Cardiology", "Neurosurgery", "Nephrology", "Urology"],
+      "gps": "28.0567,81.6100"
+    },
+    {
+      "id": 3,
+      "name": "Shree Hospital Nepalgunj",
+      "type": "Private",
+      "address": "Nepalgunj-3, Banke",
+      "phone": ["081-522345"],
+      "district": "Banke",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "28.0434,81.6234"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Hospital Nepalgunj",
+      "type": "Private",
+      "address": "Nepalgunj-6, Banke",
+      "phone": ["081-523456"],
+      "district": "Banke",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Surgery"],
+      "gps": "28.0612,81.6056"
+    },
+    {
+      "id": 5,
+      "name": "Bheri Eye Hospital",
+      "type": "NGO",
+      "address": "Nepalgunj-4, Banke",
+      "phone": ["081-524567"],
+      "district": "Banke",
+      "beds": "50",
+      "emergency_available": false,
+      "specialties": ["Ophthalmology", "Eye Surgery", "Cataract"],
+      "gps": "28.0389,81.6290"
+    },
+    {
+      "id": 6,
+      "name": "City Hospital Nepalgunj",
+      "type": "Private",
+      "address": "Nepalgunj-7, Banke",
+      "phone": ["081-525678"],
+      "district": "Banke",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Orthopedics", "Diagnostics"],
+      "gps": "28.0545,81.6123"
+    },
+    {
+      "id": 7,
+      "name": "Om Hospital Nepalgunj",
+      "type": "Private",
+      "address": "Nepalgunj-2, Banke",
+      "phone": ["081-526789"],
+      "district": "Banke",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Pediatrics", "Emergency"],
+      "gps": "28.0478,81.6189"
+    },
+    {
+      "id": 8,
+      "name": "Nepalgunj Teaching Hospital",
+      "type": "Private",
+      "address": "Nepalgunj-8, Banke",
+      "phone": ["081-527890"],
+      "district": "Banke",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery"],
+      "gps": "28.0590,81.6089"
+    },
+    {
+      "id": 9,
+      "name": "Banke District Hospital",
+      "type": "Government",
+      "address": "Nepalgunj-1, Banke",
+      "phone": ["081-528901"],
+      "district": "Banke",
+      "beds": "70",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "28.0512,81.6156"
+    },
+    {
+      "id": 10,
+      "name": "Shanti Hospital Nepalgunj",
+      "type": "Private",
+      "address": "Nepalgunj-9, Banke",
+      "phone": ["081-529012"],
+      "district": "Banke",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Gynecology"],
+      "gps": "28.0456,81.6212"
+    }
+  ]
+}

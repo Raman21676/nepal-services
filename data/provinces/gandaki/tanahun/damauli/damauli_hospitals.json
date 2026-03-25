@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Damauli",
+    "district": "Tanahun",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Damauli, Tanahun"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Damauli Hospital",
+      "type": "Government",
+      "address": "Damauli-5, Tanahun",
+      "phone": ["065-520111"],
+      "district": "Tanahun",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "27.9833,84.2667"
+    },
+    {
+      "id": 2,
+      "name": "Tanahun District Hospital",
+      "type": "Government",
+      "address": "Damauli-3, Tanahun",
+      "phone": ["065-521111"],
+      "district": "Tanahun",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "27.9912,84.2589"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Damauli",
+      "type": "Private",
+      "address": "Damauli-4, Tanahun",
+      "phone": ["065-522222"],
+      "district": "Tanahun",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "27.9789,84.2734"
+    },
+    {
+      "id": 4,
+      "name": "Shree Hospital Damauli",
+      "type": "Private",
+      "address": "Damauli-6, Tanahun",
+      "phone": ["065-523333"],
+      "district": "Tanahun",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Surgery", "Internal Medicine"],
+      "gps": "27.9878,84.2512"
+    },
+    {
+      "id": 5,
+      "name": "Bandipur Hospital",
+      "type": "Private",
+      "address": "Bandipur, Tanahun (Near Damauli)",
+      "phone": ["065-524444"],
+      "district": "Tanahun",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Tourist Healthcare"],
+      "gps": "27.9356,84.4056"
+    },
+    {
+      "id": 6,
+      "name": "Damauli Medical Center",
+      "type": "Private",
+      "address": "Damauli-2, Tanahun",
+      "phone": ["065-525555"],
+      "district": "Tanahun",
+      "beds": "20",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "27.9956,84.2434"
+    }
+  ]
+}

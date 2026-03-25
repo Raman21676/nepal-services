@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "city": "Bhimdatta",
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Major hospitals and medical centers in Bhimdatta (formerly Mahendranagar), Kanchanpur"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Mahakali Hospital",
+      "type": "Government",
+      "address": "Bhimdatta-5, Kanchanpur",
+      "phone": ["099-520111", "099-520112"],
+      "district": "Kanchanpur",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "28.9167,80.3333"
+    },
+    {
+      "id": 2,
+      "name": "Kanchanpur District Hospital",
+      "type": "Government",
+      "address": "Bhimdatta-3, Kanchanpur",
+      "phone": ["099-521111"],
+      "district": "Kanchanpur",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "28.9245,80.3256"
+    },
+    {
+      "id": 3,
+      "name": "Bhimdatta Hospital",
+      "type": "Private",
+      "address": "Bhimdatta-4, Kanchanpur",
+      "phone": ["099-522222"],
+      "district": "Kanchanpur",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "28.9089,80.3412"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Hospital Bhimdatta",
+      "type": "Private",
+      "address": "Bhimdatta-6, Kanchanpur",
+      "phone": ["099-523333"],
+      "district": "Kanchanpur",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Surgery"],
+      "gps": "28.9323,80.3178"
+    },
+    {
+      "id": 5,
+      "name": "Mahakali Medical College",
+      "type": "Private",
+      "address": "Bhimdatta-7, Kanchanpur",
+      "phone": ["099-524444"],
+      "district": "Kanchanpur",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery"],
+      "gps": "28.9012,80.3501"
+    },
+    {
+      "id": 6,
+      "name": "Om Hospital Bhimdatta",
+      "type": "Private",
+      "address": "Bhimdatta-2, Kanchanpur",
+      "phone": ["099-525555"],
+      "district": "Kanchanpur",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Pediatrics"],
+      "gps": "28.9390,80.3090"
+    },
+    {
+      "id": 7,
+      "name": "Shanti Hospital Kanchanpur",
+      "type": "Private",
+      "address": "Bhimdatta-8, Kanchanpur",
+      "phone": ["099-526666"],
+      "district": "Kanchanpur",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Gynecology"],
+      "gps": "28.8956,80.3589"
+    },
+    {
+      "id": 8,
+      "name": "Bhimdatta Medical Center",
+      "type": "Private",
+      "address": "Bhimdatta-1, Kanchanpur",
+      "phone": ["099-527777"],
+      "district": "Kanchanpur",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "28.9456,80.3001"
+    }
+  ]
+}

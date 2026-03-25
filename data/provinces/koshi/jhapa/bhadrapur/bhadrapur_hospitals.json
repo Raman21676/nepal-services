@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Major hospitals and medical centers in Bhadrapur, Jhapa"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Mechi Hospital",
+      "type": "Government",
+      "address": "Bhadrapur-5, Jhapa",
+      "phone": ["023-520111", "023-520112"],
+      "district": "Jhapa",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.5433,88.0933"
+    },
+    {
+      "id": 2,
+      "name": "Bhadrapur Hospital",
+      "type": "Private",
+      "address": "Bhadrapur-3, Jhapa",
+      "phone": ["023-521111"],
+      "district": "Jhapa",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "26.5512,88.0856"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Bhadrapur",
+      "type": "Private",
+      "address": "Bhadrapur-6, Jhapa",
+      "phone": ["023-522222"],
+      "district": "Jhapa",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Surgery"],
+      "gps": "26.5389,88.1012"
+    },
+    {
+      "id": 4,
+      "name": "Jhapa District Hospital",
+      "type": "Government",
+      "address": "Bhadrapur-4, Jhapa",
+      "phone": ["023-523333"],
+      "district": "Jhapa",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "26.5478,88.0789"
+    },
+    {
+      "id": 5,
+      "name": "Om Hospital Bhadrapur",
+      "type": "Private",
+      "address": "Bhadrapur-2, Jhapa",
+      "phone": ["023-524444"],
+      "district": "Jhapa",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Pediatrics"],
+      "gps": "26.5567,88.0923"
+    },
+    {
+      "id": 6,
+      "name": "Shanti Hospital Jhapa",
+      "type": "Private",
+      "address": "Bhadrapur-7, Jhapa",
+      "phone": ["023-525555"],
+      "district": "Jhapa",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Gynecology"],
+      "gps": "26.5323,88.1089"
+    },
+    {
+      "id": 7,
+      "name": "Mechi Eye Care Center",
+      "type": "Private",
+      "address": "Bhadrapur-8, Jhapa",
+      "phone": ["023-526666"],
+      "district": "Jhapa",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["Ophthalmology", "Eye Surgery"],
+      "gps": "26.5601,88.0723"
+    },
+    {
+      "id": 8,
+      "name": "Bhadrapur Medical Center",
+      "type": "Private",
+      "address": "Bhadrapur-1, Jhapa",
+      "phone": ["023-527777"],
+      "district": "Jhapa",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.5490,88.0956"
+    }
+  ]
+}

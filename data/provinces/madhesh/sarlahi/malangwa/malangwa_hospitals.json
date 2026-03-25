@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Malangwa, Sarlahi"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Malangwa Hospital",
+      "type": "Government",
+      "address": "Malangwa-5, Sarlahi",
+      "phone": ["046-520111"],
+      "district": "Sarlahi",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.8667,85.5667"
+    },
+    {
+      "id": 2,
+      "name": "Sarlahi District Hospital",
+      "type": "Government",
+      "address": "Malangwa-3, Sarlahi",
+      "phone": ["046-521111"],
+      "district": "Sarlahi",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "26.8745,85.5589"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Malangwa",
+      "type": "Private",
+      "address": "Malangwa-4, Sarlahi",
+      "phone": ["046-522222"],
+      "district": "Sarlahi",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "26.8598,85.5745"
+    },
+    {
+      "id": 4,
+      "name": "Shree Hospital Malangwa",
+      "type": "Private",
+      "address": "Malangwa-6, Sarlahi",
+      "phone": ["046-523333"],
+      "district": "Sarlahi",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Surgery", "Internal Medicine"],
+      "gps": "26.8823,85.5523"
+    },
+    {
+      "id": 5,
+      "name": "Malangwa Medical Center",
+      "type": "Private",
+      "address": "Malangwa-2, Sarlahi",
+      "phone": ["046-524444"],
+      "district": "Sarlahi",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.8534,85.5812"
+    },
+    {
+      "id": 6,
+      "name": "Sarlahi Community Hospital",
+      "type": "NGO",
+      "address": "Malangwa-7, Sarlahi",
+      "phone": ["046-525555"],
+      "district": "Sarlahi",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Community Health"],
+      "gps": "26.8901,85.5456"
+    }
+  ]
+}
