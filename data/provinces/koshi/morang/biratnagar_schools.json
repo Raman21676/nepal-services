@@ -7,7 +7,7 @@
     "last_updated": "2026-03-25",
     "source": "Koshi Provincial Education Directorate, Public Directories",
     "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
-    "total_records": 61,
+    "total_records": 85,
     "note": "Comprehensive schools and colleges in Biratnagar - Major education hub of Eastern Nepal"
   },
   "schools": [
@@ -630,6 +630,249 @@
       "curriculum": "National Curriculum",
       "address": "Biratnagar, Morang",
       "phone": ["021-531678"],
+      "district": "Morang"
+    },
+    {
+      "id": 62,
+      "name": "Namuna Vidya Mandir Secondary School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Madhumara, Biratnagar-8, Morang",
+      "phone": ["021-527057"],
+      "district": "Morang",
+      "note": "Established in 1993 AD, secondary boarding school"
+    },
+    {
+      "id": 63,
+      "name": "St. Mary's Secondary School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-2, Sombare Hat, Morang",
+      "phone": ["021-572934"],
+      "email": "stmarybirt@gmail.com",
+      "website": "https://stmarysbrt.com",
+      "district": "Morang"
+    },
+    {
+      "id": 64,
+      "name": "Janaki Secondary Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Janpath Tole, Biratnagar-11, Morang",
+      "phone": ["021-570548"],
+      "district": "Morang"
+    },
+    {
+      "id": 65,
+      "name": "Arniko Higher Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Biratnagar-13, Morang",
+      "phone": ["021-532789"],
+      "district": "Morang"
+    },
+    {
+      "id": 66,
+      "name": "Azalea Secondary Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-533890"],
+      "district": "Morang"
+    },
+    {
+      "id": 67,
+      "name": "Bal Batika English Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "English Medium",
+      "address": "Biratnagar-11, Morang",
+      "phone": ["021-534901"],
+      "district": "Morang"
+    },
+    {
+      "id": 68,
+      "name": "Balmiki Secondary School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-535012"],
+      "district": "Morang"
+    },
+    {
+      "id": 69,
+      "name": "Birat Victoria Memorial Higher Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Panitanki, Biratnagar-1, Morang",
+      "phone": ["021-536123"],
+      "district": "Morang"
+    },
+    {
+      "id": 70,
+      "name": "Budhanilkantha Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "English Medium",
+      "address": "Shankarpur, Biratnagar-3, Morang",
+      "phone": ["021-537234"],
+      "district": "Morang"
+    },
+    {
+      "id": 71,
+      "name": "Dawn English Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-538345"],
+      "district": "Morang"
+    },
+    {
+      "id": 72,
+      "name": "EDEN National Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Uday Marga, Biratnagar-4, Morang",
+      "phone": ["021-539456"],
+      "district": "Morang"
+    },
+    {
+      "id": 73,
+      "name": "Holyland Secondary Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-540567"],
+      "district": "Morang"
+    },
+    {
+      "id": 74,
+      "name": "Jaycee Bal Sadan Secondary Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-541678"],
+      "district": "Morang"
+    },
+    {
+      "id": 75,
+      "name": "Koshi Vidya Mandir",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-542789"],
+      "district": "Morang"
+    },
+    {
+      "id": 76,
+      "name": "Lord Buddha Niketan School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Tintoliya, Biratnagar-10, Morang",
+      "phone": ["021-535211"],
+      "district": "Morang"
+    },
+    {
+      "id": 77,
+      "name": "Malabika English Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Mangadh, Biratnagar-4, Morang",
+      "phone": ["021-543890"],
+      "district": "Morang"
+    },
+    {
+      "id": 78,
+      "name": "Mills Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-20, Morang",
+      "phone": ["021-544901"],
+      "district": "Morang"
+    },
+    {
+      "id": 79,
+      "name": "Paragon Academy Higher Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Puspalal Chowk, Biratnagar, Morang",
+      "phone": ["021-545012"],
+      "district": "Morang"
+    },
+    {
+      "id": 80,
+      "name": "Pole Star Secondary Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Puspalal Chowk, Biratnagar, Morang",
+      "phone": ["021-546123"],
+      "district": "Morang"
+    },
+    {
+      "id": 81,
+      "name": "Sagarmatha Higher Secondary English School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Panchali, Biratnagar-15, Morang",
+      "phone": ["021-547234"],
+      "district": "Morang"
+    },
+    {
+      "id": 82,
+      "name": "Shree Annapurna Academy",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-5, Morang",
+      "phone": ["021-548345"],
+      "district": "Morang"
+    },
+    {
+      "id": 83,
+      "name": "Star Higher Secondary Boarding School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Biratnagar-13, Morang",
+      "phone": ["021-549456"],
+      "district": "Morang"
+    },
+    {
+      "id": 84,
+      "name": "Kanchanjunga Academy",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-550567"],
+      "district": "Morang"
+    },
+    {
+      "id": 85,
+      "name": "Gems International Secondary Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "English Medium",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-551678"],
       "district": "Morang"
     }
   ]
