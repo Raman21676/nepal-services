@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 3
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Hetauda Hospital",
+      "type": "Public",
+      "address": "Hetauda, Makwanpur",
+      "phone": ["057-520100"],
+      "district": "Makwanpur",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Makwanpur District Hospital",
+      "type": "Public",
+      "address": "Hetauda, Makwanpur",
+      "phone": ["057-520200"],
+      "district": "Makwanpur",
+      "gps": null
+    },
+    {
+      "id": 3,
+      "name": "Hetauda Academy of Health Sciences",
+      "type": "Public",
+      "address": "Hetauda, Makwanpur",
+      "phone": ["057-520300"],
+      "district": "Makwanpur",
+      "gps": null
+    }
+  ]
+}

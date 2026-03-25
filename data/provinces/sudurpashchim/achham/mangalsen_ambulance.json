@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "city": "Mangalsen",
+    "district": "Achham",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, Red Cross Society, Health Office",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Achham District Hospital Ambulance",
+      "provider": "District Hospital",
+      "phone": ["097-620145"],
+      "type": "Hospital",
+      "service": "24/7 emergency transport",
+      "district": "Achham",
+      "address": "Mangalsen, Achham"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society Ambulance - Achham",
+      "provider": "Nepal Red Cross Society",
+      "phone": ["102", "097-620124"],
+      "type": "NGO",
+      "service": "Emergency ambulance service",
+      "district": "Achham",
+      "address": "Mangalsen, Achham"
+    }
+  ]
+}

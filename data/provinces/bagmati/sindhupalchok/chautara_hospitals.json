@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Chautara",
+    "district": "Sindhupalchok",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Sindhupalchok District Hospital",
+      "type": "Public",
+      "address": "Chautara, Sindhupalchok",
+      "phone": ["011-620100"],
+      "district": "Sindhupalchok",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Chautara Hospital",
+      "type": "Public",
+      "address": "Chautara, Sindhupalchok",
+      "phone": ["011-620200"],
+      "district": "Sindhupalchok",
+      "gps": null
+    }
+  ]
+}

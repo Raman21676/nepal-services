@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Chainpur",
+    "district": "Bajhang",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Bajhang District Hospital",
+      "type": "Public",
+      "address": "Chainpur, Bajhang",
+      "phone": ["092-421021"],
+      "district": "Bajhang",
+      "gps": null
+    }
+  ]
+}

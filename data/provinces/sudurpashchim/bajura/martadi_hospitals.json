@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Martadi",
+    "district": "Bajura",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Bajura District Hospital",
+      "type": "Public",
+      "address": "Martadi, Bajura",
+      "phone": ["097-541006"],
+      "district": "Bajura",
+      "gps": null
+    }
+  ]
+}

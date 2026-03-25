@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Manthali",
+    "district": "Ramechhap",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Ramechhap District Hospital",
+      "type": "Public",
+      "address": "Manthali, Ramechhap",
+      "phone": ["048-690100"],
+      "district": "Ramechhap",
+      "gps": null
+    }
+  ]
+}

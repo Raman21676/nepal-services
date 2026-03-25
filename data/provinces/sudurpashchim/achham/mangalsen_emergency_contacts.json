@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Mangalsen",
+    "district": "Achham",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, Nepal Police, DoHS",
+    "total_records": 3
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "District Police Office, Achham",
+      "category": "Police",
+      "phone": ["100", "097-520100"],
+      "address": "Mangalsen, Achham",
+      "description": "24/7 emergency police services"
+    },
+    {
+      "id": 2,
+      "name": "Achham District Hospital Emergency",
+      "category": "Hospital",
+      "phone": ["097-620145"],
+      "address": "Mangalsen, Achham",
+      "description": "24/7 emergency medical services"
+    },
+    {
+      "id": 3,
+      "name": "Fire Service, Mangalsen",
+      "category": "Fire",
+      "phone": ["101"],
+      "address": "Mangalsen, Achham",
+      "description": "Fire emergency services"
+    }
+  ]
+}

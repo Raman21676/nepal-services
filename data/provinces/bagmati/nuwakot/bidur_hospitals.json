@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Bidur",
+    "district": "Nuwakot",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Nuwakot District Hospital",
+      "type": "Public",
+      "address": "Bidur, Nuwakot",
+      "phone": ["010-560100"],
+      "district": "Nuwakot",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Trishuli Hospital",
+      "type": "Public",
+      "address": "Trishuli, Nuwakot",
+      "phone": ["010-560200"],
+      "district": "Nuwakot",
+      "gps": null
+    }
+  ]
+}

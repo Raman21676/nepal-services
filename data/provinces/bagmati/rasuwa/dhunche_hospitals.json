@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Dhunche",
+    "district": "Rasuwa",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Rasuwa District Hospital",
+      "type": "Public",
+      "address": "Dhunche, Rasuwa",
+      "phone": ["010-540100"],
+      "district": "Rasuwa",
+      "gps": null
+    }
+  ]
+}

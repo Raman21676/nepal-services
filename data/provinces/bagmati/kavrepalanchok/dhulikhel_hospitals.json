@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "city": "Dhulikhel",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 3
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Dhulikhel Hospital",
+      "type": "Public",
+      "address": "Dhulikhel, Kavrepalanchok",
+      "phone": ["011-490100"],
+      "district": "Kavrepalanchok",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Kavrepalanchok District Hospital",
+      "type": "Public",
+      "address": "Banepa, Kavrepalanchok",
+      "phone": ["011-660100"],
+      "district": "Kavrepalanchok",
+      "gps": null
+    },
+    {
+      "id": 3,
+      "name": "Nepal Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Gaurighat, Kavrepalanchok",
+      "phone": ["011-490200"],
+      "district": "Kavrepalanchok",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Dhadingbesi",
+    "district": "Dhading",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Dhading District Hospital",
+      "type": "Public",
+      "address": "Dhadingbesi, Dhading",
+      "phone": ["010-520100"],
+      "district": "Dhading",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Nilkantha Community Hospital",
+      "type": "Private",
+      "address": "Nilkantha, Dhading",
+      "phone": ["010-520200"],
+      "district": "Dhading",
+      "gps": null
+    }
+  ]
+}

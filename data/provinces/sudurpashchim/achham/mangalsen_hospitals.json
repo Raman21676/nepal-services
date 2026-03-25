@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Mangalsen",
+    "district": "Achham",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Achham District Hospital",
+      "type": "Public",
+      "address": "Mangalsen, Achham",
+      "phone": ["097-620145"],
+      "district": "Achham",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Bayalpata Hospital",
+      "type": "Public",
+      "address": "Bayalpata, Achham",
+      "phone": ["097-620100"],
+      "district": "Achham",
+      "gps": null
+    }
+  ]
+}

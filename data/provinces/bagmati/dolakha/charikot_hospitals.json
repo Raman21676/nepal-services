@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Charikot",
+    "district": "Dolakha",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, DoHS",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Dolakha District Hospital",
+      "type": "Public",
+      "address": "Charikot, Dolakha",
+      "phone": ["049-420100"],
+      "district": "Dolakha",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Kalu Pandey Hospital",
+      "type": "Public",
+      "address": "Charikot, Dolakha",
+      "phone": ["049-420200"],
+      "district": "Dolakha",
+      "gps": null
+    }
+  ]
+}
