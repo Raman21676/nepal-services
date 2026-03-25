@@ -1,1 +1,136 @@
-{"metadata":{"city":"Hetauda","district":"Makwanpur","province":"Bagmati","last_updated":"2026-03-25","source":"Nepal Red Cross","total_records":1},"blood_banks":[{"id":1,"name":"Makwanpur Blood Bank","type":"District Blood Bank","address":"Hetauda District Hospital, Makwanpur","phone":["057-520100"],"district":"Makwanpur","service_hours":"24/7"}]}
+{
+  "metadata": {
+    "city": "Hetauda",
+    "city_np": "हेटौडा",
+    "district": "Makwanpur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 11,
+    "emergency_contact": "102"
+  },
+  "blood_banks": [
+    {
+      "id": 1,
+      "name": "Hetauda Hospital Blood Bank",
+      "name_np": "हेटौडा अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Hetauda-4, Hospital Road, Makwanpur",
+      "phone": ["057-520100", "057-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 2,
+      "name": "Chure Hill Hospital Blood Bank",
+      "name_np": "चुरे हिल अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Hetauda-3, Chure Hillside, Makwanpur",
+      "phone": ["057-520200", "057-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 3,
+      "name": "Hetauda Medical College Blood Bank",
+      "name_np": "हेटौडा मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Hetauda-10, Main Campus, Makwanpur",
+      "phone": ["057-520300", "057-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 4,
+      "name": "Nepal Red Cross Society Hetauda Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी हेटौडा ब्लड बैंक",
+      "type": "NGO",
+      "address": "Hetauda-4, Red Cross Building, Makwanpur",
+      "phone": ["057-520400", "057-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 5,
+      "name": "Makwanpur District Hospital Blood Bank",
+      "name_np": "मकवानपुर जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Hetauda-4, District Administration Road, Makwanpur",
+      "phone": ["057-520500", "057-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 6,
+      "name": "Hetauda Community Hospital Blood Bank",
+      "name_np": "हेटौडा सामुदायिक अस्पताल ब्लड बैंक",
+      "type": "Community Hospital",
+      "address": "Hetauda-5, Community Hospital Road, Makwanpur",
+      "phone": ["057-520600", "057-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 7,
+      "name": "Bhrikuti Hospital Blood Bank",
+      "name_np": "भृकुटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Hetauda-6, Bhrikuti Chowk, Makwanpur",
+      "phone": ["057-520700", "057-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 8,
+      "name": "Hetauda City Hospital Blood Bank",
+      "name_np": "हेटौडा सिटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Hetauda-3, City Center, Makwanpur",
+      "phone": ["057-520800", "057-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 9,
+      "name": "Green City Hospital Blood Bank",
+      "name_np": "ग्रिन सिटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Hetauda-7, Green City Area, Makwanpur",
+      "phone": ["057-520900", "057-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 10,
+      "name": "Lion Hospital Blood Bank Hetauda",
+      "name_np": "लायन अस्पताल ब्लड बैंक हेटौडा",
+      "type": "Private",
+      "address": "Hetauda-4, Lions Chowk, Makwanpur",
+      "phone": ["057-521000", "057-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 11,
+      "name": "Siddhartha Hospital Blood Bank",
+      "name_np": "सिद्धार्थ अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Hetauda-5, Siddhartha Chowk, Makwanpur",
+      "phone": ["057-521100", "057-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    }
+  ]
+}

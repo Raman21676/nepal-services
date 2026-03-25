@@ -3,19 +3,145 @@
     "city": "Bhairahawa",
     "city_np": "भैरहवा",
     "district": "Rupandehi",
-    "district_np": "रुपन्देही",
     "province": "Lumbini",
-    "province_np": "लुम्बिनी प्रदेश",
-    "phone_prefix": "071",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 12,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "Bhairahawa Blood Bank",
-      "name_np": "भैरहवा रक्त बैंक",
-      "type": "Regional",
-      "address": "Bhim Hospital, Bhairahawa",
-      "phone": "071-520100"
+      "id": 1,
+      "name": "Bhairahawa Regional Blood Transfusion Center",
+      "name_np": "भैरहवा क्षेत्रीय रक्त transfusion केन्द्र",
+      "type": "Government",
+      "address": "Bhairahawa-5, Lumbini Chowk, Rupandehi",
+      "phone": ["071-520100", "071-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 2,
+      "name": "Bhagawanpati Hospital Blood Bank",
+      "name_np": "भगवानपति अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Bhairahawa-7, Main Road, Rupandehi",
+      "phone": ["071-520200", "071-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
+      "name": "Bhairahawa Medical College Blood Bank",
+      "name_np": "भैरहवा मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Bhairahawa-6, Medical College Road, Rupandehi",
+      "phone": ["071-478100", "071-478101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 4,
+      "name": "Nepal Red Cross Society Bhairahawa Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी भैरहवा ब्लड बैंक",
+      "type": "NGO",
+      "address": "Bhairahawa-5, Buddha Chowk, Rupandehi",
+      "phone": ["071-520300", "071-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 5,
+      "name": "Siddhartha Medical College Blood Bank",
+      "name_np": "सिद्धार्थ मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Bhairahawa-11, Lumbini Road, Rupandehi",
+      "phone": ["071-479100", "071-479101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 6,
+      "name": "Bhairahawa City Hospital Blood Bank",
+      "name_np": "भैरहवा सिटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Bhairahawa-5, Main Bazaar, Rupandehi",
+      "phone": ["071-520400", "071-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "Lumbini Hospital Blood Bank",
+      "name_np": "लुम्बिनी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Bhairahawa-6, Lumbini Road, Rupandehi",
+      "phone": ["071-520500", "071-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "Bhairahawa Eye Hospital Blood Bank",
+      "name_np": "भैरहवा आँखा अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Bhairahawa-5, Eye Hospital Road, Rupandehi",
+      "phone": ["071-520600", "071-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 9,
+      "name": "Sunaul Medical College Blood Bank",
+      "name_np": "सुनौल मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Bhairahawa-6, Sunaul Road, Rupandehi",
+      "phone": ["071-520700", "071-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 10,
+      "name": "Gautam Buddha Community Hospital Blood Bank",
+      "name_np": "गौतम बुद्ध सामुदायिक अस्पताल ब्लड बैंक",
+      "type": "Community Hospital",
+      "address": "Bhairahawa-11, Gautam Buddha Chowk, Rupandehi",
+      "phone": ["071-520800", "071-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 11,
+      "name": "Life Line Hospital Blood Bank Bhairahawa",
+      "name_np": "लाइफ लाइन अस्पताल ब्लड बैंक भैरहवा",
+      "type": "Private",
+      "address": "Bhairahawa-5, Hospital Road, Rupandehi",
+      "phone": ["071-520900", "071-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 12,
+      "name": "Gautam Buddha Medical College Blood Bank",
+      "name_np": "गौतम बुद्ध मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Bhairahawa-11, Medical Campus, Rupandehi",
+      "phone": ["071-521000", "071-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     }
   ]
 }

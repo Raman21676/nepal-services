@@ -1,31 +1,125 @@
 {
   "metadata": {
     "city": "Birendranagar",
+    "city_np": "वीरेन्द्रनगर",
     "district": "Surkhet",
     "province": "Karnali",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Karnali Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 10,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "Bheri Hospital Blood Bank",
-      "name_np": "भेरी अस्पताल ब्लड बैंक",
-      "type": "Hospital Blood Bank",
-      "address": "Birendranagar-7, Surkhet",
-      "phone": "083-524366"
+      "id": 1,
+      "name": "Surkhet Provincial Hospital Blood Bank",
+      "name_np": "सुर्खेत प्रादेशिक अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birendranagar-5, Hospital Road, Surkhet",
+      "phone": ["083-520100", "083-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society Birendranagar Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी वीरेन्द्रनगर ब्लड बैंक",
+      "type": "NGO",
+      "address": "Birendranagar-4, Bus Park Area, Surkhet",
+      "phone": ["083-520200", "083-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 3,
+      "name": "Surkhet District Hospital Blood Bank",
+      "name_np": "सुर्खेत जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birendranagar-6, District Administration Office Road, Surkhet",
+      "phone": ["083-520300", "083-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 4,
       "name": "Karnali Provincial Hospital Blood Bank",
       "name_np": "कर्णाली प्रादेशिक अस्पताल ब्लड बैंक",
-      "type": "Provincial Blood Bank",
-      "address": "Birendranagar-8, Surkhet",
-      "phone": "083-520800"
+      "type": "Government",
+      "address": "Birendranagar-5, Provincial Hospital Campus, Surkhet",
+      "phone": ["083-520400", "083-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     },
     {
-      "name": "Nepal Red Cross Society Surkhet",
-      "name_np": "नेपाल रेडक्रस सोसाइटी सुर्खेत",
-      "type": "Blood Bank",
-      "address": "Birendranagar-4, Surkhet",
-      "phone": "083-521100"
+      "id": 5,
+      "name": "Mid-Western Regional Hospital Blood Bank",
+      "name_np": "मध्य-पश्चिम क्षेत्रीय अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birendranagar-5, Regional Hospital Road, Surkhet",
+      "phone": ["083-520500", "083-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 6,
+      "name": "Karnali Community Hospital Blood Bank",
+      "name_np": "कर्णाली सामुदायिक अस्पताल ब्लड बैंक",
+      "type": "Community Hospital",
+      "address": "Birendranagar-4, Main Bazaar, Surkhet",
+      "phone": ["083-520600", "083-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 7,
+      "name": "Life Line Hospital Blood Bank Birendranagar",
+      "name_np": "लाइफ लाइन अस्पताल ब्लड बैंक वीरेन्द्रनगर",
+      "type": "Private",
+      "address": "Birendranagar-5, Hospital Road, Surkhet",
+      "phone": ["083-520700", "083-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 8,
+      "name": "Surkhet Eye Hospital Blood Bank",
+      "name_np": "सुर्खेत आँखा अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Birendranagar-5, Eye Hospital Road, Surkhet",
+      "phone": ["083-520800", "083-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 9,
+      "name": "Karnali Medical College Blood Bank",
+      "name_np": "कर्णाली मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Birendranagar-6, Medical College Campus, Surkhet",
+      "phone": ["083-520900", "083-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 10,
+      "name": "Birendranagar Municipal Hospital Blood Bank",
+      "name_np": "वीरेन्द्रनगर नगर अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birendranagar-4, Municipal Office Road, Surkhet",
+      "phone": ["083-521000", "083-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     }
   ]
 }

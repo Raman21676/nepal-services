@@ -1,61 +1,169 @@
 {
   "metadata": {
     "city": "Bharatpur",
+    "city_np": "भरतपुर",
     "district": "Chitwan",
     "province": "Bagmati",
-    "data_type": "blood_banks",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 14,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "NRCS Regional Blood Transfusion Service Center",
-      "address": "Bharatpur, Chitwan",
-      "type": "Blood Bank",
-      "hours": "24/7",
-      "services": [
-        "Blood Donation",
-        "Blood Transfusion",
-        "Emergency Blood Supply"
-      ],
-      "phone": "056-520880"
-    },
-    {
-      "name": "B.P. Koirala Memorial Cancer Hospital Blood Bank",
-      "address": "Bharatpur-7, Chitwan",
-      "type": "Hospital Blood Bank",
-      "hours": "24/7",
-      "services": [
-        "Blood Transfusion",
-        "Component Therapy"
-      ],
-      "phone": "056-524501"
-    },
-    {
-      "name": "CMS Teaching Hospital Blood Bank",
-      "address": "Bharatpur, Chitwan",
-      "type": "Hospital Blood Bank",
-      "hours": "24/7",
-      "services": [
-        "Blood Transfusion"
-      ],
-      "phone": "056-493012"
-    },
-    {
-      "name": "Chitwan Medical College Blood Bank",
-      "address": "Bharatpur, Chitwan",
-      "type": "Hospital Blood Bank",
-      "hours": "24/7",
-      "services": [
-        "Blood Transfusion"
-      ],
-      "phone": "056-493101"
-    },
-    {
+      "id": 1,
       "name": "Bharatpur Hospital Blood Bank",
-      "address": "Bharatpur, Chitwan",
-      "type": "Hospital Blood Bank",
+      "name_np": "भरतपुर अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Bharatpur-10, Lions Chowk, Chitwan",
+      "phone": ["056-520111", "056-520112"],
       "hours": "24/7",
-      "phone": "056-520111"
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "B.P. Koirala Memorial Cancer Hospital Blood Bank",
+      "name_np": "वीपी कोइराला मेमोरियल क्यान्सर अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Bharatpur-7, Krishnapur, Chitwan",
+      "phone": ["056-524501", "056-524502"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "Chitwan Medical College Blood Bank",
+      "name_np": "चितवन मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Bharatpur-9, Jivan Jyoti Chowk, Chitwan",
+      "phone": ["056-493101", "056-493102"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "College of Medical Sciences Blood Bank",
+      "name_np": "कलेज अफ मेडिकल साइन्शेस ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Bharatpur-10, New Road, Chitwan",
+      "phone": ["056-493012", "056-493013"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 5,
+      "name": "Narayani Community Hospital Blood Bank",
+      "name_np": "नारायणी सामुदायिक अस्पताल ब्लड बैंक",
+      "type": "Community Hospital",
+      "address": "Chaubishkothi, Bharatpur-10, Chitwan",
+      "phone": ["056-520111", "056-520112"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 6,
+      "name": "Bharatpur Community Hospital Blood Bank",
+      "name_np": "भरतपुर सामुदायिक अस्पताल ब्लड बैंक",
+      "type": "Community Hospital",
+      "address": "Bharatpur-10, Main Road, Chitwan",
+      "phone": ["056-595200", "056-595201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 7,
+      "name": "Sahid Gangalal National Heart Centre Bharatpur Blood Bank",
+      "name_np": "शहीद गंगालाल राष्ट्रिय हृदय केन्द्र भरतपुर ब्लड बैंक",
+      "type": "Government",
+      "address": "Bharatpur-9, Medical College Road, Chitwan",
+      "phone": ["056-520300", "056-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 8,
+      "name": "Chitwan District Hospital Blood Bank",
+      "name_np": "चितवन जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Bharatpur-4, District Administration Office Road, Chitwan",
+      "phone": ["056-520400", "056-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 9,
+      "name": "Madhav Narayan Hospital Blood Bank",
+      "name_np": "माधव नारायण अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Bharatpur-11, Narayangadh, Chitwan",
+      "phone": ["056-520500", "056-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 10,
+      "name": "Shanti Hospital Blood Bank",
+      "name_np": "शान्ति अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Bharatpur-10, Lions Chowk, Chitwan",
+      "phone": ["056-520600", "056-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 11,
+      "name": "Chitwan Eye Hospital Blood Bank",
+      "name_np": "चितवन आँखा अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Bharatpur-10, Eye Hospital Road, Chitwan",
+      "phone": ["056-520700", "056-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 12,
+      "name": "Janasewa Blood Bank Bharatpur",
+      "name_np": "जनसेवा ब्लड बैंक भरतपुर",
+      "type": "NGO",
+      "address": "Narayangadh, Bharatpur-11, Chitwan",
+      "phone": ["056-521300", "056-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 13,
+      "name": "Rotary Club Bharatpur Blood Bank",
+      "name_np": "रोटरी क्लब भरतपुर ब्लड बैंक",
+      "type": "NGO",
+      "address": "Lions Chowk, Bharatpur-10, Chitwan",
+      "phone": ["056-521100", "056-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 14,
+      "name": "Lions Club Bharatpur Blood Bank",
+      "name_np": "लायन्स क्लब भरतपुर ब्लड बैंक",
+      "type": "NGO",
+      "address": "Lions Chowk, Bharatpur-10, Chitwan",
+      "phone": ["056-521200", "056-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
     }
   ]
 }

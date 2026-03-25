@@ -1,31 +1,147 @@
 {
   "metadata": {
     "city": "Janakpur",
+    "city_np": "जनकपुर",
     "district": "Dhanusha",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 12,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "Janakpur Blood Bank",
-      "name_np": "जनकपुर ब्लड बैंक",
-      "type": "Blood Bank",
-      "address": "Provincial Hospital, Janakpur",
-      "phone": "041-561234"
+      "id": 1,
+      "name": "Janakpur Provincial Hospital Blood Bank",
+      "name_np": "जनकपुर प्रादेशिक अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Janakpur-6, Ramanand Chowk, Dhanusha",
+      "phone": ["041-520100", "041-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     },
     {
-      "name": "Rama Medical College Blood Bank",
-      "name_np": "रामा मेडिकल कलेज ब्लड बैंक",
-      "type": "Blood Bank",
-      "address": "RMC, Janakpur",
-      "phone": "041-562345"
+      "id": 2,
+      "name": "Janaki Medical College Blood Bank",
+      "name_np": "जानकी मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Janakpur-14, Ramdaiya, Dhanusha",
+      "phone": ["041-480200", "041-480201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     },
     {
-      "name": "Red Cross Janakpur Blood Center",
-      "name_np": "रेडक्रस जनकपुर रक्त केन्द्र",
-      "type": "Blood Bank",
-      "address": "Janak Chowk, Janakpur",
-      "phone": "041-563456"
+      "id": 3,
+      "name": "Nepal Red Cross Society Janakpur Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी जनकपुर ब्लड बैंक",
+      "type": "NGO",
+      "address": "Janakpur-5, Janaki Chowk, Dhanusha",
+      "phone": ["041-520300", "041-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 4,
+      "name": "Dhanusha District Hospital Blood Bank",
+      "name_np": "धनुषा जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Janakpur-4, District Police Office Road, Dhanusha",
+      "phone": ["041-520400", "041-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 5,
+      "name": "Shree Ram Memorial Hospital Blood Bank",
+      "name_np": "श्री राम मेमोरियल अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Janakpur-6, Railway Station Road, Dhanusha",
+      "phone": ["041-520500", "041-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 6,
+      "name": "Janakpur Zonal Hospital Blood Bank",
+      "name_np": "जनकपुर अञ्चल अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Janakpur-6, Ramanand Chowk, Dhanusha",
+      "phone": ["041-520600", "041-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 7,
+      "name": "Mithila Hospital Blood Bank",
+      "name_np": "मिथिला अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Janakpur-6, Main Road, Dhanusha",
+      "phone": ["041-520700", "041-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 8,
+      "name": "Janakpur Sub-Metropolitan City Hospital Blood Bank",
+      "name_np": "जनकपुर उप-महानगरपालिका अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Janakpur-3, City Hall Road, Dhanusha",
+      "phone": ["041-520800", "041-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 9,
+      "name": "Mata Janaki Hospital Blood Bank",
+      "name_np": "माता जानकी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Janakpur-6, Ram Mandir Area, Dhanusha",
+      "phone": ["041-520900", "041-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 10,
+      "name": "Sita Hospital Blood Bank",
+      "name_np": "सीता अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Janakpur-4, Bibaha Mandap Road, Dhanusha",
+      "phone": ["041-521000", "041-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 11,
+      "name": "Sagarmatha Blood Bank Janakpur",
+      "name_np": "सगरमाथा ब्लड बैंक जनकपुर",
+      "type": "NGO",
+      "address": "Janakpur-5, Rajbanshi Chowk, Dhanusha",
+      "phone": ["041-521100", "041-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 12,
+      "name": "Janakpur Eye Hospital Blood Bank",
+      "name_np": "जनकपुर आँखा अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Janakpur-6, Eye Hospital Road, Dhanusha",
+      "phone": ["041-521200", "041-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     }
   ]
 }

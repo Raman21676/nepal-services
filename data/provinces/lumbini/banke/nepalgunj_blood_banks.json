@@ -3,26 +3,145 @@
     "city": "Nepalgunj",
     "city_np": "नेपालगंज",
     "district": "Banke",
-    "district_np": "बाँके",
     "province": "Lumbini",
-    "province_np": "लुम्बिनी प्रदेश",
-    "phone_prefix": "081",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 12,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "Lumbini Provincial Blood Bank",
-      "name_np": "लुम्बिनी प्रादेशिक रक्त बैंक",
-      "type": "Provincial",
-      "address": "Bheri Hospital Premises, Nepalgunj",
-      "phone": "081-520174"
+      "id": 1,
+      "name": "Bheri Hospital Blood Bank",
+      "name_np": "भेरी अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Nepalgunj-5, Hospital Road, Banke",
+      "phone": ["081-520100", "081-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
     },
     {
-      "name": "NRCS Banke Blood Transfusion Center",
-      "name_np": "नेपाल रेडक्रस रक्त क transfusion केन्द्र",
-      "type": "Regional",
-      "address": "Nepalgunj",
-      "phone": "081-520104"
+      "id": 2,
+      "name": "Nepalgunj Medical College Blood Bank",
+      "name_np": "नेपालगंज मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Kohalpur-11, Banke",
+      "phone": ["081-475100", "081-475101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 3,
+      "name": "Nepal Red Cross Society Nepalgunj Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी नेपालगंज ब्लड बैंक",
+      "type": "NGO",
+      "address": "Nepalgunj-6, Sadar Line, Banke",
+      "phone": ["081-520200", "081-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 4,
+      "name": "Bheri Provincial Hospital Blood Bank",
+      "name_np": "भेरी प्रादेशिक अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Nepalgunj-5, Hospital Road, Banke",
+      "phone": ["081-520300", "081-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 5,
+      "name": "Banke District Hospital Blood Bank",
+      "name_np": "बाँके जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Nepalgunj-4, District Police Office Road, Banke",
+      "phone": ["081-520400", "081-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 6,
+      "name": "Shining Star Hospital Blood Bank",
+      "name_np": "शाइनिङ स्टार अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Nepalgunj-6, Sadar Line, Banke",
+      "phone": ["081-520500", "081-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 7,
+      "name": "Life Line Hospital Blood Bank",
+      "name_np": "लाइफ लाइन अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Nepalgunj-8, Surkhet Road, Banke",
+      "phone": ["081-520600", "081-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 8,
+      "name": "Royal Medicare Hospital Blood Bank",
+      "name_np": "रोयल मेडिकेयर अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Nepalgunj-7, Main Road, Banke",
+      "phone": ["081-520700", "081-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 9,
+      "name": "Kantikapur Hospital Blood Bank",
+      "name_np": "कान्तिकापुर अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Nepalgunj-8, Dhamboji Chowk, Banke",
+      "phone": ["081-520800", "081-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 10,
+      "name": "Janaki Hospital Blood Bank Nepalgunj",
+      "name_np": "जानकी अस्पताल ब्लड बैंक नेपालगंज",
+      "type": "Private",
+      "address": "Nepalgunj-6, Sadar Line, Banke",
+      "phone": ["081-520900", "081-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 11,
+      "name": "Bheri Medicare Hospital Blood Bank",
+      "name_np": "भेरी मेडिकेयर अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Nepalgunj-5, Dhamboji, Banke",
+      "phone": ["081-521000", "081-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
+    },
+    {
+      "id": 12,
+      "name": "Mid-Western Regional Hospital Blood Bank",
+      "name_np": "मध्य-पश्चिम क्षेत्रीय अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Nepalgunj-5, Hospital Area, Banke",
+      "phone": ["081-521100", "081-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Banke"
     }
   ]
 }

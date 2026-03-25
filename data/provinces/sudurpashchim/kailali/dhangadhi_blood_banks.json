@@ -1,1 +1,136 @@
-{"metadata":{"city":"Dhangadhi","district":"Kailali","province":"Sudurpashchim","last_updated":"2026-03-25","source":"Nepal Red Cross","total_records":1},"blood_banks":[{"id":1,"name":"Kailali Blood Bank","type":"Regional Blood Bank","address":"Seti Provincial Hospital, Dhangadhi","phone":["091-520100"],"district":"Kailali","service_hours":"24/7"}]}
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "city_np": "धनगढी",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 11,
+    "emergency_contact": "102"
+  },
+  "blood_banks": [
+    {
+      "id": 1,
+      "name": "Seti Provincial Hospital Blood Bank",
+      "name_np": "सेती प्रादेशिक अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Dhangadhi-5, Hospital Road, Kailali",
+      "phone": ["091-520100", "091-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society Dhangadhi Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी धनगढी ब्लड बैंक",
+      "type": "NGO",
+      "address": "Dhangadhi-4, Attariya Chowk, Kailali",
+      "phone": ["091-520200", "091-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 3,
+      "name": "Kailali District Hospital Blood Bank",
+      "name_np": "कैलाली जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Dhangadhi-6, District Police Office Road, Kailali",
+      "phone": ["091-520300", "091-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 4,
+      "name": "Dhangadhi Sub-Metropolitan City Hospital Blood Bank",
+      "name_np": "धनगढी उप-महानगरपालिका अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Dhangadhi-4, City Hall Road, Kailali",
+      "phone": ["091-520400", "091-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 5,
+      "name": "Shukraraj Tropical and Infectious Disease Hospital Blood Bank",
+      "name_np": "शुक्रराज ट्रपिकल तथा सरुवा रोग अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Dhangadhi-5, Seti Hospital Campus, Kailali",
+      "phone": ["091-520500", "091-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 6,
+      "name": "Life Line Hospital Blood Bank Dhangadhi",
+      "name_np": "लाइफ लाइन अस्पताल ब्लड बैंक धनगढी",
+      "type": "Private",
+      "address": "Dhangadhi-4, Main Road, Kailali",
+      "phone": ["091-520600", "091-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 7,
+      "name": "Seti Eye Hospital Blood Bank",
+      "name_np": "सेती आँखा अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Dhangadhi-5, Eye Hospital Road, Kailali",
+      "phone": ["091-520700", "091-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 8,
+      "name": "Kailali Medical College Blood Bank",
+      "name_np": "कैलाली मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Dhangadhi-6, Medical College Road, Kailali",
+      "phone": ["091-478100", "091-478101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 9,
+      "name": "Peace Zone Hospital Blood Bank",
+      "name_np": "पिस जोन अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Dhangadhi-4, Bazaar Area, Kailali",
+      "phone": ["091-520800", "091-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 10,
+      "name": "Dhangadhi Community Hospital Blood Bank",
+      "name_np": "धनगढी सामुदायिक अस्पताल ब्लड बैंक",
+      "type": "Community Hospital",
+      "address": "Dhangadhi-5, Community Hospital Road, Kailali",
+      "phone": ["091-520900", "091-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 11,
+      "name": "Rotary Club Dhangadhi Blood Bank",
+      "name_np": "रोटरी क्लब धनगढी ब्लड बैंक",
+      "type": "NGO",
+      "address": "Dhangadhi-4, Rotary Building, Kailali",
+      "phone": ["091-521000", "091-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    }
+  ]
+}

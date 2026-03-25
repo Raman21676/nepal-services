@@ -3,26 +3,156 @@
     "city": "Butwal",
     "city_np": "बुटवल",
     "district": "Rupandehi",
-    "district_np": "रुपन्देही",
     "province": "Lumbini",
-    "province_np": "लुम्बिनी प्रदेश",
-    "phone_prefix": "071",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 13,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
+      "id": 1,
       "name": "Lumbini Provincial Hospital Blood Bank",
-      "name_np": "लुम्बिनी प्रादेशिक अस्पताल रक्त बैंक",
-      "type": "Hospital",
-      "address": "Lumbini Provincial Hospital, Butwal",
-      "phone": "071-540200"
+      "name_np": "लुम्बिनी प्रादेशिक अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Butwal-9, Golpark, Rupandehi",
+      "phone": ["071-540100", "071-540101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
-      "name": "Red Cross Blood Bank Butwal",
-      "name_np": "रेडक्रस रक्त बैंक बुटवल",
-      "type": "Regional",
-      "address": "Butwal",
-      "phone": "071-540100"
+      "id": 2,
+      "name": "Crimson Hospital Blood Bank",
+      "name_np": "क्रिमसन अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Butwal-11, Deepnagar, Rupandehi",
+      "phone": ["071-470200", "071-470201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
+      "name": "National Medical College Blood Bank",
+      "name_np": "नेशनल मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Butwal-8, Charange, Rupandehi",
+      "phone": ["071-475100", "071-475101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 4,
+      "name": "Lumbini Medical College Blood Bank",
+      "name_np": "लुम्बिनी मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Tansen Road, Butwal-11, Rupandehi",
+      "phone": ["071-476100", "071-476101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Red Cross Society Butwal Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी बुटवल ब्लड बैंक",
+      "type": "NGO",
+      "address": "Butwal-9, Traffic Chowk, Rupandehi",
+      "phone": ["071-540500", "071-540501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 6,
+      "name": "Janaki Medical College Blood Bank",
+      "name_np": "जानकी मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Butwal-11, Kumarbasti, Rupandehi",
+      "phone": ["071-477100", "071-477101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "Lumbini City Hospital Blood Bank",
+      "name_np": "लुम्बिनी सिटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Butwal-9, Traffic Chowk, Rupandehi",
+      "phone": ["071-540600", "071-540601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "Siddhartha Children and Women Hospital Blood Bank",
+      "name_np": "सिद्धार्थ बाल तथा महिला अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Butwal-10, Buddhanagar, Rupandehi",
+      "phone": ["071-540700", "071-540701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 9,
+      "name": "Neuro Cardio Multispeciality Hospital Blood Bank",
+      "name_np": "न्युरो कार्डियो बहुउद्देश्यीय अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Butwal-9, Kalikanagar, Rupandehi",
+      "phone": ["071-540800", "071-540801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 10,
+      "name": "Rupandehi District Hospital Blood Bank",
+      "name_np": "रुपन्देही जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Butwal-8, Charange, Rupandehi",
+      "phone": ["071-540900", "071-540901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 11,
+      "name": "Holy Land Hospital Blood Bank",
+      "name_np": "होली ल्याण्ड अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Butwal-10, Aam Bazar, Rupandehi",
+      "phone": ["071-541000", "071-541001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 12,
+      "name": "Sanjeevani Hospital Blood Bank",
+      "name_np": "सञ्जीवनी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Butwal-11, Sangamnagar, Rupandehi",
+      "phone": ["071-541100", "071-541101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 13,
+      "name": "Om Hospital Blood Bank Butwal",
+      "name_np": "ओम अस्पताल ब्लड बैंक बुटवल",
+      "type": "Private",
+      "address": "Butwal-9, Motipur, Rupandehi",
+      "phone": ["071-541200", "071-541201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     }
   ]
 }

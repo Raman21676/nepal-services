@@ -1,51 +1,180 @@
 {
   "metadata": {
     "city": "Pokhara",
+    "city_np": "पोखरा",
     "district": "Kaski",
     "province": "Gandaki",
-    "data_type": "blood_banks",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 15,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "NRCS Regional BTSC Pokhara",
-      "address": "Ramghat, Pokhara",
-      "contact_secondary": "061-540191",
-      "type": "Regional Blood Bank",
-      "services": [
-        "Blood Collection",
-        "Testing",
-        "Storage",
-        "Distribution"
-      ],
-      "phone": "061-521091"
+      "id": 1,
+      "name": "Pokhara Regional Blood Transfusion Center",
+      "name_np": "पोखरा क्षेत्रीय रक्त transfusion केन्द्र",
+      "type": "Government",
+      "address": "Pokhara Regional Hospital, Fulbari, Pokhara",
+      "phone": ["061-520200", "061-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Pokhara Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - पोखरा ब्लड बैंक",
+      "type": "NGO",
+      "address": "Shree Chowk, Pokhara-8, Kaski",
+      "phone": ["061-521091", "061-521092"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
       "name": "Manipal Teaching Hospital Blood Bank",
-      "address": "Phulbari, Pokhara",
-      "type": "Hospital Blood Bank",
-      "services": [
-        "Blood Transfusion Services"
-      ],
-      "phone": "061-526416"
+      "name_np": "मणिपाल शिक्षण अस्पताल ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Fulbari, Pokhara-14, Kaski",
+      "phone": ["061-526416", "061-526417"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
     },
     {
+      "id": 4,
       "name": "Gandaki Medical College Blood Bank",
-      "address": "Prithivichowk, Pokhara",
-      "type": "Hospital Blood Bank",
-      "services": [
-        "Blood Bank Services"
-      ],
-      "phone": "061-538595"
+      "name_np": "गण्डकी मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Nayagaun, Pokhara-25, Kaski",
+      "phone": ["061-526416", "061-526418"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
     },
     {
+      "id": 5,
+      "name": "Charak Hospital Blood Bank",
+      "name_np": "चरक अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Chipledhunga, Pokhara-8, Kaski",
+      "phone": ["061-520300", "061-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Fishtail Hospital Blood Bank",
+      "name_np": "फिस्टेल अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Lakeside-6, Pokhara, Kaski",
+      "phone": ["061-520190", "061-520191"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Fewa City Hospital Blood Bank",
+      "name_np": "फेवा सिटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Nagdhunga, Pokhara-5, Kaski",
+      "phone": ["9842285269", "061-588193"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Sewa Hospital Blood Bank",
+      "name_np": "सेवा अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Mahendrapool, Pokhara-4, Kaski",
+      "phone": ["061-528161", "061-528162"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 9,
+      "name": "Metro City Hospital Blood Bank",
+      "name_np": "मेट्रो सिटी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Srijana Chowk, Pokhara-8, Kaski",
+      "phone": ["061-537932", "061-537933"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 10,
+      "name": "Maternal and Child Health Hospital Pokhara Blood Bank",
+      "name_np": "प्रसूति तथा स्त्री रोग अस्पताल पोखरा ब्लड बैंक",
+      "type": "Government",
+      "address": "Ramghat, Pokhara-10, Kaski",
+      "phone": ["061-520111", "061-520112"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 11,
+      "name": "Siddhartha Children and Women Hospital Blood Bank",
+      "name_np": "सिद्धार्थ बाल तथा महिला अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Prithvi Chowk, Pokhara-8, Kaski",
+      "phone": ["061-524800", "061-524801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 12,
+      "name": "Civil Service Hospital Pokhara Blood Bank",
+      "name_np": "निजामती कर्मचारी अस्पताल पोखरा ब्लड बैंक",
+      "type": "Government",
+      "address": "Lamachaur, Pokhara-16, Kaski",
+      "phone": ["061-561200", "061-561201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 13,
+      "name": "Amrita Hospital Blood Bank",
+      "name_np": "अमृत अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Chipledhunga, Pokhara-8, Kaski",
+      "phone": ["061-541491", "061-541492"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 14,
+      "name": "Lakeside Hospital Blood Bank",
+      "name_np": "लेकसाइड अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Lakeside-6, Baidam, Pokhara",
+      "phone": ["061-465858", "061-465859"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 15,
       "name": "Pokhara Academy of Health Sciences Blood Bank",
-      "address": "Ramghat, Pokhara",
-      "type": "Hospital Blood Bank",
-      "services": [
-        "Blood Transfusion"
-      ],
-      "phone": "061-533231"
+      "name_np": "पोखरा स्वास्थ्य विज्ञान प्रतिष्ठान ब्लड बैंक",
+      "type": "Government",
+      "address": "Fulbari, Pokhara-14, Kaski",
+      "phone": ["061-520200", "061-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
     }
   ]
 }

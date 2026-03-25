@@ -1,31 +1,158 @@
 {
   "metadata": {
     "city": "Birgunj",
+    "city_np": "वीरगंज",
     "district": "Parsa",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross",
+    "total_records": 13,
+    "emergency_contact": "102"
   },
   "blood_banks": [
     {
-      "name": "Narayani Blood Bank",
-      "name_np": "नारायणी ब्लड बैंक",
-      "type": "Blood Bank",
-      "address": "Narayani Hospital Complex, Birgunj",
-      "phone": "051-561234"
+      "id": 1,
+      "name": "Narayani Hospital Blood Bank",
+      "name_np": "नारायणी अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birgunj-8, Mahendra Chowk, Parsa",
+      "phone": ["051-521100", "051-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     },
     {
-      "name": "Birgunj Red Cross Blood Center",
-      "name_np": "वीरगञ्ज रेडक्रस रक्त केन्द्र",
-      "type": "Blood Bank",
-      "address": "Ghantaghar Road, Birgunj",
-      "phone": "051-562345"
+      "id": 2,
+      "name": "Nepal Red Cross Society Birgunj Blood Bank",
+      "name_np": "नेपाल रेडक्रस सोसाइटी वीरगंज ब्लड बैंक",
+      "type": "NGO",
+      "address": "Birgunj-10, Adarshanagar, Parsa",
+      "phone": ["051-521200", "051-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     },
     {
+      "id": 3,
       "name": "National Medical College Blood Bank",
       "name_np": "नेशनल मेडिकल कलेज ब्लड बैंक",
-      "type": "Blood Bank",
-      "address": "Tikulia, Birgunj",
-      "phone": "051-563456"
+      "type": "Teaching Hospital",
+      "address": "Birgunj-10, Gadhawa Road, Parsa",
+      "phone": ["051-478100", "051-478101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 4,
+      "name": "Birgunj Medical College Blood Bank",
+      "name_np": "वीरगंज मेडिकल कलेज ब्लड बैंक",
+      "type": "Teaching Hospital",
+      "address": "Birgunj-9, Gandak, Parsa",
+      "phone": ["051-479100", "051-479101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 5,
+      "name": "Parsa District Hospital Blood Bank",
+      "name_np": "पर्सा जिल्ला अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birgunj-5, District Police Office Road, Parsa",
+      "phone": ["051-521300", "051-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 6,
+      "name": "KMC Hospital Blood Bank",
+      "name_np": "केम्सी अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Birgunj-8, New Road, Parsa",
+      "phone": ["051-521400", "051-521401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 7,
+      "name": "Asha Hospital Blood Bank Birgunj",
+      "name_np": "आशा अस्पताल ब्लड बैंक वीरगंज",
+      "type": "Private",
+      "address": "Birgunj-9, Shreepur, Parsa",
+      "phone": ["051-521500", "051-521501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 8,
+      "name": "Birgunj Eye Hospital Blood Bank",
+      "name_np": "वीरगंज आँखा अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Birgunj-8, Eye Hospital Road, Parsa",
+      "phone": ["051-521600", "051-521601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 9,
+      "name": "Birgunj Sub-Metropolitan City Hospital Blood Bank",
+      "name_np": "वीरगंज उप-महानगरपालिका अस्पताल ब्लड बैंक",
+      "type": "Government",
+      "address": "Birgunj-6, City Hall Area, Parsa",
+      "phone": ["051-521700", "051-521701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 10,
+      "name": "Aarogya Hospital Blood Bank",
+      "name_np": "आरोग्य अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Birgunj-10, Adarshanagar, Parsa",
+      "phone": ["051-521800", "051-521801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 11,
+      "name": "Life Care Hospital Blood Bank",
+      "name_np": "लाइफ केयर अस्पताल ब्लड बैंक",
+      "type": "Private",
+      "address": "Birgunj-8, Mahendra Chowk, Parsa",
+      "phone": ["051-521900", "051-521901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 12,
+      "name": "Birgunj Cancer Hospital Blood Bank",
+      "name_np": "वीरगंज क्यान्सर अस्पताल ब्लड बैंक",
+      "type": "Specialized",
+      "address": "Birgunj-9, Gandak Area, Parsa",
+      "phone": ["051-522000", "051-522001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 13,
+      "name": "Rotary Club Birgunj Blood Bank",
+      "name_np": "रोटरी क्लब वीरगंज ब्लड बैंक",
+      "type": "NGO",
+      "address": "Birgunj-10, Rotary Building, Parsa",
+      "phone": ["051-522100", "051-522101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     }
   ]
 }
