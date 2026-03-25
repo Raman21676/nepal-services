@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Surkhet",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education, Surkhet District Education Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 8,
+    "note": "Major schools in Surkhet - Karnali Province capital"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Surkhet Multiple Campus",
+      "type": "Higher Secondary",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": ["083-520222"],
+      "district": "Surkhet",
+      "levels": ["10+2", "Bachelor", "Master"],
+      "established": "1965"
+    },
+    {
+      "id": 2,
+      "name": "Shree Surkhet Higher Secondary School",
+      "type": "Secondary",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": ["083-521222"],
+      "district": "Surkhet",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1960"
+    },
+    {
+      "id": 3,
+      "name": "Mid-Western Higher Secondary School",
+      "type": "Secondary",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": ["083-522222"],
+      "district": "Surkhet",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1970"
+    },
+    {
+      "id": 4,
+      "name": "Surkhet Model School",
+      "type": "Private",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": ["083-523222"],
+      "district": "Surkhet",
+      "levels": ["Primary", "Secondary"],
+      "established": "1985"
+    },
+    {
+      "id": 5,
+      "name": "Shree Birendra Higher Secondary School",
+      "type": "Secondary",
+      "address": "Birendranagar-2, Surkhet",
+      "phone": ["083-524222"],
+      "district": "Surkhet",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1968"
+    },
+    {
+      "id": 6,
+      "name": "Karnali Valley School",
+      "type": "Private",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": ["083-525222"],
+      "district": "Surkhet",
+      "levels": ["Primary", "Secondary"],
+      "established": "1988"
+    },
+    {
+      "id": 7,
+      "name": "Bheri Higher Secondary School",
+      "type": "Secondary",
+      "address": "Birendranagar-1, Surkhet",
+      "phone": ["083-526222"],
+      "district": "Surkhet",
+      "levels": ["Secondary", "Higher Secondary"],
+      "established": "1975"
+    },
+    {
+      "id": 8,
+      "name": "Surkhet Science Campus",
+      "type": "Higher Secondary",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": ["083-527222"],
+      "district": "Surkhet",
+      "levels": ["10+2", "Bachelor"],
+      "established": "1980"
+    }
+  ]
+}

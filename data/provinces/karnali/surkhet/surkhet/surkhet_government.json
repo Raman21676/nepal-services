@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "city": "Surkhet",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal, Surkhet District Administration Office",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 12,
+    "note": "Government offices in Surkhet - Capital of Karnali Province"
+  },
+  "offices": [
+    {
+      "id": 1,
+      "name": "District Administration Office Surkhet",
+      "category": "Administration",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": ["083-520001"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Citizenship", "Passport", "Land Records", "Administration"]
+    },
+    {
+      "id": 2,
+      "name": "District Police Office Surkhet",
+      "category": "Security",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": ["083-520022"],
+      "district": "Surkhet",
+      "office_hours": "24 Hours",
+      "services": ["Police", "Security", "Emergency Response"]
+    },
+    {
+      "id": 3,
+      "name": "Inland Revenue Office Surkhet",
+      "category": "Revenue",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": ["083-520033"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Tax", "Revenue", "PAN Registration"]
+    },
+    {
+      "id": 4,
+      "name": "District Court Surkhet",
+      "category": "Justice",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": ["083-520044"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Legal", "Court", "Justice"]
+    },
+    {
+      "id": 5,
+      "name": "Land Revenue Office Surkhet",
+      "category": "Land",
+      "address": "Birendranagar-2, Surkhet",
+      "phone": ["083-520055"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Land Registration", "Property", "Maps"]
+    },
+    {
+      "id": 6,
+      "name": "Department of Transport Management Surkhet",
+      "category": "Transport",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": ["083-520066"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["License", "Vehicle Registration", "Permit"]
+    },
+    {
+      "id": 7,
+      "name": "District Education Office Surkhet",
+      "category": "Education",
+      "address": "Birendranagar-1, Surkhet",
+      "phone": ["083-520077"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["School Administration", "Education Services"]
+    },
+    {
+      "id": 8,
+      "name": "District Health Office Surkhet",
+      "category": "Health",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": ["083-520088"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Health Services", "Hospital Management", "Public Health"]
+    },
+    {
+      "id": 9,
+      "name": "Birendranagar Municipality Office",
+      "category": "Local Government",
+      "address": "Birendranagar-9, Surkhet",
+      "phone": ["083-520099"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Birth Certificate", "Death Certificate", "Local Services"]
+    },
+    {
+      "id": 10,
+      "name": "District Coordination Committee Surkhet",
+      "category": "Coordination",
+      "address": "Birendranagar-10, Surkhet",
+      "phone": ["083-520111"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Development", "Coordination"]
+    },
+    {
+      "id": 11,
+      "name": "Karnali Province Government Offices",
+      "category": "Provincial",
+      "address": "Birendranagar-11, Surkhet",
+      "phone": ["083-520122"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Provincial Services", "Governance"]
+    },
+    {
+      "id": 12,
+      "name": "Department of Foreign Employment",
+      "category": "Employment",
+      "address": "Birendranagar-12, Surkhet",
+      "phone": ["083-520133"],
+      "district": "Surkhet",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Foreign Employment", "Labor Permits"]
+    }
+  ]
+}

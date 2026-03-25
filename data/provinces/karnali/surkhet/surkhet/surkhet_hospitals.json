@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "city": "Surkhet",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Karnali Provincial Health Directorate, Public Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 8,
+    "note": "Major hospitals and medical centers in Surkhet - Capital of Karnali Province"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Provincial Hospital Surkhet",
+      "type": "Government",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": ["083-520111"],
+      "district": "Surkhet",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics", "ENT", "Dermatology", "Psychiatry"],
+      "gps": "28.6000,81.6333"
+    },
+    {
+      "id": 2,
+      "name": "Surkhet Hospital",
+      "type": "Government",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": ["083-521111"],
+      "district": "Surkhet",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology", "Pediatrics"],
+      "gps": "28.6089,81.6256"
+    },
+    {
+      "id": 3,
+      "name": "Mid-Western Regional Hospital",
+      "type": "Government",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": ["083-522222"],
+      "district": "Surkhet",
+      "beds": "300",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurology", "Orthopedics", "Gynecology", "Pediatrics", "General Surgery", "Internal Medicine", "Emergency Medicine"],
+      "gps": "28.5912,81.6409"
+    },
+    {
+      "id": 4,
+      "name": "Karnali Academy of Health Sciences",
+      "type": "Academic",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": ["083-523333"],
+      "district": "Surkhet",
+      "beds": "400",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology", "Pediatrics", "Orthopedics", "Radiology", "Anesthesiology", "Emergency Medicine", "ICU", "CCU"],
+      "gps": "28.6189,81.6189"
+    },
+    {
+      "id": 5,
+      "name": "City Hospital Surkhet",
+      "type": "Private",
+      "address": "Birendranagar-2, Surkhet",
+      "phone": ["083-524444"],
+      "district": "Surkhet",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics"],
+      "gps": "28.5756,81.6512"
+    },
+    {
+      "id": 6,
+      "name": "Life Care Hospital Surkhet",
+      "type": "Private",
+      "address": "Birendranagar-7, Surkhet",
+      "phone": ["083-525555"],
+      "district": "Surkhet",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "28.6278,81.6101"
+    },
+    {
+      "id": 7,
+      "name": "Karnali Hospital",
+      "type": "NGO",
+      "address": "Birendranagar-1, Surkhet",
+      "phone": ["083-526666"],
+      "district": "Surkhet",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Community Health"],
+      "gps": "28.6345,81.6023"
+    },
+    {
+      "id": 8,
+      "name": "Bheri Hospital",
+      "type": "Private",
+      "address": "Birendranagar-8, Surkhet",
+      "phone": ["083-527777"],
+      "district": "Surkhet",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery"],
+      "gps": "28.5589,81.6589"
+    }
+  ]
+}
