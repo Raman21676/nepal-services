@@ -76,4 +76,4 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/sindhuli/sindhulimadi.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'hospitals' },
     { path: 'data/provinces/bagmati/sindhuli/sindhulimadi_government.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'government' },
     { path: 'data/provinces/bagmati/sindhupalchok/chautara.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'hospitals' },
-];
+    { path: 'data/provinces/bagmati/sindhupalchok/chautara_government.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'government' }

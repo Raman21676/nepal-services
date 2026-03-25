@@ -76,4 +76,5 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/saptari/rajbiraj_veterinary.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'veterinary' },
     { path: 'data/provinces/madhesh/saptari/rajbiraj_government.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'government' },
     
-];
+    // Gaur (Rautahat)
+    { path: 'data/provinces/madhesh/rautahat/gaur.json', province: 'madhesh', district: 'rautahat', city: 'gaur', type: 'hospitals' },

@@ -76,4 +76,5 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu_veterinary.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'veterinary' },
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu_government.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'government' },
     
-];
+    // Sandhikarka (Arghakhanchi)
+    { path: 'data/provinces/lumbini/argakhanchi/sandhikarka.json', province: 'lumbini', district: 'argakhanchi', city: 'sandhikarka', type: 'hospitals' },

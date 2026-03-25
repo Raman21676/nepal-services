@@ -76,4 +76,5 @@ if (typeof dataLoader !== 'undefined') {
     { path: 'data/provinces/sudurpashchim/bajura/martadi_forest_offices.json', province: 'sudurpashchim', district: 'bajura', city: 'martadi', type: 'forest' },
     { path: 'data/provinces/sudurpashchim/dadeldhura/dadeldhura_forest_offices.json', province: 'sudurpashchim', district: 'dadeldhura', city: 'dadeldhura', type: 'forest' },
     { path: 'data/provinces/sudurpashchim/darchula/darchula_forest_offices.json', province: 'sudurpashchim', district: 'darchula', city: 'darchula', type: 'forest' },
-];
+    { path: 'data/provinces/sudurpashchim/doti/dipayal_forest_offices.json', province: 'sudurpashchim', district: 'doti', city: 'dipayal', type: 'forest' },
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi_forest_offices.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'forest' },

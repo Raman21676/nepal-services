@@ -76,4 +76,5 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/jhapa/bhadrapur_government.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'government' },
     
     // Other Koshi Districts
-];
+    { path: 'data/provinces/koshi/ilam/ilam.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'hospitals' },
+    { path: 'data/provinces/koshi/ilam/ilam_clinics.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'clinics' },

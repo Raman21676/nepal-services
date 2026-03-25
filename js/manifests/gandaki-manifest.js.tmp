@@ -76,4 +76,5 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/palpa/tansen_emergency.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'emergency' },
     { path: 'data/provinces/gandaki/palpa/tansen_veterinary.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'veterinary' },
     { path: 'data/provinces/gandaki/palpa/tansen_government.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'government' },
-];
+    
+    // Kawasoti (Nawalpur)

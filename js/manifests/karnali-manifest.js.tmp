@@ -76,4 +76,5 @@ const KARNALI_MANIFEST = [
     { path: 'data/provinces/karnali/kalikot/manma_veterinary.json', province: 'karnali', district: 'kalikot', city: 'manma', type: 'veterinary' },
     { path: 'data/provinces/karnali/kalikot/manma_government.json', province: 'karnali', district: 'kalikot', city: 'manma', type: 'government' },
     
-];
+    // Narayan (Dailekh)
+    { path: 'data/provinces/karnali/dailekh/narayan.json', province: 'karnali', district: 'dailekh', city: 'narayan', type: 'hospitals' },
