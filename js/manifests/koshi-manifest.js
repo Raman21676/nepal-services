@@ -76,4 +76,26 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/jhapa/bhadrapur_government.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'government' },
     
     // Other Koshi Districts
+    
+    // Morang Secondary Cities
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_hospitals.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'hospitals' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_colleges.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'colleges' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_schools.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'schools' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_clinics.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'clinics' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_pharmacies.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_ambulance.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'ambulance' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_blood_banks.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'blood_banks' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_emergency.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'emergency' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_government.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'government' },
+    { path: 'data/provinces/koshi/morang/urlabari/urlabari_veterinary.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'veterinary' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_hospitals.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'hospitals' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_colleges.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'colleges' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_schools.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'schools' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_clinics.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'clinics' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_pharmacies.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_ambulance.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'ambulance' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_blood_banks.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'blood_banks' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_emergency.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'emergency' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_government.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'government' },
+    { path: 'data/provinces/koshi/morang/belbari/belbari_veterinary.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'veterinary' },
 ];

@@ -76,4 +76,16 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu_veterinary.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'veterinary' },
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu_government.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'government' },
     
+    
+    // Kapilvastu Secondary City - Taulihawa
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_hospitals.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_colleges.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'colleges' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_schools.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'schools' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_clinics.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'clinics' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_pharmacies.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'pharmacies' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_ambulance.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'ambulance' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_blood_banks.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'blood_banks' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_emergency.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'emergency' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_government.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'government' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_veterinary.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'veterinary' },
 ];

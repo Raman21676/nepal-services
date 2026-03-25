@@ -76,4 +76,16 @@ const KARNALI_MANIFEST = [
     { path: 'data/provinces/karnali/kalikot/manma_veterinary.json', province: 'karnali', district: 'kalikot', city: 'manma', type: 'veterinary' },
     { path: 'data/provinces/karnali/kalikot/manma_government.json', province: 'karnali', district: 'kalikot', city: 'manma', type: 'government' },
     
+    
+    // Surkhet Secondary City - Bheriganga
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_hospitals.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'hospitals' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_colleges.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'colleges' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_schools.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'schools' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_clinics.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'clinics' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_pharmacies.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'pharmacies' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_ambulance.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'ambulance' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_blood_banks.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'blood_banks' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_emergency.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'emergency' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_government.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'government' },
+    { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_veterinary.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'veterinary' },
 ];

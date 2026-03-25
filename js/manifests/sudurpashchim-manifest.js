@@ -76,4 +76,16 @@ if (typeof dataLoader !== 'undefined') {
     { path: 'data/provinces/sudurpashchim/bajura/martadi_forest_offices.json', province: 'sudurpashchim', district: 'bajura', city: 'martadi', type: 'forest' },
     { path: 'data/provinces/sudurpashchim/dadeldhura/dadeldhura_forest_offices.json', province: 'sudurpashchim', district: 'dadeldhura', city: 'dadeldhura', type: 'forest' },
     { path: 'data/provinces/sudurpashchim/darchula/darchula_forest_offices.json', province: 'sudurpashchim', district: 'darchula', city: 'darchula', type: 'forest' },
+    
+    // Kailali Secondary City - Tikapur
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_hospitals.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_colleges.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'colleges' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_schools.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'schools' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_clinics.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'clinics' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_pharmacies.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'pharmacies' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_ambulance.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'ambulance' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_blood_banks.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'blood_banks' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_emergency.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'emergency' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_government.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'government' },
+    { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_veterinary.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'veterinary' },
 ];

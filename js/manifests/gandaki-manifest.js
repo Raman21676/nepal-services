@@ -76,4 +76,16 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/palpa/tansen_emergency.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'emergency' },
     { path: 'data/provinces/gandaki/palpa/tansen_veterinary.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'veterinary' },
     { path: 'data/provinces/gandaki/palpa/tansen_government.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'government' },
+    
+    // Kaski Secondary City - Lekhnath
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_hospitals.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'hospitals' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_colleges.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'colleges' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_schools.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'schools' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_clinics.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'clinics' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_pharmacies.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'pharmacies' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_ambulance.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'ambulance' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_blood_banks.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'blood_banks' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_emergency.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'emergency' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_government.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'government' },
+    { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_veterinary.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'veterinary' },
 ];

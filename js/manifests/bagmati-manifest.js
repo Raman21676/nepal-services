@@ -76,4 +76,16 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/sindhuli/sindhulimadi.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'hospitals' },
     { path: 'data/provinces/bagmati/sindhuli/sindhulimadi_government.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'government' },
     { path: 'data/provinces/bagmati/sindhupalchok/chautara.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'hospitals' },
+    
+    // Kavrepalanchok Secondary City - Banepa
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_hospitals.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'hospitals' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_colleges.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'colleges' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_schools.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'schools' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_clinics.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'clinics' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_pharmacies.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'pharmacies' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_ambulance.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'ambulance' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_blood_banks.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'blood_banks' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_emergency.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'emergency' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_government.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'government' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_veterinary.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'veterinary' },
 ];

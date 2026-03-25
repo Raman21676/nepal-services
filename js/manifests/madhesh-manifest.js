@@ -76,4 +76,40 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/saptari/rajbiraj_veterinary.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'veterinary' },
     { path: 'data/provinces/madhesh/saptari/rajbiraj_government.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'government' },
     
+    
+    // Siraha Secondary City - Lahan
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_hospitals.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_colleges.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'colleges' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_schools.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'schools' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_clinics.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'clinics' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_pharmacies.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_ambulance.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_blood_banks.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_emergency.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'emergency' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_government.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'government' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_veterinary.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'veterinary' },
+    
+    // Dhanusha Secondary City - Jaleshwar
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_hospitals.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_colleges.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'colleges' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_schools.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'schools' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_clinics.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'clinics' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_pharmacies.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_ambulance.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_blood_banks.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_emergency.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'emergency' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_government.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'government' },
+    { path: 'data/provinces/madhesh/dhanusha/jaleshwar/jaleshwar_veterinary.json', province: 'madhesh', district: 'dhanusha', city: 'jaleshwar', type: 'veterinary' },
+    
+    // Rautahat Secondary City - Chandranigahapur
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_hospitals.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_colleges.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'colleges' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_schools.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'schools' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_clinics.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'clinics' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_pharmacies.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_ambulance.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_blood_banks.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_emergency.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'emergency' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_government.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'government' },
+    { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_veterinary.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'veterinary' },
 ];
