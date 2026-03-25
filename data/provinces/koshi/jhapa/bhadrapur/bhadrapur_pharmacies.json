@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Pharmacies in Bhadrapur, Jhapa"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Bhadrapur Pharmacy",
+      "type": "Retail",
+      "address": "Bhadrapur-5, Jhapa",
+      "phone": ["023-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 2,
+      "name": "Mechi Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Mechi Hospital, Bhadrapur",
+      "phone": ["023-520111"],
+      "hours": "24/7",
+      "district": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Mechi Medical Store",
+      "type": "Retail",
+      "address": "Bhadrapur-3, Jhapa",
+      "phone": ["023-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Bhadrapur",
+      "type": "Retail",
+      "address": "Bhadrapur-6, Jhapa",
+      "phone": ["023-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 5,
+      "name": "Eastern Medical Store",
+      "type": "Retail",
+      "address": "Bhadrapur-4, Jhapa",
+      "phone": ["023-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 6,
+      "name": "Jhapa Pharmacy",
+      "type": "Retail",
+      "address": "Bhadrapur-7, Jhapa",
+      "phone": ["023-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Jhapa"
+    },
+    {
+      "id": 7,
+      "name": "Mechi Eye Care Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Mechi Eye Care Center, Bhadrapur",
+      "phone": ["023-526666"],
+      "hours": "24/7",
+      "district": "Jhapa"
+    },
+    {
+      "id": 8,
+      "name": "24 Hour Medical Bhadrapur",
+      "type": "Retail",
+      "address": "Bhadrapur Bus Stand, Jhapa",
+      "phone": ["023-520777"],
+      "hours": "24/7",
+      "district": "Jhapa"
+    }
+  ]
+}

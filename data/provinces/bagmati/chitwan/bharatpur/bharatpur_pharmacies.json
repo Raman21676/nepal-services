@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 12,
+    "note": "Pharmacies in Bharatpur, Chitwan"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Bharatpur Pharmacy",
+      "type": "Retail",
+      "address": "Bharatpur-5, Chitwan",
+      "phone": ["056-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "Chitwan Medical College Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Chitwan Medical College, Bharatpur",
+      "phone": ["056-520111"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "College of Medical Sciences Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "College of Medical Sciences, Bharatpur",
+      "phone": ["056-522222"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "Narayani Medical Store",
+      "type": "Retail",
+      "address": "Bharatpur-3, Chitwan",
+      "phone": ["056-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Pharmacy Bharatpur",
+      "type": "Retail",
+      "address": "Bharatpur-7, Chitwan",
+      "phone": ["056-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 6,
+      "name": "Chitwan Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Chitwan Hospital, Bharatpur",
+      "phone": ["056-523333"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 7,
+      "name": "City Medical Store Bharatpur",
+      "type": "Retail",
+      "address": "Bharatpur-4, Chitwan",
+      "phone": ["056-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 8,
+      "name": "Bharatpur Cancer Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Bharatpur Cancer Hospital, Chitwan",
+      "phone": ["056-526666"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    },
+    {
+      "id": 9,
+      "name": "Sauraha Medical Store",
+      "type": "Retail",
+      "address": "Sauraha, Chitwan (Near Bharatpur)",
+      "phone": ["056-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 10,
+      "name": "Health Point Pharmacy",
+      "type": "Retail",
+      "address": "Bharatpur-6, Chitwan",
+      "phone": ["056-520666"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 11,
+      "name": "Heart Care Pharmacy",
+      "type": "Retail",
+      "address": "Bharatpur-8, Chitwan",
+      "phone": ["056-520777"],
+      "hours": "7:30 AM - 8:00 PM",
+      "district": "Chitwan"
+    },
+    {
+      "id": 12,
+      "name": "24 Hour Medical Bharatpur",
+      "type": "Retail",
+      "address": "Bharatpur Bus Park, Chitwan",
+      "phone": ["056-520888"],
+      "hours": "24/7",
+      "district": "Chitwan"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Damauli",
+    "district": "Tanahun",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Damauli, Tanahun"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Damauli Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Damauli-5, Tanahun",
+      "phone": ["065-520100"],
+      "district": "Tanahun"
+    },
+    {
+      "id": 2,
+      "name": "Damauli Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Damauli-4, Tanahun",
+      "phone": ["065-521111"],
+      "district": "Tanahun"
+    },
+    {
+      "id": 3,
+      "name": "Shree Seti Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Damauli-3, Tanahun",
+      "phone": ["065-522222"],
+      "district": "Tanahun"
+    },
+    {
+      "id": 4,
+      "name": "Tanahun Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Damauli-6, Tanahun",
+      "phone": ["065-523333"],
+      "district": "Tanahun"
+    },
+    {
+      "id": 5,
+      "name": "Bandipur English School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Bandipur, Tanahun (Near Damauli)",
+      "phone": ["065-524444"],
+      "district": "Tanahun"
+    },
+    {
+      "id": 6,
+      "name": "Damauli Technical School",
+      "type": "Government",
+      "level": "Vocational",
+      "programs": ["Diploma in Agriculture", "Technical Courses"],
+      "address": "Damauli-2, Tanahun",
+      "phone": ["065-525555"],
+      "district": "Tanahun"
+    }
+  ]
+}

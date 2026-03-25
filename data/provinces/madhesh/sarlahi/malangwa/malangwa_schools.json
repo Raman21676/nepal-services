@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "city": "Malangwa",
+    "district": "Sarlahi",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Education Directorate",
+    "total_records": 6,
+    "note": "Major schools and colleges in Malangwa, Sarlahi"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Malangwa Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Malangwa-5, Sarlahi",
+      "phone": ["046-520100"],
+      "district": "Sarlahi"
+    },
+    {
+      "id": 2,
+      "name": "Malangwa Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Malangwa-3, Sarlahi",
+      "phone": ["046-521111"],
+      "district": "Sarlahi"
+    },
+    {
+      "id": 3,
+      "name": "Shree Sarlahi Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Malangwa-4, Sarlahi",
+      "phone": ["046-522222"],
+      "district": "Sarlahi"
+    },
+    {
+      "id": 4,
+      "name": "Malangwa Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Malangwa-6, Sarlahi",
+      "phone": ["046-523333"],
+      "district": "Sarlahi"
+    },
+    {
+      "id": 5,
+      "name": "Sarlahi English School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Malangwa-2, Sarlahi",
+      "phone": ["046-524444"],
+      "district": "Sarlahi"
+    },
+    {
+      "id": 6,
+      "name": "Madhesh Academy",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Malangwa-7, Sarlahi",
+      "phone": ["046-525555"],
+      "district": "Sarlahi"
+    }
+  ]
+}

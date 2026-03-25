@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Bhimdatta",
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Pharmacies in Bhimdatta (Mahendranagar), Kanchanpur"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Bhimdatta Pharmacy",
+      "type": "Retail",
+      "address": "Bhimdatta-5, Kanchanpur",
+      "phone": ["099-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 2,
+      "name": "Mahakali Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Mahakali Hospital, Bhimdatta",
+      "phone": ["099-520111"],
+      "hours": "24/7",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 3,
+      "name": "Kanchanpur Medical Store",
+      "type": "Retail",
+      "address": "Bhimdatta-4, Kanchanpur",
+      "phone": ["099-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Bhimdatta",
+      "type": "Retail",
+      "address": "Bhimdatta-6, Kanchanpur",
+      "phone": ["099-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 5,
+      "name": "Far Western Medical Store",
+      "type": "Retail",
+      "address": "Bhimdatta-3, Kanchanpur",
+      "phone": ["099-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 6,
+      "name": "Mahakali Medical College Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Mahakali Medical College, Bhimdatta",
+      "phone": ["099-524444"],
+      "hours": "24/7",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 7,
+      "name": "Border Medical Store",
+      "type": "Retail",
+      "address": "Bhimdatta-2, Kanchanpur",
+      "phone": ["099-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 8,
+      "name": "24 Hour Medical Bhimdatta",
+      "type": "Retail",
+      "address": "Bhimdatta Bus Park, Kanchanpur",
+      "phone": ["099-520666"],
+      "hours": "24/7",
+      "district": "Kanchanpur"
+    }
+  ]
+}

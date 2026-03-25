@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Karnali Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Birendranagar, Surkhet"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Surkhet Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Birendranagar-5, Surkhet",
+      "phone": ["083-520100"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 2,
+      "name": "Birendranagar Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": ["083-521111"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 3,
+      "name": "Karnali Academy of Health Sciences - Nursing",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BN", "BSc Nursing", "PCL Nursing"],
+      "address": "Birendranagar-7, Surkhet",
+      "phone": ["083-521111"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 4,
+      "name": "Shree Birendra Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": ["083-522222"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 5,
+      "name": "Karnali Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": ["083-523333"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 6,
+      "name": "Surkhet English School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Birendranagar-2, Surkhet",
+      "phone": ["083-524444"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 7,
+      "name": "Mid-Western Technical School",
+      "type": "Government",
+      "level": "Vocational",
+      "programs": ["Diploma in Engineering", "Technical Courses"],
+      "address": "Birendranagar-8, Surkhet",
+      "phone": ["083-525555"],
+      "district": "Surkhet"
+    },
+    {
+      "id": 8,
+      "name": "Birendranagar College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Birendranagar-1, Surkhet",
+      "phone": ["083-526666"],
+      "district": "Surkhet"
+    }
+  ]
+}

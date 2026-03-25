@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Bhadrapur",
+    "district": "Jhapa",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Bhadrapur, Jhapa"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Bhadrapur Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Bhadrapur-5, Jhapa",
+      "phone": ["023-520100"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 2,
+      "name": "Bhadrapur Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Bhadrapur-3, Jhapa",
+      "phone": ["023-521111"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Mechi Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhadrapur-6, Jhapa",
+      "phone": ["023-522222"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 4,
+      "name": "Jhapa College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Bhadrapur-4, Jhapa",
+      "phone": ["023-523333"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 5,
+      "name": "Shree Pashupati Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhadrapur-7, Jhapa",
+      "phone": ["023-524444"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 6,
+      "name": "Sunrise English School Bhadrapur",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National + English Medium",
+      "address": "Bhadrapur-2, Jhapa",
+      "phone": ["023-525555"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 7,
+      "name": "Bhadrapur Nursing School",
+      "type": "Private",
+      "level": "Vocational",
+      "programs": ["PCL Nursing", "Staff Nurse"],
+      "address": "Bhadrapur-8, Jhapa",
+      "phone": ["023-526666"],
+      "district": "Jhapa"
+    },
+    {
+      "id": 8,
+      "name": "Little Star School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Bhadrapur-1, Jhapa",
+      "phone": ["023-527777"],
+      "district": "Jhapa"
+    }
+  ]
+}

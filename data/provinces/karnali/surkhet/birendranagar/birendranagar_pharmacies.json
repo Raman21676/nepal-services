@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Karnali Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Pharmacies in Birendranagar, Surkhet"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Birendranagar Pharmacy",
+      "type": "Retail",
+      "address": "Birendranagar-5, Surkhet",
+      "phone": ["083-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Surkhet"
+    },
+    {
+      "id": 2,
+      "name": "Surkhet Provincial Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Surkhet Provincial Hospital, Birendranagar",
+      "phone": ["083-520111"],
+      "hours": "24/7",
+      "district": "Surkhet"
+    },
+    {
+      "id": 3,
+      "name": "Karnali Academy Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Karnali Academy of Health Sciences, Birendranagar",
+      "phone": ["083-521111"],
+      "hours": "24/7",
+      "district": "Surkhet"
+    },
+    {
+      "id": 4,
+      "name": "Karnali Medical Store",
+      "type": "Retail",
+      "address": "Birendranagar-4, Surkhet",
+      "phone": ["083-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Surkhet"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Pharmacy Birendranagar",
+      "type": "Retail",
+      "address": "Birendranagar-6, Surkhet",
+      "phone": ["083-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Surkhet"
+    },
+    {
+      "id": 6,
+      "name": "Mid-Western Medical Store",
+      "type": "Retail",
+      "address": "Birendranagar-3, Surkhet",
+      "phone": ["083-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Surkhet"
+    },
+    {
+      "id": 7,
+      "name": "Surkhet Pharmacy",
+      "type": "Retail",
+      "address": "Birendranagar-2, Surkhet",
+      "phone": ["083-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Surkhet"
+    },
+    {
+      "id": 8,
+      "name": "24 Hour Medical Birendranagar",
+      "type": "Retail",
+      "address": "Birendranagar Bus Park, Surkhet",
+      "phone": ["083-520666"],
+      "hours": "24/7",
+      "district": "Surkhet"
+    }
+  ]
+}

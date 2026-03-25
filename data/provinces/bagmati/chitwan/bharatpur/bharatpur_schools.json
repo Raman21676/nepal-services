@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Education Directorate",
+    "total_records": 12,
+    "note": "Major schools and colleges in Bharatpur, Chitwan"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Balkumari College",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS", "BEd"],
+      "address": "Bharatpur-10, Chitwan",
+      "phone": ["056-520100"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "Bharatpur Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Bharatpur-5, Chitwan",
+      "phone": ["056-521111"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "Chitwan Medical College - Nursing",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BN", "BSc Nursing", "PCL Nursing"],
+      "address": "Bharatpur-9, Chitwan",
+      "phone": ["056-520111"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "Aroma Higher Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Bharatpur-3, Chitwan",
+      "phone": ["056-522222"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 5,
+      "name": "Sainik Awasiya Mahavidyalaya",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bharatpur-7, Chitwan",
+      "phone": ["056-523333"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 6,
+      "name": "Bharatpur English School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National + English Medium",
+      "address": "Bharatpur-4, Chitwan",
+      "phone": ["056-524444"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 7,
+      "name": "Little Flower School Chitwan",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bharatpur-6, Chitwan",
+      "phone": ["056-525555"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 8,
+      "name": "Chitwan Engineering College",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BE Civil", "BE Computer", "BE Electronics"],
+      "address": "Bharatpur-8, Chitwan",
+      "phone": ["056-526666"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 9,
+      "name": "Shree Jana Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bharatpur-2, Chitwan",
+      "phone": ["056-527777"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 10,
+      "name": "Bharatpur Model School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Bharatpur-11, Chitwan",
+      "phone": ["056-528888"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 11,
+      "name": "Institute of Agriculture and Animal Science",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BSc Ag", "BVSc", "MSc Ag"],
+      "address": "Rampur, Chitwan (Near Bharatpur)",
+      "phone": ["056-529999"],
+      "district": "Chitwan"
+    },
+    {
+      "id": 12,
+      "name": "Chitwan School of Law",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["LLB", "BA LLB"],
+      "address": "Bharatpur-1, Chitwan",
+      "phone": ["056-520000"],
+      "district": "Chitwan"
+    }
+  ]
+}

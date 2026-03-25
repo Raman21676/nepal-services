@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "district": "Banke",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Education Directorate",
+    "total_records": 10,
+    "note": "Major schools and colleges in Nepalgunj"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Nepalgunj Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Nepalgunj-5, Banke",
+      "phone": ["081-520100"],
+      "district": "Banke"
+    },
+    {
+      "id": 2,
+      "name": "Banke Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Nepalgunj-4, Banke",
+      "phone": ["081-521111"],
+      "district": "Banke"
+    },
+    {
+      "id": 3,
+      "name": "Nepalgunj Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Nepalgunj-6, Banke",
+      "phone": ["081-522222"],
+      "district": "Banke"
+    },
+    {
+      "id": 4,
+      "name": "Bheri College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Nepalgunj-3, Banke",
+      "phone": ["081-523333"],
+      "district": "Banke"
+    },
+    {
+      "id": 5,
+      "name": "Sunrise English School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National + English Medium",
+      "address": "Nepalgunj-7, Banke",
+      "phone": ["081-524444"],
+      "district": "Banke"
+    },
+    {
+      "id": 6,
+      "name": "Nepalgunj Nursing College",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BN", "BSc Nursing", "PCL Nursing"],
+      "address": "Nepalgunj-8, Banke",
+      "phone": ["081-525555"],
+      "district": "Banke"
+    },
+    {
+      "id": 7,
+      "name": "Shree Bheri Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Nepalgunj-2, Banke",
+      "phone": ["081-526666"],
+      "district": "Banke"
+    },
+    {
+      "id": 8,
+      "name": "Modern Public School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Nepalgunj-9, Banke",
+      "phone": ["081-527777"],
+      "district": "Banke"
+    },
+    {
+      "id": 9,
+      "name": "Nepalgunj Technical School",
+      "type": "Government",
+      "level": "Vocational",
+      "programs": ["Diploma in Engineering", "Technical Courses"],
+      "address": "Nepalgunj-1, Banke",
+      "phone": ["081-528888"],
+      "district": "Banke"
+    },
+    {
+      "id": 10,
+      "name": "Lumbini Academy Nepalgunj",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Nepalgunj-10, Banke",
+      "phone": ["081-529999"],
+      "district": "Banke"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Bhimdatta",
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Bhimdatta (Mahendranagar), Kanchanpur"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Kanchanpur Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Bhimdatta-5, Kanchanpur",
+      "phone": ["099-520100"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 2,
+      "name": "Bhimdatta Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Bhimdatta-4, Kanchanpur",
+      "phone": ["099-521111"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 3,
+      "name": "Shree Mahakali Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhimdatta-3, Kanchanpur",
+      "phone": ["099-522222"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 4,
+      "name": "Far Western College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Bhimdatta-6, Kanchanpur",
+      "phone": ["099-523333"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 5,
+      "name": "Bhimdatta Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhimdatta-7, Kanchanpur",
+      "phone": ["099-524444"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 6,
+      "name": "Mahakali English School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National + English Medium",
+      "address": "Bhimdatta-2, Kanchanpur",
+      "phone": ["099-525555"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 7,
+      "name": "Kanchanpur Nursing School",
+      "type": "Private",
+      "level": "Vocational",
+      "programs": ["PCL Nursing", "Staff Nurse"],
+      "address": "Bhimdatta-8, Kanchanpur",
+      "phone": ["099-526666"],
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 8,
+      "name": "Shree Bhimdatta Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhimdatta-1, Kanchanpur",
+      "phone": ["099-527777"],
+      "district": "Kanchanpur"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "district": "Banke",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Pharmacies in Nepalgunj"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Nepalgunj Pharmacy",
+      "type": "Retail",
+      "address": "Nepalgunj-5, Banke",
+      "phone": ["081-520111"],
+      "hours": "7:00 AM - 10:00 PM",
+      "district": "Banke"
+    },
+    {
+      "id": 2,
+      "name": "Bheri Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Bheri Hospital, Nepalgunj",
+      "phone": ["081-520111"],
+      "hours": "24/7",
+      "district": "Banke"
+    },
+    {
+      "id": 3,
+      "name": "Nepalgunj Medical College Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Nepalgunj Medical College",
+      "phone": ["081-521234"],
+      "hours": "24/7",
+      "district": "Banke"
+    },
+    {
+      "id": 4,
+      "name": "Bheri Medical Store",
+      "type": "Retail",
+      "address": "Nepalgunj-4, Banke",
+      "phone": ["081-520222"],
+      "hours": "7:30 AM - 9:00 PM",
+      "district": "Banke"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Pharmacy Nepalgunj",
+      "type": "Retail",
+      "address": "Nepalgunj-6, Banke",
+      "phone": ["081-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Banke"
+    },
+    {
+      "id": 6,
+      "name": "Bheri Eye Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Bheri Eye Hospital, Nepalgunj",
+      "phone": ["081-524567"],
+      "hours": "24/7",
+      "district": "Banke"
+    },
+    {
+      "id": 7,
+      "name": "City Pharmacy Nepalgunj",
+      "type": "Retail",
+      "address": "Nepalgunj-3, Banke",
+      "phone": ["081-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Banke"
+    },
+    {
+      "id": 8,
+      "name": "Banke Medical Store",
+      "type": "Retail",
+      "address": "Nepalgunj-7, Banke",
+      "phone": ["081-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Banke"
+    },
+    {
+      "id": 9,
+      "name": "Western Pharmacy",
+      "type": "Retail",
+      "address": "Nepalgunj-2, Banke",
+      "phone": ["081-520666"],
+      "hours": "7:30 AM - 8:00 PM",
+      "district": "Banke"
+    },
+    {
+      "id": 10,
+      "name": "24 Hour Medical Nepalgunj",
+      "type": "Retail",
+      "address": "Nepalgunj Bus Park, Banke",
+      "phone": ["081-520777"],
+      "hours": "24/7",
+      "district": "Banke"
+    }
+  ]
+}
