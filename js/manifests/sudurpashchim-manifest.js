@@ -191,5 +191,14 @@ if (typeof dataLoader !== 'undefined') {
     { path: 'data/provinces/sudurpashchim/kanchanpur/bhimdatta_veterinary.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'veterinary' },
     { path: 'data/provinces/sudurpashchim/kanchanpur/mahendranagar_emergency_contacts.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'mahendranagar_emergency', type: 'emergency' },
     { path: 'data/provinces/sudurpashchim/kanchanpur/mahendranagar_forest_offices.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'mahendranagar', type: 'forest_offices' },
-    { path: 'data/provinces/sudurpashchim/kanchanpur/mahendranagar_hospitals.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'mahendranagar', type: 'hospitals' }
+    { path: 'data/provinces/sudurpashchim/kanchanpur/mahendranagar_hospitals.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'mahendranagar', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/baitadi/baitadi.json', province: 'sudurpashchim', district: 'baitadi', city: 'dasharathchand', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/bajhang/bajhang.json', province: 'sudurpashchim', district: 'bajhang', city: 'chainpur', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/dadeldhura/dadeldhura.json', province: 'sudurpashchim', district: 'dadeldhura', city: 'dadeldhura', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/darchula/darchula.json', province: 'sudurpashchim', district: 'darchula', city: 'darchula', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kailali/kailali.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kanchanpur/kanchanpur.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/achham/achham.json', province: 'sudurpashchim', district: 'achham', city: 'mangalsen', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/bajura/bajura.json', province: 'sudurpashchim', district: 'bajura', city: 'martadi', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/doti/doti.json', province: 'sudurpashchim', district: 'doti', city: 'silgadhi', type: 'hospitals' }
 ];
