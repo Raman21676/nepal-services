@@ -275,7 +275,8 @@ class UIRenderer {
         return details;
     }
     
-    createInfoRow(icon, label, value) {
+    createInfoRow(icon, labelKey, value) {
+        const label = (typeof i18n !== 'undefined') ? i18n.t(`card.${labelKey}`) : labelKey;
         return `
             <div class="info-row">
                 <span class="info-label">${icon} ${label}</span>
@@ -295,9 +296,10 @@ class UIRenderer {
         }
         const cleanPhone = phone.replace(/\D/g, '');
         const displayPhone = this.escapeHtml(phone);
+        const label = (typeof i18n !== 'undefined') ? i18n.t('card.phone') : 'Phone';
         return `
             <div class="info-row">
-                <span class="info-label">📞 Phone</span>
+                <span class="info-label">📞 ${label}</span>
                 <span class="info-value">
                     <a href="tel:${cleanPhone}" class="phone-link">${displayPhone}</a>
                 </span>
@@ -377,10 +379,21 @@ class UIRenderer {
         const total = this.app.allData.length;
         const countEl = document.getElementById('resultsCount');
         
-        if (count === total) {
-            countEl.textContent = `Showing all ${count.toLocaleString()} services`;
+        if (typeof i18n !== 'undefined' && i18n.isLoaded) {
+            if (count === total) {
+                countEl.textContent = i18n.t('filters.showingAll', { count: count.toLocaleString() });
+            } else {
+                countEl.textContent = i18n.t('filters.showing', { 
+                    count: count.toLocaleString(), 
+                    total: total.toLocaleString() 
+                });
+            }
         } else {
-            countEl.textContent = `Showing ${count.toLocaleString()} of ${total.toLocaleString()} services`;
+            if (count === total) {
+                countEl.textContent = `Showing all ${count.toLocaleString()} services`;
+            } else {
+                countEl.textContent = `Showing ${count.toLocaleString()} of ${total.toLocaleString()} services`;
+            }
         }
         
         // Update stats in hero if needed

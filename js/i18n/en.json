@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "Nepal Services Directory | Hospitals, Schools & Emergency Contacts",
+    "description": "Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal"
+  },
+  "hero": {
+    "badge": "All 7 Provinces",
+    "title": "Nepal Services Directory",
+    "subtitle": "Discover hospitals, schools, emergency contacts, and government offices across Nepal",
+    "stats": {
+      "hospitals": "Hospitals",
+      "schools": "Schools",
+      "services": "Services"
+    }
+  },
+  "search": {
+    "placeholder": "Search hospitals, schools, clinics... (Try: 'cardiac', 'international school', 'Biratnagar')",
+    "button": "Search",
+    "clear": "Clear search",
+    "quickFilters": {
+      "hospitals": "Hospitals",
+      "schools": "Schools",
+      "clinics": "Clinics",
+      "emergency": "Emergency",
+      "pharmacies": "Pharmacies"
+    }
+  },
+  "filters": {
+    "province": "Province",
+    "district": "District",
+    "city": "City",
+    "category": "Category",
+    "type": "Type",
+    "allProvinces": "All Provinces",
+    "allDistricts": "All Districts",
+    "allCities": "All Cities",
+    "allCategories": "All Categories",
+    "allTypes": "All Types",
+    "reset": "Reset Filters",
+    "showing": "Showing {count} of {total} services",
+    "showingAll": "Showing all {count} services"
+  },
+  "categories": {
+    "hospitals": "Hospitals",
+    "schools": "Schools",
+    "colleges": "Colleges",
+    "clinics": "Clinics",
+    "pharmacies": "Pharmacies",
+    "veterinary": "Veterinary",
+    "blood_banks": "Blood Banks",
+    "ambulance": "Ambulance",
+    "emergency": "Emergency",
+    "ward": "Ward Offices",
+    "forest": "Forest Offices",
+    "government": "Government Offices"
+  },
+  "provinces": {
+    "bagmati": "Bagmati Province",
+    "koshi": "Koshi Province",
+    "madhesh": "Madhesh Province",
+    "gandaki": "Gandaki Province",
+    "karnali": "Karnali Province",
+    "lumbini": "Lumbini Province",
+    "sudurpashchim": "Sudurpashchim Province"
+  },
+  "types": {
+    "government": "Government",
+    "private": "Private",
+    "ngo": "NGO/Non-profit"
+  },
+  "results": {
+    "title": "Search Results",
+    "gridView": "Grid view",
+    "listView": "List view",
+    "noResults": {
+      "title": "No results found",
+      "message": "Try adjusting your search terms or filters",
+      "suggestions": "Popular searches:"
+    }
+  },
+  "card": {
+    "type": "Type",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "level": "Level",
+    "curriculum": "Curriculum",
+    "affiliation": "Affiliation",
+    "programs": "Programs",
+    "services": "Services",
+    "hours": "Hours",
+    "beds": "Beds",
+    "specialties": "Specialties",
+    "emergency": "Emergency",
+    "more": "+{count} more"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {page} of {total}"
+  },
+  "footer": {
+    "tagline": "Connecting people with essential services across Nepal",
+    "github": "GitHub",
+    "contact": "Contact",
+    "dataSource": "Data sourced from official government websites"
+  },
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "nepali": "नेपाली",
+    "change": "Change Language"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle theme"
+  },
+  "loading": "Loading services from all 7 provinces...",
+  "errors": {
+    "loadFailed": "Failed to load data. Please refresh the page."
+  }
+}
