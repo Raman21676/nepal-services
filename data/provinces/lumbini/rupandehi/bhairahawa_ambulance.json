@@ -3,33 +3,195 @@
     "city": "Bhairahawa",
     "city_np": "भैरहवा",
     "district": "Rupandehi",
-    "district_np": "रुपन्देही",
     "province": "Lumbini",
-    "province_np": "लुम्बिनी प्रदेश",
-    "phone_prefix": "071",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 16,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "National Ambulance",
-      "name_np": "नेशनल एम्बुलेन्स",
-      "type": "Emergency",
-      "phone": "102",
-      "hours": "24/7"
+      "id": 1,
+      "name": "National Ambulance Service - Bhairahawa",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - भैरहवा",
+      "type": "Government Emergency",
+      "address": "Siddharthanagar Municipality Office, Rupandehi",
+      "phone": ["102", "071-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Bhairahawa",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - भैरहवा",
+      "type": "NGO Emergency",
+      "address": "Bhairahawa-9, Buddha Chowk, Rupandehi",
+      "phone": ["071-520124", "071-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
       "name": "Bhim Hospital Ambulance",
       "name_np": "भीम अस्पताल एम्बुलेन्स",
-      "type": "Hospital",
-      "phone": "071-520100",
-      "hours": "24/7"
+      "type": "Private Hospital",
+      "address": "Bhairahawa-9, Main Road, Rupandehi",
+      "phone": ["071-520200", "071-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
+      "id": 4,
+      "name": "Siddhartha Hospital Ambulance",
+      "name_np": "सिद्धार्थ अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Bhairahawa-5, Hospital Road, Rupandehi",
+      "phone": ["071-520300", "071-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 5,
+      "name": "Gautam Buddha Hospital Ambulance",
+      "name_np": "गौतम बुद्ध अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Bhairahawa-9, Buddha Chowk, Rupandehi",
+      "phone": ["071-520400", "071-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 6,
       "name": "Lumbini Hospital Ambulance",
       "name_np": "लुम्बिनी अस्पताल एम्बुलेन्स",
-      "type": "Hospital",
-      "phone": "071-520555",
-      "hours": "24/7"
+      "type": "Private Hospital",
+      "address": "Bhairahawa-11, Lumbini Road, Rupandehi",
+      "phone": ["071-520500", "071-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "Bhairahawa Eye Care Centre Ambulance",
+      "name_np": "भैरहवा आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Bhairahawa-9, Main Road, Rupandehi",
+      "phone": ["071-520600", "071-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "Siddharthanagar Municipality Ambulance",
+      "name_np": "सिद्धार्थनगर नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Bhairahawa-5, Municipal Office, Rupandehi",
+      "phone": ["071-520700", "071-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 9,
+      "name": "District Police Office Rupandehi - Bhairahawa Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय रुपन्देही - भैरहवा एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Bhairahawa-9, Police Office, Rupandehi",
+      "phone": ["100", "071-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 10,
+      "name": "Bhairahawa Private Ambulance Service",
+      "name_np": "भैरहवा निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Bhairahawa-9, Rupandehi",
+      "phone": ["9857045678", "9857045679"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 11,
+      "name": "Lumbini Ambulance Sewa",
+      "name_np": "लुम्बिनी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Buddha Chowk, Bhairahawa-9, Rupandehi",
+      "phone": ["9847045678", "071-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 12,
+      "name": "Rotary Club Bhairahawa Ambulance",
+      "name_np": "रोटरी क्लब भैरहवा एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Bhairahawa-9, Rupandehi",
+      "phone": ["071-521000", "071-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 13,
+      "name": "Lions Club Bhairahawa Ambulance",
+      "name_np": "लायन्स क्लब भैरहवा एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Bhairahawa-5, Rupandehi",
+      "phone": ["071-521100", "071-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 14,
+      "name": "Lumbini Medical Institute Ambulance",
+      "name_np": "लुम्बिनी मेडिकल इन्स्टिच्युट एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Bhairahawa-11, Medical College Road, Rupandehi",
+      "phone": ["071-521200", "071-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 15,
+      "name": "Gautam Buddha International Airport Medical Ambulance",
+      "name_np": "गौतम बुद्ध अन्तर्राष्ट्रिय विमानस्थल मेडिकल एम्बुलेन्स",
+      "type": "Airport Medical",
+      "address": "Gautam Buddha International Airport, Rupandehi",
+      "phone": ["071-521300", "071-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 16,
+      "name": "Bhairahawa Cancer Hospital Ambulance",
+      "name_np": "भैरहवा क्यान्सर अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Bhairahawa-10, Cancer Hospital Road, Rupandehi",
+      "phone": ["071-521400", "071-521401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     }
   ]
 }

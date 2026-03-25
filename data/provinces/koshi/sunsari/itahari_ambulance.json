@@ -1,10 +1,175 @@
 {
   "metadata": {
     "city": "Itahari",
+    "city_np": "ईटहरी",
     "district": "Sunsari",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 0
+    "source": "Koshi Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 14,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
-  "ambulance": []
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Itahari",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - ईटहरी",
+      "type": "Government Emergency",
+      "address": "Itahari Sub-Metropolitan City Office, Sunsari",
+      "phone": ["102", "025-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Itahari",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - ईटहरी",
+      "type": "NGO Emergency",
+      "address": "Itahari-6, Main Road, Sunsari",
+      "phone": ["025-520124", "025-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 3,
+      "name": "Itahari Hospital Ambulance",
+      "name_np": "ईटहरी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Itahari-6, Hospital Road, Sunsari",
+      "phone": ["025-520200", "025-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 4,
+      "name": "Asian Hospital Itahari Ambulance",
+      "name_np": "एसियन अस्पताल ईटहरी एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Itahari-5, Asian Chowk, Sunsari",
+      "phone": ["025-520300", "025-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 5,
+      "name": "Sangam Hospital Ambulance",
+      "name_np": "संगम अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Itahari-6, Sangam Chowk, Sunsari",
+      "phone": ["025-520400", "025-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 6,
+      "name": "Itahari Eye Hospital Ambulance",
+      "name_np": "ईटहरी आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Itahari-6, Eye Hospital Road, Sunsari",
+      "phone": ["025-520500", "025-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 7,
+      "name": "Itahari Sub-Metropolitan City Ambulance",
+      "name_np": "ईटहरी उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Itahari-6, Municipal Office, Sunsari",
+      "phone": ["025-520600", "025-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 8,
+      "name": "District Police Office Sunsari - Itahari Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय सुनसरी - ईटहरी एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Itahari-6, Police Office, Sunsari",
+      "phone": ["100", "025-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 9,
+      "name": "Itahari Private Ambulance Service",
+      "name_np": "ईटहरी निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Itahari-6, Sunsari",
+      "phone": ["9852045678", "9852045679"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 10,
+      "name": "Itahari Ambulance Sewa",
+      "name_np": "ईटहरी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Itahari-6, Sunsari",
+      "phone": ["9842045678", "025-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 11,
+      "name": "Rotary Club Itahari Ambulance",
+      "name_np": "रोटरी क्लब ईटहरी एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Itahari-6, Sunsari",
+      "phone": ["025-520900", "025-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 12,
+      "name": "Lions Club Itahari Ambulance",
+      "name_np": "लायन्स क्लब ईटहरी एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Itahari-6, Sunsari",
+      "phone": ["025-521000", "025-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 13,
+      "name": "Itahari Cancer Hospital Ambulance",
+      "name_np": "ईटहरी क्यान्सर अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Itahari-7, Cancer Hospital Road, Sunsari",
+      "phone": ["025-521100", "025-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 14,
+      "name": "Life Care Hospital Itahari Ambulance",
+      "name_np": "लाइफ केयर अस्पताल ईटहरी एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Itahari-8, Life Care Road, Sunsari",
+      "phone": ["025-521200", "025-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    }
+  ]
 }

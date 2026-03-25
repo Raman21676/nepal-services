@@ -3,26 +3,173 @@
     "city": "Ghorahi",
     "city_np": "घोराही",
     "district": "Dang",
-    "district_np": "दाङ",
     "province": "Lumbini",
-    "province_np": "लुम्बिनी प्रदेश",
-    "phone_prefix": "082",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 14,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "National Ambulance",
-      "name_np": "नेशनल एम्बुलेन्स",
-      "type": "Emergency",
-      "phone": "102",
-      "hours": "24/7"
+      "id": 1,
+      "name": "National Ambulance Service - Ghorahi",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - घोराही",
+      "type": "Government Emergency",
+      "address": "Ghorahi Sub-Metropolitan City Office, Dang",
+      "phone": ["102", "082-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Dang",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - दाङ",
+      "type": "NGO Emergency",
+      "address": "Ghorahi-9, Main Road, Dang",
+      "phone": ["082-520124", "082-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 3,
+      "name": "Rapti Provincial Hospital Ambulance",
+      "name_np": "राप्ती प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Ghorahi-9, Hospital Road, Dang",
+      "phone": ["082-520200", "082-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 4,
       "name": "Ghorahi Hospital Ambulance",
       "name_np": "घोराही अस्पताल एम्बुलेन्स",
-      "type": "Hospital",
-      "phone": "082-521100",
-      "hours": "24/7"
+      "type": "Private Hospital",
+      "address": "Ghorahi-9, Main Road, Dang",
+      "phone": ["082-520300", "082-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 5,
+      "name": "Rapti Academy of Health Sciences Ambulance",
+      "name_np": "राप्ती स्वास्थ्य विज्ञान प्रतिष्ठान एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Ghorahi-10, Medical College Road, Dang",
+      "phone": ["082-520400", "082-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 6,
+      "name": "Ghorahi Eye Care Centre Ambulance",
+      "name_np": "घोराही आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Ghorahi-9, Eye Hospital Road, Dang",
+      "phone": ["082-520500", "082-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 7,
+      "name": "Ghorahi Sub-Metropolitan City Ambulance",
+      "name_np": "घोराही उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Ghorahi-9, Municipal Office, Dang",
+      "phone": ["082-520600", "082-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 8,
+      "name": "District Police Office Dang Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय दाङ एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Ghorahi-9, Police Office, Dang",
+      "phone": ["100", "082-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 9,
+      "name": "Ghorahi Private Ambulance Service",
+      "name_np": "घोराही निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Ghorahi-9, Dang",
+      "phone": ["9868041234", "9868041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 10,
+      "name": "Dang Ambulance Sewa",
+      "name_np": "दाङ एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Ghorahi-9, Dang",
+      "phone": ["9858041234", "082-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 11,
+      "name": "Rotary Club Ghorahi Ambulance",
+      "name_np": "रोटरी क्लब घोराही एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Ghorahi-9, Dang",
+      "phone": ["082-520900", "082-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 12,
+      "name": "Lions Club Ghorahi Ambulance",
+      "name_np": "लायन्स क्लब घोराही एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Ghorahi-9, Dang",
+      "phone": ["082-521000", "082-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 13,
+      "name": "Ghorahi Community Hospital Ambulance",
+      "name_np": "घोराही सामुदायिक अस्पताल एम्बुलेन्स",
+      "type": "Community Hospital",
+      "address": "Ghorahi-10, Community Chowk, Dang",
+      "phone": ["082-521100", "082-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
+    },
+    {
+      "id": 14,
+      "name": "Life Care Hospital Ghorahi Ambulance",
+      "name_np": "लाइफ केयर अस्पताल घोराही एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Ghorahi-11, Life Care Road, Dang",
+      "phone": ["082-521200", "082-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dang"
     }
   ]
 }

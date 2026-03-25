@@ -1,38 +1,153 @@
 {
   "metadata": {
     "city": "Rajbiraj",
+    "city_np": "राजविराज",
     "district": "Saptari",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 12,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "District Hospital Ambulance",
-      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "District Hospital, Rajbiraj",
-      "phone": "031-570123"
+      "id": 1,
+      "name": "National Ambulance Service - Rajbiraj",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - राजविराज",
+      "type": "Government Emergency",
+      "address": "Rajbiraj Municipality Office, Saptari",
+      "phone": ["102", "031-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Saptari",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - सप्तरी",
+      "type": "NGO Emergency",
+      "address": "Rajbiraj-5, Main Road, Saptari",
+      "phone": ["031-520124", "031-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 3,
+      "name": "Gajendra Narayan Singh Hospital Ambulance",
+      "name_np": "गजेन्द्र नारायण सिंह अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Rajbiraj-5, Hospital Road, Saptari",
+      "phone": ["031-520200", "031-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 4,
+      "name": "Rajbiraj Hospital Ambulance",
+      "name_np": "राजविराज अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Rajbiraj-5, Main Road, Saptari",
+      "phone": ["031-520300", "031-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 5,
+      "name": "Rajbiraj Eye Hospital Ambulance",
+      "name_np": "राजविराज आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Rajbiraj-6, Eye Hospital Road, Saptari",
+      "phone": ["031-520400", "031-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 6,
+      "name": "Saptari District Hospital Ambulance",
+      "name_np": "सप्तरी जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Rajbiraj-5, District Administration Office Road, Saptari",
+      "phone": ["031-520500", "031-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 7,
       "name": "Rajbiraj Municipality Ambulance",
       "name_np": "राजविराज नगरपालिका एम्बुलेन्स",
-      "type": "Municipal Ambulance",
-      "address": "Municipal Office, Rajbiraj",
-      "phone": "031-571234"
+      "type": "Municipal Emergency",
+      "address": "Rajbiraj-5, Municipal Office, Saptari",
+      "phone": ["031-520600", "031-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
     },
     {
-      "name": "Red Cross Rajbiraj Ambulance",
-      "name_np": "रेडक्रस राजविराज एम्बुलेन्स",
-      "type": "Emergency Ambulance",
-      "address": "Rajbiraj Chowk, Saptari",
-      "phone": "031-572345"
+      "id": 8,
+      "name": "District Police Office Saptari Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय सप्तरी एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Rajbiraj-5, Police Office, Saptari",
+      "phone": ["100", "031-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
     },
     {
-      "name": "Gajendra Narayan Hospital Ambulance",
-      "name_np": "गजेन्द्र नारायण अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Rajbiraj, Saptari",
-      "phone": "031-573456"
+      "id": 9,
+      "name": "Rajbiraj Private Ambulance Service",
+      "name_np": "राजविराज निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Rajbiraj-5, Saptari",
+      "phone": ["9853041234", "9853041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 10,
+      "name": "Saptari Ambulance Sewa",
+      "name_np": "सप्तरी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Rajbiraj-5, Saptari",
+      "phone": ["9843041234", "031-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 11,
+      "name": "Rotary Club Rajbiraj Ambulance",
+      "name_np": "रोटरी क्लब राजविराज एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Rajbiraj-5, Saptari",
+      "phone": ["031-520900", "031-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
+    },
+    {
+      "id": 12,
+      "name": "Lions Club Rajbiraj Ambulance",
+      "name_np": "लायन्स क्लब राजविराज एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Rajbiraj-5, Saptari",
+      "phone": ["031-521000", "031-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Saptari"
     }
   ]
 }

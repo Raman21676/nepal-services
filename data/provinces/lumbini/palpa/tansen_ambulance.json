@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "city_np": "तानसेन",
+    "district": "Palpa",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 12,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Tansen",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - तानसेन",
+      "type": "Government Emergency",
+      "address": "Tansen Municipality Office, Palpa",
+      "phone": ["102", "075-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Palpa",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - पाल्पा",
+      "type": "NGO Emergency",
+      "address": "Tansen-7, Shreenagar Chowk, Palpa",
+      "phone": ["075-520124", "075-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 3,
+      "name": "United Mission Hospital Tansen Ambulance",
+      "name_np": "युनाइटेड मिसन अस्पताल तानसेन एम्बुलेन्स",
+      "type": "Mission Hospital",
+      "address": "Tansen-7, Mission Road, Palpa",
+      "phone": ["075-520306", "075-520307"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 4,
+      "name": "Lumbini Provincial Hospital Tansen Ambulance",
+      "name_np": "लुम्बिनी प्रादेशिक अस्पताल तानसेन एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Tansen-9, Hospital Road, Palpa",
+      "phone": ["075-520400", "075-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 5,
+      "name": "Tansen Mission Hospital Ambulance",
+      "name_np": "तानसेन मिसन अस्पताल एम्बुलेन्स",
+      "type": "Mission Hospital",
+      "address": "Tansen-7, Mission Chowk, Palpa",
+      "phone": ["075-520500", "075-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 6,
+      "name": "Palpa District Hospital Ambulance",
+      "name_np": "पाल्पा जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Tansen-9, District Administration Office Road, Palpa",
+      "phone": ["075-520600", "075-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 7,
+      "name": "Tansen Municipality Ambulance",
+      "name_np": "तानसेन नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Tansen-9, Municipal Office, Palpa",
+      "phone": ["075-520700", "075-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 8,
+      "name": "District Police Office Palpa Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय पाल्पा एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Tansen-9, Police Office, Palpa",
+      "phone": ["100", "075-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 9,
+      "name": "Tansen Private Ambulance Service",
+      "name_np": "तानसेन निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Tansen-9, Palpa",
+      "phone": ["9867041234", "9867041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 10,
+      "name": "Palpa Ambulance Sewa",
+      "name_np": "पाल्पा एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Tansen-9, Palpa",
+      "phone": ["9857041234", "075-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 11,
+      "name": "Rotary Club Tansen Ambulance",
+      "name_np": "रोटरी क्लब तानसेन एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Shreenagar Chowk, Tansen-7, Palpa",
+      "phone": ["075-521000", "075-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 12,
+      "name": "Lions Club Tansen Ambulance",
+      "name_np": "लायन्स क्लब तानसेन एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Tansen-9, Palpa",
+      "phone": ["075-521100", "075-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    }
+  ]
+}

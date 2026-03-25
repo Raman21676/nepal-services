@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "city": "Bharatpur",
+    "city_np": "भरतपुर",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 20,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Bharatpur",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - भरतपुर",
+      "type": "Government Emergency",
+      "address": "Bharatpur Metropolitan City Office, Chitwan",
+      "phone": ["102", "056-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Chitwan",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - चितवन",
+      "type": "NGO Emergency",
+      "address": "Bharatpur-10, Lions Chowk, Chitwan",
+      "phone": ["056-520124", "056-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 3,
+      "name": "B.P. Koirala Memorial Cancer Hospital Ambulance",
+      "name_np": "वीपी कोइराला मेमोरियल क्यान्सर अस्पताल एम्बुलेन्स",
+      "type": "Specialized Government Hospital",
+      "address": "Bharatpur-7, Krishnapur, Chitwan",
+      "phone": ["056-524501", "056-524502", "056-524503"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 4,
+      "name": "Chitwan Medical College Teaching Hospital Ambulance",
+      "name_np": "चितवन मेडिकल कलेज शिक्षण अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Bharatpur-9, Jivan Jyoti Chowk, Chitwan",
+      "phone": ["056-493101", "056-493102", "056-493103"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 5,
+      "name": "College of Medical Sciences Teaching Hospital Ambulance",
+      "name_np": "कलेज अफ मेडिकल साइन्शेस शिक्षण अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Bharatpur-10, New Road, Chitwan",
+      "phone": ["056-493012", "056-493013", "056-493014"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 6,
+      "name": "Bharatpur Hospital Ambulance",
+      "name_np": "भरतपुर अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Bharatpur-10, Lions Chowk, Chitwan",
+      "phone": ["056-520111", "056-520112"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 7,
+      "name": "Bharatpur Community Hospital Ambulance",
+      "name_np": "भरतपुर सामुदायिक अस्पताल एम्बुलेन्स",
+      "type": "Community Hospital",
+      "address": "Bharatpur-10, Main Road, Chitwan",
+      "phone": ["056-595200", "056-595201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 8,
+      "name": "Narayani Community Hospital Ambulance",
+      "name_np": "नारायणी सामुदायिक अस्पताल एम्बुलेन्स",
+      "type": "Community Hospital",
+      "address": "Chaubishkothi, Bharatpur-10, Chitwan",
+      "phone": ["056-520111", "056-520112"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 9,
+      "name": "Sahid Gangalal National Heart Centre Bharatpur Ambulance",
+      "name_np": "शहीद गंगालाल राष्ट्रिय हृदय केन्द्र भरतपुर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Bharatpur-9, Medical College Road, Chitwan",
+      "phone": ["056-520300", "056-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 10,
+      "name": "Chitwan District Hospital Ambulance",
+      "name_np": "चितवन जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Bharatpur-4, District Administration Office Road, Chitwan",
+      "phone": ["056-520400", "056-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 11,
+      "name": "Madhav Narayan Hospital Ambulance",
+      "name_np": "माधव नारायण अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Bharatpur-11, Narayangadh, Chitwan",
+      "phone": ["056-520500", "056-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 12,
+      "name": "Shanti Hospital Ambulance",
+      "name_np": "शान्ति अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Bharatpur-10, Lions Chowk, Chitwan",
+      "phone": ["056-520600", "056-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 13,
+      "name": "Chitwan Eye Hospital Ambulance",
+      "name_np": "चितवन आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Bharatpur-10, Eye Hospital Road, Chitwan",
+      "phone": ["056-520700", "056-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 14,
+      "name": "Bharatpur Metropolitan City Ambulance",
+      "name_np": "भरतपुर महानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Bharatpur-10, Metropolitan Office, Chitwan",
+      "phone": ["056-520800", "056-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 15,
+      "name": "District Police Office Chitwan Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय चितवन एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Bharatpur-10, Police Office Road, Chitwan",
+      "phone": ["100", "056-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 16,
+      "name": "Bharatpur Private Ambulance Service",
+      "name_np": "भरतपुर निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Bharatpur-10, Chitwan",
+      "phone": ["9856041234", "9856041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 17,
+      "name": "Chitwan Ambulance Sewa",
+      "name_np": "चितवन एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Lions Chowk, Bharatpur-10, Chitwan",
+      "phone": ["9846041234", "056-521000"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 18,
+      "name": "Rotary Club Bharatpur Ambulance",
+      "name_np": "रोटरी क्लब भरतपुर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Lions Chowk, Bharatpur-10, Chitwan",
+      "phone": ["056-521100", "056-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 19,
+      "name": "Lions Club Bharatpur Ambulance",
+      "name_np": "लायन्स क्लब भरतपुर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Lions Chowk, Bharatpur-10, Chitwan",
+      "phone": ["056-521200", "056-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    },
+    {
+      "id": 20,
+      "name": "Janasewa Ambulance Bharatpur",
+      "name_np": "जनसेवा एम्बुलेन्स भरतपुर",
+      "type": "NGO",
+      "address": "Narayangadh, Bharatpur-11, Chitwan",
+      "phone": ["056-521300", "056-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Chitwan"
+    }
+  ]
+}

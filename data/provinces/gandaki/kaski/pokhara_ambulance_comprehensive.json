@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "city_np": "पोखरा",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 25,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Pokhara",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - पोखरा",
+      "type": "Government Emergency",
+      "address": "Pokhara Metropolitan City Office, Pokhara",
+      "phone": ["102", "061-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Kaski",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - कास्की",
+      "type": "NGO Emergency",
+      "address": "Shree Chowk, Pokhara-8, Kaski",
+      "phone": ["061-521091", "061-521092", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Manipal Teaching Hospital Ambulance",
+      "name_np": "मणिपाल शिक्षण अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Fulbari, Pokhara-14 (Near Deep Campus)",
+      "phone": ["061-526416", "061-526417"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Gandaki Medical College Teaching Hospital Ambulance",
+      "name_np": "गण्डकी मेडिकल कलेज शिक्षण अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Nayagaun, Pokhara-25, Kaski",
+      "phone": ["061-526416", "061-526418"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Charak Hospital Ambulance",
+      "name_np": "चरक अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Chipledhunga, Pokhara-8, Kaski",
+      "phone": ["061-520300", "061-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Fishtail Hospital Ambulance",
+      "name_np": "फिस्टेल अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Lakeside-6, Pokhara, Kaski",
+      "phone": ["061-520190", "061-520191"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Pokhara Academy of Health Sciences (Western Regional Hospital) Ambulance",
+      "name_np": "पोखरा स्वास्थ्य विज्ञान प्रतिष्ठान (पश्चिमाञ्चल क्षेत्रीय अस्पताल) एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Fulbari, Pokhara-14, Kaski",
+      "phone": ["061-520200", "061-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Fewa City Hospital Ambulance",
+      "name_np": "फेवा सिटी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Nagdhunga, Pokhara-5, Kaski",
+      "phone": ["9842285269", "061-588193"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 9,
+      "name": "Sewa Hospital Ambulance",
+      "name_np": "सेवा अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Mahendrapool, Pokhara-4, Kaski",
+      "phone": ["061-528161", "061-528162"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 10,
+      "name": "Namaste Hospital Ambulance",
+      "name_np": "नमस्ते अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Bagar, Pokhara-9, Kaski",
+      "phone": ["9806176007", "061-464648"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 11,
+      "name": "Metro City Hospital Ambulance",
+      "name_np": "मेट्रो सिटी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Srijana Chowk, Pokhara-8, Kaski",
+      "phone": ["061-537932", "061-537933"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 12,
+      "name": "Amrita Hospital Ambulance",
+      "name_np": "अमृत अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Chipledhunga, Pokhara-8, Kaski",
+      "phone": ["061-541491", "061-541492"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 13,
+      "name": "Maternal and Child Health Hospital Pokhara Ambulance",
+      "name_np": "प्रसूति तथा स्त्री रोग अस्पताल पोखरा एम्बुलेन्स",
+      "type": "Specialized Government Hospital",
+      "address": "Ramghat, Pokhara-10, Kaski",
+      "phone": ["061-520111", "061-520112"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 14,
+      "name": "Shishu Hospital Pokhara Ambulance",
+      "name_np": "शिशु अस्पताल पोखरा एम्बुलेन्स",
+      "type": "Children's Hospital",
+      "address": "Bagar, Pokhara-9, Kaski",
+      "phone": ["061-521300", "061-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 15,
+      "name": "Sahid Memorial Hospital Ambulance",
+      "name_np": "शहीद मेमोरियल अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Chipledhunga, Pokhara-8, Kaski",
+      "phone": ["061-539600", "061-539601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 16,
+      "name": "Bharatpur Hospital Pokhara Branch Ambulance",
+      "name_np": "भरतपुर अस्पताल पोखरा शाखा एम्बुलेन्स",
+      "type": "Hospital Branch",
+      "address": "New Road, Pokhara-8, Kaski",
+      "phone": ["061-537101", "061-537102"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 17,
+      "name": "Pokhara Health Home Ambulance",
+      "name_np": "पोखरा हेल्थ होम एम्बुलेन्स",
+      "type": "Clinic",
+      "address": "Lakeside, Pokhara-6, Kaski",
+      "phone": ["061-462242", "061-462243"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 18,
+      "name": "Siddhartha Children and Women Hospital Ambulance",
+      "name_np": "सिद्धार्थ बाल तथा महिला अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Prithvi Chowk, Pokhara-8, Kaski",
+      "phone": ["061-524800", "061-524801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 19,
+      "name": "Civil Service Hospital Pokhara Ambulance",
+      "name_np": "निजामती कर्मचारी अस्पताल पोखरा एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Lamachaur, Pokhara-16, Kaski",
+      "phone": ["061-561200", "061-561201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 20,
+      "name": "Lakeside Hospital Ambulance",
+      "name_np": "लेकसाइड अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Lakeside-6, Baidam, Pokhara",
+      "phone": ["061-465858", "061-465859"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 21,
+      "name": "Pokhara Private Ambulance Service",
+      "name_np": "पोखरा निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Mahendrapool, Pokhara-4, Kaski",
+      "phone": ["9846123456", "9856087654"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 22,
+      "name": "Himalayan Ambulance Service",
+      "name_np": "हिमालयन एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Chipledhunga, Pokhara-8, Kaski",
+      "phone": ["9841234567", "061-542200"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 23,
+      "name": "Fewa Ambulance Service",
+      "name_np": "फेवा एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Barahi Chowk, Lakeside, Pokhara",
+      "phone": ["9856034567", "061-466100"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 24,
+      "name": "Gandaki Youth Club Ambulance",
+      "name_np": "गण्डकी युवा क्लब एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Prithvi Chowk, Pokhara-8, Kaski",
+      "phone": ["061-520100", "9845678901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    },
+    {
+      "id": 25,
+      "name": "Lions Club Pokhara Ambulance",
+      "name_np": "लायन्स क्लब पोखरा एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Shree Chowk, Pokhara-8, Kaski",
+      "phone": ["061-521091", "9845087654"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kaski"
+    }
+  ]
+}

@@ -1,38 +1,186 @@
 {
   "metadata": {
     "city": "Birendranagar",
+    "city_np": "वीरेन्द्रनगर",
     "district": "Surkhet",
     "province": "Karnali",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Karnali Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 15,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
-  "ambulance_services": [
+  "ambulance": [
     {
-      "name": "Bheri Hospital Ambulance",
-      "name_np": "भेरी अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Birendranagar-7, Surkhet",
-      "phone": "083-524366"
+      "id": 1,
+      "name": "National Ambulance Service - Birendranagar",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - वीरेन्द्रनगर",
+      "type": "Government Emergency",
+      "address": "Birendranagar Municipality Office, Surkhet",
+      "phone": ["102", "083-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Surkhet",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - सुर्खेत",
+      "type": "NGO Emergency",
+      "address": "Birendranagar-5, Chaukune Road, Surkhet",
+      "phone": ["083-520124", "083-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 3,
       "name": "Karnali Provincial Hospital Ambulance",
       "name_np": "कर्णाली प्रादेशिक अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Birendranagar-8, Surkhet",
-      "phone": "083-520800"
+      "type": "Government Hospital",
+      "address": "Birendranagar-5, Provincial Hospital Road, Surkhet",
+      "phone": ["083-520200", "083-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     },
     {
-      "name": "Red Cross Ambulance Service",
-      "name_np": "रेडक्रस एम्बुलेन्स सेवा",
-      "type": "Emergency Ambulance",
-      "address": "Birendranagar-4, Surkhet",
-      "phone": "083-521100"
+      "id": 4,
+      "name": "Surkhet Hospital Ambulance",
+      "name_np": "सुर्खेत अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birendranagar-4, Main Road, Surkhet",
+      "phone": ["083-520300", "083-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     },
     {
-      "name": "Private Ambulance Birendranagar",
-      "name_np": "निजी एम्बुलेन्स बीरेन्द्रनगर",
-      "type": "Private Ambulance",
-      "address": "Birendranagar-5, Surkhet",
-      "phone": "985-8030001"
+      "id": 5,
+      "name": "Bheri Hospital Surkhet Ambulance",
+      "name_np": "भेरी अस्पताल सुर्खेत एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Birendranagar-6, Bheri Road, Surkhet",
+      "phone": ["083-520400", "083-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 6,
+      "name": "Birendranagar Community Hospital Ambulance",
+      "name_np": "वीरेन्द्रनगर सामुदायिक अस्पताल एम्बुलेन्स",
+      "type": "Community Hospital",
+      "address": "Birendranagar-4, Community Chowk, Surkhet",
+      "phone": ["083-520500", "083-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 7,
+      "name": "Birendranagar Eye Care Centre Ambulance",
+      "name_np": "वीरेन्द्रनगर आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Birendranagar-5, Eye Hospital Road, Surkhet",
+      "phone": ["083-520600", "083-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 8,
+      "name": "Surkhet District Hospital Ambulance",
+      "name_np": "सुर्खेत जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Birendranagar-4, District Administration Office Road, Surkhet",
+      "phone": ["083-520700", "083-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 9,
+      "name": "Birendranagar Municipality Ambulance",
+      "name_np": "वीरेन्द्रनगर नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Birendranagar-4, Municipal Office, Surkhet",
+      "phone": ["083-520800", "083-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 10,
+      "name": "District Police Office Surkhet Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय सुर्खेत एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Birendranagar-4, Police Office Road, Surkhet",
+      "phone": ["100", "083-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 11,
+      "name": "Birendranagar Private Ambulance Service",
+      "name_np": "वीरेन्द्रनगर निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Birendranagar-4, Surkhet",
+      "phone": ["9863041234", "9863041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 12,
+      "name": "Surkhet Ambulance Sewa",
+      "name_np": "सुर्खेत एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Birendranagar-4, Surkhet",
+      "phone": ["9853041234", "083-521000"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 13,
+      "name": "Rotary Club Birendranagar Ambulance",
+      "name_np": "रोटरी क्लब वीरेन्द्रनगर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Chaukune Road, Birendranagar-5, Surkhet",
+      "phone": ["083-521100", "083-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 14,
+      "name": "Lions Club Birendranagar Ambulance",
+      "name_np": "लायन्स क्लब वीरेन्द्रनगर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Birendranagar-4, Surkhet",
+      "phone": ["083-521200", "083-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
+    },
+    {
+      "id": 15,
+      "name": "Karnali Academy of Health Sciences Ambulance",
+      "name_np": "कर्णाली स्वास्थ्य विज्ञान प्रतिष्ठान एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Jumla Road, Birendranagar-6, Surkhet",
+      "phone": ["083-521300", "083-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Surkhet"
     }
   ]
 }

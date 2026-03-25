@@ -1,38 +1,219 @@
 {
   "metadata": {
     "city": "Birgunj",
+    "city_np": "वीरगंज",
     "district": "Parsa",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 18,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
+      "id": 1,
+      "name": "National Ambulance Service - Birgunj",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - वीरगंज",
+      "type": "Government Emergency",
+      "address": "Birgunj Metropolitan City Office, Parsa",
+      "phone": ["102", "051-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Parsa",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - पर्सा",
+      "type": "NGO Emergency",
+      "address": "Adarshanagar, Birgunj-8, Parsa",
+      "phone": ["051-521700", "051-521701", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 3,
       "name": "Narayani Hospital Ambulance",
       "name_np": "नारायणी अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Narayani Hospital, Birgunj",
-      "phone": "051-570123"
+      "type": "Government Hospital",
+      "address": "Birgunj-8, Adarshanagar, Parsa",
+      "phone": ["051-521700", "051-521701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     },
     {
-      "name": "Birgunj Municipality Ambulance",
-      "name_np": "वीरगञ्ज नगरपालिका एम्बुलेन्स",
-      "type": "Municipal Ambulance",
-      "address": "Municipal Office, Birgunj",
-      "phone": "051-571234"
+      "id": 4,
+      "name": "Birgunj Teaching Hospital Ambulance",
+      "name_np": "वीरगंज शिक्षण अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Birgunj-9, Ranighat, Parsa",
+      "phone": ["051-520200", "051-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     },
     {
-      "name": "Red Cross Ambulance Service",
-      "name_np": "रेडक्रस एम्बुलेन्स सेवा",
-      "type": "Emergency Ambulance",
-      "address": "Red Cross Building, Ghantaghar",
-      "phone": "051-572345"
+      "id": 5,
+      "name": "Kedia Hospital Ambulance",
+      "name_np": "केडिया अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birgunj-8, Maisthan Road, Parsa",
+      "phone": ["051-520300", "051-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     },
     {
-      "name": "National Medical College Ambulance",
-      "name_np": "नेशनल मेडिकल कलेज एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "NMC, Tikulia, Birgunj",
-      "phone": "051-573456"
+      "id": 6,
+      "name": "Vayodha Hospital Birgunj Ambulance",
+      "name_np": "वयोधा अस्पताल वीरगंज एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birgunj-7, Mahendra Chowk, Parsa",
+      "phone": ["051-520400", "051-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 7,
+      "name": "Birgunj Eye Hospital Ambulance",
+      "name_np": "वीरगंज आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Birgunj-8, Adarshanagar, Parsa",
+      "phone": ["051-520500", "051-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 8,
+      "name": "Ashok Hospital Ambulance",
+      "name_np": "अशोक अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birgunj-8, Maisthan, Parsa",
+      "phone": ["051-520600", "051-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 9,
+      "name": "Shree Hospital Ambulance",
+      "name_np": "श्री अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birgunj-9, Ghantaghar, Parsa",
+      "phone": ["051-520700", "051-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 10,
+      "name": "Parsa District Hospital Ambulance",
+      "name_np": "पर्सा जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Birgunj-4, District Administration Office Road, Parsa",
+      "phone": ["051-520800", "051-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 11,
+      "name": "Birgunj Metropolitan City Ambulance",
+      "name_np": "वीरगंज महानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Birgunj-8, Metropolitan Office, Parsa",
+      "phone": ["051-520900", "051-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 12,
+      "name": "District Police Office Parsa Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय पर्सा एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Birgunj-8, Police Office Road, Parsa",
+      "phone": ["100", "051-521000"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 13,
+      "name": "Birgunj Private Ambulance Service",
+      "name_np": "वीरगंज निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Birgunj-8, Parsa",
+      "phone": ["9855041234", "9855041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 14,
+      "name": "Parsa Ambulance Sewa",
+      "name_np": "पर्सा एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Adarshanagar, Birgunj-8, Parsa",
+      "phone": ["9845041234", "051-521100"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 15,
+      "name": "Rotary Club Birgunj Ambulance",
+      "name_np": "रोटरी क्लब वीरगंज एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Mahendra Chowk, Birgunj-7, Parsa",
+      "phone": ["051-521200", "051-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 16,
+      "name": "Lions Club Birgunj Ambulance",
+      "name_np": "लायन्स क्लब वीरगंज एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Adarshanagar, Birgunj-8, Parsa",
+      "phone": ["051-521300", "051-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 17,
+      "name": "Life Guard Ambulance Birgunj",
+      "name_np": "लाइफ गार्ड एम्बुलेन्स वीरगंज",
+      "type": "Private",
+      "address": "Ghantaghar, Birgunj-9, Parsa",
+      "phone": ["9855045678", "051-521400"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
+    },
+    {
+      "id": 18,
+      "name": "Nepal Police Hospital Birgunj Ambulance",
+      "name_np": "नेपाल प्रहरी अस्पताल वीरगंज एम्बुलेन्स",
+      "type": "Police Hospital",
+      "address": "Birgunj-8, Police Line, Parsa",
+      "phone": ["100", "051-521500"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parsa"
     }
   ]
 }

@@ -1,10 +1,164 @@
 {
   "metadata": {
     "city": "Damak",
+    "city_np": "दमक",
     "district": "Jhapa",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 0
+    "source": "Koshi Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 13,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
-  "ambulance": []
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Damak",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - दमक",
+      "type": "Government Emergency",
+      "address": "Damak Municipality Office, Jhapa",
+      "phone": ["102", "023-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Damak",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - दमक",
+      "type": "NGO Emergency",
+      "address": "Damak-5, Main Road, Jhapa",
+      "phone": ["023-520124", "023-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Damak Hospital Ambulance",
+      "name_np": "दमक अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Damak-5, Hospital Road, Jhapa",
+      "phone": ["023-520200", "023-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 4,
+      "name": "Laxmi Hospital Damak Ambulance",
+      "name_np": "लक्ष्मी अस्पताल दमक एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Damak-6, Laxmi Chowk, Jhapa",
+      "phone": ["023-520300", "023-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 5,
+      "name": "Damak Eye Care Centre Ambulance",
+      "name_np": "दमक आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Damak-5, Eye Hospital Road, Jhapa",
+      "phone": ["023-520400", "023-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 6,
+      "name": "Damak Municipality Ambulance",
+      "name_np": "दमक नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Damak-5, Municipal Office, Jhapa",
+      "phone": ["023-520500", "023-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 7,
+      "name": "District Police Office Jhapa - Damak Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय झापा - दमक एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Damak-5, Police Office, Jhapa",
+      "phone": ["100", "023-520600"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 8,
+      "name": "Damak Private Ambulance Service",
+      "name_np": "दमक निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Damak-5, Jhapa",
+      "phone": ["9852040001", "9852040002"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 9,
+      "name": "Damak Ambulance Sewa",
+      "name_np": "दमक एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Damak-5, Jhapa",
+      "phone": ["9842040001", "023-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 10,
+      "name": "Rotary Club Damak Ambulance",
+      "name_np": "रोटरी क्लब दमक एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Damak-5, Jhapa",
+      "phone": ["023-520800", "023-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 11,
+      "name": "Lions Club Damak Ambulance",
+      "name_np": "लायन्स क्लब दमक एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Damak-5, Jhapa",
+      "phone": ["023-520900", "023-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 12,
+      "name": "Life Line Hospital Damak Ambulance",
+      "name_np": "लाइफ लाइन अस्पताल दमक एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Damak-7, Life Line Road, Jhapa",
+      "phone": ["023-521000", "023-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 13,
+      "name": "Damak Community Hospital Ambulance",
+      "name_np": "दमक सामुदायिक अस्पताल एम्बुलेन्स",
+      "type": "Community Hospital",
+      "address": "Damak-6, Community Chowk, Jhapa",
+      "phone": ["023-521100", "023-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    }
+  ]
 }

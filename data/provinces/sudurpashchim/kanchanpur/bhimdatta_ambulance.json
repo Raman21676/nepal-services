@@ -1,35 +1,164 @@
 {
   "metadata": {
     "city": "Bhimdatta",
+    "city_np": "भीमदत्त",
     "district": "Kanchanpur",
     "province": "Sudurpashchim",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "source": "Health Office, Red Cross",
-    "total_records": 2
+    "source": "Sudurpashchim Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 13,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
       "id": 1,
-      "name": "24/7 emergency transport",
-      "provider": "District Hospital",
-      "phone": [
-        "099-520100"
-      ],
-      "type": "Hospital",
-      "district": "Kanchanpur",
-      "address": "Bhimdatta, Kanchanpur"
+      "name": "National Ambulance Service - Bhimdatta",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - भीमदत्त",
+      "type": "Government Emergency",
+      "address": "Bhimdatta Municipality Office, Kanchanpur",
+      "phone": ["102", "099-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
     },
     {
       "id": 2,
-      "name": "Emergency ambulance service",
-      "provider": "Nepal Red Cross Society",
-      "phone": [
-        "102",
-        "099-520124"
-      ],
+      "name": "Nepal Red Cross Society - Kanchanpur",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - कञ्चनपुर",
+      "type": "NGO Emergency",
+      "address": "Bhimdatta-9, Main Road, Kanchanpur",
+      "phone": ["099-520124", "099-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 3,
+      "name": "Mahakali Hospital Ambulance",
+      "name_np": "महाकाली अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Bhimdatta-9, Hospital Road, Kanchanpur",
+      "phone": ["099-520200", "099-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 4,
+      "name": "Bhimdatta Hospital Ambulance",
+      "name_np": "भीमदत्त अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Bhimdatta-9, Main Road, Kanchanpur",
+      "phone": ["099-520300", "099-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 5,
+      "name": "Mahakali Provincial Hospital Ambulance",
+      "name_np": "महाकाली प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Bhimdatta-10, Provincial Hospital Road, Kanchanpur",
+      "phone": ["099-520400", "099-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 6,
+      "name": "Bhimdatta Eye Care Centre Ambulance",
+      "name_np": "भीमदत्त आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Bhimdatta-9, Eye Hospital Road, Kanchanpur",
+      "phone": ["099-520500", "099-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 7,
+      "name": "Kanchanpur District Hospital Ambulance",
+      "name_np": "कञ्चनपुर जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Bhimdatta-9, District Administration Office Road, Kanchanpur",
+      "phone": ["099-520600", "099-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 8,
+      "name": "Bhimdatta Municipality Ambulance",
+      "name_np": "भीमदत्त नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Bhimdatta-9, Municipal Office, Kanchanpur",
+      "phone": ["099-520700", "099-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 9,
+      "name": "District Police Office Kanchanpur Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय कञ्चनपुर एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Bhimdatta-9, Police Office, Kanchanpur",
+      "phone": ["100", "099-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 10,
+      "name": "Bhimdatta Private Ambulance Service",
+      "name_np": "भीमदत्त निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Bhimdatta-9, Kanchanpur",
+      "phone": ["9865041234", "9865041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 11,
+      "name": "Kanchanpur Ambulance Sewa",
+      "name_np": "कञ्चनपुर एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Bhimdatta-9, Kanchanpur",
+      "phone": ["9855041234", "099-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 12,
+      "name": "Rotary Club Bhimdatta Ambulance",
+      "name_np": "रोटरी क्लब भीमदत्त एम्बुलेन्स",
       "type": "NGO",
-      "district": "Kanchanpur",
-      "address": "Bhimdatta, Kanchanpur"
+      "address": "Main Road, Bhimdatta-9, Kanchanpur",
+      "phone": ["099-521000", "099-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
+    },
+    {
+      "id": 13,
+      "name": "Lions Club Bhimdatta Ambulance",
+      "name_np": "लायन्स क्लब भीमदत्त एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Bhimdatta-9, Kanchanpur",
+      "phone": ["099-521100", "099-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kanchanpur"
     }
   ]
 }

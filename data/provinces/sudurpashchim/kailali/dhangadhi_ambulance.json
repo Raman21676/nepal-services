@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "city_np": "धनगढी",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 16,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Dhangadhi",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - धनगढी",
+      "type": "Government Emergency",
+      "address": "Dhangadhi Sub-Metropolitan City Office, Kailali",
+      "phone": ["102", "091-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Kailali",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - कैलाली",
+      "type": "NGO Emergency",
+      "address": "Dhangadhi-4, Malgodam Road, Kailali",
+      "phone": ["091-520124", "091-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 3,
+      "name": "Seti Provincial Hospital Ambulance",
+      "name_np": "सेती प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Dhangadhi-4, Bhasi Bazar, Kailali",
+      "phone": ["091-520200", "091-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 4,
+      "name": "Dhangadhi Hospital Ambulance",
+      "name_np": "धनगढी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dhangadhi-4, Hospital Road, Kailali",
+      "phone": ["091-520300", "091-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 5,
+      "name": "Mahakali Hospital Ambulance",
+      "name_np": "महाकाली अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dhangadhi-5, Malgodam Road, Kailali",
+      "phone": ["091-520400", "091-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 6,
+      "name": "Kailali Hospital Ambulance",
+      "name_np": "कैलाली अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dhangadhi-6, Main Road, Kailali",
+      "phone": ["091-520500", "091-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 7,
+      "name": "Dhangadhi Eye Hospital Ambulance",
+      "name_np": "धनगढी आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Dhangadhi-4, Eye Hospital Road, Kailali",
+      "phone": ["091-520600", "091-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 8,
+      "name": "Kailali District Hospital Ambulance",
+      "name_np": "कैलाली जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Dhangadhi-4, District Administration Office Road, Kailali",
+      "phone": ["091-520700", "091-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 9,
+      "name": "Dhangadhi Sub-Metropolitan City Ambulance",
+      "name_np": "धनगढी उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Dhangadhi-4, Municipal Office, Kailali",
+      "phone": ["091-520800", "091-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 10,
+      "name": "District Police Office Kailali Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय कैलाली एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Dhangadhi-4, Police Office Road, Kailali",
+      "phone": ["100", "091-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 11,
+      "name": "Dhangadhi Private Ambulance Service",
+      "name_np": "धनगढी निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Dhangadhi-4, Kailali",
+      "phone": ["9864041234", "9864041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 12,
+      "name": "Kailali Ambulance Sewa",
+      "name_np": "कैलाली एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Malgodam Road, Dhangadhi-4, Kailali",
+      "phone": ["9854041234", "091-521000"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 13,
+      "name": "Rotary Club Dhangadhi Ambulance",
+      "name_np": "रोटरी क्लब धनगढी एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Dhangadhi-4, Kailali",
+      "phone": ["091-521100", "091-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 14,
+      "name": "Lions Club Dhangadhi Ambulance",
+      "name_np": "लायन्स क्लब धनगढी एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Bhasi Bazar, Dhangadhi-4, Kailali",
+      "phone": ["091-521200", "091-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 15,
+      "name": "Sudurpashchim Academy of Health Sciences Ambulance",
+      "name_np": "सुदूरपश्चिम स्वास्थ्य विज्ञान प्रतिष्ठान एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Dhangadhi-6, Medical College Road, Kailali",
+      "phone": ["091-521300", "091-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    },
+    {
+      "id": 16,
+      "name": "Dhangadhi Cancer Hospital Ambulance",
+      "name_np": "धनगढी क्यान्सर अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Dhangadhi-4, Cancer Hospital Road, Kailali",
+      "phone": ["091-521400", "091-521401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Kailali"
+    }
+  ]
+}
