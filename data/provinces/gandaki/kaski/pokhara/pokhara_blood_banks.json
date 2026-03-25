@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Blood banks in Pokhara"
+  },
+  "blood_banks": [
+    {
+      "id": 1,
+      "name": "Pokhara Blood Bank",
+      "type": "Government",
+      "address": "Pokhara Academy of Health Sciences",
+      "phone": ["061-460866"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Manipal Blood Bank",
+      "type": "Private",
+      "address": "Manipal Teaching Hospital, Pokhara",
+      "phone": ["061-526416"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Red Cross Blood Bank Pokhara",
+      "type": "NGO",
+      "address": "Chipledhunga, Pokhara",
+      "phone": ["061-520100"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Fishtail Hospital Blood Bank",
+      "type": "Private",
+      "address": "Fishtail Hospital, Pokhara",
+      "phone": ["061-537901"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Charak Memorial Blood Bank",
+      "type": "Private",
+      "address": "Charak Memorial Hospital, Pokhara",
+      "phone": ["061-520866"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Gandaki Blood Bank",
+      "type": "Government",
+      "address": "Kaski District Hospital, Pokhara",
+      "phone": ["061-520183"],
+      "hours": "24/7",
+      "district": "Kaski"
+    }
+  ]
+}

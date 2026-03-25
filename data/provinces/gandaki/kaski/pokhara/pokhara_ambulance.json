@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Ambulance services in Pokhara"
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Pokhara Ambulance Service",
+      "type": "Government",
+      "phone": ["102", "061-520999"],
+      "address": "Pokhara Academy of Health Sciences",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Manipal Ambulance",
+      "type": "Hospital",
+      "phone": ["061-526416"],
+      "address": "Manipal Teaching Hospital, Pokhara",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Red Cross Ambulance Pokhara",
+      "type": "NGO",
+      "phone": ["061-522233"],
+      "address": "Chipledhunga, Pokhara",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Fishtail Ambulance",
+      "type": "Hospital",
+      "phone": ["061-537901"],
+      "address": "Fishtail Hospital, Pokhara",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Charak Memorial Ambulance",
+      "type": "Hospital",
+      "phone": ["061-520866"],
+      "address": "Charak Memorial Hospital, Pokhara",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Mountain Ambulance Pokhara",
+      "type": "Private",
+      "phone": ["061-535714"],
+      "address": "Prithvi Chowk, Pokhara",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Lakeside Ambulance",
+      "type": "Private",
+      "phone": ["061-462866"],
+      "address": "Lakeside, Pokhara",
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Emergency Ambulance Pokhara",
+      "type": "Emergency",
+      "phone": ["102"],
+      "address": "Pokhara-5, Kaski",
+      "hours": "24/7",
+      "district": "Kaski"
+    }
+  ]
+}
