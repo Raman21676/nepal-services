@@ -63,10 +63,19 @@ class NepalServicesApp {
     }
     
     populateFilters() {
-        // Populate province filter
+        // Get filter elements
         const provinceFilter = document.getElementById('provinceFilter');
-        const provinceNames = CONFIG.PROVINCE_NAMES;
+        const districtFilter = document.getElementById('districtFilter');
+        const cityFilter = document.getElementById('cityFilter');
+        const categoryFilter = document.getElementById('categoryFilter');
         
+        const provinceNames = CONFIG.PROVINCE_NAMES;
+        const categoryNames = CONFIG.CATEGORY_NAMES;
+        
+        // Populate province filter (keep the first option "All Provinces")
+        while (provinceFilter.options.length > 1) {
+            provinceFilter.remove(1);
+        }
         const sortedProvinces = Array.from(this.availableProvinces).sort();
         sortedProvinces.forEach(province => {
             const option = document.createElement('option');
@@ -75,8 +84,10 @@ class NepalServicesApp {
             provinceFilter.appendChild(option);
         });
         
-        // Populate district filter
-        const districtFilter = document.getElementById('districtFilter');
+        // Populate district filter (keep the first option "All Districts")
+        while (districtFilter.options.length > 1) {
+            districtFilter.remove(1);
+        }
         const sortedDistricts = Array.from(this.availableDistricts).sort();
         sortedDistricts.forEach(district => {
             const option = document.createElement('option');
@@ -85,8 +96,10 @@ class NepalServicesApp {
             districtFilter.appendChild(option);
         });
         
-        // Populate city filter
-        const cityFilter = document.getElementById('cityFilter');
+        // Populate city filter (keep the first option "All Cities")
+        while (cityFilter.options.length > 1) {
+            cityFilter.remove(1);
+        }
         const sortedCities = Array.from(this.availableCities).sort();
         sortedCities.forEach(city => {
             const option = document.createElement('option');
@@ -95,15 +108,10 @@ class NepalServicesApp {
             cityFilter.appendChild(option);
         });
         
-        // Populate category filter
-        const categoryFilter = document.getElementById('categoryFilter');
-        const categoryNames = CONFIG.CATEGORY_NAMES;
-        
-        // Clear existing options except "All Categories"
+        // Populate category filter (keep the first option "All Categories")
         while (categoryFilter.options.length > 1) {
             categoryFilter.remove(1);
         }
-        
         const sortedCategories = Array.from(this.availableCategories).sort();
         sortedCategories.forEach(category => {
             const option = document.createElement('option');
@@ -121,23 +129,31 @@ class NepalServicesApp {
         this.uiRenderer.renderResults();
         
         // Scroll to top of results
-        document.getElementById('resultsContainer').scrollIntoView({ behavior: 'smooth' });
+        const resultsSection = document.getElementById('resultsSection');
+        if (resultsSection) {
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+        }
     }
     
     showLoading() {
-        document.getElementById('loading').style.display = 'flex';
+        const loading = document.getElementById('loading');
+        if (loading) loading.style.display = 'flex';
     }
     
     hideLoading() {
-        document.getElementById('loading').style.display = 'none';
+        const loading = document.getElementById('loading');
+        if (loading) loading.style.display = 'none';
     }
     
     showError(message) {
-        document.getElementById('resultsContainer').innerHTML = `
-            <div class="error-message">
-                <p>⚠️ ${message}</p>
-            </div>
-        `;
+        const resultsGrid = document.getElementById('resultsGrid');
+        if (resultsGrid) {
+            resultsGrid.innerHTML = `
+                <div class="error-message">
+                    <p>⚠️ ${message}</p>
+                </div>
+            `;
+        }
     }
 }
 

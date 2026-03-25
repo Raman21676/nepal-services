@@ -93,7 +93,7 @@ class FilterManager {
         districtFilter.value = 'all';
         cityFilter.value = 'all';
         
-        // Update district options based on province
+        // Clear district and city options
         while (districtFilter.options.length > 1) {
             districtFilter.remove(1);
         }
@@ -125,7 +125,8 @@ class FilterManager {
     }
     
     handleDistrictChange() {
-        const districtFilter = document.getElementById('districtFilter').value;
+        const districtFilterValue = document.getElementById('districtFilter').value;
+        const provinceFilter = document.getElementById('provinceFilter').value;
         const cityFilter = document.getElementById('cityFilter');
         
         // Reset city when district changes
@@ -136,9 +137,8 @@ class FilterManager {
             cityFilter.remove(1);
         }
         
-        if (districtFilter === 'all') {
+        if (districtFilterValue === 'all') {
             // Show all cities (respecting province if selected)
-            const provinceFilter = document.getElementById('provinceFilter').value;
             let cities;
             if (provinceFilter === 'all') {
                 cities = this.app.availableCities;
@@ -160,7 +160,7 @@ class FilterManager {
             // Show only cities in selected district
             const citiesInDistrict = new Set(
                 this.app.allData
-                    .filter(item => item._district === districtFilter)
+                    .filter(item => item._district === districtFilterValue)
                     .map(item => item._city)
             );
             const sortedCities = Array.from(citiesInDistrict).sort();
@@ -178,6 +178,14 @@ class FilterManager {
     populateAllOptions() {
         const districtFilter = document.getElementById('districtFilter');
         const cityFilter = document.getElementById('cityFilter');
+        
+        // Clear existing options except "All"
+        while (districtFilter.options.length > 1) {
+            districtFilter.remove(1);
+        }
+        while (cityFilter.options.length > 1) {
+            cityFilter.remove(1);
+        }
         
         // Populate all districts
         const sortedDistricts = Array.from(this.app.availableDistricts).sort();

@@ -265,12 +265,17 @@ class UIRenderer {
     
     renderPagination(totalItems) {
         const totalPages = Math.ceil(totalItems / CONFIG.ITEMS_PER_PAGE);
-        const paginationContainer = document.getElementById('pagination');
+        const paginationContainer = document.getElementById('paginationContainer');
+        
+        if (!paginationContainer) return;
         
         if (totalPages <= 1) {
+            paginationContainer.classList.add('hidden');
             paginationContainer.innerHTML = '';
             return;
         }
+        
+        paginationContainer.classList.remove('hidden');
         
         let paginationHTML = `
             <button class="pagination-btn" ${this.app.currentPage === 1 ? 'disabled' : ''} 
