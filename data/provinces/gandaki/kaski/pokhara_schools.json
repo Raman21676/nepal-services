@@ -12,49 +12,49 @@
     {
       "name": "Gandaki Boarding School",
       "address": "Lamachaur, Ward-16, Pokhara",
-      "contact": "061-440398",
       "contact_secondary": "061-440414",
       "type": "Private",
       "level": "Nursery to +2",
       "category": "boarding",
-      "id": 1
+      "id": 1,
+      "phone": "061-440398"
     },
     {
       "name": "Shree Amarsingh Model Secondary School",
       "address": "Ramghat-12, Pokhara",
-      "contact": "061-520359",
       "contact_secondary": "061-532841",
       "type": "Public",
       "level": "Nursery to +2",
-      "id": 2
+      "id": 2,
+      "phone": "061-520359"
     },
     {
       "name": "SOS Hermann Gmeiner School",
       "address": "Chhorepatan, Ward-17, Pokhara",
-      "contact": "061-453307",
       "type": "Private",
       "level": "KG to +2",
       "category": "boarding",
-      "id": 3
+      "id": 3,
+      "phone": "061-453307"
     },
     {
       "name": "Shree Sainik Awasiya Mahavidyalaya",
       "address": "Phoolbari, Ward-11, Pokhara",
-      "contact": "061-577745",
       "contact_secondary": "061-577746",
       "type": "Public",
       "level": "Grade 6 to +2",
       "category": "military_residential",
-      "id": 4
+      "id": 4,
+      "phone": "061-577745"
     },
     {
       "name": "New Model Secondary School",
       "address": "Naghdhunga, Ward-8, Pokhara",
-      "contact": "061-520484",
       "type": "Private",
       "level": "Nursery to +2",
       "category": "boarding",
-      "id": 5
+      "id": 5,
+      "phone": "061-520484"
     },
     {
       "name": "Pokhara Public School",
@@ -66,18 +66,18 @@
     {
       "name": "Pokhara Kindergarten High School",
       "address": "Gharipatan, Ward-17, Pokhara",
-      "contact": "061-460736",
       "type": "Private",
       "level": "KG to Secondary",
-      "id": 7
+      "id": 7,
+      "phone": "061-460736"
     },
     {
       "name": "Shree Mahendra Secondary School",
       "address": "Bhalam, Ryalechaur, Pokhara",
-      "contact": "061-528100",
       "type": "Public",
       "level": "Primary to Secondary",
-      "id": 8
+      "id": 8,
+      "phone": "061-528100"
     },
     {
       "name": "Gandaki College of Engineering and Science",

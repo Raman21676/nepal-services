@@ -11,58 +11,58 @@
     {
       "id": 1,
       "name": "Police Emergency",
-      "contact": "100",
       "type": "Emergency Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "100"
     },
     {
       "id": 2,
       "name": "Fire Brigade",
-      "contact": "101",
       "type": "Emergency Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "101"
     },
     {
       "id": 3,
       "name": "Ambulance Service",
-      "contact": "102",
       "type": "Emergency Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "102"
     },
     {
       "id": 4,
       "name": "District Police Office Kailali",
-      "contact": "091-520111",
       "type": "Police",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-520111"
     },
     {
       "id": 5,
       "name": "Nepal Red Cross Society Kailali",
-      "contact": "091-520880",
       "type": "NGO",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-520880"
     },
     {
       "id": 6,
       "name": "District Administration Office Kailali",
-      "contact": "091-520100",
       "type": "Government",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "phone": "091-520100"
     },
     {
       "id": 7,
       "name": "Seti Provincial Hospital Emergency",
-      "contact": "091-525911",
       "type": "Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-525911"
     },
     {
       "id": 8,
       "name": "Tikapur Hospital",
-      "contact": "091-560666",
       "type": "Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-560666"
     }
   ]
 }

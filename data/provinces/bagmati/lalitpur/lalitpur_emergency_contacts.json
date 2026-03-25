@@ -8,135 +8,135 @@
   },
   "emergency": [
     {
-      "service": "Police Emergency",
-      "contact": "100",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Police Emergency",
+      "phone": "100"
     },
     {
-      "service": "Fire Brigade",
-      "contact": "101",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Fire Brigade",
+      "phone": "101"
     },
     {
-      "service": "Ambulance Emergency",
-      "contact": "102",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Ambulance Emergency",
+      "phone": "102"
     },
     {
-      "service": "Traffic Police",
-      "contact": "103",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Traffic Police",
+      "phone": "103"
     },
     {
-      "service": "Child Helpline",
-      "contact": "104",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Child Helpline",
+      "phone": "104"
     },
     {
-      "service": "Tourist Police",
-      "contact": "1144",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Tourist Police",
+      "phone": "1144"
     },
     {
-      "service": "Lalitpur Fire Brigade",
-      "contact": "01-5535373",
       "address": "Pulchok, Lalitpur",
       "type": "Fire Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Lalitpur Fire Brigade",
+      "phone": "01-5535373"
     },
     {
-      "service": "Lalitpur Metropolitan Municipality Chief",
-      "contact": "01-5555584",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Lalitpur Metropolitan Municipality Chief",
+      "phone": "01-5555584"
     },
     {
-      "service": "Lalitpur Metropolitan Municipality Deputy Chief",
-      "contact": "01-5555582",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Lalitpur Metropolitan Municipality Deputy Chief",
+      "phone": "01-5555582"
     },
     {
-      "service": "Chief Administrative Officer",
-      "contact": "01-5522563",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Chief Administrative Officer",
+      "phone": "01-5522563"
     },
     {
-      "service": "District Administration Office",
-      "contact": "01-5523051",
       "address": "Lalitpur",
       "type": "Government",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "District Administration Office",
+      "phone": "01-5523051"
     },
     {
-      "service": "Metropolitan Police Complex",
-      "contact": "01-5521350",
       "address": "Lalitpur",
       "type": "Police",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Metropolitan Police Complex",
+      "phone": "01-5521350"
     },
     {
-      "service": "Police Station Pulchok",
-      "contact": "01-5522151",
       "address": "Pulchok, Lalitpur",
       "type": "Police",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Police Station Pulchok",
+      "phone": "01-5522151"
     },
     {
-      "service": "Police Division Sanepa",
-      "contact": "01-5521548",
       "address": "Sanepa, Lalitpur",
       "type": "Police",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Police Division Sanepa",
+      "phone": "01-5521548"
     },
     {
-      "service": "District Public Health Office",
-      "contact": "01-5547915",
       "address": "Lalitpur",
       "type": "Health",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "District Public Health Office",
+      "phone": "01-5547915"
     },
     {
-      "service": "Nepal Red Cross Society Lalitpur",
-      "contact": "01-5541320",
       "address": "Pulchok, Lalitpur",
       "type": "NGO",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Nepal Red Cross Society Lalitpur",
+      "phone": "01-5541320"
     },
     {
-      "service": "Blood Transfusion Center",
-      "contact": "01-5527033",
       "address": "Pulchok, Lalitpur",
       "type": "Blood Bank",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Blood Transfusion Center",
+      "phone": "01-5527033"
     },
     {
-      "service": "Nepal Telecom Jawalakhel",
-      "contact": "01-5010722",
       "address": "Jawalakhel, Lalitpur",
       "type": "Utility",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Nepal Telecom Jawalakhel",
+      "phone": "01-5010722"
     },
     {
-      "service": "Nepal Electricity Authority Pulchok",
-      "contact": "01-5522043",
       "address": "Pulchok, Lalitpur",
       "type": "Utility",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Nepal Electricity Authority Pulchok",
+      "phone": "01-5522043"
     },
     {
-      "service": "Nepal Electricity Authority Lagankhel",
-      "contact": "01-5004312",
       "address": "Lagankhel, Lalitpur",
       "type": "Utility",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Nepal Electricity Authority Lagankhel",
+      "phone": "01-5004312"
     }
   ]
 }

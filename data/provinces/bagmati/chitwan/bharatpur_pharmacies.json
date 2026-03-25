@@ -10,30 +10,30 @@
     {
       "name": "Bharatpur Samudayik Hospital Pharmacy",
       "address": "Hospital Road, Bharatpur-10, Chitwan",
-      "contact": "056-595200",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-595200"
     },
     {
       "name": "CMC Hospital Pharmacy",
       "address": "Chitwan Medical College, Bharatpur",
-      "contact": "056-493101",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-493101"
     },
     {
       "name": "CMS Pharmacy",
       "address": "College of Medical Sciences, Bharatpur",
-      "contact": "056-493012",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-493012"
     },
     {
       "name": "Bharatpur Hospital Sajha Pharmacy",
       "address": "Bharatpur Hospital, Chitwan",
-      "contact": "056-520111",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-520111"
     },
     {
       "name": "City Pharma",

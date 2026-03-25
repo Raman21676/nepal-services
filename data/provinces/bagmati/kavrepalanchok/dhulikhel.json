@@ -10,31 +10,48 @@
     {
       "name": "Dhulikhel Hospital",
       "address": "Dhulikhel, Kavrepalanchok",
-      "contact": "011-490497",
       "email": "admindirector@kusms.edu.np",
       "website": "https://dhulikhelhospital.org",
       "type": "Community Hospital",
       "beds": 350,
-      "services": ["Emergency", "OPD", "Surgery", "ICU", "NICU", "Dialysis", "Cancer Care", "Telemedicine"],
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery",
+        "ICU",
+        "NICU",
+        "Dialysis",
+        "Cancer Care",
+        "Telemedicine"
+      ],
       "hours": "24/7",
-      "note": "Kathmandu University Teaching Hospital, serves 2.5 million people from 7 districts"
+      "note": "Kathmandu University Teaching Hospital, serves 2.5 million people from 7 districts",
+      "phone": "011-490497"
     },
     {
       "name": "Scheer Memorial Adventist Hospital",
       "address": "Banepa, Kavrepalanchok",
-      "contact": "011-661111",
       "website": "https://scheermemorial.org",
       "type": "Private",
-      "services": ["Emergency", "Surgery", "Cancer Care", "Nursing Education"],
-      "hours": "24/7"
+      "services": [
+        "Emergency",
+        "Surgery",
+        "Cancer Care",
+        "Nursing Education"
+      ],
+      "hours": "24/7",
+      "phone": "011-661111"
     },
     {
       "name": "Methinkot Hospital",
       "address": "Bhakundebesi, Kavrepalanchok",
-      "contact": "011-495111",
       "email": "methinkothospital@gmail.com",
       "type": "Community Hospital",
-      "services": ["General Medicine", "Emergency"]
+      "services": [
+        "General Medicine",
+        "Emergency"
+      ],
+      "phone": "011-495111"
     }
   ],
   "clinics": [
@@ -43,7 +60,12 @@
       "address": "Banepa-07, Kavrepalanchok",
       "contact": "9851363457",
       "type": "Dental Clinic",
-      "services": ["Dental Implants", "Root Canal", "Orthodontics", "Cosmetic Dentistry"]
+      "services": [
+        "Dental Implants",
+        "Root Canal",
+        "Orthodontics",
+        "Cosmetic Dentistry"
+      ]
     }
   ],
   "ambulance": [

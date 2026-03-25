@@ -1,1 +1,35 @@
-{"metadata":{"city":"dipayal","district":"udoti","province":"Sudurpashchim","last_updated":"2026-03-25","source":"Health Office, Red Cross","total_records":2},"ambulance":[{"id":1,"name":"udoti District Hospital Ambulance","provider":"District Hospital","phone":["094-420100"],"type":"Hospital","service":"24/7 emergency transport","district":"udoti","address":"dipayal, udoti"},{"id":2,"name":"Red Cross Ambulance udoti","provider":"Nepal Red Cross Society","phone":["102","094-420124"],"type":"NGO","service":"Emergency ambulance service","district":"udoti","address":"dipayal, udoti"}]}
+{
+  "metadata": {
+    "city": "dipayal",
+    "district": "udoti",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Health Office, Red Cross",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "094-420100"
+      ],
+      "type": "Hospital",
+      "district": "udoti",
+      "address": "dipayal, udoti"
+    },
+    {
+      "id": 2,
+      "name": "Emergency ambulance service",
+      "provider": "Nepal Red Cross Society",
+      "phone": [
+        "102",
+        "094-420124"
+      ],
+      "type": "NGO",
+      "district": "udoti",
+      "address": "dipayal, udoti"
+    }
+  ]
+}

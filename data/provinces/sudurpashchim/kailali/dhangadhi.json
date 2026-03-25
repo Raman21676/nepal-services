@@ -12,7 +12,6 @@
     {
       "name": "Seti Provincial Hospital",
       "address": "Dhangadhi-1, Kailali",
-      "contact": "091-525911",
       "email": "seti.hospital@gmail.com",
       "website": "https://sph.gov.np",
       "type": "Government",
@@ -34,12 +33,12 @@
         "Pathology"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-525911"
     },
     {
       "name": "Maya Metro Hospital",
       "address": "Chatakpur-3, Dhangadhi",
-      "contact": "091-416140",
       "contact_secondary": "9804633106",
       "email": "mayametrohpl@gmail.com",
       "website": "https://www.mayametrohpl.com",
@@ -58,12 +57,12 @@
         "Laparoscopic Surgery"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-416140"
     },
     {
       "name": "Navajeevan Hospital",
       "address": "Dhangadhi-4, Kailali",
-      "contact": "091-521233",
       "contact_secondary": "091-521733",
       "website": "https://navajeevanaspatal.com",
       "type": "Private",
@@ -77,12 +76,12 @@
         "Psychiatry"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "091-521233"
     },
     {
       "name": "Nisarga Hospital",
       "address": "Near Nepal Rastra Bank, Dhangadhi-5, Hasanpur",
-      "contact": "9865680100",
       "email": "nisargahospitalnepal@gmail.com",
       "website": "https://nisargahospitalnepal.com",
       "type": "Private",
@@ -92,12 +91,12 @@
         "Surgery"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9865680100"
     },
     {
       "name": "KG Hospital Dhangadhi",
       "address": "Dhangadhi, Kailali",
-      "contact": "9858477356",
       "website": "https://kghospital.com.np",
       "type": "Private",
       "services": [
@@ -109,27 +108,28 @@
         "Diagnostics"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9858477356"
     },
     {
       "name": "Kailali Hospital",
       "address": "Bhimdatta Highway, Dhangadhi",
-      "contact": "091-524555",
       "type": "Private",
       "services": [
         "General Medicine",
         "Surgery"
-      ]
+      ],
+      "phone": "091-524555"
     },
     {
       "name": "CP Hospital",
       "address": "Dhangadhi, Kailali",
-      "contact": "091-410102",
       "contact_secondary": "9858424782",
       "type": "Private",
       "services": [
         "General Medicine"
-      ]
+      ],
+      "phone": "091-410102"
     }
   ],
   "ambulance": [
@@ -200,24 +200,85 @@
     }
   ],
   "ward_offices": [
-    {"ward": 1, "address": "Purano Airport Area, Dhangadhi", "contact": "091-520604"},
-    {"ward": 2, "address": "Santoshi Tole, Ratopool Area, Dhangadhi"},
-    {"ward": 3, "chairperson": "Bal Bahadur Aer", "address": "Bhansar-Rajpur Road Area, Dhangadhi"},
-    {"ward": 4, "chairperson": "Deepak Thapa", "address": "Shivapuri Road Area, Dhangadhi"},
-    {"ward": 5, "address": "Ward 5, Dhangadhi"},
-    {"ward": 6, "address": "Jaali-Peepal Chowk to Campus Bridge Road, Dhangadhi"},
-    {"ward": 7, "address": "Ward 7, Dhangadhi"},
-    {"ward": 8, "address": "Ward 8, Dhangadhi"},
-    {"ward": 9, "address": "Ward 9, Dhangadhi"},
-    {"ward": 10, "address": "Ward 10, Dhangadhi"},
-    {"ward": 11, "address": "Ward 11, Dhangadhi"},
-    {"ward": 12, "address": "Ward 12, Dhangadhi"},
-    {"ward": 13, "address": "Ward 13, Dhangadhi"},
-    {"ward": 14, "address": "Ward 14, Dhangadhi"},
-    {"ward": 15, "chairperson": "Phool Ram Chaudhary", "address": "Ward 15, Dhangadhi"},
-    {"ward": 16, "address": "Ward 16, Dhangadhi"},
-    {"ward": 17, "address": "Urma-Dhurjanna Road Area, Dhangadhi"},
-    {"ward": 18, "address": "Ward 18, Dhangadhi"},
-    {"ward": 19, "address": "Ward 19, Dhangadhi"}
+    {
+      "ward": 1,
+      "address": "Purano Airport Area, Dhangadhi",
+      "contact": "091-520604"
+    },
+    {
+      "ward": 2,
+      "address": "Santoshi Tole, Ratopool Area, Dhangadhi"
+    },
+    {
+      "ward": 3,
+      "chairperson": "Bal Bahadur Aer",
+      "address": "Bhansar-Rajpur Road Area, Dhangadhi"
+    },
+    {
+      "ward": 4,
+      "chairperson": "Deepak Thapa",
+      "address": "Shivapuri Road Area, Dhangadhi"
+    },
+    {
+      "ward": 5,
+      "address": "Ward 5, Dhangadhi"
+    },
+    {
+      "ward": 6,
+      "address": "Jaali-Peepal Chowk to Campus Bridge Road, Dhangadhi"
+    },
+    {
+      "ward": 7,
+      "address": "Ward 7, Dhangadhi"
+    },
+    {
+      "ward": 8,
+      "address": "Ward 8, Dhangadhi"
+    },
+    {
+      "ward": 9,
+      "address": "Ward 9, Dhangadhi"
+    },
+    {
+      "ward": 10,
+      "address": "Ward 10, Dhangadhi"
+    },
+    {
+      "ward": 11,
+      "address": "Ward 11, Dhangadhi"
+    },
+    {
+      "ward": 12,
+      "address": "Ward 12, Dhangadhi"
+    },
+    {
+      "ward": 13,
+      "address": "Ward 13, Dhangadhi"
+    },
+    {
+      "ward": 14,
+      "address": "Ward 14, Dhangadhi"
+    },
+    {
+      "ward": 15,
+      "chairperson": "Phool Ram Chaudhary",
+      "address": "Ward 15, Dhangadhi"
+    },
+    {
+      "ward": 16,
+      "address": "Ward 16, Dhangadhi"
+    },
+    {
+      "ward": 17,
+      "address": "Urma-Dhurjanna Road Area, Dhangadhi"
+    },
+    {
+      "ward": 18,
+      "address": "Ward 18, Dhangadhi"
+    },
+    {
+      "ward": 19,
+      "address": "Ward 19, Dhangadhi"
+    }
   ]
 }

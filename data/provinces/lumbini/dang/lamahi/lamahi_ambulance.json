@@ -1,1 +1,23 @@
-{"metadata":{"city":"Lamahi","district":"Dang","province":"Lumbini","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Lamahi Hospital Ambulance","provider":"Lamahi Hospital","phone":["082-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Dang","address":"Lamahi, Dang"}]}
+{
+  "metadata": {
+    "city": "Lamahi",
+    "district": "Dang",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Lamahi Hospital",
+      "phone": [
+        "082-520100"
+      ],
+      "type": "Hospital",
+      "district": "Dang",
+      "address": "Lamahi, Dang"
+    }
+  ]
+}

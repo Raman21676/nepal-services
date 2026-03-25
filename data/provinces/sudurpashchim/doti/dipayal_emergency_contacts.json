@@ -11,37 +11,37 @@
     {
       "id": 1,
       "name": "Police Emergency",
-      "contact": "100",
       "type": "Emergency Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "100"
     },
     {
       "id": 2,
       "name": "Fire Brigade",
-      "contact": "101",
       "type": "Emergency Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "101"
     },
     {
       "id": 3,
       "name": "Ambulance Service",
-      "contact": "102",
       "type": "Emergency Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "102"
     },
     {
       "id": 4,
       "name": "District Police Office Doti",
-      "contact": "094-420100",
       "type": "Police",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "094-420100"
     },
     {
       "id": 5,
       "name": "Doti District Hospital",
-      "contact": "094-420043",
       "type": "Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "094-420043"
     }
   ]
 }

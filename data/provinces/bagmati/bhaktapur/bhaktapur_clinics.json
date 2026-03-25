@@ -10,113 +10,144 @@
     {
       "name": "Bhaktapur Hospital",
       "address": "Dudhpati, Bhaktapur Municipality",
-      "contact": "01-6610676",
       "type": "General Hospital",
       "hours": "24/7",
-      "services": ["Emergency", "OPD", "Surgery", "Maternity", "Pediatrics", "Orthopedics", "ENT", "Dental", "Eye"],
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery",
+        "Maternity",
+        "Pediatrics",
+        "Orthopedics",
+        "ENT",
+        "Dental",
+        "Eye"
+      ],
       "beds": 102,
-      "notes": "125 years old - oldest hospital in Nepal"
+      "notes": "125 years old - oldest hospital in Nepal",
+      "phone": "01-6610676"
     },
     {
       "name": "Bhaktapur Cancer Hospital",
       "address": "Dudhpati, Bhaktapur",
-      "contact": "01-6611532",
       "email": "bch@ntc.net.np",
       "website": "https://bch.org.np",
       "type": "Specialty Hospital",
       "hours": "24/7",
-      "services": ["Chemotherapy", "Radiotherapy", "Surgery", "Brachytherapy", "Palliative Care"],
-      "beds": 110
+      "services": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Surgery",
+        "Brachytherapy",
+        "Palliative Care"
+      ],
+      "beds": 110,
+      "phone": "01-6611532"
     },
     {
       "name": "Bhaktapur International Hospital",
       "address": "Kaushaltar, Madhyapur Thimi-3, Bhaktapur",
-      "contact": "01-6637171",
       "emergency": "9861991100",
       "email": "info@bihospital.com.np",
       "website": "https://bihospital.com.np",
       "type": "Multi-specialty Hospital",
       "hours": "24/7",
-      "services": ["Emergency", "Cardiology", "Dental", "Obstetrics", "Gynecology", "Radiology", "Surgery"]
+      "services": [
+        "Emergency",
+        "Cardiology",
+        "Dental",
+        "Obstetrics",
+        "Gynecology",
+        "Radiology",
+        "Surgery"
+      ],
+      "phone": "01-6637171"
     },
     {
       "name": "Siddhi Memorial Women and Children Hospital",
       "address": "Adarsha Marga, Bhaktapur Municipality",
-      "contact": "01-6612945",
       "type": "Women & Children Hospital",
       "hours": "24/7",
-      "services": ["Maternity", "Pediatrics", "Gynecology"]
+      "services": [
+        "Maternity",
+        "Pediatrics",
+        "Gynecology"
+      ],
+      "phone": "01-6612945"
     },
     {
       "name": "Dr. Iwamura Memorial Hospital",
       "address": "Sallaghari, Bhaktapur Municipality",
-      "contact": "01-6612705",
       "type": "General Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6612705"
     },
     {
       "name": "Human Body Transplant Centre",
       "address": "Dudhpati, Bhaktapur Municipality",
-      "contact": "01-6614709",
       "type": "Specialty Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6614709"
     },
     {
       "name": "Khwopa Hospital",
       "address": "Chyamhasing-9, Bhaktapur",
-      "contact": "01-6610317",
       "type": "General Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6610317"
     },
     {
       "name": "District Community Eye Centre",
       "address": "Chyamasing, Bhaktapur Municipality",
-      "contact": "01-6618058",
       "type": "Eye Hospital",
       "hours": "Sunday-Friday",
-      "services": ["Eye Care", "Eye Surgery"]
+      "services": [
+        "Eye Care",
+        "Eye Surgery"
+      ],
+      "phone": "01-6618058"
     },
     {
       "name": "Public Health Care Center",
       "address": "Chyamasing, Bhaktapur Municipality",
-      "contact": "01-6610317",
       "type": "Health Post",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6610317"
     },
     {
       "name": "Madhyapur Hospital",
       "address": "Araniko Highway, Madhyapur Thimi Municipality",
-      "contact": "01-5093388",
       "type": "General Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5093388"
     },
     {
       "name": "Nagarik Community Teaching Hospital",
       "address": "Gatthaghar, Madhyapur Thimi Municipality",
-      "contact": "01-6637700",
       "type": "Teaching Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6637700"
     },
     {
       "name": "Nepal Korea Friendship Municipality Hospital",
       "address": "Chardobato, Madhyapur Thimi Municipality",
-      "contact": "01-6633442",
       "type": "General Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6633442"
     },
     {
       "name": "KMC Hospital",
       "address": "Duwakot, Changunarayan Municipality",
-      "contact": "01-6616568",
       "type": "General Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6616568"
     },
     {
       "name": "Clinic One Bhaktapur",
       "address": "4th Floor, Ramdevi Complex, Suryabinayak, Bhaktapur",
-      "contact": "9851310113",
       "type": "Polyclinic",
-      "hours": "Sunday-Friday"
+      "hours": "Sunday-Friday",
+      "phone": "9851310113"
     }
   ]
 }

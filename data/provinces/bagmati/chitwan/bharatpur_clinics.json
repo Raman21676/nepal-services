@@ -10,47 +10,74 @@
     {
       "name": "B.P. Koirala Memorial Cancer Hospital",
       "address": "Krishnapur, Bharatpur-7, Chitwan",
-      "contact": "056-524501",
       "type": "Specialty Hospital",
       "hours": "24/7",
-      "services": ["Cancer Treatment", "Radiotherapy", "Chemotherapy", "Surgery"],
-      "note": "Established with Chinese assistance in 1994"
+      "services": [
+        "Cancer Treatment",
+        "Radiotherapy",
+        "Chemotherapy",
+        "Surgery"
+      ],
+      "note": "Established with Chinese assistance in 1994",
+      "phone": "056-524501"
     },
     {
       "name": "Bharatpur Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520111",
       "type": "Government Hospital",
       "hours": "24/7",
-      "services": ["Emergency", "OPD", "Surgery", "ICU"],
-      "note": "Second largest government hospital in Nepal"
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery",
+        "ICU"
+      ],
+      "note": "Second largest government hospital in Nepal",
+      "phone": "056-520111"
     },
     {
       "name": "CMS Teaching Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493012",
       "type": "Teaching Hospital",
       "hours": "24/7",
       "beds": "500",
-      "services": ["Emergency", "OPD", "ICU", "NICU", "PICU", "Surgery"]
+      "services": [
+        "Emergency",
+        "OPD",
+        "ICU",
+        "NICU",
+        "PICU",
+        "Surgery"
+      ],
+      "phone": "056-493012"
     },
     {
       "name": "Chitwan Medical College Teaching Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493101",
       "type": "Teaching Hospital",
       "hours": "24/7",
       "beds": "750",
-      "services": ["Emergency", "OPD", "ICU", "Surgery", "Diagnostic"]
+      "services": [
+        "Emergency",
+        "OPD",
+        "ICU",
+        "Surgery",
+        "Diagnostic"
+      ],
+      "phone": "056-493101"
     },
     {
       "name": "Bharatpur Eye Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520111",
       "type": "Eye Hospital",
       "hours": "Sunday-Friday",
       "beds": "25",
-      "services": ["Eye Care", "Eye Surgery", "Optical"]
+      "services": [
+        "Eye Care",
+        "Eye Surgery",
+        "Optical"
+      ],
+      "phone": "056-520111"
     },
     {
       "name": "Niko Children's Hospital",
@@ -61,18 +88,21 @@
     {
       "name": "Narayani Community Hospital",
       "address": "Chaubishkothi, Bharatpur",
-      "contact": "056-520111",
       "type": "Community Hospital",
       "hours": "24/7",
-      "beds": "150"
+      "beds": "150",
+      "phone": "056-520111"
     },
     {
       "name": "Bharatpur Samudayik Hospital",
       "address": "Bharatpur-10, Chitwan",
-      "contact": "056-595200",
       "type": "Community Hospital",
       "hours": "24/7",
-      "services": ["Emergency", "OPD"]
+      "services": [
+        "Emergency",
+        "OPD"
+      ],
+      "phone": "056-595200"
     },
     {
       "name": "Sishu Fertility Clinic",
@@ -85,7 +115,10 @@
       "address": "Kamalnagar Chowk, Narayangarh, Bharatpur",
       "type": "Dental Hospital",
       "hours": "Sunday-Friday",
-      "services": ["Dental Care", "Oral Surgery"]
+      "services": [
+        "Dental Care",
+        "Oral Surgery"
+      ]
     },
     {
       "name": "Maula Kalika Hospital",
@@ -114,9 +147,9 @@
     {
       "name": "Chitwan Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493101",
       "type": "General Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-493101"
     }
   ]
 }

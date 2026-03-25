@@ -10,19 +10,19 @@
     {
       "name": "Manipal Hospital Pharmacy",
       "address": "Fulbari, Pokhara-11, Kaski",
-      "contact": "061-552666",
       "email": "mth@nepalmanipal.edu.np",
       "type": "Hospital Pharmacy",
       "hours": "24/7",
-      "notes": "Attached to Manipal Teaching Hospital"
+      "notes": "Attached to Manipal Teaching Hospital",
+      "phone": "061-552666"
     },
     {
       "name": "Fewa City Hospital Pharmacy",
       "address": "Nagdhunga, Pokhara-08, Kaski",
-      "contact": "061-582685",
       "email": "fewacitihospital@gmail.com",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "061-582685"
     },
     {
       "name": "Charak Hospital Pharmacy",
@@ -55,7 +55,12 @@
       "website": "www.hartnepal.org",
       "type": "Animal Rescue & Veterinary Clinic",
       "hours": "Open 7 days",
-      "services": ["Low-cost Clinic", "Spay/Neuter", "Street Dog Rescue", "Anti-rabies Camps"],
+      "services": [
+        "Low-cost Clinic",
+        "Spay/Neuter",
+        "Street Dog Rescue",
+        "Anti-rabies Camps"
+      ],
       "established": "2010"
     },
     {
@@ -63,19 +68,30 @@
       "address": "Pokhara, Kaski",
       "mobile": "9846434115",
       "type": "Veterinary Clinic",
-      "services": ["General Care", "Vaccinations", "Health Checkups"]
+      "services": [
+        "General Care",
+        "Vaccinations",
+        "Health Checkups"
+      ]
     },
     {
       "name": "Sunshine Veterinary Centre",
       "address": "Pokhara, Kaski",
       "type": "Veterinary Clinic",
-      "services": ["Consultations", "Pet Care"]
+      "services": [
+        "Consultations",
+        "Pet Care"
+      ]
     },
     {
       "name": "Best Friends Veterinary Hospital",
       "address": "Pokhara, Kaski",
       "type": "Veterinary Hospital",
-      "services": ["Hospital Services", "Pet Surgery", "Animal Healthcare"]
+      "services": [
+        "Hospital Services",
+        "Pet Surgery",
+        "Animal Healthcare"
+      ]
     }
   ]
 }

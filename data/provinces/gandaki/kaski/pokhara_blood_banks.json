@@ -10,31 +10,42 @@
     {
       "name": "NRCS Regional BTSC Pokhara",
       "address": "Ramghat, Pokhara",
-      "contact": "061-521091",
       "contact_secondary": "061-540191",
       "type": "Regional Blood Bank",
-      "services": ["Blood Collection", "Testing", "Storage", "Distribution"]
+      "services": [
+        "Blood Collection",
+        "Testing",
+        "Storage",
+        "Distribution"
+      ],
+      "phone": "061-521091"
     },
     {
       "name": "Manipal Teaching Hospital Blood Bank",
       "address": "Phulbari, Pokhara",
-      "contact": "061-526416",
       "type": "Hospital Blood Bank",
-      "services": ["Blood Transfusion Services"]
+      "services": [
+        "Blood Transfusion Services"
+      ],
+      "phone": "061-526416"
     },
     {
       "name": "Gandaki Medical College Blood Bank",
       "address": "Prithivichowk, Pokhara",
-      "contact": "061-538595",
       "type": "Hospital Blood Bank",
-      "services": ["Blood Bank Services"]
+      "services": [
+        "Blood Bank Services"
+      ],
+      "phone": "061-538595"
     },
     {
       "name": "Pokhara Academy of Health Sciences Blood Bank",
       "address": "Ramghat, Pokhara",
-      "contact": "061-533231",
       "type": "Hospital Blood Bank",
-      "services": ["Blood Transfusion"]
+      "services": [
+        "Blood Transfusion"
+      ],
+      "phone": "061-533231"
     }
   ]
 }

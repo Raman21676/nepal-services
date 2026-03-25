@@ -1,1 +1,23 @@
-{"metadata":{"city":"Bheriganga","district":"Surkhet","province":"Karnali","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Bheriganga Hospital Ambulance","provider":"Bheriganga Hospital","phone":["083-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Surkhet","address":"Bheriganga, Surkhet"}]}
+{
+  "metadata": {
+    "city": "Bheriganga",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Bheriganga Hospital",
+      "phone": [
+        "083-520100"
+      ],
+      "type": "Hospital",
+      "district": "Surkhet",
+      "address": "Bheriganga, Surkhet"
+    }
+  ]
+}

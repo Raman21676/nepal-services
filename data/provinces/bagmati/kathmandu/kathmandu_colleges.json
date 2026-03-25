@@ -10,84 +10,123 @@
     {
       "name": "Tri-Chandra Multiple Campus",
       "address": "Ghantaghar, Ratnapark, Kathmandu",
-      "contact": "01-4225743",
       "email": "info@trc.tu.edu.np",
       "website": "https://trichandracampus.edu.np",
       "type": "Public",
       "affiliation": "Tribhuvan University",
-      "programs": ["BSc", "MSc", "BA", "MA", "BSc CSIT", "BIT"],
-      "established": 1916
+      "programs": [
+        "BSc",
+        "MSc",
+        "BA",
+        "MA",
+        "BSc CSIT",
+        "BIT"
+      ],
+      "established": 1916,
+      "phone": "01-4225743"
     },
     {
       "name": "Amrit Science Campus (ASCOL)",
       "address": "Lainchaur, Lekhnath Marg, Kathmandu",
-      "contact": "01-4411637",
       "contact_secondary": "01-4410408",
       "email": "info@amritcampus.edu.np",
       "website": "https://amritcampus.edu.np",
       "type": "Public",
       "affiliation": "Tribhuvan University",
-      "programs": ["BSc", "BSc CSIT", "BIT"],
-      "established": 1962
+      "programs": [
+        "BSc",
+        "BSc CSIT",
+        "BIT"
+      ],
+      "established": 1962,
+      "phone": "01-4411637"
     },
     {
       "name": "St. Xavier's College",
       "address": "Maitighar, Kathmandu",
-      "contact": "01-5321365",
       "contact_secondary": "01-5344636",
       "email": "ktm@sxc.edu.np",
       "website": "https://www.sxc.edu.np",
       "type": "Private",
       "affiliation": "Tribhuvan University",
-      "programs": ["+2 Science", "A-Level", "BA", "BBS", "BIM", "MBS"],
-      "established": 1988
+      "programs": [
+        "+2 Science",
+        "A-Level",
+        "BA",
+        "BBS",
+        "BIM",
+        "MBS"
+      ],
+      "established": 1988,
+      "phone": "01-5321365"
     },
     {
       "name": "Patan Academy of Health Sciences",
       "address": "Lagankhel, Lalitpur",
-      "contact": "01-5545112",
       "contact_secondary": "01-5545153",
       "email": "pahs@pahs.edu.np",
       "website": "https://www.pahs.edu.np",
       "type": "Public",
       "affiliation": "Autonomous",
-      "programs": ["MBBS", "MD", "MS", "MPH", "Nursing"],
-      "established": 2008
+      "programs": [
+        "MBBS",
+        "MD",
+        "MS",
+        "MPH",
+        "Nursing"
+      ],
+      "established": 2008,
+      "phone": "01-5545112"
     },
     {
       "name": "Kathmandu Medical College",
       "address": "Sinamangal, Kathmandu",
-      "contact": "01-4469064",
       "type": "Private",
       "affiliation": "Kathmandu University",
-      "programs": ["MBBS", "MD", "MS"]
+      "programs": [
+        "MBBS",
+        "MD",
+        "MS"
+      ],
+      "phone": "01-4469064"
     },
     {
       "name": "Nepal Medical College",
       "address": "Gokarna, Jorpati, Kathmandu",
-      "contact": "01-4911008",
       "email": "principal@nmcth.edu",
       "type": "Private",
       "affiliation": "Kathmandu University",
-      "programs": ["MBBS", "MD", "MS"]
+      "programs": [
+        "MBBS",
+        "MD",
+        "MS"
+      ],
+      "phone": "01-4911008"
     },
     {
       "name": "National College",
       "address": "Dhumbarahi, Kathmandu",
-      "contact": "01-4520871",
       "contact_secondary": "9844186272",
       "type": "Private",
       "affiliation": "Kathmandu University",
-      "programs": ["BBA", "MBA", "BSc"]
+      "programs": [
+        "BBA",
+        "MBA",
+        "BSc"
+      ],
+      "phone": "01-4520871"
     },
     {
       "name": "Nepal College of Management",
       "address": "Dhobighat, Lalitpur",
-      "contact": "01-5540752",
       "email": "info@ncm.edu.np",
       "type": "Private",
       "affiliation": "Kathmandu University",
-      "programs": ["BBA", "MBA"]
+      "programs": [
+        "BBA",
+        "MBA"
+      ],
+      "phone": "01-5540752"
     }
   ]
 }

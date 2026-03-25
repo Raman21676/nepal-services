@@ -10,12 +10,17 @@
     {
       "name": "Sindhuli Hospital",
       "address": "Sindhulimadi, Sindhuli",
-      "contact": "047-520200",
       "email": "shsindhuli132@gmail.com",
       "type": "District Hospital",
       "beds": 50,
-      "services": ["Emergency", "OPD", "Surgery", "ICU"],
-      "hours": "24/7"
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery",
+        "ICU"
+      ],
+      "hours": "24/7",
+      "phone": "047-520200"
     }
   ],
   "ambulance": [

@@ -1,1 +1,35 @@
-{"metadata":{"city":"dasharathchand","district":"ubaitadi","province":"Sudurpashchim","last_updated":"2026-03-25","source":"Health Office, Red Cross","total_records":2},"ambulance":[{"id":1,"name":"ubaitadi District Hospital Ambulance","provider":"District Hospital","phone":["095-420100"],"type":"Hospital","service":"24/7 emergency transport","district":"ubaitadi","address":"dasharathchand, ubaitadi"},{"id":2,"name":"Red Cross Ambulance ubaitadi","provider":"Nepal Red Cross Society","phone":["102","095-420124"],"type":"NGO","service":"Emergency ambulance service","district":"ubaitadi","address":"dasharathchand, ubaitadi"}]}
+{
+  "metadata": {
+    "city": "dasharathchand",
+    "district": "ubaitadi",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Health Office, Red Cross",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "095-420100"
+      ],
+      "type": "Hospital",
+      "district": "ubaitadi",
+      "address": "dasharathchand, ubaitadi"
+    },
+    {
+      "id": 2,
+      "name": "Emergency ambulance service",
+      "provider": "Nepal Red Cross Society",
+      "phone": [
+        "102",
+        "095-420124"
+      ],
+      "type": "NGO",
+      "district": "ubaitadi",
+      "address": "dasharathchand, ubaitadi"
+    }
+  ]
+}

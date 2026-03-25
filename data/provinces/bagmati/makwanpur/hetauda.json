@@ -12,7 +12,6 @@
     {
       "name": "Hetauda Hospital",
       "address": "Rapti Road, Ward No. 1, Hetauda, Makwanpur",
-      "contact": "057-520409",
       "contact_secondary": "057-523977",
       "email": "info@hetaudahospital.gov.np",
       "website": "https://hetaudahospital.gov.np",
@@ -26,12 +25,12 @@
         "Diagnostic Services"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "057-520409"
     },
     {
       "name": "Chure Hill Hospital",
       "address": "Hetauda-11, Thanabharyang, Makwanpur",
-      "contact": "057-524603",
       "type": "Private",
       "services": [
         "24/7 Emergency",
@@ -44,12 +43,12 @@
         "Dialysis"
       ],
       "emergency": true,
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "057-524603"
     },
     {
       "name": "Makwanpur Sahakari Hospital",
       "address": "Bhintuna Marga, Hetauda-1, Makwanpur",
-      "contact": "057-5265787",
       "email": "info@mshospital.org.np",
       "website": "https://mshospital.org.np",
       "type": "Private",
@@ -58,12 +57,12 @@
         "Surgery",
         "Emergency"
       ],
-      "emergency": true
+      "emergency": true,
+      "phone": "057-5265787"
     },
     {
       "name": "Siddhasthali Rural Community Hospital",
       "address": "Hospital Marg, Hetauda-6, Makwanpur",
-      "contact": "057-530566",
       "email": "info@sidhasthalihospital.org",
       "website": "https://www.siddhasthalihospital.org",
       "type": "Private",
@@ -71,19 +70,20 @@
         "General Healthcare",
         "Humanitarian Aid",
         "Health Training"
-      ]
+      ],
+      "phone": "057-530566"
     },
     {
       "name": "Hetauda Community Eye Hospital",
       "address": "Netra Jyoti Marg, Hetauda",
-      "contact": "057-524567",
       "type": "Private",
       "services": [
         "Ophthalmology",
         "Eye Surgery",
         "Eye Screening",
         "Outreach Programs"
-      ]
+      ],
+      "phone": "057-524567"
     },
     {
       "name": "Hetauda Orthopaedic & General Hospital",
@@ -100,20 +100,20 @@
     {
       "name": "Prime International Hospital",
       "address": "Bhintuna Marg, Hetauda, Makwanpur",
-      "contact": "057-520570",
       "type": "Private",
       "services": [
         "General Medicine"
-      ]
+      ],
+      "phone": "057-520570"
     },
     {
       "name": "Sancho Hospital",
       "address": "Bhintuna Marga, Hetauda",
-      "contact": "057-590175",
       "type": "Private",
       "services": [
         "General Medicine"
-      ]
+      ],
+      "phone": "057-590175"
     }
   ],
   "ambulance": [
@@ -156,24 +156,84 @@
     }
   ],
   "ward_offices": [
-    {"ward": 1, "address": "Ward 1, Hetauda Sub-Metropolitan City", "notes": "Hetauda Hospital located here"},
-    {"ward": 2, "address": "Ward 2, Hetauda Sub-Metropolitan City"},
-    {"ward": 3, "address": "Ward 3, Hetauda Sub-Metropolitan City"},
-    {"ward": 4, "address": "Ward 4, Hetauda Sub-Metropolitan City"},
-    {"ward": 5, "address": "Ward 5, Hetauda Sub-Metropolitan City"},
-    {"ward": 6, "address": "Ward 6, Hetauda Sub-Metropolitan City", "notes": "Siddhasthali Hospital located here"},
-    {"ward": 7, "address": "Ward 7, Hetauda Sub-Metropolitan City"},
-    {"ward": 8, "address": "Ward 8, Hetauda Sub-Metropolitan City"},
-    {"ward": 9, "address": "Ward 9, Hetauda Sub-Metropolitan City"},
-    {"ward": 10, "address": "Ward 10, Hetauda Sub-Metropolitan City"},
-    {"ward": 11, "address": "Ward 11, Hetauda Sub-Metropolitan City", "notes": "Chure Hill Hospital located here"},
-    {"ward": 12, "address": "Ward 12, Hetauda Sub-Metropolitan City"},
-    {"ward": 13, "address": "Ward 13, Hetauda Sub-Metropolitan City"},
-    {"ward": 14, "address": "Ward 14, Hetauda Sub-Metropolitan City"},
-    {"ward": 15, "address": "Ward 15, Hetauda Sub-Metropolitan City"},
-    {"ward": 16, "address": "Ward 16, Hetauda Sub-Metropolitan City"},
-    {"ward": 17, "address": "Ward 17, Hetauda Sub-Metropolitan City"},
-    {"ward": 18, "address": "Ward 18, Hetauda Sub-Metropolitan City"},
-    {"ward": 19, "address": "Ward 19, Hetauda Sub-Metropolitan City"}
+    {
+      "ward": 1,
+      "address": "Ward 1, Hetauda Sub-Metropolitan City",
+      "notes": "Hetauda Hospital located here"
+    },
+    {
+      "ward": 2,
+      "address": "Ward 2, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 3,
+      "address": "Ward 3, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 4,
+      "address": "Ward 4, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 5,
+      "address": "Ward 5, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 6,
+      "address": "Ward 6, Hetauda Sub-Metropolitan City",
+      "notes": "Siddhasthali Hospital located here"
+    },
+    {
+      "ward": 7,
+      "address": "Ward 7, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 8,
+      "address": "Ward 8, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 9,
+      "address": "Ward 9, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 10,
+      "address": "Ward 10, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 11,
+      "address": "Ward 11, Hetauda Sub-Metropolitan City",
+      "notes": "Chure Hill Hospital located here"
+    },
+    {
+      "ward": 12,
+      "address": "Ward 12, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 13,
+      "address": "Ward 13, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 14,
+      "address": "Ward 14, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 15,
+      "address": "Ward 15, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 16,
+      "address": "Ward 16, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 17,
+      "address": "Ward 17, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 18,
+      "address": "Ward 18, Hetauda Sub-Metropolitan City"
+    },
+    {
+      "ward": 19,
+      "address": "Ward 19, Hetauda Sub-Metropolitan City"
+    }
   ]
 }

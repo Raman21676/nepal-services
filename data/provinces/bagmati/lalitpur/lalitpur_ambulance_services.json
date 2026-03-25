@@ -9,74 +9,74 @@
   "ambulance": [
     {
       "name": "Nepal Ambulance Service",
-      "contact": "01-4104595",
       "type": "Emergency Ambulance",
       "hours": "24/7",
-      "notes": "National ambulance service"
+      "notes": "National ambulance service",
+      "phone": "01-4104595"
     },
     {
       "name": "Patan Hospital Ambulance",
-      "contact": "01-5522278",
       "address": "Lagankhel, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5522278"
     },
     {
       "name": "Patan Hospital Emergency",
-      "contact": "9840255888",
       "address": "Lagankhel, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9840255888"
     },
     {
       "name": "B&B Hospital Ambulance",
-      "contact": "01-5970999",
       "address": "Gwarko, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5970999"
     },
     {
       "name": "Nepal Mediciti Hospital Ambulance",
-      "contact": "01-4217766",
       "address": "Bhaisepati, Lalitpur",
       "type": "Hospital Ambulance",
       "hours": "24/7",
-      "emergency_hotline": "1134"
+      "emergency_hotline": "1134",
+      "phone": "01-4217766"
     },
     {
       "name": "Star Hospital Ambulance",
-      "contact": "01-5450198",
       "address": "Sanepa, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5450198"
     },
     {
       "name": "Sumeru Hospital Ambulance",
-      "contact": "01-5275377",
       "address": "Dhapakhel, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5275377"
     },
     {
       "name": "Alka Hospital Ambulance",
-      "contact": "01-5970795",
       "address": "Jawalakhel, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5970795"
     },
     {
       "name": "Sarvanga Hospital Ambulance",
-      "contact": "01-5544118",
       "address": "Kupondole, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5544118"
     },
     {
       "name": "Mental Hospital Ambulance",
-      "contact": "01-5521333",
       "address": "Lagankhel, Lalitpur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5521333"
     }
   ]
 }

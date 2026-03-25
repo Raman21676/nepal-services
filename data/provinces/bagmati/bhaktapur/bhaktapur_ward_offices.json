@@ -38,7 +38,7 @@
       "name": "Ward 1 Office - Madhyapur Thimi",
       "address": "Madhyapur Thimi",
       "municipality": "Madhyapur Thimi Municipality",
-      "contact": "01-6630555"
+      "phone": "01-6630555"
     },
     {
       "ward": 3,
@@ -57,7 +57,7 @@
       "name": "Ward 1 Office - Suryabinayak",
       "address": "Suryabinayak",
       "municipality": "Suryabinayak Municipality",
-      "contact": "01-6612193"
+      "phone": "01-6612193"
     },
     {
       "ward": 7,
@@ -70,7 +70,7 @@
       "name": "Ward 1 Office - Changunarayan",
       "address": "Changunarayan",
       "municipality": "Changunarayan Municipality",
-      "contact": "01-5141086"
+      "phone": "01-5141086"
     },
     {
       "ward": 7,

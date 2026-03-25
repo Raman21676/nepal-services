@@ -10,21 +10,24 @@
   "ambulance": [
     {
       "id": 1,
-      "name": "Parasi District Hospital Ambulance",
+      "name": "24/7 emergency transport",
       "provider": "District Hospital",
-      "phone": ["078-520100"],
+      "phone": [
+        "078-520100"
+      ],
       "type": "Hospital",
-      "service": "24/7 emergency transport",
       "district": "Parasi",
       "address": "Ramgram, Parasi"
     },
     {
       "id": 2,
-      "name": "Red Cross Ambulance Parasi",
+      "name": "Emergency ambulance service",
       "provider": "Nepal Red Cross Society",
-      "phone": ["102", "078-520124"],
+      "phone": [
+        "102",
+        "078-520124"
+      ],
       "type": "NGO",
-      "service": "Emergency ambulance service",
       "district": "Parasi",
       "address": "Ramgram, Parasi"
     }

@@ -12,7 +12,6 @@
     {
       "name": "Chitwan Medical College Teaching Hospital",
       "address": "Bharatpur-10, Chitwan",
-      "contact": "056-524643",
       "email": "cmch@cmc.com.np",
       "website": "www.cmc.com.np",
       "type": "Private",
@@ -28,12 +27,12 @@
         "MRI",
         "Dialysis"
       ],
-      "emergency": true
+      "emergency": true,
+      "phone": "056-524643"
     },
     {
       "name": "Bharatpur Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520660",
       "website": "www.bharatpurhospital.gov.np",
       "type": "Government",
       "beds": 300,
@@ -44,12 +43,12 @@
         "Obstetrics",
         "Pediatrics"
       ],
-      "emergency": true
+      "emergency": true,
+      "phone": "056-520660"
     },
     {
       "name": "Narayani Hospital",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-525555",
       "website": "www.narayanihospital.com.np",
       "type": "Private",
       "services": [
@@ -58,12 +57,12 @@
         "Surgery",
         "ICU"
       ],
-      "emergency": true
+      "emergency": true,
+      "phone": "056-525555"
     },
     {
       "name": "Bharatpur Eye Hospital",
       "address": "By Pass Road, Bharatpur-10, Chitwan",
-      "contact": "056-521106",
       "email": "bharatpureyehospital@gmail.com",
       "website": "www.bharatpureyehospital.org.np",
       "type": "Charitable",
@@ -74,19 +73,20 @@
         "Retina",
         "Pediatric Ophthalmology"
       ],
-      "emergency": true
+      "emergency": true,
+      "phone": "056-521106"
     },
     {
       "name": "Bharatpur Samudayik Hospital",
       "address": "Bharatpur-10, Chitwan",
-      "contact": "056-524111",
       "website": "www.bsh.com.np",
       "type": "Community",
       "services": [
         "General Medicine",
         "Surgery",
         "Maternity"
-      ]
+      ],
+      "phone": "056-524111"
     }
   ],
   "ambulance": [

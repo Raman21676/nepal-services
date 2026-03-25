@@ -10,58 +10,78 @@
     {
       "name": "Nepal Red Cross Society Lalitpur Blood Bank",
       "address": "Pulchowk, Lalitpur",
-      "contact": "01-5427033",
       "type": "Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Donation", "Blood Transfusion", "Emergency Blood Supply"]
+      "services": [
+        "Blood Donation",
+        "Blood Transfusion",
+        "Emergency Blood Supply"
+      ],
+      "phone": "01-5427033"
     },
     {
       "name": "Patan Hospital Blood Bank",
       "address": "Lagankhel, Lalitpur",
-      "contact": "01-5522295",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion", "Emergency Blood Supply"]
+      "services": [
+        "Blood Transfusion",
+        "Emergency Blood Supply"
+      ],
+      "phone": "01-5522295"
     },
     {
       "name": "Nepal Mediciti Hospital Blood Bank",
       "address": "Nakhkhu, Bhaisepati, Lalitpur",
-      "contact": "01-4217766",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion", "Component Therapy"]
+      "services": [
+        "Blood Transfusion",
+        "Component Therapy"
+      ],
+      "phone": "01-4217766"
     },
     {
       "name": "B&B Hospital Blood Bank",
       "address": "Gwarko, Lalitpur",
-      "contact": "01-5970999",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion", "Emergency Blood Supply"]
+      "services": [
+        "Blood Transfusion",
+        "Emergency Blood Supply"
+      ],
+      "phone": "01-5970999"
     },
     {
       "name": "Star Hospital Blood Bank",
       "address": "Sanepa, Lalitpur",
-      "contact": "01-5450198",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion", "Blood Component"]
+      "services": [
+        "Blood Transfusion",
+        "Blood Component"
+      ],
+      "phone": "01-5450198"
     },
     {
       "name": "Sumeru Hospital Blood Bank",
       "address": "Dhapakhel, Lalitpur",
-      "contact": "01-5275377",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion"]
+      "services": [
+        "Blood Transfusion"
+      ],
+      "phone": "01-5275377"
     },
     {
       "name": "Alka Hospital Blood Bank",
       "address": "Jawalakhel, Lalitpur",
-      "contact": "01-5970795",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion"]
+      "services": [
+        "Blood Transfusion"
+      ],
+      "phone": "01-5970795"
     }
   ]
 }

@@ -10,26 +10,41 @@
     {
       "name": "Dhading Hospital",
       "address": "Dhadingbesi, Dhading",
-      "contact": "010-520130",
       "email": "dhodhd.hospital@gmail.com",
       "website": "https://dhadinghospital.bagamati.gov.np",
       "type": "Government",
       "beds": 50,
-      "services": ["Emergency", "OPD", "Surgery", "ICU", "Dialysis", "Dental", "Laboratory", "X-Ray"],
-      "hours": "24/7"
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery",
+        "ICU",
+        "Dialysis",
+        "Dental",
+        "Laboratory",
+        "X-Ray"
+      ],
+      "hours": "24/7",
+      "phone": "010-520130"
     },
     {
       "name": "Shahid Memorial Hospital",
       "address": "Dhadingbesi, Dhading",
       "type": "Private",
-      "services": ["General Medicine", "Surgery"],
+      "services": [
+        "General Medicine",
+        "Surgery"
+      ],
       "hours": "24/7"
     },
     {
       "name": "Dhading District Eye Hospital",
       "address": "Dhadingbesi, Dhading",
       "type": "Government",
-      "services": ["Eye Care", "Eye Surgery"],
+      "services": [
+        "Eye Care",
+        "Eye Surgery"
+      ],
       "hours": "Sunday-Friday"
     }
   ],

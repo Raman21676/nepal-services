@@ -10,12 +10,16 @@
     {
       "name": "Ramechhap District Hospital",
       "address": "Manthali, Ramechhap",
-      "contact": "048-520200",
       "email": "ramechhaphospital@gmail.com",
       "type": "District Hospital",
       "beds": 25,
-      "services": ["Emergency", "OPD", "Surgery"],
-      "hours": "24/7"
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery"
+      ],
+      "hours": "24/7",
+      "phone": "048-520200"
     }
   ],
   "ambulance": [

@@ -11,22 +11,38 @@
       "name": "Amargadhi Hospital",
       "type": "Government",
       "address": "Amargadhi, Dadeldhura",
-      "contact": "+977-9848788888",
-      "services": ["Emergency", "General Medicine", "Surgery", "Maternity"]
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery",
+        "Maternity"
+      ],
+      "phone": "+977-9848788888"
     },
     {
       "name": "Seti Zonal Hospital",
       "type": "Government",
       "address": "Amargadhi-5, Dadeldhura",
-      "contact": "+977-9858788889",
-      "services": ["Emergency", "ICU", "General Surgery", "Orthopedics", "Pediatrics"]
+      "services": [
+        "Emergency",
+        "ICU",
+        "General Surgery",
+        "Orthopedics",
+        "Pediatrics"
+      ],
+      "phone": "+977-9858788889"
     },
     {
       "name": "Dadeldhura District Hospital",
       "type": "Government",
       "address": "Amargadhi, Dadeldhura",
-      "contact": "+977-9848788890",
-      "services": ["Emergency", "General Medicine", "Maternity", "OPD"]
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Maternity",
+        "OPD"
+      ],
+      "phone": "+977-9848788890"
     }
   ],
   "ambulance": [

@@ -1,1 +1,35 @@
-{"metadata":{"city":"Sindhulimadi","district":"Sindhuli","province":"Bagmati","last_updated":"2026-03-25","source":"Health Office, Red Cross","total_records":2},"ambulance":[{"id":1,"name":"Sindhuli District Hospital Ambulance","provider":"District Hospital","phone":["047-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Sindhuli","address":"Sindhulimadi, Sindhuli"},{"id":2,"name":"Red Cross Ambulance Sindhuli","provider":"Nepal Red Cross Society","phone":["102","047-520124"],"type":"NGO","service":"Emergency ambulance service","district":"Sindhuli","address":"Sindhulimadi, Sindhuli"}]}
+{
+  "metadata": {
+    "city": "Sindhulimadi",
+    "district": "Sindhuli",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office, Red Cross",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "047-520100"
+      ],
+      "type": "Hospital",
+      "district": "Sindhuli",
+      "address": "Sindhulimadi, Sindhuli"
+    },
+    {
+      "id": 2,
+      "name": "Emergency ambulance service",
+      "provider": "Nepal Red Cross Society",
+      "phone": [
+        "102",
+        "047-520124"
+      ],
+      "type": "NGO",
+      "district": "Sindhuli",
+      "address": "Sindhulimadi, Sindhuli"
+    }
+  ]
+}

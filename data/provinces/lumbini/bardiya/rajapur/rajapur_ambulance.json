@@ -1,1 +1,23 @@
-{"metadata":{"city":"Rajapur","district":"Bardiya","province":"Lumbini","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Rajapur Hospital Ambulance","provider":"Rajapur Hospital","phone":["084-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Bardiya","address":"Rajapur, Bardiya"}]}
+{
+  "metadata": {
+    "city": "Rajapur",
+    "district": "Bardiya",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Rajapur Hospital",
+      "phone": [
+        "084-520100"
+      ],
+      "type": "Hospital",
+      "district": "Bardiya",
+      "address": "Rajapur, Bardiya"
+    }
+  ]
+}

@@ -10,41 +10,52 @@
     {
       "name": "NRCS Regional Blood Transfusion Service Center",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520880",
       "type": "Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Donation", "Blood Transfusion", "Emergency Blood Supply"]
+      "services": [
+        "Blood Donation",
+        "Blood Transfusion",
+        "Emergency Blood Supply"
+      ],
+      "phone": "056-520880"
     },
     {
       "name": "B.P. Koirala Memorial Cancer Hospital Blood Bank",
       "address": "Bharatpur-7, Chitwan",
-      "contact": "056-524501",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion", "Component Therapy"]
+      "services": [
+        "Blood Transfusion",
+        "Component Therapy"
+      ],
+      "phone": "056-524501"
     },
     {
       "name": "CMS Teaching Hospital Blood Bank",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493012",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion"]
+      "services": [
+        "Blood Transfusion"
+      ],
+      "phone": "056-493012"
     },
     {
       "name": "Chitwan Medical College Blood Bank",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493101",
       "type": "Hospital Blood Bank",
       "hours": "24/7",
-      "services": ["Blood Transfusion"]
+      "services": [
+        "Blood Transfusion"
+      ],
+      "phone": "056-493101"
     },
     {
       "name": "Bharatpur Hospital Blood Bank",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520111",
       "type": "Hospital Blood Bank",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-520111"
     }
   ]
 }

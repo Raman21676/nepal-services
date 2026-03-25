@@ -1,1 +1,23 @@
-{"metadata":{"city":"Simara","district":"Bara","province":"Madhesh","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Simara Hospital Ambulance","provider":"Simara Hospital","phone":["053-550200"],"type":"Hospital","service":"24/7 emergency transport","district":"Bara","address":"Simara, Bara"}]}
+{
+  "metadata": {
+    "city": "Simara",
+    "district": "Bara",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Simara Hospital",
+      "phone": [
+        "053-550200"
+      ],
+      "type": "Hospital",
+      "district": "Bara",
+      "address": "Simara, Bara"
+    }
+  ]
+}

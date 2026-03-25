@@ -1,1 +1,23 @@
-{"metadata":{"city":"Taulihawa","district":"Kapilvastu","province":"Lumbini","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Taulihawa Hospital Ambulance","provider":"Taulihawa Hospital","phone":["076-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Kapilvastu","address":"Taulihawa, Kapilvastu"}]}
+{
+  "metadata": {
+    "city": "Taulihawa",
+    "district": "Kapilvastu",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Taulihawa Hospital",
+      "phone": [
+        "076-520100"
+      ],
+      "type": "Hospital",
+      "district": "Kapilvastu",
+      "address": "Taulihawa, Kapilvastu"
+    }
+  ]
+}

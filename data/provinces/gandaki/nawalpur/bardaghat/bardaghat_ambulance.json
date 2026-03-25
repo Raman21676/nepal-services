@@ -1,1 +1,23 @@
-{"metadata":{"city":"Bardaghat","district":"Nawalpur","province":"Gandaki","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Bardaghat Hospital Ambulance","provider":"Bardaghat Hospital","phone":["078-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Nawalpur","address":"Bardaghat, Nawalpur"}]}
+{
+  "metadata": {
+    "city": "Bardaghat",
+    "district": "Nawalpur",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Bardaghat Hospital",
+      "phone": [
+        "078-520100"
+      ],
+      "type": "Hospital",
+      "district": "Nawalpur",
+      "address": "Bardaghat, Nawalpur"
+    }
+  ]
+}

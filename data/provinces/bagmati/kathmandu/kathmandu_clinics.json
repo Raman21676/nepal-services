@@ -12,7 +12,6 @@
     {
       "name": "Nita Polyclinic & Diagnostic Center",
       "address": "Near Rastrapati Bhawan, Maharajgunj-3, Kathmandu",
-      "contact": "01-4003006",
       "email": "info@nitapolyclinic.com.np",
       "website": "https://nitapolyclinic.com.np",
       "type": "Polyclinic",
@@ -24,12 +23,12 @@
         "Multi-Specialty Consultations",
         "Vaccinations",
         "IME"
-      ]
+      ],
+      "phone": "01-4003006"
     },
     {
       "name": "M.G. Polyclinic & Diagnostic Center",
       "address": "Bimala Sadan, Maitidevi Marga, Kathmandu-30",
-      "contact": "01-4533399",
       "contact_secondary": "9818128688",
       "email": "mgpolyclinic.dc@gmail.com",
       "website": "https://mgpolyclinic.com.np",
@@ -41,12 +40,12 @@
         "Radiology",
         "Cardiology",
         "Video X-Ray"
-      ]
+      ],
+      "phone": "01-4533399"
     },
     {
       "name": "Kathmandu Polyclinic",
       "address": "Prasutimarg, Thapathali, Kathmandu",
-      "contact": "980-3222693",
       "website": "https://kathmandupolyclinic.com.np",
       "type": "Polyclinic",
       "services": [
@@ -56,12 +55,12 @@
         "Pediatrics",
         "Radiology",
         "Dermatology"
-      ]
+      ],
+      "phone": "980-3222693"
     },
     {
       "name": "Norvic International Hospital - OPD",
       "address": "Thapathali, Kathmandu",
-      "contact": "01-5970032",
       "contact_secondary": "01-4101600",
       "emergency": "01-5911623",
       "email": "info@norvichospital.com",
@@ -75,12 +74,12 @@
         "ICU",
         "NICU",
         "IME"
-      ]
+      ],
+      "phone": "01-5970032"
     },
     {
       "name": "Grande International Hospital",
       "address": "Dhapasi, Tokha, Kathmandu",
-      "contact": "01-5159266",
       "contact_secondary": "9801202550",
       "email": "info@grandehospital.com",
       "website": "https://www.grandehospital.com",
@@ -92,12 +91,12 @@
         "Gastroenterology",
         "Oncology",
         "Orthopedics"
-      ]
+      ],
+      "phone": "01-5159266"
     },
     {
       "name": "Om Hospital & Research Centre",
       "address": "Chabahil, Kathmandu",
-      "contact": "01-4476225",
       "emergency": "9802076225",
       "email": "omhrc@omhospitalnepal.com",
       "website": "https://www.omhospitalnepal.com",
@@ -109,12 +108,12 @@
         "Gastroenterology",
         "Neurology",
         "Dental"
-      ]
+      ],
+      "phone": "01-4476225"
     },
     {
       "name": "Nepal International Clinic",
       "address": "Kaldhara, Thamel, Kathmandu",
-      "contact": "01-4434642",
       "contact_secondary": "01-4435357",
       "email": "nepalinternationalclinic@gmail.com",
       "website": "http://nepalinternationalclinic.com",
@@ -125,12 +124,12 @@
         "Ultrasound",
         "Laboratory",
         "Vaccinations"
-      ]
+      ],
+      "phone": "01-4434642"
     },
     {
       "name": "DentaLife Oral Concern",
       "address": "Jamal, Siddhi Bhawan - Kantipath, Kathmandu",
-      "contact": "01-4163520",
       "contact_secondary": "9843488192",
       "email": "support@dentalife.com.np",
       "website": "https://dentalife.com.np",
@@ -141,12 +140,12 @@
         "Teeth Whitening",
         "Clear Aligners",
         "Orthodontics"
-      ]
+      ],
+      "phone": "01-4163520"
     },
     {
       "name": "Tilganga Institute of Ophthalmology",
       "address": "Gaushala, Bagmati Bridge, Ring Road, Kathmandu",
-      "contact": "01-5970048",
       "contact_secondary": "01-4465294",
       "email": "info@tilganga.org",
       "website": "https://www.tilganga.org",
@@ -159,12 +158,12 @@
         "LASIK",
         "Eye Bank",
         "24/7 Emergency Eye"
-      ]
+      ],
+      "phone": "01-5970048"
     },
     {
       "name": "Kathmandu ENT Hospital",
       "address": "Await Marg, Kathmandu",
-      "contact": "01-",
       "website": "https://ktmenthospital.com.np",
       "type": "ENT",
       "services": [
@@ -173,7 +172,8 @@
         "Rhinology",
         "Head and Neck Surgery",
         "Sleep Medicine"
-      ]
+      ],
+      "phone": "01-"
     },
     {
       "name": "Good Life Physiotherapy",
@@ -190,7 +190,6 @@
     {
       "name": "Arogin Care Home & Physiotherapy",
       "address": "Near Embassy of Finland, Bishalnagar, Kathmandu",
-      "contact": "01-4423423",
       "email": "info@arogincarehome.com",
       "website": "https://arogincarehome.com",
       "type": "Physiotherapy",
@@ -199,7 +198,8 @@
         "Physiotherapy",
         "Stroke Rehabilitation",
         "Palliative Care"
-      ]
+      ],
+      "phone": "01-4423423"
     },
     {
       "id": 1080,
@@ -414,7 +414,6 @@
     {
       "name": "Karuna City Clinic",
       "address": "RASAP Bhawan, Naya Bazar, Kathmandu",
-      "contact": "01-4362488",
       "email": "info@karunacityclinic.com",
       "website": null,
       "type": "Multi-specialty Clinic",
@@ -428,12 +427,12 @@
         "ECG",
         "ECHO",
         "Health Check-ups"
-      ]
+      ],
+      "phone": "01-4362488"
     },
     {
       "name": "Nepal Lab House",
       "address": "Pinglasthan-8, Gaushala, Kathmandu",
-      "contact": "01-4497523",
       "email": "info@nepallabhouse.com",
       "website": null,
       "type": "Diagnostic Laboratory",
@@ -444,12 +443,12 @@
         "Home Care",
         "Dental Clinic",
         "OPD Services"
-      ]
+      ],
+      "phone": "01-4497523"
     },
     {
       "name": "Sarwanidan Clinic",
       "address": "Ratopul, Gaushala, Kathmandu",
-      "contact": "01-4478923",
       "email": "info@sarwanidanclinic.com",
       "website": null,
       "type": "Multi-specialty Clinic",
@@ -462,12 +461,12 @@
         "Dental",
         "Immunizations",
         "Laboratory"
-      ]
+      ],
+      "phone": "01-4478923"
     },
     {
       "name": "Lobo Nepal Polyclinic",
       "address": "Sahyogi Nagar, Koteshwor, Kathmandu",
-      "contact": "01-4602034",
       "email": null,
       "website": null,
       "type": "Polyclinic",
@@ -477,12 +476,12 @@
         "Gynecology",
         "Orthopedics",
         "Dermatology"
-      ]
+      ],
+      "phone": "01-4602034"
     },
     {
       "name": "Overseas Friendship International Hospital",
       "address": "Kathmandu",
-      "contact": "01-4445678",
       "email": null,
       "website": null,
       "type": "Hospital",
@@ -491,12 +490,12 @@
         "Surgery",
         "Diagnostics",
         "Emergency"
-      ]
+      ],
+      "phone": "01-4445678"
     },
     {
       "name": "Promed Multispeciality Center",
       "address": "Kathmandu",
-      "contact": "01-4498765",
       "email": null,
       "website": null,
       "type": "Multi-specialty",
@@ -505,12 +504,12 @@
         "Cardiology",
         "Orthopedics",
         "Diagnostics"
-      ]
+      ],
+      "phone": "01-4498765"
     },
     {
       "name": "Apollo Diagnostic Center",
       "address": "Kathmandu",
-      "contact": "01-4423456",
       "email": null,
       "website": null,
       "type": "Diagnostic Center",
@@ -518,12 +517,12 @@
         "Pathology",
         "Radiology",
         "Health Check-ups"
-      ]
+      ],
+      "phone": "01-4423456"
     },
     {
       "name": "Shikharam Pathlab & Medical Center",
       "address": "Kathmandu",
-      "contact": "01-4471234",
       "email": null,
       "website": null,
       "type": "Diagnostic & Medical",
@@ -531,12 +530,12 @@
         "Laboratory",
         "General OPD",
         "Radiology"
-      ]
+      ],
+      "phone": "01-4471234"
     },
     {
       "name": "Dr. Lalpath Labs Nepal",
       "address": "Kathmandu",
-      "contact": "01-4432156",
       "email": null,
       "website": "https://www.lalpathlabs.com/nepal",
       "type": "Diagnostic Laboratory",
@@ -544,12 +543,12 @@
         "Pathology",
         "Blood Tests",
         "Health Packages"
-      ]
+      ],
+      "phone": "01-4432156"
     },
     {
       "name": "Sooriya Healthcare",
       "address": "New Baneshwor, Kathmandu",
-      "contact": "01-4789012",
       "email": null,
       "website": null,
       "type": "Healthcare Center",
@@ -557,12 +556,12 @@
         "Comprehensive Healthcare",
         "Diagnostic Testing",
         "Medical Care"
-      ]
+      ],
+      "phone": "01-4789012"
     },
     {
       "name": "Life Quest Clinical Lab",
       "address": "Maharajgunj-3, Panipokhari, Kathmandu",
-      "contact": "01-4006789",
       "email": null,
       "website": null,
       "type": "Diagnostic Laboratory",
@@ -570,12 +569,12 @@
         "Laboratory Testing",
         "Diagnostics",
         "Health Screening"
-      ]
+      ],
+      "phone": "01-4006789"
     },
     {
       "name": "Sutra Diagnostic",
       "address": "Chuchepati, Kathmandu",
-      "contact": "01-4912345",
       "email": null,
       "website": null,
       "type": "Diagnostic Laboratory",
@@ -583,12 +582,12 @@
         "Pathology",
         "Radiology",
         "Laboratory Services"
-      ]
+      ],
+      "phone": "01-4912345"
     },
     {
       "name": "Pratham Pathology Lab",
       "address": "Panipokhari-3, Kathmandu",
-      "contact": "01-4007890",
       "email": null,
       "website": null,
       "type": "Pathology Lab",
@@ -596,24 +595,24 @@
         "ISO Accredited Pathology",
         "Diagnostic Testing",
         "Health Packages"
-      ]
+      ],
+      "phone": "01-4007890"
     },
     {
       "name": "National Reference Laboratory (NRL)",
       "address": "New Baneshwor, Kathmandu",
-      "contact": "01-4783456",
       "email": null,
       "website": null,
       "type": "Reference Laboratory",
       "services": [
         "High-quality Lab Services",
         "International Standards Testing"
-      ]
+      ],
+      "phone": "01-4783456"
     },
     {
       "name": "Bio-Diagnostics Path Labs Nepal",
       "address": "3rd Floor, Oil Mills Building, Sukedhara, Kathmandu",
-      "contact": "01-4956789",
       "email": null,
       "website": null,
       "type": "Diagnostic Laboratory",
@@ -621,36 +620,36 @@
         "Diagnostic Services",
         "Patient Care",
         "Accurate Testing"
-      ]
+      ],
+      "phone": "01-4956789"
     },
     {
       "name": "Central Diagnostic Laboratory and Research Center",
       "address": "Kamalpokhari-28, Kathmandu",
-      "contact": "01-4438901",
       "email": null,
       "website": null,
       "type": "Diagnostic & Research",
       "services": [
         "Diagnostic Testing",
         "Research Services"
-      ]
+      ],
+      "phone": "01-4438901"
     },
     {
       "name": "Tokha Horizon Healthcare",
       "address": "Tokha Road, Kathmandu",
-      "contact": "01-4387654",
       "email": null,
       "website": null,
       "type": "Healthcare Center",
       "services": [
         "Quality Healthcare",
         "Family Medicine"
-      ]
+      ],
+      "phone": "01-4387654"
     },
     {
       "name": "RB Diagnostic",
       "address": "Kathmandu",
-      "contact": "01-4412345",
       "email": null,
       "website": null,
       "type": "Diagnostic Center",
@@ -658,24 +657,24 @@
         "Pathology",
         "Radiology",
         "Diagnostics"
-      ]
+      ],
+      "phone": "01-4412345"
     },
     {
       "name": "Niramaya Diagnostics",
       "address": "Kathmandu",
-      "contact": "01-4423456",
       "email": null,
       "website": null,
       "type": "Diagnostic Center",
       "services": [
         "Laboratory",
         "Health Screening"
-      ]
+      ],
+      "phone": "01-4423456"
     },
     {
       "name": "Riddhi Siddhi Diagnostic & Research Center",
       "address": "Kathmandu",
-      "contact": "01-4434567",
       "email": null,
       "website": null,
       "type": "Diagnostic & Research",
@@ -683,24 +682,24 @@
         "Diagnostics",
         "Research",
         "Pathology"
-      ]
+      ],
+      "phone": "01-4434567"
     },
     {
       "name": "National Path Lab",
       "address": "Kathmandu",
-      "contact": "01-4445678",
       "email": null,
       "website": null,
       "type": "Pathology Lab",
       "services": [
         "Pathology",
         "Laboratory Services"
-      ]
+      ],
+      "phone": "01-4445678"
     },
     {
       "name": "Health Care Clinic",
       "address": "Teku Road, Tripureswore, Kathmandu",
-      "contact": "01-4226528",
       "fax": "01-4244488",
       "email": "healthcare@enet.com.np",
       "website": null,
@@ -708,12 +707,12 @@
       "services": [
         "General Medicine",
         "OPD Services"
-      ]
+      ],
+      "phone": "01-4226528"
     },
     {
       "name": "Medharma Multispecialty Clinic",
       "address": "Durbar Marg, Kathmandu",
-      "contact": "01-5454545",
       "contact_secondary": "9810796815",
       "email": "info@medharma.com",
       "website": "https://www.medharma.com",
@@ -721,12 +720,12 @@
       "services": [
         "Multi-specialty Consultation",
         "USA-UK Trained Doctors"
-      ]
+      ],
+      "phone": "01-5454545"
     },
     {
       "name": "CIWEC Hospital",
       "address": "Kapurdhara Marg, Lazimpat, Kathmandu",
-      "contact": "01-4524111",
       "contact_secondary": "01-4524242",
       "fax": "01-4535232",
       "email": "info@ciwec-clinic.com",
@@ -738,12 +737,12 @@
         "Altitude Illness",
         "Dengue",
         "Frostbite Treatment"
-      ]
+      ],
+      "phone": "01-4524111"
     },
     {
       "name": "Nardevi Central Ayurveda Hospital",
       "address": "Nardevi, Kathmandu",
-      "contact": "01-4231444",
       "contact_secondary": "01-4256883",
       "email": null,
       "website": "https://nah.gov.np",
@@ -752,12 +751,12 @@
         "Free Ayurvedic Diagnosis",
         "Free Medicine",
         "Traditional Medicine"
-      ]
+      ],
+      "phone": "01-4231444"
     },
     {
       "name": "Ojus Ayurveda Hospital And Research Centre",
       "address": "Samakhusi-3, Kathmandu, Ranibari Road",
-      "contact": "01-4363161",
       "contact_secondary": "01-4352075",
       "email": null,
       "website": "https://ojusayurveda.com",
@@ -766,12 +765,12 @@
         "Ayurvedic Treatment",
         "Training Programs",
         "Research"
-      ]
+      ],
+      "phone": "01-4363161"
     },
     {
       "name": "Narmada Ayurveda Centre",
       "address": "Seto opi Marga, Koteshwor-35, Kathmandu",
-      "contact": "01-4469792",
       "contact_secondary": "98460922774",
       "email": null,
       "website": "https://narmadahealth.com.np",
@@ -782,12 +781,12 @@
         "Yoga",
         "Healing Touch",
         "Wellness Packages"
-      ]
+      ],
+      "phone": "01-4469792"
     },
     {
       "name": "Astanga Ayurveda Hospital",
       "address": "Kalanki, Kathmandu-14",
-      "contact": "01-5234819",
       "contact_secondary": "9842982035",
       "email": null,
       "website": "https://www.facebook.com/aayurvedanepal",
@@ -797,12 +796,12 @@
         "Physiotherapy",
         "Acupuncture",
         "Ayurvedic Treatment"
-      ]
+      ],
+      "phone": "01-5234819"
     },
     {
       "name": "New Life Health Home",
       "address": "Kathmandu",
-      "contact": "9841902394",
       "contact_secondary": "01-4381352",
       "email": null,
       "website": "https://newlifeayurved.com",
@@ -813,12 +812,12 @@
         "Acupressure",
         "Detoxification",
         "Yoga"
-      ]
+      ],
+      "phone": "9841902394"
     },
     {
       "name": "Moksha Ayurveda & Panchakarma Center",
       "address": "Bakhundole-03, Patan, Lalitpur",
-      "contact": "01-5541584",
       "contact_secondary": "9843021223",
       "email": null,
       "website": "http://mokshaayurveda.com.np",
@@ -829,12 +828,12 @@
         "Therapies",
         "Panchakarma",
         "Pain Management"
-      ]
+      ],
+      "phone": "01-5541584"
     },
     {
       "name": "Ayurveda Health Home",
       "address": "Dhapasi, Kathmandu",
-      "contact": "01-4355144",
       "contact_secondary": "01-4380457",
       "email": null,
       "website": "http://www.ayurveda.com.np",
@@ -844,12 +843,12 @@
         "Recreational Packages",
         "Wellness Programs",
         "Accommodation"
-      ]
+      ],
+      "phone": "01-4355144"
     },
     {
       "name": "Sushwastha Hospital",
       "address": "NK Singh marga, Minbhawan Ukalo, Kathmandu",
-      "contact": "01-4473545",
       "contact_secondary": "01-4477909",
       "email": null,
       "website": "http://sushwasthahospital.com",
@@ -861,12 +860,12 @@
         "Naturopathy",
         "Spa",
         "Ayurveda"
-      ]
+      ],
+      "phone": "01-4473545"
     },
     {
       "name": "Nature Care Hospital",
       "address": "New Baneshwor, Kathmandu",
-      "contact": "01-4785708",
       "contact_secondary": "01-4783477",
       "email": null,
       "website": "http://www.naturecarenepal.com.np",
@@ -879,12 +878,12 @@
         "Yoga",
         "Piles Treatment",
         "Arthritis Treatment"
-      ]
+      ],
+      "phone": "01-4785708"
     },
     {
       "name": "Norvic International Hospital - OPD",
       "address": "Thapathali, Kathmandu",
-      "contact": "01-5970032",
       "contact_secondary": "01-4101600",
       "emergency": "01-5911623",
       "email": "info@norvichospital.com",
@@ -897,12 +896,12 @@
         "CCU",
         "ICU",
         "NICU"
-      ]
+      ],
+      "phone": "01-5970032"
     },
     {
       "name": "Grande International Hospital - OPD",
       "address": "Dhapasi, Tokha, Kathmandu",
-      "contact": "01-5159266",
       "contact_secondary": "9801202550",
       "email": "info@grandehospital.com",
       "website": "https://www.grandehospital.com",
@@ -914,12 +913,12 @@
         "Gastroenterology",
         "Oncology",
         "Orthopedics"
-      ]
+      ],
+      "phone": "01-5159266"
     },
     {
       "name": "Medicare National Hospital",
       "address": "Kathmandu",
-      "contact": "01-4467067",
       "email": null,
       "website": null,
       "type": "Hospital",
@@ -927,12 +926,12 @@
         "General Medicine",
         "Surgery",
         "Diagnostics"
-      ]
+      ],
+      "phone": "01-4467067"
     },
     {
       "name": "Bhaktapur Redcross",
       "address": "Bhaktapur",
-      "contact": "01-6612266",
       "email": null,
       "website": null,
       "type": "Hospital",
@@ -940,7 +939,8 @@
         "General Medicine",
         "Emergency",
         "Blood Bank"
-      ]
+      ],
+      "phone": "01-6612266"
     }
   ]
 }

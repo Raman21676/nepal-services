@@ -10,11 +10,12 @@
   "ambulance": [
     {
       "id": 1,
-      "name": "Manang District Hospital Ambulance",
+      "name": "24/7 emergency transport (limited by road conditions)",
       "provider": "District Hospital",
-      "phone": ["066-440100"],
+      "phone": [
+        "066-440100"
+      ],
       "type": "Hospital",
-      "service": "24/7 emergency transport (limited by road conditions)",
       "district": "Manang",
       "address": "Chame, Manang"
     }

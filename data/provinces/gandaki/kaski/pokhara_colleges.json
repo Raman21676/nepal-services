@@ -10,92 +10,144 @@
     {
       "name": "Manipal College of Medical Sciences (MCOMS)",
       "address": "Deep Heights, Pokhara-16, Kaski",
-      "contact": "061-440600",
       "contact_secondary": "061-440387",
       "email": "admissions@manipalu.com",
       "website": "https://www.nepalmanipal.edu.np",
       "type": "Private",
       "affiliation": "Kathmandu University",
       "established": "1994",
-      "programs": ["MBBS", "BSc Nursing", "BSc Medical Imaging Technology", "BSc Laboratory Medicine", "BHealth Informatics", "BYSW", "MD/MS", "DM/MCh"]
+      "programs": [
+        "MBBS",
+        "BSc Nursing",
+        "BSc Medical Imaging Technology",
+        "BSc Laboratory Medicine",
+        "BHealth Informatics",
+        "BYSW",
+        "MD/MS",
+        "DM/MCh"
+      ],
+      "phone": "061-440600"
     },
     {
       "name": "Gandaki Medical College Teaching Hospital",
       "address": "Nayagaun, Pokhara",
-      "contact": "061-526416",
       "email": "info@gmcthrc.edu.np",
       "website": "http://www.gmcthrc.edu.np",
       "type": "Private",
       "affiliation": "Tribhuvan University (IOM)",
       "established": "2007",
-      "programs": ["MBBS", "BDS", "BSc Nursing", "BNS", "BSc MIT", "BSc MLT", "BPH", "BPharmacy"],
-      "beds": 790
+      "programs": [
+        "MBBS",
+        "BDS",
+        "BSc Nursing",
+        "BNS",
+        "BSc MIT",
+        "BSc MLT",
+        "BPH",
+        "BPharmacy"
+      ],
+      "beds": 790,
+      "phone": "061-526416"
     },
     {
       "name": "Pokhara Academy of Health Sciences",
       "address": "Pokhara",
       "type": "Public",
       "affiliation": "Tribhuvan University",
-      "programs": ["MBBS", "Nursing", "Allied Health Sciences"]
+      "programs": [
+        "MBBS",
+        "Nursing",
+        "Allied Health Sciences"
+      ]
     },
     {
       "name": "Nepal Tourism and Hotel Management College (NTHMC)",
       "address": "Chhinedanda, Pokhara-14, Kaski",
-      "contact": "061-505133",
       "contact_secondary": "061-505078",
       "fax": "061-505222",
       "email": "info@nthmc.edu.np",
       "website": "https://www.nthmc.edu.np",
       "type": "Private",
       "affiliation": "Purbanchal University",
-      "programs": ["BHM", "BBA", "BBA-BI", "+2 Hotel Management"]
+      "programs": [
+        "BHM",
+        "BBA",
+        "BBA-BI",
+        "+2 Hotel Management"
+      ],
+      "phone": "061-505133"
     },
     {
       "name": "Gandaki University",
       "address": "Pokhara",
       "type": "University",
-      "programs": ["BA LLB", "BBA", "BSM", "BPharm", "BIT"]
+      "programs": [
+        "BA LLB",
+        "BBA",
+        "BSM",
+        "BPharm",
+        "BIT"
+      ]
     },
     {
       "name": "Gupteshwor Mahadev Multiple Campus (GMMC)",
       "address": "Chhorepatan, Pokhara-17, Kaski",
-      "contact": "061-455677",
       "email": "info@gmme.edu.np",
       "website": "https://www.gmme.edu.np",
       "type": "Public",
       "affiliation": "Tribhuvan University",
-      "programs": ["BBS", "BA", "BSc"]
+      "programs": [
+        "BBS",
+        "BA",
+        "BSc"
+      ],
+      "phone": "061-455677"
     },
     {
       "name": "Pokhara City College",
       "address": "Gairapatan, Pokhara-4, Kaski",
-      "contact": "061-526458",
       "contact_secondary": "061-527903",
       "type": "Private",
       "affiliation": "Purbanchal University",
-      "programs": ["BBA", "BHM"]
+      "programs": [
+        "BBA",
+        "BHM"
+      ],
+      "phone": "061-526458"
     },
     {
       "name": "Cosmos College of Management and Technology",
       "address": "Pokhara",
-      "contact": "061-526016",
       "type": "Private",
       "affiliation": "Purbanchal University",
-      "programs": ["BBA", "BCA", "BE Computer", "BE Civil"]
+      "programs": [
+        "BBA",
+        "BCA",
+        "BE Computer",
+        "BE Civil"
+      ],
+      "phone": "061-526016"
     },
     {
       "name": "Nobel College Pokhara",
       "address": "Pokhara",
       "type": "Private",
       "affiliation": "Purbanchal University",
-      "programs": ["BBA", "BCA", "BSc"]
+      "programs": [
+        "BBA",
+        "BCA",
+        "BSc"
+      ]
     },
     {
       "name": "Pokhara Technical School",
       "address": "Pokhara",
       "type": "Technical Institute",
       "affiliation": "CTEVT",
-      "programs": ["Diploma in Engineering", "Technical Courses"]
+      "programs": [
+        "Diploma in Engineering",
+        "Technical Courses"
+      ]
     }
   ]
 }

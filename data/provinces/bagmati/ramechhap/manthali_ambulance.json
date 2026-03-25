@@ -1,1 +1,23 @@
-{"metadata":{"city":"Manthali","district":"Ramechhap","province":"Bagmati","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Ramechhap District Hospital Ambulance","provider":"District Hospital","phone":["048-690100"],"type":"Hospital","service":"24/7 emergency transport","district":"Ramechhap","address":"Manthali, Ramechhap"}]}
+{
+  "metadata": {
+    "city": "Manthali",
+    "district": "Ramechhap",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "048-690100"
+      ],
+      "type": "Hospital",
+      "district": "Ramechhap",
+      "address": "Manthali, Ramechhap"
+    }
+  ]
+}

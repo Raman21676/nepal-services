@@ -1,1 +1,23 @@
-{"metadata":{"city":"Chandranigahapur","district":"Rautahat","province":"Madhesh","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Chandranigahapur Hospital Ambulance","provider":"Chandranigahapur Hospital","phone":["055-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Rautahat","address":"Chandranigahapur, Rautahat"}]}
+{
+  "metadata": {
+    "city": "Chandranigahapur",
+    "district": "Rautahat",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Chandranigahapur Hospital",
+      "phone": [
+        "055-520100"
+      ],
+      "type": "Hospital",
+      "district": "Rautahat",
+      "address": "Chandranigahapur, Rautahat"
+    }
+  ]
+}

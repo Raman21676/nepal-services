@@ -1,1 +1,35 @@
-{"metadata":{"city":"Chautara","district":"Sindhupalchok","province":"Bagmati","last_updated":"2026-03-25","source":"Health Office, Red Cross","total_records":2},"ambulance":[{"id":1,"name":"Sindhupalchok District Hospital Ambulance","provider":"District Hospital","phone":["011-620100"],"type":"Hospital","service":"24/7 emergency transport","district":"Sindhupalchok","address":"Chautara, Sindhupalchok"},{"id":2,"name":"Red Cross Ambulance Sindhupalchok","provider":"Nepal Red Cross Society","phone":["102","011-620124"],"type":"NGO","service":"Emergency ambulance service","district":"Sindhupalchok","address":"Chautara, Sindhupalchok"}]}
+{
+  "metadata": {
+    "city": "Chautara",
+    "district": "Sindhupalchok",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office, Red Cross",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "011-620100"
+      ],
+      "type": "Hospital",
+      "district": "Sindhupalchok",
+      "address": "Chautara, Sindhupalchok"
+    },
+    {
+      "id": 2,
+      "name": "Emergency ambulance service",
+      "provider": "Nepal Red Cross Society",
+      "phone": [
+        "102",
+        "011-620124"
+      ],
+      "type": "NGO",
+      "district": "Sindhupalchok",
+      "address": "Chautara, Sindhupalchok"
+    }
+  ]
+}

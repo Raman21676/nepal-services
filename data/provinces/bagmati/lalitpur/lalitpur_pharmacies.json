@@ -10,51 +10,51 @@
     {
       "name": "Nepal Red Cross Society Pharmacy",
       "address": "Pulchowk, Lalitpur",
-      "contact": "01-5427033",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5427033"
     },
     {
       "name": "Patan Hospital Pharmacy",
       "address": "Lagankhel, Lalitpur",
-      "contact": "01-5522295",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5522295"
     },
     {
       "name": "Star Hospital Pharmacy",
       "address": "Sanepa, Lalitpur",
-      "contact": "01-5450198",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5450198"
     },
     {
       "name": "Nepal Mediciti Hospital Pharmacy",
       "address": "Bhaisepati, Lalitpur",
-      "contact": "01-4217766",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-4217766"
     },
     {
       "name": "B&B Hospital Pharmacy",
       "address": "Gwarko, Lalitpur",
-      "contact": "01-5970999",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5970999"
     },
     {
       "name": "Sumeru Hospital Pharmacy",
       "address": "Dhapakhel, Lalitpur",
-      "contact": "01-5275377",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5275377"
     },
     {
       "name": "Alka Hospital Pharmacy",
       "address": "Jawalakhel, Lalitpur",
-      "contact": "01-5970795",
       "type": "Hospital Pharmacy",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5970795"
     },
     {
       "name": "Lagankhel Polyclinic Pharmacy",
@@ -77,9 +77,9 @@
     {
       "name": "Time Medicare Pharmacy",
       "address": "Lagankhel, Lalitpur",
-      "contact": "9851242169",
       "type": "Retail Pharmacy",
-      "hours": "Sunday-Friday"
+      "hours": "Sunday-Friday",
+      "phone": "9851242169"
     },
     {
       "name": "Shreeram Pharmacy",
@@ -90,9 +90,9 @@
     {
       "name": "Gautam Pharmacy",
       "address": "Pulchowk, Lalitpur",
-      "contact": "9851176445",
       "type": "Retail Pharmacy",
-      "hours": "Sunday-Friday"
+      "hours": "Sunday-Friday",
+      "phone": "9851176445"
     },
     {
       "name": "Alka Hospital Pharmacy",

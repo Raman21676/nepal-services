@@ -13,70 +13,70 @@
       "ward": 1,
       "name": "Ward 1 Office - Kupondole",
       "address": "Kupondole, Lalitpur",
-      "contact": "01-5420209",
       "email": "ward1@lmc.gov.np",
-      "chairperson": "Nirmal Tandukar"
+      "chairperson": "Nirmal Tandukar",
+      "phone": "01-5420209"
     },
     {
       "ward": 2,
       "name": "Ward 2 Office - Sanepa",
       "address": "Sanepa, Lalitpur",
-      "contact": "01-5905650",
-      "chairperson": "Santosh Khadka"
+      "chairperson": "Santosh Khadka",
+      "phone": "01-5905650"
     },
     {
       "ward": 3,
       "name": "Ward 3 Office - Pulchok",
       "address": "Pulchok, Lalitpur",
-      "contact": "01-5526316",
-      "chairperson": "Sunil Kumar Rana"
+      "chairperson": "Sunil Kumar Rana",
+      "phone": "01-5526316"
     },
     {
       "ward": 4,
       "name": "Ward 4 Office - Bagdol",
       "address": "Bagdol, Lalitpur",
-      "contact": "9841023245",
-      "chairperson": "Santosh Khadka"
+      "chairperson": "Santosh Khadka",
+      "phone": "9841023245"
     },
     {
       "ward": 5,
       "name": "Ward 5 Office - Khumaltar",
       "address": "Khumaltar, Lalitpur",
-      "contact": "01-5230931",
-      "chairperson": "Krishnahari Thapa"
+      "chairperson": "Krishnahari Thapa",
+      "phone": "01-5230931"
     },
     {
       "ward": 6,
       "name": "Ward 6 Office - Lagankhel",
       "address": "Lagankhel, Lalitpur",
-      "contact": "9857079031",
-      "chairperson": "Shraddha Thapa Magar"
+      "chairperson": "Shraddha Thapa Magar",
+      "phone": "9857079031"
     },
     {
       "ward": 13,
       "name": "Ward 13 Office - Kusunti",
       "address": "Kusunti, Lalitpur",
-      "contact": "01-5536589"
+      "phone": "01-5536589"
     },
     {
       "ward": 14,
       "name": "Ward 14 Office",
       "address": "Lalitpur",
-      "contact": "01-5536589"
+      "phone": "01-5536589"
     },
     {
       "ward": 15,
       "name": "Ward 15 Office - Lagankhel",
       "address": "Lagankhel, Lalitpur",
-      "contact": "9849132768"
+      "phone": "9849132768"
     },
     {
       "ward": 28,
       "name": "Ward 28 Office - Harisiddhi",
       "address": "Harisiddhi, Lalitpur",
-      "contact": "01-4231481",
       "email": "ward28@lmc.gov.np",
-      "chairperson": "Birendra Maharjan"
+      "chairperson": "Birendra Maharjan",
+      "phone": "01-4231481"
     },
     {
       "ward": 29,

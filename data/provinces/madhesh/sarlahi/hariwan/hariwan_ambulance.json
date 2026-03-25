@@ -1,1 +1,23 @@
-{"metadata":{"city":"Hariwan","district":"Sarlahi","province":"Madhesh","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Hariwan Hospital Ambulance","provider":"Hariwan Hospital","phone":["046-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Sarlahi","address":"Hariwan, Sarlahi"}]}
+{
+  "metadata": {
+    "city": "Hariwan",
+    "district": "Sarlahi",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Hariwan Hospital",
+      "phone": [
+        "046-520100"
+      ],
+      "type": "Hospital",
+      "district": "Sarlahi",
+      "address": "Hariwan, Sarlahi"
+    }
+  ]
+}

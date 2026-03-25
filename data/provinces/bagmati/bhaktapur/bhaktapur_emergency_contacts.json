@@ -8,123 +8,123 @@
   },
   "emergency": [
     {
-      "service": "Police Emergency",
-      "contact": "100",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Police Emergency",
+      "phone": "100"
     },
     {
-      "service": "Fire Brigade",
-      "contact": "101",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Fire Brigade",
+      "phone": "101"
     },
     {
-      "service": "Ambulance Emergency",
-      "contact": "102",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Ambulance Emergency",
+      "phone": "102"
     },
     {
-      "service": "Traffic Police",
-      "contact": "103",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Traffic Police",
+      "phone": "103"
     },
     {
-      "service": "Child Helpline",
-      "contact": "104",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Child Helpline",
+      "phone": "104"
     },
     {
-      "service": "Tourist Police",
-      "contact": "1144",
       "type": "National Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Tourist Police",
+      "phone": "1144"
     },
     {
-      "service": "Bhaktapur Fire Brigade",
-      "contact": "01-6610798",
       "address": "Bhaktapur",
       "type": "Fire Service",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Bhaktapur Fire Brigade",
+      "phone": "01-6610798"
     },
     {
-      "service": "Bhaktapur Municipality Office",
-      "contact": "01-6610310",
       "contact_secondary": "01-6613200",
       "address": "Dudhpati, Bhaktapur",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Bhaktapur Municipality Office",
+      "phone": "01-6610310"
     },
     {
-      "service": "Bhaktapur Municipality Emergency",
-      "contact": "9851082799",
       "type": "Municipality Emergency",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Bhaktapur Municipality Emergency",
+      "phone": "9851082799"
     },
     {
-      "service": "Suryabinayak Municipality",
-      "contact": "01-6612193",
       "address": "Suryabinayak, Bhaktapur",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Suryabinayak Municipality",
+      "phone": "01-6612193"
     },
     {
-      "service": "Changunarayan Municipality",
-      "contact": "01-5141086",
       "address": "Changunarayan, Bhaktapur",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Changunarayan Municipality",
+      "phone": "01-5141086"
     },
     {
-      "service": "Madhyapur Thimi Municipality",
-      "contact": "01-6630555",
       "address": "Madhyapur Thimi, Bhaktapur",
       "type": "Municipality",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Madhyapur Thimi Municipality",
+      "phone": "01-6630555"
     },
     {
-      "service": "Bhaktapur District Administration Office",
-      "contact": "01-6611093",
       "type": "Government",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Bhaktapur District Administration Office",
+      "phone": "01-6611093"
     },
     {
-      "service": "Bhaktapur Red Cross Society",
-      "contact": "01-6612266",
       "address": "Dudhpati, Bhaktapur",
       "type": "NGO",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Bhaktapur Red Cross Society",
+      "phone": "01-6612266"
     },
     {
-      "service": "District Community Eye Centre",
-      "contact": "01-6618058",
       "address": "Chyamasing, Bhaktapur",
       "type": "Health",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "District Community Eye Centre",
+      "phone": "01-6618058"
     },
     {
-      "service": "National Tuberculosis Control Center",
-      "contact": "01-6630706",
       "address": "Chardobato, Bhaktapur",
       "type": "Health",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "National Tuberculosis Control Center",
+      "phone": "01-6630706"
     },
     {
-      "service": "Thimi Red Cross",
-      "contact": "9849170256",
       "address": "Madhyapur Thimi",
       "type": "NGO",
-      "hours": "Office Hours"
+      "hours": "Office Hours",
+      "name": "Thimi Red Cross",
+      "phone": "9849170256"
     },
     {
-      "service": "Nagarkot Ambulance",
-      "contact": "9747233600",
       "address": "Nagarkot, Bhaktapur",
       "type": "Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "name": "Nagarkot Ambulance",
+      "phone": "9747233600"
     }
   ]
 }

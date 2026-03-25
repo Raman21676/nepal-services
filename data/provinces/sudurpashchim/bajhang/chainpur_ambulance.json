@@ -1,1 +1,35 @@
-{"metadata":{"city":"chainpur","district":"ubajhang","province":"Sudurpashchim","last_updated":"2026-03-25","source":"Health Office, Red Cross","total_records":2},"ambulance":[{"id":1,"name":"ubajhang District Hospital Ambulance","provider":"District Hospital","phone":["092-420100"],"type":"Hospital","service":"24/7 emergency transport","district":"ubajhang","address":"chainpur, ubajhang"},{"id":2,"name":"Red Cross Ambulance ubajhang","provider":"Nepal Red Cross Society","phone":["102","092-420124"],"type":"NGO","service":"Emergency ambulance service","district":"ubajhang","address":"chainpur, ubajhang"}]}
+{
+  "metadata": {
+    "city": "chainpur",
+    "district": "ubajhang",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Health Office, Red Cross",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "092-420100"
+      ],
+      "type": "Hospital",
+      "district": "ubajhang",
+      "address": "chainpur, ubajhang"
+    },
+    {
+      "id": 2,
+      "name": "Emergency ambulance service",
+      "provider": "Nepal Red Cross Society",
+      "phone": [
+        "102",
+        "092-420124"
+      ],
+      "type": "NGO",
+      "district": "ubajhang",
+      "address": "chainpur, ubajhang"
+    }
+  ]
+}

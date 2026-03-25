@@ -12,30 +12,55 @@
     {
       "name": "Mahakali Provincial Hospital",
       "address": "Ward No. 4, Bhimdatta Municipality, Mahendranagar",
-      "contact": "+977-99-520100",
       "type": "Government",
-      "services": ["Emergency", "General Medicine", "Surgery", "Pediatrics", "Gynecology", "Laboratory"]
+      "services": [
+        "Emergency",
+        "General Medicine",
+        "Surgery",
+        "Pediatrics",
+        "Gynecology",
+        "Laboratory"
+      ],
+      "phone": "+977-99-520100"
     },
     {
       "name": "Cosmos Hospital",
       "address": "Bhimdatta-10, Mahendranagar Main Road",
-      "contact": "+977-99-521234",
       "type": "Private",
-      "services": ["Emergency", "General Surgery", "Orthopedics", "Radiology", "ICU", "Pharmacy"]
+      "services": [
+        "Emergency",
+        "General Surgery",
+        "Orthopedics",
+        "Radiology",
+        "ICU",
+        "Pharmacy"
+      ],
+      "phone": "+977-99-521234"
     },
     {
       "name": "Life Care Hospital",
       "address": "Ward No. 5, Bus Park Area, Mahendranagar",
-      "contact": "+977-99-522345",
       "type": "Private",
-      "services": ["General Medicine", "Dental", "Physiotherapy", "Maternity", "X-Ray"]
+      "services": [
+        "General Medicine",
+        "Dental",
+        "Physiotherapy",
+        "Maternity",
+        "X-Ray"
+      ],
+      "phone": "+977-99-522345"
     },
     {
       "name": "Shree Krishna Hospital",
       "address": "Bhimdatta-3, Near India Border, Mahendranagar",
-      "contact": "+977-99-523456",
       "type": "Private",
-      "services": ["General Surgery", "ENT", "Pathology", "Ambulance Service"]
+      "services": [
+        "General Surgery",
+        "ENT",
+        "Pathology",
+        "Ambulance Service"
+      ],
+      "phone": "+977-99-523456"
     }
   ],
   "ambulance": [

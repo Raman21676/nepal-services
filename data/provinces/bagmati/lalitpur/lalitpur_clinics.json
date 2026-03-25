@@ -10,62 +10,86 @@
     {
       "name": "Patan Hospital Private Clinic",
       "address": "Lagankhel, Patan, Lalitpur",
-      "contact": "01-5548007",
       "type": "Multi-specialty Clinic",
       "hours": "Sunday-Friday",
-      "services": ["OB/GYN", "Surgery", "Pediatrics", "Dermatology", "Internal Medicine", "Orthopedics"]
+      "services": [
+        "OB/GYN",
+        "Surgery",
+        "Pediatrics",
+        "Dermatology",
+        "Internal Medicine",
+        "Orthopedics"
+      ],
+      "phone": "01-5548007"
     },
     {
       "name": "Omkar Polyclinic",
       "address": "Ringroad, Bagdol, Lalitpur",
-      "contact": "01-5190120",
       "type": "Polyclinic",
       "hours": "7 days",
-      "services": ["General Check-up", "Pediatrics", "Gynecology", "Dermatology", "Cardiology", "Radiology", "Orthopedics", "ENT", "Pathology Lab"]
+      "services": [
+        "General Check-up",
+        "Pediatrics",
+        "Gynecology",
+        "Dermatology",
+        "Cardiology",
+        "Radiology",
+        "Orthopedics",
+        "ENT",
+        "Pathology Lab"
+      ],
+      "phone": "01-5190120"
     },
     {
       "name": "Gosaikunda Clinic",
       "address": "Satdobato, Lalitpur",
-      "contact": "01-5151517",
       "type": "Health Clinic",
-      "hours": "Sunday-Friday"
+      "hours": "Sunday-Friday",
+      "phone": "01-5151517"
     },
     {
       "name": "Mahalaxmi Clinic & Diagnostic Center",
       "address": "Mahalaxmisthan, Lalitpur",
-      "contact": "01-5170277",
       "type": "Diagnostic Clinic",
       "hours": "Sunday-Friday",
-      "services": ["General Consultation", "Diagnostic Services"]
+      "services": [
+        "General Consultation",
+        "Diagnostic Services"
+      ],
+      "phone": "01-5170277"
     },
     {
       "name": "Nidan Hospital",
       "address": "Pulchowk, Lalitpur",
-      "contact": "01-5555662",
       "type": "Hospital/Clinic",
       "hours": "24/7",
-      "services": ["Emergency", "OPD", "Diagnostic Services"]
+      "services": [
+        "Emergency",
+        "OPD",
+        "Diagnostic Services"
+      ],
+      "phone": "01-5555662"
     },
     {
       "name": "Megha Hospital",
       "address": "Dhobighat, Lalitpur",
-      "contact": "01-5175155",
       "type": "Hospital/Clinic",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5175155"
     },
     {
       "name": "MIDAT Hospital",
       "address": "Lagankhel, Patan, Lalitpur",
-      "contact": "01-5526316",
       "type": "Specialty Hospital",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-5526316"
     },
     {
       "name": "Lagankhel Polyclinic",
       "address": "Lagankhel, Lalitpur",
-      "contact": "01-5526316",
       "type": "Polyclinic",
-      "hours": "Sunday-Friday"
+      "hours": "Sunday-Friday",
+      "phone": "01-5526316"
     },
     {
       "name": "Nanda Polyclinic",
@@ -76,9 +100,9 @@
     {
       "name": "Kist Polyclinic - Dental",
       "address": "Kharibot, Lalitpur",
-      "contact": "01-5201681",
       "type": "Dental Clinic",
-      "hours": "Sunday-Friday"
+      "hours": "Sunday-Friday",
+      "phone": "01-5201681"
     },
     {
       "name": "32 Smiles Dental Care",
@@ -95,10 +119,15 @@
     {
       "name": "Rhythm Neuropsychiatric Hospital",
       "address": "Ekantakuna, Jawalakhel, Lalitpur",
-      "contact": "01-5450977",
       "type": "Specialty Hospital",
       "hours": "24/7",
-      "services": ["Psychiatry", "Psychology", "De-addiction", "Neurology"]
+      "services": [
+        "Psychiatry",
+        "Psychology",
+        "De-addiction",
+        "Neurology"
+      ],
+      "phone": "01-5450977"
     },
     {
       "name": "Care & Cure Multispeciality Hospital",

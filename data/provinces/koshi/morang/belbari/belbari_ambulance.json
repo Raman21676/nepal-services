@@ -1,1 +1,23 @@
-{"metadata":{"city":"Belbari","district":"Morang","province":"Koshi","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Belbari Hospital Ambulance","provider":"Belbari Hospital","phone":["021-470100"],"type":"Hospital","service":"24/7 emergency transport","district":"Morang","address":"Belbari, Morang"}]}
+{
+  "metadata": {
+    "city": "Belbari",
+    "district": "Morang",
+    "province": "Koshi",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Belbari Hospital",
+      "phone": [
+        "021-470100"
+      ],
+      "type": "Hospital",
+      "district": "Morang",
+      "address": "Belbari, Morang"
+    }
+  ]
+}

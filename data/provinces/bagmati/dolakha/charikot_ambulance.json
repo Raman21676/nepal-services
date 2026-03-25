@@ -1,1 +1,35 @@
-{"metadata":{"city":"Charikot","district":"Dolakha","province":"Bagmati","last_updated":"2026-03-25","source":"Health Office, Red Cross","total_records":2},"ambulance":[{"id":1,"name":"Dolakha District Hospital Ambulance","provider":"District Hospital","phone":["049-420100"],"type":"Hospital","service":"24/7 emergency transport","district":"Dolakha","address":"Charikot, Dolakha"},{"id":2,"name":"Red Cross Ambulance Dolakha","provider":"Nepal Red Cross Society","phone":["102","049-420124"],"type":"NGO","service":"Emergency ambulance service","district":"Dolakha","address":"Charikot, Dolakha"}]}
+{
+  "metadata": {
+    "city": "Charikot",
+    "district": "Dolakha",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office, Red Cross",
+    "total_records": 2
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "049-420100"
+      ],
+      "type": "Hospital",
+      "district": "Dolakha",
+      "address": "Charikot, Dolakha"
+    },
+    {
+      "id": 2,
+      "name": "Emergency ambulance service",
+      "provider": "Nepal Red Cross Society",
+      "phone": [
+        "102",
+        "049-420124"
+      ],
+      "type": "NGO",
+      "district": "Dolakha",
+      "address": "Charikot, Dolakha"
+    }
+  ]
+}

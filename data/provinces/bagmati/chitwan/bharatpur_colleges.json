@@ -10,46 +10,68 @@
     {
       "name": "Agriculture and Forestry University (AFU)",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520142",
       "type": "Public",
       "affiliation": "Government of Nepal",
       "established": "2010",
-      "programs": ["BSc Agriculture", "BSc Forestry", "MSc", "PhD"]
+      "programs": [
+        "BSc Agriculture",
+        "BSc Forestry",
+        "MSc",
+        "PhD"
+      ],
+      "phone": "056-520142"
     },
     {
       "name": "College of Medical Sciences (COMS)",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493012",
       "email": "info@cmsnepal.edu.np",
       "type": "Private",
       "affiliation": "Kathmandu University",
-      "programs": ["MBBS", "BDS", "MD/MS", "Nursing", "Paramedical"]
+      "programs": [
+        "MBBS",
+        "BDS",
+        "MD/MS",
+        "Nursing",
+        "Paramedical"
+      ],
+      "phone": "056-493012"
     },
     {
       "name": "Chitwan Medical College (CMC)",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493101",
       "type": "Private",
       "affiliation": "Tribhuvan University",
-      "programs": ["MBBS", "MD/MS", "BDS", "Nursing"]
+      "programs": [
+        "MBBS",
+        "MD/MS",
+        "BDS",
+        "Nursing"
+      ],
+      "phone": "056-493101"
     },
     {
       "name": "B.P. Koirala Memorial Cancer Hospital Nursing College",
       "address": "Bharatpur-7, Chitwan",
-      "contact": "056-524501",
       "email": "bpkmchnc@bpkmch.org.np",
       "type": "Public",
       "affiliation": "Pokhara University",
-      "programs": ["BSc Nursing", "PCL Nursing"]
+      "programs": [
+        "BSc Nursing",
+        "PCL Nursing"
+      ],
+      "phone": "056-524501"
     },
     {
       "name": "Bharatpur Hospital Nursing Program",
       "address": "Bharatpur-10, Chitwan",
-      "contact": "056-596689",
       "email": "info_nursing@bharatpurhospital.gov.np",
       "type": "Public",
       "affiliation": "Tribhuvan University",
-      "programs": ["BSc Nursing", "PCL Nursing"]
+      "programs": [
+        "BSc Nursing",
+        "PCL Nursing"
+      ],
+      "phone": "056-596689"
     },
     {
       "name": "National College of Technical Science (NCTS)",
@@ -57,7 +79,10 @@
       "type": "Private",
       "affiliation": "CTEVT",
       "established": "2000",
-      "programs": ["Diploma in Veterinary Science", "Diploma in Survey Engineering"]
+      "programs": [
+        "Diploma in Veterinary Science",
+        "Diploma in Survey Engineering"
+      ]
     },
     {
       "name": "Chitwan Higher Secondary School",

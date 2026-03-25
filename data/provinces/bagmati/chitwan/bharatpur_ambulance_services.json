@@ -10,48 +10,60 @@
     {
       "name": "B.P. Koirala Memorial Cancer Hospital Ambulance",
       "address": "Bharatpur-7, Chitwan",
-      "contact": "056-524501",
       "type": "Hospital Ambulance",
       "hours": "24/7",
-      "services": ["Patient Transport", "Emergency Transfer"]
+      "services": [
+        "Patient Transport",
+        "Emergency Transfer"
+      ],
+      "phone": "056-524501"
     },
     {
       "name": "CMS Teaching Hospital Ambulance",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493012",
       "type": "Hospital Ambulance",
       "hours": "24/7",
-      "services": ["Emergency Ambulance", "Patient Transport", "ICU Transport"]
+      "services": [
+        "Emergency Ambulance",
+        "Patient Transport",
+        "ICU Transport"
+      ],
+      "phone": "056-493012"
     },
     {
       "name": "Chitwan Medical College Ambulance",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-493101",
       "type": "Hospital Ambulance",
       "hours": "24/7",
-      "services": ["Emergency Ambulance", "Patient Transport"]
+      "services": [
+        "Emergency Ambulance",
+        "Patient Transport"
+      ],
+      "phone": "056-493101"
     },
     {
       "name": "Bharatpur Hospital Ambulance",
       "address": "Bharatpur, Chitwan",
-      "contact": "056-520111",
       "type": "Hospital Ambulance",
       "hours": "24/7",
-      "services": ["Emergency Ambulance"]
+      "services": [
+        "Emergency Ambulance"
+      ],
+      "phone": "056-520111"
     },
     {
       "name": "Bharatpur Samudayik Hospital Ambulance",
       "address": "Bharatpur-10, Chitwan",
-      "contact": "056-595200",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-595200"
     },
     {
       "name": "Narayani Community Hospital Ambulance",
       "address": "Chaubishkothi, Bharatpur",
-      "contact": "056-520111",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "056-520111"
     }
   ]
 }

@@ -9,92 +9,92 @@
   "ambulance": [
     {
       "name": "Bhaktapur Municipality Ambulance",
-      "contact": "01-6613200",
       "contact_secondary": "9851082799",
       "type": "Municipal Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6613200"
     },
     {
       "name": "Bhaktapur Hospital Ambulance",
-      "contact": "01-6610798",
       "address": "Dudhpati, Bhaktapur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6610798"
     },
     {
       "name": "Bhaktapur Cancer Hospital Ambulance",
-      "contact": "01-6611532",
       "contact_secondary": "9860171552",
       "address": "Dudhpati, Bhaktapur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6611532"
     },
     {
       "name": "Bhaktapur International Hospital Ambulance",
-      "contact": "01-6637171",
       "address": "Kaushaltar, Madhyapur Thimi",
       "type": "Hospital Ambulance",
       "hours": "24/7",
-      "emergency_hotline": "9861991100"
+      "emergency_hotline": "9861991100",
+      "phone": "01-6637171"
     },
     {
       "name": "Siddhi Smriti Hospital Ambulance",
-      "contact": "01-6610570",
       "contact_secondary": "9841204991",
       "address": "Bhaktapur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6610570"
     },
     {
       "name": "Dr. Iwamura Memorial Hospital Ambulance",
-      "contact": "01-6612705",
       "contact_secondary": "986002533",
       "address": "Sallaghari, Bhaktapur",
       "type": "Hospital Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6612705"
     },
     {
       "name": "Red Cross Ambulance Service",
-      "contact": "01-6612266",
       "contact_secondary": "9841489408",
       "address": "Dudhpati, Bhaktapur",
       "type": "NGO Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "01-6612266"
     },
     {
       "name": "Changu Narayan Municipality Ambulance",
-      "contact": "9851214809",
       "address": "Changunarayan",
       "type": "Municipal Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9851214809"
     },
     {
       "name": "Nalingchowk Red Cross Ambulance",
-      "contact": "9741208341",
       "address": "Bhaktapur",
       "type": "NGO Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9741208341"
     },
     {
       "name": "Tathali Red Cross Ambulance",
-      "contact": "9741233815",
       "address": "Tathali, Bhaktapur",
       "type": "NGO Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9741233815"
     },
     {
       "name": "Thimi Red Cross Ambulance",
-      "contact": "9849170256",
       "address": "Madhyapur Thimi",
       "type": "NGO Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9849170256"
     },
     {
       "name": "Sudal Ambulance",
-      "contact": "9843633744",
       "address": "Sudal, Bhaktapur",
       "type": "Local Ambulance",
-      "hours": "24/7"
+      "hours": "24/7",
+      "phone": "9843633744"
     }
   ]
 }

@@ -10,17 +10,25 @@
     {
       "name": "Trishuli Hospital",
       "address": "Bidur, Nuwakot",
-      "contact": "010-560200",
       "type": "District Hospital",
       "beds": 50,
-      "services": ["Emergency", "OPD", "Surgery", "ICU"],
-      "hours": "24/7"
+      "services": [
+        "Emergency",
+        "OPD",
+        "Surgery",
+        "ICU"
+      ],
+      "hours": "24/7",
+      "phone": "010-560200"
     },
     {
       "name": "Nuwakot District Hospital",
       "address": "Bidur, Nuwakot",
       "type": "Government",
-      "services": ["General Medicine", "Emergency"]
+      "services": [
+        "General Medicine",
+        "Emergency"
+      ]
     }
   ],
   "ambulance": [

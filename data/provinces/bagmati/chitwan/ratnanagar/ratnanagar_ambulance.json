@@ -1,1 +1,23 @@
-{"metadata":{"city":"Ratnanagar","district":"Chitwan","province":"Bagmati","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Ratnanagar Hospital Ambulance","provider":"Ratnanagar Hospital","phone":["056-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Chitwan","address":"Ratnanagar, Chitwan"}]}
+{
+  "metadata": {
+    "city": "Ratnanagar",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Ratnanagar Hospital",
+      "phone": [
+        "056-520100"
+      ],
+      "type": "Hospital",
+      "district": "Chitwan",
+      "address": "Ratnanagar, Chitwan"
+    }
+  ]
+}

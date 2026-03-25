@@ -1,1 +1,23 @@
-{"metadata":{"city":"Tikapur","district":"Kailali","province":"Sudurpashchim","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Tikapur Hospital Ambulance","provider":"Tikapur Hospital","phone":["091-580100"],"type":"Hospital","service":"24/7 emergency transport","district":"Kailali","address":"Tikapur, Kailali"}]}
+{
+  "metadata": {
+    "city": "Tikapur",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Tikapur Hospital",
+      "phone": [
+        "091-580100"
+      ],
+      "type": "Hospital",
+      "district": "Kailali",
+      "address": "Tikapur, Kailali"
+    }
+  ]
+}

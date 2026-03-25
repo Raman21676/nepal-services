@@ -1,1 +1,23 @@
-{"metadata":{"city":"Dhunche","district":"Rasuwa","province":"Bagmati","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Rasuwa District Hospital Ambulance","provider":"District Hospital","phone":["010-540100"],"type":"Hospital","service":"24/7 emergency transport","district":"Rasuwa","address":"Dhunche, Rasuwa"}]}
+{
+  "metadata": {
+    "city": "Dhunche",
+    "district": "Rasuwa",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "District Hospital",
+      "phone": [
+        "010-540100"
+      ],
+      "type": "Hospital",
+      "district": "Rasuwa",
+      "address": "Dhunche, Rasuwa"
+    }
+  ]
+}

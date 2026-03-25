@@ -10,11 +10,14 @@
     {
       "name": "Rasuwa District Hospital",
       "address": "Dhunche, Rasuwa",
-      "contact": "010-540200",
       "type": "District Hospital",
       "beds": 25,
-      "services": ["Emergency", "OPD"],
-      "hours": "24/7"
+      "services": [
+        "Emergency",
+        "OPD"
+      ],
+      "hours": "24/7",
+      "phone": "010-540200"
     }
   ],
   "ambulance": [

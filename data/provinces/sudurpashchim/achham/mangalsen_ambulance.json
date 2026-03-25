@@ -10,21 +10,24 @@
   "ambulance": [
     {
       "id": 1,
-      "name": "Achham District Hospital Ambulance",
+      "name": "24/7 emergency transport",
       "provider": "District Hospital",
-      "phone": ["097-620145"],
+      "phone": [
+        "097-620145"
+      ],
       "type": "Hospital",
-      "service": "24/7 emergency transport",
       "district": "Achham",
       "address": "Mangalsen, Achham"
     },
     {
       "id": 2,
-      "name": "Nepal Red Cross Society Ambulance - Achham",
+      "name": "Emergency ambulance service",
       "provider": "Nepal Red Cross Society",
-      "phone": ["102", "097-620124"],
+      "phone": [
+        "102",
+        "097-620124"
+      ],
       "type": "NGO",
-      "service": "Emergency ambulance service",
       "district": "Achham",
       "address": "Mangalsen, Achham"
     }

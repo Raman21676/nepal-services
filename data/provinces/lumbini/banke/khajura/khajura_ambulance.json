@@ -1,1 +1,23 @@
-{"metadata":{"city":"Khajura","district":"Banke","province":"Lumbini","last_updated":"2026-03-25","source":"Health Office","total_records":1},"ambulance":[{"id":1,"name":"Khajura Hospital Ambulance","provider":"Khajura Hospital","phone":["081-520100"],"type":"Hospital","service":"24/7 emergency transport","district":"Banke","address":"Khajura, Banke"}]}
+{
+  "metadata": {
+    "city": "Khajura",
+    "district": "Banke",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "24/7 emergency transport",
+      "provider": "Khajura Hospital",
+      "phone": [
+        "081-520100"
+      ],
+      "type": "Hospital",
+      "district": "Banke",
+      "address": "Khajura, Banke"
+    }
+  ]
+}

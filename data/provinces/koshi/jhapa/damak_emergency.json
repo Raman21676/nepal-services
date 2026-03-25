@@ -7,40 +7,40 @@
   },
   "emergency": [
     {
-      "service": "Police Emergency",
       "name_np": "प्रहरी आपतकालीन",
       "phone": "100",
-      "type": "National Emergency"
+      "type": "National Emergency",
+      "name": "Police Emergency"
     },
     {
-      "service": "Fire Brigade",
       "name_np": "दमकल",
       "phone": "101",
-      "type": "National Emergency"
+      "type": "National Emergency",
+      "name": "Fire Brigade"
     },
     {
-      "service": "Ambulance Emergency",
       "name_np": "एम्बुलेन्स आपतकालीन",
       "phone": "102",
-      "type": "National Emergency"
+      "type": "National Emergency",
+      "name": "Ambulance Emergency"
     },
     {
-      "service": "Damak Police Station",
       "name_np": "दमक प्रहरी चौकी",
       "phone": "023-520100",
-      "type": "Local Police"
+      "type": "Local Police",
+      "name": "Damak Police Station"
     },
     {
-      "service": "Jhapa District Police Office",
       "name_np": "Jhapa जिल्ला प्रहरी कार्यालय",
       "phone": "023-520101",
-      "type": "District Police"
+      "type": "District Police",
+      "name": "Jhapa District Police Office"
     },
     {
-      "service": "Electricity Emergency",
       "name_np": "बिजुली आपतकालीन",
       "phone": "023-520102",
-      "type": "Utility Emergency"
+      "type": "Utility Emergency",
+      "name": "Electricity Emergency"
     }
   ]
 }

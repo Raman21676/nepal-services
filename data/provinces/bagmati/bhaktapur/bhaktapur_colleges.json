@@ -10,62 +10,90 @@
     {
       "name": "Khwopa Engineering College",
       "address": "Libali-2, Bhaktapur",
-      "contact": "01-6614794",
       "contact_secondary": "01-6614798",
       "email": "khec@wlink.com.np",
       "website": "https://www.khec.edu.np",
       "type": "Community College",
       "affiliation": "Purbanchal University",
       "established": "2001",
-      "programs": ["BE Civil", "BE Computer", "BE Electronics Communication & Automation", "B.Architecture", "ME Earthquake", "MSc Urban Design in Conservation"]
+      "programs": [
+        "BE Civil",
+        "BE Computer",
+        "BE Electronics Communication & Automation",
+        "B.Architecture",
+        "ME Earthquake",
+        "MSc Urban Design in Conservation"
+      ],
+      "phone": "01-6614794"
     },
     {
       "name": "Khwopa College of Engineering",
       "address": "Libali, Bhaktapur",
-      "contact": "01-5122098",
       "contact_secondary": "01-5122094",
       "email": "info@khwopa.edu.np",
       "website": "https://khwopa.edu.np",
       "type": "Community College",
       "affiliation": "Tribhuvan University",
       "established": "2008",
-      "programs": ["BE Civil", "BE Electrical", "BE Computer"]
+      "programs": [
+        "BE Civil",
+        "BE Electrical",
+        "BE Computer"
+      ],
+      "phone": "01-5122098"
     },
     {
       "name": "Khwopa College",
       "address": "Dekocha, Bhaktapur (Ward No. 5)",
-      "contact": "01-6610932",
       "contact_secondary": "01-6614336",
       "email": "info@khwopacollege.edu.np",
       "website": "https://www.khwopacollege.edu.np",
       "type": "Community College",
       "affiliation": "Tribhuvan University",
       "established": "1999",
-      "programs": ["BBS", "MBS", "BA", "BBM", "BSW", "MA English", "MA Economics", "BSc Physics", "BSc Environmental Science", "MSc Environmental Science"]
+      "programs": [
+        "BBS",
+        "MBS",
+        "BA",
+        "BBM",
+        "BSW",
+        "MA English",
+        "MA Economics",
+        "BSc Physics",
+        "BSc Environmental Science",
+        "MSc Environmental Science"
+      ],
+      "phone": "01-6610932"
     },
     {
       "name": "Khwopa College of Law",
       "address": "Bhaktapur",
-      "contact": "01-6610932",
       "type": "Law College",
       "affiliation": "Purbanchal University",
       "established": "2022",
-      "programs": ["BA LLB"]
+      "programs": [
+        "BA LLB"
+      ],
+      "phone": "01-6610932"
     },
     {
       "name": "Bhaktapur Multiple Campus",
       "address": "Bhaktapur",
       "type": "Public Campus",
       "affiliation": "Tribhuvan University",
-      "programs": ["BBS", "BA", "BSc"]
+      "programs": [
+        "BBS",
+        "BA",
+        "BSc"
+      ]
     },
     {
       "name": "Khwopa Polytechnic Institute",
       "address": "Bhaktapur",
-      "contact": "01-6610932",
       "type": "Technical Institute",
       "affiliation": "CTEVT",
-      "established": "2004"
+      "established": "2004",
+      "phone": "01-6610932"
     },
     {
       "name": "Padma College",

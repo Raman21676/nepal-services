@@ -10,21 +10,24 @@
   "ambulance": [
     {
       "id": 1,
-      "name": "Eastern Rukum District Hospital Ambulance",
+      "name": "24/7 emergency transport",
       "provider": "District Hospital",
-      "phone": ["088-410100"],
+      "phone": [
+        "088-410100"
+      ],
       "type": "Hospital",
-      "service": "24/7 emergency transport",
       "district": "Eastern Rukum",
       "address": "Rukumkot, Eastern Rukum"
     },
     {
       "id": 2,
-      "name": "Red Cross Ambulance Eastern Rukum",
+      "name": "Emergency ambulance service",
       "provider": "Nepal Red Cross Society",
-      "phone": ["102", "088-410124"],
+      "phone": [
+        "102",
+        "088-410124"
+      ],
       "type": "NGO",
-      "service": "Emergency ambulance service",
       "district": "Eastern Rukum",
       "address": "Rukumkot, Eastern Rukum"
     }
