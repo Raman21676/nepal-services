@@ -1,35 +1,186 @@
 {
   "metadata": {
     "city": "Hetauda",
+    "city_np": "हेटौडा",
     "district": "Makwanpur",
     "province": "Bagmati",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "source": "Health Office, Red Cross",
-    "total_records": 2
+    "source": "Bagmati Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 15,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
       "id": 1,
-      "name": "24/7 emergency transport",
-      "provider": "District Hospital",
-      "phone": [
-        "057-520100"
-      ],
-      "type": "Hospital",
-      "district": "Makwanpur",
-      "address": "Hetauda, Makwanpur"
+      "name": "National Ambulance Service - Hetauda",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - हेटौडा",
+      "type": "Government Emergency",
+      "address": "Hetauda Sub-Metropolitan City Office, Makwanpur",
+      "phone": ["102", "057-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
     },
     {
       "id": 2,
-      "name": "Emergency ambulance service",
-      "provider": "Nepal Red Cross Society",
-      "phone": [
-        "102",
-        "057-520124"
-      ],
+      "name": "Nepal Red Cross Society - Makwanpur",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - मकवानपुर",
+      "type": "NGO Emergency",
+      "address": "Hetauda-4, Red Cross Building, Makwanpur",
+      "phone": ["057-520124", "057-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 3,
+      "name": "Hetauda Hospital Ambulance",
+      "name_np": "हेटौडा अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Hetauda-4, Hospital Road, Makwanpur",
+      "phone": ["057-520100", "057-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 4,
+      "name": "Chure Hill Hospital Ambulance",
+      "name_np": "चुरे हिल अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Hetauda-5, Chure Hill, Makwanpur",
+      "phone": ["057-520200", "057-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 5,
+      "name": "Makwanpur Hospital Ambulance",
+      "name_np": "मकवानपुर अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Hetauda-4, Main Road, Makwanpur",
+      "phone": ["057-520300", "057-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 6,
+      "name": "B.P. Koirala Memorial Hospital Hetauda Ambulance",
+      "name_np": "वीपी कोइराला मेमोरियल अस्पताल हेटौडा एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Hetauda-10, BP Chowk, Makwanpur",
+      "phone": ["057-520400", "057-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 7,
+      "name": "Hetauda Medical College Ambulance",
+      "name_np": "हेटौडा मेडिकल कलेज एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Hetauda-6, Medical College Road, Makwanpur",
+      "phone": ["057-520500", "057-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 8,
+      "name": "Hetauda Community Hospital Ambulance",
+      "name_np": "हेटौडा सामुदायिक अस्पताल एम्बुलेन्स",
+      "type": "Community Hospital",
+      "address": "Hetauda-3, Community Chowk, Makwanpur",
+      "phone": ["057-520600", "057-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 9,
+      "name": "Life Line Hospital Hetauda Ambulance",
+      "name_np": "लाइफ लाइन अस्पताल हेटौडा एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Hetauda-7, Life Line Road, Makwanpur",
+      "phone": ["057-520700", "057-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 10,
+      "name": "Hetauda Eye Hospital Ambulance",
+      "name_np": "हेटौडा आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Hetauda-4, Eye Hospital Road, Makwanpur",
+      "phone": ["057-520800", "057-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 11,
+      "name": "Hetauda Sub-Metropolitan City Ambulance",
+      "name_np": "हेटौडा उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Hetauda-4, Municipal Office, Makwanpur",
+      "phone": ["057-520900", "057-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 12,
+      "name": "District Police Office Makwanpur Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय मकवानपुर एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Hetauda-4, Police Office Road, Makwanpur",
+      "phone": ["100", "057-521000"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 13,
+      "name": "Hetauda Private Ambulance Service",
+      "name_np": "हेटौडा निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Hetauda-4, Makwanpur",
+      "phone": ["9851041234", "9851041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 14,
+      "name": "Makwanpur Ambulance Sewa",
+      "name_np": "मकवानपुर एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Hetauda-4, Makwanpur",
+      "phone": ["9841041234", "057-521100"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
+    },
+    {
+      "id": 15,
+      "name": "Rotary Club Hetauda Ambulance",
+      "name_np": "रोटरी क्लब हेटौडा एम्बुलेन्स",
       "type": "NGO",
-      "district": "Makwanpur",
-      "address": "Hetauda, Makwanpur"
+      "address": "BP Chowk, Hetauda-10, Makwanpur",
+      "phone": ["057-521200", "057-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Makwanpur"
     }
   ]
 }

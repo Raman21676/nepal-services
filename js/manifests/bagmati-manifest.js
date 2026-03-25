@@ -12,7 +12,6 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_blood_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'blood_banks' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_pharmacies.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'pharmacies' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_veterinary.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'veterinary' },
-    { path: 'data/provinces/bagmati/kathmandu/kathmandu_ambulance_services.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ambulance' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_ward_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ward_offices' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_government.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'government' },
     
@@ -50,7 +49,7 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/chitwan/bharatpur_pharmacies.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'pharmacies' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur_veterinary.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'veterinary' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur_blood_banks.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'blood_banks' },
-    { path: 'data/provinces/bagmati/chitwan/bharatpur_ambulance_services.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'ambulance' },
+    { path: 'data/provinces/bagmati/chitwan/bharatpur_ambulance.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'ambulance' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur_ward_offices.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'ward_offices' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur_emergency_contacts.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'emergency' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur_government.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'government' },

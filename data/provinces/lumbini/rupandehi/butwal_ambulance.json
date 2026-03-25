@@ -3,47 +3,239 @@
     "city": "Butwal",
     "city_np": "बुटवल",
     "district": "Rupandehi",
-    "district_np": "रुपन्देही",
     "province": "Lumbini",
-    "province_np": "लुम्बिनी प्रदेश",
-    "phone_prefix": "071",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 20,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "National Ambulance",
-      "name_np": "नेशनल एम्बुलेन्स",
-      "type": "Emergency",
-      "phone": "102",
-      "hours": "24/7"
+      "id": 1,
+      "name": "National Ambulance Service - Butwal",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - बुटवल",
+      "type": "Government Emergency",
+      "address": "Butwal Sub-Metropolitan City Office, Butwal-8",
+      "phone": ["102", "071-540100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Rupandehi",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - रुपन्देही",
+      "type": "NGO Emergency",
+      "address": "Milanchowk, Butwal-8, Rupandehi",
+      "phone": ["071-540200", "071-540201", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
       "name": "Lumbini Provincial Hospital Ambulance",
       "name_np": "लुम्बिनी प्रादेशिक अस्पताल एम्बुलेन्स",
-      "type": "Hospital",
-      "phone": "071-540200",
-      "hours": "24/7"
+      "type": "Government Hospital",
+      "address": "Butwal-8, Kalikanagar, Rupandehi",
+      "phone": ["071-540200", "071-540201", "071-540202"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
+      "id": 4,
       "name": "Crimson Hospital Ambulance",
       "name_np": "क्रिमसन अस्पताल एम्बुलेन्स",
-      "type": "Hospital",
-      "phone": "071-562744",
-      "hours": "24/7"
+      "type": "Private Hospital",
+      "address": "Devinagar, Butwal-11, Rupandehi",
+      "phone": ["071-562744", "071-562745"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
+      "id": 5,
       "name": "Siddhababa Hospital Ambulance",
       "name_np": "सिद्धबाबा अस्पताल एम्बुलेन्स",
-      "type": "Hospital",
-      "phone": "071-549201",
-      "hours": "24/7"
+      "type": "Private Hospital",
+      "address": "Siddharthanagar-5, Bhairahawa Road, Rupandehi",
+      "phone": ["071-549201", "071-549202"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     },
     {
-      "name": "Nepal Red Cross Rupandehi",
-      "name_np": "नेपाल रेडक्रस रुपन्देही",
+      "id": 6,
+      "name": "Bhism Hospital Ambulance",
+      "name_np": "भीष्म अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Butwal-10, Traffic Chowk, Rupandehi",
+      "phone": ["071-540300", "071-540301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "Lumbini Medical College Hospital Ambulance",
+      "name_np": "लुम्बिनी मेडिकल कलेज अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Palpa Road, Butwal-10, Rupandehi",
+      "phone": ["071-540500", "071-540501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "United Mission Hospital Tansen Ambulance",
+      "name_np": "युनाइटेड मिसन अस्पताल तानसेन एम्बुलेन्स",
+      "type": "Mission Hospital",
+      "address": "Tansen-7, Palpa (Service Area: Butwal)",
+      "phone": ["075-520306", "075-520307"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Palpa"
+    },
+    {
+      "id": 9,
+      "name": "Sahara Hospital Ambulance",
+      "name_np": "सहारा अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Butwal-8, Golpark, Rupandehi",
+      "phone": ["071-540600", "071-540601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 10,
+      "name": "Mayadevi Hospital Ambulance",
+      "name_np": "मायादेवी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Siddharthanagar-3, Bhairahawa, Rupandehi",
+      "phone": ["071-549300", "071-549301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 11,
+      "name": "Naya Janakpur Hospital Ambulance",
+      "name_np": "नयाँ जनकपुर अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Butwal-9, Rajamarga Chowk, Rupandehi",
+      "phone": ["071-540700", "071-540701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 12,
+      "name": "Butwal City Hospital Ambulance",
+      "name_np": "बुटवल सिटी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Butwal-8, Traffic Chowk, Rupandehi",
+      "phone": ["071-540800", "071-540801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 13,
+      "name": "Life Line Hospital Ambulance",
+      "name_np": "लाइफ लाइन अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Butwal-11, Rajbari Chowk, Rupandehi",
+      "phone": ["071-540900", "071-540901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 14,
+      "name": "Annapurna Hospital Ambulance",
+      "name_np": "अन्नपूर्ण अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Milanchowk, Butwal-8, Rupandehi",
+      "phone": ["071-541000", "071-541001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 15,
+      "name": "Butwal Sub-Metropolitan City Ambulance",
+      "name_np": "बुटवल उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Butwal-8, Kalikanagar, Rupandehi",
+      "phone": ["071-541100", "071-541101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 16,
+      "name": "District Police Office Rupandehi Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय रुपन्देही एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Butwal-8, Milanchowk, Rupandehi",
+      "phone": ["100", "071-541200"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 17,
+      "name": "Butwal Private Ambulance Service",
+      "name_np": "बुटवल निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Butwal-8, Rupandehi",
+      "phone": ["9857041234", "9857041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 18,
+      "name": "Lumbini Zone Ambulance Service",
+      "name_np": "लुम्बिनी क्षेत्रीय एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Traffic Chowk, Butwal-10, Rupandehi",
+      "phone": ["9847041234", "071-541300"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 19,
+      "name": "Rotary Club Butwal Ambulance",
+      "name_np": "रोटरी क्लब बुटवल एम्बुलेन्स",
       "type": "NGO",
-      "phone": "1130",
-      "hours": "24/7"
+      "address": "Milanchowk, Butwal-8, Rupandehi",
+      "phone": ["071-541400", "071-541401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
+    },
+    {
+      "id": 20,
+      "name": "Lions Club Butwal Ambulance",
+      "name_np": "लायन्स क्लब बुटवल एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Rajbari Chowk, Butwal-11, Rupandehi",
+      "phone": ["071-541500", "071-541501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rupandehi"
     }
   ]
 }

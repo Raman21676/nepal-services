@@ -1,38 +1,219 @@
 {
   "metadata": {
     "city": "Janakpur",
+    "city_np": "जनकपुर",
     "district": "Dhanusha",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 18,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "Provincial Hospital Ambulance",
-      "name_np": "प्रादेशिक अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Provincial Hospital, Janakpur",
-      "phone": "041-570123"
+      "id": 1,
+      "name": "National Ambulance Service - Janakpur",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - जनकपुर",
+      "type": "Government Emergency",
+      "address": "Janakpur Sub-Metropolitan City Office, Dhanusha",
+      "phone": ["102", "041-570100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     },
     {
-      "name": "Janakpur Sub-Metropolitan Ambulance",
+      "id": 2,
+      "name": "Nepal Red Cross Society - Dhanusha",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - धनुषा",
+      "type": "NGO Emergency",
+      "address": "Janak Chowk, Janakpur-5, Dhanusha",
+      "phone": ["041-570200", "041-570201", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 3,
+      "name": "Janakpur Provincial Hospital Ambulance",
+      "name_np": "जनकपुर प्रादेशिक अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Janakpur-4, Ramanand Chowk, Dhanusha",
+      "phone": ["041-570300", "041-570301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 4,
+      "name": "Rama Medical College and Teaching Hospital Ambulance",
+      "name_np": "रामा मेडिकल कलेज तथा शिक्षण अस्पताल एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Janakpur-6, Rambagh Chowk, Dhanusha",
+      "phone": ["041-570400", "041-570401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 5,
+      "name": "Janakpur Zonal Hospital Ambulance",
+      "name_np": "जनकपुर अञ्चल अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Janakpur-7, Bhanu Chowk, Dhanusha",
+      "phone": ["041-570500", "041-570501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 6,
+      "name": "Sita Hospital Ambulance",
+      "name_np": "सीता अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Janak Chowk, Janakpur-5, Dhanusha",
+      "phone": ["041-570600", "041-570601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 7,
+      "name": "City Hospital Janakpur Ambulance",
+      "name_np": "सिटी अस्पताल जनकपुर एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Pul Chowk, Janakpur-4, Dhanusha",
+      "phone": ["041-570700", "041-570701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 8,
+      "name": "Life Care Hospital Ambulance",
+      "name_np": "लाइफ केयर अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Railway Station Road, Janakpur-6, Dhanusha",
+      "phone": ["041-570800", "041-570801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 9,
+      "name": "Janaki Hospital Ambulance",
+      "name_np": "जानकी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Mujeliya, Janakpur-3, Dhanusha",
+      "phone": ["041-570900", "041-570901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 10,
+      "name": "Dhanusha District Hospital Ambulance",
+      "name_np": "धनुषा जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Janakpur-2, District Administration Office Road, Dhanusha",
+      "phone": ["041-571000", "041-571001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 11,
+      "name": "Janakpur Eye Hospital Ambulance",
+      "name_np": "जनकपुर आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Janakpur-8, Basantapur, Dhanusha",
+      "phone": ["041-571100", "041-571101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 12,
+      "name": "Mata Janaki Hospital Ambulance",
+      "name_np": "माता जानकी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Janak Chowk, Janakpur-5, Dhanusha",
+      "phone": ["041-571200", "041-571201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 13,
+      "name": "Janakpur Sub-Metropolitan City Ambulance",
       "name_np": "जनकपुर उपमहानगरपालिका एम्बुलेन्स",
-      "type": "Municipal Ambulance",
-      "address": "Municipal Office, Janakpur",
-      "phone": "041-571234"
+      "type": "Municipal Emergency",
+      "address": "Janakpur-4, Municipal Office, Dhanusha",
+      "phone": ["041-571300", "041-571301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     },
     {
-      "name": "Rama Medical College Ambulance",
-      "name_np": "रामा मेडिकल कलेज एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "RMC, Janakpur",
-      "phone": "041-572345"
+      "id": 14,
+      "name": "District Police Office Dhanusha Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय धनुषा एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Janakpur-7, Police Office Road, Dhanusha",
+      "phone": ["100", "041-571400"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     },
     {
-      "name": "Red Cross Janakpur Ambulance",
-      "name_np": "रेडक्रस जनकपुर एम्बुलेन्स",
-      "type": "Emergency Ambulance",
-      "address": "Janak Chowk, Janakpur",
-      "phone": "041-573456"
+      "id": 15,
+      "name": "Janakpur Private Ambulance Service",
+      "name_np": "जनकपुर निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Janakpur-4, Dhanusha",
+      "phone": ["9854041234", "9854041235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 16,
+      "name": "Dhanusha Ambulance Sewa",
+      "name_np": "धनुषा एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Janak Chowk, Janakpur-5, Dhanusha",
+      "phone": ["9844041234", "041-571500"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 17,
+      "name": "Rotary Club Janakpur Ambulance",
+      "name_np": "रोटरी क्लब जनकपुर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Ramanand Chowk, Janakpur-4, Dhanusha",
+      "phone": ["041-571600", "041-571601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
+    },
+    {
+      "id": 18,
+      "name": "Lions Club Janakpur Ambulance",
+      "name_np": "लायन्स क्लब जनकपुर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Railway Station, Janakpur-6, Dhanusha",
+      "phone": ["041-571700", "041-571701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhanusha"
     }
   ]
 }

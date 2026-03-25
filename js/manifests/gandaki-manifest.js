@@ -12,7 +12,7 @@ const GANDAKI_MANIFEST = [
 
     { path: 'data/provinces/gandaki/kaski/pokhara_veterinary.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'veterinary' },
     { path: 'data/provinces/gandaki/kaski/pokhara_blood_banks.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'blood_banks' },
-    { path: 'data/provinces/gandaki/kaski/pokhara_ambulance_services.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ambulance' },
+    { path: 'data/provinces/gandaki/kaski/pokhara_ambulance.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ambulance' },
     { path: 'data/provinces/gandaki/kaski/pokhara_emergency_contacts.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'emergency' },
     { path: 'data/provinces/gandaki/kaski/pokhara_ward_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ward_offices' },
     { path: 'data/provinces/gandaki/kaski/pokhara_government.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'government' },

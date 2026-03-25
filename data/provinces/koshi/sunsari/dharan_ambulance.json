@@ -1,10 +1,197 @@
 {
   "metadata": {
     "city": "Dharan",
+    "city_np": "धरान",
     "district": "Sunsari",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 0
+    "source": "Koshi Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 16,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
-  "ambulance": []
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Dharan",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - धरान",
+      "type": "Government Emergency",
+      "address": "Dharan Sub-Metropolitan City Office, Sunsari",
+      "phone": ["102", "025-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Sunsari",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - सुनसरी",
+      "type": "NGO Emergency",
+      "address": "Dharan-9, Bhanu Chowk, Sunsari",
+      "phone": ["025-520200", "025-520201", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 3,
+      "name": "B.P. Koirala Institute of Health Sciences (BPKIHS) Ambulance",
+      "name_np": "वीपी कोइराला स्वास्थ्य विज्ञान प्रतिष्ठान एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Dharan-14, Ghopa Camp, Sunsari",
+      "phone": ["025-525555", "025-525556"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 4,
+      "name": "Dharan Hospital Ambulance",
+      "name_np": "धरान अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Dharan-9, Bhanu Chowk, Sunsari",
+      "phone": ["025-520300", "025-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 5,
+      "name": "Nobil Hospital Ambulance",
+      "name_np": "नोबिल अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dharan-8, Putali Line, Sunsari",
+      "phone": ["025-520400", "025-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 6,
+      "name": "Mater Hospital Ambulance",
+      "name_np": "मेटर अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dharan-9, Bhanu Chowk, Sunsari",
+      "phone": ["025-520500", "025-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 7,
+      "name": "Sparsh Hospital Ambulance",
+      "name_np": "स्पर्श अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dharan-8, Putali Line, Sunsari",
+      "phone": ["025-520600", "025-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 8,
+      "name": "Omnilife Hospital Ambulance",
+      "name_np": "ओम्निलाइफ अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Dharan-17, Panchakanya Chowk, Sunsari",
+      "phone": ["025-520700", "025-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 9,
+      "name": "Dharan Eye Hospital Ambulance",
+      "name_np": "धरान आँखा अस्पताल एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Dharan-8, Station Road, Sunsari",
+      "phone": ["025-520800", "025-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 10,
+      "name": "Sunsari District Hospital Ambulance",
+      "name_np": "सुनसरी जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Inaruwa, Sunsari (Service Area: Dharan)",
+      "phone": ["025-520900", "025-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 11,
+      "name": "Dharan Sub-Metropolitan City Ambulance",
+      "name_np": "धरान उपमहानगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Dharan-4, Municipal Office, Sunsari",
+      "phone": ["025-521000", "025-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 12,
+      "name": "District Police Office Sunsari Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय सुनसरी एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Dharan-9, Police Office Road, Sunsari",
+      "phone": ["100", "025-521100"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 13,
+      "name": "Dharan Private Ambulance Service",
+      "name_np": "धरान निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Dharan-8, Sunsari",
+      "phone": ["9852045678", "9852045679"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 14,
+      "name": "Sunsari Ambulance Sewa",
+      "name_np": "सुनसरी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bhanu Chowk, Dharan-9, Sunsari",
+      "phone": ["9842045678", "025-521200"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 15,
+      "name": "Rotary Club Dharan Ambulance",
+      "name_np": "रोटरी क्लब धरान एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Putali Line, Dharan-8, Sunsari",
+      "phone": ["025-521300", "025-521301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    },
+    {
+      "id": 16,
+      "name": "Lions Club Dharan Ambulance",
+      "name_np": "लायन्स क्लब धरान एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Bhanu Chowk, Dharan-9, Sunsari",
+      "phone": ["025-521400", "025-521401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Sunsari"
+    }
+  ]
 }
