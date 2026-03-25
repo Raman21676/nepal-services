@@ -130,5 +130,13 @@ const SUDURPASHCHIM_MANIFEST = [
     { path: 'data/provinces/sudurpashchim/kanchanpur/mahendranagar.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'hospitals' },
     { path: 'data/provinces/sudurpashchim/achham/mangalsen.json', province: 'sudurpashchim', district: 'achham', city: 'mangalsen', type: 'hospitals' },
     { path: 'data/provinces/sudurpashchim/bajura/martadi.json', province: 'sudurpashchim', district: 'bajura', city: 'martadi', type: 'hospitals' },
-    { path: 'data/provinces/sudurpashchim/doti/silgadhi.json', province: 'sudurpashchim', district: 'doti', city: 'silgadhi', type: 'hospitals' }
+    { path: 'data/provinces/sudurpashchim/doti/silgadhi.json', province: 'sudurpashchim', district: 'doti', city: 'silgadhi', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kanchanpur/bhimdatta/bhimdatta_schools.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'schools' },
+    { path: 'data/provinces/sudurpashchim/kanchanpur/bhimdatta/bhimdatta_pharmacies.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'pharmacies' },
+    { path: 'data/provinces/sudurpashchim/kanchanpur/bhimdatta/bhimdatta_government.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'government' },
+    { path: 'data/provinces/sudurpashchim/kanchanpur/bhimdatta/bhimdatta_hospitals.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'bhimdatta', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_emergency.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'emergency' },
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_hospitals.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_schools.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'schools' },
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_government.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'government' },
 ];

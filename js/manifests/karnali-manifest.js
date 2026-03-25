@@ -137,5 +137,13 @@ const KARNALI_MANIFEST = [
     { path: 'data/provinces/karnali/western_rukum/musikot_government.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'government' },
     { path: 'data/provinces/karnali/western_rukum/musikot_pharmacies.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'pharmacies' },
     { path: 'data/provinces/karnali/western_rukum/musikot_schools.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'schools' },
-    { path: 'data/provinces/karnali/western_rukum/musikot_veterinary.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'veterinary' }
+    { path: 'data/provinces/karnali/western_rukum/musikot_veterinary.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'veterinary' },
+    { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_emergency.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'emergency' },
+    { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_schools.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'schools' },
+    { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_government.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'government' },
+    { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_hospitals.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'hospitals' },
+    { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_pharmacies.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'pharmacies' },
+    { path: 'data/provinces/karnali/surkhet/surkhet/surkhet_schools.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'schools' },
+    { path: 'data/provinces/karnali/surkhet/surkhet/surkhet_government.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'government' },
+    { path: 'data/provinces/karnali/surkhet/surkhet/surkhet_hospitals.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'hospitals' },
 ];
