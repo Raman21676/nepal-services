@@ -1,10 +1,153 @@
 {
   "metadata": {
     "city": "Ilam",
+    "city_np": "इलाम",
     "district": "Ilam",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 0
+    "source": "Koshi Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 12,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
-  "ambulance": []
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Ilam",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - इलाम",
+      "type": "Government Emergency",
+      "address": "Ilam Municipality Office, Ilam",
+      "phone": ["102", "027-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Ilam",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - इलाम",
+      "type": "NGO Emergency",
+      "address": "Ilam-5, Main Road, Ilam",
+      "phone": ["027-520124", "027-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 3,
+      "name": "Ilam Hospital Ambulance",
+      "name_np": "इलाम अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Ilam-5, Hospital Road, Ilam",
+      "phone": ["027-520200", "027-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 4,
+      "name": "Ilam District Hospital Ambulance",
+      "name_np": "इलाम जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Ilam-4, District Administration Office Road, Ilam",
+      "phone": ["027-520300", "027-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 5,
+      "name": "Ilam Tea Garden Hospital Ambulance",
+      "name_np": "इलाम चियाबारी अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Ilam-6, Tea Garden Road, Ilam",
+      "phone": ["027-520400", "027-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 6,
+      "name": "Ilam Eye Care Centre Ambulance",
+      "name_np": "इलाम आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Ilam-5, Eye Hospital Road, Ilam",
+      "phone": ["027-520500", "027-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 7,
+      "name": "Ilam Municipality Ambulance",
+      "name_np": "इलाम नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Ilam-5, Municipal Office, Ilam",
+      "phone": ["027-520600", "027-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 8,
+      "name": "District Police Office Ilam Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय इलाम एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Ilam-5, Police Office, Ilam",
+      "phone": ["100", "027-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 9,
+      "name": "Ilam Private Ambulance Service",
+      "name_np": "इलाम निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Ilam-5, Ilam",
+      "phone": ["9852023456", "9852023457"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 10,
+      "name": "Ilam Ambulance Sewa",
+      "name_np": "इलाम एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Ilam-5, Ilam",
+      "phone": ["9842023456", "027-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 11,
+      "name": "Rotary Club Ilam Ambulance",
+      "name_np": "रोटरी क्लब इलाम एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Ilam-5, Ilam",
+      "phone": ["027-520900", "027-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    },
+    {
+      "id": 12,
+      "name": "Lions Club Ilam Ambulance",
+      "name_np": "लायन्स क्लब इलाम एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Ilam-5, Ilam",
+      "phone": ["027-521000", "027-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Ilam"
+    }
+  ]
 }

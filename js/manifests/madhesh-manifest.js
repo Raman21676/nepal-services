@@ -36,6 +36,7 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/bara/kalaiya_colleges.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'colleges' },
     { path: 'data/provinces/madhesh/bara/kalaiya_blood_banks.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'blood_banks' },
     { path: 'data/provinces/madhesh/bara/kalaiya_ambulance.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'ambulance' },
+    //, province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'ambulance' },
     { path: 'data/provinces/madhesh/bara/kalaiya_emergency.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'emergency' },
     { path: 'data/provinces/madhesh/bara/kalaiya_veterinary.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'veterinary' },
     { path: 'data/provinces/madhesh/bara/kalaiya_government.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'government' },

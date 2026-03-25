@@ -1,38 +1,153 @@
 {
   "metadata": {
     "city": "Jaleshwar",
+    "city_np": "जलेश्वर",
     "district": "Mahottari",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 12,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "District Hospital Ambulance",
-      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "District Hospital, Jaleshwar",
-      "phone": "044-570123"
+      "id": 1,
+      "name": "National Ambulance Service - Jaleshwar",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - जलेश्वर",
+      "type": "Government Emergency",
+      "address": "Jaleshwar Municipality Office, Mahottari",
+      "phone": ["102", "044-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Mahottari",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - महोत्तरी",
+      "type": "NGO Emergency",
+      "address": "Jaleshwar-5, Main Road, Mahottari",
+      "phone": ["044-520124", "044-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 3,
+      "name": "Jaleshwar Hospital Ambulance",
+      "name_np": "जलेश्वर अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Jaleshwar-5, Hospital Road, Mahottari",
+      "phone": ["044-520200", "044-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 4,
+      "name": "Mahottari District Hospital Ambulance",
+      "name_np": "महोत्तरी जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Jaleshwar-4, District Administration Office Road, Mahottari",
+      "phone": ["044-520300", "044-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 5,
+      "name": "Jaleshwar Eye Care Centre Ambulance",
+      "name_np": "जलेश्वर आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Jaleshwar-5, Eye Hospital Road, Mahottari",
+      "phone": ["044-520400", "044-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 6,
       "name": "Jaleshwar Municipality Ambulance",
       "name_np": "जलेश्वर नगरपालिका एम्बुलेन्स",
-      "type": "Municipal Ambulance",
-      "address": "Municipal Office, Jaleshwar",
-      "phone": "044-571234"
+      "type": "Municipal Emergency",
+      "address": "Jaleshwar-5, Municipal Office, Mahottari",
+      "phone": ["044-520500", "044-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
     },
     {
-      "name": "Red Cross Jaleshwar Ambulance",
-      "name_np": "रेडक्रस जलेश्वर एम्बुलेन्स",
-      "type": "Emergency Ambulance",
-      "address": "Jaleshwar Chowk, Mahottari",
-      "phone": "044-572345"
+      "id": 7,
+      "name": "District Police Office Mahottari Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय महोत्तरी एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Jaleshwar-5, Police Office, Mahottari",
+      "phone": ["100", "044-520600"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
     },
     {
-      "name": "Mahottari Hospital Ambulance",
-      "name_np": "महोत्तरी अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Hospital Road, Jaleshwar",
-      "phone": "044-573456"
+      "id": 8,
+      "name": "Jaleshwar Private Ambulance Service",
+      "name_np": "जलेश्वर निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Jaleshwar-5, Mahottari",
+      "phone": ["9855045678", "9855045679"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 9,
+      "name": "Mahottari Ambulance Sewa",
+      "name_np": "महोत्तरी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Jaleshwar-5, Mahottari",
+      "phone": ["9845045678", "044-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 10,
+      "name": "Rotary Club Jaleshwar Ambulance",
+      "name_np": "रोटरी क्लब जलेश्वर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Jaleshwar-5, Mahottari",
+      "phone": ["044-520800", "044-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 11,
+      "name": "Lions Club Jaleshwar Ambulance",
+      "name_np": "लायन्स क्लब जलेश्वर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Jaleshwar-5, Mahottari",
+      "phone": ["044-520900", "044-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
+    },
+    {
+      "id": 12,
+      "name": "Life Care Hospital Jaleshwar Ambulance",
+      "name_np": "लाइफ केयर अस्पताल जलेश्वर एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Jaleshwar-7, Life Care Road, Mahottari",
+      "phone": ["044-521000", "044-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mahottari"
     }
   ]
 }

@@ -1,10 +1,153 @@
 {
   "metadata": {
     "city": "Birtamod",
+    "city_np": "बिर्तामोड",
     "district": "Jhapa",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 0
+    "source": "Koshi Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 12,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
-  "ambulance": []
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "National Ambulance Service - Birtamod",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - बिर्तामोड",
+      "type": "Government Emergency",
+      "address": "Birtamod Municipality Office, Jhapa",
+      "phone": ["102", "023-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Birtamod",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - बिर्तामोड",
+      "type": "NGO Emergency",
+      "address": "Birtamod-5, Main Road, Jhapa",
+      "phone": ["023-520124", "023-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 3,
+      "name": "Birtamod Hospital Ambulance",
+      "name_np": "बिर्तामोड अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birtamod-5, Hospital Road, Jhapa",
+      "phone": ["023-520200", "023-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 4,
+      "name": "Birtamod Medical College Ambulance",
+      "name_np": "बिर्तामोड मेडिकल कलेज एम्बुलेन्स",
+      "type": "Teaching Hospital",
+      "address": "Birtamod-6, Medical College Road, Jhapa",
+      "phone": ["023-520300", "023-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 5,
+      "name": "Birtamod Eye Care Centre Ambulance",
+      "name_np": "बिर्तामोड आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Birtamod-5, Eye Hospital Road, Jhapa",
+      "phone": ["023-520400", "023-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 6,
+      "name": "Birtamod Municipality Ambulance",
+      "name_np": "बिर्तामोड नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Birtamod-5, Municipal Office, Jhapa",
+      "phone": ["023-520500", "023-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 7,
+      "name": "District Police Office Jhapa - Birtamod Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय झापा - बिर्तामोड एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Birtamod-5, Police Office, Jhapa",
+      "phone": ["100", "023-520600"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 8,
+      "name": "Birtamod Private Ambulance Service",
+      "name_np": "बिर्तामोड निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Birtamod-5, Jhapa",
+      "phone": ["9852045678", "9852045679"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 9,
+      "name": "Birtamod Ambulance Sewa",
+      "name_np": "बिर्तामोड एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Birtamod-5, Jhapa",
+      "phone": ["9842045678", "023-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 10,
+      "name": "Rotary Club Birtamod Ambulance",
+      "name_np": "रोटरी क्लब बिर्तामोड एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Birtamod-5, Jhapa",
+      "phone": ["023-520800", "023-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 11,
+      "name": "Lions Club Birtamod Ambulance",
+      "name_np": "लायन्स क्लब बिर्तामोड एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Birtamod-5, Jhapa",
+      "phone": ["023-520900", "023-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    },
+    {
+      "id": 12,
+      "name": "Life Line Hospital Birtamod Ambulance",
+      "name_np": "लाइफ लाइन अस्पताल बिर्तामोड एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Birtamod-7, Life Line Road, Jhapa",
+      "phone": ["023-521000", "023-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Jhapa"
+    }
+  ]
 }

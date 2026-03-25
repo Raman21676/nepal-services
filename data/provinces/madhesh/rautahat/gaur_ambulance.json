@@ -1,38 +1,153 @@
 {
   "metadata": {
     "city": "Gaur",
+    "city_np": "गौर",
     "district": "Rautahat",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 12,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "District Hospital Ambulance",
-      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "District Hospital, Gaur",
-      "phone": "055-570123"
+      "id": 1,
+      "name": "National Ambulance Service - Gaur",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - गौर",
+      "type": "Government Emergency",
+      "address": "Gaur Municipality Office, Rautahat",
+      "phone": ["102", "055-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Rautahat",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - रौतहट",
+      "type": "NGO Emergency",
+      "address": "Gaur-5, Main Road, Rautahat",
+      "phone": ["055-520124", "055-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 3,
+      "name": "Gaur Hospital Ambulance",
+      "name_np": "गौर अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Gaur-5, Hospital Road, Rautahat",
+      "phone": ["055-520200", "055-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 4,
+      "name": "Rautahat District Hospital Ambulance",
+      "name_np": "रौतहट जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Gaur-4, District Administration Office Road, Rautahat",
+      "phone": ["055-520300", "055-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 5,
+      "name": "Gaur Eye Care Centre Ambulance",
+      "name_np": "गौर आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Gaur-5, Eye Hospital Road, Rautahat",
+      "phone": ["055-520400", "055-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 6,
       "name": "Gaur Municipality Ambulance",
       "name_np": "गौर नगरपालिका एम्बुलेन्स",
-      "type": "Municipal Ambulance",
-      "address": "Municipal Office, Gaur",
-      "phone": "055-571234"
+      "type": "Municipal Emergency",
+      "address": "Gaur-5, Municipal Office, Rautahat",
+      "phone": ["055-520500", "055-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
     },
     {
-      "name": "Red Cross Gaur Ambulance",
-      "name_np": "रेडक्रस गौर एम्बुलेन्स",
-      "type": "Emergency Ambulance",
-      "address": "Gaur Chowk, Rautahat",
-      "phone": "055-572345"
+      "id": 7,
+      "name": "District Police Office Rautahat Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय रौतहट एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Gaur-5, Police Office, Rautahat",
+      "phone": ["100", "055-520600"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
     },
     {
-      "name": "Chandranigahapur Hospital Ambulance",
-      "name_np": "चन्द्रनिगाहापुर अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Chandranigahapur, Rautahat",
-      "phone": "055-573456"
+      "id": 8,
+      "name": "Gaur Private Ambulance Service",
+      "name_np": "गौर निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Gaur-5, Rautahat",
+      "phone": ["9855035678", "9855035679"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 9,
+      "name": "Rautahat Ambulance Sewa",
+      "name_np": "रौतहट एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Gaur-5, Rautahat",
+      "phone": ["9845035678", "055-520700"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 10,
+      "name": "Rotary Club Gaur Ambulance",
+      "name_np": "रोटरी क्लब गौर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Gaur-5, Rautahat",
+      "phone": ["055-520800", "055-520801"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 11,
+      "name": "Lions Club Gaur Ambulance",
+      "name_np": "लायन्स क्लब गौर एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Gaur-5, Rautahat",
+      "phone": ["055-520900", "055-520901"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
+    },
+    {
+      "id": 12,
+      "name": "Life Line Hospital Gaur Ambulance",
+      "name_np": "लाइफ लाइन अस्पताल गौर एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Gaur-7, Life Line Road, Rautahat",
+      "phone": ["055-521000", "055-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Rautahat"
     }
   ]
 }

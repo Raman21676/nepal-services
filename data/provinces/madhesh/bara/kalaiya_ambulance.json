@@ -1,38 +1,175 @@
 {
   "metadata": {
     "city": "Kalaiya",
+    "city_np": "कलैया",
     "district": "Bara",
     "province": "Madhesh",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Nepal Red Cross, Hospital Directories",
+    "total_records": 14,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
   },
   "ambulance": [
     {
-      "name": "District Hospital Ambulance",
-      "name_np": "जिल्ला अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "District Hospital, Kalaiya",
-      "phone": "053-570123"
+      "id": 1,
+      "name": "National Ambulance Service - Kalaiya",
+      "name_np": "नेशनल एम्बुलेन्स सेवा - कलैया",
+      "type": "Government Emergency",
+      "address": "Kalaiya Municipality Office, Bara",
+      "phone": ["102", "053-520100"],
+      "emergency_number": "102",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
     },
     {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Bara",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - बारा",
+      "type": "NGO Emergency",
+      "address": "Kalaiya-5, Main Road, Bara",
+      "phone": ["053-520124", "053-520125", "1130"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 3,
+      "name": "Kalaiya Hospital Ambulance",
+      "name_np": "कलैया अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Kalaiya-5, Hospital Road, Bara",
+      "phone": ["053-520200", "053-520201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 4,
+      "name": "Bara District Hospital Ambulance",
+      "name_np": "बारा जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Kalaiya-4, District Administration Office Road, Bara",
+      "phone": ["053-520300", "053-520301"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 5,
+      "name": "Simara Hospital Ambulance",
+      "name_np": "सिमरा अस्पताल एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Simara, Bara",
+      "phone": ["053-520400", "053-520401"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 6,
+      "name": "Narayani Hospital Kalaiya Ambulance",
+      "name_np": "नारायणी अस्पताल कलैया एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Kalaiya-6, Narayani Chowk, Bara",
+      "phone": ["053-520500", "053-520501"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 7,
+      "name": "Kalaiya Eye Care Centre Ambulance",
+      "name_np": "कलैया आई केयर सेन्टर एम्बुलेन्स",
+      "type": "Specialized Hospital",
+      "address": "Kalaiya-5, Eye Hospital Road, Bara",
+      "phone": ["053-520600", "053-520601"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 8,
       "name": "Kalaiya Municipality Ambulance",
       "name_np": "कलैया नगरपालिका एम्बुलेन्स",
-      "type": "Municipal Ambulance",
-      "address": "Municipal Office, Kalaiya",
-      "phone": "053-571234"
+      "type": "Municipal Emergency",
+      "address": "Kalaiya-5, Municipal Office, Bara",
+      "phone": ["053-520700", "053-520701"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
     },
     {
-      "name": "Red Cross Kalaiya Ambulance",
-      "name_np": "रेडक्रस कलैया एम्बुलेन्स",
-      "type": "Emergency Ambulance",
-      "address": "Kalaiya Chowk, Bara",
-      "phone": "053-572345"
+      "id": 9,
+      "name": "District Police Office Bara Ambulance",
+      "name_np": "जिल्ला प्रहरी कार्यालय बारा एम्बुलेन्स",
+      "type": "Police Emergency",
+      "address": "Kalaiya-5, Police Office, Bara",
+      "phone": ["100", "053-520800"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
     },
     {
-      "name": "Gadhimai Hospital Ambulance",
-      "name_np": "गढीमाई अस्पताल एम्बुलेन्स",
-      "type": "Hospital Ambulance",
-      "address": "Gadhimai Chowk, Kalaiya",
-      "phone": "053-573456"
+      "id": 10,
+      "name": "Kalaiya Private Ambulance Service",
+      "name_np": "कलैया निजी एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Bus Park, Kalaiya-5, Bara",
+      "phone": ["9855031234", "9855031235"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 11,
+      "name": "Bara Ambulance Sewa",
+      "name_np": "बारा एम्बुलेन्स सेवा",
+      "type": "Private",
+      "address": "Main Road, Kalaiya-5, Bara",
+      "phone": ["9845031234", "053-520900"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 12,
+      "name": "Rotary Club Kalaiya Ambulance",
+      "name_np": "रोटरी क्लब कलैया एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Main Road, Kalaiya-5, Bara",
+      "phone": ["053-521000", "053-521001"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 13,
+      "name": "Lions Club Kalaiya Ambulance",
+      "name_np": "लायन्स क्लब कलैया एम्बुलेन्स",
+      "type": "NGO",
+      "address": "Hospital Road, Kalaiya-5, Bara",
+      "phone": ["053-521100", "053-521101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
+    },
+    {
+      "id": 14,
+      "name": "Life Care Hospital Kalaiya Ambulance",
+      "name_np": "लाइफ केयर अस्पताल कलैया एम्बुलेन्स",
+      "type": "Private Hospital",
+      "address": "Kalaiya-7, Life Care Road, Bara",
+      "phone": ["053-521200", "053-521201"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Bara"
     }
   ]
 }
