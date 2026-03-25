@@ -3,52 +3,8 @@
     "city": "Biratnagar",
     "district": "Morang",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "emergency": [
-    {
-      "contact_name": "Police Emergency",
-      "name_np": "प्रहरी आपतकालीन",
-      "phone": "100",
-      "type": "Police",
-      "department": "Nepal Police"
-    },
-    {
-      "contact_name": "Fire Brigade",
-      "name_np": "दमकल",
-      "phone": "101",
-      "type": "Fire Service"
-    },
-    {
-      "contact_name": "Ambulance Emergency",
-      "name_np": "एम्बुलेन्स आपतकालीन",
-      "phone": "102",
-      "type": "Ambulance"
-    },
-    {
-      "contact_name": "Morang Traffic Police",
-      "name_np": "मोरङ ट्राफिक प्रहरी",
-      "phone": "103",
-      "type": "Traffic Police"
-    },
-    {
-      "contact_name": "District Police Office Morang",
-      "name_np": "जिल्ला प्रहरी कार्यालय मोरङ",
-      "phone": "021-420111",
-      "type": "Police",
-      "emergency": "100"
-    },
-    {
-      "contact_name": "Narayani Hospital Emergency",
-      "name_np": "नारायणी अस्पताल आपतकालीन",
-      "phone": "021-520556",
-      "type": "Hospital Emergency"
-    },
-    {
-      "contact_name": "Nobel Medical College Emergency",
-      "name_np": "नोबेल मेडिकल कलेज आपतकालीन",
-      "phone": "021-460306",
-      "type": "Hospital Emergency"
-    }
-  ]
+  "emergency": []
 }

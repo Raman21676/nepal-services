@@ -3,36 +3,8 @@
     "city": "Dhankuta",
     "district": "Dhankuta",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Dhankuta Hospital Ambulance",
-      "name_np": "धनकुटा अस्पताल एम्बुलेन्स",
-      "phone": "026-526001",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Dhankuta Red Cross Ambulance",
-      "name_np": "Dhankuta रेडक्रस एम्बुलेन्स",
-      "phone": "026-526002",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Dhankuta Emergency Ambulance",
-      "name_np": "धनकुटा आपतकालीन एम्बुलेन्स",
-      "phone": "026-526003",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Dhankuta Life Care Ambulance",
-      "name_np": "धनकुटा लाइफ केयर एम्बुलेन्स",
-      "phone": "026-526004",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }

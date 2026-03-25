@@ -3,36 +3,8 @@
     "city": "Phidim",
     "district": "Panchthar",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Phidim Hospital Ambulance",
-      "name_np": "फिदिम अस्पताल एम्बुलेन्स",
-      "phone": "024-526001",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Panchthar Red Cross Ambulance",
-      "name_np": "Panchthar रेडक्रस एम्बुलेन्स",
-      "phone": "024-526002",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Phidim Emergency Ambulance",
-      "name_np": "फिदिम आपतकालीन एम्बुलेन्स",
-      "phone": "024-526003",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Phidim Life Care Ambulance",
-      "name_np": "फिदिम लाइफ केयर एम्बुलेन्स",
-      "phone": "024-526004",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }

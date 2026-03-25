@@ -3,43 +3,8 @@
     "city": "Biratnagar",
     "district": "Morang",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Narayani Hospital Ambulance",
-      "name_np": "नारायणी अस्पताल एम्बुलेन्स",
-      "phone": "021-528101",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Nobel Medical College Ambulance",
-      "name_np": "नोबेल मेडिकल कलेज एम्बुलेन्स",
-      "phone": "021-528102",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Birat Medical College Ambulance",
-      "name_np": "विराट मेडिकल कलेज एम्बुलेन्स",
-      "phone": "021-528103",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Morang Red Cross Ambulance",
-      "name_np": "मोरङ रेडक्रस एम्बुलेन्स",
-      "phone": "021-528104",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Life Guard Ambulance",
-      "name_np": "लाइफ गार्ड एम्बुलेन्स",
-      "phone": "021-528105",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }

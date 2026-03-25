@@ -3,36 +3,8 @@
     "city": "Bhojpur",
     "district": "Bhojpur",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Bhojpur Hospital Ambulance",
-      "name_np": "भोजपुर अस्पताल एम्बुलेन्स",
-      "phone": "029-526001",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Bhojpur Red Cross Ambulance",
-      "name_np": "Bhojpur रेडक्रस एम्बुलेन्स",
-      "phone": "029-526002",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Bhojpur Emergency Ambulance",
-      "name_np": "भोजपुर आपतकालीन एम्बुलेन्स",
-      "phone": "029-526003",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Bhojpur Life Care Ambulance",
-      "name_np": "भोजपुर लाइफ केयर एम्बुलेन्स",
-      "phone": "029-526004",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }

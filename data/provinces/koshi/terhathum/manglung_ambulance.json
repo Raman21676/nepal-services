@@ -3,36 +3,8 @@
     "city": "Manglung",
     "district": "Terhathum",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Manglung Hospital Ambulance",
-      "name_np": "मंगलुङ अस्पताल एम्बुलेन्स",
-      "phone": "026-526001",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Terhathum Red Cross Ambulance",
-      "name_np": "Terhathum रेडक्रस एम्बुलेन्स",
-      "phone": "026-526002",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Manglung Emergency Ambulance",
-      "name_np": "मंगलुङ आपतकालीन एम्बुलेन्स",
-      "phone": "026-526003",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Manglung Life Care Ambulance",
-      "name_np": "मंगलुङ लाइफ केयर एम्बुलेन्स",
-      "phone": "026-526004",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }

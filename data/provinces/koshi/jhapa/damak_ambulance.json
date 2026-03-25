@@ -3,36 +3,8 @@
     "city": "Damak",
     "district": "Jhapa",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Damak Hospital Ambulance",
-      "name_np": "दमक अस्पताल एम्बुलेन्स",
-      "phone": "023-526001",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Jhapa Red Cross Ambulance",
-      "name_np": "Jhapa रेडक्रस एम्बुलेन्स",
-      "phone": "023-526002",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Damak Emergency Ambulance",
-      "name_np": "दमक आपतकालीन एम्बुलेन्स",
-      "phone": "023-526003",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Damak Life Care Ambulance",
-      "name_np": "दमक लाइफ केयर एम्बुलेन्स",
-      "phone": "023-526004",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }

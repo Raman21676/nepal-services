@@ -5,7 +5,7 @@
     "province": "Koshi",
     "last_updated": "2026-03-25",
     "source": "NepalYP Directory, Health Yaad Aayo",
-    "total_records": 30,
+    "total_records": 29,
     "note": "Total 30 clinics in biratnagar clinics"
   },
   "clinics": [
@@ -20,7 +20,8 @@
         "IPD",
         "Pathology",
         "General Medicine"
-      ]
+      ],
+      "id": 1
     },
     {
       "name": "Dristi Clinic",
@@ -31,7 +32,8 @@
       "services": [
         "General Consultation",
         "Health Checkup"
-      ]
+      ],
+      "id": 2
     },
     {
       "name": "Horizon Diagnostic Centre",
@@ -44,7 +46,8 @@
         "X-Ray",
         "Ultrasound",
         "ECG"
-      ]
+      ],
+      "id": 3
     },
     {
       "name": "Dr. Lalpath Labs Biratnagar",
@@ -56,7 +59,8 @@
         "Blood Tests",
         "Pathology",
         "Diagnostic Services"
-      ]
+      ],
+      "id": 4
     },
     {
       "name": "National Reference Laboratory - Biratnagar",
@@ -67,7 +71,8 @@
       "services": [
         "Advanced Diagnostics",
         "International Standards Lab"
-      ]
+      ],
+      "id": 5
     },
     {
       "name": "Neuro Clinic Biratnagar",
@@ -78,7 +83,8 @@
       "services": [
         "Neurology",
         "Neurosurgery Consultation"
-      ]
+      ],
+      "id": 6
     },
     {
       "name": "Heart Care Clinic",
@@ -90,7 +96,8 @@
         "Cardiology",
         "ECG",
         "Echo"
-      ]
+      ],
+      "id": 7
     },
     {
       "name": "Mother and Child Care Centre",
@@ -102,7 +109,8 @@
         "Gynecology",
         "Pediatrics",
         "Antenatal Care"
-      ]
+      ],
+      "id": 8
     },
     {
       "name": "Dental Care Biratnagar",
@@ -114,7 +122,8 @@
         "Dental Surgery",
         "Orthodontics",
         "Root Canal"
-      ]
+      ],
+      "id": 9
     },
     {
       "name": "Orthopedic Clinic",
@@ -126,143 +135,137 @@
         "Orthopedics",
         "Physiotherapy",
         "Fracture Care"
-      ]
+      ],
+      "id": 10
     },
     {
-      "id": 1240,
-      "name": "Life Long Polyclinic",
-      "type": "Polyclinic",
-      "address": "Keshaliya Road, Biratnagar-8, Morang",
-      "phone": "021-524001"
-    },
-    {
-      "id": 1241,
+      "id": 11,
       "name": "Nobel Medical Clinic",
       "type": "Private",
       "address": "Biratnagar-11, Morang",
       "phone": "021-460305"
     },
     {
-      "id": 1242,
+      "id": 12,
       "name": "Birat Medical Clinic",
       "type": "Private",
       "address": "Biratnagar-8, Morang",
       "phone": "021-460736"
     },
     {
-      "id": 1243,
+      "id": 13,
       "name": "Biratnagar Diagnostic Centre",
       "type": "Diagnostic",
       "address": "Main Road, Biratnagar",
       "phone": "021-531001"
     },
     {
-      "id": 1244,
+      "id": 14,
       "name": "Koshi Medical Centre",
       "type": "Private",
       "address": "Biratnagar-9, Morang",
       "phone": "021-531002"
     },
     {
-      "id": 1245,
+      "id": 15,
       "name": "Morang Polyclinic",
       "type": "Private",
       "address": "Bhrikutichowk, Biratnagar",
       "phone": "021-531003"
     },
     {
-      "id": 1246,
+      "id": 16,
       "name": "City Medical Biratnagar",
       "type": "Private",
       "address": "Rangeli Road, Biratnagar",
       "phone": "021-531004"
     },
     {
-      "id": 1247,
+      "id": 17,
       "name": "Biratnagar Dental Clinic",
       "type": "Dental",
       "address": "Main Road, Biratnagar",
       "phone": "021-531005"
     },
     {
-      "id": 1248,
+      "id": 18,
       "name": "Hope Medical Centre",
       "type": "Private",
       "address": "Biratnagar-10, Morang",
       "phone": "021-531006"
     },
     {
-      "id": 1249,
+      "id": 19,
       "name": "NORVIC Clinic",
       "type": "Private",
       "address": "Biratnagar-5, Morang",
       "phone": "021-590770"
     },
     {
-      "id": 1250,
+      "id": 20,
       "name": "Sunrise Medical Centre",
       "type": "Private",
       "address": "Biratnagar-12, Morang",
       "phone": "021-531007"
     },
     {
-      "id": 1251,
+      "id": 21,
       "name": "Shree Pashupati Clinic",
       "type": "Private",
       "address": "Biratnagar-13, Morang",
       "phone": "021-531008"
     },
     {
-      "id": 1252,
+      "id": 22,
       "name": "Koshi Eye Care Centre",
       "type": "Specialized",
       "address": "Biratnagar-14, Morang",
       "phone": "021-531009"
     },
     {
-      "id": 1253,
+      "id": 23,
       "name": "Life Care Medical Centre",
       "type": "Private",
       "address": "Biratnagar-15, Morang",
       "phone": "021-531010"
     },
     {
-      "id": 1254,
+      "id": 24,
       "name": "Modern Clinic Biratnagar",
       "type": "Private",
       "address": "Biratnagar-16, Morang",
       "phone": "021-531011"
     },
     {
-      "id": 1255,
+      "id": 25,
       "name": "Metro Polyclinic",
       "type": "Private",
       "address": "Biratnagar-17, Morang",
       "phone": "021-531012"
     },
     {
-      "id": 1256,
+      "id": 26,
       "name": "New Horizon Medical Centre",
       "type": "Private",
       "address": "Biratnagar-18, Morang",
       "phone": "021-531013"
     },
     {
-      "id": 1257,
+      "id": 27,
       "name": "Pathology Lab Biratnagar",
       "type": "Diagnostic",
       "address": "Biratnagar-19, Morang",
       "phone": "021-531014"
     },
     {
-      "id": 1258,
+      "id": 28,
       "name": "Rainbow Medical Centre",
       "type": "Private",
       "address": "Biratnagar-20, Morang",
       "phone": "021-531015"
     },
     {
-      "id": 1259,
+      "id": 29,
       "name": "Sunrise Diagnostic Centre",
       "type": "Diagnostic",
       "address": "Rangeli Road, Biratnagar",

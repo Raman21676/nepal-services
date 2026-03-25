@@ -7,336 +7,12 @@
     "total_hospitals": 8,
     "last_updated": "2026-03-25",
     "source": "Pokhara Metropolitan City, Health Facility Assessment Report 2024, Official Hospital Websites",
-    "total_records": 28,
+    "total_records": 20,
     "note": "Total 28 hospitals in pokhara hospitals"
   },
   "hospitals": [
     {
-      "hospital_name": "Gandaki Medical College Teaching Hospital and Research Center",
-      "type": "Medical College & Teaching Hospital",
-      "ownership": "Private",
-      "established": 2007,
-      "address": "Prithvi Chowk, Pokhara Lekhnath Metropolitan City-9, Kaski",
-      "phone": [
-        "+977-61-538595",
-        "+977-61-538596"
-      ],
-      "email": "info@gmc.edu.np",
-      "website": "https://www.gmc.edu.np",
-      "beds": 750,
-      "emergency_available": true,
-      "emergency_phone": [
-        "+977-61-538595"
-      ],
-      "specialties": [
-        "General Medicine",
-        "Surgery",
-        "Orthopedics",
-        "Obstetrics & Gynecology",
-        "Pediatrics",
-        "Cardiology",
-        "Neurology",
-        "Nephrology",
-        "Urology",
-        "ENT",
-        "Ophthalmology",
-        "Dermatology",
-        "Psychiatry",
-        "Radiology",
-        "Pathology",
-        "Anesthesiology",
-        "Dental"
-      ],
-      "services": [
-        "24/7 Emergency",
-        "ICU",
-        "NICU",
-        "Dialysis",
-        "CT Scan",
-        "MRI",
-        "Laboratory",
-        "Pharmacy",
-        "Ambulance",
-        "Blood Bank"
-      ],
-      "opd_daily": 880,
-      "affiliation": "Tribhuvan University (TU)",
-      "recognition": [
-        "NMC Nepal",
-        "NMC India",
-        "WHO",
-        "MEC Nepal"
-      ],
-      "location": {
-        "latitude": 28.2378,
-        "longitude": 83.9912,
-        "plus_code": "6X6Q+V3H"
-      }
-    },
-    {
-      "hospital_name": "Charak Memorial Hospital",
-      "type": "Multispecialty Hospital",
-      "ownership": "Private",
-      "address": "Nagdhunga, Pokhara-8, Kaski",
-      "phone": [
-        "+977-61-582778",
-        "+977-61-582779",
-        "+977-61-552494"
-      ],
-      "email": "info@cmh.com.np",
-      "website": "https://cmh.com.np",
-      "beds": 150,
-      "emergency_available": true,
-      "emergency_phone": [
-        "+977-61-582778"
-      ],
-      "specialties": [
-        "General Medicine",
-        "Surgery",
-        "Orthopedics",
-        "Neurosurgery",
-        "Obstetrics & Gynecology",
-        "Pediatrics",
-        "ENT",
-        "Ophthalmology",
-        "Dermatology"
-      ],
-      "services": [
-        "24/7 Emergency",
-        "ICU",
-        "Dialysis (Government Recognized)",
-        "Trauma Center (Head & Spine Injury)",
-        "CT Scan",
-        "X-Ray",
-        "Ultrasound",
-        "Laboratory",
-        "Pharmacy",
-        "Helipad for Emergency Rescue",
-        "Social Security Fund Health Scheme"
-      ],
-      "location": {
-        "latitude": 28.2096,
-        "longitude": 83.9856
-      }
-    },
-    {
-      "hospital_name": "CIWEC Travel Medicine Hospital Pokhara",
-      "type": "Travel Medicine & General Hospital",
-      "ownership": "Private",
-      "address": "Mansarovar Path (Meera Hotel Lane), Barahi Tole, Lakeside, Pokhara",
-      "phone": [
-        "+977-61-453082",
-        "+977-61-457053"
-      ],
-      "email": "pkradministrator@ciwec-clinic.com",
-      "website": "https://ciwechospital.com",
-      "emergency_available": true,
-      "emergency_phone": [
-        "+977-61-453082"
-      ],
-      "specialties": [
-        "Travel Medicine",
-        "General Medicine",
-        "High Altitude Medicine",
-        "Tropical Medicine",
-        "Dermatology",
-        "Obstetrics & Gynecology",
-        "Orthopedics",
-        "Ophthalmology"
-      ],
-      "services": [
-        "24/7 Emergency",
-        "Inpatient Services",
-        "Outpatient Services",
-        "Laboratory (On-site)",
-        "Digital X-Ray",
-        "Ultrasound with Doppler",
-        "Cardiac Ultrasound",
-        "Pharmacy",
-        "Ambulance Service",
-        "Health Screening Packages",
-        "Immunization Services",
-        "Rabies Prevention (Vaccine & HRIG)"
-      ],
-      "note": "Specializes in travel-related illnesses and high altitude sickness. Most reliable source of rabies prevention in South Asia.",
-      "location": {
-        "latitude": 28.2094,
-        "longitude": 83.9593
-      }
-    },
-    {
-      "hospital_name": "Fishtail Hospital & Research Center",
-      "type": "Multispecialty Hospital",
-      "ownership": "Private",
-      "address": "Dautari Bhawan, Gairapatan, Pokhara-4, Kaski",
-      "phone": [
-        "+977-61-5789999",
-        "+977-61-577553",
-        "+977-61-544700"
-      ],
-      "emergency_available": true,
-      "specialties": [
-        "General Medicine",
-        "Surgery",
-        "Orthopedics",
-        "Obstetrics & Gynecology",
-        "Pediatrics"
-      ],
-      "services": [
-        "Emergency Services",
-        "ICU",
-        "Laboratory",
-        "Radiology",
-        "Pharmacy"
-      ],
-      "location": {
-        "latitude": 28.239,
-        "longitude": 83.982
-      }
-    },
-    {
-      "hospital_name": "Manipal College of Medical Sciences",
-      "type": "Medical College & Teaching Hospital",
-      "ownership": "Private",
-      "address": "Phulbari, Pokhara, Kaski",
-      "phone": [
-        "+977-61-440039",
-        "+977-61-440040"
-      ],
-      "website": "https://www.manipalpokhara.edu.np",
-      "beds": 750,
-      "emergency_available": true,
-      "specialties": [
-        "General Medicine",
-        "Surgery",
-        "Orthopedics",
-        "Obstetrics & Gynecology",
-        "Pediatrics",
-        "Cardiology",
-        "Neurology",
-        "Nephrology",
-        "Urology",
-        "ENT",
-        "Ophthalmology",
-        "Psychiatry"
-      ],
-      "services": [
-        "24/7 Emergency",
-        "ICU",
-        "NICU",
-        "Dialysis",
-        "CT Scan",
-        "MRI",
-        "Laboratory",
-        "Blood Bank",
-        "Ambulance"
-      ],
-      "affiliation": "Kathmandu University",
-      "recognition": [
-        "NMC Nepal",
-        "NMC India",
-        "WHO"
-      ],
-      "location": {
-        "latitude": 28.1895,
-        "longitude": 84
-      }
-    },
-    {
-      "hospital_name": "Pokhara Academy of Health Sciences (PAHS)",
-      "type": "Academic & Tertiary Care Hospital",
-      "ownership": "Government",
-      "address": "Zero Kilometer, Pokhara, Kaski",
-      "phone": [
-        "+977-61-520183",
-        "+977-61-520184"
-      ],
-      "email": "pahs@pahs.edu.np",
-      "website": "https://www.pahs.edu.np",
-      "beds": 350,
-      "emergency_available": true,
-      "specialties": [
-        "General Medicine",
-        "Surgery",
-        "Orthopedics",
-        "Obstetrics & Gynecology",
-        "Pediatrics",
-        "Cardiology",
-        "Neurology",
-        "Nephrology",
-        "ENT",
-        "Ophthalmology",
-        "Psychiatry"
-      ],
-      "services": [
-        "24/7 Emergency",
-        "ICU",
-        "NICU",
-        "Dialysis",
-        "CT Scan",
-        "MRI",
-        "Laboratory",
-        "Blood Bank",
-        "Ambulance",
-        "Pharmacy"
-      ],
-      "note": "Premier government hospital in Pokhara with medical education programs",
-      "location": {
-        "latitude": 28.2156,
-        "longitude": 83.9911
-      }
-    },
-    {
-      "hospital_name": "Kaski District Hospital",
-      "type": "District Hospital",
-      "ownership": "Government",
-      "address": "Pokhara, Kaski",
-      "phone": [
-        "+977-61-520555"
-      ],
-      "beds": 100,
-      "emergency_available": true,
-      "specialties": [
-        "General Medicine",
-        "General Surgery",
-        "Obstetrics & Gynecology",
-        "Pediatrics"
-      ],
-      "services": [
-        "Emergency Services",
-        "OPD",
-        "Laboratory",
-        "X-Ray",
-        "Pharmacy"
-      ]
-    },
-    {
-      "hospital_name": "Gandaki Provincial Hospital",
-      "type": "Provincial Hospital",
-      "ownership": "Provincial Government",
-      "address": "Pokhara, Kaski",
-      "phone": [
-        "+977-61-543278"
-      ],
-      "beds": 200,
-      "emergency_available": true,
-      "specialties": [
-        "General Medicine",
-        "Surgery",
-        "Orthopedics",
-        "Obstetrics & Gynecology",
-        "Pediatrics"
-      ],
-      "services": [
-        "Emergency Services",
-        "OPD",
-        "Laboratory",
-        "Radiology",
-        "Pharmacy"
-      ]
-    },
-    {
-      "id": 1145,
+      "id": 1,
       "name": "Manipal Teaching Hospital",
       "type": "Teaching",
       "address": "Phulbari, Pokhara",
@@ -345,7 +21,7 @@
       "emergency": "061-526416"
     },
     {
-      "id": 1146,
+      "id": 2,
       "name": "Pokhara Academy of Health Sciences",
       "type": "Government",
       "address": "Fulbari, Pokhara",
@@ -354,7 +30,7 @@
       "emergency": "061-415566"
     },
     {
-      "id": 1147,
+      "id": 3,
       "name": "Charak Memorial Hospital",
       "type": "Private",
       "address": "Chipledhunga, Pokhara",
@@ -363,7 +39,7 @@
       "emergency": "061-537600"
     },
     {
-      "id": 1148,
+      "id": 4,
       "name": "Fewa City Hospital",
       "type": "Private",
       "address": "Mahendrapool, Pokhara",
@@ -372,7 +48,7 @@
       "emergency": "061-540400"
     },
     {
-      "id": 1149,
+      "id": 5,
       "name": "Nobel Medical College Teaching Hospital",
       "type": "Teaching",
       "address": "Birauta, Pokhara",
@@ -381,7 +57,7 @@
       "emergency": "061-526743"
     },
     {
-      "id": 1150,
+      "id": 6,
       "name": "Gandaki Medical College",
       "type": "Teaching",
       "address": "Lekhnath, Pokhara",
@@ -390,7 +66,7 @@
       "emergency": "061-517143"
     },
     {
-      "id": 1151,
+      "id": 7,
       "name": "Fishtail Hospital",
       "type": "Private",
       "address": "Gairapatan, Pokhara",
@@ -399,7 +75,7 @@
       "emergency": "061-537921"
     },
     {
-      "id": 1152,
+      "id": 8,
       "name": "Lakeside Hospital",
       "type": "Private",
       "address": "Lakeside, Pokhara",
@@ -408,7 +84,7 @@
       "emergency": "061-463131"
     },
     {
-      "id": 1153,
+      "id": 9,
       "name": "Pokhara Valley Hospital",
       "type": "Private",
       "address": "Sabhagriha Chowk, Pokhara",
@@ -416,7 +92,7 @@
       "beds": 80
     },
     {
-      "id": 1154,
+      "id": 10,
       "name": "Metro Hospital Pokhara",
       "type": "Private",
       "address": "New Road, Pokhara",
@@ -424,7 +100,7 @@
       "beds": 100
     },
     {
-      "id": 1155,
+      "id": 11,
       "name": "Mountain Hospital",
       "type": "Private",
       "address": "Prithvi Chowk, Pokhara",
@@ -432,7 +108,7 @@
       "beds": 75
     },
     {
-      "id": 1156,
+      "id": 12,
       "name": "Western Regional Hospital",
       "type": "Government",
       "address": "Fulbari, Pokhara",
@@ -440,7 +116,7 @@
       "beds": 200
     },
     {
-      "id": 1157,
+      "id": 13,
       "name": "Lake City Hospital",
       "type": "Private",
       "address": "Barahi Path, Pokhara",
@@ -448,7 +124,7 @@
       "beds": 60
     },
     {
-      "id": 1158,
+      "id": 14,
       "name": "Sparsh Hospital",
       "type": "Private",
       "address": "Amarsingh Chowk, Pokhara",
@@ -456,7 +132,7 @@
       "beds": 80
     },
     {
-      "id": 1159,
+      "id": 15,
       "name": "Pokhara Medicare Centre",
       "type": "Private",
       "address": "Chipledhunga, Pokhara",
@@ -464,7 +140,7 @@
       "beds": 50
     },
     {
-      "id": 1160,
+      "id": 16,
       "name": "Motherland Hospital",
       "type": "Private",
       "address": "Mahendrapool, Pokhara",
@@ -472,7 +148,7 @@
       "beds": 70
     },
     {
-      "id": 1161,
+      "id": 17,
       "name": "Hope International Hospital",
       "type": "Private",
       "address": "Lamachaur, Pokhara",
@@ -480,7 +156,7 @@
       "beds": 120
     },
     {
-      "id": 1162,
+      "id": 18,
       "name": "Om Hospital Pokhara",
       "type": "Private",
       "address": "Nayabazar, Pokhara",
@@ -488,7 +164,7 @@
       "beds": 90
     },
     {
-      "id": 1163,
+      "id": 19,
       "name": "Shree Krishna Hospital",
       "type": "Private",
       "address": "Bagar, Pokhara",
@@ -496,7 +172,7 @@
       "beds": 60
     },
     {
-      "id": 1164,
+      "id": 20,
       "name": "Mediplus Hospital",
       "type": "Private",
       "address": "Birauta, Pokhara",

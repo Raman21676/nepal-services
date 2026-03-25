@@ -3,36 +3,8 @@
     "city": "Ilam",
     "district": "Ilam",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "last_updated": "2026-03-25",
+    "total_records": 0
   },
-  "ambulance": [
-    {
-      "service_name": "Ilam Hospital Ambulance",
-      "name_np": "इलाम अस्पताल एम्बुलेन्स",
-      "phone": "027-526001",
-      "type": "Hospital Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Ilam Red Cross Ambulance",
-      "name_np": "Ilam रेडक्रस एम्बुलेन्स",
-      "phone": "027-526002",
-      "type": "NGO Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Ilam Emergency Ambulance",
-      "name_np": "इलाम आपतकालीन एम्बुलेन्स",
-      "phone": "027-526003",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    },
-    {
-      "service_name": "Ilam Life Care Ambulance",
-      "name_np": "इलाम लाइफ केयर एम्बुलेन्स",
-      "phone": "027-526004",
-      "type": "Private Ambulance",
-      "hours": "24 Hours"
-    }
-  ]
+  "ambulance": []
 }
