@@ -5,16 +5,12 @@
 
 const KOSHI_MANIFEST = [
     // Biratnagar (Morang)
-    { path: 'data/provinces/koshi/morang/biratnagar.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
+
     { path: 'data/provinces/koshi/morang/biratnagar_clinics.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'clinics' },
     { path: 'data/provinces/koshi/morang/biratnagar_pharmacies.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'pharmacies' },
     { path: 'data/provinces/koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
-    { path: 'data/provinces/koshi/morang/biratnagar_colleges.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'colleges' },
     { path: 'data/provinces/koshi/morang/biratnagar_blood_banks.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'blood_banks' },
     { path: 'data/provinces/koshi/morang/biratnagar_ambulance.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ambulance' },
-    { path: 'data/provinces/koshi/morang/biratnagar_emergency.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'emergency' },
-    { path: 'data/provinces/koshi/morang/biratnagar_veterinary.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'veterinary' },
-    { path: 'data/provinces/koshi/morang/biratnagar_ward.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward' },
     { path: 'data/provinces/koshi/morang/biratnagar_government.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'government' },
     
     // Dharan (Sunsari)
@@ -179,7 +175,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/khotang/diktel_pharmacies.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'pharmacies' },
     { path: 'data/provinces/koshi/khotang/diktel_schools.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'schools' },
     { path: 'data/provinces/koshi/khotang/diktel_veterinary.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'veterinary' },
-    { path: 'data/provinces/koshi/morang/biratnagar_forest_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'forest_offices' },
+
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'hospitals' },
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga_ambulance.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'ambulance' },
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga_blood_banks.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'blood_banks' },
