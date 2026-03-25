@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Simikot",
+    "district": "Humla",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Humla",
+      "name_np": "डिभिजन वन कार्यालय हुम्ला",
+      "type": "Division Forest Office",
+      "address": "Simikot, Humla",
+      "phone": ["087-680029"],
+      "district": "Humla",
+      "province": "Karnali",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Inaruwa",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Sunsari",
+      "name_np": "डिभिजन वन कार्यालय सुनसरी",
+      "type": "Division Forest Office",
+      "address": "Inaruwa, Sunsari",
+      "phone": ["025-520"],
+      "district": "Sunsari",
+      "province": "Koshi",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}

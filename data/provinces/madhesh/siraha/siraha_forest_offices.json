@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Siraha",
+    "district": "Siraha",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Siraha",
+      "name_np": "डिभिजन वन कार्यालय सिराहा",
+      "type": "Division Forest Office",
+      "address": "Siraha, Siraha",
+      "phone": ["023-561019"],
+      "district": "Siraha",
+      "province": "Madhesh",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}

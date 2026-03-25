@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Okhaldhunga",
+    "district": "Okhaldhunga",
+    "province": "Koshi",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Okhaldhunga",
+      "name_np": "डिभिजन वन कार्यालय ओखलढुङ्गा",
+      "type": "Division Forest Office",
+      "address": "Okhaldhunga, Okhaldhunga",
+      "phone": ["037-520134"],
+      "district": "Okhaldhunga",
+      "province": "Koshi",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}

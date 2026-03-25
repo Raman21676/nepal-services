@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Ramgram",
+    "district": "Parasi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Parasi",
+      "name_np": "डिभिजन वन कार्यालय परासी",
+      "type": "Division Forest Office",
+      "address": "Ramgram, Parasi",
+      "phone": ["078-520334"],
+      "district": "Parasi",
+      "province": "Lumbini",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Rupandehi",
+      "name_np": "डिभिजन वन कार्यालय रुपन्देही",
+      "type": "Division Forest Office",
+      "address": "Bhairahawa, Rupandehi",
+      "phone": ["071-520222"],
+      "district": "Rupandehi",
+      "province": "Lumbini",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}

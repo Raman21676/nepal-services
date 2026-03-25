@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Dadeldhura",
+    "district": "Dadeldhura",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Dadeldhura",
+      "name_np": "डिभिजन वन कार्यालय डडेल्धुरा",
+      "type": "Division Forest Office",
+      "address": "Dadeldhura, Dadeldhura",
+      "phone": ["096-420145"],
+      "district": "Dadeldhura",
+      "province": "Sudurpashchim",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}
