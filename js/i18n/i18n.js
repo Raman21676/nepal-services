@@ -231,9 +231,18 @@ class I18n {
         
         const currentValue = select.value;
         
+        // Map select IDs to correct translation keys (plural forms)
+        const allKeyMap = {
+            'provinceFilter': 'filters.allProvinces',
+            'districtFilter': 'filters.allDistricts',
+            'cityFilter': 'filters.allCities',
+            'categoryFilter': 'filters.allCategories',
+            'typeFilter': 'filters.allTypes'
+        };
+        
         // Update the first option (All...)
         if (select.options[0]) {
-            const allKey = `filters.all${this.capitalizeFirst(selectId.replace('Filter', ''))}`;
+            const allKey = allKeyMap[selectId] || `filters.all${this.capitalizeFirst(selectId.replace('Filter', ''))}`;
             select.options[0].textContent = this.getText(allKey);
         }
         
