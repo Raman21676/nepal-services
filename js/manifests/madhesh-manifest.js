@@ -112,4 +112,52 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_emergency.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'emergency' },
     { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_government.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'government' },
     { path: 'data/provinces/madhesh/rautahat/chandranigahapur/chandranigahapur_veterinary.json', province: 'madhesh', district: 'rautahat', city: 'chandranigahapur', type: 'veterinary' },
+    
+    // Bara Secondary City - Simara
+    { path: 'data/provinces/madhesh/bara/simara/simara_hospitals.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_colleges.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'colleges' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_schools.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'schools' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_clinics.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'clinics' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_pharmacies.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_ambulance.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_blood_banks.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_emergency.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'emergency' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_government.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'government' },
+    { path: 'data/provinces/madhesh/bara/simara/simara_veterinary.json', province: 'madhesh', district: 'bara', city: 'simara', type: 'veterinary' },
+    
+    // Parsa Secondary City - Pokhariya
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_hospitals.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_colleges.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'colleges' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_schools.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'schools' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_clinics.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'clinics' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_pharmacies.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_ambulance.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_blood_banks.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_emergency.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'emergency' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_government.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'government' },
+    { path: 'data/provinces/madhesh/parsa/pokhariya/pokhariya_veterinary.json', province: 'madhesh', district: 'parsa', city: 'pokhariya', type: 'veterinary' },
+    
+    // Mahottari Secondary City - Bardibas
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_hospitals.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_colleges.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'colleges' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_schools.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'schools' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_clinics.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'clinics' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_pharmacies.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_ambulance.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_blood_banks.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_emergency.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'emergency' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_government.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'government' },
+    { path: 'data/provinces/madhesh/mahottari/bardibas/bardibas_veterinary.json', province: 'madhesh', district: 'mahottari', city: 'bardibas', type: 'veterinary' },
+    
+    // Sarlahi Secondary City - Hariwan
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_hospitals.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_colleges.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'colleges' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_schools.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'schools' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_clinics.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'clinics' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_pharmacies.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'pharmacies' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_ambulance.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'ambulance' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_blood_banks.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'blood_banks' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_emergency.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'emergency' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_government.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'government' },
+    { path: 'data/provinces/madhesh/sarlahi/hariwan/hariwan_veterinary.json', province: 'madhesh', district: 'sarlahi', city: 'hariwan', type: 'veterinary' },
 ];

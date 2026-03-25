@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Ratnanagar",
+    "district": "Chitwan",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Ratnanagar Hospital",
+      "type": "Public",
+      "address": "Ratnanagar-5, Chitwan",
+      "phone": ["056-520100"],
+      "district": "Chitwan",
+      "gps": null
+    }
+  ]
+}

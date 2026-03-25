@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Bardibas",
+    "district": "Mahottari",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Bardibas Hospital",
+      "type": "Public",
+      "address": "Bardibas-5, Mahottari",
+      "phone": ["044-520100"],
+      "district": "Mahottari",
+      "gps": null
+    }
+  ]
+}

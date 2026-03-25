@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Rajapur",
+    "district": "Bardiya",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Rajapur Hospital",
+      "type": "Public",
+      "address": "Rajapur-5, Bardiya",
+      "phone": ["084-520100"],
+      "district": "Bardiya",
+      "gps": null
+    }
+  ]
+}

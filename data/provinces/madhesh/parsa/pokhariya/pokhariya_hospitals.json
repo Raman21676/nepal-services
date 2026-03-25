@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Pokhariya",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Pokhariya Hospital",
+      "type": "Public",
+      "address": "Pokhariya-5, Parsa",
+      "phone": ["051-520100"],
+      "district": "Parsa",
+      "gps": null
+    }
+  ]
+}

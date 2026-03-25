@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Lamki",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lamki Hospital",
+      "type": "Public",
+      "address": "Lamki-5, Kailali",
+      "phone": ["091-550100"],
+      "district": "Kailali",
+      "gps": null
+    }
+  ]
+}

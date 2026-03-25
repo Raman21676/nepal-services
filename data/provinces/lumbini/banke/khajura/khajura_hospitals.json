@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Khajura",
+    "district": "Banke",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Khajura Hospital",
+      "type": "Public",
+      "address": "Khajura-5, Banke",
+      "phone": ["081-520100"],
+      "district": "Banke",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Simara",
+    "district": "Bara",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Simara Hospital",
+      "type": "Public",
+      "address": "Simara-5, Bara",
+      "phone": ["053-550200"],
+      "district": "Bara",
+      "gps": null
+    }
+  ]
+}

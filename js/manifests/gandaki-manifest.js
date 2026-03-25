@@ -88,4 +88,16 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_emergency.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'emergency' },
     { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_government.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'government' },
     { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_veterinary.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'veterinary' },
+    
+    // Nawalpur Secondary City - Bardaghat
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_hospitals.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'hospitals' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_colleges.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'colleges' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_schools.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'schools' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_clinics.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'clinics' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_pharmacies.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'pharmacies' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_ambulance.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'ambulance' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_blood_banks.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'blood_banks' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_emergency.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'emergency' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_government.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'government' },
+    { path: 'data/provinces/gandaki/nawalpur/bardaghat/bardaghat_veterinary.json', province: 'gandaki', district: 'nawalpur', city: 'bardaghat', type: 'veterinary' },
 ];

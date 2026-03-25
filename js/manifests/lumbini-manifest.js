@@ -88,4 +88,28 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_emergency.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'emergency' },
     { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_government.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'government' },
     { path: 'data/provinces/lumbini/kapilvastu/taulihawa/taulihawa_veterinary.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'veterinary' },
+    
+    // Bardiya Secondary City - Rajapur
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_hospitals.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_colleges.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'colleges' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_schools.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'schools' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_clinics.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'clinics' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_pharmacies.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'pharmacies' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_ambulance.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'ambulance' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_blood_banks.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'blood_banks' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_emergency.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'emergency' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_government.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'government' },
+    { path: 'data/provinces/lumbini/bardiya/rajapur/rajapur_veterinary.json', province: 'lumbini', district: 'bardiya', city: 'rajapur', type: 'veterinary' },
+    
+    // Banke Secondary City - Khajura
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_hospitals.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_colleges.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'colleges' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_schools.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'schools' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_clinics.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'clinics' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_pharmacies.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'pharmacies' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_ambulance.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'ambulance' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_blood_banks.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'blood_banks' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_emergency.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'emergency' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_government.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'government' },
+    { path: 'data/provinces/lumbini/banke/khajura/khajura_veterinary.json', province: 'lumbini', district: 'banke', city: 'khajura', type: 'veterinary' },
 ];

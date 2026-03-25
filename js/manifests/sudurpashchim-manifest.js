@@ -88,4 +88,16 @@ if (typeof dataLoader !== 'undefined') {
     { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_emergency.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'emergency' },
     { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_government.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'government' },
     { path: 'data/provinces/sudurpashchim/kailali/tikapur/tikapur_veterinary.json', province: 'sudurpashchim', district: 'kailali', city: 'tikapur', type: 'veterinary' },
+    
+    // Kailali Secondary City - Lamki
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_hospitals.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'hospitals' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_colleges.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'colleges' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_schools.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'schools' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_clinics.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'clinics' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_pharmacies.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'pharmacies' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_ambulance.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'ambulance' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_blood_banks.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'blood_banks' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_emergency.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'emergency' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_government.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'government' },
+    { path: 'data/provinces/sudurpashchim/kailali/lamki/lamki_veterinary.json', province: 'sudurpashchim', district: 'kailali', city: 'lamki', type: 'veterinary' },
 ];

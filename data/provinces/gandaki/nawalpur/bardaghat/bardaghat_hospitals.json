@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Bardaghat",
+    "district": "Nawalpur",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Bardaghat Hospital",
+      "type": "Public",
+      "address": "Bardaghat-5, Nawalpur",
+      "phone": ["078-520100"],
+      "district": "Nawalpur",
+      "gps": null
+    }
+  ]
+}
