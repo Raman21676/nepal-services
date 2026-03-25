@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" id="nepal-map">
+  <defs>
+    <style>
+      .province {
+        stroke: #fff;
+        stroke-width: 2;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .province:hover {
+        filter: brightness(1.1);
+        stroke-width: 3;
+      }
+      .province.active {
+        stroke: #2563eb;
+        stroke-width: 4;
+        filter: brightness(1.15);
+      }
+      .province-label {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        fill: white;
+        text-anchor: middle;
+        pointer-events: none;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      }
+      .district {
+        stroke: rgba(255,255,255,0.3);
+        stroke-width: 0.5;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+      .district:hover {
+        filter: brightness(1.2);
+        stroke-width: 1.5;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  
+  <!-- Koshi Province -->
+  <path id="koshi" class="province" fill="#3b82f6" d="M520,50 L580,30 L650,40 L720,60 L750,120 L740,180 L700,220 L650,240 L600,230 L560,200 L530,150 L510,100 Z"/>
+  
+  <!-- Madhesh Province -->
+  <path id="madhesh" class="province" fill="#10b981" d="M200,200 L350,190 L480,200 L530,150 L560,200 L550,280 L500,320 L400,330 L300,325 L220,310 L180,260 Z"/>
+  
+  <!-- Bagmati Province -->
+  <path id="bagmati" class="province" fill="#f59e0b" d="M180,260 L220,310 L300,325 L350,340 L380,400 L360,480 L300,520 L220,500 L180,450 L160,380 L170,320 Z"/>
+  
+  <!-- Gandaki Province -->
+  <path id="gandaki" class="province" fill="#8b5cf6" d="M160,380 L180,450 L220,500 L200,550 L120,560 L80,520 L60,450 L80,400 L120,380 Z"/>
+  
+  <!-- Lumbini Province -->
+  <path id="lumbini" class="province" fill="#ec4899" d="M60,450 L80,520 L120,560 L100,600 L20,580 L0,520 L10,470 Z"/>
+  
+  <!-- Karnali Province -->
+  <path id="karnali" class="province" fill="#06b6d4" d="M120,380 L80,400 L60,450 L10,470 L0,400 L20,320 L60,280 L100,300 L140,340 Z"/>
+  
+  <!-- Sudurpashchim Province -->
+  <path id="sudurpashchim" class="province" fill="#ef4444" d="M20,320 L0,400 L0,250 L30,200 L80,220 L100,280 L80,320 L60,280 Z"/>
+  
+  <!-- Province Labels -->
+  <text x="640" y="140" class="province-label">Koshi</text>
+  <text x="380" y="260" class="province-label">Madhesh</text>
+  <text x="280" y="400" class="province-label">Bagmati</text>
+  <text x="140" y="480" class="province-label">Gandaki</text>
+  <text x="60" y="550" class="province-label">Lumbini</text>
+  <text x="60" y="380" class="province-label">Karnali</text>
+  <text x="50" y="280" class="province-label">Sudurpashchim</text>
+</svg>

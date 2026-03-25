@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#ffffff">
     <title data-i18n="meta.title">Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
     <meta name="description" data-i18n="meta.description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
-    <link rel="stylesheet" href="styles.css?v=26">
+    <link rel="stylesheet" href="styles.css?v=27">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-bg">
-            <img src="images/mountain-illustration.svg?v=2" alt="Nepal Mountains" class="hero-mountains">
+            <img src="images/mountain-illustration.svg?v=27" alt="Nepal Mountains" class="hero-mountains">
             <div class="hero-gradient"></div>
         </div>
         <div class="hero-content">
@@ -48,6 +48,111 @@
             </div>
         </div>
     </header>
+
+    <!-- Interactive Nepal Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-wrapper">
+                <div class="map-header">
+                    <h2 class="map-title">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span data-i18n="map.title">Explore by Province</span>
+                    </h2>
+                    <p class="map-subtitle" data-i18n="map.subtitle">Click on a province to explore districts and services</p>
+                </div>
+                
+                <div class="map-container">
+                    <!-- Nepal SVG Map -->
+                    <div class="nepal-map-wrapper">
+                        <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" id="nepal-map">
+                            <defs>
+                                <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                                    <feGaussianBlur stdDeviation="3" result="blur"/>
+                                    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                                </filter>
+                            </defs>
+                            
+                            <!-- Koshi Province -->
+                            <path id="koshi" class="province" data-province="koshi" data-name="Koshi Province" fill="#3b82f6" d="M520,50 L580,30 L650,40 L720,60 L750,120 L740,180 L700,220 L650,240 L600,230 L560,200 L530,150 L510,100 Z"/>
+                            
+                            <!-- Madhesh Province -->
+                            <path id="madhesh" class="province" data-province="madhesh" data-name="Madhesh Province" fill="#10b981" d="M200,200 L350,190 L480,200 L530,150 L560,200 L550,280 L500,320 L400,330 L300,325 L220,310 L180,260 Z"/>
+                            
+                            <!-- Bagmati Province -->
+                            <path id="bagmati" class="province" data-province="bagmati" data-name="Bagmati Province" fill="#f59e0b" d="M180,260 L220,310 L300,325 L350,340 L380,400 L360,480 L300,520 L220,500 L180,450 L160,380 L170,320 Z"/>
+                            
+                            <!-- Gandaki Province -->
+                            <path id="gandaki" class="province" data-province="gandaki" data-name="Gandaki Province" fill="#8b5cf6" d="M160,380 L180,450 L220,500 L200,550 L120,560 L80,520 L60,450 L80,400 L120,380 Z"/>
+                            
+                            <!-- Lumbini Province -->
+                            <path id="lumbini" class="province" data-province="lumbini" data-name="Lumbini Province" fill="#ec4899" d="M60,450 L80,520 L120,560 L100,600 L20,580 L0,520 L10,470 Z"/>
+                            
+                            <!-- Karnali Province -->
+                            <path id="karnali" class="province" data-province="karnali" data-name="Karnali Province" fill="#06b6d4" d="M120,380 L80,400 L60,450 L10,470 L0,400 L20,320 L60,280 L100,300 L140,340 Z"/>
+                            
+                            <!-- Sudurpashchim Province -->
+                            <path id="sudurpashchim" class="province" data-province="sudurpashchim" data-name="Sudurpashchim Province" fill="#ef4444" d="M20,320 L0,400 L0,250 L30,200 L80,220 L100,280 L80,320 L60,280 Z"/>
+                            
+                            <!-- Province Labels -->
+                            <text x="640" y="140" class="province-label" text-anchor="middle">Koshi</text>
+                            <text x="380" y="260" class="province-label" text-anchor="middle">Madhesh</text>
+                            <text x="280" y="400" class="province-label" text-anchor="middle">Bagmati</text>
+                            <text x="140" y="480" class="province-label" text-anchor="middle">Gandaki</text>
+                            <text x="60" y="550" class="province-label" text-anchor="middle">Lumbini</text>
+                            <text x="60" y="380" class="province-label" text-anchor="middle">Karnali</text>
+                            <text x="50" y="280" class="province-label" text-anchor="middle">Far West</text>
+                        </svg>
+                        
+                        <!-- Map Legend -->
+                        <div class="map-legend">
+                            <div class="legend-item" data-province="koshi">
+                                <span class="legend-color" style="background:#3b82f6"></span>
+                                <span class="legend-text">Koshi</span>
+                            </div>
+                            <div class="legend-item" data-province="madhesh">
+                                <span class="legend-color" style="background:#10b981"></span>
+                                <span class="legend-text">Madhesh</span>
+                            </div>
+                            <div class="legend-item" data-province="bagmati">
+                                <span class="legend-color" style="background:#f59e0b"></span>
+                                <span class="legend-text">Bagmati</span>
+                            </div>
+                            <div class="legend-item" data-province="gandaki">
+                                <span class="legend-color" style="background:#8b5cf6"></span>
+                                <span class="legend-text">Gandaki</span>
+                            </div>
+                            <div class="legend-item" data-province="lumbini">
+                                <span class="legend-color" style="background:#ec4899"></span>
+                                <span class="legend-text">Lumbini</span>
+                            </div>
+                            <div class="legend-item" data-province="karnali">
+                                <span class="legend-color" style="background:#06b6d4"></span>
+                                <span class="legend-text">Karnali</span>
+                            </div>
+                            <div class="legend-item" data-province="sudurpashchim">
+                                <span class="legend-color" style="background:#ef4444"></span>
+                                <span class="legend-text">Sudurpashchim</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- District Panel (shown when province is selected) -->
+                    <div class="district-panel" id="districtPanel">
+                        <div class="district-panel-header">
+                            <h3 id="selectedProvinceName">Select a Province</h3>
+                            <button class="close-panel" id="closeDistrictPanel">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="district-list" id="districtList">
+                            <p class="district-hint">Click on a province in the map to see its districts</p>
+                        </div>
+                        <div class="district-stats" id="districtStats"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Search & Filter Section -->
     <section class="search-section">
@@ -255,20 +360,21 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-    <script src="js/i18n/i18n.js?v=26"></script>
-    <script src="js/theme.js?v=26"></script>
-    <script src="js/config.js?v=26"></script>
-    <script src="js/manifests/bagmati-manifest.js?v=26"></script>
-    <script src="js/manifests/koshi-manifest.js?v=26"></script>
-    <script src="js/manifests/madhesh-manifest.js?v=26"></script>
-    <script src="js/manifests/gandaki-manifest.js?v=26"></script>
-    <script src="js/manifests/lumbini-manifest.js?v=26"></script>
-    <script src="js/manifests/karnali-manifest.js?v=26"></script>
-    <script src="js/manifests/sudurpashchim-manifest.js?v=26"></script>
-    <script src="js/data-loader.js?v=26"></script>
-    <script src="js/filters.js?v=26"></script>
-    <script src="js/renderer.js?v=26"></script>
-    <script src="app.js?v=26"></script>
+    <script src="js/i18n/i18n.js?v=27"></script>
+    <script src="js/theme.js?v=27"></script>
+    <script src="js/config.js?v=27"></script>
+    <script src="js/manifests/bagmati-manifest.js?v=27"></script>
+    <script src="js/manifests/koshi-manifest.js?v=27"></script>
+    <script src="js/manifests/madhesh-manifest.js?v=27"></script>
+    <script src="js/manifests/gandaki-manifest.js?v=27"></script>
+    <script src="js/manifests/lumbini-manifest.js?v=27"></script>
+    <script src="js/manifests/karnali-manifest.js?v=27"></script>
+    <script src="js/manifests/sudurpashchim-manifest.js?v=27"></script>
+    <script src="js/data-loader.js?v=27"></script>
+    <script src="js/filters.js?v=27"></script>
+    <script src="js/renderer.js?v=27"></script>
+    <script src="js/nepal-map.js?v=27"></script>
+    <script src="app.js?v=27"></script>
     
     <script>
         // Initialize i18n and theme
