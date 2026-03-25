@@ -2419,49 +2419,19 @@ input:focus, select:focus, button:focus {
     border-radius: var(--radius-xl);
     padding: var(--space-6);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#nepal-map {
+.nepal-map-image {
     width: 100%;
     height: auto;
+    max-width: 600px;
     max-height: 500px;
-    display: block;
-}
-
-#nepal-map .province {
-    stroke: #fff;
-    stroke-width: 2;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
-}
-
-#nepal-map .province:hover {
-    filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0,0,0,0.2));
-    stroke-width: 3;
-    transform-origin: center;
-}
-
-#nepal-map .province.active {
-    stroke: #2563eb;
-    stroke-width: 4;
-    filter: brightness(1.2) drop-shadow(0 6px 12px rgba(37, 99, 235, 0.3));
-    animation: pulse-province 2s ease-in-out infinite;
-}
-
-@keyframes pulse-province {
-    0%, 100% { stroke-opacity: 1; }
-    50% { stroke-opacity: 0.6; }
-}
-
-#nepal-map .province-label {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    fill: white;
-    pointer-events: none;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-    opacity: 0.95;
+    object-fit: contain;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 /* Map Legend */
