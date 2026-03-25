@@ -210,6 +210,7 @@ class I18n {
         // Update filter options
         this.updateSelectOptions('provinceFilter', 'provinces');
         this.updateSelectOptions('districtFilter', 'districts');
+        this.updateSelectOptions('cityFilter', 'cities');
         this.updateSelectOptions('categoryFilter', 'categories');
         this.updateSelectOptions('typeFilter', 'types');
         
