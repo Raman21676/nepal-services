@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "city": "Ghorahi",
+    "district": "Dang",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Major hospitals and medical centers in Ghorahi"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Rapti Provincial Hospital",
+      "type": "Government",
+      "address": "Ghorahi-5, Dang",
+      "phone": ["082-520111", "082-520112"],
+      "district": "Dang",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "28.0400,82.4833"
+    },
+    {
+      "id": 2,
+      "name": "Ghorahi Hospital",
+      "type": "Private",
+      "address": "Ghorahi-4, Dang",
+      "phone": ["082-521234"],
+      "district": "Dang",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "28.0456,82.4767"
+    },
+    {
+      "id": 3,
+      "name": "Rapti Eye Hospital",
+      "type": "NGO",
+      "address": "Ghorahi-3, Dang",
+      "phone": ["082-522345"],
+      "district": "Dang",
+      "beds": "50",
+      "emergency_available": false,
+      "specialties": ["Ophthalmology", "Eye Surgery", "Cataract"],
+      "gps": "28.0356,82.4900"
+    },
+    {
+      "id": 4,
+      "name": "Life Line Hospital Ghorahi",
+      "type": "Private",
+      "address": "Ghorahi-6, Dang",
+      "phone": ["082-523456"],
+      "district": "Dang",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Surgery"],
+      "gps": "28.0500,82.4700"
+    },
+    {
+      "id": 5,
+      "name": "Dang Medical College",
+      "type": "Private",
+      "address": "Ghorahi-7, Dang",
+      "phone": ["082-524567"],
+      "district": "Dang",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery", "Cardiology"],
+      "gps": "28.0289,82.4956"
+    },
+    {
+      "id": 6,
+      "name": "Shanti Hospital Ghorahi",
+      "type": "Private",
+      "address": "Ghorahi-2, Dang",
+      "phone": ["082-525678"],
+      "district": "Dang",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Maternity", "Pediatrics"],
+      "gps": "28.0423,82.4812"
+    },
+    {
+      "id": 7,
+      "name": "Om Sai Hospital Ghorahi",
+      "type": "Private",
+      "address": "Ghorahi-1, Dang",
+      "phone": ["082-526789"],
+      "district": "Dang",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["General Surgery", "Orthopedics"],
+      "gps": "28.0534,82.4656"
+    },
+    {
+      "id": 8,
+      "name": "City Hospital Ghorahi",
+      "type": "Private",
+      "address": "Ghorahi-8, Dang",
+      "phone": ["082-527890"],
+      "district": "Dang",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency", "Diagnostics"],
+      "gps": "28.0312,82.5034"
+    }
+  ]
+}

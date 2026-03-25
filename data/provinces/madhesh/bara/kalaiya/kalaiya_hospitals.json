@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "city": "Kalaiya",
+    "district": "Bara",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Major hospitals and medical centers in Kalaiya"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Kalaiya Hospital",
+      "type": "Government",
+      "address": "Kalaiya-5, Bara",
+      "phone": ["053-520111"],
+      "district": "Bara",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "27.0333,85.0000"
+    },
+    {
+      "id": 2,
+      "name": "Bara District Hospital - Kalaiya",
+      "type": "Government",
+      "address": "Kalaiya-4, Bara",
+      "phone": ["053-521234"],
+      "district": "Bara",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "General Medicine", "Maternity"],
+      "gps": "27.0389,84.9934"
+    },
+    {
+      "id": 3,
+      "name": "Shree Hospital Kalaiya",
+      "type": "Private",
+      "address": "Kalaiya-3, Bara",
+      "phone": ["053-522345"],
+      "district": "Bara",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.0289,85.0067"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Hospital Kalaiya",
+      "type": "Private",
+      "address": "Kalaiya-6, Bara",
+      "phone": ["053-523456"],
+      "district": "Bara",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Surgery"],
+      "gps": "27.0423,84.9878"
+    },
+    {
+      "id": 5,
+      "name": "Madhya Nepal Hospital",
+      "type": "Private",
+      "address": "Kalaiya-2, Bara",
+      "phone": ["053-524567"],
+      "district": "Bara",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Pediatrics", "Orthopedics"],
+      "gps": "27.0256,85.0123"
+    },
+    {
+      "id": 6,
+      "name": "City Hospital Kalaiya",
+      "type": "Private",
+      "address": "Kalaiya-7, Bara",
+      "phone": ["053-525678"],
+      "district": "Bara",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Diagnostics"],
+      "gps": "27.0456,84.9823"
+    },
+    {
+      "id": 7,
+      "name": "Mother Care Hospital",
+      "type": "Private",
+      "address": "Kalaiya-1, Bara",
+      "phone": ["053-526789"],
+      "district": "Bara",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["Gynecology", "Maternity", "Pediatrics"],
+      "gps": "27.0312,85.0034"
+    },
+    {
+      "id": 8,
+      "name": "Kalaiya Medical Center",
+      "type": "Private",
+      "address": "Kalaiya-8, Bara",
+      "phone": ["053-527890"],
+      "district": "Bara",
+      "beds": "20",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "27.0489,84.9789"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Hetauda"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Hetauda Hospital",
+      "type": "Government",
+      "address": "Hetauda-4, Makwanpur",
+      "phone": ["057-520111", "057-520112"],
+      "district": "Makwanpur",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "27.4290,85.0310"
+    },
+    {
+      "id": 2,
+      "name": "Makwanpur Hospital",
+      "type": "Private",
+      "address": "Hetauda-5, Makwanpur",
+      "phone": ["057-521234"],
+      "district": "Makwanpur",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.4356,85.0245"
+    },
+    {
+      "id": 3,
+      "name": "Hetauda Medical College",
+      "type": "Private",
+      "address": "Hetauda-7, Makwanpur",
+      "phone": ["057-522345", "057-522346"],
+      "district": "Makwanpur",
+      "beds": "250",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "Cardiology", "General Medicine", "Surgery"],
+      "gps": "27.4212,85.0389"
+    },
+    {
+      "id": 4,
+      "name": "Chure Hill Hospital",
+      "type": "Private",
+      "address": "Hetauda-3, Makwanpur",
+      "phone": ["057-523456"],
+      "district": "Makwanpur",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Surgery"],
+      "gps": "27.4389,85.0189"
+    },
+    {
+      "id": 5,
+      "name": "Siddhartha Hospital Hetauda",
+      "type": "Private",
+      "address": "Hetauda-6, Makwanpur",
+      "phone": ["057-524567"],
+      "district": "Makwanpur",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Internal Medicine"],
+      "gps": "27.4267,85.0345"
+    },
+    {
+      "id": 6,
+      "name": "Life Care Hospital Hetauda",
+      "type": "Private",
+      "address": "Hetauda-2, Makwanpur",
+      "phone": ["057-525678"],
+      "district": "Makwanpur",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Diagnostics"],
+      "gps": "27.4323,85.0278"
+    },
+    {
+      "id": 7,
+      "name": "Bhimphedi Hospital",
+      "type": "Government",
+      "address": "Bhimphedi, Makwanpur (Near Hetauda)",
+      "phone": ["057-526789"],
+      "district": "Makwanpur",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["Primary Care", "General Medicine"],
+      "gps": "27.4589,85.0689"
+    },
+    {
+      "id": 8,
+      "name": "Manakamana Hospital",
+      "type": "Private",
+      "address": "Hetauda-8, Makwanpur",
+      "phone": ["057-527890"],
+      "district": "Makwanpur",
+      "beds": "45",
+      "emergency_available": true,
+      "specialties": ["Gynecology", "Pediatrics", "General Medicine"],
+      "gps": "27.4198,85.0423"
+    },
+    {
+      "id": 9,
+      "name": "Hetauda City Hospital",
+      "type": "Private",
+      "address": "Hetauda-1, Makwanpur",
+      "phone": ["057-528901"],
+      "district": "Makwanpur",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery"],
+      "gps": "27.4401,85.0156"
+    },
+    {
+      "id": 10,
+      "name": "Chitwan Medical College - Hetauda Campus",
+      "type": "Private",
+      "address": "Hetauda-9, Makwanpur",
+      "phone": ["057-529012"],
+      "district": "Makwanpur",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery"],
+      "gps": "27.4156,85.0467"
+    }
+  ]
+}

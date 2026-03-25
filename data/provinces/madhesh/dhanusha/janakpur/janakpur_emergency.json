@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Janakpur Municipal Office, Nepal Police",
+    "total_records": 8,
+    "note": "Emergency contacts for Janakpur"
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Janakpur Police Station",
+      "type": "Police",
+      "department": "Nepal Police",
+      "phone": ["100", "041-520100"],
+      "address": "Janakpur Chowk, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Janakpur Fire Station",
+      "type": "Fire Service",
+      "department": "Fire Brigade",
+      "phone": ["101"],
+      "address": "Janakpur-4, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Janakpur Ambulance Service",
+      "type": "Ambulance",
+      "phone": ["102", "041-520999"],
+      "address": "Janakpur Hospital, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "Janakpur Municipality Office",
+      "type": "Government",
+      "department": "Administration",
+      "phone": ["041-520200"],
+      "address": "Janakpur-5, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)"
+    },
+    {
+      "id": 5,
+      "name": "Janakpur Traffic Police",
+      "type": "Traffic Control",
+      "department": "Traffic Police",
+      "phone": ["041-520300"],
+      "address": "Janakpur Bus Stand, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    },
+    {
+      "id": 6,
+      "name": "Janaki Medical College Ambulance",
+      "type": "Ambulance",
+      "phone": ["041-521111"],
+      "address": "Janaki Medical College, Janakpur",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    },
+    {
+      "id": 7,
+      "name": "Red Cross Janakpur",
+      "type": "Emergency Relief",
+      "phone": ["041-520400"],
+      "address": "Janakpur-6, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    },
+    {
+      "id": 8,
+      "name": "Janakpur Blood Bank",
+      "type": "Blood Bank",
+      "phone": ["041-520500"],
+      "address": "Janakpur Provincial Hospital, Dhanusha",
+      "district": "Dhanusha",
+      "hours": "24/7"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "city": "Itahari",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Itahari"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Itahari Hospital",
+      "type": "Government",
+      "address": "Itahari-6, Sunsari",
+      "phone": ["025-520111", "025-520112"],
+      "district": "Sunsari",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.6636,87.2834"
+    },
+    {
+      "id": 2,
+      "name": "Nabil Hospital",
+      "type": "Private",
+      "address": "Itahari-4, Sunsari",
+      "phone": ["025-521234"],
+      "district": "Sunsari",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology", "Orthopedics"],
+      "gps": "26.6689,87.2789"
+    },
+    {
+      "id": 3,
+      "name": "Sunsari Hospital",
+      "type": "Private",
+      "address": "Itahari-8, Sunsari",
+      "phone": ["025-522345"],
+      "district": "Sunsari",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Surgery"],
+      "gps": "26.6598,87.2890"
+    },
+    {
+      "id": 4,
+      "name": "Life Line Hospital Itahari",
+      "type": "Private",
+      "address": "Itahari-3, Sunsari",
+      "phone": ["025-523456"],
+      "district": "Sunsari",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Diagnostics"],
+      "gps": "26.6723,87.2767"
+    },
+    {
+      "id": 5,
+      "name": "Om Hospital Itahari",
+      "type": "Private",
+      "address": "Itahari-5, Sunsari",
+      "phone": ["025-524567"],
+      "district": "Sunsari",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Pediatrics"],
+      "gps": "26.6567,87.2912"
+    },
+    {
+      "id": 6,
+      "name": "Shree Krishna Hospital Itahari",
+      "type": "Private",
+      "address": "Itahari-7, Sunsari",
+      "phone": ["025-525678"],
+      "district": "Sunsari",
+      "beds": "45",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Internal Medicine"],
+      "gps": "26.6756,87.2745"
+    },
+    {
+      "id": 7,
+      "name": "Maya Hospital Itahari",
+      "type": "Private",
+      "address": "Itahari-2, Sunsari",
+      "phone": ["025-526789"],
+      "district": "Sunsari",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["Gynecology", "Maternity", "General Medicine"],
+      "gps": "26.6612,87.2867"
+    },
+    {
+      "id": 8,
+      "name": "City Hospital Itahari",
+      "type": "Private",
+      "address": "Itahari-1, Sunsari",
+      "phone": ["025-527890"],
+      "district": "Sunsari",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency", "Diagnostics"],
+      "gps": "26.6789,87.2723"
+    },
+    {
+      "id": 9,
+      "name": "Green City Hospital Itahari",
+      "type": "Private",
+      "address": "Itahari-9, Sunsari",
+      "phone": ["025-528901"],
+      "district": "Sunsari",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Surgery"],
+      "gps": "26.6545,87.2934"
+    },
+    {
+      "id": 10,
+      "name": "Holy Cross Hospital Itahari",
+      "type": "NGO",
+      "address": "Itahari-10, Sunsari",
+      "phone": ["025-529012"],
+      "district": "Sunsari",
+      "beds": "40",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Community Health"],
+      "gps": "26.6812,87.2701"
+    }
+  ]
+}

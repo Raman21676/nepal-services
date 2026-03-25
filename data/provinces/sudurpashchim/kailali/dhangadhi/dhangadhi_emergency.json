@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Dhangadhi Sub-Metropolitan City, Nepal Police",
+    "total_records": 6,
+    "note": "Emergency contacts for Dhangadhi"
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Dhangadhi Police Station",
+      "type": "Police",
+      "department": "Nepal Police",
+      "phone": ["100", "091-520100"],
+      "address": "Dhangadhi-5, Kailali",
+      "district": "Kailali",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Dhangadhi Fire Station",
+      "type": "Fire Service",
+      "department": "Fire Brigade",
+      "phone": ["101"],
+      "address": "Dhangadhi-4, Kailali",
+      "district": "Kailali",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Dhangadhi Ambulance Service",
+      "type": "Ambulance",
+      "phone": ["102", "091-520999"],
+      "address": "Seti Provincial Hospital, Dhangadhi",
+      "district": "Kailali",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "Dhangadhi Sub-Metropolitan Office",
+      "type": "Government",
+      "department": "Administration",
+      "phone": ["091-520200"],
+      "address": "Dhangadhi-3, Kailali",
+      "district": "Kailali",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)"
+    },
+    {
+      "id": 5,
+      "name": "Dhangadhi Traffic Police",
+      "type": "Traffic Control",
+      "department": "Traffic Police",
+      "phone": ["091-520300"],
+      "address": "Dhangadhi Bus Park, Kailali",
+      "district": "Kailali",
+      "hours": "24/7"
+    },
+    {
+      "id": 6,
+      "name": "Dhangadhi Blood Bank",
+      "type": "Blood Bank",
+      "phone": ["091-520400"],
+      "address": "Seti Provincial Hospital, Dhangadhi",
+      "district": "Kailali",
+      "hours": "24/7"
+    }
+  ]
+}

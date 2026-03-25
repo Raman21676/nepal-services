@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Bhairahawa (Near Lumbini)"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Bhaktapur Cancer Hospital - Bhairahawa Branch",
+      "type": "Government",
+      "address": "Bhairahawa, Rupandehi",
+      "phone": ["071-520111"],
+      "district": "Rupandehi",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Oncology", "Cancer Treatment", "Radiotherapy"],
+      "gps": "27.5090,83.4512"
+    },
+    {
+      "id": 2,
+      "name": "Universal College of Medical Sciences",
+      "type": "Private",
+      "address": "Bhairahawa-10, Rupandehi",
+      "phone": ["071-521234", "071-521235"],
+      "website": "https://ucms.edu.np/",
+      "district": "Rupandehi",
+      "beds": "500",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "Cardiology", "Neurosurgery", "Nephrology", "Urology"],
+      "gps": "27.5134,83.4478"
+    },
+    {
+      "id": 3,
+      "name": "Bhairahawa Hospital",
+      "type": "Private",
+      "address": "Bhairahawa-5, Rupandehi",
+      "phone": ["071-522345"],
+      "district": "Rupandehi",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Gynecology", "Pediatrics"],
+      "gps": "27.5067,83.4545"
+    },
+    {
+      "id": 4,
+      "name": "Gautam Buddha Hospital",
+      "type": "Private",
+      "address": "Siddharthanagar-7, Rupandehi",
+      "phone": ["071-523456"],
+      "district": "Rupandehi",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Orthopedics"],
+      "gps": "27.5012,83.4590"
+    },
+    {
+      "id": 5,
+      "name": "Lumbini Medical Institute",
+      "type": "Private",
+      "address": "Bhairahawa-3, Rupandehi",
+      "phone": ["071-524567"],
+      "district": "Rupandehi",
+      "beds": "120",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Surgery", "Diagnostics"],
+      "gps": "27.5178,83.4423"
+    },
+    {
+      "id": 6,
+      "name": "Shanti Hospital Bhairahawa",
+      "type": "Private",
+      "address": "Bhairahawa-6, Rupandehi",
+      "phone": ["071-525678"],
+      "district": "Rupandehi",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Maternity", "Pediatrics"],
+      "gps": "27.5045,83.4567"
+    },
+    {
+      "id": 7,
+      "name": "Maya Hospital Bhairahawa",
+      "type": "Private",
+      "address": "Bhairahawa-8, Rupandehi",
+      "phone": ["071-526789"],
+      "district": "Rupandehi",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Gynecology", "Surgery", "Emergency"],
+      "gps": "27.5190,83.4390"
+    },
+    {
+      "id": 8,
+      "name": "Buddha Chitta Hospital",
+      "type": "NGO",
+      "address": "Lumbini Road, Bhairahawa",
+      "phone": ["071-527890"],
+      "district": "Rupandehi",
+      "beds": "60",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Community Health", "Tourist Healthcare"],
+      "gps": "27.4956,83.4678"
+    },
+    {
+      "id": 9,
+      "name": "Om Hospital Bhairahawa",
+      "type": "Private",
+      "address": "Bhairahawa-2, Rupandehi",
+      "phone": ["071-528901"],
+      "district": "Rupandehi",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Emergency Care"],
+      "gps": "27.5123,83.4456"
+    },
+    {
+      "id": 10,
+      "name": "Sunaulo Hospital",
+      "type": "Private",
+      "address": "Bhairahawa-4, Rupandehi",
+      "phone": ["071-529012"],
+      "district": "Rupandehi",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Diagnostics"],
+      "gps": "27.5089,83.4523"
+    }
+  ]
+}

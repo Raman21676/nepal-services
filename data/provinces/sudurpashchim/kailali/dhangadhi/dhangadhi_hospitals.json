@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Dhangadhi"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Seti Provincial Hospital",
+      "type": "Government",
+      "address": "Dhangadhi-5, Kailali",
+      "phone": ["091-521111", "091-521112"],
+      "district": "Kailali",
+      "beds": "300",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "28.6858,80.6210"
+    },
+    {
+      "id": 2,
+      "name": "Mahakali Hospital",
+      "type": "Private",
+      "address": "Dhangadhi, Kailali",
+      "phone": ["091-522333", "091-522334"],
+      "district": "Kailali",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology", "Pediatrics"],
+      "gps": "28.6912,80.6156"
+    },
+    {
+      "id": 3,
+      "name": "Padma Hospital",
+      "type": "Private",
+      "address": "Dhangadhi-3, Kailali",
+      "phone": ["091-523456"],
+      "district": "Kailali",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Diagnostics"],
+      "gps": "28.6878,80.6289"
+    },
+    {
+      "id": 4,
+      "name": "Kailali District Hospital",
+      "type": "Government",
+      "address": "Dhangadhi-4, Kailali",
+      "phone": ["091-520555"],
+      "district": "Kailali",
+      "beds": "70",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Maternity", "General Medicine"],
+      "gps": "28.6834,80.6123"
+    },
+    {
+      "id": 5,
+      "name": "Shree Krishna Hospital",
+      "type": "Private",
+      "address": "Dhangadhi-6, Kailali",
+      "phone": ["091-524567"],
+      "district": "Kailali",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics"],
+      "gps": "28.6956,80.6189"
+    },
+    {
+      "id": 6,
+      "name": "Life Care Hospital Dhangadhi",
+      "type": "Private",
+      "address": "Attariya Road, Dhangadhi",
+      "phone": ["091-525678"],
+      "district": "Kailali",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine"],
+      "gps": "28.6891,80.6345"
+    },
+    {
+      "id": 7,
+      "name": "Geta Eye Hospital",
+      "type": "NGO",
+      "address": "Geta, Kailali (Near Dhangadhi)",
+      "phone": ["091-520777"],
+      "district": "Kailali",
+      "beds": "60",
+      "emergency_available": false,
+      "specialties": ["Ophthalmology", "Eye Surgery", "Cataract"],
+      "gps": "28.7512,80.3567"
+    },
+    {
+      "id": 8,
+      "name": "Dhangadhi Medical College",
+      "type": "Private",
+      "address": "Dhangadhi-7, Kailali",
+      "phone": ["091-526789"],
+      "district": "Kailali",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery"],
+      "gps": "28.6923,80.6089"
+    },
+    {
+      "id": 9,
+      "name": "Shivani Hospital",
+      "type": "Private",
+      "address": "Dhangadhi-2, Kailali",
+      "phone": ["091-527890"],
+      "district": "Kailali",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["Gynecology", "Maternity"],
+      "gps": "28.6867,80.6234"
+    },
+    {
+      "id": 10,
+      "name": "Sudur Health Care",
+      "type": "Private",
+      "address": "Dhangadhi Bus Park, Kailali",
+      "phone": ["091-528901"],
+      "district": "Kailali",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "28.6901,80.6198"
+    }
+  ]
+}

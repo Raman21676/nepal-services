@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Janakpur"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Janakpur Provincial Hospital",
+      "type": "Government",
+      "address": "Janakpur-7, Dhanusha",
+      "phone": ["041-520111", "041-520112"],
+      "district": "Dhanusha",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.7271,85.9407"
+    },
+    {
+      "id": 2,
+      "name": "Janaki Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Janakpur-10, Dhanusha",
+      "phone": ["041-521234", "041-521235"],
+      "website": "https://janakimedicalcollege.com/",
+      "district": "Dhanusha",
+      "beds": "400",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurology", "Orthopedics", "Urology", "Medical Education"],
+      "gps": "26.7312,85.9367"
+    },
+    {
+      "id": 3,
+      "name": "Shree Ram Hospital",
+      "type": "Private",
+      "address": "Janakpur-4, Dhanusha",
+      "phone": ["041-522345"],
+      "district": "Dhanusha",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "26.7245,85.9445"
+    },
+    {
+      "id": 4,
+      "name": "Sita Hospital",
+      "type": "Private",
+      "address": "Janakpur-5, Dhanusha",
+      "phone": ["041-523456"],
+      "district": "Dhanusha",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Maternity", "Pediatrics", "General Medicine"],
+      "gps": "26.7289,85.9389"
+    },
+    {
+      "id": 5,
+      "name": "Dhanusha District Hospital",
+      "type": "Government",
+      "address": "Janakpur-8, Dhanusha",
+      "phone": ["041-520222"],
+      "district": "Dhanusha",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "General Medicine"],
+      "gps": "26.7198,85.9478"
+    },
+    {
+      "id": 6,
+      "name": "Mithila Hospital",
+      "type": "Private",
+      "address": "Janakpur-2, Dhanusha",
+      "phone": ["041-524567"],
+      "district": "Dhanusha",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "26.7345,85.9334"
+    },
+    {
+      "id": 7,
+      "name": "City Hospital Janakpur",
+      "type": "Private",
+      "address": "Janakpur Chowk, Dhanusha",
+      "phone": ["041-525678"],
+      "district": "Dhanusha",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Diagnostics"],
+      "gps": "26.7267,85.9423"
+    },
+    {
+      "id": 8,
+      "name": "Life Line Hospital Janakpur",
+      "type": "Private",
+      "address": "Janakpur-6, Dhanusha",
+      "phone": ["041-526789"],
+      "district": "Dhanusha",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine"],
+      "gps": "26.7212,85.9490"
+    },
+    {
+      "id": 9,
+      "name": "Mother & Child Care Center",
+      "type": "Private",
+      "address": "Janakpur-3, Dhanusha",
+      "phone": ["041-527890"],
+      "district": "Dhanusha",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["Gynecology", "Pediatrics", "Neonatal Care"],
+      "gps": "26.7301,85.9356"
+    },
+    {
+      "id": 10,
+      "name": "Janakpur Eye Care Center",
+      "type": "Private",
+      "address": "Janakpur-9, Dhanusha",
+      "phone": ["041-528901"],
+      "district": "Dhanusha",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["Ophthalmology", "Eye Surgery"],
+      "gps": "26.7189,85.9512"
+    }
+  ]
+}
