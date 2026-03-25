@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Musikot",
+    "district": "Western Rukum",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "Ministry of Education",
+    "total_records": 2
+  },
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Musikot Multiple Campus",
+      "type": "Community",
+      "address": "Musikot, Western Rukum",
+      "phone": ["088-520150"],
+      "district": "Western Rukum",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities"]
+    },
+    {
+      "id": 2,
+      "name": "Chaurjahari Multiple Campus",
+      "type": "Community",
+      "address": "Chaurjahari, Western Rukum",
+      "phone": ["088-530150"],
+      "district": "Western Rukum",
+      "programs": ["+2 Science", "+2 Management", "+2 Education"]
+    }
+  ]
+}

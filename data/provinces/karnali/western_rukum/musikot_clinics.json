@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Musikot",
+    "district": "Western Rukum",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 2
+  },
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Musikot Health Clinic",
+      "type": "Health Post",
+      "address": "Musikot, Western Rukum",
+      "phone": ["088-520170"],
+      "district": "Western Rukum"
+    },
+    {
+      "id": 2,
+      "name": "Chaurjahari Health Clinic",
+      "type": "Health Post",
+      "address": "Chaurjahari, Western Rukum",
+      "phone": ["088-530170"],
+      "district": "Western Rukum"
+    }
+  ]
+}

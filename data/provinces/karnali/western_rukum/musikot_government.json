@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Musikot",
+    "district": "Western Rukum",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "District Administration Office",
+    "total_records": 3
+  },
+  "government_offices": [
+    {
+      "id": 1,
+      "name": "District Administration Office, Western Rukum",
+      "type": "Administration",
+      "address": "Musikot, Western Rukum",
+      "phone": ["088-520010"],
+      "district": "Western Rukum"
+    },
+    {
+      "id": 2,
+      "name": "District Coordination Committee, Western Rukum",
+      "type": "Coordination",
+      "address": "Musikot, Western Rukum",
+      "phone": ["088-520020"],
+      "district": "Western Rukum"
+    },
+    {
+      "id": 3,
+      "name": "Western Rukum Municipality Office",
+      "type": "Municipality",
+      "address": "Musikot, Western Rukum",
+      "phone": ["088-520030"],
+      "district": "Western Rukum"
+    }
+  ]
+}

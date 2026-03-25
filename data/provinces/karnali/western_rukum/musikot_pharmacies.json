@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Musikot",
+    "district": "Western Rukum",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 2
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Musikot Pharmacy",
+      "type": "Retail",
+      "address": "Musikot Bazar, Western Rukum",
+      "phone": ["088-520190"],
+      "district": "Western Rukum"
+    },
+    {
+      "id": 2,
+      "name": "Chaurjahari Medical Store",
+      "type": "Retail",
+      "address": "Chaurjahari, Western Rukum",
+      "phone": ["088-530190"],
+      "district": "Western Rukum"
+    }
+  ]
+}

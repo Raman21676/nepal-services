@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "city": "Musikot",
+    "district": "Western Rukum",
+    "province": "Karnali",
+    "last_updated": "2026-03-25",
+    "source": "Livestock Service Office",
+    "total_records": 2
+  },
+  "veterinary": [
+    {
+      "id": 1,
+      "name": "Western Rukum Livestock Service Office",
+      "type": "Government",
+      "address": "Musikot, Western Rukum",
+      "phone": ["088-520200"],
+      "district": "Western Rukum"
+    },
+    {
+      "id": 2,
+      "name": "Chaurjahari Veterinary Clinic",
+      "type": "Government",
+      "address": "Chaurjahari, Western Rukum",
+      "phone": ["088-530200"],
+      "district": "Western Rukum"
+    }
+  ]
+}
