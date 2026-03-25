@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "city": "Nepalgunj",
+    "district": "Banke",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Nepalgunj Sub-Metropolitan City, Nepal Police",
+    "total_records": 8,
+    "note": "Emergency contacts for Nepalgunj"
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Nepalgunj Police Station",
+      "type": "Police",
+      "department": "Nepal Police",
+      "phone": ["100", "081-520100"],
+      "address": "Nepalgunj-5, Banke",
+      "district": "Banke",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Nepalgunj Fire Station",
+      "type": "Fire Service",
+      "department": "Fire Brigade",
+      "phone": ["101"],
+      "address": "Nepalgunj-4, Banke",
+      "district": "Banke",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Nepalgunj Ambulance Service",
+      "type": "Ambulance",
+      "phone": ["102", "081-520999"],
+      "address": "Bheri Hospital, Nepalgunj",
+      "district": "Banke",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "Nepalgunj Sub-Metropolitan Office",
+      "type": "Government",
+      "department": "Administration",
+      "phone": ["081-520200"],
+      "address": "Nepalgunj-6, Banke",
+      "district": "Banke",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)"
+    },
+    {
+      "id": 5,
+      "name": "Nepalgunj Traffic Police",
+      "type": "Traffic Control",
+      "department": "Traffic Police",
+      "phone": ["081-520300"],
+      "address": "Nepalgunj Bus Park, Banke",
+      "district": "Banke",
+      "hours": "24/7"
+    },
+    {
+      "id": 6,
+      "name": "Nepalgunj Medical College Ambulance",
+      "type": "Ambulance",
+      "phone": ["081-521234"],
+      "address": "Nepalgunj Medical College",
+      "district": "Banke",
+      "hours": "24/7"
+    },
+    {
+      "id": 7,
+      "name": "Red Cross Banke",
+      "type": "Emergency Relief",
+      "phone": ["081-520400"],
+      "address": "Nepalgunj-3, Banke",
+      "district": "Banke",
+      "hours": "24/7"
+    },
+    {
+      "id": 8,
+      "name": "Nepalgunj Blood Bank",
+      "type": "Blood Bank",
+      "phone": ["081-520500"],
+      "address": "Bheri Hospital, Nepalgunj",
+      "district": "Banke",
+      "hours": "24/7"
+    }
+  ]
+}

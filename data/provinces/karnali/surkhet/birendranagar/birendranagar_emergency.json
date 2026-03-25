@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "city": "Birendranagar",
+    "district": "Surkhet",
+    "province": "Karnali",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Birendranagar Municipality, Nepal Police",
+    "total_records": 8,
+    "note": "Emergency contacts for Birendranagar, Surkhet"
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Birendranagar Police Station",
+      "type": "Police",
+      "department": "Nepal Police",
+      "phone": ["100", "083-520100"],
+      "address": "Birendranagar-5, Surkhet",
+      "district": "Surkhet",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Birendranagar Fire Station",
+      "type": "Fire Service",
+      "department": "Fire Brigade",
+      "phone": ["101"],
+      "address": "Birendranagar-4, Surkhet",
+      "district": "Surkhet",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Birendranagar Ambulance Service",
+      "type": "Ambulance",
+      "phone": ["102", "083-520999"],
+      "address": "Surkhet Provincial Hospital, Birendranagar",
+      "district": "Surkhet",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "Birendranagar Municipality Office",
+      "type": "Government",
+      "department": "Administration",
+      "phone": ["083-520200"],
+      "address": "Birendranagar-6, Surkhet",
+      "district": "Surkhet",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)"
+    },
+    {
+      "id": 5,
+      "name": "Birendranagar Traffic Police",
+      "type": "Traffic Control",
+      "department": "Traffic Police",
+      "phone": ["083-520300"],
+      "address": "Birendranagar Bus Park, Surkhet",
+      "district": "Surkhet",
+      "hours": "24/7"
+    },
+    {
+      "id": 6,
+      "name": "Karnali Academy Ambulance",
+      "type": "Ambulance",
+      "phone": ["083-521111"],
+      "address": "Karnali Academy of Health Sciences, Birendranagar",
+      "district": "Surkhet",
+      "hours": "24/7"
+    },
+    {
+      "id": 7,
+      "name": "Red Cross Surkhet",
+      "type": "Emergency Relief",
+      "phone": ["083-520400"],
+      "address": "Birendranagar-3, Surkhet",
+      "district": "Surkhet",
+      "hours": "24/7"
+    },
+    {
+      "id": 8,
+      "name": "Birendranagar Blood Bank",
+      "type": "Blood Bank",
+      "phone": ["083-520500"],
+      "address": "Surkhet Provincial Hospital, Birendranagar",
+      "district": "Surkhet",
+      "hours": "24/7"
+    }
+  ]
+}
