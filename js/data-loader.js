@@ -21,7 +21,10 @@ const DATA_MANIFEST = [
     ...LUMBINI_MANIFEST,
     
     // Karnali Province (9 districts, 9 cities)
-    ...KARNALI_MANIFEST
+    ...KARNALI_MANIFEST,
+    
+    // Sudurpashchim Province (9 districts, 9 cities)
+    ...SUDURPASHCHIM_MANIFEST
 ];
 
 // Data Loader Class
