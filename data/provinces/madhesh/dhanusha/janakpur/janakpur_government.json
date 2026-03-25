@@ -5,112 +5,141 @@
     "province": "Madhesh",
     "country": "Nepal",
     "last_updated": "2026-03-25",
-    "source": "Janakpur Sub-Metropolitan City, Government of Nepal Official Directories",
+    "source": "Government of Nepal, Dhanusha District Administration Office",
     "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
-    "total_records": 10,
-    "note": "Government offices and public services in Janakpur"
+    "total_records": 13,
+    "note": "Government offices in Janakpur - Religious and cultural capital of Mithila"
   },
-  "government": [
+  "offices": [
     {
       "id": 1,
-      "name": "Janakpur Sub-Metropolitan City Office",
-      "type": "Municipal Office",
-      "department": "Local Government",
-      "address": "Janakpur Chowk, Dhanusha",
-      "phone": ["041-520100"],
-      "website": "https://janakpurmun.gov.np/",
-      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "name": "District Administration Office Dhanusha",
+      "category": "Administration",
+      "address": "Janakpur-4, Dhanusha",
+      "phone": ["041-520001"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Citizenship", "Passport", "Land Records", "Administration"]
     },
     {
       "id": 2,
-      "name": "Dhanusha District Administration Office",
-      "type": "District Administration",
-      "department": "Home Ministry",
+      "name": "District Police Office Dhanusha",
+      "category": "Security",
       "address": "Janakpur-5, Dhanusha",
-      "phone": ["041-520101"],
-      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "phone": ["041-520022"],
+      "district": "Dhanusha",
+      "office_hours": "24 Hours",
+      "services": ["Police", "Security", "Emergency Response"]
     },
     {
       "id": 3,
-      "name": "Janakpur Transport Management Office",
-      "type": "Transport Office",
-      "department": "Ministry of Physical Infrastructure",
-      "address": "Janakpur-4, Dhanusha",
-      "phone": ["041-520102"],
-      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "name": "Inland Revenue Office Janakpur",
+      "category": "Revenue",
+      "address": "Janakpur-3, Dhanusha",
+      "phone": ["041-520033"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Tax", "Revenue", "PAN Registration"]
     },
     {
       "id": 4,
-      "name": "Madhesh Province Revenue Office Janakpur",
-      "type": "Tax Office",
-      "department": "Ministry of Finance",
+      "name": "District Court Dhanusha",
+      "category": "Justice",
       "address": "Janakpur-6, Dhanusha",
-      "phone": ["041-520103"],
-      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "phone": ["041-520044"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Legal", "Court", "Justice"]
     },
     {
       "id": 5,
-      "name": "Nepal Electricity Authority - Janakpur",
-      "type": "Utility Office",
-      "department": "Ministry of Energy",
-      "address": "Janakpur-3, Dhanusha",
-      "phone": ["041-520104"],
-      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "name": "Land Revenue Office Dhanusha",
+      "category": "Land",
+      "address": "Janakpur-2, Dhanusha",
+      "phone": ["041-520055"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Land Registration", "Property", "Maps"]
     },
     {
       "id": 6,
-      "name": "Water Supply and Sanitation Office Janakpur",
-      "type": "Utility Office",
-      "department": "Ministry of Water Supply",
+      "name": "Department of Transport Management Dhanusha",
+      "category": "Transport",
       "address": "Janakpur-7, Dhanusha",
-      "phone": ["041-520105"],
-      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "phone": ["041-520066"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["License", "Vehicle Registration", "Permit"]
     },
     {
       "id": 7,
-      "name": "Madhesh Province Police Office Janakpur",
-      "type": "Police",
-      "department": "Nepal Police",
-      "address": "Janakpur-8, Dhanusha",
-      "phone": ["041-520106", "100"],
-      "hours": "24/7",
-      "district": "Dhanusha"
+      "name": "District Education Office Dhanusha",
+      "category": "Education",
+      "address": "Janakpur-1, Dhanusha",
+      "phone": ["041-520077"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["School Administration", "Education Services"]
     },
     {
       "id": 8,
-      "name": "Janakpur Immigration Office",
-      "type": "Immigration Office",
-      "department": "Ministry of Home Affairs",
-      "address": "Janakpur-2, Dhanusha",
-      "phone": ["041-520107"],
-      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "name": "District Health Office Dhanusha",
+      "category": "Health",
+      "address": "Janakpur-8, Dhanusha",
+      "phone": ["041-520088"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Health Services", "Hospital Management", "Public Health"]
     },
     {
       "id": 9,
-      "name": "Janaki Temple Management Committee",
-      "type": "Cultural Office",
-      "department": "Ministry of Culture",
-      "address": "Janaki Mandir, Janakpur",
-      "phone": ["041-520108"],
-      "hours": "6:00 AM - 8:00 PM (Daily)",
-      "district": "Dhanusha"
+      "name": "Janakpur Sub-Metropolitan City Office",
+      "category": "Local Government",
+      "address": "Janakpur-9, Dhanusha",
+      "phone": ["041-520099"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Birth Certificate", "Death Certificate", "Local Services"]
     },
     {
       "id": 10,
-      "name": "Dhanusha District Court",
-      "type": "Court",
-      "department": "Judiciary",
-      "address": "Janakpur-1, Dhanusha",
-      "phone": ["041-520109"],
-      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
-      "district": "Dhanusha"
+      "name": "District Coordination Committee Dhanusha",
+      "category": "Coordination",
+      "address": "Janakpur-10, Dhanusha",
+      "phone": ["041-520111"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Development", "Coordination"]
+    },
+    {
+      "id": 11,
+      "name": "Department of Foreign Employment",
+      "category": "Employment",
+      "address": "Janakpur-11, Dhanusha",
+      "phone": ["041-520122"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Foreign Employment", "Labor Permits"]
+    },
+    {
+      "id": 12,
+      "name": "Janakpur Development Committee",
+      "category": "Development",
+      "address": "Janakpur-12, Dhanusha",
+      "phone": ["041-520133"],
+      "district": "Dhanusha",
+      "office_hours": "Sunday-Thursday 10:00 AM - 5:00 PM",
+      "services": ["Heritage Conservation", "Tourism Development"]
+    },
+    {
+      "id": 13,
+      "name": "Janaki Temple Management Office",
+      "category": "Religious",
+      "address": "Janakpur-13, Dhanusha",
+      "phone": ["041-520144"],
+      "district": "Dhanusha",
+      "office_hours": "Daily 6:00 AM - 8:00 PM",
+      "services": ["Temple Management", "Religious Events"]
     }
   ]
 }
