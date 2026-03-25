@@ -202,3 +202,19 @@ const KOSHI_MANIFEST = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = KOSHI_MANIFEST;
 }
+    
+    // Forest Offices - Koshi Province
+    { path: 'data/provinces/koshi/bhojpur/bhojpur_forest_offices.json', province: 'koshi', district: 'bhojpur', city: 'bhojpur', type: 'forest' },
+    { path: 'data/provinces/koshi/dhankuta/dhankuta_forest_offices.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'forest' },
+    { path: 'data/provinces/koshi/ilam/ilam_forest_offices.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'forest' },
+    { path: 'data/provinces/koshi/jhapa/bhadrapur_forest_offices.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'forest' },
+    { path: 'data/provinces/koshi/khotang/diktel_forest_offices.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'forest' },
+    { path: 'data/provinces/koshi/morang/biratnagar_forest_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'forest' },
+    { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga_forest_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'forest' },
+    { path: 'data/provinces/koshi/panchthar/phidim_forest_offices.json', province: 'koshi', district: 'panchthar', city: 'phidim', type: 'forest' },
+    { path: 'data/provinces/koshi/sankhuwasabha/khandbari_forest_offices.json', province: 'koshi', district: 'sankhuwasabha', city: 'khandbari', type: 'forest' },
+    { path: 'data/provinces/koshi/solukhumbu/salleri_forest_offices.json', province: 'koshi', district: 'solukhumbu', city: 'salleri', type: 'forest' },
+    { path: 'data/provinces/koshi/sunsari/inaruwa_forest_offices.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'forest' },
+    { path: 'data/provinces/koshi/taplejung/taplejung_forest_offices.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'forest' },
+    { path: 'data/provinces/koshi/terhathum/myanglung_forest_offices.json', province: 'koshi', district: 'terhathum', city: 'myanglung', type: 'forest' },
+    { path: 'data/provinces/koshi/udayapur/gaighat_forest_offices.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'forest' },

@@ -153,3 +153,17 @@ const LUMBINI_MANIFEST = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = LUMBINI_MANIFEST;
 }
+    
+    // Forest Offices - Lumbini Province
+    { path: 'data/provinces/lumbini/argakhanchi/sandhikarka_forest_offices.json', province: 'lumbini', district: 'argakhanchi', city: 'sandhikarka', type: 'forest' },
+    { path: 'data/provinces/lumbini/banke/nepalgunj_forest_offices.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'forest' },
+    { path: 'data/provinces/lumbini/bardiya/gulariya_forest_offices.json', province: 'lumbini', district: 'bardiya', city: 'gulariya', type: 'forest' },
+    { path: 'data/provinces/lumbini/dang/ghorahi_forest_offices.json', province: 'lumbini', district: 'dang', city: 'ghorahi', type: 'forest' },
+    { path: 'data/provinces/lumbini/eastern_rukum/rukumkot_forest_offices.json', province: 'lumbini', district: 'eastern_rukum', city: 'rukumkot', type: 'forest' },
+    { path: 'data/provinces/lumbini/gulmi/tamghas_forest_offices.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'forest' },
+    { path: 'data/provinces/lumbini/kapilvastu/taulihawa_forest_offices.json', province: 'lumbini', district: 'kapilvastu', city: 'taulihawa', type: 'forest' },
+    { path: 'data/provinces/lumbini/palpa/tansen_forest_offices.json', province: 'lumbini', district: 'palpa', city: 'tansen', type: 'forest' },
+    { path: 'data/provinces/lumbini/parasi/ramgram_forest_offices.json', province: 'lumbini', district: 'parasi', city: 'ramgram', type: 'forest' },
+    { path: 'data/provinces/lumbini/pyuthan/pyuthan_forest_offices.json', province: 'lumbini', district: 'pyuthan', city: 'pyuthan', type: 'forest' },
+    { path: 'data/provinces/lumbini/rolpa/liwang_forest_offices.json', province: 'lumbini', district: 'rolpa', city: 'liwang', type: 'forest' },
+    { path: 'data/provinces/lumbini/rupandehi/bhairahawa_forest_offices.json', province: 'lumbini', district: 'rupandehi', city: 'bhairahawa', type: 'forest' },

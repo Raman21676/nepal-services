@@ -105,3 +105,13 @@ const MADHESH_MANIFEST = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = MADHESH_MANIFEST;
 }
+    
+    // Forest Offices - Madhesh Province
+    { path: 'data/provinces/madhesh/bara/kalaiya_forest_offices.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'forest' },
+    { path: 'data/provinces/madhesh/dhanusha/janakpur_forest_offices.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'forest' },
+    { path: 'data/provinces/madhesh/mahottari/jaleshwor_forest_offices.json', province: 'madhesh', district: 'mahottari', city: 'jaleshwor', type: 'forest' },
+    { path: 'data/provinces/madhesh/parsa/birgunj_forest_offices.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'forest' },
+    { path: 'data/provinces/madhesh/rautahat/gaur_forest_offices.json', province: 'madhesh', district: 'rautahat', city: 'gaur', type: 'forest' },
+    { path: 'data/provinces/madhesh/saptari/rajbiraj_forest_offices.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'forest' },
+    { path: 'data/provinces/madhesh/sarlahi/malangwa_forest_offices.json', province: 'madhesh', district: 'sarlahi', city: 'malangwa', type: 'forest' },
+    { path: 'data/provinces/madhesh/siraha/siraha_forest_offices.json', province: 'madhesh', district: 'siraha', city: 'siraha', type: 'forest' },

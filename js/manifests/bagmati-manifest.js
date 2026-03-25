@@ -83,3 +83,18 @@ const BAGMATI_MANIFEST = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = BAGMATI_MANIFEST;
 }
+    
+    // Forest Offices - Bagmati Province
+    { path: 'data/provinces/bagmati/kathmandu/kathmandu_forest_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'forest' },
+    { path: 'data/provinces/bagmati/lalitpur/lalitpur_forest_offices.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'forest' },
+    { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_forest_offices.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'forest' },
+    { path: 'data/provinces/bagmati/chitwan/chitwan_forest_offices.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'forest' },
+    { path: 'data/provinces/bagmati/makwanpur/makwanpur_forest_offices.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'forest' },
+    { path: 'data/provinces/bagmati/dhading/dhading_forest_offices.json', province: 'bagmati', district: 'dhading', city: 'dhadingbesi', type: 'forest' },
+    { path: 'data/provinces/bagmati/nuwakot/nuwakot_forest_offices.json', province: 'bagmati', district: 'nuwakot', city: 'bidur', type: 'forest' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/kavrepalanchok_forest_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'dhulikhel', type: 'forest' },
+    { path: 'data/provinces/bagmati/sindhupalchok/sindhupalchok_forest_offices.json', province: 'bagmati', district: 'sindhupalchok', city: 'chautara', type: 'forest' },
+    { path: 'data/provinces/bagmati/dolakha/dolakha_forest_offices.json', province: 'bagmati', district: 'dolakha', city: 'charikot', type: 'forest' },
+    { path: 'data/provinces/bagmati/sindhuli/sindhuli_forest_offices.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'forest' },
+    { path: 'data/provinces/bagmati/rasuwa/rasuwa_forest_offices.json', province: 'bagmati', district: 'rasuwa', city: 'dhunche', type: 'forest' },
+    { path: 'data/provinces/bagmati/ramechhap/ramechhap_forest_offices.json', province: 'bagmati', district: 'ramechhap', city: 'manthali', type: 'forest' },

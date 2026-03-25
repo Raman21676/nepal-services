@@ -117,3 +117,15 @@ const KARNALI_MANIFEST = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = KARNALI_MANIFEST;
 }
+    
+    // Forest Offices - Karnali Province
+    { path: 'data/provinces/karnali/dailekh/narayan_forest_offices.json', province: 'karnali', district: 'dailekh', city: 'narayan', type: 'forest' },
+    { path: 'data/provinces/karnali/dolpa/dunai_forest_offices.json', province: 'karnali', district: 'dolpa', city: 'dunai', type: 'forest' },
+    { path: 'data/provinces/karnali/humla/simikot_forest_offices.json', province: 'karnali', district: 'humla', city: 'simikot', type: 'forest' },
+    { path: 'data/provinces/karnali/jajarkot/khalanga_forest_offices.json', province: 'karnali', district: 'jajarkot', city: 'khalanga', type: 'forest' },
+    { path: 'data/provinces/karnali/jumla/chandannath_forest_offices.json', province: 'karnali', district: 'jumla', city: 'chandannath', type: 'forest' },
+    { path: 'data/provinces/karnali/kalikot/manma_forest_offices.json', province: 'karnali', district: 'kalikot', city: 'manma', type: 'forest' },
+    { path: 'data/provinces/karnali/mugu/gamgadhi_forest_offices.json', province: 'karnali', district: 'mugu', city: 'gamgadhi', type: 'forest' },
+    { path: 'data/provinces/karnali/salyan/salyan_forest_offices.json', province: 'karnali', district: 'salyan', city: 'salyan', type: 'forest' },
+    { path: 'data/provinces/karnali/surkhet/birendranagar_forest_offices.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'forest' },
+    { path: 'data/provinces/karnali/western_rukum/musikot_forest_offices.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'forest' },

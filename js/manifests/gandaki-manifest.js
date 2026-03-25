@@ -142,3 +142,17 @@ const GANDAKI_MANIFEST = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = GANDAKI_MANIFEST;
 }
+    
+    // Forest Offices - Gandaki Province
+    { path: 'data/provinces/gandaki/baglung/baglung_forest_offices.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'forest' },
+    { path: 'data/provinces/gandaki/gorkha/gorkha_forest_offices.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'forest' },
+    { path: 'data/provinces/gandaki/kaski/pokhara_forest_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'forest' },
+    { path: 'data/provinces/gandaki/lamjung/lamjung_forest_offices.json', province: 'gandaki', district: 'lamjung', city: 'besisahar', type: 'forest' },
+    { path: 'data/provinces/gandaki/manang/manang_forest_offices.json', province: 'gandaki', district: 'manang', city: 'chame', type: 'forest' },
+    { path: 'data/provinces/gandaki/mustang/mustang_forest_offices.json', province: 'gandaki', district: 'mustang', city: 'jomsom', type: 'forest' },
+    { path: 'data/provinces/gandaki/myagdi/myagdi_forest_offices.json', province: 'gandaki', district: 'myagdi', city: 'beni', type: 'forest' },
+    { path: 'data/provinces/gandaki/nawalpur/nawalpur_forest_offices.json', province: 'gandaki', district: 'nawalpur', city: 'kawasoti', type: 'forest' },
+    { path: 'data/provinces/gandaki/palpa/palpa_forest_offices.json', province: 'gandaki', district: 'palpa', city: 'tansen', type: 'forest' },
+    { path: 'data/provinces/gandaki/parbat/parbat_forest_offices.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'forest' },
+    { path: 'data/provinces/gandaki/syangja/syangja_forest_offices.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'forest' },
+    { path: 'data/provinces/gandaki/tanahun/tanahun_forest_offices.json', province: 'gandaki', district: 'tanahun', city: 'damauli', type: 'forest' },
