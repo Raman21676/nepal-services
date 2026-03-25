@@ -77,31 +77,32 @@ class FilterManager {
     }
     
     initFuse() {
-        // Initialize Fuse.js for fuzzy search
+        // Initialize Fuse.js for fuzzy search with improved ranking
         const options = {
             keys: [
-                { name: 'name', weight: 0.4 },
-                { name: 'hospital_name', weight: 0.4 },
-                { name: 'school_name', weight: 0.4 },
-                { name: 'service_name', weight: 0.4 },
-                { name: 'office_name', weight: 0.4 },
-                { name: 'contact_name', weight: 0.4 },
-                { name: 'address', weight: 0.2 },
-                { name: 'type', weight: 0.15 },
-                { name: '_city', weight: 0.1 },
-                { name: '_district', weight: 0.1 },
-                { name: 'specialties', weight: 0.15 },
-                { name: 'services', weight: 0.15 },
-                { name: 'programs', weight: 0.15 }
+                { name: 'name', weight: 0.6 },                    // Highest weight for name
+                { name: 'hospital_name', weight: 0.6 },
+                { name: 'school_name', weight: 0.6 },
+                { name: 'service_name', weight: 0.6 },
+                { name: 'office_name', weight: 0.6 },
+                { name: 'contact_name', weight: 0.6 },
+                { name: 'address', weight: 0.1 },
+                { name: 'type', weight: 0.1 },
+                { name: '_city', weight: 0.05 },
+                { name: '_district', weight: 0.05 },
+                { name: 'specialties', weight: 0.1 },
+                { name: 'services', weight: 0.1 },
+                { name: 'programs', weight: 0.1 }
             ],
-            threshold: 0.4,
+            threshold: 0.4,              // Match threshold (0.0 = exact, 1.0 = match anything)
             distance: 100,
-            includeScore: true,
-            minMatchCharLength: 2,
-            shouldSort: true,
+            includeScore: true,          // Include match score for ranking
+            minMatchCharLength: 2,       // Minimum 2 characters to match
+            shouldSort: true,            // Sort by relevance score
             findAllMatches: true,
-            ignoreLocation: true,
-            useExtendedSearch: true
+            ignoreLocation: false,       // Respect word location (matches at start score higher)
+            useExtendedSearch: true,
+            ignoreFieldNorm: false       // Consider field length in scoring
         };
         
         this.fuse = new Fuse(this.app.allData, options);
@@ -116,14 +117,43 @@ class FilterManager {
         const typeFilter = document.getElementById('typeFilter').value;
         
         let results = [];
+        let fuseResults = [];
         
         // If there's a search term, use Fuse.js for fuzzy search
         if (searchTerm) {
             if (!this.fuse) {
                 this.initFuse();
             }
-            const fuseResults = this.fuse.search(searchTerm);
-            results = fuseResults.map(r => r.item);
+            fuseResults = this.fuse.search(searchTerm);
+            results = fuseResults.map(r => ({...r.item, _matchScore: r.score}));
+            
+            // Sort by relevance: exact matches first, then by Fuse.js score
+            const lowerSearchTerm = searchTerm.toLowerCase();
+            results.sort((a, b) => {
+                const nameA = (a.name || a.hospital_name || a.school_name || '').toLowerCase();
+                const nameB = (b.name || b.hospital_name || b.school_name || '').toLowerCase();
+                
+                // Check if name starts with search term (highest priority)
+                const aStartsWith = nameA.startsWith(lowerSearchTerm);
+                const bStartsWith = nameB.startsWith(lowerSearchTerm);
+                if (aStartsWith && !bStartsWith) return -1;
+                if (!aStartsWith && bStartsWith) return 1;
+                
+                // Check if name contains search term as whole word (second priority)
+                const aContainsWord = nameA.includes(' ' + lowerSearchTerm) || nameA.includes(lowerSearchTerm + ' ');
+                const bContainsWord = nameB.includes(' ' + lowerSearchTerm) || nameB.includes(lowerSearchTerm + ' ');
+                if (aContainsWord && !bContainsWord) return -1;
+                if (!aContainsWord && bContainsWord) return 1;
+                
+                // Check if name contains search term anywhere (third priority)
+                const aContains = nameA.includes(lowerSearchTerm);
+                const bContains = nameB.includes(lowerSearchTerm);
+                if (aContains && !bContains) return -1;
+                if (!aContains && bContains) return 1;
+                
+                // Finally sort by Fuse.js match score (lower is better)
+                return (a._matchScore || 1) - (b._matchScore || 1);
+            });
         } else {
             results = [...this.app.allData];
         }

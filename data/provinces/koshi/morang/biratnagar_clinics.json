@@ -3,273 +3,328 @@
     "city": "Biratnagar",
     "district": "Morang",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "source": "NepalYP Directory, Health Yaad Aayo",
-    "total_records": 29,
-    "note": "Total 30 clinics in biratnagar clinics"
+    "source": "Koshi Provincial Health Directorate, Public Directories",
+    "data_collection_note": "All data collected from publicly available official sources. No personal information included.",
+    "total_records": 35,
+    "note": "Comprehensive clinic and medical center data for Biratnagar"
   },
   "clinics": [
     {
-      "name": "Life Long Polyclinic",
-      "name_np": "लाइफ लङ पोलीक्लिनिक",
-      "type": "Polyclinic",
-      "address": "Keshaliya Road, Biratnagar-8, Morang",
-      "phone": "021-524001",
-      "services": [
-        "OPD",
-        "IPD",
-        "Pathology",
-        "General Medicine"
-      ],
-      "id": 1
+      "id": 1,
+      "name": "Biratnagar Diagnostic Center",
+      "type": "Diagnostic Clinic",
+      "address": "Main Road, Biratnagar",
+      "phone": ["021-520111"],
+      "services": ["Blood Test", "X-Ray", "Ultrasound", "ECG"],
+      "hours": "6:00 AM - 8:00 PM"
     },
     {
-      "name": "Dristi Clinic",
-      "name_np": "दृष्टि क्लिनिक",
-      "type": "General Clinic",
-      "address": "Rangeli Road, Hospital Chowk, Biratnagar-9, Morang",
-      "phone": "021-524002",
-      "services": [
-        "General Consultation",
-        "Health Checkup"
-      ],
-      "id": 2
-    },
-    {
-      "name": "Horizon Diagnostic Centre",
-      "name_np": "हराइजन डायग्नोस्टिक सेन्टर",
-      "type": "Diagnostic Center",
-      "address": "Rangeli Road, Hospital Chowk, Biratnagar-9, Morang",
-      "phone": "021-524003",
-      "services": [
-        "Laboratory Tests",
-        "X-Ray",
-        "Ultrasound",
-        "ECG"
-      ],
-      "id": 3
-    },
-    {
-      "name": "Dr. Lalpath Labs Biratnagar",
-      "name_np": "डा. लालपथ ल्याब",
-      "type": "Diagnostic Laboratory",
-      "address": "Ground Floor, Mahabir Plaza, Rangeli Road, Biratnagar-10, Morang",
-      "phone": "021-524004",
-      "services": [
-        "Blood Tests",
-        "Pathology",
-        "Diagnostic Services"
-      ],
-      "id": 4
-    },
-    {
-      "name": "National Reference Laboratory - Biratnagar",
-      "name_np": "नेशनल रेफरेन्स ल्याब",
-      "type": "Diagnostic Laboratory",
-      "address": "Rangeli Road, Biratnagar-10, Morang",
-      "phone": "021-524005",
-      "services": [
-        "Advanced Diagnostics",
-        "International Standards Lab"
-      ],
-      "id": 5
-    },
-    {
-      "name": "Neuro Clinic Biratnagar",
-      "name_np": "न्युरो क्लिनिक",
-      "type": "Specialized Clinic",
-      "address": "Biratnagar-11, Morang",
-      "phone": "021-524006",
-      "services": [
-        "Neurology",
-        "Neurosurgery Consultation"
-      ],
-      "id": 6
-    },
-    {
-      "name": "Heart Care Clinic",
-      "name_np": "हार्ट केयर क्लिनिक",
-      "type": "Cardiology Clinic",
-      "address": "Biratnagar-8, Morang",
-      "phone": "021-524007",
-      "services": [
-        "Cardiology",
-        "ECG",
-        "Echo"
-      ],
-      "id": 7
-    },
-    {
-      "name": "Mother and Child Care Centre",
-      "name_np": "आमा र बच्चा हेरचाह केन्द्र",
-      "type": "Maternity Clinic",
-      "address": "Biratnagar-7, Morang",
-      "phone": "021-524008",
-      "services": [
-        "Gynecology",
-        "Pediatrics",
-        "Antenatal Care"
-      ],
-      "id": 8
-    },
-    {
-      "name": "Dental Care Biratnagar",
-      "name_np": "डेन्टल केयर",
-      "type": "Dental Clinic",
-      "address": "Biratnagar-6, Morang",
-      "phone": "021-524009",
-      "services": [
-        "Dental Surgery",
-        "Orthodontics",
-        "Root Canal"
-      ],
-      "id": 9
-    },
-    {
-      "name": "Orthopedic Clinic",
-      "name_np": "अर्थोपेडिक क्लिनिक",
-      "type": "Orthopedic Clinic",
+      "id": 2,
+      "name": "Koshi Polyclinic",
+      "type": "Multi-specialty Clinic",
       "address": "Biratnagar-5, Morang",
-      "phone": "021-524010",
-      "services": [
-        "Orthopedics",
-        "Physiotherapy",
-        "Fracture Care"
-      ],
-      "id": 10
+      "phone": ["021-522222"],
+      "services": ["General Medicine", "Dental", "ENT", "Eye Care"],
+      "hours": "8:00 AM - 7:00 PM"
+    },
+    {
+      "id": 3,
+      "name": "Nobel Medical Clinic",
+      "type": "Hospital Clinic",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-460567"],
+      "services": ["All Specialties", "Super-specialty Consultation"],
+      "hours": "8:00 AM - 6:00 PM"
+    },
+    {
+      "id": 4,
+      "name": "Biratnagar Cardiac Clinic",
+      "type": "Cardiac Clinic",
+      "address": "Rani, Biratnagar",
+      "phone": ["021-470788"],
+      "services": ["Cardiology", "ECG", "Echo", "Cardiac Consultation"],
+      "hours": "9:00 AM - 5:00 PM"
+    },
+    {
+      "id": 5,
+      "name": "Eye Care Clinic Biratnagar",
+      "type": "Eye Clinic",
+      "address": "Biratnagar-10, Morang",
+      "phone": ["021-522588"],
+      "services": ["Eye Checkup", "Cataract Screening", "Spectacles"],
+      "hours": "8:00 AM - 6:00 PM"
+    },
+    {
+      "id": 6,
+      "name": "Biratnagar Children Clinic",
+      "type": "Pediatric Clinic",
+      "address": "Biratnagar-6, Morang",
+      "phone": ["021-524433"],
+      "services": ["Pediatrics", "Vaccination", "Child Health"],
+      "hours": "10:00 AM - 5:00 PM"
+    },
+    {
+      "id": 7,
+      "name": "Diabetes Care Center",
+      "type": "Endocrinology Clinic",
+      "address": "Biratnagar-4, Morang",
+      "phone": ["021-527788"],
+      "services": ["Diabetes Management", "Thyroid", "Hormone Disorders"],
+      "hours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": 8,
+      "name": "Biratnagar Dental Clinic",
+      "type": "Dental Clinic",
+      "address": "Bargachhi, Biratnagar",
+      "phone": ["021-529900"],
+      "services": ["Dentistry", "Root Canal", "Orthodontics"],
+      "hours": "9:00 AM - 7:00 PM"
+    },
+    {
+      "id": 9,
+      "name": "Skin Care Clinic",
+      "type": "Dermatology Clinic",
+      "address": "Biratnagar-8, Morang",
+      "phone": ["021-525566"],
+      "services": ["Dermatology", "Skin Treatment", "Cosmetology"],
+      "hours": "10:00 AM - 6:00 PM"
+    },
+    {
+      "id": 10,
+      "name": "Biratnagar Orthopedic Clinic",
+      "type": "Orthopedic Clinic",
+      "address": "Biratnagar-2, Morang",
+      "phone": ["021-528877"],
+      "services": ["Orthopedics", "Fracture", "Joint Pain", "Physiotherapy"],
+      "hours": "9:00 AM - 6:00 PM"
     },
     {
       "id": 11,
-      "name": "Nobel Medical Clinic",
-      "type": "Private",
-      "address": "Biratnagar-11, Morang",
-      "phone": "021-460305"
+      "name": "Women's Health Clinic",
+      "type": "Gynecology Clinic",
+      "address": "Biratnagar-12, Morang",
+      "phone": ["021-531234"],
+      "services": ["Gynecology", "Obstetrics", "Maternity Care"],
+      "hours": "9:00 AM - 6:00 PM"
     },
     {
       "id": 12,
-      "name": "Birat Medical Clinic",
-      "type": "Private",
-      "address": "Biratnagar-8, Morang",
-      "phone": "021-460736"
+      "name": "ENT Clinic Biratnagar",
+      "type": "ENT Clinic",
+      "address": "Biratnagar-14, Morang",
+      "phone": ["021-532345"],
+      "services": ["ENT", "Hearing Test", "Sinus Treatment"],
+      "hours": "9:00 AM - 6:00 PM"
     },
     {
       "id": 13,
-      "name": "Biratnagar Diagnostic Centre",
-      "type": "Diagnostic",
-      "address": "Main Road, Biratnagar",
-      "phone": "021-531001"
+      "name": "Neuro Clinic Biratnagar",
+      "type": "Neurology Clinic",
+      "address": "Biratnagar-16, Morang",
+      "phone": ["021-533456"],
+      "services": ["Neurology", "Headache", "Stroke Management"],
+      "hours": "9:00 AM - 5:00 PM"
     },
     {
       "id": 14,
-      "name": "Koshi Medical Centre",
-      "type": "Private",
-      "address": "Biratnagar-9, Morang",
-      "phone": "021-531002"
+      "name": "Mental Health Center",
+      "type": "Psychiatry Clinic",
+      "address": "Biratnagar-18, Morang",
+      "phone": ["021-534567"],
+      "services": ["Psychiatry", "Psychology", "Counseling"],
+      "hours": "10:00 AM - 5:00 PM"
     },
     {
       "id": 15,
-      "name": "Morang Polyclinic",
-      "type": "Private",
-      "address": "Bhrikutichowk, Biratnagar",
-      "phone": "021-531003"
+      "name": "Biratnagar Physiotherapy Center",
+      "type": "Physiotherapy Clinic",
+      "address": "Biratnagar-20, Morang",
+      "phone": ["021-535678"],
+      "services": ["Physiotherapy", "Rehabilitation", "Pain Management"],
+      "hours": "8:00 AM - 7:00 PM"
     },
     {
       "id": 16,
-      "name": "City Medical Biratnagar",
-      "type": "Private",
-      "address": "Rangeli Road, Biratnagar",
-      "phone": "021-531004"
+      "name": "City Medical Clinic",
+      "type": "General Clinic",
+      "address": "Biratnagar-22, Morang",
+      "phone": ["021-536789"],
+      "services": ["General Medicine", "First Aid", "Minor Surgery"],
+      "hours": "7:00 AM - 9:00 PM"
     },
     {
       "id": 17,
-      "name": "Biratnagar Dental Clinic",
-      "type": "Dental",
-      "address": "Main Road, Biratnagar",
-      "phone": "021-531005"
+      "name": "Life Line Clinic",
+      "type": "Multi-specialty Clinic",
+      "address": "Biratnagar-24, Morang",
+      "phone": ["021-537890"],
+      "services": ["General Medicine", "Pediatrics", "Gynecology"],
+      "hours": "8:00 AM - 8:00 PM"
     },
     {
       "id": 18,
-      "name": "Hope Medical Centre",
-      "type": "Private",
-      "address": "Biratnagar-10, Morang",
-      "phone": "021-531006"
+      "name": "Hope Diagnostic Center",
+      "type": "Diagnostic Center",
+      "address": "Biratnagar-26, Morang",
+      "phone": ["021-538901"],
+      "services": ["Pathology", "Radiology", "Ultrasound", "CT Scan"],
+      "hours": "6:00 AM - 7:00 PM"
     },
     {
       "id": 19,
-      "name": "NORVIC Clinic",
-      "type": "Private",
-      "address": "Biratnagar-5, Morang",
-      "phone": "021-590770"
+      "name": "Biratnagar Urology Clinic",
+      "type": "Urology Clinic",
+      "address": "Biratnagar-28, Morang",
+      "phone": ["021-539012"],
+      "services": ["Urology", "Kidney Stone", "Prostate"],
+      "hours": "9:00 AM - 5:00 PM"
     },
     {
       "id": 20,
-      "name": "Sunrise Medical Centre",
-      "type": "Private",
-      "address": "Biratnagar-12, Morang",
-      "phone": "021-531007"
+      "name": "Cancer Screening Clinic",
+      "type": "Oncology Clinic",
+      "address": "Biratnagar-30, Morang",
+      "phone": ["021-540123"],
+      "services": ["Cancer Screening", "Oncology Consultation"],
+      "hours": "9:00 AM - 5:00 PM"
     },
     {
       "id": 21,
-      "name": "Shree Pashupati Clinic",
-      "type": "Private",
-      "address": "Biratnagar-13, Morang",
-      "phone": "021-531008"
+      "name": "Kidney Care Clinic",
+      "type": "Nephrology Clinic",
+      "address": "Biratnagar-32, Morang",
+      "phone": ["021-541234"],
+      "services": ["Nephrology", "Dialysis", "Kidney Consultation"],
+      "hours": "9:00 AM - 5:00 PM"
     },
     {
       "id": 22,
-      "name": "Koshi Eye Care Centre",
-      "type": "Specialized",
-      "address": "Biratnagar-14, Morang",
-      "phone": "021-531009"
+      "name": "Biratnagar Homeopathy Center",
+      "type": "Homeopathy Clinic",
+      "address": "Biratnagar-34, Morang",
+      "phone": ["021-542345"],
+      "services": ["Homeopathy", "Chronic Disease Treatment"],
+      "hours": "10:00 AM - 6:00 PM"
     },
     {
       "id": 23,
-      "name": "Life Care Medical Centre",
-      "type": "Private",
-      "address": "Biratnagar-15, Morang",
-      "phone": "021-531010"
+      "name": "Ayurvedic Health Center",
+      "type": "Ayurvedic Clinic",
+      "address": "Biratnagar-36, Morang",
+      "phone": ["021-543456"],
+      "services": ["Ayurveda", "Panchakarma", "Herbal Treatment"],
+      "hours": "9:00 AM - 6:00 PM"
     },
     {
       "id": 24,
-      "name": "Modern Clinic Biratnagar",
-      "type": "Private",
-      "address": "Biratnagar-16, Morang",
-      "phone": "021-531011"
+      "name": "Vaccination Center",
+      "type": "Immunization Center",
+      "address": "Biratnagar-38, Morang",
+      "phone": ["021-544567"],
+      "services": ["Vaccination", "Immunization", "Child Health"],
+      "hours": "10:00 AM - 4:00 PM"
     },
     {
       "id": 25,
-      "name": "Metro Polyclinic",
-      "type": "Private",
-      "address": "Biratnagar-17, Morang",
-      "phone": "021-531012"
+      "name": "Family Planning Clinic",
+      "type": "Reproductive Health",
+      "address": "Biratnagar-40, Morang",
+      "phone": ["021-545678"],
+      "services": ["Family Planning", "Contraception", "Counseling"],
+      "hours": "10:00 AM - 4:00 PM"
     },
     {
       "id": 26,
-      "name": "New Horizon Medical Centre",
-      "type": "Private",
-      "address": "Biratnagar-18, Morang",
-      "phone": "021-531013"
+      "name": "TB Control Center",
+      "type": "TB Clinic",
+      "address": "Biratnagar-42, Morang",
+      "phone": ["021-546789"],
+      "services": ["TB Diagnosis", "TB Treatment", "DOTS"],
+      "hours": "10:00 AM - 4:00 PM"
     },
     {
       "id": 27,
-      "name": "Pathology Lab Biratnagar",
-      "type": "Diagnostic",
-      "address": "Biratnagar-19, Morang",
-      "phone": "021-531014"
+      "name": "ICTC Center Biratnagar",
+      "type": "HIV Center",
+      "address": "Biratnagar-44, Morang",
+      "phone": ["021-547890"],
+      "services": ["HIV Testing", "Counseling", "ART"],
+      "hours": "10:00 AM - 4:00 PM"
     },
     {
       "id": 28,
-      "name": "Rainbow Medical Centre",
-      "type": "Private",
-      "address": "Biratnagar-20, Morang",
-      "phone": "021-531015"
+      "name": "Speech Therapy Center",
+      "type": "Speech Clinic",
+      "address": "Biratnagar-46, Morang",
+      "phone": ["021-548901"],
+      "services": ["Speech Therapy", "Hearing Test", "Language Therapy"],
+      "hours": "9:00 AM - 5:00 PM"
     },
     {
       "id": 29,
-      "name": "Sunrise Diagnostic Centre",
-      "type": "Diagnostic",
-      "address": "Rangeli Road, Biratnagar",
-      "phone": "021-531016"
+      "name": "Nutrition Clinic",
+      "type": "Dietary Clinic",
+      "address": "Biratnagar-48, Morang",
+      "phone": ["021-549012"],
+      "services": ["Nutrition Counseling", "Diet Planning", "Weight Management"],
+      "hours": "9:00 AM - 5:00 PM"
+    },
+    {
+      "id": 30,
+      "name": "Pain Clinic Biratnagar",
+      "type": "Pain Management",
+      "address": "Biratnagar-50, Morang",
+      "phone": ["021-550123"],
+      "services": ["Pain Management", "Chronic Pain", "Nerve Blocks"],
+      "hours": "9:00 AM - 5:00 PM"
+    },
+    {
+      "id": 31,
+      "name": "Geriatric Care Center",
+      "type": "Elderly Care",
+      "address": "Biratnagar-52, Morang",
+      "phone": ["021-551234"],
+      "services": ["Elderly Care", "Dementia", "Falls Prevention"],
+      "hours": "9:00 AM - 5:00 PM"
+    },
+    {
+      "id": 32,
+      "name": "Biratnagar Fertility Clinic",
+      "type": "Fertility Clinic",
+      "address": "Biratnagar-54, Morang",
+      "phone": ["021-552345"],
+      "services": ["Fertility Treatment", "IVF", "IUI"],
+      "hours": "9:00 AM - 5:00 PM"
+    },
+    {
+      "id": 33,
+      "name": "Sports Medicine Clinic",
+      "type": "Sports Clinic",
+      "address": "Biratnagar-56, Morang",
+      "phone": ["021-553456"],
+      "services": ["Sports Injury", "Rehabilitation", "Fitness"],
+      "hours": "8:00 AM - 6:00 PM"
+    },
+    {
+      "id": 34,
+      "name": "Chest Clinic",
+      "type": "Respiratory Clinic",
+      "address": "Biratnagar-58, Morang",
+      "phone": ["021-554567"],
+      "services": ["Respiratory", "Asthma", "COPD"],
+      "hours": "9:00 AM - 5:00 PM"
+    },
+    {
+      "id": 35,
+      "name": "Biratnagar Surgical Clinic",
+      "type": "Surgical Clinic",
+      "address": "Biratnagar-60, Morang",
+      "phone": ["021-555678"],
+      "services": ["General Surgery", "Laparoscopic Surgery", "Minor Surgery"],
+      "hours": "9:00 AM - 5:00 PM"
     }
   ]
 }

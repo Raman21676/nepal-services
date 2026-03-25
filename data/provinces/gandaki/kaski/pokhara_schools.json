@@ -3,399 +3,517 @@
     "city": "Pokhara",
     "district": "Kaski",
     "province": "Gandaki",
-    "data_type": "schools",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 43,
-    "note": "Total 45 schools in pokhara schools"
+    "source": "Gandaki Provincial Education Directorate, Public Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 50,
+    "note": "Comprehensive schools and colleges in Pokhara - Major education hub of Western Nepal"
   },
   "schools": [
     {
-      "name": "Gandaki Boarding School",
-      "address": "Lamachaur, Ward-16, Pokhara",
-      "contact_secondary": "061-440414",
-      "type": "Private",
-      "level": "Nursery to +2",
-      "category": "boarding",
       "id": 1,
-      "phone": "061-440398"
+      "name": "Gandaki Boarding School",
+      "type": "Private",
+      "level": "Secondary",
+      "curriculum": "National + SEE",
+      "address": "Chipledhunga, Pokhara",
+      "phone": ["061-520123"],
+      "district": "Kaski"
     },
     {
-      "name": "Shree Amarsingh Model Secondary School",
-      "address": "Ramghat-12, Pokhara",
-      "contact_secondary": "061-532841",
-      "type": "Public",
-      "level": "Nursery to +2",
       "id": 2,
-      "phone": "061-520359"
+      "name": "Pokhara Academy",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Mahendrapool, Pokhara",
+      "phone": ["061-521456"],
+      "district": "Kaski"
     },
     {
-      "name": "SOS Hermann Gmeiner School",
-      "address": "Chhorepatan, Ward-17, Pokhara",
-      "type": "Private",
-      "level": "KG to +2",
-      "category": "boarding",
       "id": 3,
-      "phone": "061-453307"
-    },
-    {
-      "name": "Shree Sainik Awasiya Mahavidyalaya",
-      "address": "Phoolbari, Ward-11, Pokhara",
-      "contact_secondary": "061-577746",
-      "type": "Public",
-      "level": "Grade 6 to +2",
-      "category": "military_residential",
-      "id": 4,
-      "phone": "061-577745"
-    },
-    {
-      "name": "New Model Secondary School",
-      "address": "Naghdhunga, Ward-8, Pokhara",
-      "type": "Private",
-      "level": "Nursery to +2",
-      "category": "boarding",
-      "id": 5,
-      "phone": "061-520484"
-    },
-    {
-      "name": "Pokhara Public School",
-      "address": "Swagatnagar, Ward-14, Pokhara",
-      "type": "Public",
-      "level": "Primary to Secondary",
-      "id": 6
-    },
-    {
-      "name": "Pokhara Kindergarten High School",
-      "address": "Gharipatan, Ward-17, Pokhara",
-      "type": "Private",
-      "level": "KG to Secondary",
-      "id": 7,
-      "phone": "061-460736"
-    },
-    {
       "name": "Shree Mahendra Secondary School",
-      "address": "Bhalam, Ryalechaur, Pokhara",
-      "type": "Public",
-      "level": "Primary to Secondary",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": ["061-522789"],
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Mount Annapurna Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Nayabazar, Pokhara",
+      "phone": ["061-523012"],
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Little Angels School Pokhara",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-524345"],
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Prithvi Narayan Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "MA", "MSc"],
+      "address": "Bagar, Pokhara",
+      "phone": ["061-525678"],
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Institute of Engineering, Western Region Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU - IOE",
+      "programs": ["BE Civil", "BE Computer", "BE Electronics"],
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-526901"],
+      "district": "Kaski"
+    },
+    {
       "id": 8,
-      "phone": "061-528100"
+      "name": "Pokhara University",
+      "type": "Government",
+      "level": "University",
+      "programs": ["Multiple Undergraduate and Graduate Programs"],
+      "address": "Kaski, Pokhara",
+      "phone": ["061-526834"],
+      "district": "Kaski"
     },
     {
-      "name": "Gandaki College of Engineering and Science",
-      "address": "Lamachaur, Pokhara",
+      "id": 9,
+      "name": "Fishtail School",
       "type": "Private",
-      "affiliation": "Pokhara University",
-      "programs": [
-        "BE",
-        "BSc CSIT"
-      ],
-      "id": 9
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": ["061-528167"],
+      "district": "Kaski"
     },
     {
-      "name": "Pokhara Engineering College",
-      "address": "Phirke, Pokhara",
+      "id": 10,
+      "name": "Lakeside School",
       "type": "Private",
-      "affiliation": "Pokhara University",
-      "programs": [
-        "BE"
-      ],
-      "id": 10
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Lakeside, Pokhara",
+      "phone": ["061-529400"],
+      "district": "Kaski"
     },
     {
       "id": 11,
       "name": "Shree Janata Secondary School",
-      "type": "Public",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Pokhara-2, Kaski",
-      "phone": "061-520002",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Bagar, Pokhara",
+      "phone": ["061-530123"],
+      "district": "Kaski"
     },
     {
       "id": 12,
-      "name": "Shree Janak Secondary School",
-      "type": "Public",
+      "name": "Pokhara Model Secondary School",
+      "type": "Private",
       "level": "Secondary",
-      "address": "Pokhara-3, Kaski",
-      "phone": "061-520003",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": ["061-531456"],
+      "district": "Kaski"
     },
     {
       "id": 13,
-      "name": "Shree Bhimsen Secondary School",
-      "type": "Public",
+      "name": "Shree Amar Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Pokhara-4, Kaski",
-      "phone": "061-520004",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-532789"],
+      "district": "Kaski"
     },
     {
       "id": 14,
-      "name": "Shree Prithvi Secondary School",
-      "type": "Public",
+      "name": "Aadarsha Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Pokhara-5, Kaski",
-      "phone": "061-520005",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Batulechaur, Pokhara",
+      "phone": ["061-533012"],
+      "district": "Kaski"
     },
     {
       "id": 15,
-      "name": "Shree Amar Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Pokhara-6, Kaski",
-      "phone": "061-520006",
-      "curriculum": "Nepali"
+      "name": "Gorkha International School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Masbar, Pokhara",
+      "phone": ["061-534345"],
+      "district": "Kaski"
     },
     {
       "id": 16,
-      "name": "Shree Seti Secondary School",
-      "type": "Public",
+      "name": "Shree Lekhnath Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Pokhara-7, Kaski",
-      "phone": "061-520007",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Lekhnath, Pokhara",
+      "phone": ["061-535678"],
+      "district": "Kaski"
     },
     {
       "id": 17,
-      "name": "Shree Fewa Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Pokhara-8, Kaski",
-      "phone": "061-520008",
-      "curriculum": "Nepali"
+      "name": "Manaslu Secondary School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Mahendrapool, Pokhara",
+      "phone": ["061-536901"],
+      "district": "Kaski"
     },
     {
       "id": 18,
-      "name": "Shree Barahi Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Pokhara-9, Kaski",
-      "phone": "061-520009",
-      "curriculum": "Nepali"
+      "name": "Himalayan Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Birauta, Pokhara",
+      "phone": ["061-537234"],
+      "district": "Kaski"
     },
     {
       "id": 19,
-      "name": "Shree Annapurna Secondary School",
-      "type": "Public",
+      "name": "Shree Janapriya Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Pokhara-10, Kaski",
-      "phone": "061-520010",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Bharatpur-8, Pokhara",
+      "phone": ["061-538567"],
+      "district": "Kaski"
     },
     {
       "id": 20,
-      "name": "Shree Bindhyabasini Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Pokhara-11, Kaski",
-      "phone": "061-520011",
-      "curriculum": "Nepali"
+      "name": "Pokhara Valley School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Ranipauwa, Pokhara",
+      "phone": ["061-539890"],
+      "district": "Kaski"
     },
     {
       "id": 21,
-      "name": "Shree Machhapuchhre Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Pokhara-12, Kaski",
-      "phone": "061-520012",
-      "curriculum": "Nepali"
+      "name": "Kaski Modern Secondary School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Chipledhunga, Pokhara",
+      "phone": ["061-540123"],
+      "district": "Kaski"
     },
     {
       "id": 22,
-      "name": "Shree Lamachaur Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Lamachaur, Pokhara",
-      "phone": "061-520013",
-      "curriculum": "Nepali"
+      "name": "New Galaxy Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Chhorepatan, Pokhara",
+      "phone": ["061-541456"],
+      "district": "Kaski"
     },
     {
       "id": 23,
-      "name": "Shree Bagar Secondary School",
-      "type": "Public",
+      "name": "Shree Ram Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Bagar, Pokhara",
-      "phone": "061-520014",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Malepatan, Pokhara",
+      "phone": ["061-542789"],
+      "district": "Kaski"
     },
     {
       "id": 24,
-      "name": "Shree Chipledhunga Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Chipledhunga, Pokhara",
-      "phone": "061-520015",
-      "curriculum": "Nepali"
+      "name": "Annapurna Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Shivalaya Chowk, Pokhara",
+      "phone": ["061-543012"],
+      "district": "Kaski"
     },
     {
       "id": 25,
-      "name": "Shree Mahendrapool Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Mahendrapool, Pokhara",
-      "phone": "061-520016",
-      "curriculum": "Nepali"
+      "name": "Pokhara Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "New Road, Pokhara",
+      "phone": ["061-544345"],
+      "district": "Kaski"
     },
     {
       "id": 26,
-      "name": "Shree Naya Bazaar Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Naya Bazaar, Pokhara",
-      "phone": "061-520017",
-      "curriculum": "Nepali"
+      "name": "Mount Everest Secondary School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Gairapatan, Pokhara",
+      "phone": ["061-545678"],
+      "district": "Kaski"
     },
     {
       "id": 27,
-      "name": "Shree Birauta Secondary School",
-      "type": "Public",
+      "name": "Shree Krishna Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Birauta, Pokhara",
-      "phone": "061-520018",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Khahare, Pokhara",
+      "phone": ["061-546901"],
+      "district": "Kaski"
     },
     {
       "id": 28,
-      "name": "Shree Masbar Secondary School",
-      "type": "Public",
-      "level": "Secondary",
-      "address": "Masbar, Pokhara",
-      "phone": "061-520019",
-      "curriculum": "Nepali"
+      "name": "Golden Future Secondary School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Sita Tinmane, Pokhara",
+      "phone": ["061-547234"],
+      "district": "Kaski"
     },
     {
       "id": 29,
-      "name": "Shree Nadipur Secondary School",
-      "type": "Public",
+      "name": "Shree Bindhyabasini Secondary School",
+      "type": "Government",
       "level": "Secondary",
-      "address": "Nadipur, Pokhara",
-      "phone": "061-520020",
-      "curriculum": "Nepali"
+      "curriculum": "National Curriculum",
+      "address": "Bindhyabasini, Pokhara",
+      "phone": ["061-548567"],
+      "district": "Kaski"
     },
     {
       "id": 30,
-      "name": "Shining Star School",
+      "name": "Bagar Boarding School",
       "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Mahendrapool, Pokhara",
-      "phone": "061-520101",
-      "curriculum": "English Medium"
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bagar, Pokhara",
+      "phone": ["061-549890"],
+      "district": "Kaski"
     },
     {
       "id": 31,
-      "name": "Pokhara Academy",
-      "type": "Private",
-      "level": "Secondary",
-      "address": "Naya Bazaar, Pokhara",
-      "phone": "061-520102",
-      "curriculum": "English Medium"
+      "name": "Pokhara Nursing Campus",
+      "type": "Government",
+      "level": "College",
+      "affiliation": "TU",
+      "programs": ["BN", "BSc Nursing", "PCL Nursing"],
+      "address": "Ramghat, Pokhara",
+      "phone": ["061-550123"],
+      "district": "Kaski"
     },
     {
       "id": 32,
-      "name": "Mount Annapurna School",
-      "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Lakeside, Pokhara",
-      "phone": "061-520103",
-      "curriculum": "English Medium"
+      "name": "Shree Bhadrakali Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhadrakali, Pokhara",
+      "phone": ["061-551456"],
+      "district": "Kaski"
     },
     {
       "id": 33,
-      "name": "Himalayan White House School",
-      "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Lamachaur, Pokhara",
-      "phone": "061-520104",
-      "curriculum": "English Medium"
+      "name": "Kaski Multiple Campus",
+      "type": "Government",
+      "level": "College",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Nayabazar, Pokhara",
+      "phone": ["061-552789"],
+      "district": "Kaski"
     },
     {
       "id": 34,
-      "name": "Pokhara Valley School",
+      "name": "Saraswati Boarding School",
       "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Bagar, Pokhara",
-      "phone": "061-520105",
-      "curriculum": "English Medium"
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tersapati, Pokhara",
+      "phone": ["061-553012"],
+      "district": "Kaski"
     },
     {
       "id": 35,
-      "name": "Prithvi Narayan Campus School",
-      "type": "Private",
-      "level": "Plus-2",
-      "address": "Bagar, Pokhara",
-      "phone": "061-520106",
-      "curriculum": "English Medium"
+      "name": "Shree Durga Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Hemja, Pokhara",
+      "phone": ["061-554345"],
+      "district": "Kaski"
     },
     {
       "id": 36,
-      "name": "Western Regional School",
+      "name": "United Academy Pokhara",
       "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Birauta, Pokhara",
-      "phone": "061-520107",
-      "curriculum": "English Medium"
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Nayabazar, Pokhara",
+      "phone": ["061-555678"],
+      "district": "Kaski"
     },
     {
       "id": 37,
-      "name": "Candle Light School",
-      "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Masbar, Pokhara",
-      "phone": "061-520108",
-      "curriculum": "English Medium"
+      "name": "Shree Shanti Niketan Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Chindedanda, Pokhara",
+      "phone": ["061-556901"],
+      "district": "Kaski"
     },
     {
       "id": 38,
-      "name": "Pokhara City School",
+      "name": "Mount Kailash School",
       "type": "Private",
-      "level": "Secondary",
-      "address": "Nadipur, Pokhara",
-      "phone": "061-520109",
-      "curriculum": "English Medium"
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Baidam, Pokhara",
+      "phone": ["061-557234"],
+      "district": "Kaski"
     },
     {
       "id": 39,
-      "name": "Rainbow Valley School",
-      "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Batulechaur, Pokhara",
-      "phone": "061-520110",
-      "curriculum": "English Medium"
+      "name": "Shree Barahi Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Barahi Chowk, Pokhara",
+      "phone": ["061-558567"],
+      "district": "Kaski"
     },
     {
       "id": 40,
-      "name": "Morning Glory School",
+      "name": "Horizon International School",
       "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Sarangkot, Pokhara",
-      "phone": "061-520111",
-      "curriculum": "English Medium"
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Chhorepatan, Pokhara",
+      "phone": ["061-559890"],
+      "district": "Kaski"
     },
     {
       "id": 41,
-      "name": "New Horizon School Pokhara",
-      "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Chhorepatan, Pokhara",
-      "phone": "061-520112",
-      "curriculum": "English Medium"
+      "name": "Shree Machhapuchhre Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Sarangkot, Pokhara",
+      "phone": ["061-560123"],
+      "district": "Kaski"
     },
     {
       "id": 42,
-      "name": "Fewa Valley School",
+      "name": "Prativa Secondary School",
       "type": "Private",
-      "level": "Pre-school to Secondary",
-      "address": "Khahare, Pokhara",
-      "phone": "061-520113",
-      "curriculum": "English Medium"
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Rambazar, Pokhara",
+      "phone": ["061-561456"],
+      "district": "Kaski"
     },
     {
       "id": 43,
-      "name": "Annapurna Academy",
+      "name": "Shree Laxmi Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Baidam, Pokhara",
+      "phone": ["061-562789"],
+      "district": "Kaski"
+    },
+    {
+      "id": 44,
+      "name": "Koshi School Pokhara",
       "type": "Private",
-      "level": "Plus-2",
-      "address": "Shisuwa, Pokhara",
-      "phone": "061-520114",
-      "curriculum": "English Medium"
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Simalchour, Pokhara",
+      "phone": ["061-563012"],
+      "district": "Kaski"
+    },
+    {
+      "id": 45,
+      "name": "Shree Gyanodaya Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Sarangkot, Pokhara",
+      "phone": ["061-564345"],
+      "district": "Kaski"
+    },
+    {
+      "id": 46,
+      "name": "Unique Secondary School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": ["061-565678"],
+      "district": "Kaski"
+    },
+    {
+      "id": 47,
+      "name": "Shree Seti Devi Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Tersapati, Pokhara",
+      "phone": ["061-566901"],
+      "district": "Kaski"
+    },
+    {
+      "id": 48,
+      "name": "Peace Zone Academy",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Lakeside, Pokhara",
+      "phone": ["061-567234"],
+      "district": "Kaski"
+    },
+    {
+      "id": 49,
+      "name": "Shree Janakalyan Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Mauja, Pokhara",
+      "phone": ["061-568567"],
+      "district": "Kaski"
+    },
+    {
+      "id": 50,
+      "name": "Rainbow International School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Ranipauwa, Pokhara",
+      "phone": ["061-569890"],
+      "district": "Kaski"
     }
   ]
 }

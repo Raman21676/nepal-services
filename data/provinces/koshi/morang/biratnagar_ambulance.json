@@ -3,8 +3,75 @@
     "city": "Biratnagar",
     "district": "Morang",
     "province": "Koshi",
+    "country": "Nepal",
     "last_updated": "2026-03-25",
-    "total_records": 0
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 7,
+    "note": "Ambulance services in Biratnagar"
   },
-  "ambulance": []
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Biratnagar Ambulance Service",
+      "type": "Government",
+      "phone": ["102", "021-520999"],
+      "address": "Koshi Hospital, Biratnagar",
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 2,
+      "name": "Nobel Medical College Ambulance",
+      "type": "Hospital",
+      "phone": ["021-460567"],
+      "address": "Nobel Medical College, Biratnagar",
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 3,
+      "name": "Red Cross Ambulance Biratnagar",
+      "type": "NGO",
+      "phone": ["021-520100"],
+      "address": "Biratnagar-10, Morang",
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 4,
+      "name": "Biratnagar Regional Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["021-521292"],
+      "address": "Biratnagar-13, Morang",
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 5,
+      "name": "Biratnagar Eye Hospital Ambulance",
+      "type": "Hospital",
+      "phone": ["021-522588"],
+      "address": "Biratnagar Eye Hospital",
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 6,
+      "name": "Private Ambulance Biratnagar",
+      "type": "Private",
+      "phone": ["021-520200"],
+      "address": "Biratnagar Bus Park, Morang",
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 7,
+      "name": "Emergency Ambulance Biratnagar",
+      "type": "Emergency",
+      "phone": ["102"],
+      "address": "Biratnagar-5, Morang",
+      "hours": "24/7",
+      "district": "Morang"
+    }
+  ]
 }

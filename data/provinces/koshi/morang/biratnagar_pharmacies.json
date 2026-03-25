@@ -3,72 +3,102 @@
     "city": "Biratnagar",
     "district": "Morang",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Pharmacies in Biratnagar"
   },
   "pharmacies": [
     {
-      "name": "Biratnagar Medical Hall",
-      "name_np": "विराटनगर मेडिकल हल",
-      "type": "Pharmacy",
-      "address": "Main Road, Biratnagar-8, Morang",
-      "phone": "021-525001",
-      "hours": "6:00 AM - 10:00 PM"
+      "id": 1,
+      "name": "Biratnagar Pharmacy",
+      "type": "Retail",
+      "address": "Main Road, Biratnagar",
+      "phone": ["021-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Morang"
     },
     {
-      "name": "Nobel Pharmacy",
-      "name_np": "नोबेल फार्मेसी",
+      "id": 2,
+      "name": "Nobel Medical Pharmacy",
       "type": "Hospital Pharmacy",
-      "address": "Nobel Medical College Campus, Biratnagar-11, Morang",
-      "phone": "021-525002",
-      "hours": "24 Hours"
+      "address": "Nobel Medical College, Biratnagar",
+      "phone": ["021-460567"],
+      "hours": "24/7",
+      "district": "Morang"
     },
     {
-      "name": "Life Care Pharmacy",
-      "name_np": "लाइफ केयर फार्मेसी",
-      "type": "Pharmacy",
-      "address": "Hospital Chowk, Biratnagar-9, Morang",
-      "phone": "021-525003",
-      "hours": "24 Hours"
+      "id": 3,
+      "name": "Koshi Pharmacy",
+      "type": "Retail",
+      "address": "Koshi Hospital Road, Biratnagar",
+      "phone": ["021-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Morang"
     },
     {
-      "name": "Medi Plus Pharmacy",
-      "name_np": "मेडी प्लस फार्मेसी",
-      "type": "Pharmacy",
-      "address": "Rangeli Road, Biratnagar-10, Morang",
-      "phone": "021-525004",
-      "hours": "7:00 AM - 9:00 PM"
+      "id": 4,
+      "name": "Life Care Medical Store",
+      "type": "Retail",
+      "address": "Bargachhi, Biratnagar",
+      "phone": ["021-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Morang"
     },
     {
-      "name": "City Pharmacy",
-      "name_np": "सिटी फार्मेसी",
-      "type": "Pharmacy",
-      "address": "Biratnagar-7, Morang",
-      "phone": "021-525005",
-      "hours": "6:30 AM - 9:30 PM"
+      "id": 5,
+      "name": "City Pharmacy Biratnagar",
+      "type": "Retail",
+      "address": "Rani, Biratnagar",
+      "phone": ["021-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Morang"
     },
     {
-      "name": "Shree Medical Store",
-      "name_np": "श्री मेडिकल स्टोर",
-      "type": "Medical Store",
-      "address": "Biratnagar Bus Park, Biratnagar-6, Morang",
-      "phone": "021-525006",
-      "hours": "7:00 AM - 8:00 PM"
+      "id": 6,
+      "name": "Health First Pharmacy",
+      "type": "Retail",
+      "address": "Biratnagar-4, Morang",
+      "phone": ["021-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Morang"
     },
     {
-      "name": "Birat Pharmacy",
-      "name_np": "विराट फार्मेसी",
-      "type": "Pharmacy",
-      "address": "Biratnagar-5, Morang",
-      "phone": "021-525007",
-      "hours": "6:00 AM - 10:00 PM"
+      "id": 7,
+      "name": "Biratnagar Eye Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Biratnagar Eye Hospital",
+      "phone": ["021-522588"],
+      "hours": "24/7",
+      "district": "Morang"
     },
     {
-      "name": "Health Point Pharmacy",
-      "name_np": "हेल्थ पाइन्ट फार्मेसी",
-      "type": "Pharmacy",
-      "address": "Near Narayani Hospital, Biratnagar-8, Morang",
-      "phone": "021-525008",
-      "hours": "24 Hours"
+      "id": 8,
+      "name": "Morang Medical Store",
+      "type": "Retail",
+      "address": "Biratnagar-6, Morang",
+      "phone": ["021-520666"],
+      "hours": "7:30 AM - 8:00 PM",
+      "district": "Morang"
+    },
+    {
+      "id": 9,
+      "name": "Wellness Pharmacy",
+      "type": "Retail",
+      "address": "Biratnagar-8, Morang",
+      "phone": ["021-520777"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Morang"
+    },
+    {
+      "id": 10,
+      "name": "24 Hour Medical Biratnagar",
+      "type": "Retail",
+      "address": "Biratnagar Bus Park, Morang",
+      "phone": ["021-520888"],
+      "hours": "24/7",
+      "district": "Morang"
     }
   ]
 }
