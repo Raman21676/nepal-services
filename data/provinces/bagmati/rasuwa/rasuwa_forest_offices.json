@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Dhunche",
+    "district": "Rasuwa",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Rasuwa",
+      "name_np": "डिभिजन वन कार्यालय रसुवा",
+      "type": "Division Forest Office",
+      "address": "Dhunche, Rasuwa",
+      "phone": ["010-540107"],
+      "district": "Rasuwa",
+      "province": "Bagmati",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits", "Langtang National Park Coordination"]
+    }
+  ]
+}
