@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "city": "Tansen",
+    "district": "Palpa",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Major hospitals and medical centers in Tansen, Palpa"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lumbini Provincial Hospital Tansen",
+      "type": "Government",
+      "address": "Tansen-5, Palpa",
+      "phone": ["075-520111", "075-520112"],
+      "district": "Palpa",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "27.8667,83.5500"
+    },
+    {
+      "id": 2,
+      "name": "United Mission Hospital Tansen",
+      "type": "NGO",
+      "address": "Tansen-4, Palpa",
+      "phone": ["075-521111", "075-521112"],
+      "website": "https://umhtansen.org/",
+      "district": "Palpa",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics", "Rehabilitation", "Community Health"],
+      "gps": "27.8745,83.5434"
+    },
+    {
+      "id": 3,
+      "name": "Tansen Hospital",
+      "type": "Private",
+      "address": "Tansen-6, Palpa",
+      "phone": ["075-522222"],
+      "district": "Palpa",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.8598,83.5567"
+    },
+    {
+      "id": 4,
+      "name": "Palpa District Hospital",
+      "type": "Government",
+      "address": "Tansen-3, Palpa",
+      "phone": ["075-523333"],
+      "district": "Palpa",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "27.8823,83.5389"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Hospital Tansen",
+      "type": "Private",
+      "address": "Tansen-7, Palpa",
+      "phone": ["075-524444"],
+      "district": "Palpa",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "27.8534,83.5623"
+    },
+    {
+      "id": 6,
+      "name": "Shanti Hospital Tansen",
+      "type": "Private",
+      "address": "Tansen-2, Palpa",
+      "phone": ["075-525555"],
+      "district": "Palpa",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Gynecology"],
+      "gps": "27.8901,83.5312"
+    },
+    {
+      "id": 7,
+      "name": "Tansen Medical Center",
+      "type": "Private",
+      "address": "Tansen-8, Palpa",
+      "phone": ["075-526666"],
+      "district": "Palpa",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery"],
+      "gps": "27.8456,83.5689"
+    },
+    {
+      "id": 8,
+      "name": "Palpa Community Hospital",
+      "type": "NGO",
+      "address": "Tansen-1, Palpa",
+      "phone": ["075-527777"],
+      "district": "Palpa",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Community Health"],
+      "gps": "27.8989,83.5245"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Syangja",
+    "district": "Syangja",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Syangja"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Gandaki Provincial Hospital Syangja",
+      "type": "Government",
+      "address": "Syangja-5, Syangja",
+      "phone": ["063-520111"],
+      "district": "Syangja",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "28.0167,83.8333"
+    },
+    {
+      "id": 2,
+      "name": "Syangja Hospital",
+      "type": "Private",
+      "address": "Syangja-4, Syangja",
+      "phone": ["063-521111"],
+      "district": "Syangja",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "28.0245,83.8256"
+    },
+    {
+      "id": 3,
+      "name": "Waling Hospital Syangja",
+      "type": "Private",
+      "address": "Waling, Syangja",
+      "phone": ["063-522222"],
+      "district": "Syangja",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "27.9833,83.7667"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Hospital Syangja",
+      "type": "Private",
+      "address": "Syangja-6, Syangja",
+      "phone": ["063-523333"],
+      "district": "Syangja",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "28.0323,83.8178"
+    },
+    {
+      "id": 5,
+      "name": "Shree Hospital Syangja",
+      "type": "Private",
+      "address": "Syangja-3, Syangja",
+      "phone": ["063-524444"],
+      "district": "Syangja",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "27.9956,83.8512"
+    },
+    {
+      "id": 6,
+      "name": "Syangja Medical Center",
+      "type": "Private",
+      "address": "Syangja-7, Syangja",
+      "phone": ["063-525555"],
+      "district": "Syangja",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "28.0089,83.8089"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Bidur",
+    "district": "Nuwakot",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Bidur, Nuwakot"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Nuwakot District Hospital",
+      "type": "Government",
+      "address": "Bidur-5, Nuwakot",
+      "phone": ["010-520111"],
+      "district": "Nuwakot",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Emergency Care"],
+      "gps": "27.9167,85.1500"
+    },
+    {
+      "id": 2,
+      "name": "Bidur Hospital",
+      "type": "Private",
+      "address": "Bidur-4, Nuwakot",
+      "phone": ["010-521111"],
+      "district": "Nuwakot",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.9245,85.1423"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Bidur",
+      "type": "Private",
+      "address": "Bidur-6, Nuwakot",
+      "phone": ["010-522222"],
+      "district": "Nuwakot",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine"],
+      "gps": "27.9089,85.1578"
+    },
+    {
+      "id": 4,
+      "name": "Nuwakot Medical Center",
+      "type": "Private",
+      "address": "Bidur-3, Nuwakot",
+      "phone": ["010-523333"],
+      "district": "Nuwakot",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "27.9323,85.1345"
+    },
+    {
+      "id": 5,
+      "name": "Shree Hospital Bidur",
+      "type": "Private",
+      "address": "Bidur-7, Nuwakot",
+      "phone": ["010-524444"],
+      "district": "Nuwakot",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "27.9012,85.1656"
+    },
+    {
+      "id": 6,
+      "name": "Trishuli Hospital",
+      "type": "Private",
+      "address": "Bidur-2, Nuwakot",
+      "phone": ["010-525555"],
+      "district": "Nuwakot",
+      "beds": "20",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "27.9390,85.1267"
+    }
+  ]
+}

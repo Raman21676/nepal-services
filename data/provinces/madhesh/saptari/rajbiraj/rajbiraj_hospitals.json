@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Rajbiraj",
+    "district": "Saptari",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Rajbiraj, Saptari"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Gajendra Narayan Singh Hospital",
+      "type": "Government",
+      "address": "Rajbiraj-5, Saptari",
+      "phone": ["031-520111", "031-520112"],
+      "district": "Saptari",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Orthopedics"],
+      "gps": "26.5333,86.7333"
+    },
+    {
+      "id": 2,
+      "name": "Rajbiraj Hospital",
+      "type": "Private",
+      "address": "Rajbiraj-4, Saptari",
+      "phone": ["031-521111"],
+      "district": "Saptari",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "26.5412,86.7256"
+    },
+    {
+      "id": 3,
+      "name": "Saptari District Hospital",
+      "type": "Government",
+      "address": "Rajbiraj-6, Saptari",
+      "phone": ["031-522222"],
+      "district": "Saptari",
+      "beds": "70",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "Emergency", "Maternity"],
+      "gps": "26.5256,86.7412"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Hospital Rajbiraj",
+      "type": "Private",
+      "address": "Rajbiraj-3, Saptari",
+      "phone": ["031-523333"],
+      "district": "Saptari",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine"],
+      "gps": "26.5490,86.7189"
+    },
+    {
+      "id": 5,
+      "name": "Shree Hospital Rajbiraj",
+      "type": "Private",
+      "address": "Rajbiraj-7, Saptari",
+      "phone": ["031-524444"],
+      "district": "Saptari",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "26.5189,86.7489"
+    },
+    {
+      "id": 6,
+      "name": "Madhesh Medical Center",
+      "type": "Private",
+      "address": "Rajbiraj-2, Saptari",
+      "phone": ["031-525555"],
+      "district": "Saptari",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.5567,86.7123"
+    }
+  ]
+}

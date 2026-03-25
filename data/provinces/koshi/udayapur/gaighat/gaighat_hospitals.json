@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Gaighat",
+    "district": "Udayapur",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Gaighat, Udayapur"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Udayapur District Hospital",
+      "type": "Government",
+      "address": "Gaighat-4, Udayapur",
+      "phone": ["035-420111"],
+      "district": "Udayapur",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Emergency Care"],
+      "gps": "26.7833,86.9333"
+    },
+    {
+      "id": 2,
+      "name": "Gaighat Hospital",
+      "type": "Private",
+      "address": "Gaighat-5, Udayapur",
+      "phone": ["035-421111"],
+      "district": "Udayapur",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "26.7912,86.9256"
+    },
+    {
+      "id": 3,
+      "name": "Life Care Hospital Gaighat",
+      "type": "Private",
+      "address": "Gaighat-3, Udayapur",
+      "phone": ["035-422222"],
+      "district": "Udayapur",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine"],
+      "gps": "26.7756,86.9409"
+    },
+    {
+      "id": 4,
+      "name": "Udayapur Medical Center",
+      "type": "Private",
+      "address": "Gaighat-6, Udayapur",
+      "phone": ["035-423333"],
+      "district": "Udayapur",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "26.7989,86.9189"
+    },
+    {
+      "id": 5,
+      "name": "Shree Hospital Gaighat",
+      "type": "Private",
+      "address": "Gaighat-2, Udayapur",
+      "phone": ["035-424444"],
+      "district": "Udayapur",
+      "beds": "25",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "26.7689,86.9489"
+    },
+    {
+      "id": 6,
+      "name": "Koshi Hospital Gaighat",
+      "type": "Private",
+      "address": "Gaighat-7, Udayapur",
+      "phone": ["035-425555"],
+      "district": "Udayapur",
+      "beds": "20",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.8067,86.9123"
+    }
+  ]
+}

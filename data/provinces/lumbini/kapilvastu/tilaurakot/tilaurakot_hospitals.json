@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Tilaurakot",
+    "district": "Kapilvastu",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Tilaurakot, Kapilvastu (Near Lumbini)"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Kapilvastu District Hospital",
+      "type": "Government",
+      "address": "Tilaurakot-4, Kapilvastu",
+      "phone": ["076-520111"],
+      "district": "Kapilvastu",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Emergency Care"],
+      "gps": "27.5667,83.0833"
+    },
+    {
+      "id": 2,
+      "name": "Lumbini Hospital Tilaurakot",
+      "type": "Private",
+      "address": "Tilaurakot-5, Kapilvastu",
+      "phone": ["076-521111"],
+      "district": "Kapilvastu",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.5745,83.0756"
+    },
+    {
+      "id": 3,
+      "name": "Buddha Hospital Kapilvastu",
+      "type": "Private",
+      "address": "Tilaurakot-3, Kapilvastu",
+      "phone": ["076-522222"],
+      "district": "Kapilvastu",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care"],
+      "gps": "27.5590,83.0910"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Hospital Tilaurakot",
+      "type": "Private",
+      "address": "Tilaurakot-6, Kapilvastu",
+      "phone": ["076-523333"],
+      "district": "Kapilvastu",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "27.5823,83.0678"
+    },
+    {
+      "id": 5,
+      "name": "Shree Hospital Kapilvastu",
+      "type": "Private",
+      "address": "Tilaurakot-2, Kapilvastu",
+      "phone": ["076-524444"],
+      "district": "Kapilvastu",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "27.5512,83.0989"
+    },
+    {
+      "id": 6,
+      "name": "Tilaurakot Medical Center",
+      "type": "Private",
+      "address": "Tilaurakot-7, Kapilvastu",
+      "phone": ["076-525555"],
+      "district": "Kapilvastu",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "27.5890,83.0601"
+    }
+  ]
+}

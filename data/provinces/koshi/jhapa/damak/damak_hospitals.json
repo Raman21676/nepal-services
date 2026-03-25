@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Damak",
+    "district": "Jhapa",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 6,
+    "note": "Major hospitals and medical centers in Damak, Jhapa"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Damak Hospital",
+      "type": "Private",
+      "address": "Damak-5, Jhapa",
+      "phone": ["023-580111"],
+      "district": "Jhapa",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.7167,87.7000"
+    },
+    {
+      "id": 2,
+      "name": "Life Care Hospital Damak",
+      "type": "Private",
+      "address": "Damak-4, Jhapa",
+      "phone": ["023-581111"],
+      "district": "Jhapa",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "26.7245,87.6934"
+    },
+    {
+      "id": 3,
+      "name": "Damak Medical Center",
+      "type": "Private",
+      "address": "Damak-6, Jhapa",
+      "phone": ["023-582222"],
+      "district": "Jhapa",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine"],
+      "gps": "26.7098,87.7067"
+    },
+    {
+      "id": 4,
+      "name": "Jhapa Model Hospital Damak",
+      "type": "Private",
+      "address": "Damak-3, Jhapa",
+      "phone": ["023-583333"],
+      "district": "Jhapa",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics"],
+      "gps": "26.7323,87.6856"
+    },
+    {
+      "id": 5,
+      "name": "Shree Hospital Damak",
+      "type": "Private",
+      "address": "Damak-7, Jhapa",
+      "phone": ["023-584444"],
+      "district": "Jhapa",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "26.7012,87.7123"
+    },
+    {
+      "id": 6,
+      "name": "Damak City Hospital",
+      "type": "Private",
+      "address": "Damak-2, Jhapa",
+      "phone": ["023-585555"],
+      "district": "Jhapa",
+      "beds": "25",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency"],
+      "gps": "26.7390,87.6789"
+    }
+  ]
+}
