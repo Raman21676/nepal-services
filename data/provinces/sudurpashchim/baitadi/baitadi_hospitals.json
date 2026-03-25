@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "city": "Baitadi",
+    "district": "Baitadi",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "DoHS, Rising Nepal",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Baitadi District Hospital",
+      "type": "Public",
+      "address": "Dashrathchand Municipality, Baitadi",
+      "phone": ["095-520151", "095-520065"],
+      "website": "https://www.baitadihospital.gov.np",
+      "district": "Baitadi",
+      "gps": null
+    }
+  ]
+}

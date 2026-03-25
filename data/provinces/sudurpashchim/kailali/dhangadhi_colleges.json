@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "EducateNepal",
+    "total_records": 2
+  },
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Aishwarya Multiple Campus",
+      "type": "Private",
+      "address": "Dhangadhi, Kailali",
+      "phone": ["091-523270"],
+      "affiliation": "Tribhuvan University",
+      "programs": ["BBS", "B.Sc."],
+      "district": "Kailali"
+    },
+    {
+      "id": 2,
+      "name": "Sudurpashchim University",
+      "type": "Public",
+      "address": "Dhangadhi, Kailali",
+      "affiliation": "Sudurpashchim University",
+      "programs": ["Multiple Programs"],
+      "district": "Kailali"
+    }
+  ]
+}

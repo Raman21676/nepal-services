@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "city": "Mahendranagar",
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "APHIN, Government of Nepal",
+    "total_records": 4
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Mahakali Provincial Hospital",
+      "type": "Public",
+      "address": "Bhimdatta, Mahendranagar, Kanchanpur",
+      "phone": ["099-521393"],
+      "email": "mzh.hospital@gmail.com",
+      "website": "https://mph.sudurpashchim.gov.np",
+      "district": "Kanchanpur",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Mahakali Hospital",
+      "type": "Private",
+      "address": "Mahendranagar, Kanchanpur",
+      "phone": ["099-520548"],
+      "district": "Kanchanpur",
+      "gps": null
+    },
+    {
+      "id": 3,
+      "name": "Mantra Hospital and Research Center",
+      "type": "Private",
+      "address": "Traffic Chowk, Mahendranagar",
+      "phone": ["099-520548"],
+      "website": "https://mantrahospital.com.np",
+      "district": "Kanchanpur",
+      "gps": null
+    },
+    {
+      "id": 4,
+      "name": "Nimesh Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Krishnapur, Kanchanpur",
+      "phone": ["099-412153"],
+      "district": "Kanchanpur",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "city": "Dipayal",
+    "district": "Doti",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal",
+    "total_records": 5
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Emergency Service",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Emergency Service",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Ambulance Service",
+      "contact": "102",
+      "type": "Emergency Service",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "District Police Office Doti",
+      "contact": "094-420100",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "id": 5,
+      "name": "Doti District Hospital",
+      "contact": "094-420043",
+      "type": "Hospital",
+      "hours": "24/7"
+    }
+  ]
+}

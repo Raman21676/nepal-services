@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Dipayal",
+    "district": "Doti",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "NepalYP, DoHS",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Doti District Hospital",
+      "type": "Public",
+      "address": "Dipayal-Silgadhi, Doti",
+      "phone": ["094-420043"],
+      "district": "Doti",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Chopra Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Dipayal, Doti",
+      "phone": [],
+      "district": "Doti",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "APHIN, DoHS, Hospital Websites",
+    "total_records": 8
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Seti Provincial Hospital",
+      "type": "Public",
+      "address": "Dhangadhi, Kailali",
+      "phone": ["091-525911"],
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Kailali Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Pashupati Tole, Dhangadhi-1, Kailali",
+      "phone": ["091-525360"],
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 3,
+      "name": "Navajeevan Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Dhangadhi-4, Kailali",
+      "phone": ["091-521233", "091-521733"],
+      "website": "https://navajeevanaspatal.com",
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 4,
+      "name": "Maya Metro Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Chatakpur-3, Dhangadhi",
+      "phone": ["091-416140"],
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 5,
+      "name": "Nova Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Hospital Line, Dhangadhi",
+      "phone": ["091-521592"],
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 6,
+      "name": "OM Asha Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Gurahi Chowk, Dhangadhi",
+      "phone": ["091-526649"],
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 7,
+      "name": "Sarathi Hospital Pvt. Ltd.",
+      "type": "Private",
+      "address": "Dhangadhi, Kailali",
+      "phone": ["9858424009"],
+      "district": "Kailali",
+      "gps": null
+    },
+    {
+      "id": 8,
+      "name": "Tikapur Hospital",
+      "type": "Public",
+      "address": "Tikapur, Kailali",
+      "phone": ["091-560666"],
+      "district": "Kailali",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "city": "Mahendranagar",
+    "district": "Kanchanpur",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Government of Nepal",
+    "total_records": 7
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Police Emergency",
+      "contact": "100",
+      "type": "Emergency Service",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Fire Brigade",
+      "contact": "101",
+      "type": "Emergency Service",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Ambulance Service",
+      "contact": "102",
+      "type": "Emergency Service",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "District Police Office Kanchanpur",
+      "contact": "099-520082",
+      "type": "Police",
+      "hours": "24/7"
+    },
+    {
+      "id": 5,
+      "name": "Nepal Red Cross Society Kanchanpur",
+      "contact": "099-523983",
+      "email": "nrcskanchanpur@gmail.com",
+      "type": "NGO",
+      "hours": "24/7"
+    },
+    {
+      "id": 6,
+      "name": "Immigration Office Gaddachauki",
+      "contact": "099-520111",
+      "type": "Government",
+      "address": "Gaddachauki Border, Mahendra Highway",
+      "hours": "Office Hours"
+    },
+    {
+      "id": 7,
+      "name": "Mahakali Provincial Hospital Emergency",
+      "contact": "099-521393",
+      "type": "Hospital",
+      "hours": "24/7"
+    }
+  ]
+}

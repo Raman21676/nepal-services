@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "city": "Dadeldhura",
+    "district": "Dadeldhura",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "DoHS, FindAllNepal",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Dadeldhura Hospital",
+      "type": "Public",
+      "address": "Amarghadi, Dadeldhura",
+      "phone": ["096-410372", "096-420161"],
+      "email": "dadeldhura.hospital@gmail.com",
+      "district": "Dadeldhura",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Jogbuda Hospital",
+      "type": "Public",
+      "address": "Jogbuda, Dadeldhura",
+      "phone": [],
+      "district": "Dadeldhura",
+      "gps": null
+    }
+  ]
+}
