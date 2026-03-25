@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Banepa",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 2
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Banepa Hospital",
+      "type": "Public",
+      "address": "Banepa-5, Kavrepalanchok",
+      "phone": ["011-661100"],
+      "district": "Kavrepalanchok",
+      "gps": null
+    },
+    {
+      "id": 2,
+      "name": "Kavre Hospital",
+      "type": "Public",
+      "address": "Banepa-8, Kavrepalanchok",
+      "phone": ["011-661150"],
+      "district": "Kavrepalanchok",
+      "gps": null
+    }
+  ]
+}

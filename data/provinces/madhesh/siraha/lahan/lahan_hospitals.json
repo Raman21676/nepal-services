@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Lahan",
+    "district": "Siraha",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lahan Hospital",
+      "type": "Public",
+      "address": "Lahan-5, Siraha",
+      "phone": ["033-560100"],
+      "district": "Siraha",
+      "gps": null
+    }
+  ]
+}

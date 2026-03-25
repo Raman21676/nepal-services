@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Jaleshwar",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Jaleshwar Hospital",
+      "type": "Public",
+      "address": "Jaleshwar-5, Dhanusha",
+      "phone": ["041-520100"],
+      "district": "Dhanusha",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Chandranigahapur",
+    "district": "Rautahat",
+    "province": "Madhesh",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Chandranigahapur Hospital",
+      "type": "Public",
+      "address": "Chandranigahapur-5, Rautahat",
+      "phone": ["055-520100"],
+      "district": "Rautahat",
+      "gps": null
+    }
+  ]
+}

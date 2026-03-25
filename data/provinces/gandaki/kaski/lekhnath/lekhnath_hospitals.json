@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Lekhnath",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lekhnath Hospital",
+      "type": "Public",
+      "address": "Lekhnath-5, Kaski",
+      "phone": ["061-520100"],
+      "district": "Kaski",
+      "gps": null
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Tikapur",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Tikapur Hospital",
+      "type": "Public",
+      "address": "Tikapur-5, Kailali",
+      "phone": ["091-580100"],
+      "district": "Kailali",
+      "gps": null
+    }
+  ]
+}

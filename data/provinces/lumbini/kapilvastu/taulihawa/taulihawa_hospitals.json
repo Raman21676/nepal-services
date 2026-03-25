@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "city": "Taulihawa",
+    "district": "Kapilvastu",
+    "province": "Lumbini",
+    "last_updated": "2026-03-25",
+    "source": "Health Office",
+    "total_records": 1
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Taulihawa Hospital",
+      "type": "Public",
+      "address": "Taulihawa-5, Kapilvastu",
+      "phone": ["076-520100"],
+      "district": "Kapilvastu",
+      "gps": null
+    }
+  ]
+}
