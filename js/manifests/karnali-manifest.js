@@ -129,3 +129,4 @@ if (typeof module !== 'undefined' && module.exports) {
     { path: 'data/provinces/karnali/salyan/salyan_forest_offices.json', province: 'karnali', district: 'salyan', city: 'salyan', type: 'forest' },
     { path: 'data/provinces/karnali/surkhet/birendranagar_forest_offices.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'forest' },
     { path: 'data/provinces/karnali/western_rukum/musikot_forest_offices.json', province: 'karnali', district: 'western_rukum', city: 'musikot', type: 'forest' },
+];

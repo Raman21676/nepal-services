@@ -218,3 +218,4 @@ if (typeof module !== 'undefined' && module.exports) {
     { path: 'data/provinces/koshi/taplejung/taplejung_forest_offices.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'forest' },
     { path: 'data/provinces/koshi/terhathum/myanglung_forest_offices.json', province: 'koshi', district: 'terhathum', city: 'myanglung', type: 'forest' },
     { path: 'data/provinces/koshi/udayapur/gaighat_forest_offices.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'forest' },
+];

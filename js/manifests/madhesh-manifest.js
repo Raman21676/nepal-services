@@ -115,3 +115,4 @@ if (typeof module !== 'undefined' && module.exports) {
     { path: 'data/provinces/madhesh/saptari/rajbiraj_forest_offices.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'forest' },
     { path: 'data/provinces/madhesh/sarlahi/malangwa_forest_offices.json', province: 'madhesh', district: 'sarlahi', city: 'malangwa', type: 'forest' },
     { path: 'data/provinces/madhesh/siraha/siraha_forest_offices.json', province: 'madhesh', district: 'siraha', city: 'siraha', type: 'forest' },
+];

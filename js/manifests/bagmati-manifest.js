@@ -98,3 +98,4 @@ if (typeof module !== 'undefined' && module.exports) {
     { path: 'data/provinces/bagmati/sindhuli/sindhuli_forest_offices.json', province: 'bagmati', district: 'sindhuli', city: 'sindhulimadi', type: 'forest' },
     { path: 'data/provinces/bagmati/rasuwa/rasuwa_forest_offices.json', province: 'bagmati', district: 'rasuwa', city: 'dhunche', type: 'forest' },
     { path: 'data/provinces/bagmati/ramechhap/ramechhap_forest_offices.json', province: 'bagmati', district: 'ramechhap', city: 'manthali', type: 'forest' },
+];

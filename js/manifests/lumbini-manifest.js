@@ -167,3 +167,4 @@ if (typeof module !== 'undefined' && module.exports) {
     { path: 'data/provinces/lumbini/pyuthan/pyuthan_forest_offices.json', province: 'lumbini', district: 'pyuthan', city: 'pyuthan', type: 'forest' },
     { path: 'data/provinces/lumbini/rolpa/liwang_forest_offices.json', province: 'lumbini', district: 'rolpa', city: 'liwang', type: 'forest' },
     { path: 'data/provinces/lumbini/rupandehi/bhairahawa_forest_offices.json', province: 'lumbini', district: 'rupandehi', city: 'bhairahawa', type: 'forest' },
+];

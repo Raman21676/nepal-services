@@ -79,3 +79,4 @@ if (typeof dataLoader !== 'undefined') {
     { path: 'data/provinces/sudurpashchim/doti/dipayal_forest_offices.json', province: 'sudurpashchim', district: 'doti', city: 'dipayal', type: 'forest' },
     { path: 'data/provinces/sudurpashchim/kailali/dhangadhi_forest_offices.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'forest' },
     { path: 'data/provinces/sudurpashchim/kanchanpur/mahendranagar_forest_offices.json', province: 'sudurpashchim', district: 'kanchanpur', city: 'mahendranagar', type: 'forest' },
+];

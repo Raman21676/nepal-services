@@ -156,3 +156,4 @@ if (typeof module !== 'undefined' && module.exports) {
     { path: 'data/provinces/gandaki/parbat/parbat_forest_offices.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'forest' },
     { path: 'data/provinces/gandaki/syangja/syangja_forest_offices.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'forest' },
     { path: 'data/provinces/gandaki/tanahun/tanahun_forest_offices.json', province: 'gandaki', district: 'tanahun', city: 'damauli', type: 'forest' },
+];
