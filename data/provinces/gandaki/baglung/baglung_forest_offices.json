@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "city": "Baglung",
+    "district": "Baglung",
+    "province": "Gandaki",
+    "last_updated": "2026-03-25",
+    "source": "ANSAB Directory, Department of Forests and Soil Conservation",
+    "total_records": 1
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Baglung",
+      "name_np": "डिभिजन वन कार्यालय बागलुङ",
+      "type": "Division Forest Office",
+      "address": "Baglung",
+      "phone": ["068-520135"],
+      "district": "Baglung",
+      "province": "Gandaki",
+      "services": ["Forest Management", "Community Forest", "Wildlife Conservation", "Timber Permits"]
+    }
+  ]
+}
