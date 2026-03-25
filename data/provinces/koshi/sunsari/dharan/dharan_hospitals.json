@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate, BP Koirala Institute, Public Directories",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Dharan"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "BP Koirala Institute of Health Sciences (BPKIHS)",
+      "type": "Government",
+      "address": "Dharan-10, Sunsari",
+      "phone": ["025-525555", "025-525556"],
+      "website": "https://bpkihs.edu/",
+      "email": "info@bpkihs.edu",
+      "district": "Sunsari",
+      "beds": "700",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurosurgery", "Oncology", "Nephrology", "Organ Transplant", "Medical Education"],
+      "gps": "26.8123,87.2845"
+    },
+    {
+      "id": 2,
+      "name": "Dharan Hospital",
+      "type": "Government",
+      "address": "Dharan, Sunsari",
+      "phone": ["025-520111", "025-520112"],
+      "district": "Sunsari",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Emergency Care"],
+      "gps": "26.8167,87.2834"
+    },
+    {
+      "id": 3,
+      "name": "Municipal Hospital Dharan",
+      "type": "Government",
+      "address": "Dharan-6, Sunsari",
+      "phone": ["025-522233"],
+      "district": "Sunsari",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Primary Care", "General Medicine", "Maternity"],
+      "gps": "26.8098,87.2912"
+    },
+    {
+      "id": 4,
+      "name": "Shree Santi Hospital",
+      "type": "Private",
+      "address": "Bhanu Chowk, Dharan",
+      "phone": ["025-524455"],
+      "district": "Sunsari",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Internal Medicine"],
+      "gps": "26.8145,87.2878"
+    },
+    {
+      "id": 5,
+      "name": "Himalayan Hospital",
+      "type": "Private",
+      "address": "Pindeshwor Chowk, Dharan",
+      "phone": ["025-526677"],
+      "district": "Sunsari",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "ICU", "Emergency"],
+      "gps": "26.8201,87.2791"
+    },
+    {
+      "id": 6,
+      "name": "Nobel Medical College - Dharan",
+      "type": "Private",
+      "address": "Biratnagar Road, Dharan",
+      "phone": ["025-528899"],
+      "district": "Sunsari",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery", "Cardiology"],
+      "gps": "26.8078,87.2956"
+    },
+    {
+      "id": 7,
+      "name": "Life Line Hospital",
+      "type": "Private",
+      "address": "Charali, Dharan",
+      "phone": ["025-521144"],
+      "district": "Sunsari",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Surgery"],
+      "gps": "26.8189,87.2756"
+    },
+    {
+      "id": 8,
+      "name": "Mitra Hospital",
+      "type": "Private",
+      "address": "Dharan-8, Sunsari",
+      "phone": ["025-523366"],
+      "district": "Sunsari",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics", "Gynecology"],
+      "gps": "26.8123,87.2891"
+    },
+    {
+      "id": 9,
+      "name": "Asha Hospital",
+      "type": "Private",
+      "address": "Yalambar Chowk, Dharan",
+      "phone": ["025-525588"],
+      "district": "Sunsari",
+      "beds": "45",
+      "emergency_available": true,
+      "specialties": ["Orthopedics", "General Surgery", "Trauma Care"],
+      "gps": "26.8056,87.2934"
+    },
+    {
+      "id": 10,
+      "name": "Green City Hospital",
+      "type": "Private",
+      "address": "Siddhartha Chowk, Dharan",
+      "phone": ["025-527700"],
+      "district": "Sunsari",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Diagnostics"],
+      "gps": "26.8212,87.2812"
+    }
+  ]
+}

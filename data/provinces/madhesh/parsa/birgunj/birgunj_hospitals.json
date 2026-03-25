@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate, Public Directories",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Birgunj"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "National Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Birgunj, Parsa",
+      "phone": ["051-521992", "051-521993"],
+      "website": "https://nationalmedicalcollege.com/",
+      "email": "info@nationalmedicalcollege.com",
+      "district": "Parsa",
+      "beds": "600",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurosurgery", "Urology", "Nephrology", "Oncology"],
+      "gps": "27.0112,84.8809"
+    },
+    {
+      "id": 2,
+      "name": "Narayani Hospital",
+      "type": "Government",
+      "address": "Birgunj, Parsa",
+      "phone": ["051-521966", "051-521967"],
+      "district": "Parsa",
+      "beds": "250",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics", "Trauma"],
+      "gps": "27.0167,84.8778"
+    },
+    {
+      "id": 3,
+      "name": "Kedia Eye Hospital",
+      "type": "Private",
+      "address": "Birgunj, Parsa",
+      "phone": ["051-522400", "051-522401"],
+      "district": "Parsa",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["Ophthalmology", "Eye Surgery", "Cataract"],
+      "gps": "27.0089,84.8834"
+    },
+    {
+      "id": 4,
+      "name": "Ghodghas Hospital",
+      "type": "Private",
+      "address": "Ghantaghar, Birgunj",
+      "phone": ["051-524455"],
+      "district": "Parsa",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Internal Medicine"],
+      "gps": "27.0134,84.8756"
+    },
+    {
+      "id": 5,
+      "name": "Birgunj Polyclinic & Hospital",
+      "type": "Private",
+      "address": "Adarshanagar, Birgunj",
+      "phone": ["051-526677"],
+      "district": "Parsa",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Diagnostics"],
+      "gps": "27.0198,84.8791"
+    },
+    {
+      "id": 6,
+      "name": "Life Care Hospital",
+      "type": "Private",
+      "address": "Birgunj-8, Parsa",
+      "phone": ["051-528899"],
+      "district": "Parsa",
+      "beds": "40",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "Pediatrics"],
+      "gps": "27.0067,84.8845"
+    },
+    {
+      "id": 7,
+      "name": "Maya Hospital",
+      "type": "Private",
+      "address": "Maisthan, Birgunj",
+      "phone": ["051-523344"],
+      "district": "Parsa",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["Gynecology", "Maternity", "General Medicine"],
+      "gps": "27.0145,84.8812"
+    },
+    {
+      "id": 8,
+      "name": "Birgunj Medical College",
+      "type": "Private",
+      "address": "Birgunj, Parsa",
+      "phone": ["051-521100"],
+      "district": "Parsa",
+      "beds": "300",
+      "emergency_available": true,
+      "specialties": ["Medical Education", "General Medicine", "Surgery", "Cardiology"],
+      "gps": "27.0056,84.8889"
+    },
+    {
+      "id": 9,
+      "name": "Siddhartha Hospital",
+      "type": "Private",
+      "address": "Birgunj-4, Parsa",
+      "phone": ["051-527766"],
+      "district": "Parsa",
+      "beds": "45",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Emergency Care"],
+      "gps": "27.0123,84.8767"
+    },
+    {
+      "id": 10,
+      "name": "Shree Hospital",
+      "type": "Private",
+      "address": "Jitpur, Birgunj",
+      "phone": ["051-529988"],
+      "district": "Parsa",
+      "beds": "30",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Pediatrics"],
+      "gps": "27.0212,84.8723"
+    }
+  ]
+}

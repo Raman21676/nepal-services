@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Pokhara Metropolitan City, Nepal Police",
+    "total_records": 8,
+    "note": "Emergency contacts for Pokhara"
+  },
+  "emergency": [
+    {
+      "id": 1,
+      "name": "Pokhara Metropolitan Police Office",
+      "type": "Police",
+      "department": "Nepal Police",
+      "phone": ["100", "061-520111"],
+      "address": "Sabhagriha Chowk, Pokhara",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Pokhara Fire Station",
+      "type": "Fire Service",
+      "department": "Fire Brigade",
+      "phone": ["101"],
+      "address": "Prithvi Chowk, Pokhara",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "Pokhara Ambulance Service",
+      "type": "Ambulance",
+      "phone": ["102", "061-520999"],
+      "address": "Various locations, Pokhara",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 4,
+      "name": "Tourist Helpline Pokhara",
+      "type": "Tourist Support",
+      "department": "Nepal Tourism Board",
+      "phone": ["1144", "061-465292"],
+      "address": "Tourist Bus Park, Pokhara",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 5,
+      "name": "Pokhara Traffic Police",
+      "type": "Traffic Control",
+      "department": "Traffic Police",
+      "phone": ["061-521222"],
+      "address": "Mahendrapool, Pokhara",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 6,
+      "name": "Red Cross Pokhara",
+      "type": "Emergency Relief",
+      "phone": ["061-522233"],
+      "address": "Chipledhunga, Pokhara",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 7,
+      "name": "Pokhara Blood Bank",
+      "type": "Blood Bank",
+      "phone": ["061-524445"],
+      "address": "Pokhara Academy of Health Sciences",
+      "district": "Kaski",
+      "hours": "24/7"
+    },
+    {
+      "id": 8,
+      "name": "Pokhara Municipality Office",
+      "type": "Government",
+      "department": "Administration",
+      "phone": ["061-525566"],
+      "address": "Mahendrapool, Pokhara",
+      "district": "Kaski",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)"
+    }
+  ]
+}

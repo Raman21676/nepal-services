@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate, Public Directories",
+    "total_records": 12,
+    "note": "Major hospitals and medical centers in Biratnagar"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Biratnagar Eye Hospital",
+      "type": "NGO",
+      "address": "Biratnagar-10, Morang",
+      "phone": ["021-522588", "021-522589"],
+      "website": "https://biratnagareyehospital.org/",
+      "email": "info@biratnagareyehospital.org",
+      "district": "Morang",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["Ophthalmology", "Eye Surgery", "Retina Care"],
+      "gps": "26.4525,87.2718"
+    },
+    {
+      "id": 2,
+      "name": "Nobel Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-460567", "021-460568"],
+      "website": "https://nobelmedicalcollege.com.np/",
+      "email": "info@nobelmedicalcollege.com.np",
+      "district": "Morang",
+      "beds": "700",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurosurgery", "Oncology", "Nephrology", "Urology"],
+      "gps": "26.4356,87.2767"
+    },
+    {
+      "id": 3,
+      "name": "Koshi Hospital",
+      "type": "Government",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-520181", "021-520182"],
+      "district": "Morang",
+      "beds": "300",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Obstetrics", "Pediatrics"],
+      "gps": "26.4489,87.2791"
+    },
+    {
+      "id": 4,
+      "name": "Biratnagar Regional Hospital",
+      "type": "Government",
+      "address": "Biratnagar-13, Morang",
+      "phone": ["021-521292"],
+      "district": "Morang",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Trauma"],
+      "gps": "26.4512,87.2834"
+    },
+    {
+      "id": 5,
+      "name": "Sukraraj Tropical & Infectious Disease Hospital",
+      "type": "Government",
+      "address": "Biratnagar, Morang",
+      "phone": ["021-522934"],
+      "district": "Morang",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Infectious Diseases", "Tropical Medicine", "Dengue", "TB"],
+      "gps": "26.4467,87.2756"
+    },
+    {
+      "id": 6,
+      "name": "Mountain Hospital",
+      "type": "Private",
+      "address": "Rani, Biratnagar",
+      "phone": ["021-470788"],
+      "district": "Morang",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Orthopedics", "Gynecology"],
+      "gps": "26.4389,87.2912"
+    },
+    {
+      "id": 7,
+      "name": "Life Guard Hospital",
+      "type": "Private",
+      "address": "Main Road, Biratnagar",
+      "phone": ["021-523456"],
+      "district": "Morang",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["Emergency Care", "General Medicine", "ICU"],
+      "gps": "26.4523,87.2789"
+    },
+    {
+      "id": 8,
+      "name": "Avenues Hospital",
+      "type": "Private",
+      "address": "Biratnagar-4, Morang",
+      "phone": ["021-527788"],
+      "district": "Morang",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Diagnostics"],
+      "gps": "26.4545,87.2812"
+    },
+    {
+      "id": 9,
+      "name": "Mechi Hospital",
+      "type": "Private",
+      "address": "Biratnagar-8, Morang",
+      "phone": ["021-525566"],
+      "district": "Morang",
+      "beds": "40",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Maternity"],
+      "gps": "26.4498,87.2734"
+    },
+    {
+      "id": 10,
+      "name": "Prativa Hospital",
+      "type": "Private",
+      "address": "Bargachhi, Biratnagar",
+      "phone": ["021-529900"],
+      "district": "Morang",
+      "beds": "30",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Pediatrics"],
+      "gps": "26.4612,87.2856"
+    },
+    {
+      "id": 11,
+      "name": "Hope Hospital",
+      "type": "Private",
+      "address": "Biratnagar-6, Morang",
+      "phone": ["021-524433"],
+      "district": "Morang",
+      "beds": "35",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Orthopedics"],
+      "gps": "26.4511,87.2767"
+    },
+    {
+      "id": 12,
+      "name": "Nectar Hospital",
+      "type": "Private",
+      "address": "Biratnagar-2, Morang",
+      "phone": ["021-528877"],
+      "district": "Morang",
+      "beds": "45",
+      "emergency_available": true,
+      "specialties": ["Internal Medicine", "Surgery", "Diagnostics"],
+      "gps": "26.4478,87.2823"
+    }
+  ]
+}

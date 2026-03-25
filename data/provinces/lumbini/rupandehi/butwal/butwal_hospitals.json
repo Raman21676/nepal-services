@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate, Public Directories",
+    "total_records": 10,
+    "note": "Major hospitals and medical centers in Butwal"
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Lumbini Medical College Teaching Hospital",
+      "type": "Private",
+      "address": "Tilottama-5, Rupandehi",
+      "phone": ["071-540200", "071-540201"],
+      "website": "https://lumbinimedic.org/",
+      "email": "info@lumbinimedic.org",
+      "district": "Rupandehi",
+      "beds": "500",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Neurosurgery", "Nephrology", "Urology", "Oncology"],
+      "gps": "27.6866,83.4323"
+    },
+    {
+      "id": 2,
+      "name": "Manipal Hospital Butwal",
+      "type": "Private",
+      "address": "Traffic Chowk, Butwal",
+      "phone": ["071-547777", "071-547778"],
+      "website": "https://manipalhospitals.com/",
+      "district": "Rupandehi",
+      "beds": "200",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Orthopedics", "Pediatrics"],
+      "gps": "27.7001,83.4652"
+    },
+    {
+      "id": 3,
+      "name": "Butwal Hospital",
+      "type": "Government",
+      "address": "Rajamarga, Butwal",
+      "phone": ["071-540111"],
+      "district": "Rupandehi",
+      "beds": "150",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Emergency Care", "Obstetrics"],
+      "gps": "27.6945,83.4512"
+    },
+    {
+      "id": 4,
+      "name": "Crimson Hospital",
+      "type": "Private",
+      "address": "Milanchowk, Butwal",
+      "phone": ["071-550200", "071-550201"],
+      "district": "Rupandehi",
+      "beds": "100",
+      "emergency_available": true,
+      "specialties": ["General Surgery", "Internal Medicine", "Gynecology"],
+      "gps": "27.7034,83.4589"
+    },
+    {
+      "id": 5,
+      "name": "Mount Annapurna Hospital",
+      "type": "Private",
+      "address": "Sukhanagar, Butwal",
+      "phone": ["071-545500"],
+      "district": "Rupandehi",
+      "beds": "80",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Surgery", "Diagnostics"],
+      "gps": "27.6898,83.4423"
+    },
+    {
+      "id": 6,
+      "name": "Jeevan Rekha Hospital",
+      "type": "Private",
+      "address": "Devinagar, Butwal",
+      "phone": ["071-548899"],
+      "district": "Rupandehi",
+      "beds": "60",
+      "emergency_available": true,
+      "specialties": ["Cardiology", "Emergency Care", "ICU"],
+      "gps": "27.6923,83.4389"
+    },
+    {
+      "id": 7,
+      "name": "Lumbini City Hospital",
+      "type": "Private",
+      "address": "Golpark, Butwal",
+      "phone": ["071-551122"],
+      "district": "Rupandehi",
+      "beds": "50",
+      "emergency_available": true,
+      "specialties": ["General Medicine", "Maternity", "Pediatrics"],
+      "gps": "27.7056,83.4612"
+    },
+    {
+      "id": 8,
+      "name": "Om Sai Hospital",
+      "type": "Private",
+      "address": "Pushpalal Chowk, Butwal",
+      "phone": ["071-549966"],
+      "district": "Rupandehi",
+      "beds": "40",
+      "emergency_available": false,
+      "specialties": ["General Surgery", "Orthopedics"],
+      "gps": "27.6989,83.4545"
+    },
+    {
+      "id": 9,
+      "name": "Siddhartha Children & Women Hospital",
+      "type": "Private",
+      "address": "Deepnagar, Butwal",
+      "phone": ["071-553344"],
+      "district": "Rupandehi",
+      "beds": "70",
+      "emergency_available": true,
+      "specialties": ["Pediatrics", "Gynecology", "Neonatal Care"],
+      "gps": "27.6878,83.4456"
+    },
+    {
+      "id": 10,
+      "name": "Holy Cross Hospital",
+      "type": "NGO",
+      "address": "Kalikanagar, Butwal",
+      "phone": ["071-547788"],
+      "district": "Rupandehi",
+      "beds": "35",
+      "emergency_available": false,
+      "specialties": ["General Medicine", "Community Health"],
+      "gps": "27.7012,83.4498"
+    }
+  ]
+}

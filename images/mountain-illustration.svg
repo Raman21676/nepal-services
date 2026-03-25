@@ -1,69 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" preserveAspectRatio="xMidYMid slice">
   <defs>
+    <!-- Gradients -->
     <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#1e3a5f;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="mountain1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#e2e8f0;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#94a3b8;stop-opacity:1" />
+    
+    <linearGradient id="mountainGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e2e8f0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#94a3b8;stop-opacity:0.6" />
     </linearGradient>
-    <linearGradient id="mountain2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#cbd5e1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#64748b;stop-opacity:1" />
+    
+    <linearGradient id="mountainGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#cbd5e1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#64748b;stop-opacity:0.5" />
     </linearGradient>
-    <linearGradient id="mountain3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#475569;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    
+    <linearGradient id="mountainGradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#94a3b8;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#475569;stop-opacity:0.4" />
     </linearGradient>
+    
+    <linearGradient id="snowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   
-  <!-- Sky background -->
-  <rect width="1440" height="400" fill="url(#skyGradient)"/>
+  <!-- Sky Background -->
+  <rect width="1440" height="600" fill="url(#skyGradient)"/>
   
   <!-- Stars -->
-  <circle cx="100" cy="50" r="1.5" fill="white" opacity="0.8">
+  <circle cx="100" cy="80" r="1.5" fill="white" opacity="0.8">
     <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="300" cy="80" r="1" fill="white" opacity="0.6">
+  <circle cx="250" cy="120" r="1" fill="white" opacity="0.6">
     <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="500" cy="40" r="1.5" fill="white" opacity="0.7">
+  <circle cx="400" cy="60" r="1.5" fill="white" opacity="0.7">
     <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="700" cy="60" r="1" fill="white" opacity="0.5">
+  <circle cx="600" cy="100" r="1" fill="white" opacity="0.5">
     <animate attributeName="opacity" values="0.5;0.2;0.5" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="900" cy="30" r="1.5" fill="white" opacity="0.9">
-    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2.8s" repeatCount="indefinite"/>
+  <circle cx="850" cy="70" r="1.5" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2.8s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1100" cy="70" r="1" fill="white" opacity="0.6">
-    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.2s" repeatCount="indefinite"/>
+  <circle cx="1000" cy="90" r="1" fill="white" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1300" cy="45" r="1.5" fill="white" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.2s" repeatCount="indefinite"/>
+  <circle cx="1200" cy="50" r="1.5" fill="white" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.2s" repeatCount="indefinite"/>
   </circle>
-  
-  <!-- Moon -->
-  <circle cx="1200" cy="60" r="30" fill="#fef3c7" opacity="0.9">
-    <animate attributeName="opacity" values="0.9;0.7;0.9" dur="5s" repeatCount="indefinite"/>
+  <circle cx="1350" cy="110" r="1" fill="white" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2.2s" repeatCount="indefinite"/>
   </circle>
   
-  <!-- Background mountains -->
-  <path d="M0,400 L0,250 Q200,150 400,220 Q600,290 800,200 Q1000,110 1200,180 Q1320,220 1440,190 L1440,400 Z" 
-        fill="url(#mountain3)" opacity="0.6"/>
+  <!-- Sun/Moon Glow -->
+  <circle cx="1100" cy="150" r="80" fill="url(#sunGradient)" opacity="0.5">
+    <animate attributeName="r" values="80;85;80" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.6;0.5" dur="6s" repeatCount="indefinite"/>
+  </circle>
   
-  <!-- Middle mountains -->
-  <path d="M0,400 L0,300 Q150,220 300,260 Q450,300 600,240 Q750,180 900,220 Q1050,260 1200,210 Q1320,240 1440,220 L1440,400 Z" 
-        fill="url(#mountain2)" opacity="0.8"/>
+  <!-- Far Mountains (Back Layer) -->
+  <path d="M0,450 L150,250 L300,400 L450,200 L600,380 L750,180 L900,400 L1050,220 L1200,420 L1350,280 L1440,450 L1440,600 L0,600 Z" 
+        fill="url(#mountainGradient3)"/>
   
-  <!-- Front mountains -->
-  <path d="M-50,400 L-50,320 Q100,280 250,310 Q400,340 550,290 Q700,240 850,280 Q1000,320 1150,270 Q1300,300 1450,280 L1450,400 Z" 
-        fill="url(#mountain3)"/>
+  <!-- Snow caps for far mountains -->
+  <path d="M150,250 L200,310 L250,290 L300,400 L150,250" fill="url(#snowGradient)" opacity="0.4"/>
+  <path d="M450,200 L500,270 L550,250 L600,380 L450,200" fill="url(#snowGradient)" opacity="0.4"/>
+  <path d="M750,180 L800,250 L850,230 L900,400 L750,180" fill="url(#snowGradient)" opacity="0.4"/>
+  <path d="M1050,220 L1100,290 L1150,270 L1200,420 L1050,220" fill="url(#snowGradient)" opacity="0.4"/>
+  <path d="M1350,280 L1400,340 L1440,320 L1440,450 L1350,280" fill="url(#snowGradient)" opacity="0.4"/>
   
-  <!-- Snow peaks -->
-  <path d="M250,310 L300,260 L350,310 Z" fill="white" opacity="0.9"/>
-  <path d="M550,290 L600,240 L650,290 Z" fill="white" opacity="0.9"/>
-  <path d="M850,280 L900,220 L950,280 Z" fill="white" opacity="0.9"/>
+  <!-- Mid Mountains -->
+  <path d="M0,500 L100,350 L250,480 L350,320 L500,460 L650,300 L800,480 L950,340 L1100,500 L1250,360 L1400,500 L1440,520 L1440,600 L0,600 Z" 
+        fill="url(#mountainGradient2)"/>
+  
+  <!-- Snow caps for mid mountains -->
+  <path d="M100,350 L140,400 L180,380 L250,480 L100,350" fill="url(#snowGradient)" opacity="0.5"/>
+  <path d="M350,320 L390,370 L430,350 L500,460 L350,320" fill="url(#snowGradient)" opacity="0.5"/>
+  <path d="M650,300 L690,350 L730,330 L800,480 L650,300" fill="url(#snowGradient)" opacity="0.5"/>
+  <path d="M950,340 L990,390 L1030,370 L1100,500 L950,340" fill="url(#snowGradient)" opacity="0.5"/>
+  <path d="M1250,360 L1290,410 L1330,390 L1400,500 L1250,360" fill="url(#snowGradient)" opacity="0.5"/>
+  
+  <!-- Near Mountains (Front Layer) -->
+  <path d="M-50,600 L100,420 L250,580 L400,400 L550,560 L700,380 L900,600 L1050,420 L1200,580 L1400,450 L1500,600 Z" 
+        fill="url(#mountainGradient1)"/>
+  
+  <!-- Snow caps for near mountains -->
+  <path d="M100,420 L150,480 L200,460 L250,580 L100,420" fill="url(#snowGradient)" opacity="0.7"/>
+  <path d="M400,400 L450,460 L500,440 L550,560 L400,400" fill="url(#snowGradient)" opacity="0.7"/>
+  <path d="M700,380 L750,440 L800,420 L900,600 L700,380" fill="url(#snowGradient)" opacity="0.7"/>
+  <path d="M1050,420 L1100,480 L1150,460 L1200,580 L1050,420" fill="url(#snowGradient)" opacity="0.7"/>
+  <path d="M1400,450 L1450,510 L1500,600 L1400,450" fill="url(#snowGradient)" opacity="0.7"/>
+  
+  <!-- Prayer flags (simplified) -->
+  <g opacity="0.6">
+    <line x1="1300" y1="580" x2="1380" y2="400" stroke="#fff" stroke-width="1" opacity="0.3"/>
+    <rect x="1350" y="420" width="15" height="10" fill="#dc2626" opacity="0.6"/>
+    <rect x="1365" y="415" width="15" height="10" fill="#2563eb" opacity="0.6"/>
+    <rect x="1380" y="410" width="15" height="10" fill="#fbbf24" opacity="0.6"/>
+    <rect x="1395" y="405" width="15" height="10" fill="#059669" opacity="0.6"/>
+  </g>
+  
+  <!-- Birds -->
+  <g opacity="0.4">
+    <path d="M800,150 Q810,140 820,150 Q810,155 800,150" fill="white">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 50,10; 100,0" dur="15s" repeatCount="indefinite"/>
+    </path>
+    <path d="M830,160 Q840,150 850,160 Q840,165 830,160" fill="white">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 50,10; 100,0" dur="15s" repeatCount="indefinite"/>
+    </path>
+    <path d="M780,180 Q790,170 800,180 Q790,185 780,180" fill="white">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 60,5; 120,0" dur="18s" repeatCount="indefinite"/>
+    </path>
+  </g>
 </svg>
