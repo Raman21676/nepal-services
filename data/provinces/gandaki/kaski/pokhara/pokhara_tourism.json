@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Tourism Board, Pokhara Tourism Council, Official Tourism Websites",
+    "data_collection_note": "All data collected from publicly available official tourism sources. Public tourist information only.",
+    "total_records": 12,
+    "note": "Tourist attractions and services in Pokhara"
+  },
+  "tourism": [
+    {
+      "id": 1,
+      "name": "Phewa Lake",
+      "type": "Tourist Attraction",
+      "category": "Natural",
+      "address": "Lakeside, Pokhara",
+      "description": "Second largest lake in Nepal, famous for boating and Tal Barahi Temple",
+      "activities": ["Boating", "Sightseeing", "Photography"],
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "World Peace Pagoda",
+      "type": "Tourist Attraction",
+      "category": "Religious/Monument",
+      "address": "Anadu Hill, Pokhara",
+      "description": "Buddhist stupa with panoramic views of Annapurna range and Phewa Lake",
+      "activities": ["Hiking", "Meditation", "Sightseeing"],
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Sarangkot",
+      "type": "Tourist Attraction",
+      "category": "Viewpoint",
+      "address": "Sarangkot, Pokhara",
+      "phone": ["061-465292"],
+      "description": "Famous sunrise viewpoint with Himalayan panorama and paragliding",
+      "activities": ["Paragliding", "Sunrise View", "Hiking"],
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Devi's Fall (Patale Chhango)",
+      "type": "Tourist Attraction",
+      "category": "Natural",
+      "address": "Siddhartha Highway, Pokhara",
+      "description": "Waterfall that flows into an underground tunnel",
+      "activities": ["Sightseeing", "Photography"],
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Gupteshwor Mahadev Cave",
+      "type": "Tourist Attraction",
+      "category": "Religious/Natural",
+      "address": "Near Devi's Fall, Pokhara",
+      "description": "Sacred cave with limestone formations and waterfall view",
+      "activities": ["Cave Exploration", "Religious Visit"],
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "International Mountain Museum",
+      "type": "Museum",
+      "category": "Cultural",
+      "address": "Ratopahiro, Pokhara",
+      "phone": ["061-460742"],
+      "description": "Museum dedicated to mountains, mountaineering and Himalayan culture",
+      "activities": ["Museum Visit", "Learning"],
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Bindhyabasini Temple",
+      "type": "Tourist Attraction",
+      "category": "Religious",
+      "address": "Bagar, Pokhara",
+      "description": "Ancient temple dedicated to Goddess Bhagwati",
+      "activities": ["Religious Visit", "Cultural Experience"],
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Seti River Gorge",
+      "type": "Tourist Attraction",
+      "category": "Natural",
+      "address": "Mahendrapool, Pokhara",
+      "description": "Deep gorge carved by Seti River with white water",
+      "activities": ["Sightseeing", "Photography"],
+      "district": "Kaski"
+    },
+    {
+      "id": 9,
+      "name": "Tal Barahi Temple",
+      "type": "Tourist Attraction",
+      "category": "Religious",
+      "address": "Phewa Lake (Island), Pokhara",
+      "description": "Two-story pagoda temple dedicated to Goddess Barahi",
+      "activities": ["Boating", "Religious Visit"],
+      "district": "Kaski"
+    },
+    {
+      "id": 10,
+      "name": "Davis Falls (Patale Chhango)",
+      "type": "Tourist Attraction",
+      "category": "Natural",
+      "address": "Nayabazar Road, Pokhara",
+      "description": "Famous waterfall named after a Swiss tourist",
+      "activities": ["Sightseeing"],
+      "district": "Kaski"
+    },
+    {
+      "id": 11,
+      "name": "Begnas Lake",
+      "type": "Tourist Attraction",
+      "category": "Natural",
+      "address": "Lekhnath, Pokhara",
+      "description": "Third largest lake in Nepal, popular for fishing and boating",
+      "activities": ["Boating", "Fishing", "Swimming"],
+      "district": "Kaski"
+    },
+    {
+      "id": 12,
+      "name": "Pokhara Airport",
+      "type": "Airport",
+      "category": "Transport",
+      "address": "Pokhara",
+      "phone": ["061-465292"],
+      "description": "Regional airport connecting to Kathmandu and Jomsom",
+      "district": "Kaski"
+    }
+  ]
+}

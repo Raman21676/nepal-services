@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Biratnagar Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Biratnagar"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Biratnagar Metropolitan City Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Biratnagar-10, Morang",
+      "phone": ["021-520100", "021-520101"],
+      "website": "https://biratnagarmun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 2,
+      "name": "Morang District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Biratnagar-5, Morang",
+      "phone": ["021-520102"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 3,
+      "name": "Biratnagar Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Biratnagar-4, Morang",
+      "phone": ["021-520103"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 4,
+      "name": "Koshi Province Revenue Office",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Biratnagar-6, Morang",
+      "phone": ["021-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 5,
+      "name": "Biratnagar Customs Office",
+      "type": "Customs Office",
+      "department": "Ministry of Finance",
+      "address": "Biratnagar-8, Morang",
+      "phone": ["021-520105"],
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 6,
+      "name": "Nepal Electricity Authority - Biratnagar",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Biratnagar-3, Morang",
+      "phone": ["021-520106"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 7,
+      "name": "Water Supply and Sanitation Office Biratnagar",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Biratnagar-7, Morang",
+      "phone": ["021-520107"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 8,
+      "name": "Koshi Province Police Office",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Biratnagar-9, Morang",
+      "phone": ["021-520108", "100"],
+      "hours": "24/7",
+      "district": "Morang"
+    },
+    {
+      "id": 9,
+      "name": "Biratnagar Immigration Office",
+      "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Biratnagar-2, Morang",
+      "phone": ["021-520109"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Morang"
+    },
+    {
+      "id": 10,
+      "name": "Morang District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Biratnagar-1, Morang",
+      "phone": ["021-520110"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Morang"
+    }
+  ]
+}

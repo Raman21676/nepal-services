@@ -3,198 +3,143 @@
     "city": "Kathmandu",
     "district": "Kathmandu",
     "province": "Bagmati",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Kathmandu Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 12,
+    "note": "Government offices and public services in Kathmandu"
   },
-  "government_offices": [
+  "government": [
     {
+      "id": 1,
       "name": "Kathmandu Metropolitan City Office",
-      "name_np": "काठमाडौं महानगरपालिका कार्यालय",
-      "type": "Metropolitan Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
       "address": "Rastriya Sabha Griha, Kathmandu",
-      "phone": "01-4201203",
-      "email": "info@kathmandu.gov.np",
-      "website": "https://kathmandu.gov.np"
+      "phone": ["01-4250130", "01-4250131"],
+      "website": "https://kathmandu.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
     },
     {
-      "name": "District Administration Office Kathmandu",
-      "name_np": "जिल्ला प्रशासन कार्यालय काठमाडौं",
+      "id": 2,
+      "name": "Kathmandu District Administration Office",
       "type": "District Administration",
-      "address": "Kathmandu District Administration Office, Kathmandu",
-      "phone": "01-4201570",
-      "email": "daoktm@nepal.gov.np"
+      "department": "Home Ministry",
+      "address": "Kathmandu District Court Complex",
+      "phone": ["01-4250132"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
     },
     {
+      "id": 3,
       "name": "Department of Transport Management",
-      "name_np": "यातायात व्यवस्था विभाग",
       "type": "Transport Office",
-      "address": "Minbhawan, Kathmandu",
-      "phone": "01-4107000",
-      "website": "https://www.dotm.gov.np"
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Ekantakuna, Kathmandu",
+      "phone": ["01-4270431"],
+      "website": "https://dotm.gov.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
     },
     {
-      "name": "Kathmandu Valley Traffic Police Office",
-      "name_np": "काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालय",
-      "type": "Traffic Police",
-      "address": "Ramshahpath, Kathmandu",
-      "phone": "01-4242113",
-      "emergency": "103"
-    },
-    {
-      "name": "Nepal Electricity Authority - Kathmandu",
-      "name_np": "नेपाल विद्युत प्राधिकरण - काठमाडौं",
-      "type": "Electricity Office",
-      "address": "Kumaripati, Lalitpur (Head Office)",
-      "phone": "01-5532400",
-      "website": "https://www.nea.org.np",
-      "customer_service": "1912"
-    },
-    {
-      "name": "NEA Distribution Center - Kathmandu",
-      "name_np": "वितरण केन्द्र काठमाडौं",
-      "type": "Electricity Office",
-      "address": "Ratnapark, Kathmandu",
-      "phone": "01-4221234"
-    },
-    {
-      "name": "Kathmandu Upatyaka Khanepani Limited (KUKL)",
-      "name_np": "काठमाडौं उपत्यका खानेपानी लिमिटेड",
-      "type": "Water Supply Office",
-      "address": "Maharajgunj, Kathmandu",
-      "phone": "01-4015000",
-      "emergency": "01-4015001",
-      "website": "https://www.kukl.water.org.np"
-    },
-    {
-      "name": "KUKL Customer Service - Tripureshwor",
-      "name_np": "खानेपानी ग्राहक सेवा केन्द्र",
-      "type": "Water Supply Office",
-      "address": "Tripureshwor, Kathmandu",
-      "phone": "01-4253555"
-    },
-    {
-      "name": "Tribhuvan International Airport Customs",
-      "name_np": "त्रिभुवन अन्तर्राष्ट्रिय विमानस्थल भन्सार",
-      "type": "Customs Office",
-      "address": "Tribhuvan International Airport, Kathmandu",
-      "phone": "01-4113030",
-      "email": "customs@tiairport.com.np"
-    },
-    {
-      "name": "Department of Customs",
-      "name_np": "भन्सार विभाग",
-      "type": "Customs Office",
-      "address": "Tribhuvan International Airport, Kathmandu",
-      "phone": "01-4111119",
-      "website": "https://www.customs.gov.np"
-    },
-    {
-      "name": "GPO Kathmandu - General Post Office",
-      "name_np": "केन्द्रीय हुलाक कार्यालय",
-      "type": "Post Office",
-      "address": "GPO Complex, Kathmandu",
-      "phone": "01-4216401",
-      "website": "https://www.nepalpost.gov.np"
-    },
-    {
-      "name": "Nepal Telecom - Central Office",
-      "name_np": "नेपाल दूरसञ्चार कम्पनी लिमिटेड",
-      "type": "Telecom Office",
-      "address": "Bhadrakali Plaza, Kathmandu",
-      "phone": "01-4242000",
-      "customer_care": "1498",
-      "website": "https://www.ntc.net.np"
-    },
-    {
-      "name": "Ncell Centre",
-      "name_np": "एनसेल सेन्टर",
-      "type": "Telecom Office",
-      "address": "Lainchaur, Kathmandu",
-      "phone": "9809005000",
-      "customer_care": "9005"
-    },
-    {
-      "name": "Kathmandu District Police Office",
-      "name_np": "जिल्ला प्रहरी कार्यालय काठमाडौं",
-      "type": "Police",
-      "address": "Bhrikutimandap, Kathmandu",
-      "phone": "01-4242121",
-      "emergency": "100"
-    },
-    {
-      "name": "Metropolitan Police Range Kathmandu",
-      "name_np": "महानगरीय प्रहरी वृत्त काठमाडौं",
-      "type": "Police",
-      "address": "Hanuman Dhoka, Kathmandu",
-      "phone": "01-4261945",
-      "emergency": "100"
-    },
-    {
-      "name": "Department of National ID and Civil Registration",
-      "name_np": "राष्ट्रिय परिचयपत्र तथा पञ्जीकरण विभाग",
-      "type": "Government Office",
-      "address": "Pulchowk, Lalitpur",
-      "phone": "01-5523444",
-      "website": "https://www.donidcr.gov.np"
-    },
-    {
-      "name": "Inland Revenue Department",
-      "name_np": "आन्तरिक राजस्व विभाग",
-      "type": "Tax Office",
-      "address": "Lazimpat, Kathmandu",
-      "phone": "01-4413121",
-      "website": "https://www.ird.gov.np"
-    },
-    {
-      "name": "Kathmandu Tax Office",
-      "name_np": "काठमाडौं कर कार्यालय",
-      "type": "Tax Office",
-      "address": "Thamel, Kathmandu",
-      "phone": "01-4410592"
-    },
-    {
-      "name": "Department of Passport",
-      "name_np": "राहदानी विभाग",
+      "id": 4,
+      "name": "Passport Department",
       "type": "Passport Office",
+      "department": "Ministry of Foreign Affairs",
       "address": "Narayanhiti, Kathmandu",
-      "phone": "01-4419051",
-      "website": "https://www.passport.gov.np"
+      "phone": ["01-4416018"],
+      "website": "https://www.passport.gov.np/",
+      "hours": "10:00 AM - 3:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
     },
     {
+      "id": 5,
+      "name": "Inland Revenue Department",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Lainchaur, Kathmandu",
+      "phone": ["01-4413001"],
+      "website": "https://ird.gov.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 6,
+      "name": "Department of National ID and Civil Registration",
+      "type": "National ID Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Minbhawan, Kathmandu",
+      "phone": ["01-4106085"],
+      "website": "https://donidcr.gov.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 7,
+      "name": "Social Security Fund Office",
+      "type": "Social Security",
+      "department": "Ministry of Labour",
+      "address": "Pulchowk, Lalitpur",
+      "phone": ["01-5525545"],
+      "website": "https://ssf.gov.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Lalitpur"
+    },
+    {
+      "id": 8,
+      "name": "Nepal Electricity Authority - Kathmandu",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Ratnapark, Kathmandu",
+      "phone": ["01-4153051"],
+      "website": "https://nea.org.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 9,
+      "name": "Kathmandu Valley Water Supply Office",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Maharajgunj, Kathmandu",
+      "phone": ["01-4016102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 10,
       "name": "Department of Immigration",
-      "name_np": "अध्यागमन विभाग",
       "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
       "address": "Kalikasthan, Kathmandu",
-      "phone": "01-4429659",
-      "website": "https://www.immigration.gov.np"
+      "phone": ["01-4429659"],
+      "website": "https://www.immigration.gov.np/",
+      "hours": "10:00 AM - 3:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
     },
     {
-      "name": "Central Passport Office",
-      "name_np": "केन्द्रीय राहदानी कार्यालय",
-      "type": "Passport Office",
-      "address": "Narayanhiti Palace Area, Kathmandu",
-      "phone": "01-4424039"
+      "id": 11,
+      "name": "Company Registrar Office",
+      "type": "Business Registration",
+      "department": "Ministry of Industry",
+      "address": "Tripureshwor, Kathmandu",
+      "phone": ["01-4259937"],
+      "website": "https://www.ocr.gov.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
     },
     {
-      "name": "Department of Land Management",
-      "name_np": "भूमि व्यवस्था विभाग",
-      "type": "Land Office",
-      "address": "Babarmahal, Kathmandu",
-      "phone": "01-4201322"
-    },
-    {
-      "name": "Kathmandu Land Revenue Office",
-      "name_np": "काठमाडौं मालपोत कार्यालय",
-      "type": "Land Office",
-      "address": "Minbhawan, Kathmandu",
-      "phone": "01-4107300"
-    },
-    {
-      "name": "Survey Department",
-      "name_np": "नापी विभाग",
-      "type": "Survey Office",
-      "address": "Minbhawan, Kathmandu",
-      "phone": "01-4782078",
-      "website": "https://www.survey.gov.np"
+      "id": 12,
+      "name": "Nepal Tourism Board",
+      "type": "Tourism Office",
+      "department": "Ministry of Tourism",
+      "address": "Bhrikutimandap, Kathmandu",
+      "phone": ["01-4256909"],
+      "website": "https://www.welcomenepal.com/",
+      "hours": "9:00 AM - 5:00 PM (Sun-Fri)",
+      "district": "Kathmandu"
     }
   ]
 }

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Department of Transport Management, Sajha Yatayan, Kathmandu Metropolitan City",
+    "data_collection_note": "All data collected from publicly available official sources. Public transportation information only.",
+    "total_records": 10,
+    "note": "Public transportation services in Kathmandu Valley"
+  },
+  "transport": [
+    {
+      "id": 1,
+      "name": "Tribhuvan International Airport",
+      "type": "Airport",
+      "address": "Kathmandu",
+      "phone": ["01-4113033"],
+      "website": "https://www.tiairport.com.np/",
+      "services": ["Domestic Flights", "International Flights"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "Gongabu Bus Park (New Bus Park)",
+      "type": "Bus Terminal",
+      "address": "Gongabu, Kathmandu",
+      "phone": ["01-4351792"],
+      "services": ["Long Distance Buses", "City Buses"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 3,
+      "name": "Ratnapark Bus Station",
+      "type": "Bus Terminal",
+      "address": "Ratnapark, Kathmandu",
+      "services": ["Local Buses", "Micro Buses", "Tempos"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 4,
+      "name": "Sajha Yatayan",
+      "type": "Public Bus Service",
+      "address": "Various Routes, Kathmandu Valley",
+      "phone": ["01-4258675"],
+      "website": "https://sajhayatayant.com/",
+      "services": ["Public Bus Routes across Kathmandu Valley"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 5,
+      "name": "Kathmandu Railway Station (Proposed)",
+      "type": "Railway",
+      "address": "Thali, Kathmandu",
+      "note": "Under construction - Nepal-India railway project",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 6,
+      "name": "Lagankhel Bus Station",
+      "type": "Bus Terminal",
+      "address": "Lagankhel, Lalitpur",
+      "services": ["Local Buses to Patan", "Godawari", "Lele"],
+      "district": "Lalitpur"
+    },
+    {
+      "id": 7,
+      "name": "Bhaktapur Bus Station",
+      "type": "Bus Terminal",
+      "address": "Bhaktapur",
+      "services": ["Buses to Kathmandu", "Nagarkot", "Dhulikhel"],
+      "district": "Bhaktapur"
+    },
+    {
+      "id": 8,
+      "name": "Tourist Bus Station",
+      "type": "Bus Terminal",
+      "address": "Kantipath, Kathmandu",
+      "services": ["Tourist Buses to Pokhara", "Chitwan", "Lumbini"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 9,
+      "name": "Kathmandu Metropolitan City Transport Office",
+      "type": "Transport Office",
+      "address": "Kathmandu Metropolitan City",
+      "phone": ["01-4250130"],
+      "services": ["Route Permits", "Vehicle Registration"],
+      "district": "Kathmandu"
+    },
+    {
+      "id": 10,
+      "name": "Green Tempo Stand",
+      "type": "Tempo Stand",
+      "address": "Various Locations, Kathmandu",
+      "services": ["Electric Tempos for local transport"],
+      "district": "Kathmandu"
+    }
+  ]
+}

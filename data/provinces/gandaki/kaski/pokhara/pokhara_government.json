@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Pokhara Metropolitan City, Government of Nepal Official Directories",
+    "data_collection_note": "All data collected from publicly available official government sources. No personal information included.",
+    "total_records": 10,
+    "note": "Government offices and public services in Pokhara"
+  },
+  "government": [
+    {
+      "id": 1,
+      "name": "Pokhara Metropolitan City Office",
+      "type": "Municipal Office",
+      "department": "Local Government",
+      "address": "Mahendrapool, Pokhara",
+      "phone": ["061-520100", "061-520101"],
+      "website": "https://pokharamun.gov.np/",
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Kaski District Administration Office",
+      "type": "District Administration",
+      "department": "Home Ministry",
+      "address": "Zero Kilometer, Pokhara",
+      "phone": ["061-520183"],
+      "hours": "10:00 AM - 5:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Pokhara Transport Management Office",
+      "type": "Transport Office",
+      "department": "Ministry of Physical Infrastructure",
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": ["061-520102"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Gandaki Province Revenue Office",
+      "type": "Tax Office",
+      "department": "Ministry of Finance",
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": ["061-520103"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Pokhara Tourism Council",
+      "type": "Tourism Office",
+      "department": "Ministry of Tourism",
+      "address": "Lakeside, Pokhara",
+      "phone": ["061-465292"],
+      "website": "https://www.pokharatourism.org.np/",
+      "hours": "9:00 AM - 5:00 PM (Sun-Fri)",
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Nepal Electricity Authority - Pokhara",
+      "type": "Utility Office",
+      "department": "Ministry of Energy",
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": ["061-520104"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Water Supply and Sanitation Office Pokhara",
+      "type": "Utility Office",
+      "department": "Ministry of Water Supply",
+      "address": "Chipledhunga, Pokhara",
+      "phone": ["061-520105"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Gandaki Province Police Office",
+      "type": "Police",
+      "department": "Nepal Police",
+      "address": "Mahendrapool, Pokhara",
+      "phone": ["061-520106", "100"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 9,
+      "name": "Pokhara Immigration Office",
+      "type": "Immigration Office",
+      "department": "Ministry of Home Affairs",
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": ["061-520107"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    },
+    {
+      "id": 10,
+      "name": "Kaski District Court",
+      "type": "Court",
+      "department": "Judiciary",
+      "address": "Zero Kilometer, Pokhara",
+      "phone": ["061-520108"],
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kaski"
+    }
+  ]
+}

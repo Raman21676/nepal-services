@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Nepal Rastra Bank, Official Bank Directories",
+    "data_collection_note": "All data collected from publicly available official sources. Only public branch contact information included.",
+    "total_records": 15,
+    "note": "Major banks and financial institutions in Kathmandu - Head Offices and Main Branches"
+  },
+  "banks": [
+    {
+      "id": 1,
+      "name": "Nepal Bank Limited - Head Office",
+      "type": "Commercial Bank",
+      "address": "Bhadrakali Plaza, Kathmandu",
+      "phone": ["01-4245415"],
+      "website": "https://www.nepalbank.com.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 2,
+      "name": "Rastriya Banijya Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Singh Durbar Plaza, Kathmandu",
+      "phone": ["01-4245612"],
+      "website": "https://www.rbb.com.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 3,
+      "name": "Nepal Investment Mega Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Durbar Marg, Kathmandu",
+      "phone": ["01-4228213"],
+      "website": "https://www.nimb.com.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 4,
+      "name": "Standard Chartered Bank Nepal - Head Office",
+      "type": "Commercial Bank",
+      "address": "P.O. Box 3990, Kathmandu",
+      "phone": ["01-4228023"],
+      "website": "https://www.sc.com/np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 5,
+      "name": "Himalayan Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Karmachari Sanchaya Kosh Building, Kathmandu",
+      "phone": ["01-4242111"],
+      "website": "https://www.himalayanbank.com/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 6,
+      "name": "Nepal SBI Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Hattisar, Kathmandu",
+      "phone": ["01-4253045"],
+      "website": "https://www.nepalsbi.com.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 7,
+      "name": "Everest Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Lazimpat, Kathmandu",
+      "phone": ["01-4421313"],
+      "website": "https://www.everestbankltd.com/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 8,
+      "name": "NIC Asia Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Thapathali, Kathmandu",
+      "phone": ["01-5111222"],
+      "website": "https://www.nicasiabank.com/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 9,
+      "name": "Agricultural Development Bank - Head Office",
+      "type": "Development Bank",
+      "address": "Ramshah Path, Kathmandu",
+      "phone": ["01-4245211"],
+      "website": "https://www.adbl.gov.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 10,
+      "name": "Nepal Rastra Bank - Central Office",
+      "type": "Central Bank",
+      "address": "Baluwatar, Kathmandu",
+      "phone": ["01-4411960"],
+      "website": "https://www.nrb.org.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 11,
+      "name": "Citizens Bank International - Head Office",
+      "type": "Commercial Bank",
+      "address": "Narayanhit Palace Complex, Kathmandu",
+      "phone": ["01-4422680"],
+      "website": "https://www.ctznbank.com/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 12,
+      "name": "Global IME Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Panipokhari, Kathmandu",
+      "phone": ["01-5970230"],
+      "website": "https://www.globalimebank.com/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 13,
+      "name": "Nabil Bank - Head Office",
+      "type": "Commercial Bank",
+      "address": "Beena Marg, Kathmandu",
+      "phone": ["01-4241455"],
+      "website": "https://www.nabilbank.com/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 14,
+      "name": "Nepal Telecom - Central Office",
+      "type": "Telecom",
+      "address": "Bhadrakali, Kathmandu",
+      "phone": ["01-4242400"],
+      "website": "https://www.ntc.net.np/",
+      "hours": "10:00 AM - 4:00 PM (Sun-Thu)",
+      "district": "Kathmandu"
+    },
+    {
+      "id": 15,
+      "name": "Ncell Centre",
+      "type": "Telecom",
+      "address": "Naxal, Kathmandu",
+      "phone": ["9809005000"],
+      "website": "https://www.ncell.axiata.com/",
+      "hours": "10:00 AM - 6:00 PM (Sun-Fri)",
+      "district": "Kathmandu"
+    }
+  ]
+}
