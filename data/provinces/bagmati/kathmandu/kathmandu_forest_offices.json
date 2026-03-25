@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "last_updated": "2026-03-25",
+    "source": "Department of Forests and Soil Conservation, Google Maps",
+    "total_records": 2
+  },
+  "forest_offices": [
+    {
+      "id": 1,
+      "name": "Division Forest Office Kathmandu",
+      "name_np": "डिभिजन वन कार्यालय काठमाण्डौ",
+      "type": "Division Forest Office",
+      "address": "Babarmahal, Kathmandu",
+      "phone": ["01-4544948"],
+      "website": "https://dofsc.gov.np",
+      "district": "Kathmandu",
+      "province": "Bagmati",
+      "services": ["Forest Management", "Timber Permits", "Community Forest Registration", "Wildlife Conservation"]
+    },
+    {
+      "id": 2,
+      "name": "Department of Forests and Soil Conservation",
+      "name_np": "वन तथा भू-संरक्षण विभाग",
+      "type": "Head Office",
+      "address": "Babarmahal, Kathmandu",
+      "phone": ["01-5327574", "01-5328096"],
+      "website": "https://dofsc.gov.np",
+      "district": "Kathmandu",
+      "province": "Bagmati",
+      "services": ["Policy Making", "Forest Conservation", "Soil Conservation", "Climate Change"]
+    }
+  ]
+}
