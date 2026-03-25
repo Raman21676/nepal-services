@@ -5,7 +5,7 @@
 
 const KOSHI_MANIFEST = [
     // Biratnagar (Morang)
-
+    { path: 'data/provinces/koshi/morang/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
     { path: 'data/provinces/koshi/morang/biratnagar_clinics.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'clinics' },
     { path: 'data/provinces/koshi/morang/biratnagar_pharmacies.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'pharmacies' },
     { path: 'data/provinces/koshi/morang/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
