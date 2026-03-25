@@ -251,7 +251,7 @@ class FilterManager {
             sortedDistricts.forEach(district => {
                 const option = document.createElement('option');
                 option.value = district;
-                option.textContent = this.capitalizeFirst(district);
+                option.textContent = this.translateDistrict(district);
                 districtFilter.appendChild(option);
             });
         }
@@ -327,7 +327,7 @@ class FilterManager {
         sortedDistricts.forEach(district => {
             const option = document.createElement('option');
             option.value = district;
-            option.textContent = this.capitalizeFirst(district);
+            option.textContent = this.translateDistrict(district);
             districtFilter.appendChild(option);
         });
         
@@ -369,6 +369,13 @@ class FilterManager {
     
     capitalizeFirst(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+    
+    translateDistrict(districtKey) {
+        if (typeof i18n !== 'undefined' && i18n.isLoaded) {
+            return i18n.t(`districts.${districtKey}`);
+        }
+        return this.capitalizeFirst(districtKey);
     }
     
     showToast(message, type = 'info') {

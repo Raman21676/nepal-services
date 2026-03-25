@@ -209,6 +209,7 @@ class I18n {
     updateDynamicContent() {
         // Update filter options
         this.updateSelectOptions('provinceFilter', 'provinces');
+        this.updateSelectOptions('districtFilter', 'districts');
         this.updateSelectOptions('categoryFilter', 'categories');
         this.updateSelectOptions('typeFilter', 'types');
         
