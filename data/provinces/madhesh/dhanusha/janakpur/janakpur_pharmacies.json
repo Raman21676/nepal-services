@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Pharmacies in Janakpur"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Janakpur Pharmacy",
+      "type": "Retail",
+      "address": "Janakpur Chowk, Dhanusha",
+      "phone": ["041-520111"],
+      "hours": "7:00 AM - 10:00 PM",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 2,
+      "name": "Janaki Medical College Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Janaki Medical College, Janakpur",
+      "phone": ["041-521234"],
+      "hours": "24/7",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 3,
+      "name": "Mithila Medical Store",
+      "type": "Retail",
+      "address": "Janakpur-4, Dhanusha",
+      "phone": ["041-520222"],
+      "hours": "7:30 AM - 9:00 PM",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Janakpur",
+      "type": "Retail",
+      "address": "Janakpur-6, Dhanusha",
+      "phone": ["041-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 5,
+      "name": "Janakpur Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Janakpur Provincial Hospital",
+      "phone": ["041-520111"],
+      "hours": "24/7",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 6,
+      "name": "City Pharmacy Janakpur",
+      "type": "Retail",
+      "address": "Janakpur-2, Dhanusha",
+      "phone": ["041-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 7,
+      "name": "Dhanusha Medical Store",
+      "type": "Retail",
+      "address": "Janakpur-8, Dhanusha",
+      "phone": ["041-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Dhanusha"
+    },
+    {
+      "id": 8,
+      "name": "24 Hour Medical Janakpur",
+      "type": "Retail",
+      "address": "Janakpur Bus Stand, Dhanusha",
+      "phone": ["041-520666"],
+      "hours": "24/7",
+      "district": "Dhanusha"
+    }
+  ]
+}

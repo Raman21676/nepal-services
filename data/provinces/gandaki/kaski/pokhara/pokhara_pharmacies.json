@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 12,
+    "note": "Pharmacies in Pokhara"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Pokhara Pharmacy",
+      "type": "Retail",
+      "address": "Chipledhunga, Pokhara",
+      "phone": ["061-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Manipal Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Manipal Teaching Hospital, Pokhara",
+      "phone": ["061-526416"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Lake City Pharmacy",
+      "type": "Retail",
+      "address": "Lakeside, Pokhara",
+      "phone": ["061-520222"],
+      "hours": "8:00 AM - 10:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Fishtail Medical Store",
+      "type": "Retail",
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": ["061-520333"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Gandaki Pharmacy",
+      "type": "Retail",
+      "address": "Mahendrapool, Pokhara",
+      "phone": ["061-520444"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Himalayan Drug House",
+      "type": "Retail",
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": ["061-520555"],
+      "hours": "7:00 AM - 8:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Annapurna Pharmacy",
+      "type": "Retail",
+      "address": "New Road, Pokhara",
+      "phone": ["061-520666"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Charak Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Charak Memorial Hospital, Pokhara",
+      "phone": ["061-520866"],
+      "hours": "24/7",
+      "district": "Kaski"
+    },
+    {
+      "id": 9,
+      "name": "Mountain Medical Store",
+      "type": "Retail",
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-520777"],
+      "hours": "7:30 AM - 7:30 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 10,
+      "name": "City Pharmacy Pokhara",
+      "type": "Retail",
+      "address": "Nayabazar, Pokhara",
+      "phone": ["061-520888"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 11,
+      "name": "Health Care Pharmacy",
+      "type": "Retail",
+      "address": "Bagar, Pokhara",
+      "phone": ["061-520999"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 12,
+      "name": "PAHS Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Pokhara Academy of Health Sciences",
+      "phone": ["061-460866"],
+      "hours": "24/7",
+      "district": "Kaski"
+    }
+  ]
+}

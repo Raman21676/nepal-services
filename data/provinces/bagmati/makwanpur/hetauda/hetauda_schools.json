@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Hetauda",
+    "district": "Makwanpur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Bagmati Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Hetauda"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Hetauda School of Management",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Management, Science)",
+      "address": "Hetauda-4, Makwanpur",
+      "phone": ["057-520100"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 2,
+      "name": "Shree Hetauda Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Hetauda-5, Makwanpur",
+      "phone": ["057-521111"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 3,
+      "name": "Hetauda Academy",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Hetauda-3, Makwanpur",
+      "phone": ["057-522222"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 4,
+      "name": "Makwanpur Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Hetauda-6, Makwanpur",
+      "phone": ["057-523333"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 5,
+      "name": "Chure Hill Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Hetauda-2, Makwanpur",
+      "phone": ["057-524444"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 6,
+      "name": "Hetauda City College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Hetauda-7, Makwanpur",
+      "phone": ["057-525555"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 7,
+      "name": "Little Angels School Hetauda",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Hetauda-1, Makwanpur",
+      "phone": ["057-526666"],
+      "district": "Makwanpur"
+    },
+    {
+      "id": 8,
+      "name": "Hetauda Nursing School",
+      "type": "Private",
+      "level": "Vocational",
+      "programs": ["PCL Nursing", "Staff Nurse"],
+      "address": "Hetauda-8, Makwanpur",
+      "phone": ["057-527777"],
+      "district": "Makwanpur"
+    }
+  ]
+}

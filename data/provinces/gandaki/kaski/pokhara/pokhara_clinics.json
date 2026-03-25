@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Clinics and specialized medical centers in Pokhara"
+  },
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Pokhara Dental Clinic",
+      "type": "Dental",
+      "services": ["Dental Checkup", "Root Canal", "Teeth Whitening", "Orthodontics"],
+      "address": "Chipledhunga, Pokhara",
+      "phone": ["061-520111"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Lake City Physiotherapy Center",
+      "type": "Physiotherapy",
+      "services": ["Physiotherapy", "Rehabilitation", "Pain Management"],
+      "address": "Lakeside, Pokhara",
+      "phone": ["061-520222"],
+      "hours": "8:00 AM - 7:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Pokhara Eye Care Center",
+      "type": "Eye Care",
+      "services": ["Eye Checkup", "Cataract Screening", "Spectacles"],
+      "address": "Mahendrapool, Pokhara",
+      "phone": ["061-520333"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Gandaki Diagnostic Center",
+      "type": "Diagnostic",
+      "services": ["Blood Tests", "X-Ray", "Ultrasound", "ECG"],
+      "address": "Prithvi Chowk, Pokhara",
+      "phone": ["061-520444"],
+      "hours": "6:00 AM - 8:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Pokhara Skin Care Clinic",
+      "type": "Dermatology",
+      "services": ["Skin Treatment", "Cosmetology", "Laser Treatment"],
+      "address": "New Road, Pokhara",
+      "phone": ["061-520555"],
+      "hours": "10:00 AM - 6:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Himalaya Heart Clinic",
+      "type": "Cardiology",
+      "services": ["Heart Checkup", "ECG", "Echo", "Blood Pressure"],
+      "address": "Sabhagriha Chowk, Pokhara",
+      "phone": ["061-520666"],
+      "hours": "9:00 AM - 5:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Pokhara Women's Health Clinic",
+      "type": "Gynecology",
+      "services": ["Women's Health", "Pregnancy Care", "Family Planning"],
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-520777"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Children's Clinic Pokhara",
+      "type": "Pediatrics",
+      "services": ["Child Health", "Vaccination", "Growth Monitoring"],
+      "address": "Bagar, Pokhara",
+      "phone": ["061-520888"],
+      "hours": "9:00 AM - 5:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 9,
+      "name": "Pokhara Orthopedic Clinic",
+      "type": "Orthopedics",
+      "services": ["Bone & Joint Care", "Fracture Treatment", "Physiotherapy"],
+      "address": "Nayabazar, Pokhara",
+      "phone": ["061-520999"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Kaski"
+    },
+    {
+      "id": 10,
+      "name": "Pokhara Homeopathy Clinic",
+      "type": "Homeopathy",
+      "services": ["Homeopathic Treatment", "Chronic Disease"],
+      "address": "Shrijana Chowk, Pokhara",
+      "phone": ["061-521000"],
+      "hours": "10:00 AM - 6:00 PM",
+      "district": "Kaski"
+    }
+  ]
+}

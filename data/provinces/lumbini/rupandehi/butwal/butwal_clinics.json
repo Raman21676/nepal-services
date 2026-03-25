@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Clinics and specialized medical centers in Butwal"
+  },
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Butwal Dental Care Center",
+      "type": "Dental",
+      "services": ["Dental Checkup", "Root Canal", "Orthodontics", "Teeth Cleaning"],
+      "address": "Traffic Chowk, Butwal",
+      "phone": ["071-520100"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 2,
+      "name": "Lumbini Diagnostic Center",
+      "type": "Diagnostic",
+      "services": ["Blood Tests", "X-Ray", "Ultrasound", "ECG", "CT Scan"],
+      "address": "Milanchowk, Butwal",
+      "phone": ["071-520200"],
+      "hours": "6:00 AM - 8:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
+      "name": "Butwal Eye Care Clinic",
+      "type": "Eye Care",
+      "services": ["Eye Checkup", "Cataract Screening", "Spectacles", "Contact Lens"],
+      "address": "Rajamarga, Butwal",
+      "phone": ["071-520300"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 4,
+      "name": "Siddhartha Physiotherapy Center",
+      "type": "Physiotherapy",
+      "services": ["Physiotherapy", "Rehabilitation", "Sports Injury", "Pain Management"],
+      "address": "Sukhanagar, Butwal",
+      "phone": ["071-520400"],
+      "hours": "8:00 AM - 7:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 5,
+      "name": "Butwal Women's Clinic",
+      "type": "Gynecology",
+      "services": ["Women's Health", "Pregnancy Care", "Family Planning", "Gynecological Checkup"],
+      "address": "Devinagar, Butwal",
+      "phone": ["071-520500"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 6,
+      "name": "Butwal Children's Clinic",
+      "type": "Pediatrics",
+      "services": ["Child Health", "Vaccination", "Growth Monitoring", "Pediatric Consultation"],
+      "address": "Golpark, Butwal",
+      "phone": ["071-520600"],
+      "hours": "9:00 AM - 5:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "Lumbini Heart Clinic",
+      "type": "Cardiology",
+      "services": ["Heart Checkup", "ECG", "Echo", "Blood Pressure Management"],
+      "address": "Pushpalal Chowk, Butwal",
+      "phone": ["071-520700"],
+      "hours": "9:00 AM - 5:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "Butwal Orthopedic Clinic",
+      "type": "Orthopedics",
+      "services": ["Bone & Joint Care", "Fracture Treatment", "Arthritis Treatment"],
+      "address": "Kalikanagar, Butwal",
+      "phone": ["071-520800"],
+      "hours": "9:00 AM - 6:00 PM",
+      "district": "Rupandehi"
+    }
+  ]
+}

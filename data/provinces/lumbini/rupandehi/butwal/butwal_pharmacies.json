@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "city": "Butwal",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Pharmacies in Butwal"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Butwal Pharmacy",
+      "type": "Retail",
+      "address": "Traffic Chowk, Butwal",
+      "phone": ["071-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 2,
+      "name": "Lumbini Medical College Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Lumbini Medical College, Butwal",
+      "phone": ["071-540200"],
+      "hours": "24/7",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
+      "name": "Manipal Pharmacy Butwal",
+      "type": "Hospital Pharmacy",
+      "address": "Manipal Hospital, Butwal",
+      "phone": ["071-547777"],
+      "hours": "24/7",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 4,
+      "name": "City Medical Store Butwal",
+      "type": "Retail",
+      "address": "Milanchowk, Butwal",
+      "phone": ["071-520222"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Pharmacy Butwal",
+      "type": "Retail",
+      "address": "Rajamarga, Butwal",
+      "phone": ["071-520333"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 6,
+      "name": "Gautam Buddha Pharmacy",
+      "type": "Retail",
+      "address": "Sukhanagar, Butwal",
+      "phone": ["071-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "Devinagar Medical Store",
+      "type": "Retail",
+      "address": "Devinagar, Butwal",
+      "phone": ["071-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "Golpark Pharmacy",
+      "type": "Retail",
+      "address": "Golpark, Butwal",
+      "phone": ["071-520666"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 9,
+      "name": "Lumbini City Pharmacy",
+      "type": "Retail",
+      "address": "Pushpalal Chowk, Butwal",
+      "phone": ["071-520777"],
+      "hours": "7:30 AM - 8:00 PM",
+      "district": "Rupandehi"
+    },
+    {
+      "id": 10,
+      "name": "24 Hour Medical Butwal",
+      "type": "Retail",
+      "address": "Butwal Bus Park, Rupandehi",
+      "phone": ["071-520888"],
+      "hours": "24/7",
+      "district": "Rupandehi"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "city": "Birgunj",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Health Directorate",
+    "total_records": 10,
+    "note": "Pharmacies in Birgunj"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Birgunj Pharmacy",
+      "type": "Retail",
+      "address": "Adarshanagar, Birgunj",
+      "phone": ["051-520111"],
+      "hours": "7:00 AM - 10:00 PM",
+      "district": "Parsa"
+    },
+    {
+      "id": 2,
+      "name": "National Medical College Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "National Medical College, Birgunj",
+      "phone": ["051-521992"],
+      "hours": "24/7",
+      "district": "Parsa"
+    },
+    {
+      "id": 3,
+      "name": "Narayani Pharmacy",
+      "type": "Retail",
+      "address": "Narayani Hospital Road, Birgunj",
+      "phone": ["051-520222"],
+      "hours": "7:30 AM - 9:00 PM",
+      "district": "Parsa"
+    },
+    {
+      "id": 4,
+      "name": "Ghodghas Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Ghodghas Hospital, Birgunj",
+      "phone": ["051-524455"],
+      "hours": "24/7",
+      "district": "Parsa"
+    },
+    {
+      "id": 5,
+      "name": "Life Care Pharmacy Birgunj",
+      "type": "Retail",
+      "address": "Ghantaghar, Birgunj",
+      "phone": ["051-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Parsa"
+    },
+    {
+      "id": 6,
+      "name": "Birgunj Medical Store",
+      "type": "Retail",
+      "address": "Maisthan, Birgunj",
+      "phone": ["051-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Parsa"
+    },
+    {
+      "id": 7,
+      "name": "Kedia Eye Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Kedia Eye Hospital, Birgunj",
+      "phone": ["051-522400"],
+      "hours": "24/7",
+      "district": "Parsa"
+    },
+    {
+      "id": 8,
+      "name": "City Pharmacy Birgunj",
+      "type": "Retail",
+      "address": "Jitpur, Birgunj",
+      "phone": ["051-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Parsa"
+    },
+    {
+      "id": 9,
+      "name": "Parsa Medical Store",
+      "type": "Retail",
+      "address": "Birgunj-4, Parsa",
+      "phone": ["051-520666"],
+      "hours": "7:30 AM - 8:00 PM",
+      "district": "Parsa"
+    },
+    {
+      "id": 10,
+      "name": "Health Point Pharmacy",
+      "type": "Retail",
+      "address": "Birgunj-8, Parsa",
+      "phone": ["051-520777"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Parsa"
+    }
+  ]
+}

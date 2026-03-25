@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Gandaki Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Colleges and higher education institutions in Pokhara"
+  },
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Prithvi Narayan Campus",
+      "type": "Government",
+      "affiliation": "Tribhuvan University",
+      "programs": ["BA", "BSc", "BCom", "BBA", "BEd", "MA", "MSc", "MCom"],
+      "address": "Bagar, Pokhara",
+      "phone": ["061-520142"],
+      "district": "Kaski"
+    },
+    {
+      "id": 2,
+      "name": "Institute of Engineering, Western Region Campus",
+      "type": "Government",
+      "affiliation": "TU - Institute of Engineering",
+      "programs": ["BE Civil", "BE Computer", "BE Electronics & Communication", "BE Electrical"],
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-520142"],
+      "district": "Kaski"
+    },
+    {
+      "id": 3,
+      "name": "Pokhara University",
+      "type": "Government",
+      "programs": ["BBA", "BCA", "BPharm", "BPH", "BE", "MBS", "MCA", "MSc"],
+      "address": "Kaski, Pokhara",
+      "phone": ["061-560621"],
+      "website": "https://pokharauniversity.edu.np/",
+      "district": "Kaski"
+    },
+    {
+      "id": 4,
+      "name": "Manipal College of Medical Sciences",
+      "type": "Private",
+      "affiliation": "KU",
+      "programs": ["MBBS", "BSc Nursing", "BPharm"],
+      "address": "Phulbari, Pokhara",
+      "phone": ["061-526416"],
+      "district": "Kaski"
+    },
+    {
+      "id": 5,
+      "name": "Nobel College Pokhara",
+      "type": "Private",
+      "affiliation": "TU",
+      "programs": ["BSc CSIT", "BBA", "BBS"],
+      "address": "Bijaypur, Pokhara",
+      "phone": ["061-520111"],
+      "district": "Kaski"
+    },
+    {
+      "id": 6,
+      "name": "Crimson College of Technology",
+      "type": "Private",
+      "affiliation": "TU",
+      "programs": ["BHM", "BBA", "BBS"],
+      "address": "Sital Devi, Pokhara",
+      "phone": ["061-550200"],
+      "district": "Kaski"
+    },
+    {
+      "id": 7,
+      "name": "Pokhara Nursing Campus",
+      "type": "Government",
+      "affiliation": "TU",
+      "programs": ["PCL Nursing", "BN", "BSc Nursing"],
+      "address": "Ramghat, Pokhara",
+      "phone": ["061-520143"],
+      "district": "Kaski"
+    },
+    {
+      "id": 8,
+      "name": "Gandaki College of Engineering and Science",
+      "type": "Private",
+      "affiliation": "TU",
+      "programs": ["BSc CSIT", "BE Civil", "BE Computer"],
+      "address": "Lamachour, Pokhara",
+      "phone": ["061-520144"],
+      "district": "Kaski"
+    }
+  ]
+}

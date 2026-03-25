@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "city": "Dharan",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Health Directorate",
+    "total_records": 8,
+    "note": "Pharmacies in Dharan"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Dharan Pharmacy",
+      "type": "Retail",
+      "address": "Bhanu Chowk, Dharan",
+      "phone": ["025-520111"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Sunsari"
+    },
+    {
+      "id": 2,
+      "name": "BPKIHS Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "BP Koirala Institute, Dharan",
+      "phone": ["025-525555"],
+      "hours": "24/7",
+      "district": "Sunsari"
+    },
+    {
+      "id": 3,
+      "name": "Dharan Medical Store",
+      "type": "Retail",
+      "address": "Pindeshwor Chowk, Dharan",
+      "phone": ["025-520222"],
+      "hours": "7:30 AM - 8:30 PM",
+      "district": "Sunsari"
+    },
+    {
+      "id": 4,
+      "name": "Life Care Pharmacy Dharan",
+      "type": "Retail",
+      "address": "Charali, Dharan",
+      "phone": ["025-520333"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Sunsari"
+    },
+    {
+      "id": 5,
+      "name": "City Pharmacy Dharan",
+      "type": "Retail",
+      "address": "Yalambar Chowk, Dharan",
+      "phone": ["025-520444"],
+      "hours": "8:00 AM - 8:00 PM",
+      "district": "Sunsari"
+    },
+    {
+      "id": 6,
+      "name": "Himalayan Drug House Dharan",
+      "type": "Retail",
+      "address": "Siddhartha Chowk, Dharan",
+      "phone": ["025-520555"],
+      "hours": "7:00 AM - 9:00 PM",
+      "district": "Sunsari"
+    },
+    {
+      "id": 7,
+      "name": "Dharan Hospital Pharmacy",
+      "type": "Hospital Pharmacy",
+      "address": "Dharan Hospital, Sunsari",
+      "phone": ["025-520181"],
+      "hours": "24/7",
+      "district": "Sunsari"
+    },
+    {
+      "id": 8,
+      "name": "Sunsari Medical Store",
+      "type": "Retail",
+      "address": "Dharan-8, Sunsari",
+      "phone": ["025-520666"],
+      "hours": "7:30 AM - 8:00 PM",
+      "district": "Sunsari"
+    }
+  ]
+}

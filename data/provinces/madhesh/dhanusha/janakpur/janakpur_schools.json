@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "city": "Janakpur",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Madhesh Provincial Education Directorate",
+    "total_records": 10,
+    "note": "Major schools and colleges in Janakpur"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Janakpur Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Janakpur-5, Dhanusha",
+      "phone": ["041-520100"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 2,
+      "name": "Mithila Regional College",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Janakpur-7, Dhanusha",
+      "phone": ["041-521111"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 3,
+      "name": "Ramswaroop Ramsagar Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "MA", "MSc"],
+      "address": "Janakpur-10, Dhanusha",
+      "phone": ["041-522222"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 4,
+      "name": "Janakpur Higher Secondary School",
+      "type": "Government",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Janakpur-3, Dhanusha",
+      "phone": ["041-523333"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 5,
+      "name": "Mahendra Morang Model School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Janakpur-4, Dhanusha",
+      "phone": ["041-524444"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 6,
+      "name": "Mithila International School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National + English Medium",
+      "address": "Janakpur-6, Dhanusha",
+      "phone": ["041-525555"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 7,
+      "name": "Janaki Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Janakpur-8, Dhanusha",
+      "phone": ["041-526666"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 8,
+      "name": "Sita Modern School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Janakpur-2, Dhanusha",
+      "phone": ["041-527777"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 9,
+      "name": "Janakpur Nursing College",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BN", "BSc Nursing", "PCL Nursing"],
+      "address": "Janakpur-9, Dhanusha",
+      "phone": ["041-528888"],
+      "district": "Dhanusha"
+    },
+    {
+      "id": 10,
+      "name": "Balmiki College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Janakpur-1, Dhanusha",
+      "phone": ["041-529999"],
+      "district": "Dhanusha"
+    }
+  ]
+}

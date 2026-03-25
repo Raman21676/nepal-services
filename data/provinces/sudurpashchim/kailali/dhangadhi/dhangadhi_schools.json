@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Dhangadhi",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Sudurpashchim Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Dhangadhi"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Dhangadhi Model Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Dhangadhi-5, Kailali",
+      "phone": ["091-520100"],
+      "district": "Kailali"
+    },
+    {
+      "id": 2,
+      "name": "Kailali College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Dhangadhi-4, Kailali",
+      "phone": ["091-521111"],
+      "district": "Kailali"
+    },
+    {
+      "id": 3,
+      "name": "Dhangadhi Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Dhangadhi-6, Kailali",
+      "phone": ["091-522222"],
+      "district": "Kailali"
+    },
+    {
+      "id": 4,
+      "name": "Shree Seti Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Dhangadhi-3, Kailali",
+      "phone": ["091-523333"],
+      "district": "Kailali"
+    },
+    {
+      "id": 5,
+      "name": "Dhangadhi Academy",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Dhangadhi-7, Kailali",
+      "phone": ["091-524444"],
+      "district": "Kailali"
+    },
+    {
+      "id": 6,
+      "name": "Far Western College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Dhangadhi-2, Kailali",
+      "phone": ["091-525555"],
+      "district": "Kailali"
+    },
+    {
+      "id": 7,
+      "name": "Sudur Academy",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Dhangadhi-8, Kailali",
+      "phone": ["091-526666"],
+      "district": "Kailali"
+    },
+    {
+      "id": 8,
+      "name": "Dhangadhi Nursing School",
+      "type": "Private",
+      "level": "Vocational",
+      "programs": ["PCL Nursing", "Staff Nurse"],
+      "address": "Dhangadhi-1, Kailali",
+      "phone": ["091-527777"],
+      "district": "Kailali"
+    }
+  ]
+}

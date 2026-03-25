@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "city": "Biratnagar",
+    "district": "Morang",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Education Directorate",
+    "total_records": 10,
+    "note": "Major schools and colleges in Biratnagar"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Biratnagar Police School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-9, Morang",
+      "phone": ["021-520111"],
+      "district": "Morang"
+    },
+    {
+      "id": 2,
+      "name": "Koshi St. James School",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management, Humanities)",
+      "address": "Biratnagar-10, Morang",
+      "phone": ["021-521234"],
+      "district": "Morang"
+    },
+    {
+      "id": 3,
+      "name": "Nobel Academy",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Biratnagar-4, Morang",
+      "phone": ["021-522345"],
+      "district": "Morang"
+    },
+    {
+      "id": 4,
+      "name": "Biratnagar Royal School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-6, Morang",
+      "phone": ["021-523456"],
+      "district": "Morang"
+    },
+    {
+      "id": 5,
+      "name": "Shree Janta Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-2, Morang",
+      "phone": ["021-524567"],
+      "district": "Morang"
+    },
+    {
+      "id": 6,
+      "name": "Mahendra Morang College",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Biratnagar-11, Morang",
+      "phone": ["021-525678"],
+      "district": "Morang"
+    },
+    {
+      "id": 7,
+      "name": "Biratnagar Nursing Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BN", "BSc Nursing"],
+      "address": "Biratnagar-8, Morang",
+      "phone": ["021-526789"],
+      "district": "Morang"
+    },
+    {
+      "id": 8,
+      "name": "Himalayan Whitehouse College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Biratnagar-5, Morang",
+      "phone": ["021-527890"],
+      "district": "Morang"
+    },
+    {
+      "id": 9,
+      "name": "Koshi Vidhya Mandir",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-7, Morang",
+      "phone": ["021-528901"],
+      "district": "Morang"
+    },
+    {
+      "id": 10,
+      "name": "Little Flower School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Biratnagar-3, Morang",
+      "phone": ["021-529012"],
+      "district": "Morang"
+    }
+  ]
+}

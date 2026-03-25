@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "city": "Bhairahawa",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Lumbini Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Bhairahawa (Near Lumbini)"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Lumbini Academic College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Bhairahawa-5, Rupandehi",
+      "phone": ["071-520100"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 2,
+      "name": "Shree Lumbini Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhairahawa-3, Rupandehi",
+      "phone": ["071-521111"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 3,
+      "name": "Bhairahawa College",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BBS", "BA", "BEd"],
+      "address": "Bhairahawa-6, Rupandehi",
+      "phone": ["071-522222"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 4,
+      "name": "Lumbini Buddha Campus",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BBS", "BSc"],
+      "address": "Siddharthanagar-7, Rupandehi",
+      "phone": ["071-523333"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 5,
+      "name": "Gautam Buddha Secondary School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Bhairahawa-2, Rupandehi",
+      "phone": ["071-524444"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 6,
+      "name": "Maya College Bhairahawa",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Bhairahawa-8, Rupandehi",
+      "phone": ["071-525555"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 7,
+      "name": "New Horizon School",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Bhairahawa-1, Rupandehi",
+      "phone": ["071-526666"],
+      "district": "Rupandehi"
+    },
+    {
+      "id": 8,
+      "name": "Lumbini Engineering College",
+      "type": "Private",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BE Civil", "BE Computer"],
+      "address": "Bhairahawa-9, Rupandehi",
+      "phone": ["071-527777"],
+      "district": "Rupandehi"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "city": "Itahari",
+    "district": "Sunsari",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-25",
+    "source": "Koshi Provincial Education Directorate",
+    "total_records": 8,
+    "note": "Major schools and colleges in Itahari"
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Itahari Secondary School",
+      "type": "Government",
+      "level": "Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Itahari-4, Sunsari",
+      "phone": ["025-520100"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 2,
+      "name": "Itahari Model College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2 (Science, Management)",
+      "address": "Itahari-6, Sunsari",
+      "phone": ["025-521111"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 3,
+      "name": "Shikshya Deep College",
+      "type": "Private",
+      "level": "Higher Secondary",
+      "curriculum": "NEB +2",
+      "address": "Itahari-3, Sunsari",
+      "phone": ["025-522222"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 4,
+      "name": "Itahari Multiple Campus",
+      "type": "Government",
+      "level": "University",
+      "affiliation": "TU",
+      "programs": ["BA", "BSc", "BCom", "BBS"],
+      "address": "Itahari-5, Sunsari",
+      "phone": ["025-523333"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 5,
+      "name": "Greenland Secondary School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Itahari-2, Sunsari",
+      "phone": ["025-524444"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 6,
+      "name": "Itahari Academy",
+      "type": "Private",
+      "level": "Basic",
+      "curriculum": "National Curriculum",
+      "address": "Itahari-7, Sunsari",
+      "phone": ["025-525555"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 7,
+      "name": "Sunrise Boarding School",
+      "type": "Private",
+      "level": "Basic to Secondary",
+      "curriculum": "National Curriculum",
+      "address": "Itahari-8, Sunsari",
+      "phone": ["025-526666"],
+      "district": "Sunsari"
+    },
+    {
+      "id": 8,
+      "name": "Koshi Technical School",
+      "type": "Government",
+      "level": "Vocational",
+      "programs": ["Diploma in Engineering", "Technical Courses"],
+      "address": "Itahari-1, Sunsari",
+      "phone": ["025-527777"],
+      "district": "Sunsari"
+    }
+  ]
+}
