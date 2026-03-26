@@ -1,5 +1,5 @@
-# Nepal Services Directory - Robots.txt
-# Comprehensive crawling instructions for all search engines
+# Nepal Services Directory - Comprehensive Robots.txt
+# Optimized for ALL search engines - 500+ URLs indexed
 
 # ============================================
 # ALLOW ALL MAJOR SEARCH ENGINES
@@ -8,14 +8,29 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.xml
+Allow: /sitemap-index.xml
 Allow: /sitemap-extended.xml
+Allow: /sitemap-search-queries.xml
+Allow: /sitemap-schools.xml
+Allow: /sitemap-emergency.xml
 Allow: /humans.txt
+Allow: /.well-known/
+Allow: /icons/
+Allow: /images/
+Allow: /js/
+Allow: /data/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.json$
+Allow: /*.svg$
+Allow: /*.png$
+Allow: /*.jpg$
 
 # Crawl rate optimization
 Crawl-delay: 1
 
 # ============================================
-# GOOGLE SPECIFIC
+# GOOGLE BOT FAMILY
 # ============================================
 
 User-agent: Googlebot
@@ -25,6 +40,7 @@ Allow: /*.css$
 Allow: /*.png$
 Allow: /*.jpg$
 Allow: /*.svg$
+Allow: /*.json$
 Crawl-delay: 0.5
 
 User-agent: Googlebot-Image
@@ -33,9 +49,12 @@ Allow: /icons/
 Allow: /*.png$
 Allow: /*.jpg$
 Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.gif$
 
 User-agent: Googlebot-News
 Allow: /
+Crawl-delay: 0.5
 
 User-agent: Googlebot-Video
 Allow: /
@@ -43,8 +62,14 @@ Allow: /
 User-agent: Mediapartners-Google
 Allow: /
 
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: APIs-Google
+Allow: /
+
 # ============================================
-# BING SPECIFIC
+# BING BOT FAMILY
 # ============================================
 
 User-agent: Bingbot
@@ -55,11 +80,17 @@ User-agent: MSNBot
 Allow: /
 Crawl-delay: 1
 
+User-agent: MSNBot-Media
+Allow: /
+
 User-agent: BingPreview
 Allow: /
 
+User-agent: AdIdxBot
+Allow: /
+
 # ============================================
-# YAHOO / DUCKDUCKGO
+# YAHOO / DUCKDUCKGO / OTHER US SEARCH
 # ============================================
 
 User-agent: Slurp
@@ -73,21 +104,26 @@ Crawl-delay: 1
 User-agent: DuckDuckGo-Favicons-Bot
 Allow: /
 
-# ============================================
-# OTHER MAJOR SEARCH ENGINES
-# ============================================
-
 User-agent: Baiduspider
 Allow: /
 Crawl-delay: 2
+
+User-agent: Baiduspider-image
+Allow: /images/
 
 User-agent: YandexBot
 Allow: /
 Crawl-delay: 2
 
-User-agent: Sogou
+User-agent: YandexImages
+Allow: /images/
+
+User-agent: Sogou web spider
 Allow: /
 Crawl-delay: 2
+
+User-agent: Sogou inst spider
+Allow: /
 
 User-agent: Exabot
 Allow: /
@@ -124,17 +160,44 @@ Allow: /
 User-agent: Pinterestbot
 Allow: /
 
+User-agent: Redditbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: SkypeUriPreview
+Allow: /
+
+User-agent: Snapchat
+Allow: /
+
+User-agent: Instagram
+Allow: /
+
 # ============================================
-# SEO TOOLS
+# SEO TOOLS & ANALYTICS
 # ============================================
 
 User-agent: AhrefsBot
 Allow: /
 Crawl-delay: 2
 
+User-agent: AhrefsSiteAudit
+Allow: /
+
 User-agent: SemrushBot
 Allow: /
 Crawl-delay: 2
+
+User-agent: SemrushBot-OCOB
+Allow: /
+
+User-agent: SemrushBot-CT
+Allow: /
 
 User-agent: MJ12bot
 Allow: /
@@ -148,12 +211,98 @@ User-agent: Rogerbot
 Allow: /
 Crawl-delay: 2
 
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Crawl-delay: 2
+
+User-agent: Moz-dotbot
+Allow: /
+
+User-agent: Uptimebot
+Allow: /
+
+User-agent: Pingdom.com_bot
+Allow: /
+
 # ============================================
-# SITEMAPS
+# NEWS AGGREGATORS
 # ============================================
 
+User-agent: Applebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: SeznamBot
+Allow: /
+
+# ============================================
+# AI / ML CRAWLERS
+# ============================================
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# ============================================
+# BLOCK BAD BOTS (Spam, Scrapers, etc.)
+# ============================================
+
+User-agent: MJ12bot
+Disallow: /admin/
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: crawler4j
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+User-agent: Java
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: PHP
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+# ============================================
+# SITEMAPS - ALL OF THEM
+# ============================================
+
+Sitemap: https://nepalservice.online/sitemap-index.xml
 Sitemap: https://nepalservice.online/sitemap.xml
 Sitemap: https://nepalservice.online/sitemap-extended.xml
+Sitemap: https://nepalservice.online/sitemap-search-queries.xml
+Sitemap: https://nepalservice.online/sitemap-schools.xml
+Sitemap: https://nepalservice.online/sitemap-emergency.xml
 
 # ============================================
 # HOST
@@ -162,5 +311,6 @@ Sitemap: https://nepalservice.online/sitemap-extended.xml
 Host: nepalservice.online
 
 # ============================================
-# END OF FILE
+# END OF FILE - NEPAL SERVICES DIRECTORY
+# 500+ URLs indexed for maximum SEO coverage
 # ============================================
