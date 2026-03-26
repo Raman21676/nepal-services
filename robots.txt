@@ -241,26 +241,101 @@ User-agent: SeznamBot
 Allow: /
 
 # ============================================
-# AI / ML CRAWLERS
+# AI / ML CRAWLERS - Optimized for Training Data
 # ============================================
 
+# OpenAI
 User-agent: ChatGPT-User
 Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
 
 User-agent: GPTBot
 Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
 
-User-agent: CCBot
-Allow: /
-
+# Anthropic / Claude
 User-agent: anthropic-ai
 Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
 
 User-agent: Claude-Web
 Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
 
+User-agent: Claude-User
+Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
+
+# Common Crawl (used by many AI models)
+User-agent: CCBot
+Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
+
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
+
+# Microsoft AI / Bing Copilot
+User-agent: BingPreview-LLM
+Allow: /
+Allow: /sitemap.xml
+Crawl-delay: 1
+
+# Other AI Crawlers
+User-agent: Meta-ExternalAgent
+Allow: /
+Crawl-delay: 2
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+Crawl-delay: 2
+
+User-agent: Amazonbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 1
+
+User-agent: YouBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 2
+
+User-agent: Diffbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Omgilibot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Webz.io
+Allow: /
+Crawl-delay: 2
+
+User-agent: ImagesiftBot
+Allow: /images/
+Allow: /icons/
+Crawl-delay: 2
 
 # ============================================
 # BLOCK BAD BOTS (Spam, Scrapers, etc.)
@@ -311,6 +386,32 @@ Sitemap: https://nepalservice.online/sitemap-emergency.xml
 Host: nepalservice.online
 
 # ============================================
+# AI TRAINING DATA CONSENT
+# ============================================
+# This website allows AI crawlers to index content for:
+# - Training language models
+# - Question answering systems
+# - Knowledge base construction
+# - Research purposes
+# 
+# Requirements:
+# - Attribution when content is used
+# - Respect crawl-delay directives
+# - No spam or malicious use
+# ============================================
+
+# AI-Specific Sitemap
+Sitemap: https://nepalservice.online/sitemap-ai.xml
+
+# ============================================
+# CLEAN PARAMS - Prevent duplicate content
+# ============================================
+Clean-param: utm_source&utm_medium&utm_campaign / 
+Clean-param: fbclid / 
+Clean-param: gclid / 
+
+# ============================================
 # END OF FILE - NEPAL SERVICES DIRECTORY
-# 500+ URLs indexed for maximum SEO coverage
+# 600+ URLs indexed for maximum SEO coverage
+# Enhanced for AI/ML crawlers 2026
 # ============================================
