@@ -24,86 +24,46 @@ class I18n {
             };
             
             this.isLoaded = true;
+            
+            // Ensure English is default if no preference set
+            if (!localStorage.getItem('preferredLanguage')) {
+                this.currentLang = 'en';
+                localStorage.setItem('preferredLanguage', 'en');
+            }
+            
             this.applyTranslations();
             
-            // Create language switcher button
-            this.createLanguageSwitcher();
-            
-            // Show language selector on first visit
-            this.checkFirstVisit();
+            // Create simple flag toggle button
+            this.createLanguageToggle();
             
         } catch (error) {
             console.error('Failed to load translations:', error);
         }
     }
     
-    checkFirstVisit() {
-        const hasSelectedLanguage = localStorage.getItem('hasSelectedLanguage');
-        if (!hasSelectedLanguage) {
-            this.showLanguageModal();
-        }
-    }
-    
-    showLanguageModal() {
-        // Create modal if it doesn't exist
-        let modal = document.getElementById('languageModal');
-        if (!modal) {
-            modal = document.createElement('div');
-            modal.id = 'languageModal';
-            modal.className = 'language-modal';
-            modal.innerHTML = `
-                <div class="language-modal-backdrop"></div>
-                <div class="language-modal-content">
-                    <div class="language-modal-header">
-                        <h2 data-i18n="language.select">Select Language / भाषा छान्नुहोस्</h2>
-                        <p>Choose your preferred language for browsing</p>
-                    </div>
-                    <div class="language-options">
-                        <button class="language-option" data-lang="en">
-                            <span class="language-flag">🇬🇧</span>
-                            <span class="language-name" data-i18n="language.english">English</span>
-                        </button>
-                        <button class="language-option" data-lang="ne">
-                            <span class="language-flag">🇳🇵</span>
-                            <span class="language-name" data-i18n="language.nepali">नेपाली</span>
-                        </button>
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(modal);
-            
-            // Add event listeners
-            modal.querySelectorAll('.language-option').forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    const lang = e.currentTarget.dataset.lang;
-                    this.setLanguage(lang);
-                    localStorage.setItem('hasSelectedLanguage', 'true');
-                    modal.classList.add('hidden');
-                });
-            });
-        }
+    createLanguageToggle() {
+        // Check if toggle already exists
+        if (document.getElementById('langToggle')) return;
         
-        modal.classList.remove('hidden');
-    }
-    
-    createLanguageSwitcher() {
-        // Check if switcher already exists
-        if (document.getElementById('langSwitcher')) return;
-        
-        const switcher = document.createElement('div');
-        switcher.className = 'lang-switcher';
-        switcher.innerHTML = `
-            <button id="langSwitcher" class="lang-switcher-btn" title="Change language">
-                <span class="flag">${this.currentLang === 'ne' ? '🇳🇵' : '🇬🇧'}</span>
-                <span class="lang-code">${this.currentLang.toUpperCase()}</span>
+        const toggle = document.createElement('div');
+        toggle.className = 'lang-toggle-container';
+        toggle.innerHTML = `
+            <button id="langToggle" class="lang-toggle-btn" title="Toggle language">
+                <span class="lang-flag">${this.currentLang === 'ne' ? '🇳🇵' : '🇬🇧'}</span>
             </button>
         `;
         
-        document.body.appendChild(switcher);
+        document.body.appendChild(toggle);
         
-        document.getElementById('langSwitcher').addEventListener('click', () => {
-            this.showLanguageModal();
+        document.getElementById('langToggle').addEventListener('click', () => {
+            this.toggleLanguage();
         });
+    }
+    
+    toggleLanguage() {
+        // Toggle between English and Nepali
+        const newLang = this.currentLang === 'en' ? 'ne' : 'en';
+        this.setLanguage(newLang);
     }
     
     updateLanguageSwitcher() {
