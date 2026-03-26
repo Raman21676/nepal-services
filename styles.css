@@ -4158,3 +4158,431 @@ mark.search-highlight {
 .social-link:nth-child(3):hover { background: #25d366; }
 .social-link:nth-child(4):hover { background: #0a66c2; }
 .social-link:nth-child(5):hover { background: #0088cc; }
+
+/* ============================================
+   ADVANCED BREADCRUMB NAVIGATION
+   Schema.org markup with visual styling
+   ============================================ */
+
+.breadcrumb-nav {
+    background: var(--bg-tertiary);
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-light);
+    position: relative;
+    z-index: 10;
+}
+
+.breadcrumb-nav ol {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.breadcrumb-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-nav li:not(:last-child)::after {
+    content: '›';
+    margin: 0 0.5rem;
+    color: var(--text-tertiary);
+    font-weight: 600;
+}
+
+.breadcrumb-nav a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+}
+
+.breadcrumb-nav a:hover {
+    background: var(--primary-light);
+    color: white;
+}
+
+.breadcrumb-current {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Breadcrumb for filtered pages (dynamic) */
+.breadcrumb-dynamic {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 0.75rem 0;
+}
+
+.breadcrumb-dynamic a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.breadcrumb-dynamic a:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.breadcrumb-dynamic li:not(:last-child)::after {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumb-dynamic .breadcrumb-current {
+    color: white;
+    font-weight: 600;
+}
+
+/* Dark mode */
+[data-theme="dark"] .breadcrumb-nav {
+    background: var(--bg-tertiary);
+    border-color: var(--border-medium);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .breadcrumb-nav {
+        padding: 0.5rem 0;
+    }
+    
+    .breadcrumb-nav ol {
+        font-size: 0.8rem;
+    }
+    
+    .breadcrumb-nav li:not(:last-child)::after {
+        margin: 0 0.25rem;
+    }
+}
+
+/* ============================================
+   SEARCH INTENT OPTIMIZATION - CONTENT BLOCKS
+   ============================================ */
+
+.intent-match-section {
+    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    padding: 3rem 0;
+    border-top: 3px solid var(--primary);
+}
+
+.intent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.intent-card {
+    background: var(--bg-primary);
+    border-radius: var(--radius-xl);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--primary);
+    transition: all 0.3s ease;
+}
+
+.intent-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.intent-card h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.intent-card ul {
+    list-style: none;
+}
+
+.intent-card li {
+    padding: 0.4rem 0;
+    border-bottom: 1px dashed var(--border-light);
+}
+
+.intent-card li:last-child {
+    border-bottom: none;
+}
+
+.intent-card a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.intent-card a::before {
+    content: '→';
+    color: var(--primary);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.intent-card a:hover {
+    color: var(--primary);
+    padding-left: 0.5rem;
+}
+
+.intent-card a:hover::before {
+    opacity: 1;
+}
+
+/* Intent badges */
+.intent-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.6rem;
+    background: var(--primary-light);
+    color: white;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.intent-badge.infoal {
+    background: #10b981;
+}
+
+.intent-badge.navigational {
+    background: #8b5cf6;
+}
+
+.intent-badge.transactional {
+    background: #f59e0b;
+}
+
+/* ============================================
+   "PEOPLE ALSO ASK" SECTION (FAQ Style)
+   ============================================ */
+
+.paa-section {
+    background: var(--bg-secondary);
+    padding: 3rem 0;
+}
+
+.paa-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.paa-item {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    border: 1px solid var(--border-light);
+}
+
+.paa-question {
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.paa-question:hover {
+    background: var(--bg-tertiary);
+}
+
+.paa-question::after {
+    content: '+';
+    font-size: 1.5rem;
+    color: var(--primary);
+    transition: transform 0.3s ease;
+}
+
+.paa-item.active .paa-question::after {
+    transform: rotate(45deg);
+}
+
+.paa-answer {
+    padding: 0 1.25rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.paa-item.active .paa-answer {
+    padding: 0 1.25rem 1.25rem;
+    max-height: 500px;
+}
+
+/* ============================================
+   COMPETITIVE KEYWORD GAP TARGETING
+   Long-tail keywords competitors rank for
+   ============================================ */
+
+.keyword-gap-section {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: white;
+    padding: 4rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.keyword-gap-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+    animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.gap-content {
+    position: relative;
+    z-index: 1;
+}
+
+.gap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.gap-category {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-xl);
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gap-category h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #60a5fa;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.gap-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.gap-keywords a {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gap-keywords a:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   ADVANCED TRUST SIGNALS
+   ============================================ */
+
+.trust-signals-bar {
+    background: var(--bg-tertiary);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.trust-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.trust-item i {
+    color: var(--success);
+    font-size: 1rem;
+}
+
+/* ============================================
+   MOBILE-FIRST RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+    .intent-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .gap-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .trust-grid {
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .paa-question {
+        font-size: 0.95rem;
+    }
+}
+
+/* ============================================
+   PRINT STYLES (For saving/sharing)
+   ============================================ */
+
+@media print {
+    .breadcrumb-nav,
+    .share-section,
+    .lang-toggle-container,
+    .theme-toggle-container {
+        display: none;
+    }
+    
+    .hero {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .result-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
