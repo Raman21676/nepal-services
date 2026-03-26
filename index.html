@@ -95,8 +95,8 @@
     <meta http-equiv="X-Download-Options" content="noopen">
     <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none">
     
-    <!-- Content Security Policy - Restrictive -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    <!-- Content Security Policy - Permissive for GitHub Pages -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src * 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src * 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src * 'self' data: blob: https:; connect-src * 'self' https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
     
     <!-- PWA Manifest -->
     <link rel="manifest" href="/manifest.json">
@@ -149,8 +149,8 @@
     
     <!-- E-E-A-T Signals -->
     <meta name="author" content="Nepal Services Directory Team">
-    <meta name="last-modified" content="2026-03-26T10:43:46+05:45">
-    <meta name="article:modified_time" content="2026-03-26T10:43:46+05:45">
+    <meta name="last-modified" content="2026-03-26">
+    <meta name="article:modified_time" content="2026-03-26">
     <link rel="author" href="/humans.txt">
     <link rel="publisher" href="https://nepalservice.online/">
     
@@ -206,7 +206,7 @@
     <meta name="medical-disclaimer" content="This directory provides contact information only. For medical emergencies, call 102 immediately. Information accuracy not guaranteed.">
     
     <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com;">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src * 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src * 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src * 'self' data: blob: https:; connect-src * 'self' https://www.google-analytics.com;">
     
     <!-- Critical CSS Inlining for Core Web Vitals -->
     <style>
@@ -361,9 +361,6 @@
                     "@id": "https://nepalservice.online/#heroimage"
                 },
                 "description": "Discover 5,300+ hospitals, schools, emergency services and government offices across all 77 districts of Nepal.",
-                "breadcrumb": {
-                    "@id": "https://nepalservice.online/#breadcrumb"
-                },
                 "inLanguage": ["en", "ne"],
                 "speakable": {
                     "@type": "SpeakableSpecification",
@@ -792,22 +789,6 @@
     </script>
 </head>
 <body>
-    <!-- Breadcrumb Navigation - Schema Markup -->
-    <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="https://nepalservice.online/">
-                    <span itemprop="name">🏠 Home</span>
-                </a>
-                <meta itemprop="position" content="1">
-            </li>
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-current">
-                <span itemprop="name">Nepal Services Directory</span>
-                <meta itemprop="position" content="2">
-            </li>
-        </ol>
-    </nav>
-    
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-bg">
@@ -1737,8 +1718,9 @@
     <script src="js/manifests/karnali-manifest.js?v=36"></script>
     <script src="js/manifests/sudurpashchim-manifest.js?v=36"></script>
     <!-- Anti-Scraping Protection - Load First -->
-    <script src="js/security/anti-scraping.js?v=1"></script>
-    <script src="js/security/monitor.js?v=1"></script>
+    <!-- Security scripts disabled temporarily to fix data loading -->
+    <!-- <script src="js/security/anti-scraping.js?v=1"></script> -->
+    <!-- <script src="js/security/monitor.js?v=1"></script> -->
     
     <script src="js/data-loader.js?v=36"></script>
     <script src="js/filters.js?v=36"></script>
