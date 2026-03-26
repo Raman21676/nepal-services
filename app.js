@@ -206,37 +206,109 @@ class NepalServicesApp {
     }
 }
 
-// Theme Toggle
-function initThemeToggle() {
-    const themeToggle = document.getElementById('themeToggle');
-    const html = document.documentElement;
+/**
+ * Nepal Services Directory - Theme Manager
+ * Handles dark/light mode switching with animated toggle
+ */
+class ThemeManager {
+    constructor() {
+        this.currentTheme = localStorage.getItem('preferredTheme') || 'light';
+    }
     
-    // Load saved theme
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    html.setAttribute('data-theme', savedTheme);
+    init() {
+        // Apply saved theme
+        this.applyTheme(this.currentTheme);
+        
+        // Create toggle button
+        this.createToggleButton();
+        
+        // Listen for system theme changes
+        this.listenToSystemTheme();
+    }
     
-    // Handle toggle click
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = html.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    createToggleButton() {
+        const container = document.getElementById('themeToggleContainer');
+        if (!container) return;
+        
+        container.innerHTML = `
+            <label class="theme-switch" for="themeToggle">
+                <input type="checkbox" id="themeToggle" ${this.currentTheme === 'dark' ? 'checked' : ''}>
+                <span class="theme-slider">
+                    <span class="theme-slider-content">
+                        <span class="sun-moon">
+                            <span class="craters"></span>
+                        </span>
+                        <span class="stars">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </span>
+                        <span class="clouds">
+                            <span class="cloud"></span>
+                            <span class="cloud"></span>
+                        </span>
+                    </span>
+                </span>
+            </label>
+        `;
+        
+        const toggle = document.getElementById('themeToggle');
+        if (toggle) {
+            toggle.addEventListener('change', () => this.toggleTheme());
+        }
+    }
+    
+    applyTheme(theme) {
+        this.currentTheme = theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('preferredTheme', theme);
+        
+        // Update meta theme-color for mobile browsers
+        const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+        if (metaThemeColor) {
+            metaThemeColor.content = theme === 'dark' ? '#0f172a' : '#ffffff';
+        }
+    }
+    
+    toggleTheme() {
+        const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
+        this.applyTheme(newTheme);
+    }
+    
+    listenToSystemTheme() {
+        // Only auto-switch if user hasn't manually set a preference
+        if (localStorage.getItem('preferredTheme')) return;
+        
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        const handleChange = (e) => {
+            const newTheme = e.matches ? 'dark' : 'light';
+            this.applyTheme(newTheme);
             
-            html.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            
-            // Update theme-color meta
-            const metaTheme = document.querySelector('meta[name="theme-color"]');
-            if (metaTheme) {
-                metaTheme.setAttribute('content', newTheme === 'dark' ? '#0f172a' : '#ffffff');
+            // Update toggle state
+            const toggle = document.getElementById('themeToggle');
+            if (toggle) {
+                toggle.checked = newTheme === 'dark';
             }
-        });
+        };
+        
+        mediaQuery.addEventListener('change', handleChange);
+        
+        // Apply initial system preference
+        if (mediaQuery.matches) {
+            this.applyTheme('dark');
+            const toggle = document.getElementById('themeToggle');
+            if (toggle) toggle.checked = true;
+        }
     }
 }
 
 // Initialize app when DOM is ready
 let app;
+const themeManager = new ThemeManager();
+
 document.addEventListener('DOMContentLoaded', () => {
-    initThemeToggle();
+    themeManager.init();
     app = new NepalServicesApp();
     app.init();
 });

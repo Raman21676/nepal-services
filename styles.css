@@ -89,72 +89,263 @@
     --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.2);
 }
 
-/* Theme Toggle */
-.theme-toggle {
+/* ============================================
+   ANIMATED THEME TOGGLE - SUN/MOON SLIDER
+   ============================================ */
+
+.theme-toggle-container {
     position: fixed;
     top: 20px;
     right: 20px;
     z-index: 1000;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
 }
 
-.toggle-track {
-    width: 60px;
-    height: 32px;
-    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
-    border-radius: 16px;
+.theme-switch {
     position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.theme-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.theme-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+    border-radius: 40px;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    box-shadow: 
+        inset 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.theme-slider-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 6px;
-    transition: background 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 0 4px;
 }
 
-[data-theme="dark"] .toggle-track {
-    background: linear-gradient(135deg, #4c1d95 0%, #1e1b4b 100%);
+/* Sun/Moon Element */
+.sun-moon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-color: #ffd700 !important;
+    background: #ffd700;
+    border-radius: 50%;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 
+        0 0 10px rgba(255, 215, 0, 0.5),
+        0 0 20px rgba(255, 215, 0, 0.3);
+    z-index: 10;
 }
 
-.toggle-sun, .toggle-moon {
-    font-size: 14px;
-    color: white;
-    z-index: 1;
+/* Sun rays */
+.sun-moon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 
+        0 -12px 0 -8px #ffd700,
+        0 12px 0 -8px #ffd700,
+        -12px 0 0 -8px #ffd700,
+        12px 0 0 -8px #ffd700,
+        -8px -8px 0 -8px #ffd700,
+        8px -8px 0 -8px #ffd700,
+        -8px 8px 0 -8px #ffd700,
+        8px 8px 0 -8px #ffd700;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+/* Craters for moon */
+.craters {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
     transition: opacity 0.3s ease;
 }
 
-.toggle-sun {
-    opacity: 1;
-}
-
-.toggle-moon {
-    opacity: 0.6;
-}
-
-[data-theme="dark"] .toggle-sun {
-    opacity: 0.6;
-}
-
-[data-theme="dark"] .toggle-moon {
-    opacity: 1;
-}
-
-.toggle-thumb {
+.craters::before,
+.craters::after {
+    content: '';
     position: absolute;
-    width: 26px;
-    height: 26px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.craters::before {
+    width: 8px;
+    height: 8px;
+    top: 6px;
+    left: 8px;
+}
+
+.craters::after {
+    width: 5px;
+    height: 5px;
+    top: 16px;
+    left: 18px;
+}
+
+/* Stars - positioned on left side near moon */
+.stars {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
     background: white;
     border-radius: 50%;
-    left: 3px;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 4px white;
 }
 
-[data-theme="dark"] .toggle-thumb {
-    transform: translateX(28px);
+.star:nth-child(1) {
+    top: -8px;
+    left: 5px;
+    animation: twinkle 2s ease-in-out infinite;
+}
+
+.star:nth-child(2) {
+    top: 2px;
+    left: 15px;
+    width: 2px;
+    height: 2px;
+    animation: twinkle 2s ease-in-out 0.5s infinite;
+}
+
+.star:nth-child(3) {
+    top: 8px;
+    left: 5px;
+    animation: twinkle 2s ease-in-out 1s infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.3; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* Clouds */
+.clouds {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.cloud {
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.cloud:nth-child(1) {
+    width: 20px;
+    height: 10px;
+    top: -5px;
+}
+
+.cloud:nth-child(2) {
+    width: 15px;
+    height: 8px;
+    top: 3px;
+    left: 8px;
+}
+
+/* DARK MODE STYLES */
+.theme-switch input:checked + .theme-slider {
+    background: linear-gradient(180deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+}
+
+.theme-switch input:checked + .theme-slider .sun-moon {
+    left: calc(100% - 36px);
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e8e8e8 !important;
+    background: #e8e8e8;
+    box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.3),
+        0 0 20px rgba(255, 255, 255, 0.2),
+        inset -4px -4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.theme-switch input:checked + .theme-slider .sun-moon::before {
+    opacity: 0;
+}
+
+.theme-switch input:checked + .theme-slider .craters {
+    opacity: 1;
+}
+
+.theme-switch input:checked + .theme-slider .stars {
+    opacity: 1;
+}
+
+.theme-switch input:checked + .theme-slider .clouds {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-10px);
+}
+
+/* Hover effect */
+.theme-switch:hover .theme-slider {
+    box-shadow: 
+        inset 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Focus state for accessibility */
+.theme-switch input:focus + .theme-slider {
+    box-shadow: 
+        inset 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Mobile adjustments for theme toggle */
+@media (max-width: 768px) {
+    .theme-toggle-container {
+        top: 15px;
+        right: 15px;
+    }
 }
 
 /* Reset & Base */
