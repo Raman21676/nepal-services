@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ffffff">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https: data: blob:; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self';">
     <title>Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
     <meta name="description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
     <link rel="canonical" href="https://nepalservice.online/">
-    <link rel="stylesheet" href="styles.css?v=40">
+    <link rel="stylesheet" href="styles.css?v=41">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -255,17 +251,35 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-    <script src="js/config.js?v=40"></script>
-    <script src="js/manifests/bagmati-manifest.js?v=40"></script>
-    <script src="js/manifests/koshi-manifest.js?v=40"></script>
-    <script src="js/manifests/madhesh-manifest.js?v=40"></script>
-    <script src="js/manifests/gandaki-manifest.js?v=40"></script>
-    <script src="js/manifests/lumbini-manifest.js?v=40"></script>
-    <script src="js/manifests/karnali-manifest.js?v=40"></script>
-    <script src="js/manifests/sudurpashchim-manifest.js?v=40"></script>
-    <script src="js/data-loader.js?v=40"></script>
-    <script src="js/filters.js?v=40"></script>
-    <script src="js/renderer.js?v=40"></script>
-    <script src="app.js?v=40"></script>
+    <script>
+        // Clear old service worker and cache
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                for(let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+        // Clear browser cache
+        if (window.caches) {
+            caches.keys().then(function(names) {
+                for (let name of names) {
+                    caches.delete(name);
+                }
+            });
+        }
+    </script>
+    <script src="js/config.js?v=41"></script>
+    <script src="js/manifests/bagmati-manifest.js?v=41"></script>
+    <script src="js/manifests/koshi-manifest.js?v=41"></script>
+    <script src="js/manifests/madhesh-manifest.js?v=41"></script>
+    <script src="js/manifests/gandaki-manifest.js?v=41"></script>
+    <script src="js/manifests/lumbini-manifest.js?v=41"></script>
+    <script src="js/manifests/karnali-manifest.js?v=41"></script>
+    <script src="js/manifests/sudurpashchim-manifest.js?v=41"></script>
+    <script src="js/data-loader.js?v=41"></script>
+    <script src="js/filters.js?v=41"></script>
+    <script src="js/renderer.js?v=41"></script>
+    <script src="app.js?v=41"></script>
 </body>
 </html>
