@@ -3273,6 +3273,11 @@ mark.search-highlight {
     opacity: 0;
     width: 0;
     height: 0;
+    position: absolute;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .theme-slider {
@@ -3304,9 +3309,12 @@ mark.search-highlight {
     position: absolute;
     width: 32px;
     height: 32px;
+    background-color: #ffd700 !important;
     background: #ffd700;
     border-radius: 50%;
     left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 
         0 0 10px rgba(255, 215, 0, 0.5),
@@ -3350,7 +3358,7 @@ mark.search-highlight {
 }
 
 .craters::before,
-raters::after {
+.craters::after {
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.1);
@@ -3452,6 +3460,9 @@ raters::after {
 
 .theme-switch input:checked + .theme-slider .sun-moon {
     left: calc(100% - 36px);
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e8e8e8 !important;
     background: #e8e8e8;
     box-shadow: 
         0 0 10px rgba(255, 255, 255, 0.3),
