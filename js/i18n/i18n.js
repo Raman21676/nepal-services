@@ -67,14 +67,13 @@ class I18n {
     }
     
     updateLanguageSwitcher() {
-        const btn = document.getElementById('langSwitcher');
+        const btn = document.getElementById('langToggle');
         if (!btn) return;
         
-        const flag = btn.querySelector('.flag');
-        const code = btn.querySelector('.lang-code');
-        
-        flag.textContent = this.currentLang === 'ne' ? '🇳🇵' : '🇬🇧';
-        code.textContent = this.currentLang.toUpperCase();
+        const flag = btn.querySelector('.lang-flag');
+        if (flag) {
+            flag.textContent = this.currentLang === 'ne' ? '🇳🇵' : '🇬🇧';
+        }
     }
     
     setLanguage(lang) {
