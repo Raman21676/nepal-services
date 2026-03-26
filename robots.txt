@@ -1,31 +1,166 @@
 # Nepal Services Directory - Robots.txt
-# Allow all search engines to crawl everything
+# Comprehensive crawling instructions for all search engines
+
+# ============================================
+# ALLOW ALL MAJOR SEARCH ENGINES
+# ============================================
 
 User-agent: *
 Allow: /
+Allow: /sitemap.xml
+Allow: /sitemap-extended.xml
+Allow: /humans.txt
 
-# Sitemap location
-Sitemap: https://nepalservice.online/sitemap.xml
-
-# Crawl rate
+# Crawl rate optimization
 Crawl-delay: 1
 
-# Block specific paths if needed (none currently)
-# Disallow: /admin/
-# Disallow: /api/
+# ============================================
+# GOOGLE SPECIFIC
+# ============================================
 
-# Special directives for Google
 User-agent: Googlebot
 Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.svg$
+Crawl-delay: 0.5
 
-# Special directives for Bing
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /icons/
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.svg$
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+# ============================================
+# BING SPECIFIC
+# ============================================
+
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
-# Special directives for Yahoo
+User-agent: MSNBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: BingPreview
+Allow: /
+
+# ============================================
+# YAHOO / DUCKDUCKGO
+# ============================================
+
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
-# Special directives for DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckGo-Favicons-Bot
+Allow: /
+
+# ============================================
+# OTHER MAJOR SEARCH ENGINES
+# ============================================
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Sogou
+Allow: /
+Crawl-delay: 2
+
+User-agent: Exabot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: Alexabot
+Allow: /
+
+# ============================================
+# SOCIAL MEDIA CRAWLERS
+# ============================================
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+# ============================================
+# SEO TOOLS
+# ============================================
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 2
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Rogerbot
+Allow: /
+Crawl-delay: 2
+
+# ============================================
+# SITEMAPS
+# ============================================
+
+Sitemap: https://nepalservice.online/sitemap.xml
+Sitemap: https://nepalservice.online/sitemap-extended.xml
+
+# ============================================
+# HOST
+# ============================================
+
+Host: nepalservice.online
+
+# ============================================
+# END OF FILE
+# ============================================

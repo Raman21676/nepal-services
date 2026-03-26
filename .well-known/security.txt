@@ -1,0 +1,6 @@
+Contact: mailto:security@nepalservice.online
+Contact: https://github.com/Raman21676/nepal-services/issues
+Expires: 2027-03-26T00:00:00.000Z
+Preferred-Languages: en, ne
+Canonical: https://nepalservice.online/.well-known/security.txt
+Policy: https://nepalservice.online/security-policy
