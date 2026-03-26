@@ -10,7 +10,7 @@
     <title>Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
     <meta name="description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
     <link rel="canonical" href="https://nepalservice.online/">
-    <link rel="stylesheet" href="styles.css?v=43">
+    <link rel="stylesheet" href="styles.css?v=44">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             
             // Register cleanup service worker first
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/sw.js?v=43', { scope: '/' })
+                navigator.serviceWorker.register('/sw.js?v=44', { scope: '/' })
                     .then(function(reg) {
                         console.log('Cleanup SW registered');
                         // Force update
@@ -297,35 +297,60 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+    
+    <!-- INLINE MANIFESTS - Bypass Cache -->
     <script>
-        // Clear old service worker and cache
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations().then(function(registrations) {
-                for(let registration of registrations) {
-                    registration.unregister();
-                }
-            });
-        }
-        // Clear browser cache
-        if (window.caches) {
-            caches.keys().then(function(names) {
-                for (let name of names) {
-                    caches.delete(name);
-                }
-            });
-        }
+    // Bagmati Province Manifest
+    const BAGMATI_MANIFEST = [
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_hospitals.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'hospitals' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_schools.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'schools' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_colleges.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'colleges' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_clinics.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'clinics' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_blood_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'blood_banks' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_pharmacies.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'pharmacies' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_veterinary.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'veterinary' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_government.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'government' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_ambulance.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ambulance' },
+        { path: 'data/provinces/bagmati/lalitpur/lalitpur_hospitals.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'hospitals' },
+        { path: 'data/provinces/bagmati/lalitpur/lalitpur_schools.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'schools' },
+        { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
+        { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
+    ];
+    
+    // Koshi Province Manifest  
+    const KOSHI_MANIFEST = [
+        { path: 'data/provinces/koshi/biratnagar/biratnagar_hospitals.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hospitals' },
+        { path: 'data/provinces/koshi/biratnagar/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
+        { path: 'data/provinces/koshi/dharan/dharan_hospitals.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'hospitals' },
+    ];
+    
+    const MADHESH_MANIFEST = [
+        { path: 'data/provinces/madhesh/birgunj/birgunj_hospitals.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },
+        { path: 'data/provinces/madhesh/janakpur/janakpur_hospitals.json', province: 'madhesh', district: 'dhanusa', city: 'janakpur', type: 'hospitals' },
+    ];
+    
+    const GANDAKI_MANIFEST = [
+        { path: 'data/provinces/gandaki/pokhara/pokhara_hospitals.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'hospitals' },
+        { path: 'data/provinces/gandaki/pokhara/pokhara_schools.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'schools' },
+    ];
+    
+    const LUMBINI_MANIFEST = [
+        { path: 'data/provinces/lumbini/butwal/butwal_hospitals.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'hospitals' },
+    ];
+    
+    const KARNALI_MANIFEST = [
+        { path: 'data/provinces/karnali/surkhet/surkhet_hospitals.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'hospitals' },
+    ];
+    
+    const SUDURPASHCHIM_MANIFEST = [
+        { path: 'data/provinces/sudurpashchim/dhangadhi/dhangadhi_hospitals.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'hospitals' },
+    ];
     </script>
-    <script src="js/config.js?v=43"></script>
-    <script src="js/manifests/bagmati-manifest.js?v=43"></script>
-    <script src="js/manifests/koshi-manifest.js?v=43"></script>
-    <script src="js/manifests/madhesh-manifest.js?v=43"></script>
-    <script src="js/manifests/gandaki-manifest.js?v=43"></script>
-    <script src="js/manifests/lumbini-manifest.js?v=43"></script>
-    <script src="js/manifests/karnali-manifest.js?v=43"></script>
-    <script src="js/manifests/sudurpashchim-manifest.js?v=43"></script>
-    <script src="js/data-loader.js?v=43"></script>
-    <script src="js/filters.js?v=43"></script>
-    <script src="js/renderer.js?v=43"></script>
-    <script src="app.js?v=43"></script>
+    
+    <script src="js/config.js?v=44"></script>
+    <script src="js/data-loader.js?v=44"></script>
+    <script src="js/filters.js?v=44"></script>
+    <script src="js/renderer.js?v=44"></script>
+    <script src="app.js?v=44"></script>
 </body>
 </html>
