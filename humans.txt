@@ -1,0 +1,25 @@
+/* TEAM */
+    Developer: Nepal Services Directory Team
+    Contact: contact@nepalservice.online
+    From: Kathmandu, Nepal
+
+/* THANKS */
+    Data Sources: Government of Nepal, Ministry of Health, Ministry of Education
+    Contributors: Open source community
+    Special Thanks: All service providers in Nepal
+
+/* SITE */
+    Language: English / Nepali
+    Doctype: HTML5
+    Standards: HTML5, CSS3, ES6+
+    Components: Vanilla JavaScript, Fuse.js
+    Software: VS Code, Git, Netlify
+    Last update: 2026/03/26
+    Build: Production
+
+/* NEPAL SERVICES DIRECTORY */
+    Mission: Making essential service information accessible to all Nepali citizens
+    Coverage: All 7 provinces, 77 districts, 138 cities
+    Services: 5,300+ hospitals, schools, emergency contacts, government offices
+    License: MIT
+    Repository: https://github.com/Raman21676/nepal-services
