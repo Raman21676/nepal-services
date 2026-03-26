@@ -19,8 +19,32 @@
 </head>
 <body>
     <script>
-        // IMMEDIATE CACHE CLEAR - runs before anything else
+        // AGGRESSIVE CACHE CLEAR - runs before anything else
         (function() {
+            var hasReloaded = sessionStorage.getItem('cache_cleared');
+            
+            // Register cleanup service worker first
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/sw.js?v=43', { scope: '/' })
+                    .then(function(reg) {
+                        console.log('Cleanup SW registered');
+                        // Force update
+                        reg.update();
+                    })
+                    .catch(function(err) {
+                        console.log('SW registration failed:', err);
+                    });
+                
+                // Unregister any existing service workers
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    registrations.forEach(function(registration) {
+                        if (registration.scope.includes('nepalservice')) {
+                            registration.unregister();
+                        }
+                    });
+                });
+            }
+            
             // Clear all caches
             if (window.caches) {
                 caches.keys().then(function(names) {
@@ -29,16 +53,10 @@
                     });
                 });
             }
-            // Unregister service workers
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.getRegistrations().then(function(registrations) {
-                    registrations.forEach(function(registration) {
-                        registration.unregister();
-                    });
-                });
-            }
-            // Force reload once to clear cache
-            if (!window.location.href.includes('?nocache=')) {
+            
+            // Force reload once per session to ensure fresh load
+            if (!hasReloaded && !window.location.href.includes('?nocache=')) {
+                sessionStorage.setItem('cache_cleared', 'true');
                 window.location.href = window.location.href.split('?')[0] + '?nocache=' + Date.now();
             }
         })();
