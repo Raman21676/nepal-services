@@ -1,6 +1,6 @@
 /**
  * Nepal Services Directory - Theme Manager
- * Handles dark/light mode switching
+ * Handles dark/light mode switching with animated toggle
  */
 
 class ThemeManager {
@@ -25,19 +25,34 @@ class ThemeManager {
         if (document.getElementById('themeToggle')) return;
         
         const toggle = document.createElement('div');
-        toggle.className = 'theme-toggle';
+        toggle.className = 'theme-toggle-container';
         toggle.innerHTML = `
-            <button id="themeToggle" class="theme-toggle-btn" title="Toggle dark mode">
-                <i class="fas fa-sun"></i>
-            </button>
+            <label class="theme-switch" for="themeToggle">
+                <input type="checkbox" id="themeToggle" ${this.currentTheme === 'dark' ? 'checked' : ''}>
+                <span class="theme-slider">
+                    <span class="theme-slider-content">
+                        <span class="sun-moon">
+                            <span class="craters"></span>
+                        </span>
+                        <span class="stars">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </span>
+                        <span class="clouds">
+                            <span class="cloud"></span>
+                            <span class="cloud"></span>
+                        </span>
+                    </span>
+                </span>
+            </label>
         `;
         
         document.body.appendChild(toggle);
         
         this.toggleBtn = document.getElementById('themeToggle');
-        this.updateIcon();
         
-        this.toggleBtn.addEventListener('click', () => this.toggleTheme());
+        this.toggleBtn.addEventListener('change', () => this.toggleTheme());
     }
     
     applyTheme(theme) {
@@ -58,23 +73,9 @@ class ThemeManager {
     toggleTheme() {
         const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
         this.applyTheme(newTheme);
-        this.updateIcon();
         
         // Show toast notification
         this.showToast(newTheme === 'dark' ? 'Dark mode enabled' : 'Light mode enabled');
-    }
-    
-    updateIcon() {
-        if (!this.toggleBtn) return;
-        
-        const icon = this.toggleBtn.querySelector('i');
-        if (this.currentTheme === 'dark') {
-            icon.className = 'fas fa-moon';
-            this.toggleBtn.title = 'Switch to light mode';
-        } else {
-            icon.className = 'fas fa-sun';
-            this.toggleBtn.title = 'Switch to dark mode';
-        }
     }
     
     listenToSystemTheme() {
@@ -86,7 +87,12 @@ class ThemeManager {
         const handleChange = (e) => {
             const newTheme = e.matches ? 'dark' : 'light';
             this.applyTheme(newTheme);
-            this.updateIcon();
+            
+            // Update toggle state
+            const toggle = document.getElementById('themeToggle');
+            if (toggle) {
+                toggle.checked = newTheme === 'dark';
+            }
         };
         
         mediaQuery.addEventListener('change', handleChange);
@@ -94,7 +100,8 @@ class ThemeManager {
         // Apply initial system preference
         if (mediaQuery.matches) {
             this.applyTheme('dark');
-            this.updateIcon();
+            const toggle = document.getElementById('themeToggle');
+            if (toggle) toggle.checked = true;
         }
     }
     
