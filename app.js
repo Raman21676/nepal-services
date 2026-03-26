@@ -227,9 +227,13 @@ class ThemeManager {
     }
     
     createToggleButton() {
-        const container = document.getElementById('themeToggleContainer');
-        if (!container) return;
+        // Remove existing toggle if any
+        const existing = document.querySelector('.theme-toggle-container');
+        if (existing) existing.remove();
         
+        // Create container
+        const container = document.createElement('div');
+        container.className = 'theme-toggle-container';
         container.innerHTML = `
             <label class="theme-switch" for="themeToggle">
                 <input type="checkbox" id="themeToggle" ${this.currentTheme === 'dark' ? 'checked' : ''}>
@@ -251,6 +255,9 @@ class ThemeManager {
                 </span>
             </label>
         `;
+        
+        // Append to body so it's fixed positioned relative to viewport
+        document.body.appendChild(container);
         
         const toggle = document.getElementById('themeToggle');
         if (toggle) {
