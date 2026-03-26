@@ -5,7 +5,12 @@
 
 class I18n {
     constructor() {
-        this.currentLang = localStorage.getItem('preferredLanguage') || 'en';
+        // Detect browser language - default to Nepali if browser is set to Nepali
+        const savedLang = localStorage.getItem('preferredLanguage');
+        const browserLang = navigator.language || navigator.userLanguage;
+        const isNepaliBrowser = browserLang && (browserLang.toLowerCase().startsWith('ne') || browserLang.toLowerCase().includes('nep'));
+        
+        this.currentLang = savedLang || (isNepaliBrowser ? 'ne' : 'en');
         this.translations = {};
         this.isLoaded = false;
     }
@@ -25,10 +30,9 @@ class I18n {
             
             this.isLoaded = true;
             
-            // Ensure English is default if no preference set
+            // Save detected language preference if not already set
             if (!localStorage.getItem('preferredLanguage')) {
-                this.currentLang = 'en';
-                localStorage.setItem('preferredLanguage', 'en');
+                localStorage.setItem('preferredLanguage', this.currentLang);
             }
             
             this.applyTranslations();
