@@ -73,9 +73,7 @@ class ThemeManager {
     toggleTheme() {
         const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
         this.applyTheme(newTheme);
-        
-        // Show toast notification
-        this.showToast(newTheme === 'dark' ? 'Dark mode enabled' : 'Light mode enabled');
+        // No toast - the visual toggle is enough feedback
     }
     
     listenToSystemTheme() {
