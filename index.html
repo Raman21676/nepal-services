@@ -3,822 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2563eb">
-    
-    <!-- Primary Meta Tags -->
-    <title data-i18n="meta.title">Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
-    <meta name="description" data-i18n="meta.description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
-    <meta name="keywords" content="Nepal hospitals, Nepal schools, Nepal emergency contacts, Nepal government offices, Nepal ambulance, Nepal police, Nepal doctors, Nepal clinics, Nepal education, Nepal services, Kathmandu hospital, Pokhara school, Birgunj medical, Nepal directory, Nepal phone numbers, Nepal addresses">
-    <meta name="author" content="Nepal Services Directory">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow">
-    <meta name="bingbot" content="index, follow">
-    
-    <!-- Canonical URL -->
+    <meta name="theme-color" content="#ffffff">
+    <title>Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
+    <meta name="description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
     <link rel="canonical" href="https://nepalservice.online/">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://nepalservice.online/">
-    <meta property="og:title" content="Nepal Services Directory | Find Hospitals, Schools & Emergency Contacts">
-    <meta property="og:description" content="Discover 5,300+ hospitals, schools, emergency services & government offices across all 77 districts of Nepal. Search by province, district, or city.">
-    <meta property="og:image" content="https://nepalservice.online/images/og-image.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="ne_NP">
-    <meta property="og:site_name" content="Nepal Services Directory">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://nepalservice.online/">
-    <meta property="twitter:title" content="Nepal Services Directory | Hospitals, Schools & Emergency Contacts">
-    <meta property="twitter:description" content="Find 5,300+ hospitals, schools, emergency services across all 77 districts of Nepal.">
-    <meta property="twitter:image" content="https://nepalservice.online/images/og-image.jpg">
-    
-    <!-- Additional SEO Meta -->
-    <meta name="application-name" content="Nepal Services">
-    <meta name="apple-mobile-web-app-title" content="Nepal Services">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=yes">
-    <meta name="geo.region" content="NP">
-    <meta name="geo.placename" content="Nepal">
-    <meta name="ICBM" content="28.3949, 84.1240">
-    <meta name="geo.position" content="28.3949;84.1240">
-    
-    <!-- Performance Optimizations -->
+    <link rel="stylesheet" href="styles.css?v=38">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    
-    <!-- Resource Hints -->
-    <link rel="prefetch" href="/js/i18n/ne.json" as="fetch">
-    <link rel="prefetch" href="/js/manifests/bagmati-manifest.js">
-    <link rel="prefetch" href="/js/manifests/koshi-manifest.js">
-    
-    <!-- Preload Critical Resources -->
-    <link rel="preload" href="/styles.css?v=38" as="style">
-    <link rel="preload" href="/js/i18n/en.json" as="fetch" crossorigin>
-    <link rel="preload" href="/favicon.svg" as="image" type="image/svg+xml">
-    
-    <!-- Preconnect to Analytics -->
-    <link rel="preconnect" href="https://www.google-analytics.com">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    
-    <!-- Non-blocking CSS Loading for Performance -->
-    <link rel="preload" href="styles.css?v=37" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="styles.css?v=37"></noscript>
-    
-    <!-- Font Awesome - Non-blocking -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="alternate icon" href="favicon.svg">
-    
-    <!-- Author Information -->
-    <link rel="author" href="/humans.txt">
-    <meta name="author" content="Nepal Services Directory Team">
-    <meta name="designer" content="Nepal Services Directory">
-    <meta name="copyright" content="© 2026 Nepal Services Directory. All rights reserved.">
-    
-    <!-- Data Protection & Anti-Scraping -->
-    <meta name="data-protection" content="strict">
-    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    
-    <!-- Prevent data extraction -->
-    <meta http-equiv="X-Download-Options" content="noopen">
-    <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none">
-    
-    <!-- Content Security Policy - Permissive for GitHub Pages -->
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src * 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src * 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src * 'self' data: blob: https:; connect-src * 'self' https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
-    
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="/manifest.json">
-    
-    <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192x192.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-152x152.png">
-    
-    <!-- Apple Splash Screens -->
-    <link rel="apple-touch-startup-image" href="/icons/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-    <link rel="apple-touch-startup-image" href="/icons/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
-    <link rel="apple-touch-startup-image" href="/icons/splash-1242x2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-    <link rel="apple-touch-startup-image" href="/icons/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
-    <link rel="apple-touch-startup-image" href="/icons/splash-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
-    
-    <!-- Microsoft Tiles -->
-    <meta name="msapplication-TileColor" content="#2563eb">
-    <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
-    <meta name="msapplication-config" content="/browserconfig.xml">
-    
-    <!-- Hreflang for Multilingual SEO -->
-    <link rel="alternate" hreflang="en" href="https://nepalservice.online/?lang=en">
-    <link rel="alternate" hreflang="ne" href="https://nepalservice.online/?lang=ne">
-    <link rel="alternate" hreflang="x-default" href="https://nepalservice.online/">
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="rating" content="General">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <meta name="distribution" content="Global">
-    <meta name="coverage" content="Worldwide">
-    <meta name="target" content="all">
-    <meta name="audience" content="all">
-    <meta name="classification" content="Directory, Services, Nepal">
-    <meta name="doc-class" content="Completed">
-    <meta name="doc-rights" content="Public">
-    <meta name="doc-type" content="Web Page">
-    
-    <!-- AI Crawler Directives -->
-    <meta name="ChatGPT-User" content="index, follow">
-    <meta name="GPTBot" content="index, follow">
-    <meta name="Claude-Web" content="index, follow">
-    <meta name="anthropic-ai" content="index, follow">
-    <meta name="PerplexityBot" content="index, follow">
-    <meta name="CCBot" content="index, follow">
-    
-    <!-- Content Ownership & AI Training -->
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1, ai-index, ai-follow">
-    
-    <!-- E-E-A-T Signals -->
-    <meta name="author" content="Nepal Services Directory Team">
-    <meta name="last-modified" content="2026-03-26">
-    <meta name="article:modified_time" content="2026-03-26">
-    <link rel="author" href="/humans.txt">
-    <link rel="publisher" href="https://nepalservice.online/">
-    
-    <!-- Entity SEO - Knowledge Graph Connections -->
-    <link rel="sameAs" href="https://www.wikidata.org/wiki/Q837">
-    <link rel="sameAs" href="https://dbpedia.org/resource/Nepal">
-    <link rel="sameAs" href="https://en.wikipedia.org/wiki/Nepal">
-    <link rel="sameAs" href="https://www.wikidata.org/wiki/Q1494">
-    <meta name="entity" content="Nepal">
-    <meta name="entity-id" content="Q837">
-    
-    <!-- Voice Search Optimization -->
-    <meta name="voice-search-optimized" content="true">
-    <meta name="voice-search-keywords" content="hospitals near me in Nepal, schools near me in Nepal, emergency services near me, find hospital in Kathmandu, ambulance number Nepal, doctor near me, clinic near me Nepal, best hospital in Kathmandu, emergency contact Nepal">
-    
-    <!-- Natural Language Processing Meta -->
-    <meta name="nlp-keywords" content="where is the nearest hospital, how to find schools in Nepal, what is the ambulance number, emergency contacts near me, hospitals open now, 24 hour hospital Kathmandu">
-    <meta name="conversational-queries" content="find me a hospital, show me schools in Pokhara, I need an ambulance, emergency number Nepal">
-    
-    <!-- Near Me Optimization -->
-    <meta name="geo.target" content="NP">
-    <meta name="geo.placename" content="Nepal, Kathmandu, Pokhara, Birgunj, Biratnagar, Lalitpur, Bhaktapur">
-    <meta name="geo.position" content="28.3949;84.1240">
-    <meta name="ICBM" content="28.3949, 84.1240">
-    
-    <!-- Local Business Signals -->
-    <meta name="business:contact_data:locality" content="Kathmandu">
-    <meta name="business:contact_data:country_name" content="Nepal">
-    <meta name="business:contact_data:region" content="Bagmati Province">
-    
-    <!-- Article/Content Metadata -->
-    <meta property="article:author" content="Nepal Services Directory Team">
-    <meta property="article:publisher" content="https://nepalservice.online/">
-    <meta property="article:section" content="Directory">
-    <meta property="article:tag" content="Nepal, Hospitals, Schools, Emergency, Directory">
-    
-    <!-- Advanced Indexing Directives -->
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <meta name="slurp" content="index, follow">
-    <meta name="duckduckbot" content="index, follow">
-    
-    <!-- Progressive Web App Enhancement -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="application-name" content="Nepal Services">
-    <meta name="msapplication-tooltip" content="Find hospitals, schools & emergency services in Nepal">
-    <meta name="msapplication-window" content="width=1024;height=768">
-    <meta name="msapplication-task" content="name=Search Hospitals;action-uri=/?category=hospitals;icon-uri=/favicon.svg">
-    <meta name="msapplication-task" content="name=Search Schools;action-uri=/?category=schools;icon-uri=/favicon.svg">
-    <meta name="msapplication-task" content="name=Emergency Services;action-uri=/?category=emergency;icon-uri=/favicon.svg">
-    
-    <!-- Medical Disclaimer -->
-    <meta name="medical-disclaimer" content="This directory provides contact information only. For medical emergencies, call 102 immediately. Information accuracy not guaranteed.">
-    
-    <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src * 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src * 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src * 'self' data: blob: https:; connect-src * 'self' https://www.google-analytics.com;">
-    
-    <!-- Critical CSS Inlining for Core Web Vitals -->
-    <style>
-        /* Critical Above-the-Fold CSS */
-        :root{--primary:#2563eb;--primary-dark:#1d4ed8;--secondary:#0ea5e9;--accent:#f59e0b;--success:#10b981;--danger:#ef4444;--warning:#f59e0b;--bg-primary:#ffffff;--bg-secondary:#f8fafc;--text-primary:#0f172a;--text-secondary:#475569;--border:#e2e8f0;--shadow-sm:0 1px 2px 0 rgba(0,0,0,0.05);--shadow:0 4px 6px -1px rgba(0,0,0,0.1);--shadow-lg:0 10px 15px -3px rgba(0,0,0,0.1);--radius-sm:6px;--radius:10px;--radius-lg:16px}
-        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{font-family:'Inter','Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--bg-secondary);color:var(--text-primary);line-height:1.5;min-height:100vh}
-        .hero{position:relative;min-height:60vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--primary)0%,var(--secondary)50%,#6366f1 100%);overflow:hidden}
-        .hero-bg{position:absolute;inset:0;z-index:0}.hero-mountains{position:absolute;bottom:0;left:0;width:100%;height:auto;opacity:.15;pointer-events:none}
-        .hero-content{position:relative;z-index:1;width:100%;padding:2rem 1rem;text-align:center;color:#fff}
-        .hero-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem;background:rgba(255,255,255,.15);backdrop-filter:blur(10px);border-radius:50px;font-size:.875rem;font-weight:500;margin-bottom:1.5rem;border:1px solid rgba(255,255,255,.2)}
-        .hero-title{font-size:clamp(2rem,5vw,3.5rem);font-weight:800;line-height:1.1;margin-bottom:1rem;text-shadow:0 2px 4px rgba(0,0,0,.1)}
-        .hero-subtitle{font-size:clamp(1rem,2vw,1.25rem);opacity:.95;max-width:600px;margin:0 auto 2rem;font-weight:400}
-        .hero-stats{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;margin-top:2rem}
-        .stat{text-align:center}.stat-number{font-size:2rem;font-weight:800}.stat-label{font-size:.875rem;opacity:.9}
-        .container{width:100%;max-width:1200px;margin:0 auto;padding:0 1rem}
-        .search-section{padding:2rem 1rem;margin-top:-3rem;position:relative;z-index:10}
-        .search-card{background:var(--bg-primary);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);padding:1.5rem;border:1px solid var(--border)}
-        .search-bar{display:flex;gap:.75rem;margin-bottom:1rem}
-        .search-input-wrapper{flex:1;position:relative;display:flex;align-items:center}
-        .search-icon{position:absolute;left:1rem;color:var(--text-secondary);font-size:1.125rem}
-        #searchInput{width:100%;padding:1rem 1rem 1rem 3rem;border:2px solid var(--border);border-radius:var(--radius);font-size:1rem;transition:border-color .2s,box-shadow .2s}
-        #searchInput:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(37,99,235,.1)}
-        .search-btn{display:flex;align-items:center;gap:.5rem;padding:1rem 1.5rem;background:var(--primary);color:#fff;border:none;border-radius:var(--radius);font-weight:600;cursor:pointer;transition:background .2s,transform .1s}
-        .search-btn:hover{background:var(--primary-dark);transform:translateY(-1px)}
-        .gradient-text{background:linear-gradient(135deg,#fff 0%,rgba(255,255,255,.8)100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-        .loading-state{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 2rem;text-align:center}
-        .loading-spinner{position:relative;width:60px;height:60px;margin-bottom:1rem}
-        .spinner-ring{position:absolute;width:100%;height:100%;border:3px solid transparent;border-top-color:var(--primary);border-radius:50%;animation:spin 1s linear infinite}
-        .spinner-ring:nth-child(2){width:75%;height:75%;top:12.5%;left:12.5%;border-top-color:var(--secondary);animation-duration:.8s;animation-direction:reverse}
-        .spinner-ring:nth-child(3){width:50%;height:50%;top:25%;left:25%;border-top-color:var(--accent);animation-duration:.6s}
-        @keyframes spin{to{transform:rotate(360deg)}}
-    </style>
-    
-    <!-- Preload Critical Fonts -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"></noscript>
-    
-    <!-- Entity SEO - Knowledge Graph Connection -->
-    <link rel="sameAs" href="https://www.wikidata.org/wiki/Q837">
-    <link rel="sameAs" href="https://dbpedia.org/resource/Nepal">
-    <link rel="sameAs" href="https://en.wikipedia.org/wiki/Nepal">
-    <link rel="sameAs" href="https://www.britannica.com/place/Nepal">
-    
-    <!-- Trust & Authority Signals -->
-    <meta name="citation_author" content="Nepal Services Directory">
-    <meta name="citation_date" content="2026-03-26">
-    <meta name="citation_title" content="Nepal Services Directory: Complete Database of Hospitals, Schools & Emergency Services">
-    <meta name="citation_publisher" content="Nepal Services Directory">
-    
-    <!-- Advanced Indexing Directives -->
-    <meta name="google" content="nositelinkssearchbox">
-    <meta name="google" content="notranslate">
-    <meta name="google" content="max-image-preview:large">
-    
-    <!-- Social Media Verification -->
-    <meta name="pinterest" content="nopin">
-    
-    <!-- Advanced Schema Markup -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "WebSite",
-                "@id": "https://nepalservice.online/#website",
-                "url": "https://nepalservice.online/",
-                "name": "Nepal Services Directory",
-                "description": "Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal",
-                "publisher": {
-                    "@id": "https://nepalservice.online/#organization"
-                },
-                "potentialAction": {
-                    "@type": "SearchAction",
-                    "target": {
-                        "@type": "EntryPoint",
-                        "urlTemplate": "https://nepalservice.online/?search={search_term_string}"
-                    },
-                    "query-input": "required name=search_term_string"
-                },
-                "inLanguage": ["en", "ne"]
-            },
-            {
-                "@type": "Organization",
-                "@id": "https://nepalservice.online/#organization",
-                "name": "Nepal Services Directory",
-                "alternateName": "नेपाल सेवा निर्देशिका",
-                "url": "https://nepalservice.online/",
-                "logo": {
-                    "@type": "ImageObject",
-                    "@id": "https://nepalservice.online/#logo",
-                    "url": "https://nepalservice.online/favicon.svg",
-                    "contentUrl": "https://nepalservice.online/favicon.svg",
-                    "width": 512,
-                    "height": 512,
-                    "caption": "Nepal Services Directory Logo",
-                    "encodingFormat": "image/svg+xml"
-                },
-                "image": {
-                    "@id": "https://nepalservice.online/#logo"
-                },
-                "sameAs": [
-                    "https://github.com/Raman21676/nepal-services",
-                    "https://www.wikidata.org/wiki/Q837",
-                    "https://dbpedia.org/resource/Nepal"
-                ],
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "contactType": "customer support",
-                    "availableLanguage": ["English", "Nepali"]
-                },
-                "foundingDate": "2024-01-01",
-                "founders": [
-                    {
-                        "@type": "Person",
-                        "name": "Nepal Services Directory Team"
-                    }
-                ],
-                "knowsAbout": [
-                    "Hospitals in Nepal",
-                    "Schools in Nepal",
-                    "Emergency Services Nepal",
-                    "Government Offices Nepal",
-                    "Healthcare Directory"
-                ]
-            },
-            {
-                "@type": "ImageObject",
-                "@id": "https://nepalservice.online/#heroimage",
-                "url": "https://nepalservice.online/images/mountain-illustration.svg",
-                "contentUrl": "https://nepalservice.online/images/mountain-illustration.svg",
-                "caption": "Beautiful mountain illustration representing Nepal's Himalayan landscape",
-                "description": "Illustrated mountain scenery representing Nepal's iconic Himalayan mountain ranges",
-                "encodingFormat": "image/svg+xml",
-                "width": 1920,
-                "height": 600
-            },
-            {
-                "@type": "WebPage",
-                "@id": "https://nepalservice.online/#webpage",
-                "url": "https://nepalservice.online/",
-                "name": "Nepal Services Directory | Hospitals, Schools & Emergency Contacts",
-                "isPartOf": {
-                    "@id": "https://nepalservice.online/#website"
-                },
-                "about": {
-                    "@id": "https://nepalservice.online/#organization"
-                },
-                "primaryImageOfPage": {
-                    "@id": "https://nepalservice.online/#heroimage"
-                },
-                "image": {
-                    "@id": "https://nepalservice.online/#heroimage"
-                },
-                "description": "Discover 5,300+ hospitals, schools, emergency services and government offices across all 77 districts of Nepal.",
-                "inLanguage": ["en", "ne"],
-                "speakable": {
-                    "@type": "SpeakableSpecification",
-                    "cssSelector": [".hero-title", ".hero-subtitle", ".seo-content h2", ".seo-content p"]
-                },
-                "datePublished": "2024-01-01",
-                "dateModified": "2026-03-26",
-                "lastReviewed": "2026-03-26",
-                "reviewedBy": {
-                    "@type": "Organization",
-                    "name": "Nepal Services Directory Editorial Team"
-                },
-                "mainEntity": {
-                    "@id": "https://nepalservice.online/#localbusiness"
-                },
-                "potentialAction": [
-                    {
-                        "@type": "ReadAction",
-                        "target": ["https://nepalservice.online/"]
-                    },
-                    {
-                        "@type": "SearchAction",
-                        "target": {
-                            "@type": "EntryPoint",
-                            "urlTemplate": "https://nepalservice.online/?search={search_term_string}"
-                        },
-                        "query-input": "required name=search_term_string"
-                    }
-                ]
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://nepalservice.online/#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Home",
-                        "item": "https://nepalservice.online/"
-                    }
-                ]
-            },
-            {
-                "@type": "ItemList",
-                "name": "Nepal Services Categories",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Hospitals & Clinics",
-                        "description": "Find hospitals, clinics, and medical facilities across Nepal"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Schools & Colleges",
-                        "description": "Discover educational institutions across all provinces"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": "Emergency Services",
-                        "description": "Police, ambulance, and emergency contact numbers"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 4,
-                        "name": "Government Offices",
-                        "description": "Government services and administrative offices"
-                    }
-                ]
-            },
-            {
-                "@type": "FAQPage",
-                "@id": "https://nepalservice.online/#faq",
-                "mainEntity": [
-                    {
-                        "@type": "Question",
-                        "name": "How can I find hospitals in Nepal?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Use Nepal Services Directory to search for hospitals by name, location (province, district, or city), or browse the complete list of hospitals across all 77 districts of Nepal. You can filter by hospital type, specialties, and emergency services."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "What emergency numbers should I call in Nepal?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "In Nepal, dial 100 for Police, 101 for Fire Brigade, 102 for Ambulance, and 103 for Traffic Police. Nepal Services Directory provides complete emergency contact information for all provinces and major cities including ambulance services, blood banks, and 24-hour hospitals."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How do I find schools in my district?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Nepal Services Directory allows you to search for schools and colleges by district, city, or province. Filter by school type (government, private, boarding), educational level (primary, secondary, higher secondary), and programs offered."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Is Nepal Services Directory free to use?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, Nepal Services Directory is completely free to use. Our mission is to make essential service information accessible to all Nepali citizens and visitors. The directory includes 5,300+ verified services across all 7 provinces and 77 districts."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "Can I find government offices through this directory?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Yes, Nepal Services Directory includes comprehensive listings of government offices including district administration offices, municipalities, police stations, and various government service centers with complete contact information and office hours."
-                        }
-                    },
-                    {
-                        "@type": "Question",
-                        "name": "How accurate is the information in Nepal Services Directory?",
-                        "acceptedAnswer": {
-                            "@type": "Answer",
-                            "text": "Our data is sourced from official government websites, verified hospital records, and educational institution databases. We regularly update information to ensure accuracy. However, we recommend calling the provided numbers to confirm details before visiting."
-                        }
-                    }
-                ]
-            },
-            {
-                "@type": "HowTo",
-                "@id": "https://nepalservice.online/#howto",
-                "name": "How to Find Essential Services in Nepal",
-                "description": "Step-by-step guide to finding hospitals, schools, and emergency services in Nepal using the Nepal Services Directory",
-                "totalTime": "PT2M",
-                "estimatedCost": {
-                    "@type": "MonetaryAmount",
-                    "currency": "NPR",
-                    "value": "0"
-                },
-                "supply": [
-                    {
-                        "@type": "HowToSupply",
-                        "name": "Internet Connection"
-                    },
-                    {
-                        "@type": "HowToSupply",
-                        "name": "Device (Phone/Computer)"
-                    }
-                ],
-                "tool": [
-                    {
-                        "@type": "HowToTool",
-                        "name": "Nepal Services Directory Website"
-                    }
-                ],
-                "step": [
-                    {
-                        "@type": "HowToStep",
-                        "position": 1,
-                        "name": "Visit Nepal Services Directory",
-                        "text": "Open your web browser and go to nepalservice.online. The website works on all devices including mobile phones, tablets, and computers.",
-                        "url": "https://nepalservice.online/"
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 2,
-                        "name": "Search or Browse Services",
-                        "text": "Use the search bar to find specific services by name (e.g., 'Grande Hospital', 'St. Xaviers') or browse by category using the quick filter buttons for Hospitals, Schools, Emergency Services, etc.",
-                        "url": "https://nepalservice.online/?search=hospital"
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 3,
-                        "name": "Filter by Location",
-                        "text": "Use the dropdown filters to narrow results by Province (Koshi, Bagmati, Gandaki, etc.), District, or City to find services near you.",
-                        "url": "https://nepalservice.online/?province=bagmati"
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 4,
-                        "name": "View Service Details",
-                        "text": "Click on any service card to view complete information including phone numbers, addresses, services offered, specialties, and operating hours.",
-                        "url": "https://nepalservice.online/"
-                    },
-                    {
-                        "@type": "HowToStep",
-                        "position": 5,
-                        "name": "Contact or Visit",
-                        "text": "Use the provided phone numbers to call ahead, or click on the address to get directions. Save important contacts for quick access in emergencies.",
-                        "url": "https://nepalservice.online/"
-                    }
-                ]
-            },
-            {
-                "@type": "LocalBusiness",
-                "@id": "https://nepalservice.online/#localbusiness",
-                "name": "Nepal Services Directory",
-                "description": "Comprehensive online directory of hospitals, schools, emergency services and government offices across Nepal",
-                "url": "https://nepalservice.online/",
-                "telephone": "+977-1-XXXXXXX",
-                "email": "contact@nepalservice.online",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressCountry": "NP",
-                    "addressLocality": "Kathmandu",
-                    "addressRegion": "Bagmati Province"
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": 28.3949,
-                    "longitude": 84.1240
-                },
-                "openingHoursSpecification": {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                    "opens": "00:00",
-                    "closes": "23:59"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "reviewCount": "1247",
-                    "bestRating": "5",
-                    "worstRating": "1"
-                },
-                "review": [
-                    {
-                        "@type": "Review",
-                        "author": {
-                            "@type": "Person",
-                            "name": "Ramesh Shrestha"
-                        },
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": "5",
-                            "bestRating": "5"
-                        },
-                        "reviewBody": "Found the best hospital in Kathmandu within seconds! This directory saved my father's life by helping us locate the nearest cardiac center during an emergency. The emergency contact numbers are accurate and up-to-date.",
-                        "datePublished": "2026-03-15",
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Nepal Services Directory"
-                        }
-                    },
-                    {
-                        "@type": "Review",
-                        "author": {
-                            "@type": "Person",
-                            "name": "Sita Devi Sharma"
-                        },
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": "5",
-                            "bestRating": "5"
-                        },
-                        "reviewBody": "As a teacher in Pokhara, I use this to find schools and educational resources. The search is fast and the filters by province and district are incredibly helpful. Highly recommend for anyone in Nepal!",
-                        "datePublished": "2026-02-28",
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Nepal Services Directory"
-                        }
-                    },
-                    {
-                        "@type": "Review",
-                        "author": {
-                            "@type": "Person",
-                            "name": "Prakash Rai"
-                        },
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": "4",
-                            "bestRating": "5"
-                        },
-                        "reviewBody": "Great resource for finding government offices. I was able to locate my district administration office and get my citizenship papers processed. The mobile-friendly design works perfectly on my phone.",
-                        "datePublished": "2026-03-10",
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Nepal Services Directory"
-                        }
-                    }
-                ],
-                "priceRange": "Free",
-                "paymentAccepted": "None - Free Service",
-                "currenciesAccepted": "NPR",
-                "areaServed": {
-                    "@type": "Country",
-                    "name": "Nepal"
-                },
-                "hasOfferCatalog": {
-                    "@type": "OfferCatalog",
-                    "name": "Nepal Services",
-                    "itemListElement": [
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "Hospital Directory"
-                            }
-                        },
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "School Directory"
-                            }
-                        },
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "Emergency Contacts"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "@type": "Dataset",
-                "@id": "https://nepalservice.online/#dataset",
-                "name": "Nepal Services Database",
-                "description": "Comprehensive dataset of hospitals, schools, emergency services, and government offices across all 77 districts of Nepal",
-                "url": "https://nepalservice.online/",
-                "sameAs": "https://github.com/Raman21676/nepal-services",
-                "license": "https://opensource.org/licenses/MIT",
-                "isAccessibleForFree": true,
-                "creator": {
-                    "@id": "https://nepalservice.online/#organization"
-                },
-                "distribution": [
-                    {
-                        "@type": "DataDownload",
-                        "encodingFormat": "JSON",
-                        "contentUrl": "https://nepalservice.online/data/services.json"
-                    }
-                ],
-                "spatialCoverage": {
-                    "@type": "Place",
-                    "name": "Nepal",
-                    "geo": {
-                        "@type": "GeoShape",
-                        "box": "26.3479 80.0582 30.4469 88.2015"
-                    }
-                },
-                "temporalCoverage": "2024/2026",
-                "datePublished": "2024-01-01",
-                "dateModified": "2026-03-26"
-            },
-            {
-                "@type": "SiteNavigationElement",
-                "@id": "https://nepalservice.online/#navigation",
-                "name": "Main Navigation",
-                "hasPart": [
-                    {
-                        "@type": "SiteNavigationElement",
-                        "name": "Search Hospitals",
-                        "url": "https://nepalservice.online/?category=hospitals"
-                    },
-                    {
-                        "@type": "SiteNavigationElement",
-                        "name": "Search Schools",
-                        "url": "https://nepalservice.online/?category=schools"
-                    },
-                    {
-                        "@type": "SiteNavigationElement",
-                        "name": "Emergency Services",
-                        "url": "https://nepalservice.online/?category=emergency"
-                    },
-                    {
-                        "@type": "SiteNavigationElement",
-                        "name": "Services by Province",
-                        "url": "https://nepalservice.online/#provinces"
-                    }
-                ]
-            },
-            {
-                "@type": "VideoObject",
-                "@id": "https://nepalservice.online/#videotutorial",
-                "name": "How to Use Nepal Services Directory",
-                "description": "Quick tutorial showing how to find hospitals, schools, and emergency services across Nepal using our directory",
-                "thumbnailUrl": "https://nepalservice.online/images/video-thumbnail.jpg",
-                "uploadDate": "2026-03-01",
-                "duration": "PT2M30S",
-                "publisher": {
-                    "@id": "https://nepalservice.online/#organization"
-                },
-                "contentUrl": "https://nepalservice.online/videos/tutorial.mp4",
-                "embedUrl": "https://nepalservice.online/videos/tutorial",
-                "interactionStatistic": {
-                    "@type": "InteractionCounter",
-                    "interactionType": { "@type": "WatchAction" },
-                    "userInteractionCount": 1250
-                }
-            },
-            {
-                "@type": "MedicalWebPage",
-                "@id": "https://nepalservice.online/#medicalpage",
-                "about": "Medical and healthcare services in Nepal",
-                "lastReviewed": "2026-03-26",
-                "reviewedBy": {
-                    "@type": "Organization",
-                    "name": "Nepal Medical Council Verified"
-                },
-                "medicalAudience": {
-                    "@type": "MedicalAudience",
-                    "audienceType": "Patient"
-                },
-                "text": "This directory provides contact information for hospitals, clinics, and medical facilities. For medical emergencies, always dial 102 for ambulance services."
-            }
-        ]
-    }
-    </script>
-    
-    <!-- Event Tracking for SEO Analytics -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "InteractionCounter",
-        "interactionService": {
-            "@type": "WebSite",
-            "name": "Nepal Services Directory",
-            "url": "https://nepalservice.online/"
-        },
-        "interactionType": [
-            "https://schema.org/SearchAction",
-            "https://schema.org/ShareAction"
-        ]
-    }
-    </script>
 </head>
 <body>
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-toggle" title="Toggle dark mode">
+        <div class="toggle-track">
+            <div class="toggle-sun"><i class="fas fa-sun"></i></div>
+            <div class="toggle-moon"><i class="fas fa-moon"></i></div>
+            <div class="toggle-thumb"></div>
+        </div>
+    </button>
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-bg">
-            <img src="images/mountain-illustration.svg?v=37" alt="Beautiful Nepal Himalayan mountain range landscape illustration showing snow-capped peaks" class="hero-mountains" fetchpriority="high" loading="eager" decoding="async" width="1920" height="600" itemprop="image">
+            <img src="images/mountain-illustration.svg" alt="Nepal Mountains" class="hero-mountains">
             <div class="hero-gradient"></div>
         </div>
         <div class="hero-content">
             <div class="container">
                 <div class="hero-badge">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span data-i18n="hero.badge">All 7 Provinces</span>
+                    <span>All 7 Provinces</span>
                 </div>
-                <h1 class="hero-title" itemprop="headline">
-                    <span class="gradient-text" data-i18n="hero.titleNepal">Nepal</span> <span data-i18n="hero.title">Services Directory</span>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Nepal</span> Services Directory
                 </h1>
-                <p class="hero-subtitle" data-i18n="hero.subtitle" itemprop="description">
-                    Discover hospitals, schools, emergency contacts, and government offices across Nepal
+                <p class="hero-subtitle">
+                    Discover hospitals, schools, emergency contacts, and government offices 
+                    <span class="highlight">across Nepal</span>
                 </p>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number" id="statHospitals">0</span>
-                        <span class="stat-label" data-i18n="hero.stats.hospitals">Hospitals</span>
+                        <span class="stat-label">Hospitals</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number" id="statSchools">0</span>
-                        <span class="stat-label" data-i18n="hero.stats.schools">Schools</span>
+                        <span class="stat-label">Schools</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number" id="statServices">0</span>
-                        <span class="stat-label" data-i18n="hero.stats.services">Services</span>
+                        <span class="stat-label">Services</span>
                     </div>
                 </div>
             </div>
@@ -836,9 +71,7 @@
                         <input 
                             type="text" 
                             id="searchInput" 
-                            data-i18n="search.placeholder"
-                            data-i18n-attr="placeholder"
-                            placeholder="Search hospitals, schools, clinics..." 
+                            placeholder="Search hospitals, schools, clinics... (Try: 'cardiac', 'international school', 'Biratnagar')" 
                             autocomplete="off"
                         >
                         <button id="clearSearch" class="clear-btn hidden" title="Clear search">
@@ -846,7 +79,7 @@
                         </button>
                     </div>
                     <button id="searchBtn" class="search-btn">
-                        <span data-i18n="search.button">Search</span>
+                        <span>Search</span>
                         <i class="fas fa-arrow-right"></i>
                     </button>
                 </div>
@@ -855,23 +88,23 @@
                 <div class="quick-filters">
                     <button class="quick-filter" data-category="hospitals">
                         <i class="fas fa-hospital"></i>
-                        <span data-i18n="search.quickFilters.hospitals">Hospitals</span>
+                        <span>Hospitals</span>
                     </button>
                     <button class="quick-filter" data-category="schools">
                         <i class="fas fa-graduation-cap"></i>
-                        <span data-i18n="search.quickFilters.schools">Schools</span>
+                        <span>Schools</span>
                     </button>
                     <button class="quick-filter" data-category="clinics">
                         <i class="fas fa-clinic-medical"></i>
-                        <span data-i18n="search.quickFilters.clinics">Clinics</span>
+                        <span>Clinics</span>
                     </button>
                     <button class="quick-filter" data-category="emergency">
                         <i class="fas fa-ambulance"></i>
-                        <span data-i18n="search.quickFilters.emergency">Emergency</span>
+                        <span>Emergency</span>
                     </button>
                     <button class="quick-filter" data-category="pharmacies">
                         <i class="fas fa-pills"></i>
-                        <span data-i18n="search.quickFilters.pharmacies">Pharmacies</span>
+                        <span>Pharmacies</span>
                     </button>
                 </div>
 
@@ -879,59 +112,58 @@
                 <div class="advanced-filters">
                     <div class="filter-row">
                         <div class="filter-group">
-                            <label><i class="fas fa-map"></i> <span data-i18n="filters.province">Province</span></label>
+                            <label><i class="fas fa-map"></i> Province</label>
                             <select id="provinceFilter">
-                                <option value="all" data-i18n="filters.allProvinces">All Provinces</option>
-                                <option value="bagmati" data-i18n="provinces.bagmati">Bagmati Province</option>
-                                <option value="koshi" data-i18n="provinces.koshi">Koshi Province</option>
-                                <option value="madhesh" data-i18n="provinces.madhesh">Madhesh Province</option>
-                                <option value="gandaki" data-i18n="provinces.gandaki">Gandaki Province</option>
-                                <option value="karnali" data-i18n="provinces.karnali">Karnali Province</option>
-                                <option value="lumbini" data-i18n="provinces.lumbini">Lumbini Province</option>
-                                <option value="sudurpashchim" data-i18n="provinces.sudurpashchim">Sudurpashchim Province</option>
+                                <option value="all">All Provinces</option>
+                                <option value="bagmati">Bagmati Province</option>
+                                <option value="koshi">Koshi Province</option>
+                                <option value="madhesh">Madhesh Province</option>
+                                <option value="gandaki">Gandaki Province</option>
+                                <option value="karnali">Karnali Province</option>
+                                <option value="sudurpashchim">Sudurpashchim Province</option>
                             </select>
                         </div>
                         
                         <div class="filter-group">
-                            <label><i class="fas fa-city"></i> <span data-i18n="filters.district">District</span></label>
+                            <label><i class="fas fa-city"></i> District</label>
                             <select id="districtFilter">
-                                <option value="all" data-i18n="filters.allDistricts">All Districts</option>
+                                <option value="all">All Districts</option>
                             </select>
                         </div>
                         
                         <div class="filter-group">
-                            <label><i class="fas fa-building"></i> <span data-i18n="filters.city">City</span></label>
+                            <label><i class="fas fa-building"></i> City</label>
                             <select id="cityFilter">
-                                <option value="all" data-i18n="filters.allCities">All Cities</option>
+                                <option value="all">All Cities</option>
                             </select>
                         </div>
                         
                         <div class="filter-group">
-                            <label><i class="fas fa-tag"></i> <span data-i18n="filters.category">Category</span></label>
+                            <label><i class="fas fa-tag"></i> Category</label>
                             <select id="categoryFilter">
-                                <option value="all" data-i18n="filters.allCategories">All Categories</option>
-                                <option value="hospitals" data-i18n="categories.hospitals">Hospitals</option>
-                                <option value="schools" data-i18n="categories.schools">Schools</option>
-                                <option value="colleges" data-i18n="categories.colleges">Colleges</option>
-                                <option value="clinics" data-i18n="categories.clinics">Clinics</option>
-                                <option value="pharmacies" data-i18n="categories.pharmacies">Pharmacies</option>
-                                <option value="veterinary" data-i18n="categories.veterinary">Veterinary</option>
-                                <option value="blood_banks" data-i18n="categories.blood_banks">Blood Banks</option>
-                                <option value="ambulance" data-i18n="categories.ambulance">Ambulance</option>
-                                <option value="emergency" data-i18n="categories.emergency">Emergency</option>
-                                <option value="ward" data-i18n="categories.ward">Ward Offices</option>
-                                <option value="forest" data-i18n="categories.forest">Forest Offices</option>
-                                <option value="government" data-i18n="categories.government">Government</option>
+                                <option value="all">All Categories</option>
+                                <option value="hospitals">Hospitals</option>
+                                <option value="schools">Schools</option>
+                                <option value="colleges">Colleges</option>
+                                <option value="clinics">Clinics</option>
+                                <option value="pharmacies">Pharmacies</option>
+                                <option value="veterinary">Veterinary</option>
+                                <option value="blood_banks">Blood Banks</option>
+                                <option value="ambulance">Ambulance</option>
+                                <option value="emergency">Emergency</option>
+                                <option value="ward">Ward Offices</option>
+                                <option value="forest">Forest Offices</option>
+                                <option value="government">Government</option>
                             </select>
                         </div>
                         
                         <div class="filter-group">
-                            <label><i class="fas fa-filter"></i> <span data-i18n="filters.type">Type</span></label>
+                            <label><i class="fas fa-filter"></i> Type</label>
                             <select id="typeFilter">
-                                <option value="all" data-i18n="filters.allTypes">All Types</option>
-                                <option value="government" data-i18n="types.government">Government</option>
-                                <option value="private" data-i18n="types.private">Private</option>
-                                <option value="ngo" data-i18n="types.ngo">NGO/Non-profit</option>
+                                <option value="all">All Types</option>
+                                <option value="government">Government</option>
+                                <option value="private">Private</option>
+                                <option value="ngo">NGO/Non-profit</option>
                             </select>
                         </div>
                     </div>
@@ -939,9 +171,9 @@
                     <div class="filter-actions">
                         <button id="resetBtn" class="btn-reset">
                             <i class="fas fa-undo"></i>
-                            <span data-i18n="filters.reset">Reset Filters</span>
+                            Reset Filters
                         </button>
-                        <span id="resultsCount" class="results-count" data-i18n="loading">Loading data...</span>
+                        <span id="resultsCount" class="results-count">Loading data...</span>
                     </div>
                 </div>
             </div>
@@ -951,28 +183,25 @@
     <!-- Main Results Section -->
     <main class="main-content">
         <div class="container">
-            <!-- Loading State - data-nosnippet prevents indexing of loading text -->
-            <div id="loading" class="loading-state" data-nosnippet="true">
+            <!-- Loading State -->
+            <div id="loading" class="loading-state">
                 <div class="loading-spinner">
                     <div class="spinner-ring"></div>
                     <div class="spinner-ring"></div>
                     <div class="spinner-ring"></div>
                 </div>
-                <p data-i18n="loading">Loading services from all 7 provinces...</p>
-                <div class="loading-progress">
-                    <div class="loading-progress-bar"></div>
-                </div>
+                <p>Loading services from all 7 provinces...</p>
             </div>
 
             <!-- Results Grid -->
             <div id="resultsSection" class="results-section hidden">
                 <div class="results-header">
-                    <h2 class="results-title" data-i18n="results.title">Search Results</h2>
+                    <h2 class="results-title">Search Results</h2>
                     <div class="view-toggle">
-                        <button class="view-btn active" data-view="grid" data-i18n-attr="title" data-i18n="results.gridView">
+                        <button class="view-btn active" data-view="grid" title="Grid view">
                             <i class="fas fa-th-large"></i>
                         </button>
-                        <button class="view-btn" data-view="list" data-i18n-attr="title" data-i18n="results.listView">
+                        <button class="view-btn" data-view="list" title="List view">
                             <i class="fas fa-list"></i>
                         </button>
                     </div>
@@ -988,15 +217,15 @@
                 </div>
             </div>
 
-            <!-- No Results State - data-nosnippet for dynamic content -->
-            <div id="noResults" class="no-results hidden" data-nosnippet="true">
+            <!-- No Results State -->
+            <div id="noResults" class="no-results hidden">
                 <div class="no-results-icon">
                     <i class="fas fa-search"></i>
                 </div>
-                <h3 data-i18n="results.noResults.title">No results found</h3>
-                <p data-i18n="results.noResults.message">Try adjusting your search terms or filters</p>
+                <h3>No results found</h3>
+                <p>Try adjusting your search terms or filters</p>
                 <div class="search-suggestions">
-                    <p data-i18n="results.noResults.suggestions">Popular searches:</p>
+                    <p>Popular searches:</p>
                     <button class="suggestion-tag" data-search="hospital">Hospital</button>
                     <button class="suggestion-tag" data-search="school">School</button>
                     <button class="suggestion-tag" data-search="Kathmandu">Kathmandu</button>
@@ -1005,984 +234,42 @@
             </div>
         </div>
     </main>
-    
-    <!-- SEO Content Section - Hidden visually but visible to search engines -->
-    <section class="seo-content-section" aria-label="About Nepal Services Directory">
-        <div class="container">
-            <div class="seo-content">
-                <h2 data-i18n="seo.aboutTitle">Complete Directory of Nepal Services</h2>
-                <p data-i18n="seo.aboutText">
-                    Nepal Services Directory is the most comprehensive online resource for finding essential services across all 77 districts of Nepal. 
-                    Our database includes <strong>hospitals in Kathmandu</strong>, <strong>schools in Pokhara</strong>, 
-                    <strong>emergency contacts in Birgunj</strong>, and thousands of other verified service providers.
-                </p>
-                
-                <div class="seo-grid">
-                    <div class="seo-card">
-                        <h3 data-i18n="seo.hospitalsTitle">Hospitals & Medical Services</h3>
-                        <p data-i18n="seo.hospitalsText">
-                            Find the best hospitals in Nepal including Grande International Hospital, Norvic International Hospital, 
-                            Teaching Hospital, Patan Hospital, and Bir Hospital. Get emergency numbers, addresses, 
-                            specialties, and services offered. Search for hospitals by location: 
-                            <a href="/?city=kathmandu&category=hospital">Kathmandu</a>, 
-                            <a href="/?city=pokhara&category=hospital">Pokhara</a>, 
-                            <a href="/?city=birgunj&category=hospital">Birgunj</a>, 
-                            <a href="/?city=biratnagar&category=hospital">Biratnagar</a>.
-                        </p>
-                    </div>
-                    
-                    <div class="seo-card">
-                        <h3 data-i18n="seo.schoolsTitle">Schools & Education</h3>
-                        <p data-i18n="seo.schoolsText">
-                            Discover top schools and colleges in Nepal. Find government schools, private boarding schools, 
-                            and international schools. Includes St. Xaviers College, Budhanilkantha School, 
-                            Trinity International College, and many more. Browse schools in 
-                            <a href="/?province=bagmati&category=school">Bagmati Province</a>, 
-                            <a href="/?province=gandaki&category=school">Gandaki Province</a>, and other provinces.
-                        </p>
-                    </div>
-                    
-                    <div class="seo-card">
-                        <h3 data-i18n="seo.emergencyTitle">Emergency Services</h3>
-                        <p data-i18n="seo.emergencyText">
-                            Access critical emergency contacts including police (100), ambulance (102), fire (101), 
-                            and blood banks across Nepal. Find 24-hour hospitals, emergency rooms, and trauma centers 
-                            in every district. Emergency services available in all 7 provinces.
-                        </p>
-                    </div>
-                    
-                    <div class="seo-card">
-                        <h3 data-i18n="seo.governmentTitle">Government Offices</h3>
-                        <p data-i18n="seo.governmentText">
-                            Locate government offices, district administration offices, municipalities, and public service centers. 
-                            Find contact information for government hospitals, public schools, and administrative services 
-                            in your area.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="seo-provinces">
-                    <h3 data-i18n="seo.provincesTitle">Services by Province</h3>
-                    <ul class="seo-links">
-                        <li><a href="/?province=koshi">Koshi Province</a> - Biratnagar, Itahari, Dharan services</li>
-                        <li><a href="/?province=madhesh">Madhesh Province</a> - Janakpur, Birgunj services</li>
-                        <li><a href="/?province=bagmati">Bagmati Province</a> - Kathmandu, Lalitpur, Bhaktapur services</li>
-                        <li><a href="/?province=gandaki">Gandaki Province</a> - Pokhara, Baglung services</li>
-                        <li><a href="/?province=lumbini">Lumbini Province</a> - Butwal, Bhairahawa services</li>
-                        <li><a href="/?province=karnali">Karnali Province</a> - Surkhet, Jumla services</li>
-                        <li><a href="/?province=sudurpashchim">Sudurpashchim Province</a> - Dhangadhi, Mahendranagar services</li>
-                    </ul>
-                </div>
-                
-                <div class="seo-keywords-rich">
-                    <h3 data-i18n="seo.keywordsTitle">Popular Searches - Top Hospitals in Nepal</h3>
-                    <div class="keyword-cloud">
-                        <a href="/?search=grande">Grande Hospital</a>
-                        <a href="/?search=norvic">Norvic Hospital</a>
-                        <a href="/?search=mediciti">Mediciti Hospital</a>
-                        <a href="/?search=hams">HAMS Hospital</a>
-                        <a href="/?search=bir+hospital">Bir Hospital</a>
-                        <a href="/?search=patan+hospital">Patan Hospital</a>
-                        <a href="/?search=teaching+hospital">Teaching Hospital</a>
-                        <a href="/?search=manipal">Manipal Hospital</a>
-                        <a href="/?search=alka">Alka Hospital</a>
-                        <a href="/?search=vayodha">Vayodha Hospital</a>
-                        <a href="/?search=om+hospital">OM Hospital</a>
-                        <a href="/?search=star+hospital">Star Hospital</a>
-                        <a href="/?search=birendra+army">Birendra Army Hospital</a>
-                        <a href="/?search=gangalal">Gangalal Heart Center</a>
-                        <a href="/?search=bhaktapur+hospital">Bhaktapur Hospital</a>
-                        <a href="/?search=dhulikhel">Dhulikhel Hospital</a>
-                        <a href="/?search=kanti+hospital">Kanti Children's Hospital</a>
-                        <a href="/?search=paropkar">Paropkar Maternity</a>
-                        <a href="/?search=maharajgunj">Maharajgunj Medical</a>
-                        <a href="/?search=pokhara+health">Pokhara Health Science</a>
-                        <a href="/?search=civil+hospital">Civil Hospital</a>
-                        <a href="/?search=lumbini+medical">Lumbini Medical College</a>
-                        <a href="/?search=birat+medical">Birat Medical College</a>
-                        <a href="/?search=kist+medical">KIST Medical College</a>
-                        <a href="/?search=janaki+medical">Janaki Medical College</a>
-                        <a href="/?search=chitwan+medical">Chitwan Medical College</a>
-                        <a href="/?search=geta+medical">Geta Medical College</a>
-                        <a href="/?search=patan+academy">Patan Academy</a>
-                        <a href="/?search=national+trauma">National Trauma Center</a>
-                        <a href="/?search=tilganga">Tilganga Eye Hospital</a>
-                        <a href="/?search=bp+eye">BP Eye Foundation</a>
-                        <a href="/?search=ciwec">CIWEC Clinic</a>
-                    </div>
-                </div>
-                
-                <div class="seo-keywords-rich">
-                    <h3 data-i18n="seo.keywordsTitle2">Popular Searches - Best Schools & Colleges</h3>
-                    <div class="keyword-cloud">
-                        <a href="/?search=st+xaviers">St. Xaviers College</a>
-                        <a href="/?search=budhanilkantha">Budhanilkantha School</a>
-                        <a href="/?search=trinity">Trinity College</a>
-                        <a href="/?search=rato+bangala">Rato Bangala School</a>
-                        <a href="/?search=lincoln">Lincoln School</a>
-                        <a href="/?search=lyceum">Lyceum Academy</a>
-                        <a href="/?search=saipal">Saipal Academy</a>
-                        <a href="/?search=v.s.+niketan">V.S. Niketan</a>
-                        <a href="/?search=nehru+academy">Nehru Academy</a>
-                        <a href="/?search=gems">GEMS School</a>
-                        <a href="/?search=prasadi">Prasadi Academy</a>
-                        <a href="/?search=whitefield">Whitefield Academy</a>
-                        <a href="/?search=udaaya">Udaaya School</a>
-                        <a href="/?search=kist+school">KIST School</a>
-                        <a href="/?search=apex">Apex College</a>
-                        <a href="/?search=universal+college">Universal College</a>
-                        <a href="/?search=global+college">Global College</a>
-                        <a href="/?search=golden+gate">Golden Gate College</a>
-                        <a href="/?search=academy+college">Academy College</a>
-                        <a href="/?search=kings+college">Kings College</a>
-                        <a href="/?search=st+marys">St. Mary's School</a>
-                        <a href="/?search=st+thomas">St. Thomas School</a>
-                        <a href="/?search=jesus+maria">Jesus Maria School</a>
-                        <a href="/?search=chandbagh">Chandbagh School</a>
-                        <a href="/?search=mitra+school">Mitra School</a>
-                        <a href="/?search=adhunik">Adhunik School</a>
-                        <a href="/?search=pentagon">Pentagon School</a>
-                        <a href="/?search=new+height">New Height School</a>
-                        <a href="/?search=madan+bhandari">Madan Bhandari School</a>
-                        <a href="/?search=shuvatara">Shuvatara School</a>
-                        <a href="/?search=bhanubhakta">Bhanubhakta School</a>
-                        <a href="/?search=little+angels">Little Angels School</a>
-                        <a href="/?search=kanjirowa">Kanjirowa School</a>
-                        <a href="/?search=pinnacle">Pinnacle School</a>
-                        <a href="/?search=elite+school">Elite School</a>
-                    </div>
-                </div>
-                
-                <div class="seo-keywords-rich">
-                    <h3 data-i18n="seo.keywordsTitle3">Emergency Services & Helplines</h3>
-                    <div class="keyword-cloud">
-                        <a href="/?search=ambulance">Ambulance Number 102</a>
-                        <a href="/?search=police+number">Police 100</a>
-                        <a href="/?search=fire+brigade">Fire Brigade 101</a>
-                        <a href="/?search=traffic+police">Traffic Police 103</a>
-                        <a href="/?search=tourist+police">Tourist Police</a>
-                        <a href="/?search=blood+bank">Blood Bank</a>
-                        <a href="/?search=blood+donation">Blood Donation</a>
-                        <a href="/?search=24+hour+pharmacy">24 Hour Pharmacy</a>
-                        <a href="/?search=night+pharmacy">Night Pharmacy</a>
-                        <a href="/?search=poison+control">Poison Control</a>
-                        <a href="/?search=women+helpline">Women Helpline</a>
-                        <a href="/?search=child+helpline">Child Helpline 1098</a>
-                        <a href="/?search=suicide+helpline">Suicide Helpline</a>
-                        <a href="/?search=mental+health+emergency">Mental Health Emergency</a>
-                        <a href="/?search=air+ambulance">Air Ambulance</a>
-                        <a href="/?search=mountain+rescue">Mountain Rescue</a>
-                        <a href="/?search=helicopter+rescue">Helicopter Rescue</a>
-                        <a href="/?search=tourist+emergency">Tourist Emergency</a>
-                        <a href="/?search=cyber+crime">Cyber Crime Report</a>
-                        <a href="/?search=consumer+helpline">Consumer Helpline</a>
-                        <a href="/?search=legal+aid">Legal Aid</a>
-                        <a href="/?search=animal+rescue">Animal Rescue</a>
-                        <a href="/?search=electricity+emergency">Electricity Emergency</a>
-                        <a href="/?search=water+emergency">Water Emergency</a>
-                        <a href="/?search=disaster+management">Disaster Management</a>
-                        <a href="/?search=earthquake+emergency">Earthquake Emergency</a>
-                    </div>
-                </div>
-                
-                <!-- Voice Search Optimized FAQ Section -->
-                <div class="voice-search-faq" style="margin-top: 2rem;">
-                    <h3>Frequently Asked Questions (Voice Search Optimized)</h3>
-                    
-                    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
-                        <h4 itemprop="name">What is the emergency ambulance number in Nepal?</h4>
-                        <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-                            <div itemprop="text">
-                                <p>The emergency ambulance number in Nepal is <strong>102</strong>. You can also call <strong>100</strong> for police, <strong>101</strong> for fire services, and <strong>103</strong> for traffic police. Nepal Services Directory provides a comprehensive list of ambulance services and emergency contacts across all 7 provinces.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
-                        <h4 itemprop="name">How do I find the best hospital near me in Kathmandu?</h4>
-                        <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-                            <div itemprop="text">
-                                <p>Use Nepal Services Directory to find the best hospitals near you in Kathmandu. Search by your location, filter by specialty (cardiac, maternity, pediatric), and view ratings, contact numbers, and addresses. Top hospitals include Grande International Hospital, Norvic International Hospital, Teaching Hospital, and Bir Hospital.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
-                        <h4 itemprop="name">Where can I find schools in Pokhara?</h4>
-                        <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-                            <div itemprop="text">
-                                <p>Nepal Services Directory lists all schools in Pokhara and Gandaki Province. Filter by school type (government, private, boarding), educational level, and programs offered. You can find contact information, addresses, and details for schools in Pokhara city and surrounding areas.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
-                        <h4 itemprop="name">Is Nepal Services Directory free to use?</h4>
-                        <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-                            <div itemprop="text">
-                                <p>Yes, Nepal Services Directory is completely free to use. We provide access to over 5,300 verified services including hospitals, schools, emergency contacts, and government offices across all 77 districts of Nepal. No registration or payment is required.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item" itemscope itemtype="https://schema.org/Question">
-                        <h4 itemprop="name">How accurate is the information on Nepal Services Directory?</h4>
-                        <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
-                            <div itemprop="text">
-                                <p>Our data is sourced from official government websites, verified hospital records, and educational institution databases. Emergency contact numbers are verified monthly, and facility information is updated quarterly. However, we recommend calling ahead to confirm details before visiting.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="seo-keywords-rich">
-                    <h3 data-i18n="seo.keywordsTitle4">Medical Specialties</h3>
-                    <div class="keyword-cloud">
-                        <a href="/?search=heart+hospital">Heart Hospital</a>
-                        <a href="/?search=cancer+hospital">Cancer Hospital</a>
-                        <a href="/?search=children+hospital">Children Hospital</a>
-                        <a href="/?search=mental+hospital">Mental Hospital</a>
-                        <a href="/?search=eye+hospital">Eye Hospital</a>
-                        <a href="/?search=skin+hospital">Skin Hospital</a>
-                        <a href="/?search=dental+hospital">Dental Hospital</a>
-                        <a href="/?search=orthopedic">Orthopedic Hospital</a>
-                        <a href="/?search=neurology">Neurology Hospital</a>
-                        <a href="/?search=gynecology">Gynecology Hospital</a>
-                        <a href="/?search=urology">Urology Hospital</a>
-                        <a href="/?search=nephrology">Nephrology Hospital</a>
-                        <a href="/?search=gastroenterology">Gastroenterology</a>
-                        <a href="/?search=liver+hospital">Liver Hospital</a>
-                        <a href="/?search=pulmonology">Pulmonology Hospital</a>
-                        <a href="/?search=oncology">Oncology Hospital</a>
-                        <a href="/?search=endocrinology">Endocrinology</a>
-                        <a href="/?search=diabetes+hospital">Diabetes Hospital</a>
-                        <a href="/?search=fertility+center">Fertility Center</a>
-                        <a href="/?search=ivf+center">IVF Center</a>
-                        <a href="/?search=physiotherapy">Physiotherapy Center</a>
-                        <a href="/?search=rehabilitation">Rehabilitation Center</a>
-                        <a href="/?search=dialysis+center">Dialysis Center</a>
-                        <a href="/?search=mri+center">MRI Center</a>
-                        <a href="/?search=ct+scan">CT Scan Center</a>
-                        <a href="/?search=vaccination">Vaccination Center</a>
-                    </div>
-                </div>
-                
-                <div class="seo-stats-detailed">
-                    <h3 data-i18n="seo.statsTitle">Nepal Services at a Glance</h3>
-                    <ul>
-                        <li><strong>7 Provinces</strong> - Complete coverage of all provinces in Nepal</li>
-                        <li><strong>77 Districts</strong> - Services available in every district</li>
-                        <li><strong>138 Cities</strong> - Urban and rural areas covered</li>
-                        <li><strong>5,300+ Services</strong> - Hospitals, schools, emergency contacts & more</li>
-                        <li><strong>100% Free</strong> - No charges for using our directory</li>
-                        <li><strong>24/7 Available</strong> - Access anytime, anywhere</li>
-                        <li><strong>Mobile Friendly</strong> - Works on all devices</li>
-                        <li><strong>Nepali & English</strong> - Available in both languages</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Search Intent Matching Section -->
-    <section class="intent-match-section" aria-label="Search by Intent">
-        <div class="container">
-            <h2 class="section-title">🔍 Find Services By Your Need</h2>
-            <p class="section-subtitle">We understand what you're looking for. Select your intent:</p>
-            
-            <div class="intent-grid">
-                <!-- Informational Intent -->
-                <div class="intent-card">
-                    <h4><i class="fas fa-info-circle"></i> Learn & Research <span class="intent-badge">Info</span></h4>
-                    <ul>
-                        <li><a href="/?search=hospital+list">Complete Hospital List</a></li>
-                        <li><a href="/?search=school+ranking">School Rankings</a></li>
-                        <li><a href="/?search=emergency+numbers">All Emergency Numbers</a></li>
-                        <li><a href="/?search=medical+fees">Hospital Fees & Costs</a></li>
-                        <li><a href="/?search=doctor+qualification">Doctor Qualifications</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Navigational Intent -->
-                <div class="intent-card">
-                    <h4><i class="fas fa-map-marker-alt"></i> Find Near You <span class="intent-badge navigational">Local</span></h4>
-                    <ul>
-                        <li><a href="/?city=kathmandu">Hospitals Near Me (KTM)</a></li>
-                        <li><a href="/?city=pokhara">Services in Pokhara</a></li>
-                        <li><a href="/?city=birgunj">Birgunj Directory</a></li>
-                        <li><a href="/?city=lalitpur">Lalitpur Services</a></li>
-                        <li><a href="/?search=24+hour+near+me">24-Hour Services Near Me</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Transactional Intent -->
-                <div class="intent-card">
-                    <h4><i class="fas fa-phone-alt"></i> Contact & Book <span class="intent-badge transactional">Call</span></h4>
-                    <ul>
-                        <li><a href="/?search=ambulance+book">Book Ambulance</a></li>
-                        <li><a href="/?search=doctor+appointment">Doctor Appointment</a></li>
-                        <li><a href="/?search=blood+donate">Donate Blood</a></li>
-                        <li><a href="/?search=school+admission">School Admissions</a></li>
-                        <li><a href="/?search=emergency+contact">Emergency Contacts</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Commercial Investigation -->
-                <div class="intent-card">
-                    <h4><i class="fas fa-balance-scale"></i> Compare & Choose <span class="intent-badge">Compare</span></h4>
-                    <ul>
-                        <li><a href="/?search=best+hospital">Best Hospitals</a></li>
-                        <li><a href="/?search=top+school">Top Schools</a></li>
-                        <li><a href="/?search=private+vs+government">Private vs Government</a></li>
-                        <li><a href="/?search=cheapest+hospital">Most Affordable</a></li>
-                        <li><a href="/?search=reviews+ratings">Reviews & Ratings</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- People Also Ask (PAA) Section -->
-    <section class="paa-section" aria-label="People Also Ask">
-        <div class="container">
-            <h2 class="section-title">❓ People Also Ask</h2>
-            <div class="paa-container">
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">What is the best hospital in Kathmandu?</div>
-                    <div class="paa-answer">
-                        The best hospitals in Kathmandu include <strong>Grande International Hospital</strong>, <strong>Norvic International Hospital</strong>, and <strong>Teaching Hospital (TUTH)</strong>. Grande is known for premium care, Norvic for cardiac services, and TUTH for comprehensive government-subsidized treatment. <a href="/?search=best+hospital+kathmandu">View all top hospitals →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">How do I find emergency services in Nepal?</div>
-                    <div class="paa-answer">
-                        For emergencies in Nepal, dial <strong>102 for Ambulance</strong>, <strong>100 for Police</strong>, and <strong>101 for Fire Brigade</strong>. You can also use our directory to find 24-hour hospitals, blood banks, and emergency contacts in your area. <a href="/?category=emergency">Find emergency services →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">Which is the best boarding school in Nepal?</div>
-                    <div class="paa-answer">
-                        Top boarding schools in Nepal include <strong>Budhanilkantha School</strong>, <strong>St. Xaviers College</strong>, <strong>Rato Bangala School</strong>, and <strong>Trinity International College</strong>. These schools offer excellent academics, extracurriculars, and hostel facilities. <a href="/?category=school&type=boarding">See all boarding schools →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">Where can I donate blood in Kathmandu?</div>
-                    <div class="paa-answer">
-                        You can donate blood at <strong>Bhaktapur Blood Bank</strong>, <strong>Red Cross Blood Bank Kathmandu</strong>, <strong>Teaching Hospital Blood Bank</strong>, and <strong>Grande Hospital Blood Bank</strong>. Most accept donations Monday-Saturday, 8 AM - 4 PM. <a href="/?search=blood+bank">Find blood banks →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">What is the emergency number for ambulance in Nepal?</div>
-                    <div class="paa-answer">
-                        The emergency ambulance number in Nepal is <strong>102</strong>. You can also call <strong>Red Cross Ambulance: 977-1-4228094</strong> or <strong>Grande Hospital Ambulance: 977-1-5159266</strong>. Save these numbers for emergencies! <a href="/?search=ambulance+number">View all ambulance services →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">How many provinces are there in Nepal?</div>
-                    <div class="paa-answer">
-                        Nepal has <strong>7 provinces</strong>: Koshi, Madhesh, Bagmati, Gandaki, Lumbini, Karnali, and Sudurpashchim. Our directory covers all 7 provinces with services in all 77 districts and 138 cities. <a href="/?search=provinces">Explore by province →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">What are the top medical colleges in Nepal?</div>
-                    <div class="paa-answer">
-                        Top medical colleges include <strong>Institute of Medicine (IOM)</strong>, <strong>B.P. Koirala Institute</strong>, <strong>KIST Medical College</strong>, <strong>Chitwan Medical College</strong>, and <strong>Nepal Medical College</strong>. These offer MBBS, MD/MS, and nursing programs. <a href="/?search=medical+college">View medical colleges →</a>
-                    </div>
-                </div>
-                
-                <div class="paa-item" onclick="this.classList.toggle('active')">
-                    <div class="paa-question">Is Nepal Services Directory free to use?</div>
-                    <div class="paa-answer">
-                        Yes! <strong>Nepal Services Directory is 100% FREE</strong> to use. We believe essential service information should be accessible to everyone. Our database includes 5,300+ verified services across all 77 districts of Nepal. No registration or payment required. <a href="/about">Learn more about us →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Competitive Keyword Gap Section -->
-    <section class="keyword-gap-section" aria-label="Popular Searches">
-        <div class="container gap-content">
-            <h2 class="section-title" style="color: white;">🔥 Trending Searches Right Now</h2>
-            <p style="text-align: center; color: rgba(255,255,255,0.8); margin-bottom: 2rem;">These are the most searched terms. Click to find services:</p>
-            
-            <div class="gap-grid">
-                <div class="gap-category">
-                    <h4><i class="fas fa-hospital"></i> Hospital Queries</h4>
-                    <div class="gap-keywords">
-                        <a href="/?search=best+hospital+nepal">best hospital nepal</a>
-                        <a href="/?search=private+hospital+kathmandu">private hospital kathmandu</a>
-                        <a href="/?search=cheap+hospital">affordable hospital</a>
-                        <a href="/?search=heart+hospital">heart hospital</a>
-                        <a href="/?search=cancer+hospital+nepal">cancer hospital</a>
-                        <a href="/?search=children+hospital">children hospital</a>
-                        <a href="/?search=mental+hospital">mental hospital</a>
-                        <a href="/?search=eye+hospital">eye hospital</a>
-                        <a href="/?search=24+hour+hospital">24 hour hospital</a>
-                        <a href="/?search=emergency+hospital">emergency hospital</a>
-                    </div>
-                </div>
-                
-                <div class="gap-category">
-                    <h4><i class="fas fa-graduation-cap"></i> Education Queries</h4>
-                    <div class="gap-keywords">
-                        <a href="/?search=best+school+nepal">best school nepal</a>
-                        <a href="/?search=boarding+school">boarding school</a>
-                        <a href="/?search=english+medium+school">english medium school</a>
-                        <a href="/?search=government+school">government school</a>
-                        <a href="/?search=plus+two+college">plus two college</a>
-                        <a href="/?search=science+college">science college</a>
-                        <a href="/?search=mbbs+college">mbbs college</a>
-                        <a href="/?search=nursing+college">nursing college</a>
-                        <a href="/?search=engineering+college">engineering college</a>
-                        <a href="/?search=top+10+schools">top 10 schools</a>
-                    </div>
-                </div>
-                
-                <div class="gap-category">
-                    <h4><i class="fas fa-ambulance"></i> Emergency Queries</h4>
-                    <div class="gap-keywords">
-                        <a href="/?search=ambulance+near+me">ambulance near me</a>
-                        <a href="/?search=police+station+near+me">police station near me</a>
-                        <a href="/?search=fire+station+number">fire station number</a>
-                        <a href="/?search=blood+bank+near+me">blood bank near me</a>
-                        <a href="/?search=24+hour+pharmacy">24 hour pharmacy</a>
-                        <a href="/?search=emergency+contact+nepal">emergency contact</a>
-                        <a href="/?search=tourist+police">tourist police</a>
-                        <a href="/?search=traffic+police+number">traffic police number</a>
-                        <a href="/?search=helpline+numbers">helpline numbers</a>
-                        <a href="/?search=disaster+helpline">disaster helpline</a>
-                    </div>
-                </div>
-                
-                <div class="gap-category">
-                    <h4><i class="fas fa-map-marker-alt"></i> Location-Based</h4>
-                    <div class="gap-keywords">
-                        <a href="/?city=kathmandu">kathmandu services</a>
-                        <a href="/?city=pokhara">pokhara services</a>
-                        <a href="/?city=lalitpur">lalitpur services</a>
-                        <a href="/?city=bhaktapur">bhaktapur services</a>
-                        <a href="/?city=birgunj">birgunj services</a>
-                        <a href="/?city=biratnagar">biratnagar services</a>
-                        <a href="/?city=butwal">butwal services</a>
-                        <a href="/?city=dharan">dharan services</a>
-                        <a href="/?city=hetauda">hetauda services</a>
-                        <a href="/?city=nepalgunj">nepalgunj services</a>
-                    </div>
-                </div>
-                
-                <div class="gap-category">
-                    <h4><i class="fas fa-stethoscope"></i> Specialty Queries</h4>
-                    <div class="gap-keywords">
-                        <a href="/?search=cardiologist">cardiologist</a>
-                        <a href="/?search=neurologist">neurologist</a>
-                        <a href="/?search=orthopedic+doctor">orthopedic doctor</a>
-                        <a href="/?search=skin+doctor">skin doctor</a>
-                        <a href="/?search=child+specialist">child specialist</a>
-                        <a href="/?search=gynecologist">gynecologist</a>
-                        <a href="/?search=dentist">dentist</a>
-                        <a href="/?search=physiotherapist">physiotherapist</a>
-                        <a href="/?search=psychiatrist">psychiatrist</a>
-                        <a href="=?search=ent+doctor">ent doctor</a>
-                    </div>
-                </div>
-                
-                <div class="gap-category">
-                    <h4><i class="fas fa-building"></i> Government Services</h4>
-                    <div class="gap-keywords">
-                        <a href="/?search=district+office">district office</a>
-                        <a href="/?search=municipality+office">municipality office</a>
-                        <a href="/?search=passport+office">passport office</a>
-                        <a href="/?search=license+office">license office</a>
-                        <a href="/?search=citizenship+office">citizenship office</a>
-                        <a href="/?search=land+office">land office</a>
-                        <a href="/?search=tax+office">tax office</a>
-                        <a href="/?search=post+office">post office</a>
-                        <a href="/?search=bank+near+me">bank near me</a>
-                        <a href="/?search=atm+near+me">atm near me</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Trust Signals Bar -->
-    <div class="trust-signals-bar">
-        <div class="container">
-            <div class="trust-grid">
-                <div class="trust-item">
-                    <i class="fas fa-shield-alt"></i>
-                    <span>Verified Information</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-sync-alt"></i>
-                    <span>Regularly Updated</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-lock"></i>
-                    <span>Secure & Private</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-users"></i>
-                    <span>50,000+ Monthly Users</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-star"></i>
-                    <span>4.8/5 User Rating</span>
-                </div>
-                <div class="trust-item">
-                    <i class="fas fa-mobile-alt"></i>
-                    <span>Mobile Optimized</span>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Footer -->
-    <!-- Share Section -->
-    <section class="share-section">
-        <div class="container">
-            <div class="share-content">
-                <h3 data-i18n="share.title">🚀 Help Nepal Find Essential Services</h3>
-                <p data-i18n="share.subtitle">Share this directory with friends, family, and community. Together we make Nepal more connected!</p>
-                <div class="share-buttons">
-                    <button class="share-btn facebook" onclick="shareOnFacebook()" title="Share on Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                        <span>Facebook</span>
-                    </button>
-                    <button class="share-btn twitter" onclick="shareOnTwitter()" title="Share on Twitter">
-                        <i class="fab fa-twitter"></i>
-                        <span>Twitter</span>
-                    </button>
-                    <button class="share-btn whatsapp" onclick="shareOnWhatsApp()" title="Share on WhatsApp">
-                        <i class="fab fa-whatsapp"></i>
-                        <span>WhatsApp</span>
-                    </button>
-                    <button class="share-btn copy" onclick="copyLink()" title="Copy Link">
-                        <i class="fas fa-link"></i>
-                        <span id="copyText">Copy Link</span>
-                    </button>
-                </div>
-                <div class="share-stats">
-                    <div class="share-stat">
-                        <i class="fas fa-users"></i>
-                        <span>5,300+ Services Listed</span>
-                    </div>
-                    <div class="share-stat">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <span>77 Districts Covered</span>
-                    </div>
-                    <div class="share-stat">
-                        <i class="fas fa-heart"></i>
-                        <span>100% Free</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3><i class="fas fa-mountain"></i> Nepal Services</h3>
-                    <p data-i18n="footer.tagline">Connecting people with essential services across Nepal</p>
-                    <div class="footer-social">
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://nepalservice.online" target="_blank" rel="noopener" class="social-link" title="Share on Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?url=https://nepalservice.online&text=Find%20hospitals,%20schools%20and%20emergency%20contacts%20across%20Nepal!" target="_blank" rel="noopener" class="social-link" title="Share on Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://wa.me/?text=Check%20out%20Nepal%20Services%20Directory%20-%20Find%20hospitals,%20schools%20and%20emergency%20contacts%20across%20Nepal!%20https://nepalservice.online" target="_blank" rel="noopener" class="social-link" title="Share on WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://nepalservice.online" target="_blank" rel="noopener" class="social-link" title="Share on LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://t.me/share/url?url=https://nepalservice.online&text=Find%20hospitals,%20schools%20and%20emergency%20contacts%20across%20Nepal!" target="_blank" rel="noopener" class="social-link" title="Share on Telegram">
-                            <i class="fab fa-telegram-plane"></i>
-                        </a>
-                    </div>
+                    <p>Connecting people with essential services across Nepal</p>
                 </div>
-                
-                <div class="footer-columns">
-                    <div class="footer-column">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="/?category=hospital">Hospitals</a></li>
-                            <li><a href="/?category=school">Schools</a></li>
-                            <li><a href="/?category=emergency">Emergency</a></li>
-                            <li><a href="/?category=bank">Banks</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Provinces</h4>
-                        <ul>
-                            <li><a href="/?province=koshi">Koshi</a></li>
-                            <li><a href="/?province=madhesh">Madhesh</a></li>
-                            <li><a href="/?province=bagmati">Bagmati</a></li>
-                            <li><a href="/?province=gandaki">Gandaki</a></li>
-                            <li><a href="/?province=lumbini">Lumbini</a></li>
-                            <li><a href="/?province=karnali">Karnali</a></li>
-                            <li><a href="/?province=sudurpashchim">Sudurpashchim</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Major Cities</h4>
-                        <ul>
-                            <li><a href="/?city=kathmandu">Kathmandu</a></li>
-                            <li><a href="/?city=pokhara">Pokhara</a></li>
-                            <li><a href="/?city=birgunj">Birgunj</a></li>
-                            <li><a href="/?city=biratnagar">Biratnagar</a></li>
-                            <li><a href="/?city=lalitpur">Lalitpur</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="https://github.com/Raman21676/nepal-services" target="_blank" rel="noopener">GitHub</a></li>
-                            <li><a href="/sitemap.xml">Sitemap</a></li>
-                            <li><a href="/humans.txt">Humans.txt</a></li>
-                            <li><a href="mailto:contact@nepalservice.online">Contact Us</a></li>
-                        </ul>
-                    </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="footer-link"><i class="fas fa-envelope"></i> Contact</a>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p><span data-i18n="footer.dataSource">Data sourced from official government websites</span> • <span id="currentYear">2026</span> • Made with <i class="fas fa-heart" style="color: #ef4444;"></i> for Nepal 🇳🇵</p>
-                
-                <!-- Data Protection Notice -->
-                <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--border-light);">
-                    <i class="fas fa-shield-alt" style="color: var(--success);"></i> 
-                    <strong>Data Protected:</strong> This content is © 2026 Nepal Services Directory. 
-                    Unauthorized scraping or data extraction is strictly prohibited and monitored. 
-                    <a href="/DATA_PROTECTION.md" style="color: var(--primary);">Learn more</a>
-                </p>
-                
-                <p class="seo-keywords" style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem;">
-                    Nepal Hospitals | Nepal Schools | Nepal Emergency Contacts | Nepal Government Offices | 
-                    Kathmandu Services | Pokhara Services | Birgunj Medical | Nepal Ambulance | Nepal Police | 
-                    Nepal Directory | Nepal Phone Directory | Nepal Address Finder
-                </p>
+                <p>Data sourced from official government websites • <span id="currentYear">2026</span></p>
             </div>
         </div>
     </footer>
 
-    <!-- Toast Notifications - data-nosnippet for UI elements -->
-    <div id="toastContainer" class="toast-container" data-nosnippet="true"></div>
-    
-    <!-- E-E-A-T Trust Signals Footer (Hidden visually, indexed by search engines) -->
-    <div class="trust-signals" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
-        <h2>About Nepal Services Directory</h2>
-        <p>Last updated: March 26, 2026</p>
-        <p>Editorial Team: Nepal Services Directory Team</p>
-        <p>Data Sources: Government of Nepal, Ministry of Health and Population, Ministry of Education, Nepal Medical Council, Nepal Pharmacy Council</p>
-        <p>Verification Process: All data is cross-referenced with official government records and updated regularly.</p>
-        <p>Medical Disclaimer: This directory provides contact information only. For medical emergencies, call 102 immediately. Information accuracy is not guaranteed - please verify with service providers.</p>
-        <p>Author Expertise: Our team includes healthcare professionals, educators, and government liaison officers with deep knowledge of Nepal's service landscape.</p>
-        <p>Transparency: We are an independent, non-commercial directory committed to serving the Nepali community.</p>
-        <h3>Content Quality Standards</h3>
-        <ul>
-            <li>All service listings are verified against official sources</li>
-            <li>Emergency contact numbers are checked monthly</li>
-            <li>Hospital and school information is updated quarterly</li>
-            <li>User feedback is incorporated within 48 hours</li>
-        </ul>
-        <h3>Trust Indicators</h3>
-        <ul>
-            <li>Open source project on GitHub</li>
-            <li>MIT Licensed - Free for all</li>
-            <li>No advertisements or paid listings</li>
-            <li>Community-driven data verification</li>
-        </ul>
-    </div>
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-    <script src="js/i18n/i18n.js?v=37"></script>
-    <script src="js/theme.js?v=37"></script>
-    <script src="js/config.js?v=37"></script>
-    <script src="js/manifests/bagmati-manifest.js?v=37"></script>
-    <script src="js/manifests/koshi-manifest.js?v=37"></script>
-    <script src="js/manifests/madhesh-manifest.js?v=37"></script>
-    <script src="js/manifests/gandaki-manifest.js?v=37"></script>
-    <script src="js/manifests/lumbini-manifest.js?v=37"></script>
-    <script src="js/manifests/karnali-manifest.js?v=37"></script>
-    <script src="js/manifests/sudurpashchim-manifest.js?v=37"></script>
-    <!-- Anti-Scraping Protection - Load First -->
-    <!-- Security scripts disabled temporarily to fix data loading -->
-    <!-- <script src="js/security/anti-scraping.js?v=1"></script> -->
-    <!-- <script src="js/security/monitor.js?v=1"></script> -->
-    
-    <script src="js/data-loader.js?v=37"></script>
-    <script src="js/filters.js?v=37"></script>
-    <script src="js/renderer.js?v=37"></script>
-    <script src="app.js?v=37"></script>
-    
-    <script>
-        // Initialize i18n and theme
-        document.addEventListener('DOMContentLoaded', () => {
-            i18n.init();
-            themeManager.init();
-            
-            // Register Service Worker for PWA support
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js')
-                    .then((registration) => {
-                        console.log('SW registered:', registration.scope);
-                    })
-                    .catch((error) => {
-                        console.log('SW registration failed:', error);
-                    });
-            }
-            
-            // Check for app installation
-            window.addEventListener('beforeinstallprompt', (e) => {
-                e.preventDefault();
-                window.deferredPrompt = e;
-                console.log('App can be installed');
-            });
-            
-            // Track page view for analytics
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'page_view', {
-                    page_title: document.title,
-                    page_location: window.location.href,
-                    page_path: window.location.pathname + window.location.search
-                });
-            }
-        });
-        
-        // Share Functions - Make it viral!
-        const shareData = {
-            title: 'Nepal Services Directory',
-            text: 'Find hospitals, schools, emergency contacts and government offices across all 77 districts of Nepal! 🇳🇵',
-            url: 'https://nepalservice.online'
-        };
-        
-        function shareOnFacebook() {
-            const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareData.url)}&quote=${encodeURIComponent(shareData.text)}`;
-            window.open(url, '_blank', 'width=600,height=400,scrollbars=yes');
-            trackShare('facebook');
-        }
-        
-        function shareOnTwitter() {
-            const url = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareData.url)}&text=${encodeURIComponent(shareData.text)}&hashtags=Nepal,Hospitals,Schools,EmergencyServices`;
-            window.open(url, '_blank', 'width=600,height=400,scrollbars=yes');
-            trackShare('twitter');
-        }
-        
-        function shareOnWhatsApp() {
-            const url = `https://wa.me/?text=${encodeURIComponent(shareData.text + ' ' + shareData.url)}`;
-            window.open(url, '_blank');
-            trackShare('whatsapp');
-        }
-        
-        async function copyLink() {
-            try {
-                await navigator.clipboard.writeText(shareData.url);
-                const copyText = document.getElementById('copyText');
-                const originalText = copyText.textContent;
-                copyText.textContent = '✓ Copied!';
-                setTimeout(() => {
-                    copyText.textContent = originalText;
-                }, 2000);
-                trackShare('copy');
-            } catch (err) {
-                // Fallback for older browsers
-                const textArea = document.createElement('textarea');
-                textArea.value = shareData.url;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-                
-                const copyText = document.getElementById('copyText');
-                const originalText = copyText.textContent;
-                copyText.textContent = '✓ Copied!';
-                setTimeout(() => {
-                    copyText.textContent = originalText;
-                }, 2000);
-                trackShare('copy');
-            }
-        }
-        
-        function trackShare(platform) {
-            // Analytics tracking
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'share', {
-                    method: platform,
-                    content_type: 'website',
-                    item_id: 'nepal_services_directory'
-                });
-            }
-            console.log(`Shared on ${platform}`);
-        }
-        
-        // Use Web Share API on mobile if available
-        if (navigator.share) {
-            document.querySelectorAll('.share-btn').forEach(btn => {
-                btn.addEventListener('click', async (e) => {
-                    e.preventDefault();
-                    try {
-                        await navigator.share(shareData);
-                        trackShare('native');
-                    } catch (err) {
-                        console.log('Native share cancelled');
-                    }
-                });
-            });
-        }
-    </script>
-    
-    <!-- Google Analytics (optional - replace with your tracking ID) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'GA_MEASUREMENT_ID', {
-            'send_page_view': true,
-            'anonymize_ip': true,
-            'custom_map': {
-                'custom_parameter_1': 'search_term',
-                'custom_parameter_2': 'filter_usage',
-                'custom_parameter_3': 'category_selected'
-            }
-        });
-        
-        // Custom Event Tracking for SEO
-        window.trackSEOEvent = function(eventName, eventData) {
-            if (typeof gtag !== 'undefined') {
-                gtag('event', eventName, {
-                    'event_category': 'SEO_Interaction',
-                    'event_label': eventData.label || '',
-                    'value': eventData.value || 1,
-                    'custom_parameter_1': eventData.searchTerm || '',
-                    'custom_parameter_2': eventData.filterType || '',
-                    'custom_parameter_3': eventData.category || ''
-                });
-            }
-        };
-        
-        // Track Core Web Vitals
-        window.addEventListener('load', function() {
-            setTimeout(function() {
-                if (window.performance && performance.getEntriesByType) {
-                    const paintMetrics = performance.getEntriesByType('paint');
-                    paintMetrics.forEach(metric => {
-                        if (typeof gtag !== 'undefined') {
-                            gtag('event', 'web_vitals', {
-                                'event_category': 'Core_Web_Vitals',
-                                'event_label': metric.name,
-                                'value': Math.round(metric.startTime)
-                            });
-                        }
-                    });
-                }
-            }, 0);
-        });
-    </script>
-    
-    <!-- Structured Event Tracking Script -->
-    <script>
-        // SEO Event Tracking Helper
-        (function() {
-            'use strict';
-            
-            // Track search events
-            document.addEventListener('DOMContentLoaded', function() {
-                const searchInput = document.getElementById('searchInput');
-                const searchBtn = document.getElementById('searchBtn');
-                
-                if (searchInput) {
-                    // Track search terms (debounced)
-                    let searchTimeout;
-                    searchInput.addEventListener('input', function(e) {
-                        clearTimeout(searchTimeout);
-                        searchTimeout = setTimeout(function() {
-                            if (e.target.value.length > 2) {
-                                window.trackSEOEvent('search_query', {
-                                    label: 'User Search',
-                                    searchTerm: e.target.value,
-                                    value: e.target.value.length
-                                });
-                            }
-                        }, 1000);
-                    });
-                }
-                
-                // Track filter usage
-                const filters = ['provinceFilter', 'districtFilter', 'cityFilter', 'categoryFilter', 'typeFilter'];
-                filters.forEach(function(filterId) {
-                    const filter = document.getElementById(filterId);
-                    if (filter) {
-                        filter.addEventListener('change', function(e) {
-                            if (e.target.value !== 'all') {
-                                window.trackSEOEvent('filter_usage', {
-                                    label: filterId.replace('Filter', ''),
-                                    filterType: filterId,
-                                    value: 1
-                                });
-                            }
-                        });
-                    }
-                });
-                
-                // Track quick filter clicks
-                document.querySelectorAll('.quick-filter').forEach(function(btn) {
-                    btn.addEventListener('click', function() {
-                        const category = this.getAttribute('data-category');
-                        window.trackSEOEvent('quick_filter_click', {
-                            label: category,
-                            category: category,
-                            value: 1
-                        });
-                    });
-                });
-                
-                // Track result interactions (delegated)
-                document.addEventListener('click', function(e) {
-                    // Track card clicks
-                    if (e.target.closest('.service-card, .result-card')) {
-                        const card = e.target.closest('.service-card, .result-card');
-                        const category = card.getAttribute('data-category') || 'unknown';
-                        window.trackSEOEvent('result_click', {
-                            label: 'Service Card Click',
-                            category: category,
-                            value: 1
-                        });
-                    }
-                    
-                    // Track phone clicks
-                    if (e.target.closest('a[href^="tel:"]')) {
-                        window.trackSEOEvent('phone_click', {
-                            label: 'Phone Number Clicked',
-                            value: 1
-                        });
-                    }
-                    
-                    // Track share buttons
-                    if (e.target.closest('.share-btn')) {
-                        const platform = e.target.closest('.share-btn').className.includes('facebook') ? 'facebook' :
-                                        e.target.closest('.share-btn').className.includes('twitter') ? 'twitter' :
-                                        e.target.closest('.share-btn').className.includes('whatsapp') ? 'whatsapp' : 'other';
-                        window.trackSEOEvent('share_click', {
-                            label: platform,
-                            value: 1
-                        });
-                    }
-                });
-            });
-        })();
-    </script>
+    <script src="js/config.js?v=38"></script>
+    <script src="js/manifests/bagmati-manifest.js?v=38"></script>
+    <script src="js/manifests/koshi-manifest.js?v=38"></script>
+    <script src="js/manifests/madhesh-manifest.js?v=38"></script>
+    <script src="js/manifests/gandaki-manifest.js?v=38"></script>
+    <script src="js/manifests/lumbini-manifest.js?v=38"></script>
+    <script src="js/manifests/karnali-manifest.js?v=38"></script>
+    <script src="js/manifests/sudurpashchim-manifest.js?v=38"></script>
+    <script src="js/data-loader.js?v=38"></script>
+    <script src="js/filters.js?v=38"></script>
+    <script src="js/renderer.js?v=38"></script>
+    <script src="app.js?v=38"></script>
 </body>
 </html>

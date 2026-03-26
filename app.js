@@ -71,9 +71,7 @@ class NepalServicesApp {
     
     renderResults() {
         if (this.uiRenderer) {
-            // Use skeleton loading for smoother UX
-            this.uiRenderer.renderResultsWithTransition();
-            this.updateResultsCount();
+            this.uiRenderer.renderResults();
         }
     }
     
@@ -208,98 +206,37 @@ class NepalServicesApp {
     }
 }
 
+// Theme Toggle
+function initThemeToggle() {
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    
+    // Load saved theme
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-theme', savedTheme);
+    
+    // Handle toggle click
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update theme-color meta
+            const metaTheme = document.querySelector('meta[name="theme-color"]');
+            if (metaTheme) {
+                metaTheme.setAttribute('content', newTheme === 'dark' ? '#0f172a' : '#ffffff');
+            }
+        });
+    }
+}
+
 // Initialize app when DOM is ready
 let app;
 document.addEventListener('DOMContentLoaded', () => {
+    initThemeToggle();
     app = new NepalServicesApp();
     app.init();
-});
-
-// Register service worker for offline support (optional)
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(registration => {
-                console.log('✅ ServiceWorker registered:', registration);
-            })
-            .catch(error => {
-                console.log('❌ ServiceWorker registration failed:', error);
-            });
-    });
-}
-
-
-// Scroll to top functionality
-class ScrollManager {
-    constructor() {
-        this.scrollTopBtn = null;
-        this.init();
-    }
-    
-    init() {
-        // Create scroll to top button
-        this.createScrollButton();
-        
-        // Add scroll listener
-        window.addEventListener('scroll', () => this.handleScroll(), { passive: true });
-        
-        // Add parallax effect
-        this.initParallax();
-    }
-    
-    createScrollButton() {
-        const btn = document.createElement('button');
-        btn.id = 'scrollTopBtn';
-        btn.className = 'scroll-top-btn';
-        btn.innerHTML = '<i class="fas fa-arrow-up"></i>';
-        btn.setAttribute('aria-label', 'Scroll to top');
-        btn.onclick = () => this.scrollToTop();
-        document.body.appendChild(btn);
-        this.scrollTopBtn = btn;
-    }
-    
-    handleScroll() {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        
-        // Show/hide scroll button
-        if (scrollTop > 500) {
-            this.scrollTopBtn?.classList.add('visible');
-        } else {
-            this.scrollTopBtn?.classList.remove('visible');
-        }
-        
-        // Update parallax
-        this.updateParallax(scrollTop);
-    }
-    
-    scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-    
-    initParallax() {
-        this.heroMountains = document.querySelector('.hero-mountains');
-        this.heroContent = document.querySelector('.hero-content');
-    }
-    
-    updateParallax(scrollTop) {
-        if (this.heroMountains) {
-            const speed = 0.3;
-            this.heroMountains.style.transform = `translateY(${scrollTop * speed}px)`;
-        }
-        
-        if (this.heroContent && scrollTop < 600) {
-            const opacity = 1 - (scrollTop / 500);
-            const translate = scrollTop * 0.4;
-            this.heroContent.style.opacity = Math.max(0, opacity);
-            this.heroContent.style.transform = `translateY(${translate}px)`;
-        }
-    }
-}
-
-// Initialize scroll manager when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    window.scrollManager = new ScrollManager();
 });
