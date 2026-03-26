@@ -3317,10 +3317,10 @@ mark.search-highlight {
     left: 18px;
 }
 
-/* Stars */
+/* Stars - positioned on left side near moon */
 .stars {
     position: absolute;
-    right: 8px;
+    left: 8px;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0;
@@ -3338,13 +3338,13 @@ mark.search-highlight {
 
 .star:nth-child(1) {
     top: -8px;
-    right: 5px;
+    left: 5px;
     animation: twinkle 2s ease-in-out infinite;
 }
 
 .star:nth-child(2) {
     top: 2px;
-    right: 15px;
+    left: 15px;
     width: 2px;
     height: 2px;
     animation: twinkle 2s ease-in-out 0.5s infinite;
@@ -3352,7 +3352,7 @@ mark.search-highlight {
 
 .star:nth-child(3) {
     top: 8px;
-    right: 5px;
+    left: 5px;
     animation: twinkle 2s ease-in-out 1s infinite;
 }
 
