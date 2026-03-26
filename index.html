@@ -85,6 +85,19 @@
     <meta name="designer" content="Nepal Services Directory">
     <meta name="copyright" content="© 2026 Nepal Services Directory. All rights reserved.">
     
+    <!-- Data Protection & Anti-Scraping -->
+    <meta name="data-protection" content="strict">
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- Prevent data extraction -->
+    <meta http-equiv="X-Download-Options" content="noopen">
+    <meta http-equiv="X-Permitted-Cross-Domain-Policies" content="none">
+    
+    <!-- Content Security Policy - Restrictive -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://www.google-analytics.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+    
     <!-- PWA Manifest -->
     <link rel="manifest" href="/manifest.json">
     
@@ -1664,6 +1677,15 @@
             
             <div class="footer-bottom">
                 <p><span data-i18n="footer.dataSource">Data sourced from official government websites</span> • <span id="currentYear">2026</span> • Made with <i class="fas fa-heart" style="color: #ef4444;"></i> for Nepal 🇳🇵</p>
+                
+                <!-- Data Protection Notice -->
+                <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--border-light);">
+                    <i class="fas fa-shield-alt" style="color: var(--success);"></i> 
+                    <strong>Data Protected:</strong> This content is © 2026 Nepal Services Directory. 
+                    Unauthorized scraping or data extraction is strictly prohibited and monitored. 
+                    <a href="/DATA_PROTECTION.md" style="color: var(--primary);">Learn more</a>
+                </p>
+                
                 <p class="seo-keywords" style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem;">
                     Nepal Hospitals | Nepal Schools | Nepal Emergency Contacts | Nepal Government Offices | 
                     Kathmandu Services | Pokhara Services | Birgunj Medical | Nepal Ambulance | Nepal Police | 
@@ -1714,6 +1736,10 @@
     <script src="js/manifests/lumbini-manifest.js?v=36"></script>
     <script src="js/manifests/karnali-manifest.js?v=36"></script>
     <script src="js/manifests/sudurpashchim-manifest.js?v=36"></script>
+    <!-- Anti-Scraping Protection - Load First -->
+    <script src="js/security/anti-scraping.js?v=1"></script>
+    <script src="js/security/monitor.js?v=1"></script>
+    
     <script src="js/data-loader.js?v=36"></script>
     <script src="js/filters.js?v=36"></script>
     <script src="js/renderer.js?v=36"></script>

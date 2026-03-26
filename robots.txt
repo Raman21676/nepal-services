@@ -1,417 +1,272 @@
-# Nepal Services Directory - Comprehensive Robots.txt
-# Optimized for ALL search engines - 500+ URLs indexed
-
 # ============================================
-# ALLOW ALL MAJOR SEARCH ENGINES
+# NEPAL SERVICES DIRECTORY - ROBOTS.TXT
+# Protecting valuable data from unauthorized scraping
 # ============================================
 
+# ============================================
+# STRICT SCRAPING PROTECTION
+# ============================================
+
+# Block all scrapers by default
 User-agent: *
-Allow: /
-Allow: /sitemap.xml
-Allow: /sitemap-index.xml
-Allow: /sitemap-extended.xml
-Allow: /sitemap-search-queries.xml
-Allow: /sitemap-schools.xml
-Allow: /sitemap-emergency.xml
-Allow: /humans.txt
-Allow: /.well-known/
-Allow: /icons/
-Allow: /images/
-Allow: /js/
-Allow: /data/
-Allow: /*.js$
-Allow: /*.css$
-Allow: /*.json$
-Allow: /*.svg$
-Allow: /*.png$
-Allow: /*.jpg$
+Disallow: /data/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.csv$
+Disallow: /*.xml$
+Disallow: /js/manifests/
+Disallow: /js/i18n/*.json$
+Disallow: /admin/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /*?*format=*
+Disallow: /*?*export=*
+Disallow: /*?*download=*
 
-# Crawl rate optimization
-Crawl-delay: 1
+# Allow main pages only
+Allow: /$
+Allow: /index.html$
+Allow: /styles.css$
+Allow: /app.js$
+Allow: /js/*.js$
+Allow: /images/
+Allow: /icons/
+Allow: /*?province=*
+Allow: /*?category=*
+Allow: /*?city=*
+Allow: /*?search=*
+
+# Crawl delay to prevent rapid scraping
+Crawl-delay: 10
 
 # ============================================
-# GOOGLE BOT FAMILY
+# GOOGLE BOT - PERMITTED WITH RESTRICTIONS
 # ============================================
 
 User-agent: Googlebot
 Allow: /
-Allow: /*.js$
-Allow: /*.css$
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.svg$
-Allow: /*.json$
-Crawl-delay: 0.5
+Disallow: /data/
+Disallow: /*.json$
+Disallow: /*.csv$
+Crawl-delay: 2
 
 User-agent: Googlebot-Image
 Allow: /images/
 Allow: /icons/
-Allow: /*.png$
-Allow: /*.jpg$
-Allow: /*.svg$
-Allow: /*.webp$
-Allow: /*.gif$
+Disallow: /
 
 User-agent: Googlebot-News
 Allow: /
-Crawl-delay: 0.5
-
-User-agent: Googlebot-Video
-Allow: /
-
-User-agent: Mediapartners-Google
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-User-agent: APIs-Google
-Allow: /
+Disallow: /data/
+Crawl-delay: 2
 
 # ============================================
-# BING BOT FAMILY
+# BING BOT - PERMITTED WITH RESTRICTIONS
 # ============================================
 
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
-
-User-agent: MSNBot
-Allow: /
-Crawl-delay: 1
-
-User-agent: MSNBot-Media
-Allow: /
-
-User-agent: BingPreview
-Allow: /
-
-User-agent: AdIdxBot
-Allow: /
+Disallow: /data/
+Disallow: /*.json$
+Disallow: /*.csv$
+Crawl-delay: 5
 
 # ============================================
-# YAHOO / DUCKDUCKGO / OTHER US SEARCH
+# LEGITIMATE SEARCH ENGINES
 # ============================================
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 1
 
 User-agent: DuckDuckBot
 Allow: /
-Crawl-delay: 1
+Disallow: /data/
+Crawl-delay: 5
 
-User-agent: DuckDuckGo-Favicons-Bot
+User-agent: Slurp
 Allow: /
+Disallow: /data/
+Crawl-delay: 5
 
 User-agent: Baiduspider
 Allow: /
-Crawl-delay: 2
-
-User-agent: Baiduspider-image
-Allow: /images/
+Disallow: /data/
+Crawl-delay: 10
 
 User-agent: YandexBot
 Allow: /
-Crawl-delay: 2
-
-User-agent: YandexImages
-Allow: /images/
-
-User-agent: Sogou web spider
-Allow: /
-Crawl-delay: 2
-
-User-agent: Sogou inst spider
-Allow: /
-
-User-agent: Exabot
-Allow: /
-Crawl-delay: 2
-
-User-agent: facebot
-Allow: /
-
-User-agent: ia_archiver
-Allow: /
-
-User-agent: Alexabot
-Allow: /
+Disallow: /data/
+Crawl-delay: 10
 
 # ============================================
-# SOCIAL MEDIA CRAWLERS
+# AI CRAWLERS - RESTRICTED ACCESS
+# ============================================
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: GPTBot
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+# ============================================
+# SOCIAL MEDIA - LIMITED ACCESS
 # ============================================
 
 User-agent: Twitterbot
 Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: TelegramBot
-Allow: /
+Disallow: /data/
+Crawl-delay: 5
 
 User-agent: FacebookExternalHit
 Allow: /
+Disallow: /data/
+Crawl-delay: 5
 
-User-agent: Pinterestbot
+User-agent: LinkedInBot
 Allow: /
+Disallow: /data/
+Crawl-delay: 5
 
-User-agent: Redditbot
+User-agent: WhatsApp
 Allow: /
-
-User-agent: Discordbot
-Allow: /
-
-User-agent: Slackbot
-Allow: /
-
-User-agent: SkypeUriPreview
-Allow: /
-
-User-agent: Snapchat
-Allow: /
-
-User-agent: Instagram
-Allow: /
+Disallow: /data/
 
 # ============================================
-# SEO TOOLS & ANALYTICS
+# KNOWN SCRAPERS - BLOCKED COMPLETELY
 # ============================================
-
-User-agent: AhrefsBot
-Allow: /
-Crawl-delay: 2
-
-User-agent: AhrefsSiteAudit
-Allow: /
-
-User-agent: SemrushBot
-Allow: /
-Crawl-delay: 2
-
-User-agent: SemrushBot-OCOB
-Allow: /
-
-User-agent: SemrushBot-CT
-Allow: /
-
-User-agent: MJ12bot
-Allow: /
-Crawl-delay: 2
-
-User-agent: DotBot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Rogerbot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Screaming Frog SEO Spider
-Allow: /
-Crawl-delay: 2
-
-User-agent: Moz-dotbot
-Allow: /
-
-User-agent: Uptimebot
-Allow: /
-
-User-agent: Pingdom.com_bot
-Allow: /
-
-# ============================================
-# NEWS AGGREGATORS
-# ============================================
-
-User-agent: Applebot
-Allow: /
-
-User-agent: Yeti
-Allow: /
-
-User-agent: NaverBot
-Allow: /
-
-User-agent: SeznamBot
-Allow: /
-
-# ============================================
-# AI / ML CRAWLERS - Optimized for Training Data
-# ============================================
-
-# OpenAI
-User-agent: ChatGPT-User
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-User-agent: GPTBot
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-# Anthropic / Claude
-User-agent: anthropic-ai
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-User-agent: Claude-Web
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-User-agent: Claude-User
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-# Common Crawl (used by many AI models)
-User-agent: CCBot
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-# Perplexity AI
-User-agent: PerplexityBot
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-# Google AI
-User-agent: Google-Extended
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-# Microsoft AI / Bing Copilot
-User-agent: BingPreview-LLM
-Allow: /
-Allow: /sitemap.xml
-Crawl-delay: 1
-
-# Other AI Crawlers
-User-agent: Meta-ExternalAgent
-Allow: /
-Crawl-delay: 2
-
-User-agent: Meta-ExternalFetcher
-Allow: /
-Crawl-delay: 2
-
-User-agent: Amazonbot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Applebot-Extended
-Allow: /
-Crawl-delay: 1
-
-User-agent: YouBot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Bytespider
-Allow: /
-Crawl-delay: 2
-
-User-agent: Diffbot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Omgilibot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Webz.io
-Allow: /
-Crawl-delay: 2
-
-User-agent: ImagesiftBot
-Allow: /images/
-Allow: /icons/
-Crawl-delay: 2
-
-# ============================================
-# BLOCK BAD BOTS (Spam, Scrapers, etc.)
-# ============================================
-
-User-agent: MJ12bot
-Disallow: /admin/
 
 User-agent: Scrapy
-Disallow: /
-
-User-agent: crawler4j
-Disallow: /
-
-User-agent: libwww-perl
-Disallow: /
-
-User-agent: Java
-Disallow: /
-
-User-agent: Python-urllib
-Disallow: /
-
-User-agent: PHP
-Disallow: /
-
-User-agent: wget
 Disallow: /
 
 User-agent: curl
 Disallow: /
 
+User-agent: wget
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: Java
+Disallow: /
+
+User-agent: PHP
+Disallow: /
+
+User-agent: Ruby
+Disallow: /
+
+User-agent: Perl
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: Node-fetch
+Disallow: /
+
+User-agent: Axios
+Disallow: /
+
+User-agent: Postman
+Disallow: /
+
+User-agent: Insomnia
+Disallow: /
+
+User-agent: HttpClient
+Disallow: /
+
+User-agent: PhantomJS
+Disallow: /
+
+User-agent: Selenium
+Disallow: /
+
+User-agent: Puppeteer
+Disallow: /
+
+User-agent: Playwright
+Disallow: /
+
+User-agent: HeadlessChrome
+Disallow: /
+
+User-agent: SlimerJS
+Disallow: /
+
+User-agent: CasperJS
+Disallow: /
+
 # ============================================
-# SITEMAPS - ALL OF THEM
+# SEO TOOLS - LIMITED ACCESS
+# ============================================
+
+User-agent: AhrefsBot
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: AhrefsSiteAudit
+Allow: /
+Disallow: /data/
+
+User-agent: SemrushBot
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+User-agent: DotBot
+Allow: /
+Disallow: /data/
+Crawl-delay: 10
+
+# ============================================
+# SITEMAPS
 # ============================================
 
 Sitemap: https://nepalservice.online/sitemap-index.xml
-Sitemap: https://nepalservice.online/sitemap.xml
-Sitemap: https://nepalservice.online/sitemap-extended.xml
-Sitemap: https://nepalservice.online/sitemap-search-queries.xml
-Sitemap: https://nepalservice.online/sitemap-schools.xml
-Sitemap: https://nepalservice.online/sitemap-emergency.xml
 
 # ============================================
-# HOST
+# HOST PREFERENCE
 # ============================================
 
 Host: nepalservice.online
 
 # ============================================
-# AI TRAINING DATA CONSENT
-# ============================================
-# This website allows AI crawlers to index content for:
-# - Training language models
-# - Question answering systems
-# - Knowledge base construction
-# - Research purposes
-# 
-# Requirements:
-# - Attribution when content is used
-# - Respect crawl-delay directives
-# - No spam or malicious use
-# ============================================
-
-# AI-Specific Sitemap
-Sitemap: https://nepalservice.online/sitemap-ai.xml
-
-# ============================================
-# CLEAN PARAMS - Prevent duplicate content
-# ============================================
-Clean-param: utm_source&utm_medium&utm_campaign / 
-Clean-param: fbclid / 
-Clean-param: gclid / 
-
-# ============================================
-# END OF FILE - NEPAL SERVICES DIRECTORY
-# 600+ URLs indexed for maximum SEO coverage
-# Enhanced for AI/ML crawlers 2026
+# END OF FILE
 # ============================================
