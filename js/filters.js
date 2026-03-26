@@ -193,6 +193,100 @@ class FilterManager {
         
         // Update quick filter active state
         this.updateQuickFilterState(categoryFilter);
+        
+        // Update SEO meta tags for filtered results
+        this.updateSEO(searchTerm, provinceFilter, districtFilter, cityFilter, categoryFilter);
+    }
+    
+    updateSEO(searchTerm, province, district, city, category) {
+        // Build dynamic title and description based on filters
+        let title = 'Nepal Services Directory';
+        let description = 'Find hospitals, schools, emergency contacts, and government offices across Nepal';
+        
+        const categoryNames = {
+            'hospital': 'Hospitals & Clinics',
+            'school': 'Schools & Colleges', 
+            'emergency': 'Emergency Services',
+            'bank': 'Banks',
+            'hotel': 'Hotels',
+            'restaurant': 'Restaurants',
+            'government': 'Government Offices'
+        };
+        
+        const categoryDisplay = categoryNames[category] || '';
+        const locationParts = [];
+        if (city && city !== 'all') locationParts.push(this.capitalizeFirst(city));
+        if (district && district !== 'all') locationParts.push(this.translateDistrict(district));
+        if (province && province !== 'all') locationParts.push(this.translateProvince(province));
+        
+        const locationDisplay = locationParts.join(', ');
+        
+        // Build title
+        if (searchTerm) {
+            title = `${searchTerm} in Nepal | Nepal Services Directory`;
+        } else if (categoryDisplay && locationDisplay) {
+            title = `${categoryDisplay} in ${locationDisplay} | Nepal Services`;
+        } else if (categoryDisplay) {
+            title = `${categoryDisplay} in Nepal | Find All ${categoryDisplay}`;
+        } else if (locationDisplay) {
+            title = `Services in ${locationDisplay} | Nepal Directory`;
+        }
+        
+        // Build description
+        if (this.app.filteredData.length > 0) {
+            const count = this.app.filteredData.length;
+            if (searchTerm) {
+                description = `Find ${count} results for "${searchTerm}" in Nepal. Hospitals, schools, emergency contacts with phone numbers and addresses.`;
+            } else if (categoryDisplay && locationDisplay) {
+                description = `Discover ${count} ${categoryDisplay.toLowerCase()} in ${locationDisplay}. Phone numbers, addresses, and contact details available.`;
+            } else if (categoryDisplay) {
+                description = `Find ${count} ${categoryDisplay.toLowerCase()} across all 77 districts of Nepal. Complete directory with contact information.`;
+            } else if (locationDisplay) {
+                description = `Explore ${count} services in ${locationDisplay}. Hospitals, schools, emergency contacts and more.`;
+            }
+        }
+        
+        // Update document title
+        document.title = title;
+        
+        // Update meta description
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) {
+            metaDesc.content = description;
+        }
+        
+        // Update Open Graph tags
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        const ogDesc = document.querySelector('meta[property="og:description"]');
+        if (ogTitle) ogTitle.content = title;
+        if (ogDesc) ogDesc.content = description;
+        
+        // Update URL with filters (without reloading)
+        const params = new URLSearchParams();
+        if (searchTerm) params.set('search', searchTerm);
+        if (province && province !== 'all') params.set('province', province);
+        if (district && district !== 'all') params.set('district', district);
+        if (city && city !== 'all') params.set('city', city);
+        if (category && category !== 'all') params.set('category', category);
+        
+        const newUrl = params.toString() 
+            ? `${window.location.pathname}?${params.toString()}`
+            : window.location.pathname;
+        
+        window.history.replaceState({}, '', newUrl);
+    }
+    
+    translateProvince(province) {
+        const provinces = {
+            'koshi': 'Koshi Province',
+            'madhesh': 'Madhesh Province',
+            'bagmati': 'Bagmati Province',
+            'gandaki': 'Gandaki Province',
+            'lumbini': 'Lumbini Province',
+            'karnali': 'Karnali Province',
+            'sudurpashchim': 'Sudurpashchim Province'
+        };
+        return provinces[province] || province;
     }
     
     handleQuickFilter(e) {

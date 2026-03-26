@@ -1,0 +1,31 @@
+# Nepal Services Directory - Robots.txt
+# Allow all search engines to crawl everything
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://nepalservice.online/sitemap.xml
+
+# Crawl rate
+Crawl-delay: 1
+
+# Block specific paths if needed (none currently)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Special directives for Google
+User-agent: Googlebot
+Allow: /
+
+# Special directives for Bing
+User-agent: Bingbot
+Allow: /
+
+# Special directives for Yahoo
+User-agent: Slurp
+Allow: /
+
+# Special directives for DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /

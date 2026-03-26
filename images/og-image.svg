@@ -1,0 +1,69 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="100" cy="100" r="200" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="1100" cy="530" r="150" fill="rgba(255,255,255,0.05)"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,630 300,250 600,630" fill="url(#mountainGradient)" opacity="0.2"/>
+  <polygon points="400,630 700,200 1000,630" fill="url(#mountainGradient)" opacity="0.3"/>
+  <polygon points="800,630 1100,280 1400,630" fill="url(#mountainGradient)" opacity="0.2"/>
+  
+  <!-- Nepal Flag Colors Accent -->
+  <rect x="80" y="200" width="8" height="200" rx="4" fill="#dc2626"/>
+  <rect x="95" y="220" width="8" height="160" rx="4" fill="#1e40af"/>
+  
+  <!-- Main Title -->
+  <text x="600" y="280" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff" text-anchor="middle">
+    Nepal Services
+  </text>
+  <text x="600" y="360" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff" text-anchor="middle">
+    Directory
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="430" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#cbd5e1" text-anchor="middle">
+    Find 5,300+ Hospitals, Schools &amp; Emergency Contacts
+  </text>
+  <text x="600" y="470" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#cbd5e1" text-anchor="middle">
+    Across All 77 Districts of Nepal
+  </text>
+  
+  <!-- Stats -->
+  <g transform="translate(300, 530)">
+    <text x="0" y="0" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">7</text>
+    <text x="0" y="30" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#94a3b8" text-anchor="middle">Provinces</text>
+  </g>
+  <g transform="translate(500, 530)">
+    <text x="0" y="0" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">77</text>
+    <text x="0" y="30" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#94a3b8" text-anchor="middle">Districts</text>
+  </g>
+  <g transform="translate(700, 530)">
+    <text x="0" y="0" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">5,300+</text>
+    <text x="0" y="30" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#94a3b8" text-anchor="middle">Services</text>
+  </g>
+  <g transform="translate(900, 530)">
+    <text x="0" y="0" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">138</text>
+    <text x="0" y="30" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#94a3b8" text-anchor="middle">Cities</text>
+  </g>
+  
+  <!-- Website URL -->
+  <text x="600" y="605" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#3b82f6" text-anchor="middle">
+    nepalservice.online
+  </text>
+</svg>

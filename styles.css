@@ -3454,3 +3454,203 @@ mark.search-highlight {
         font-size: 1.6rem;
     }
 }
+
+/* ============================================
+   VIRAL SHARE SECTION
+   Make Nepal Services go viral!
+   ============================================ */
+
+.share-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 50%, #1e3a8a 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.share-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.3;
+}
+
+.share-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.share-content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.share-content p {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+}
+
+.share-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.share-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.share-btn:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+.share-btn.facebook {
+    background: #1877f2;
+    color: white;
+}
+
+.share-btn.twitter {
+    background: #1da1f2;
+    color: white;
+}
+
+.share-btn.whatsapp {
+    background: #25d366;
+    color: white;
+}
+
+.share-btn.copy {
+    background: white;
+    color: #1e293b;
+}
+
+.share-btn i {
+    font-size: 1.25rem;
+}
+
+.share-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.share-stat {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+.share-stat i {
+    color: #fbbf24;
+    font-size: 1.25rem;
+}
+
+/* Footer Social Links */
+.footer-social {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.social-link:nth-child(1):hover {
+    background: #1877f2;
+}
+
+.social-link:nth-child(2):hover {
+    background: #1da1f2;
+}
+
+.social-link:nth-child(3):hover {
+    background: #25d366;
+}
+
+/* SEO Keywords (hidden visually but visible to search engines) */
+.seo-keywords {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.6;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .share-section {
+        padding: 3rem 0;
+    }
+    
+    .share-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .share-content p {
+        font-size: 1rem;
+    }
+    
+    .share-buttons {
+        gap: 0.75rem;
+    }
+    
+    .share-btn {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.875rem;
+    }
+    
+    .share-btn span {
+        display: none;
+    }
+    
+    .share-stats {
+        gap: 1rem;
+    }
+    
+    .share-stat {
+        font-size: 0.875rem;
+    }
+}
