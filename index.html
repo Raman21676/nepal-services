@@ -61,6 +61,27 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="alternate icon" href="favicon.svg">
     
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-152x152.png">
+    
+    <!-- Apple Splash Screens -->
+    <link rel="apple-touch-startup-image" href="/icons/splash-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/icons/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/icons/splash-1242x2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/icons/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/icons/splash-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#2563eb">
+    <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    
     <!-- Structured Data - Schema.org -->
     <script type="application/ld+json">
     {
@@ -168,6 +189,216 @@
                         "description": "Government services and administrative offices"
                     }
                 ]
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://nepalservice.online/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "How can I find hospitals in Nepal?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Use Nepal Services Directory to search for hospitals by name, location (province, district, or city), or browse the complete list of hospitals across all 77 districts of Nepal. You can filter by hospital type, specialties, and emergency services."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What emergency numbers should I call in Nepal?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "In Nepal, dial 100 for Police, 101 for Fire Brigade, 102 for Ambulance, and 103 for Traffic Police. Nepal Services Directory provides complete emergency contact information for all provinces and major cities including ambulance services, blood banks, and 24-hour hospitals."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I find schools in my district?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nepal Services Directory allows you to search for schools and colleges by district, city, or province. Filter by school type (government, private, boarding), educational level (primary, secondary, higher secondary), and programs offered."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Nepal Services Directory free to use?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, Nepal Services Directory is completely free to use. Our mission is to make essential service information accessible to all Nepali citizens and visitors. The directory includes 5,300+ verified services across all 7 provinces and 77 districts."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I find government offices through this directory?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, Nepal Services Directory includes comprehensive listings of government offices including district administration offices, municipalities, police stations, and various government service centers with complete contact information and office hours."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How accurate is the information in Nepal Services Directory?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our data is sourced from official government websites, verified hospital records, and educational institution databases. We regularly update information to ensure accuracy. However, we recommend calling the provided numbers to confirm details before visiting."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "HowTo",
+                "@id": "https://nepalservice.online/#howto",
+                "name": "How to Find Essential Services in Nepal",
+                "description": "Step-by-step guide to finding hospitals, schools, and emergency services in Nepal using the Nepal Services Directory",
+                "totalTime": "PT2M",
+                "estimatedCost": {
+                    "@type": "MonetaryAmount",
+                    "currency": "NPR",
+                    "value": "0"
+                },
+                "supply": [
+                    {
+                        "@type": "HowToSupply",
+                        "name": "Internet Connection"
+                    },
+                    {
+                        "@type": "HowToSupply",
+                        "name": "Device (Phone/Computer)"
+                    }
+                ],
+                "tool": [
+                    {
+                        "@type": "HowToTool",
+                        "name": "Nepal Services Directory Website"
+                    }
+                ],
+                "step": [
+                    {
+                        "@type": "HowToStep",
+                        "position": 1,
+                        "name": "Visit Nepal Services Directory",
+                        "text": "Open your web browser and go to nepalservice.online. The website works on all devices including mobile phones, tablets, and computers.",
+                        "url": "https://nepalservice.online/"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 2,
+                        "name": "Search or Browse Services",
+                        "text": "Use the search bar to find specific services by name (e.g., 'Grande Hospital', 'St. Xaviers') or browse by category using the quick filter buttons for Hospitals, Schools, Emergency Services, etc.",
+                        "url": "https://nepalservice.online/?search=hospital"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 3,
+                        "name": "Filter by Location",
+                        "text": "Use the dropdown filters to narrow results by Province (Koshi, Bagmati, Gandaki, etc.), District, or City to find services near you.",
+                        "url": "https://nepalservice.online/?province=bagmati"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 4,
+                        "name": "View Service Details",
+                        "text": "Click on any service card to view complete information including phone numbers, addresses, services offered, specialties, and operating hours.",
+                        "url": "https://nepalservice.online/"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 5,
+                        "name": "Contact or Visit",
+                        "text": "Use the provided phone numbers to call ahead, or click on the address to get directions. Save important contacts for quick access in emergencies.",
+                        "url": "https://nepalservice.online/"
+                    }
+                ]
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://nepalservice.online/#localbusiness",
+                "name": "Nepal Services Directory",
+                "description": "Comprehensive online directory of hospitals, schools, emergency services and government offices across Nepal",
+                "url": "https://nepalservice.online/",
+                "telephone": "+977-1-XXXXXXX",
+                "email": "contact@nepalservice.online",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "NP",
+                    "addressLocality": "Kathmandu",
+                    "addressRegion": "Bagmati Province"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 28.3949,
+                    "longitude": 84.1240
+                },
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    "opens": "00:00",
+                    "closes": "23:59"
+                },
+                "priceRange": "Free",
+                "paymentAccepted": "None - Free Service",
+                "currenciesAccepted": "NPR",
+                "areaServed": {
+                    "@type": "Country",
+                    "name": "Nepal"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nepal Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Hospital Directory"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "School Directory"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Emergency Contacts"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Dataset",
+                "@id": "https://nepalservice.online/#dataset",
+                "name": "Nepal Services Database",
+                "description": "Comprehensive dataset of hospitals, schools, emergency services, and government offices across all 77 districts of Nepal",
+                "url": "https://nepalservice.online/",
+                "sameAs": "https://github.com/Raman21676/nepal-services",
+                "license": "https://opensource.org/licenses/MIT",
+                "isAccessibleForFree": true,
+                "creator": {
+                    "@id": "https://nepalservice.online/#organization"
+                },
+                "distribution": [
+                    {
+                        "@type": "DataDownload",
+                        "encodingFormat": "JSON",
+                        "contentUrl": "https://nepalservice.online/data/services.json"
+                    }
+                ],
+                "spatialCoverage": {
+                    "@type": "Place",
+                    "name": "Nepal",
+                    "geo": {
+                        "@type": "GeoShape",
+                        "box": "26.3479 80.0582 30.4469 88.2015"
+                    }
+                },
+                "temporalCoverage": "2024/2026",
+                "datePublished": "2024-01-01",
+                "dateModified": "2026-03-26"
             }
         ]
     }
@@ -390,6 +621,112 @@
             </div>
         </div>
     </main>
+    
+    <!-- SEO Content Section - Hidden visually but visible to search engines -->
+    <section class="seo-content-section" aria-label="About Nepal Services Directory">
+        <div class="container">
+            <div class="seo-content">
+                <h2 data-i18n="seo.aboutTitle">Complete Directory of Nepal Services</h2>
+                <p data-i18n="seo.aboutText">
+                    Nepal Services Directory is the most comprehensive online resource for finding essential services across all 77 districts of Nepal. 
+                    Our database includes <strong>hospitals in Kathmandu</strong>, <strong>schools in Pokhara</strong>, 
+                    <strong>emergency contacts in Birgunj</strong>, and thousands of other verified service providers.
+                </p>
+                
+                <div class="seo-grid">
+                    <div class="seo-card">
+                        <h3 data-i18n="seo.hospitalsTitle">Hospitals & Medical Services</h3>
+                        <p data-i18n="seo.hospitalsText">
+                            Find the best hospitals in Nepal including Grande International Hospital, Norvic International Hospital, 
+                            Teaching Hospital, Patan Hospital, and Bir Hospital. Get emergency numbers, addresses, 
+                            specialties, and services offered. Search for hospitals by location: 
+                            <a href="/?city=kathmandu&category=hospital">Kathmandu</a>, 
+                            <a href="/?city=pokhara&category=hospital">Pokhara</a>, 
+                            <a href="/?city=birgunj&category=hospital">Birgunj</a>, 
+                            <a href="/?city=biratnagar&category=hospital">Biratnagar</a>.
+                        </p>
+                    </div>
+                    
+                    <div class="seo-card">
+                        <h3 data-i18n="seo.schoolsTitle">Schools & Education</h3>
+                        <p data-i18n="seo.schoolsText">
+                            Discover top schools and colleges in Nepal. Find government schools, private boarding schools, 
+                            and international schools. Includes St. Xaviers College, Budhanilkantha School, 
+                            Trinity International College, and many more. Browse schools in 
+                            <a href="/?province=bagmati&category=school">Bagmati Province</a>, 
+                            <a href="/?province=gandaki&category=school">Gandaki Province</a>, and other provinces.
+                        </p>
+                    </div>
+                    
+                    <div class="seo-card">
+                        <h3 data-i18n="seo.emergencyTitle">Emergency Services</h3>
+                        <p data-i18n="seo.emergencyText">
+                            Access critical emergency contacts including police (100), ambulance (102), fire (101), 
+                            and blood banks across Nepal. Find 24-hour hospitals, emergency rooms, and trauma centers 
+                            in every district. Emergency services available in all 7 provinces.
+                        </p>
+                    </div>
+                    
+                    <div class="seo-card">
+                        <h3 data-i18n="seo.governmentTitle">Government Offices</h3>
+                        <p data-i18n="seo.governmentText">
+                            Locate government offices, district administration offices, municipalities, and public service centers. 
+                            Find contact information for government hospitals, public schools, and administrative services 
+                            in your area.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="seo-provinces">
+                    <h3 data-i18n="seo.provincesTitle">Services by Province</h3>
+                    <ul class="seo-links">
+                        <li><a href="/?province=koshi">Koshi Province</a> - Biratnagar, Itahari, Dharan services</li>
+                        <li><a href="/?province=madhesh">Madhesh Province</a> - Janakpur, Birgunj services</li>
+                        <li><a href="/?province=bagmati">Bagmati Province</a> - Kathmandu, Lalitpur, Bhaktapur services</li>
+                        <li><a href="/?province=gandaki">Gandaki Province</a> - Pokhara, Baglung services</li>
+                        <li><a href="/?province=lumbini">Lumbini Province</a> - Butwal, Bhairahawa services</li>
+                        <li><a href="/?province=karnali">Karnali Province</a> - Surkhet, Jumla services</li>
+                        <li><a href="/?province=sudurpashchim">Sudurpashchim Province</a> - Dhangadhi, Mahendranagar services</li>
+                    </ul>
+                </div>
+                
+                <div class="seo-keywords-rich">
+                    <h3 data-i18n="seo.keywordsTitle">Popular Searches</h3>
+                    <div class="keyword-cloud">
+                        <a href="/?search=grande">Grande Hospital</a>
+                        <a href="/?search=teaching+hospital">Teaching Hospital</a>
+                        <a href="/?search=patan+hospital">Patan Hospital</a>
+                        <a href="/?search=ambulance">Ambulance Service</a>
+                        <a href="/?search=blood+bank">Blood Bank</a>
+                        <a href="/?search=pharmacy">Pharmacy 24 Hours</a>
+                        <a href="/?search=st+xaviers">St. Xaviers College</a>
+                        <a href="/?search=budhanilkantha">Budhanilkantha School</a>
+                        <a href="/?search=trinity">Trinity College</a>
+                        <a href="/?search=police">Police Station</a>
+                        <a href="/?search=fire+brigade">Fire Brigade</a>
+                        <a href="/?search=district+office">District Administration</a>
+                        <a href="/?category=hospital&type=private">Private Hospitals</a>
+                        <a href="/?category=hospital&type=government">Government Hospitals</a>
+                        <a href="/?category=school&type=boarding">Boarding Schools</a>
+                    </div>
+                </div>
+                
+                <div class="seo-stats-detailed">
+                    <h3 data-i18n="seo.statsTitle">Nepal Services at a Glance</h3>
+                    <ul>
+                        <li><strong>7 Provinces</strong> - Complete coverage of all provinces in Nepal</li>
+                        <li><strong>77 Districts</strong> - Services available in every district</li>
+                        <li><strong>138 Cities</strong> - Urban and rural areas covered</li>
+                        <li><strong>5,300+ Services</strong> - Hospitals, schools, emergency contacts & more</li>
+                        <li><strong>100% Free</strong> - No charges for using our directory</li>
+                        <li><strong>24/7 Available</strong> - Access anytime, anywhere</li>
+                        <li><strong>Mobile Friendly</strong> - Works on all devices</li>
+                        <li><strong>Nepali & English</strong> - Available in both languages</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <!-- Share Section -->
@@ -497,6 +834,33 @@
         document.addEventListener('DOMContentLoaded', () => {
             i18n.init();
             themeManager.init();
+            
+            // Register Service Worker for PWA support
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then((registration) => {
+                        console.log('SW registered:', registration.scope);
+                    })
+                    .catch((error) => {
+                        console.log('SW registration failed:', error);
+                    });
+            }
+            
+            // Check for app installation
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                window.deferredPrompt = e;
+                console.log('App can be installed');
+            });
+            
+            // Track page view for analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'page_view', {
+                    page_title: document.title,
+                    page_location: window.location.href,
+                    page_path: window.location.pathname + window.location.search
+                });
+            }
         });
         
         // Share Functions - Make it viral!
