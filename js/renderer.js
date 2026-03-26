@@ -458,4 +458,115 @@ class UIRenderer {
         div.textContent = text;
         return div.innerHTML;
     }
+    
+    // Skeleton loading methods
+    showSkeletonLoading() {
+        const skeletonGrid = document.getElementById('skeletonGrid');
+        const resultsSection = document.getElementById('resultsSection');
+        const loadingState = document.getElementById('loading');
+        
+        if (!skeletonGrid) return;
+        
+        // Hide other states
+        loadingState.classList.add('hidden');
+        resultsSection.classList.remove('hidden');
+        
+        // Generate skeleton cards
+        const skeletonCount = CONFIG.ITEMS_PER_PAGE;
+        let skeletonHTML = '';
+        
+        for (let i = 0; i < skeletonCount; i++) {
+            skeletonHTML += this.createSkeletonCard();
+        }
+        
+        skeletonGrid.innerHTML = skeletonHTML;
+        skeletonGrid.classList.remove('hidden');
+        
+        // Hide results grid temporarily
+        const resultsGrid = document.getElementById('resultsGrid');
+        if (resultsGrid) resultsGrid.classList.add('hidden');
+    }
+    
+    hideSkeletonLoading() {
+        const skeletonGrid = document.getElementById('skeletonGrid');
+        const resultsGrid = document.getElementById('resultsGrid');
+        
+        if (skeletonGrid) {
+            skeletonGrid.classList.add('hidden');
+        }
+        if (resultsGrid) {
+            resultsGrid.classList.remove('hidden');
+        }
+    }
+    
+    createSkeletonCard() {
+        return `
+            <div class="skeleton-card">
+                <div class="skeleton-header"></div>
+                <div class="skeleton-subheader"></div>
+                <div class="skeleton-badges">
+                    <div class="skeleton-badge"></div>
+                    <div class="skeleton-badge"></div>
+                </div>
+                <div class="skeleton-content">
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+            </div>
+        `;
+    }
+    
+    // Enhanced smooth rendering with skeleton
+    renderResultsWithTransition() {
+        // Show skeleton first
+        this.showSkeletonLoading();
+        
+        // Small delay for smooth transition
+        setTimeout(() => {
+            this.renderResults();
+            this.hideSkeletonLoading();
+        }, 300);
+    }
+    
+    // Smooth scroll to results
+    scrollToResults() {
+        const searchSection = document.querySelector('.search-section');
+        if (searchSection) {
+            const offset = searchSection.offsetTop + searchSection.offsetHeight - 100;
+            window.scrollTo({
+                top: offset,
+                behavior: 'smooth'
+            });
+        }
+    }
+    
+    // Enhanced card animations with stagger
+    animateCards() {
+        const cards = document.querySelectorAll('.result-card');
+        cards.forEach((card, index) => {
+            // Reset initial state
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px) scale(0.95)';
+            
+            // Staggered animation
+            setTimeout(() => {
+                card.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0) scale(1)';
+            }, index * 80);
+        });
+    }
+    
+    // Highlight search matches in text
+    highlightMatches(text, searchTerm) {
+        if (!searchTerm || !text) return this.escapeHtml(text);
+        
+        const escapedTerm = this.escapeHtml(searchTerm);
+        const escapedText = this.escapeHtml(text);
+        
+        // Case-insensitive replacement
+        const regex = new RegExp(`(${escapedTerm})`, 'gi');
+        return escapedText.replace(regex, '<mark class="search-highlight">$1</mark>');
+    }
 }

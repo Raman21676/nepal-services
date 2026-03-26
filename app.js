@@ -71,7 +71,9 @@ class NepalServicesApp {
     
     renderResults() {
         if (this.uiRenderer) {
-            this.uiRenderer.renderResults();
+            // Use skeleton loading for smoother UX
+            this.uiRenderer.renderResultsWithTransition();
+            this.updateResultsCount();
         }
     }
     
@@ -225,3 +227,79 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+
+
+// Scroll to top functionality
+class ScrollManager {
+    constructor() {
+        this.scrollTopBtn = null;
+        this.init();
+    }
+    
+    init() {
+        // Create scroll to top button
+        this.createScrollButton();
+        
+        // Add scroll listener
+        window.addEventListener('scroll', () => this.handleScroll(), { passive: true });
+        
+        // Add parallax effect
+        this.initParallax();
+    }
+    
+    createScrollButton() {
+        const btn = document.createElement('button');
+        btn.id = 'scrollTopBtn';
+        btn.className = 'scroll-top-btn';
+        btn.innerHTML = '<i class="fas fa-arrow-up"></i>';
+        btn.setAttribute('aria-label', 'Scroll to top');
+        btn.onclick = () => this.scrollToTop();
+        document.body.appendChild(btn);
+        this.scrollTopBtn = btn;
+    }
+    
+    handleScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // Show/hide scroll button
+        if (scrollTop > 500) {
+            this.scrollTopBtn?.classList.add('visible');
+        } else {
+            this.scrollTopBtn?.classList.remove('visible');
+        }
+        
+        // Update parallax
+        this.updateParallax(scrollTop);
+    }
+    
+    scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    
+    initParallax() {
+        this.heroMountains = document.querySelector('.hero-mountains');
+        this.heroContent = document.querySelector('.hero-content');
+    }
+    
+    updateParallax(scrollTop) {
+        if (this.heroMountains) {
+            const speed = 0.3;
+            this.heroMountains.style.transform = `translateY(${scrollTop * speed}px)`;
+        }
+        
+        if (this.heroContent && scrollTop < 600) {
+            const opacity = 1 - (scrollTop / 500);
+            const translate = scrollTop * 0.4;
+            this.heroContent.style.opacity = Math.max(0, opacity);
+            this.heroContent.style.transform = `translateY(${translate}px)`;
+        }
+    }
+}
+
+// Initialize scroll manager when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    window.scrollManager = new ScrollManager();
+});
