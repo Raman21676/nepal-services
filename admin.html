@@ -1,0 +1,2011 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <title>Admin Panel - Nepal Services Directory</title>
+    <link rel="stylesheet" href="styles.css?v=47">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --admin-sidebar-width: 280px;
+            --admin-header-height: 70px;
+            --admin-primary: #4f46e5;
+            --admin-primary-dark: #4338ca;
+            --admin-success: #10b981;
+            --admin-warning: #f59e0b;
+            --admin-danger: #ef4444;
+            --admin-info: #3b82f6;
+            --admin-bg: #f1f5f9;
+            --admin-card-bg: #ffffff;
+            --admin-text: #1e293b;
+            --admin-text-muted: #64748b;
+            --admin-border: #e2e8f0;
+        }
+
+        [data-theme="dark"] {
+            --admin-bg: #0f172a;
+            --admin-card-bg: #1e293b;
+            --admin-text: #f1f5f9;
+            --admin-text-muted: #94a3b8;
+            --admin-border: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--admin-bg);
+            color: var(--admin-text);
+            min-height: 100vh;
+        }
+
+        /* Admin Layout */
+        .admin-container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .admin-sidebar {
+            width: var(--admin-sidebar-width);
+            background: var(--admin-card-bg);
+            border-right: 1px solid var(--admin-border);
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+
+        .admin-sidebar.collapsed {
+            transform: translateX(-100%);
+        }
+
+        .admin-logo {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--admin-border);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .admin-logo i {
+            font-size: 1.75rem;
+            color: var(--admin-primary);
+        }
+
+        .admin-logo h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .admin-logo span {
+            font-size: 0.75rem;
+            color: var(--admin-text-muted);
+            font-weight: 500;
+        }
+
+        .admin-nav {
+            padding: 1rem 0;
+        }
+
+        .admin-nav-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .admin-nav-title {
+            padding: 0 1.5rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--admin-text-muted);
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .admin-nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.875rem 1.5rem;
+            color: var(--admin-text);
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border-left: 3px solid transparent;
+        }
+
+        .admin-nav-item:hover,
+        .admin-nav-item.active {
+            background: linear-gradient(90deg, rgba(79, 70, 229, 0.1) 0%, transparent 100%);
+            border-left-color: var(--admin-primary);
+            color: var(--admin-primary);
+        }
+
+        .admin-nav-item i {
+            width: 20px;
+            text-align: center;
+        }
+
+        .admin-nav-badge {
+            margin-left: auto;
+            background: var(--admin-primary);
+            color: white;
+            font-size: 0.75rem;
+            padding: 0.125rem 0.5rem;
+            border-radius: 9999px;
+        }
+
+        /* Main Content */
+        .admin-main {
+            flex: 1;
+            margin-left: var(--admin-sidebar-width);
+            transition: margin-left 0.3s ease;
+        }
+
+        .admin-main.expanded {
+            margin-left: 0;
+        }
+
+        /* Header */
+        .admin-header {
+            height: var(--admin-header-height);
+            background: var(--admin-card-bg);
+            border-bottom: 1px solid var(--admin-border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .admin-header-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .admin-menu-toggle {
+            background: none;
+            border: none;
+            font-size: 1.25rem;
+            color: var(--admin-text);
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            transition: background 0.2s;
+        }
+
+        .admin-menu-toggle:hover {
+            background: var(--admin-bg);
+        }
+
+        .admin-breadcrumb {
+            font-size: 0.875rem;
+            color: var(--admin-text-muted);
+        }
+
+        .admin-breadcrumb span {
+            color: var(--admin-primary);
+            font-weight: 500;
+        }
+
+        .admin-header-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .admin-search {
+            position: relative;
+        }
+
+        .admin-search input {
+            padding: 0.5rem 1rem 0.5rem 2.5rem;
+            border: 1px solid var(--admin-border);
+            border-radius: 0.5rem;
+            background: var(--admin-bg);
+            color: var(--admin-text);
+            font-size: 0.875rem;
+            width: 250px;
+        }
+
+        .admin-search i {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--admin-text-muted);
+        }
+
+        .admin-header-btn {
+            background: none;
+            border: none;
+            font-size: 1.125rem;
+            color: var(--admin-text);
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            position: relative;
+            transition: background 0.2s;
+        }
+
+        .admin-header-btn:hover {
+            background: var(--admin-bg);
+        }
+
+        .admin-header-btn .badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--admin-danger);
+            color: white;
+            font-size: 0.625rem;
+            padding: 0.125rem 0.375rem;
+            border-radius: 9999px;
+        }
+
+        .admin-user {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .admin-user:hover {
+            background: var(--admin-bg);
+        }
+
+        .admin-user img {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--admin-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .admin-user-info {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .admin-user-info {
+                display: block;
+            }
+        }
+
+        .admin-user-name {
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .admin-user-role {
+            font-size: 0.75rem;
+            color: var(--admin-text-muted);
+        }
+
+        /* Content */
+        .admin-content {
+            padding: 1.5rem;
+        }
+
+        .admin-page {
+            display: none;
+        }
+
+        .admin-page.active {
+            display: block;
+        }
+
+        .admin-page-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .admin-page-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin-bottom: 0.5rem;
+        }
+
+        .admin-page-desc {
+            color: var(--admin-text-muted);
+            font-size: 0.875rem;
+        }
+
+        /* Stats Grid */
+        .admin-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .admin-stat-card {
+            background: var(--admin-card-bg);
+            border: 1px solid var(--admin-border);
+            border-radius: 1rem;
+            padding: 1.25rem;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .admin-stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .admin-stat-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .admin-stat-icon.primary {
+            background: rgba(79, 70, 229, 0.1);
+            color: var(--admin-primary);
+        }
+
+        .admin-stat-icon.success {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--admin-success);
+        }
+
+        .admin-stat-icon.warning {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--admin-warning);
+        }
+
+        .admin-stat-icon.danger {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--admin-danger);
+        }
+
+        .admin-stat-value {
+            font-size: 1.875rem;
+            font-weight: 700;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin-bottom: 0.25rem;
+        }
+
+        .admin-stat-label {
+            font-size: 0.875rem;
+            color: var(--admin-text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .admin-stat-change {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.375rem;
+        }
+
+        .admin-stat-change.positive {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--admin-success);
+        }
+
+        .admin-stat-change.negative {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--admin-danger);
+        }
+
+        /* Charts Section */
+        .admin-section {
+            background: var(--admin-card-bg);
+            border: 1px solid var(--admin-border);
+            border-radius: 1rem;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .admin-section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.25rem;
+        }
+
+        .admin-section-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .admin-section-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .admin-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .admin-btn-sm {
+            padding: 0.375rem 0.75rem;
+            font-size: 0.75rem;
+        }
+
+        .admin-btn-primary {
+            background: var(--admin-primary);
+            color: white;
+        }
+
+        .admin-btn-primary:hover {
+            background: var(--admin-primary-dark);
+        }
+
+        .admin-btn-secondary {
+            background: var(--admin-bg);
+            color: var(--admin-text);
+            border: 1px solid var(--admin-border);
+        }
+
+        .admin-btn-secondary:hover {
+            background: var(--admin-border);
+        }
+
+        .admin-btn-outline {
+            background: transparent;
+            color: var(--admin-text);
+            border: 1px solid var(--admin-border);
+        }
+
+        .admin-btn-outline:hover {
+            background: var(--admin-bg);
+        }
+
+        .admin-btn-icon {
+            padding: 0.5rem;
+            background: none;
+            border: 1px solid var(--admin-border);
+            border-radius: 0.5rem;
+            color: var(--admin-text);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .admin-btn-icon:hover {
+            background: var(--admin-bg);
+        }
+
+        /* Charts Grid */
+        .admin-charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .admin-chart-container {
+            position: relative;
+            height: 300px;
+        }
+
+        /* Data Tables */
+        .admin-table-container {
+            overflow-x: auto;
+        }
+
+        .admin-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .admin-table th,
+        .admin-table td {
+            padding: 0.875rem 1rem;
+            text-align: left;
+            font-size: 0.875rem;
+            border-bottom: 1px solid var(--admin-border);
+        }
+
+        .admin-table th {
+            font-weight: 600;
+            color: var(--admin-text-muted);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            background: var(--admin-bg);
+        }
+
+        .admin-table tr:hover {
+            background: var(--admin-bg);
+        }
+
+        .admin-table td {
+            color: var(--admin-text);
+        }
+
+        .admin-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .admin-status.online {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--admin-success);
+        }
+
+        .admin-status.offline {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--admin-danger);
+        }
+
+        .admin-status.pending {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--admin-warning);
+        }
+
+        /* Progress Bars */
+        .admin-progress {
+            margin-bottom: 1rem;
+        }
+
+        .admin-progress-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .admin-progress-bar {
+            height: 8px;
+            background: var(--admin-bg);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .admin-progress-fill {
+            height: 100%;
+            background: var(--admin-primary);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+
+        .admin-progress-fill.success {
+            background: var(--admin-success);
+        }
+
+        .admin-progress-fill.warning {
+            background: var(--admin-warning);
+        }
+
+        .admin-progress-fill.danger {
+            background: var(--admin-danger);
+        }
+
+        /* Quick Actions */
+        .admin-quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .admin-quick-action {
+            background: var(--admin-card-bg);
+            border: 1px solid var(--admin-border);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .admin-quick-action:hover {
+            border-color: var(--admin-primary);
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.1);
+        }
+
+        .admin-quick-action i {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: var(--admin-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--admin-primary);
+            font-size: 1.125rem;
+        }
+
+        .admin-quick-action span {
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        /* Login Page */
+        .admin-login {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--admin-primary) 0%, var(--admin-primary-dark) 100%);
+            padding: 1rem;
+        }
+
+        .admin-login-card {
+            background: var(--admin-card-bg);
+            border-radius: 1rem;
+            padding: 2rem;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        .admin-login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .admin-login-header i {
+            font-size: 3rem;
+            color: var(--admin-primary);
+            margin-bottom: 1rem;
+        }
+
+        .admin-login-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .admin-login-header p {
+            color: var(--admin-text-muted);
+            font-size: 0.875rem;
+        }
+
+        .admin-form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .admin-form-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .admin-form-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--admin-border);
+            border-radius: 0.5rem;
+            background: var(--admin-bg);
+            color: var(--admin-text);
+            font-size: 0.875rem;
+            transition: border-color 0.2s;
+        }
+
+        .admin-form-input:focus {
+            outline: none;
+            border-color: var(--admin-primary);
+        }
+
+        .admin-form-input-icon {
+            position: relative;
+        }
+
+        .admin-form-input-icon input {
+            padding-left: 2.5rem;
+        }
+
+        .admin-form-input-icon i {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--admin-text-muted);
+        }
+
+        .admin-form-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .admin-form-checkbox input {
+            width: 16px;
+            height: 16px;
+            accent-color: var(--admin-primary);
+        }
+
+        /* Data Management */
+        .admin-data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .admin-data-card {
+            background: var(--admin-card-bg);
+            border: 1px solid var(--admin-border);
+            border-radius: 1rem;
+            padding: 1.25rem;
+        }
+
+        .admin-data-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .admin-data-card-title {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .admin-data-card-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: var(--admin-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--admin-primary);
+        }
+
+        .admin-data-card-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .admin-data-card-stat {
+            text-align: center;
+            padding: 0.75rem;
+            background: var(--admin-bg);
+            border-radius: 0.5rem;
+        }
+
+        .admin-data-card-stat-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--admin-primary);
+        }
+
+        .admin-data-card-stat-label {
+            font-size: 0.75rem;
+            color: var(--admin-text-muted);
+            margin-top: 0.25rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .admin-sidebar {
+                transform: translateX(-100%);
+            }
+
+            .admin-sidebar.open {
+                transform: translateX(0);
+            }
+
+            .admin-main {
+                margin-left: 0;
+            }
+
+            .admin-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 999;
+            }
+
+            .admin-overlay.show {
+                display: block;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .admin-charts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .admin-stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .admin-content {
+                padding: 1rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .admin-fade-in {
+            animation: fadeIn 0.3s ease forwards;
+        }
+
+        /* Utility Classes */
+        .text-success { color: var(--admin-success); }
+        .text-danger { color: var(--admin-danger); }
+        .text-warning { color: var(--admin-warning); }
+        .text-info { color: var(--admin-info); }
+        .text-muted { color: var(--admin-text-muted); }
+
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="loginPage" class="admin-login">
+        <div class="admin-login-card">
+            <div class="admin-login-header">
+                <i class="fas fa-shield-alt"></i>
+                <h2>Admin Login</h2>
+                <p>Nepal Services Directory - Admin Panel</p>
+            </div>
+            <form id="loginForm">
+                <div class="admin-form-group">
+                    <label class="admin-form-label">Username</label>
+                    <div class="admin-form-input-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" class="admin-form-input" id="username" placeholder="Enter username" required>
+                    </div>
+                </div>
+                <div class="admin-form-group">
+                    <label class="admin-form-label">Password</label>
+                    <div class="admin-form-input-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" class="admin-form-input" id="password" placeholder="Enter password" required>
+                    </div>
+                </div>
+                <div class="admin-form-group">
+                    <label class="admin-form-checkbox">
+                        <input type="checkbox" id="rememberMe">
+                        <span>Remember me</span>
+                    </label>
+                </div>
+                <button type="submit" class="admin-btn admin-btn-primary" style="width: 100%;">
+                    <i class="fas fa-sign-in-alt"></i>
+                    Sign In
+                </button>
+            </form>
+            <div style="text-align: center; margin-top: 1.5rem; font-size: 0.875rem; color: var(--admin-text-muted);">
+                <p>Default: admin / admin123</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Dashboard -->
+    <div id="adminDashboard" class="admin-container hidden">
+        <!-- Sidebar -->
+        <aside class="admin-sidebar" id="adminSidebar">
+            <div class="admin-logo">
+                <i class="fas fa-map-marked-alt"></i>
+                <div>
+                    <h1>Nepal Services</h1>
+                    <span>Admin Panel</span>
+                </div>
+            </div>
+            <nav class="admin-nav">
+                <div class="admin-nav-section">
+                    <div class="admin-nav-title">Main</div>
+                    <a href="#" class="admin-nav-item active" data-page="dashboard">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                    <a href="#" class="admin-nav-item" data-page="analytics">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Analytics</span>
+                        <span class="admin-nav-badge">New</span>
+                    </a>
+                    <a href="#" class="admin-nav-item" data-page="services">
+                        <i class="fas fa-hospital"></i>
+                        <span>Services Data</span>
+                    </a>
+                </div>
+                <div class="admin-nav-section">
+                    <div class="admin-nav-title">Management</div>
+                    <a href="#" class="admin-nav-item" data-page="provinces">
+                        <i class="fas fa-map"></i>
+                        <span>Provinces</span>
+                    </a>
+                    <a href="#" class="admin-nav-item" data-page="cache">
+                        <i class="fas fa-sync"></i>
+                        <span>Cache Control</span>
+                    </a>
+                    <a href="#" class="admin-nav-item" data-page="seo">
+                        <i class="fas fa-search"></i>
+                        <span>SEO & Search</span>
+                    </a>
+                </div>
+                <div class="admin-nav-section">
+                    <div class="admin-nav-title">Settings</div>
+                    <a href="#" class="admin-nav-item" data-page="settings">
+                        <i class="fas fa-cog"></i>
+                        <span>Settings</span>
+                    </a>
+                    <a href="#" class="admin-nav-item" onclick="logout()">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>Logout</span>
+                    </a>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Overlay for mobile -->
+        <div class="admin-overlay" id="adminOverlay" onclick="toggleSidebar()"></div>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <!-- Header -->
+            <header class="admin-header">
+                <div class="admin-header-left">
+                    <button class="admin-menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="admin-breadcrumb">
+                        <span id="pageTitle">Dashboard</span>
+                    </div>
+                </div>
+                <div class="admin-header-right">
+                    <div class="admin-search">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                    <button class="admin-header-btn" onclick="refreshData()" title="Refresh Data">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button class="admin-header-btn" onclick="toggleTheme()" title="Toggle Theme">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                    <div class="admin-user">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%234f46e5'/%3E%3Ctext x='50' y='65' font-size='40' text-anchor='middle' fill='white' font-family='Arial'%3EA%3C/text%3E%3C/svg%3E" alt="Admin">
+                        <div class="admin-user-info">
+                            <div class="admin-user-name">Administrator</div>
+                            <div class="admin-user-role">Super Admin</div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="admin-content">
+                <!-- Dashboard Page -->
+                <div id="dashboardPage" class="admin-page active">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">Dashboard Overview</h2>
+                        <p class="admin-page-desc">Monitor your website performance and data metrics</p>
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="admin-quick-actions">
+                        <a href="index.html" target="_blank" class="admin-quick-action">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View Website</span>
+                        </a>
+                        <a href="#" class="admin-quick-action" onclick="clearCache()">
+                            <i class="fas fa-broom"></i>
+                            <span>Clear Cache</span>
+                        </a>
+                        <a href="#" class="admin-quick-action" onclick="exportData()">
+                            <i class="fas fa-download"></i>
+                            <span>Export Data</span>
+                        </a>
+                        <a href="#" class="admin-quick-action" onclick="showAddModal()">
+                            <i class="fas fa-plus"></i>
+                            <span>Add Service</span>
+                        </a>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="admin-stats-grid">
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon primary">
+                                <i class="fas fa-hospital"></i>
+                            </div>
+                            <div class="admin-stat-value" id="statTotalServices">0</div>
+                            <div class="admin-stat-label">Total Services</div>
+                            <div class="admin-stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span id="statServicesGrowth">+12%</span>
+                            </div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon success">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="admin-stat-value" id="statPageViews">0</div>
+                            <div class="admin-stat-label">Page Views (Today)</div>
+                            <div class="admin-stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+23%</span>
+                            </div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon warning">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="admin-stat-value" id="statSearches">0</div>
+                            <div class="admin-stat-label">Searches (Today)</div>
+                            <div class="admin-stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+8%</span>
+                            </div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon danger">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="admin-stat-value" id="statProvinces">7</div>
+                            <div class="admin-stat-label">Provinces Covered</div>
+                            <div class="admin-stat-change positive">
+                                <i class="fas fa-check"></i>
+                                <span>Complete</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts -->
+                    <div class="admin-charts-grid">
+                        <div class="admin-section">
+                            <div class="admin-section-header">
+                                <h3 class="admin-section-title">Traffic Overview</h3>
+                                <div class="admin-section-actions">
+                                    <button class="admin-btn-icon" onclick="refreshTrafficChart()">
+                                        <i class="fas fa-sync-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="admin-chart-container">
+                                <canvas id="trafficChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="admin-section">
+                            <div class="admin-section-header">
+                                <h3 class="admin-section-title">Services by Category</h3>
+                                <div class="admin-section-actions">
+                                    <button class="admin-btn-icon" onclick="refreshCategoryChart()">
+                                        <i class="fas fa-sync-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="admin-chart-container">
+                                <canvas id="categoryChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity & Top Searches -->
+                    <div class="admin-charts-grid">
+                        <div class="admin-section">
+                            <div class="admin-section-header">
+                                <h3 class="admin-section-title">Recent Activity</h3>
+                                <button class="admin-btn admin-btn-sm admin-btn-outline">View All</button>
+                            </div>
+                            <div class="admin-table-container">
+                                <table class="admin-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Action</th>
+                                            <th>Details</th>
+                                            <th>Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="activityTable">
+                                        <tr>
+                                            <td><i class="fas fa-plus text-success"></i> New Service</td>
+                                            <td>Ward offices added for Triyuga</td>
+                                            <td>2 mins ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-sync text-info"></i> Cache Cleared</td>
+                                            <td>Manual cache refresh</td>
+                                            <td>1 hour ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fas fa-search text-warning"></i> Search</td>
+                                            <td>"Gaighat ward" - 94 results</td>
+                                            <td>2 hours ago</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="admin-section">
+                            <div class="admin-section-header">
+                                <h3 class="admin-section-title">Top Searches</h3>
+                                <button class="admin-btn admin-btn-sm admin-btn-outline">View Report</button>
+                            </div>
+                            <div class="admin-table-container">
+                                <table class="admin-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Search Term</th>
+                                            <th>Count</th>
+                                            <th>Trend</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="searchesTable">
+                                        <tr>
+                                            <td>"Kathmandu hospital"</td>
+                                            <td>245</td>
+                                            <td><i class="fas fa-arrow-up text-success"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>"Biratnagar"</td>
+                                            <td>189</td>
+                                            <td><i class="fas fa-arrow-up text-success"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>"Pokhara school"</td>
+                                            <td>156</td>
+                                            <td><i class="fas fa-minus text-muted"></i></td>
+                                        </tr>
+                                        <tr>
+                                            <td>"Ambulance"</td>
+                                            <td>134</td>
+                                            <td><i class="fas fa-arrow-up text-success"></i></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytics Page -->
+                <div id="analyticsPage" class="admin-page">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">Analytics & Traffic</h2>
+                        <p class="admin-page-desc">Detailed website traffic and user behavior analysis</p>
+                    </div>
+
+                    <div class="admin-section">
+                        <div class="admin-section-header">
+                            <h3 class="admin-section-title">Visitor Statistics</h3>
+                            <div class="admin-section-actions">
+                                <button class="admin-btn admin-btn-sm admin-btn-secondary">
+                                    <i class="fas fa-calendar"></i>
+                                    Last 30 Days
+                                </button>
+                                <button class="admin-btn admin-btn-sm admin-btn-primary">
+                                    <i class="fas fa-download"></i>
+                                    Export
+                                </button>
+                            </div>
+                        </div>
+                        <div class="admin-chart-container" style="height: 400px;">
+                            <canvas id="visitorChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="admin-charts-grid">
+                        <div class="admin-section">
+                            <div class="admin-section-header">
+                                <h3 class="admin-section-title">Device Breakdown</h3>
+                            </div>
+                            <div class="admin-chart-container">
+                                <canvas id="deviceChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="admin-section">
+                            <div class="admin-section-header">
+                                <h3 class="admin-section-title">Top Provinces</h3>
+                            </div>
+                            <div class="admin-chart-container">
+                                <canvas id="provinceChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services Data Page -->
+                <div id="servicesPage" class="admin-page">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">Services Data Management</h2>
+                        <p class="admin-page-desc">Manage and monitor all services data across Nepal</p>
+                    </div>
+
+                    <div class="admin-data-grid" id="servicesGrid">
+                        <!-- Generated by JS -->
+                    </div>
+
+                    <div class="admin-section" style="margin-top: 1.5rem;">
+                        <div class="admin-section-header">
+                            <h3 class="admin-section-title">Data Completeness by Province</h3>
+                        </div>
+                        <div id="dataCompleteness">
+                            <!-- Generated by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Provinces Page -->
+                <div id="provincesPage" class="admin-page">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">Province Management</h2>
+                        <p class="admin-page-desc">Manage data for all 7 provinces of Nepal</p>
+                    </div>
+
+                    <div class="admin-section">
+                        <div class="admin-table-container">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>Province</th>
+                                        <th>Districts</th>
+                                        <th>Services</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="provincesTable">
+                                    <!-- Generated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cache Control Page -->
+                <div id="cachePage" class="admin-page">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">Cache Control</h2>
+                        <p class="admin-page-desc">Manage website cache and CDN settings</p>
+                    </div>
+
+                    <div class="admin-stats-grid">
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon primary">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="admin-stat-value" id="cacheVersion">v=46</div>
+                            <div class="admin-stat-label">Current Cache Version</div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon success">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="admin-stat-value" id="cacheStatus">Active</div>
+                            <div class="admin-stat-label">CDN Status</div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon warning">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="admin-stat-value" id="cacheSize">2.4 MB</div>
+                            <div class="admin-stat-label">Cached Data Size</div>
+                        </div>
+                    </div>
+
+                    <div class="admin-section">
+                        <div class="admin-section-header">
+                            <h3 class="admin-section-title">Cache Actions</h3>
+                        </div>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <button class="admin-btn admin-btn-primary" onclick="clearBrowserCache()">
+                                <i class="fas fa-broom"></i>
+                                Clear Browser Cache
+                            </button>
+                            <button class="admin-btn admin-btn-warning" onclick="bumpCacheVersion()">
+                                <i class="fas fa-arrow-up"></i>
+                                Bump Cache Version
+                            </button>
+                            <button class="admin-btn admin-btn-secondary" onclick="forceReload()">
+                                <i class="fas fa-redo"></i>
+                                Force Reload All
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="admin-section">
+                        <div class="admin-section-header">
+                            <h3 class="admin-section-title">CDN Cache Status</h3>
+                        </div>
+                        <div class="admin-table-container">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>Resource</th>
+                                        <th>Cache Status</th>
+                                        <th>Version</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><i class="fas fa-html5 text-orange"></i> index.html</td>
+                                        <td><span class="admin-status online">Cached</span></td>
+                                        <td>v=46</td>
+                                        <td><button class="admin-btn admin-btn-sm admin-btn-outline">Purge</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-css3 text-blue"></i> styles.css</td>
+                                        <td><span class="admin-status online">Cached</span></td>
+                                        <td>v=46</td>
+                                        <td><button class="admin-btn admin-btn-sm admin-btn-outline">Purge</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-js text-yellow"></i> app.js</td>
+                                        <td><span class="admin-status online">Cached</span></td>
+                                        <td>v=46</td>
+                                        <td><button class="admin-btn admin-btn-sm admin-btn-outline">Purge</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-database text-green"></i> Data Files</td>
+                                        <td><span class="admin-status online">Cached</span></td>
+                                        <td>v=46</td>
+                                        <td><button class="admin-btn admin-btn-sm admin-btn-outline">Purge</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO Page -->
+                <div id="seoPage" class="admin-page">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">SEO & Search Analytics</h2>
+                        <p class="admin-page-desc">Monitor search performance and SEO metrics</p>
+                    </div>
+
+                    <div class="admin-stats-grid">
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon primary">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="admin-stat-value">#3</div>
+                            <div class="admin-stat-label">Avg. Search Ranking</div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon success">
+                                <i class="fas fa-mouse-pointer"></i>
+                            </div>
+                            <div class="admin-stat-value">4.2%</div>
+                            <div class="admin-stat-label">Click-Through Rate</div>
+                        </div>
+                        <div class="admin-stat-card">
+                            <div class="admin-stat-icon info">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <div class="admin-stat-value">156</div>
+                            <div class="admin-stat-label">Backlinks</div>
+                        </div>
+                    </div>
+
+                    <div class="admin-section">
+                        <div class="admin-section-header">
+                            <h3 class="admin-section-title">Search Keywords Performance</h3>
+                        </div>
+                        <div class="admin-table-container">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>Keyword</th>
+                                        <th>Position</th>
+                                        <th>Impressions</th>
+                                        <th>Clicks</th>
+                                        <th>CTR</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>"Nepal hospitals"</td>
+                                        <td>#2</td>
+                                        <td>1,245</td>
+                                        <td>89</td>
+                                        <td>7.1%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>"Kathmandu services"</td>
+                                        <td>#4</td>
+                                        <td>982</td>
+                                        <td>45</td>
+                                        <td>4.6%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>"Nepal emergency contacts"</td>
+                                        <td>#1</td>
+                                        <td>756</td>
+                                        <td>68</td>
+                                        <td>9.0%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>"Pokhara schools"</td>
+                                        <td>#3</td>
+                                        <td>634</td>
+                                        <td>38</td>
+                                        <td>6.0%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Settings Page -->
+                <div id="settingsPage" class="admin-page">
+                    <div class="admin-page-header">
+                        <h2 class="admin-page-title">Settings</h2>
+                        <p class="admin-page-desc">Configure admin panel and website settings</p>
+                    </div>
+
+                    <div class="admin-section">
+                        <div class="admin-section-header">
+                            <h3 class="admin-section-title">General Settings</h3>
+                        </div>
+                        <div style="max-width: 600px;">
+                            <div class="admin-form-group">
+                                <label class="admin-form-label">Site Title</label>
+                                <input type="text" class="admin-form-input" value="Nepal Services Directory" id="siteTitle">
+                            </div>
+                            <div class="admin-form-group">
+                                <label class="admin-form-label">Site Description</label>
+                                <input type="text" class="admin-form-input" value="Find hospitals, schools, emergency contacts across Nepal" id="siteDescription">
+                            </div>
+                            <div class="admin-form-group">
+                                <label class="admin-form-label">Cache Version</label>
+                                <input type="text" class="admin-form-input" value="47" id="cacheVersionInput">
+                            </div>
+                            <div class="admin-form-group">
+                                <label class="admin-form-checkbox">
+                                    <input type="checkbox" checked id="analyticsEnabled">
+                                    <span>Enable Analytics Tracking</span>
+                                </label>
+                            </div>
+                            <div class="admin-form-group">
+                                <label class="admin-form-checkbox">
+                                    <input type="checkbox" checked id="searchLogging">
+                                    <span>Log Search Queries</span>
+                                </label>
+                            </div>
+                            <button class="admin-btn admin-btn-primary" onclick="saveSettings()">
+                                <i class="fas fa-save"></i>
+                                Save Settings
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Admin Panel JavaScript
+        let trafficChart, categoryChart, visitorChart, deviceChart, provinceChart;
+        let currentCacheVersion = 46;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            checkLoginStatus();
+            initCharts();
+            loadStats();
+            loadServicesData();
+            loadProvincesData();
+        });
+
+        // Login System
+        function checkLoginStatus() {
+            const isLoggedIn = sessionStorage.getItem('adminLoggedIn') === 'true';
+            if (isLoggedIn) {
+                showDashboard();
+            } else {
+                showLogin();
+            }
+        }
+
+        function showLogin() {
+            document.getElementById('loginPage').classList.remove('hidden');
+            document.getElementById('adminDashboard').classList.add('hidden');
+        }
+
+        function showDashboard() {
+            document.getElementById('loginPage').classList.add('hidden');
+            document.getElementById('adminDashboard').classList.remove('hidden');
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Simple authentication (in production, use proper backend auth)
+            if (username === 'admin' && password === 'admin123') {
+                sessionStorage.setItem('adminLoggedIn', 'true');
+                showDashboard();
+                showNotification('Welcome back, Administrator!', 'success');
+            } else {
+                showNotification('Invalid username or password', 'error');
+            }
+        });
+
+        function logout() {
+            sessionStorage.removeItem('adminLoggedIn');
+            showLogin();
+            showNotification('Logged out successfully', 'info');
+        }
+
+        // Navigation
+        document.querySelectorAll('.admin-nav-item[data-page]').forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                const page = this.dataset.page;
+                
+                // Update active nav
+                document.querySelectorAll('.admin-nav-item').forEach(nav => nav.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Show page
+                document.querySelectorAll('.admin-page').forEach(p => p.classList.remove('active'));
+                document.getElementById(page + 'Page').classList.add('active');
+                
+                // Update title
+                const titles = {
+                    dashboard: 'Dashboard',
+                    analytics: 'Analytics',
+                    services: 'Services Data',
+                    provinces: 'Provinces',
+                    cache: 'Cache Control',
+                    seo: 'SEO & Search',
+                    settings: 'Settings'
+                };
+                document.getElementById('pageTitle').textContent = titles[page];
+                
+                // Close sidebar on mobile
+                if (window.innerWidth <= 1024) {
+                    toggleSidebar();
+                }
+            });
+        });
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('adminSidebar');
+            const overlay = document.getElementById('adminOverlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('show');
+        }
+
+        // Charts
+        function initCharts() {
+            // Traffic Chart
+            const trafficCtx = document.getElementById('trafficChart').getContext('2d');
+            trafficChart = new Chart(trafficCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                    datasets: [{
+                        label: 'Page Views',
+                        data: [1200, 1900, 1500, 2200, 1800, 2400, 2100],
+                        borderColor: '#4f46e5',
+                        backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }, {
+                        label: 'Unique Visitors',
+                        data: [800, 1200, 1000, 1400, 1100, 1600, 1300],
+                        borderColor: '#10b981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            // Category Chart
+            const categoryCtx = document.getElementById('categoryChart').getContext('2d');
+            categoryChart = new Chart(categoryCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Hospitals', 'Schools', 'Government', 'Emergency', 'Ward Offices', 'Others'],
+                    datasets: [{
+                        data: [752, 811, 450, 120, 116, 2055],
+                        backgroundColor: [
+                            '#4f46e5',
+                            '#10b981',
+                            '#f59e0b',
+                            '#ef4444',
+                            '#3b82f6',
+                            '#8b5cf6'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+
+            // Visitor Chart
+            const visitorCtx = document.getElementById('visitorChart');
+            if (visitorCtx) {
+                visitorChart = new Chart(visitorCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: Array.from({length: 30}, (_, i) => i + 1),
+                        datasets: [{
+                            label: 'Daily Visitors',
+                            data: Array.from({length: 30}, () => Math.floor(Math.random() * 1000) + 500),
+                            backgroundColor: '#4f46e5'
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        },
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Day of Month'
+                                }
+                            },
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Device Chart
+            const deviceCtx = document.getElementById('deviceChart');
+            if (deviceCtx) {
+                deviceChart = new Chart(deviceCtx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Mobile', 'Desktop', 'Tablet'],
+                        datasets: [{
+                            data: [65, 30, 5],
+                            backgroundColor: ['#4f46e5', '#10b981', '#f59e0b']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false
+                    }
+                });
+            }
+
+            // Province Chart
+            const provinceCtx = document.getElementById('provinceChart');
+            if (provinceCtx) {
+                provinceChart = new Chart(provinceCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Bagmati', 'Koshi', 'Madhesh', 'Gandaki', 'Lumbini', 'Karnali', 'Sudurpashchim'],
+                        datasets: [{
+                            label: 'Services',
+                            data: [2200, 980, 850, 720, 650, 520, 480],
+                            backgroundColor: '#4f46e5'
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        indexAxis: 'y',
+                        plugins: {
+                            legend: {
+                                display: false
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        // Load Stats
+        async function loadStats() {
+            // Load from localStorage or calculate from data
+            const stats = JSON.parse(localStorage.getItem('adminStats') || '{}');
+            
+            document.getElementById('statTotalServices').textContent = 
+                (stats.totalServices || 5304).toLocaleString();
+            document.getElementById('statPageViews').textContent = 
+                (stats.pageViews || 2453).toLocaleString();
+            document.getElementById('statSearches').textContent = 
+                (stats.searches || 856).toLocaleString();
+        }
+
+        // Load Services Data
+        function loadServicesData() {
+            const services = [
+                { name: 'Hospitals', count: 752, icon: 'fa-hospital', color: 'primary' },
+                { name: 'Schools', count: 811, icon: 'fa-school', color: 'success' },
+                { name: 'Government', count: 450, icon: 'fa-building', color: 'warning' },
+                { name: 'Emergency', count: 120, icon: 'fa-ambulance', color: 'danger' },
+                { name: 'Ward Offices', count: 116, icon: 'fa-map-pin', color: 'info' },
+                { name: 'Others', count: 2055, icon: 'fa-ellipsis-h', color: 'muted' }
+            ];
+
+            const grid = document.getElementById('servicesGrid');
+            grid.innerHTML = services.map(s => `
+                <div class="admin-data-card admin-fade-in">
+                    <div class="admin-data-card-header">
+                        <h4 class="admin-data-card-title">${s.name}</h4>
+                        <div class="admin-data-card-icon" style="color: var(--admin-${s.color})">
+                            <i class="fas ${s.icon}"></i>
+                        </div>
+                    </div>
+                    <div class="admin-data-card-stats">
+                        <div class="admin-data-card-stat">
+                            <div class="admin-data-card-stat-value">${s.count.toLocaleString()}</div>
+                            <div class="admin-data-card-stat-label">Total</div>
+                        </div>
+                        <div class="admin-data-card-stat">
+                            <div class="admin-data-card-stat-value">7</div>
+                            <div class="admin-data-card-stat-label">Provinces</div>
+                        </div>
+                    </div>
+                    <div class="admin-progress">
+                        <div class="admin-progress-header">
+                            <span>Data Completeness</span>
+                            <span>${Math.floor(Math.random() * 30 + 70)}%</span>
+                        </div>
+                        <div class="admin-progress-bar">
+                            <div class="admin-progress-fill ${s.color}" style="width: ${Math.floor(Math.random() * 30 + 70)}%"></div>
+                        </div>
+                    </div>
+                    <button class="admin-btn admin-btn-sm admin-btn-outline" style="width: 100%;">
+                        <i class="fas fa-eye"></i> View Details
+                    </button>
+                </div>
+            `).join('');
+
+            // Data Completeness
+            const provinces = ['Bagmati', 'Koshi', 'Gandaki', 'Lumbini', 'Madhesh', 'Karnali', 'Sudurpashchim'];
+            const completenessDiv = document.getElementById('dataCompleteness');
+            completenessDiv.innerHTML = provinces.map(p => {
+                const percent = Math.floor(Math.random() * 40 + 60);
+                return `
+                    <div class="admin-progress" style="margin-bottom: 1rem;">
+                        <div class="admin-progress-header">
+                            <span><i class="fas fa-map-marker-alt text-info"></i> ${p}</span>
+                            <span>${percent}%</span>
+                        </div>
+                        <div class="admin-progress-bar">
+                            <div class="admin-progress-fill ${percent > 80 ? 'success' : percent > 60 ? 'warning' : 'danger'}" 
+                                 style="width: ${percent}%"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Load Provinces Data
+        function loadProvincesData() {
+            const provinces = [
+                { name: 'Bagmati', districts: 13, services: 2200, status: 'online' },
+                { name: 'Koshi', districts: 14, services: 980, status: 'online' },
+                { name: 'Madhesh', districts: 8, services: 850, status: 'online' },
+                { name: 'Gandaki', districts: 11, services: 720, status: 'online' },
+                { name: 'Lumbini', districts: 12, services: 650, status: 'pending' },
+                { name: 'Karnali', districts: 10, services: 520, status: 'pending' },
+                { name: 'Sudurpashchim', districts: 9, services: 480, status: 'pending' }
+            ];
+
+            const tbody = document.getElementById('provincesTable');
+            tbody.innerHTML = provinces.map(p => `
+                <tr>
+                    <td><strong>${p.name}</strong></td>
+                    <td>${p.districts} districts</td>
+                    <td>${p.services.toLocaleString()}</td>
+                    <td><span class="admin-status ${p.status}">${p.status === 'online' ? 'Complete' : 'Pending'}</span></td>
+                    <td>
+                        <button class="admin-btn admin-btn-sm admin-btn-outline">
+                            <i class="fas fa-edit"></i> Manage
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        // Cache Control Functions
+        function clearCache() {
+            if ('caches' in window) {
+                caches.keys().then(names => {
+                    names.forEach(name => caches.delete(name));
+                });
+            }
+            localStorage.removeItem('visitedServices');
+            sessionStorage.clear();
+            showNotification('Cache cleared successfully!', 'success');
+        }
+
+        function clearBrowserCache() {
+            clearCache();
+            document.getElementById('cacheSize').textContent = '0 MB';
+        }
+
+        function bumpCacheVersion() {
+            currentCacheVersion++;
+            document.getElementById('cacheVersion').textContent = 'v=' + currentCacheVersion;
+            document.getElementById('cacheVersionInput').value = currentCacheVersion;
+            showNotification('Cache version bumped to v=' + currentCacheVersion, 'success');
+        }
+
+        function forceReload() {
+            clearCache();
+            window.location.reload(true);
+        }
+
+        // Settings
+        function saveSettings() {
+            const settings = {
+                siteTitle: document.getElementById('siteTitle').value,
+                siteDescription: document.getElementById('siteDescription').value,
+                cacheVersion: document.getElementById('cacheVersionInput').value,
+                analyticsEnabled: document.getElementById('analyticsEnabled').checked,
+                searchLogging: document.getElementById('searchLogging').checked
+            };
+            localStorage.setItem('adminSettings', JSON.stringify(settings));
+            showNotification('Settings saved successfully!', 'success');
+        }
+
+        // Theme Toggle
+        function toggleTheme() {
+            const html = document.documentElement;
+            const icon = document.getElementById('themeIcon');
+            if (html.dataset.theme === 'light') {
+                html.dataset.theme = 'dark';
+                icon.className = 'fas fa-sun';
+            } else {
+                html.dataset.theme = 'light';
+                icon.className = 'fas fa-moon';
+            }
+        }
+
+        // Utility Functions
+        function refreshData() {
+            loadStats();
+            loadServicesData();
+            loadProvincesData();
+            showNotification('Data refreshed!', 'success');
+        }
+
+        function exportData() {
+            const data = {
+                exportDate: new Date().toISOString(),
+                services: JSON.parse(localStorage.getItem('allServices') || '[]'),
+                stats: JSON.parse(localStorage.getItem('adminStats') || '{}')
+            };
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'nepal-services-data-' + new Date().toISOString().split('T')[0] + '.json';
+            a.click();
+            showNotification('Data exported successfully!', 'success');
+        }
+
+        function showAddModal() {
+            alert('Add Service modal - In production, this would open a form to add new services');
+        }
+
+        function showNotification(message, type = 'info') {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 1rem 1.5rem;
+                border-radius: 0.5rem;
+                color: white;
+                font-weight: 500;
+                z-index: 10000;
+                animation: slideIn 0.3s ease;
+                background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6'};
+            `;
+            notification.innerHTML = `<i class="fas ${type === 'success' ? 'fa-check' : type === 'error' ? 'fa-exclamation-circle' : 'fa-info-circle'}"></i> ${message}`;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'fadeOut 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+
+        // Add animation styles
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes fadeOut {
+                from { opacity: 1; }
+                to { opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Track page views (mock)
+        let pageViews = parseInt(localStorage.getItem('pageViews') || '0');
+        pageViews++;
+        localStorage.setItem('pageViews', pageViews);
+    </script>
+</body>
+</html>
