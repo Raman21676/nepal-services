@@ -147,4 +147,5 @@ const KARNALI_MANIFEST = [
     { path: 'data/provinces/karnali/surkhet/surkhet/surkhet_government.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'government' },
     { path: 'data/provinces/karnali/surkhet/surkhet/surkhet_hospitals.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'hospitals' },,
     { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_ward_offices.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'ward_offices' },
+    { path: 'data/provinces/karnali/mugu/rara/rara_hotels.json', province: 'karnali', district: 'mugu', city: 'rara', type: 'hotels' },
 ];

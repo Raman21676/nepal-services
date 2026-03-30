@@ -236,6 +236,7 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/kapilvastu/tilaurakot/tilaurakot_pharmacies.json', province: 'lumbini', district: 'kapilvastu', city: 'tilaurakot', type: 'pharmacies' },
     { path: 'data/provinces/lumbini/rupandehi/bhairahawa/bhairahawa_schools.json', province: 'lumbini', district: 'rupandehi', city: 'bhairahawa', type: 'schools' },
     { path: 'data/provinces/lumbini/rupandehi/bhairahawa/bhairahawa_hospitals.json', province: 'lumbini', district: 'rupandehi', city: 'bhairahawa', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/rupandehi/lumbini/lumbini_hotels.json', province: 'lumbini', district: 'rupandehi', city: 'lumbini', type: 'hotels' },
     { path: 'data/provinces/lumbini/rupandehi/bhairahawa/bhairahawa_government.json', province: 'lumbini', district: 'rupandehi', city: 'bhairahawa', type: 'government' },
     { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_government.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'government' },
     { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_clinics.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'clinics' },

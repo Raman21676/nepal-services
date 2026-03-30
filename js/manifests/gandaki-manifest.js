@@ -196,6 +196,7 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/lamjung/besisahar/besisahar_hospitals.json', province: 'gandaki', district: 'lamjung', city: 'besisahar', type: 'hospitals' },
     { path: 'data/provinces/gandaki/tanahun/damauli/damauli_schools.json', province: 'gandaki', district: 'tanahun', city: 'damauli', type: 'schools' },
     { path: 'data/provinces/gandaki/tanahun/damauli/damauli_hospitals.json', province: 'gandaki', district: 'tanahun', city: 'damauli', type: 'hospitals' },
+    { path: 'data/provinces/gandaki/tanahun/bandipur/bandipur_hotels.json', province: 'gandaki', district: 'tanahun', city: 'bandipur', type: 'hotels' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_schools.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'schools' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_hospitals.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'hospitals' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_pharmacies.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'pharmacies' },

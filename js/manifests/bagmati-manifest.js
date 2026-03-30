@@ -33,6 +33,8 @@ const BAGMATI_MANIFEST = [
     // Bhaktapur
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
+    { path: 'data/provinces/bagmati/bhaktapur/bhaktapur/bhaktapur_hotels.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hotels' },
+    { path: 'data/provinces/bagmati/bhaktapur/nagarkot/nagarkot_hotels.json', province: 'bagmati', district: 'bhaktapur', city: 'nagarkot', type: 'hotels' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_colleges.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'colleges' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_clinics.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'clinics' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_pharmacies.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'pharmacies' },
@@ -223,6 +225,7 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_hospitals.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'hospitals' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_schools.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'schools' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_ambulance.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'ambulance' },
+    { path: 'data/provinces/bagmati/chitwan/sauraha/sauraha_hotels.json', province: 'bagmati', district: 'chitwan', city: 'sauraha', type: 'hotels' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_blood_banks.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'banks' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_clinics.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'clinics' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'banks' },

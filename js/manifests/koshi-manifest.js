@@ -221,6 +221,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/solukhumbu/salleri_pharmacies.json', province: 'koshi', district: 'solukhumbu', city: 'salleri', type: 'pharmacies' },
     { path: 'data/provinces/koshi/solukhumbu/salleri_schools.json', province: 'koshi', district: 'solukhumbu', city: 'salleri', type: 'schools' },
     { path: 'data/provinces/koshi/solukhumbu/salleri_veterinary.json', province: 'koshi', district: 'solukhumbu', city: 'salleri', type: 'veterinary' },
+    { path: 'data/provinces/koshi/solukhumbu/namche_bazaar/namche_bazaar_hotels.json', province: 'koshi', district: 'solukhumbu', city: 'namche_bazaar', type: 'hotels' },
     { path: 'data/provinces/koshi/sunsari/inaruwa_forest_offices.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'forest_offices' },
     { path: 'data/provinces/koshi/taplejung/taplejung.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'hospitals' },
     { path: 'data/provinces/koshi/taplejung/taplejung_ambulance.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'ambulance' },
