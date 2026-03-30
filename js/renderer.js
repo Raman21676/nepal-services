@@ -140,6 +140,12 @@ class UIRenderer {
             case 'forest':
                 details += this.renderForestDetails(item);
                 break;
+            case 'hotels':
+                details += this.renderHotelDetails(item);
+                break;
+            case 'tourism':
+                details += this.renderTourismDetails(item);
+                break;
         }
         
         // Common fields
@@ -272,6 +278,33 @@ class UIRenderer {
         let details = '';
         if (item.type) details += this.createInfoRow('🌲', 'Type', item.type);
         if (item.range) details += this.createInfoRow('📍', 'Range', item.range);
+        return details;
+    }
+    
+    renderHotelDetails(item) {
+        let details = '';
+        if (item.category) details += this.createInfoRow('⭐', 'Category', item.category);
+        if (item.type) details += this.createInfoRow('🏨', 'Type', item.type);
+        if (item.rooms) details += this.createInfoRow('🛏️', 'Rooms', item.rooms.toLocaleString());
+        if (item.price_range) details += this.createInfoRow('💰', 'Price Range', item.price_range);
+        if (item.amenities && item.amenities.length > 0) {
+            const amenities = item.amenities.slice(0, 5).join(', ') + 
+                (item.amenities.length > 5 ? ` <span class="more">+${item.amenities.length - 5} more</span>` : '');
+            details += this.createInfoRow('✨', 'Amenities', amenities);
+        }
+        return details;
+    }
+    
+    renderTourismDetails(item) {
+        let details = '';
+        if (item.category) details += this.createInfoRow('📍', 'Category', item.category);
+        if (item.type) details += this.createInfoRow('🎯', 'Type', item.type);
+        if (item.description) details += this.createInfoRow('📝', 'Description', item.description);
+        if (item.activities && item.activities.length > 0) {
+            const activities = item.activities.slice(0, 5).join(', ') + 
+                (item.activities.length > 5 ? ` <span class="more">+${item.activities.length - 5} more</span>` : '');
+            details += this.createInfoRow('🎿', 'Activities', activities);
+        }
         return details;
     }
     
