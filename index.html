@@ -10,7 +10,7 @@
     <title>Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
     <meta name="description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
     <link rel="canonical" href="https://nepalservice.online/">
-    <link rel="stylesheet" href="styles.css?v=44">
+    <link rel="stylesheet" href="styles.css?v=45">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             
             // Register cleanup service worker first
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/sw.js?v=44', { scope: '/' })
+                navigator.serviceWorker.register('/sw.js?v=45', { scope: '/' })
                     .then(function(reg) {
                         console.log('Cleanup SW registered');
                         // Force update
@@ -321,6 +321,12 @@
         { path: 'data/provinces/bagmati/lalitpur/lalitpur_schools.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'schools' },
         { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
         { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
+        { path: 'data/provinces/bagmati/kathmandu/kathmandu_ward_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ward_offices' },
+        { path: 'data/provinces/bagmati/lalitpur/lalitpur_ward_offices.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'ward_offices' },
+        { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_ward_offices.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'ward_offices' },
+        { path: 'data/provinces/bagmati/chitwan/bharatpur_ward_offices.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'ward_offices' },
+        { path: 'data/provinces/bagmati/makwanpur/hetauda_ward_offices.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'ward_offices' },
+        { path: 'data/provinces/bagmati/kathmandu/kirtipur/kirtipur_ward_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kirtipur', type: 'ward_offices' },
     ];
     
     // Koshi Province Manifest  
@@ -329,36 +335,47 @@
         { path: 'data/provinces/koshi/biratnagar/biratnagar_schools.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'schools' },
         { path: 'data/provinces/koshi/dharan/dharan_hospitals.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'hospitals' },
         { path: 'data/provinces/koshi/morang/biratnagar_hotels.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'hotels' },
+        { path: 'data/provinces/koshi/morang/katahari/katahari_ward_offices.json', province: 'koshi', district: 'morang', city: 'katahari', type: 'ward_offices' },
+        { path: 'data/provinces/koshi/morang/biratnagar_ward_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward_offices' },
+        { path: 'data/provinces/koshi/sunsari/dharan_ward_offices.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'ward_offices' },
+        { path: 'data/provinces/koshi/sunsari/itahari_ward_offices.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'ward_offices' },
     ];
     
     const MADHESH_MANIFEST = [
         { path: 'data/provinces/madhesh/birgunj/birgunj_hospitals.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },
         { path: 'data/provinces/madhesh/janakpur/janakpur_hospitals.json', province: 'madhesh', district: 'dhanusa', city: 'janakpur', type: 'hospitals' },
+        { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_ward_offices.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'ward_offices' },
+        { path: 'data/provinces/madhesh/dhanusha/janakpur/janakpur_ward_offices.json', province: 'madhesh', district: 'dhanusa', city: 'janakpur', type: 'ward_offices' },
     ];
     
     const GANDAKI_MANIFEST = [
         { path: 'data/provinces/gandaki/pokhara/pokhara_hospitals.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'hospitals' },
         { path: 'data/provinces/gandaki/pokhara/pokhara_schools.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'schools' },
         { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_hotels.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'hotels' },
+        { path: 'data/provinces/gandaki/kaski/pokhara_ward_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ward_offices' },
     ];
     
     const LUMBINI_MANIFEST = [
         { path: 'data/provinces/lumbini/butwal/butwal_hospitals.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'hospitals' },
+        { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_ward_offices.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'ward_offices' },
+        { path: 'data/provinces/lumbini/banke/nepalgunj/nepalgunj_ward_offices.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'ward_offices' },
     ];
     
     const KARNALI_MANIFEST = [
         { path: 'data/provinces/karnali/surkhet/surkhet_hospitals.json', province: 'karnali', district: 'surkhet', city: 'surkhet', type: 'hospitals' },
+        { path: 'data/provinces/karnali/surkhet/birendranagar/birendranagar_ward_offices.json', province: 'karnali', district: 'surkhet', city: 'birendranagar', type: 'ward_offices' },
     ];
     
     const SUDURPASHCHIM_MANIFEST = [
         { path: 'data/provinces/sudurpashchim/dhangadhi/dhangadhi_hospitals.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'hospitals' },
+        { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_ward_offices.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'ward_offices' },
     ];
     </script>
     
-    <script src="js/config.js?v=44"></script>
-    <script src="js/data-loader.js?v=44"></script>
-    <script src="js/filters.js?v=44"></script>
-    <script src="js/renderer.js?v=44"></script>
-    <script src="app.js?v=44"></script>
+    <script src="js/config.js?v=45"></script>
+    <script src="js/data-loader.js?v=45"></script>
+    <script src="js/filters.js?v=45"></script>
+    <script src="js/renderer.js?v=45"></script>
+    <script src="app.js?v=45"></script>
 </body>
 </html>
