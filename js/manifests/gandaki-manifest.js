@@ -21,6 +21,8 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_emergency.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'emergency' },
     { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_government.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'government' },
     { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_pharmacies.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'pharmacies' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_hotels.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'hotels' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_tourism.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'tourism' },
     { path: 'data/provinces/gandaki/kaski/pokhara_government.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'government' },
     
     // Gorkha

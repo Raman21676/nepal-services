@@ -230,6 +230,7 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/palpa/tansen/tansen_schools.json', province: 'lumbini', district: 'palpa', city: 'tansen', type: 'schools' },
     { path: 'data/provinces/lumbini/palpa/tansen/tansen_pharmacies.json', province: 'lumbini', district: 'palpa', city: 'tansen', type: 'pharmacies' },
     { path: 'data/provinces/lumbini/palpa/tansen/tansen_clinics.json', province: 'lumbini', district: 'palpa', city: 'tansen', type: 'clinics' },
+    { path: 'data/provinces/lumbini/palpa/tansen_ambulance.json', province: 'lumbini', district: 'palpa', city: 'tansen', type: 'ambulance' },
     { path: 'data/provinces/lumbini/kapilvastu/tilaurakot/tilaurakot_hospitals.json', province: 'lumbini', district: 'kapilvastu', city: 'tilaurakot', type: 'hospitals' },
     { path: 'data/provinces/lumbini/kapilvastu/tilaurakot/tilaurakot_schools.json', province: 'lumbini', district: 'kapilvastu', city: 'tilaurakot', type: 'schools' },
     { path: 'data/provinces/lumbini/kapilvastu/tilaurakot/tilaurakot_pharmacies.json', province: 'lumbini', district: 'kapilvastu', city: 'tilaurakot', type: 'pharmacies' },
