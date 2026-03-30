@@ -225,4 +225,10 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'banks' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_ambulance.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ambulance' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_transport.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'transport' },
+,
+    // Kavrepalanchok District Municipalities
+    { path: 'data/provinces/bagmati/kavrepalanchok/panauti/panauti_ward_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panauti', type: 'ward_offices' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/panchkhal/panchkhal_ward_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panchkhal', type: 'ward_offices' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/dhulikhel/dhulikhel_ward_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'dhulikhel', type: 'ward_offices' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_ward_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'ward_offices' },
 ];

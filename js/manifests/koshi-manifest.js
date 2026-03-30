@@ -279,4 +279,36 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/morang/biratnagar_ward_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward_offices' },
     { path: 'data/provinces/koshi/sunsari/dharan_ward_offices.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'ward_offices' },
     { path: 'data/provinces/koshi/sunsari/itahari_ward_offices.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'ward_offices' },
+,
+    // Triyuga Municipality (Udayapur)
+    { path: 'data/provinces/koshi/udayapur/triyuga/triyuga_ward_offices.json', province: 'koshi', district: 'udayapur', city: 'triyuga', type: 'ward_offices' },
+    
+    // Jhapa District Municipalities
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/arjundhara/arjundhara_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'arjundhara', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/shivasatakshi/shivasatakshi_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'shivasatakshi', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/bhadrapur/bhadrapur_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/birtamod/birtamod_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/damak/damak_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/gauradaha/gauradaha_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'gauradaha', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/jhapa/kankai/kankai_ward_offices.json', province: 'koshi', district: 'jhapa', city: 'kankai', type: 'ward_offices' },
+    
+    // Ilam District Municipalities
+    { path: 'data/provinces/koshi/ilam/suryodaya/suryodaya_ward_offices.json', province: 'koshi', district: 'ilam', city: 'suryodaya', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/ilam/ilam/ilam_ward_offices.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/ilam/mai/mai_ward_offices.json', province: 'koshi', district: 'ilam', city: 'mai', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/ilam/deumai/deumai_ward_offices.json', province: 'koshi', district: 'ilam', city: 'deumai', type: 'ward_offices' },
+    
+    // Dhankuta District Municipalities
+    { path: 'data/provinces/koshi/dhankuta/dhankuta/dhankuta_ward_offices.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/dhankuta/pakhribas/pakhribas_ward_offices.json', province: 'koshi', district: 'dhankuta', city: 'pakhribas', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/dhankuta/sangurigadhi/sangurigadhi_ward_offices.json', province: 'koshi', district: 'dhankuta', city: 'sangurigadhi', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/dhankuta/mahalaxmi/mahalaxmi_ward_offices.json', province: 'koshi', district: 'dhankuta', city: 'mahalaxmi', type: 'ward_offices' },
+    
+    // Okhaldhunga District Municipalities
+    { path: 'data/provinces/koshi/okhaldhunga/siddhicharan/siddhicharan_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'siddhicharan', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/okhaldhunga/manebhanjyang/manebhanjyang_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'manebhanjyang', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/okhaldhunga/sunkoshi/sunkoshi_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'sunkoshi', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/okhaldhunga/molung/molung_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'molung', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/okhaldhunga/champadevi/champadevi_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'champadevi', type: 'ward_offices' },
 ];

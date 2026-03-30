@@ -191,4 +191,11 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_schools.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'schools' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_hospitals.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'hospitals' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_pharmacies.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'pharmacies' },
+,
+    // Mustang District Rural Municipalities
+    { path: 'data/provinces/gandaki/mustang/gharapjhong/gharapjhong_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'gharapjhong', type: 'ward_offices' },
+    { path: 'data/provinces/gandaki/mustang/thasang/thasang_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'thasang', type: 'ward_offices' },
+    { path: 'data/provinces/gandaki/mustang/baragung_muktichhetra/baragung_muktichhetra_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'baragung_muktichhetra', type: 'ward_offices' },
+    { path: 'data/provinces/gandaki/mustang/lomanthang/lomanthang_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'lomanthang', type: 'ward_offices' },
+    { path: 'data/provinces/gandaki/mustang/lo-ghekar_damodarkunda/lo-ghekar_damodarkunda_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'lo-ghekar_damodarkunda', type: 'ward_offices' },
 ];
