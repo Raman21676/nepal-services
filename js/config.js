@@ -41,7 +41,7 @@ const CONFIG = {
         'hospitals': 'hospitals',
         'schools': 'schools',
         'ambulance': 'ambulance',
-        'emergency': 'ambulance',  // Emergency data comes from ambulance files
+        'emergency': 'ambulance',  // Both emergency and ambulance use same data
         'ward': 'ward_offices',
         'clinics': 'clinics',
         'blood_banks': 'blood_banks',
