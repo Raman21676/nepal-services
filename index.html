@@ -10,7 +10,7 @@
     <title>Nepal Services Directory | Hospitals, Schools & Emergency Contacts</title>
     <meta name="description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
     <link rel="canonical" href="https://nepalservice.online/">
-    <link rel="stylesheet" href="styles.css?v=46">
+    <link rel="stylesheet" href="styles.css?v=47">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             
             // Register cleanup service worker first
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/sw.js?v=46', { scope: '/' })
+                navigator.serviceWorker.register('/sw.js?v=47', { scope: '/' })
                     .then(function(reg) {
                         console.log('Cleanup SW registered');
                         // Force update
@@ -551,6 +551,7 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/baglung/baglung_pharmacies.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'pharmacies' },
     { path: 'data/provinces/gandaki/baglung/baglung_schools.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'schools' },
     { path: 'data/provinces/gandaki/baglung/baglung_veterinary.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'veterinary' },
+    { path: 'data/provinces/gandaki/baglung/baglung/baglung_hospitals.json', province: 'gandaki', district: 'baglung', city: 'baglung', type: 'hospitals' },
     { path: 'data/provinces/gandaki/gorkha/gorkha.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'general' },
     { path: 'data/provinces/gandaki/gorkha/gorkha_ambulance.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'emergency' },
     { path: 'data/provinces/gandaki/gorkha/gorkha_ambulance.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'ambulance' },
@@ -563,6 +564,7 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/gorkha/gorkha_pharmacies.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'pharmacies' },
     { path: 'data/provinces/gandaki/gorkha/gorkha_schools.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'schools' },
     { path: 'data/provinces/gandaki/gorkha/gorkha_veterinary.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'veterinary' },
+    { path: 'data/provinces/gandaki/gorkha/gorkha/gorkha_hospitals.json', province: 'gandaki', district: 'gorkha', city: 'gorkha', type: 'hospitals' },
     { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_ambulance.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'emergency' },
     { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_ambulance.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'ambulance' },
     { path: 'data/provinces/gandaki/kaski/lekhnath/lekhnath_blood_banks.json', province: 'gandaki', district: 'kaski', city: 'lekhnath', type: 'blood_banks' },
@@ -696,6 +698,7 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/parbat/kusma_pharmacies.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'pharmacies' },
     { path: 'data/provinces/gandaki/parbat/kusma_schools.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'schools' },
     { path: 'data/provinces/gandaki/parbat/kusma_veterinary.json', province: 'gandaki', district: 'parbat', city: 'kusma', type: 'veterinary' },
+    { path: 'data/provinces/gandaki/parbat/parbat/parbat_hospitals.json', province: 'gandaki', district: 'parbat', city: 'parbat', type: 'hospitals' },
     { path: 'data/provinces/gandaki/parbat/parbat_forest_offices.json', province: 'gandaki', district: 'parbat', city: 'parbat', type: 'forest_offices' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_hospitals.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'hospitals' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_pharmacies.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'pharmacies' },
@@ -753,6 +756,7 @@ const KARNALI_MANIFEST = [
     { path: 'data/provinces/karnali/dailekh/narayan_pharmacies.json', province: 'karnali', district: 'dailekh', city: 'narayan', type: 'pharmacies' },
     { path: 'data/provinces/karnali/dailekh/narayan_schools.json', province: 'karnali', district: 'dailekh', city: 'narayan', type: 'schools' },
     { path: 'data/provinces/karnali/dailekh/narayan_veterinary.json', province: 'karnali', district: 'dailekh', city: 'narayan', type: 'veterinary' },
+    { path: 'data/provinces/karnali/dailekh/dailekh/dailekh_hospitals.json', province: 'karnali', district: 'dailekh', city: 'dailekh', type: 'hospitals' },
     { path: 'data/provinces/karnali/dolpa/dunai.json', province: 'karnali', district: 'dolpa', city: 'dunai', type: 'general' },
     { path: 'data/provinces/karnali/dolpa/dunai_ambulance.json', province: 'karnali', district: 'dolpa', city: 'dunai', type: 'emergency' },
     { path: 'data/provinces/karnali/dolpa/dunai_ambulance.json', province: 'karnali', district: 'dolpa', city: 'dunai', type: 'ambulance' },
@@ -838,6 +842,7 @@ const KARNALI_MANIFEST = [
     { path: 'data/provinces/karnali/salyan/salyan_pharmacies.json', province: 'karnali', district: 'salyan', city: 'salyan', type: 'pharmacies' },
     { path: 'data/provinces/karnali/salyan/salyan_schools.json', province: 'karnali', district: 'salyan', city: 'salyan', type: 'schools' },
     { path: 'data/provinces/karnali/salyan/salyan_veterinary.json', province: 'karnali', district: 'salyan', city: 'salyan', type: 'veterinary' },
+    { path: 'data/provinces/karnali/salyan/salyan/salyan_hospitals.json', province: 'karnali', district: 'salyan', city: 'salyan', type: 'hospitals' },
     { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_ambulance.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'emergency' },
     { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_ambulance.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'ambulance' },
     { path: 'data/provinces/karnali/surkhet/bheriganga/bheriganga_blood_banks.json', province: 'karnali', district: 'surkhet', city: 'bheriganga', type: 'blood_banks' },
@@ -1017,6 +1022,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/khotang/diktel_pharmacies.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'pharmacies' },
     { path: 'data/provinces/koshi/khotang/diktel_schools.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'schools' },
     { path: 'data/provinces/koshi/khotang/diktel_veterinary.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'veterinary' },
+    { path: 'data/provinces/koshi/khotang/khotang/khotang_hospitals.json', province: 'koshi', district: 'khotang', city: 'khotang', type: 'hospitals' },
     { path: 'data/provinces/koshi/morang/belbari/belbari_ambulance.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'emergency' },
     { path: 'data/provinces/koshi/morang/belbari/belbari_ambulance.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'ambulance' },
     { path: 'data/provinces/koshi/morang/belbari/belbari_blood_banks.json', province: 'koshi', district: 'morang', city: 'belbari', type: 'blood_banks' },
@@ -1066,6 +1072,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga_schools.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'schools' },
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga_veterinary.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'veterinary' },
     { path: 'data/provinces/koshi/okhaldhunga/siddhicharan/siddhicharan_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'siddhicharan', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/okhaldhunga/siddhicharan/siddhicharan_hospitals.json', province: 'koshi', district: 'okhaldhunga', city: 'siddhicharan', type: 'hospitals' },
     { path: 'data/provinces/koshi/okhaldhunga/sunkoshi/sunkoshi_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'sunkoshi', type: 'ward_offices' },
     { path: 'data/provinces/koshi/panchthar/phidim.json', province: 'koshi', district: 'panchthar', city: 'phidim', type: 'general' },
     { path: 'data/provinces/koshi/panchthar/phidim_ambulance.json', province: 'koshi', district: 'panchthar', city: 'phidim', type: 'emergency' },
@@ -1168,6 +1175,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/terhathum/manglung_pharmacies.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'pharmacies' },
     { path: 'data/provinces/koshi/terhathum/manglung_schools.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'schools' },
     { path: 'data/provinces/koshi/terhathum/manglung_veterinary.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'veterinary' },
+    { path: 'data/provinces/koshi/terhathum/terhathum/terhathum_hospitals.json', province: 'koshi', district: 'terhathum', city: 'terhathum', type: 'hospitals' },
     { path: 'data/provinces/koshi/terhathum/myanglung_forest_offices.json', province: 'koshi', district: 'terhathum', city: 'myanglung', type: 'forest_offices' },
     { path: 'data/provinces/koshi/udayapur/gaighat/gaighat_hospitals.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'hospitals' },
     { path: 'data/provinces/koshi/udayapur/gaighat/gaighat_pharmacies.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'pharmacies' },
@@ -1299,6 +1307,7 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/eastern_rukum/rukumkot_pharmacies.json', province: 'lumbini', district: 'eastern_rukum', city: 'rukumkot', type: 'pharmacies' },
     { path: 'data/provinces/lumbini/eastern_rukum/rukumkot_schools.json', province: 'lumbini', district: 'eastern_rukum', city: 'rukumkot', type: 'schools' },
     { path: 'data/provinces/lumbini/eastern_rukum/rukumkot_veterinary.json', province: 'lumbini', district: 'eastern_rukum', city: 'rukumkot', type: 'veterinary' },
+    { path: 'data/provinces/lumbini/eastern_rukum/eastern_rukum/eastern_rukum_hospitals.json', province: 'lumbini', district: 'eastern_rukum', city: 'eastern_rukum', type: 'hospitals' },
     { path: 'data/provinces/lumbini/gulmi/tamghas.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'general' },
     { path: 'data/provinces/lumbini/gulmi/tamghas_ambulance.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'emergency' },
     { path: 'data/provinces/lumbini/gulmi/tamghas_ambulance.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'ambulance' },
@@ -1311,6 +1320,7 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/gulmi/tamghas_pharmacies.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'pharmacies' },
     { path: 'data/provinces/lumbini/gulmi/tamghas_schools.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'schools' },
     { path: 'data/provinces/lumbini/gulmi/tamghas_veterinary.json', province: 'lumbini', district: 'gulmi', city: 'tamghas', type: 'veterinary' },
+    { path: 'data/provinces/lumbini/gulmi/gulmi/gulmi_hospitals.json', province: 'lumbini', district: 'gulmi', city: 'gulmi', type: 'hospitals' },
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'general' },
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu_ambulance.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'emergency' },
     { path: 'data/provinces/lumbini/kapilvastu/kapilvastu_ambulance.json', province: 'lumbini', district: 'kapilvastu', city: 'kapilvastu', type: 'ambulance' },
@@ -1764,11 +1774,11 @@ const SUDURPASHCHIM_MANIFEST = [
 ;
     </script>
     
-    <script src="js/config.js?v=46"></script>
-    <script src="js/data-loader.js?v=46"></script>
-    <script src="js/filters.js?v=46"></script>
-    <script src="js/renderer.js?v=46"></script>
-    <script src="app.js?v=46"></script>
+    <script src="js/config.js?v=47"></script>
+    <script src="js/data-loader.js?v=47"></script>
+    <script src="js/filters.js?v=47"></script>
+    <script src="js/renderer.js?v=47"></script>
+    <script src="app.js?v=47"></script>
 </body>
 </html>
  
