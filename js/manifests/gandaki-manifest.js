@@ -15,6 +15,12 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/kaski/pokhara_ambulance.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ambulance' },
     { path: 'data/provinces/gandaki/kaski/pokhara_emergency_contacts.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'emergency' },
     { path: 'data/provinces/gandaki/kaski/pokhara_ward_offices.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ward_offices' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_ambulance.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'ambulance' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_blood_banks.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'blood_banks' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_colleges.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'colleges' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_emergency.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'emergency' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_government.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'government' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_pharmacies.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'pharmacies' },
     { path: 'data/provinces/gandaki/kaski/pokhara_government.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'government' },
     
     // Gorkha

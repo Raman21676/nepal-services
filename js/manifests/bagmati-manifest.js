@@ -12,7 +12,9 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_blood_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'blood_banks' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_pharmacies.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'pharmacies' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_veterinary.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'veterinary' },
+    { path: 'data/provinces/bagmati/kathmandu/kathmandu_hotels.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'hotels' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_ward_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ward_offices' },
+    { path: 'data/provinces/bagmati/kathmandu/kirtipur/kirtipur_ward_offices.json', province: 'bagmati', district: 'kathmandu', city: 'kirtipur', type: 'ward_offices' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_government.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'government' },
     
     // Lalitpur
@@ -58,6 +60,7 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/makwanpur/hetauda.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'hospitals' },
     { path: 'data/provinces/bagmati/makwanpur/hetauda_schools.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'schools' },
     { path: 'data/provinces/bagmati/makwanpur/hetauda_government.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'government' },
+    { path: 'data/provinces/bagmati/makwanpur/hetauda_ward_offices.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'ward_offices' },
     
     // Other Bagmati Districts
     { path: 'data/provinces/bagmati/dhading/dhadingbesi.json', province: 'bagmati', district: 'dhading', city: 'dhadingbesi', type: 'hospitals' },

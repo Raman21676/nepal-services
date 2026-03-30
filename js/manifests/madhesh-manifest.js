@@ -89,6 +89,7 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/siraha/lahan/lahan_emergency.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'emergency' },
     { path: 'data/provinces/madhesh/siraha/lahan/lahan_government.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'government' },
     { path: 'data/provinces/madhesh/siraha/lahan/lahan_veterinary.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'veterinary' },
+    { path: 'data/provinces/madhesh/siraha/lahan/lahan_ward_offices.json', province: 'madhesh', district: 'siraha', city: 'lahan', type: 'ward_offices' },
     
     // Dhanusha Secondary City - Jaleshwar
     
