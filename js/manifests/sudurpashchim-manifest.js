@@ -138,5 +138,6 @@ const SUDURPASHCHIM_MANIFEST = [
     { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_emergency.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'emergency' },
     { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_hospitals.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'hospitals' },
     { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_schools.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'schools' },
-    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_government.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'government' },
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_government.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'government' },,
+    { path: 'data/provinces/sudurpashchim/kailali/dhangadhi/dhangadhi_ward_offices.json', province: 'sudurpashchim', district: 'kailali', city: 'dhangadhi', type: 'ward_offices' },
 ];

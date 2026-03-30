@@ -274,5 +274,9 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/udayapur/gaighat/gaighat_schools.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'schools' },
     { path: 'data/provinces/koshi/udayapur/gaighat/gaighat_pharmacies.json', province: 'koshi', district: 'udayapur', city: 'gaighat', type: 'pharmacies' },
     { path: 'data/provinces/koshi/ilam/ilam/ilam_hospitals.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'hospitals' },
-    { path: 'data/provinces/koshi/ilam/ilam/ilam_schools.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'schools' },
+    { path: 'data/provinces/koshi/ilam/ilam/ilam_schools.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'schools' },,
+    { path: 'data/provinces/koshi/morang/katahari/katahari_ward_offices.json', province: 'koshi', district: 'morang', city: 'katahari', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/morang/biratnagar_ward_offices.json', province: 'koshi', district: 'morang', city: 'biratnagar', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/sunsari/dharan_ward_offices.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'ward_offices' },
+    { path: 'data/provinces/koshi/sunsari/itahari_ward_offices.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'ward_offices' },
 ];

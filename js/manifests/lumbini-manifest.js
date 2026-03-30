@@ -239,5 +239,7 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_government.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'government' },
     { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_clinics.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'clinics' },
     { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_pharmacies.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'pharmacies' },
-    { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_hospitals.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'hospitals' },
+    { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_hospitals.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'hospitals' },,
+    { path: 'data/provinces/lumbini/rupandehi/butwal/butwal_ward_offices.json', province: 'lumbini', district: 'rupandehi', city: 'butwal', type: 'ward_offices' },
+    { path: 'data/provinces/lumbini/banke/nepalgunj/nepalgunj_ward_offices.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'ward_offices' },
 ];

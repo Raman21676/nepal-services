@@ -193,5 +193,7 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/saptari/rajbiraj/rajbiraj_schools.json', province: 'madhesh', district: 'saptari', city: 'rajbiraj', type: 'schools' },
     { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_government.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'government' },
     { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_pharmacies.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'pharmacies' },
-    { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_hospitals.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },
+    { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_hospitals.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hospitals' },,
+    { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_ward_offices.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'ward_offices' },
+    { path: 'data/provinces/madhesh/dhanusha/janakpur/janakpur_ward_offices.json', province: 'madhesh', district: 'dhanusa', city: 'janakpur', type: 'ward_offices' },
 ];
