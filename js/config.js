@@ -31,7 +31,8 @@ const CONFIG = {
         'veterinary': 'Veterinary',
         'ward': 'Ward Offices',
         'government': 'Government Offices',
-        'forest': 'Forest Offices'
+        'forest': 'Forest Offices',
+        'hotels': 'Hotels'
     },
     
     // Array key mapping for JSON data
@@ -47,7 +48,8 @@ const CONFIG = {
         'pharmacies': 'pharmacies',
         'veterinary': 'veterinary',
         'government': 'government_offices',
-        'forest': 'forest_offices'
+        'forest': 'forest_offices',
+        'hotels': 'hotels'
     },
     
     // Badge colors for categories
@@ -63,7 +65,8 @@ const CONFIG = {
         'pharmacies': '<span class="badge badge-cat-pharmacy">💊 Pharmacy</span>',
         'veterinary': '<span class="badge badge-cat-vet">🐾 Veterinary</span>',
         'government': '<span class="badge badge-cat-gov">🏛️ Government</span>',
-        'forest': '<span class="badge badge-cat-forest">🌲 Forest Office</span>'
+        'forest': '<span class="badge badge-cat-forest">🌲 Forest Office</span>',
+        'hotels': '<span class="badge badge-cat-hotel">🏨 Hotel</span>'
     },
     
     // City badge CSS classes

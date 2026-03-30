@@ -967,6 +967,7 @@ h1, h2, h3, h4, h5, h6 {
 .badge-cat-ward { background: #f3e8ff; color: #7c3aed; }
 .badge-cat-forest { background: #dcfce7; color: #15803d; }
 .badge-cat-government { background: #e0f2fe; color: #0369a1; }
+.badge-cat-hotel { background: #ddd6fe; color: #5b21b6; }
 
 .card-body {
     display: flex;
