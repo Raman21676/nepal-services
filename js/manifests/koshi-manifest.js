@@ -311,4 +311,4 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/okhaldhunga/sunkoshi/sunkoshi_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'sunkoshi', type: 'ward_offices' },
     { path: 'data/provinces/koshi/okhaldhunga/molung/molung_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'molung', type: 'ward_offices' },
     { path: 'data/provinces/koshi/okhaldhunga/champadevi/champadevi_ward_offices.json', province: 'koshi', district: 'okhaldhunga', city: 'champadevi', type: 'ward_offices' },
-];
+];// Cache-busting update: Mon Mar 30 21:36:12 IST 2026
