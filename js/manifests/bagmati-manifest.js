@@ -40,7 +40,7 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/lalitpur/phulchowki/phulchowki_ambulance.json', province: 'bagmati', district: 'lalitpur', city: 'phulchowki', type: 'ambulance' },
     
     // Bhaktapur
-    { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
+    { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_hospitals.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur/bhaktapur_hotels.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hotels' },
     { path: 'data/provinces/bagmati/bhaktapur/nagarkot/nagarkot_hotels.json', province: 'bagmati', district: 'bhaktapur', city: 'nagarkot', type: 'hotels' },
