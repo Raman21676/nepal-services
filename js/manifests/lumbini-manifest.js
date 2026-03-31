@@ -11,6 +11,7 @@ const LUMBINI_MANIFEST = [
     { path: 'data/provinces/lumbini/banke/nepalgunj_schools.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'schools' },
     { path: 'data/provinces/lumbini/banke/nepalgunj_colleges.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'colleges' },
     { path: 'data/provinces/lumbini/banke/nepalgunj_blood_banks.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'blood_banks' },
+    { path: 'data/provinces/lumbini/banke/nepalgunj_hotels.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'hotels' },
     { path: 'data/provinces/lumbini/banke/nepalgunj_ambulance.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'ambulance' },
     { path: 'data/provinces/lumbini/banke/nepalgunj_emergency.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'emergency' },
     { path: 'data/provinces/lumbini/banke/nepalgunj_veterinary.json', province: 'lumbini', district: 'banke', city: 'nepalgunj', type: 'veterinary' },

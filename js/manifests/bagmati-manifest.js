@@ -29,6 +29,7 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/lalitpur/lalitpur_emergency_contacts.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'emergency' },
     { path: 'data/provinces/bagmati/lalitpur/lalitpur_ward_offices.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'ward_offices' },
     { path: 'data/provinces/bagmati/lalitpur/lalitpur_government.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'government' },
+    { path: 'data/provinces/bagmati/lalitpur/lalitpur_hotels.json', province: 'bagmati', district: 'lalitpur', city: 'lalitpur', type: 'hotels' },
     
     // Bhaktapur
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
@@ -228,6 +229,7 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/chitwan/sauraha/sauraha_hotels.json', province: 'bagmati', district: 'chitwan', city: 'sauraha', type: 'hotels' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_blood_banks.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'banks' },
     { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_clinics.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'clinics' },
+    { path: 'data/provinces/bagmati/chitwan/bharatpur/bharatpur_hotels.json', province: 'bagmati', district: 'chitwan', city: 'bharatpur', type: 'hotels' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'banks' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_ambulance.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ambulance' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_transport.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'transport' },
