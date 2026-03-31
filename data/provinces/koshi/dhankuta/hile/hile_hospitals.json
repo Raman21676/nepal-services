@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Hile",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Dhankuta District Health Office",
+    "total_records": 2,
+    "note": "Healthcare facilities in Hile hill station. Major cases referred to Dhankuta Hospital or Dharan."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Hile Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Hile Bazar, Dhankuta (1,850m)",
+      "phone": ["+977-26-400001", "+977-26-400002"],
+      "website": null,
+      "email": null,
+      "district": "Dhankuta",
+      "city": "Hile",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-26-400001",
+      "services": ["OPD", "Emergency Care", "Maternity", "Child Health", "Vaccination", "General Medicine", "First Aid"],
+      "beds": 12,
+      "doctors": 3,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Hile Community Hospital",
+      "type": "Community Hospital",
+      "address": "Hile-3, Dhankuta",
+      "phone": ["+977-26-400003", "+977-26-400004"],
+      "website": null,
+      "email": null,
+      "district": "Dhankuta",
+      "city": "Hile",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-26-400003",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray"],
+      "beds": 30,
+      "doctors": 6,
+      "specialties": ["General Surgery", "Gynecology", "General Practice"]
+    }
+  ]
+}

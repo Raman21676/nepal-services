@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Chisapani",
+    "district": "Sindhupalchok",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Local Health Office Sindhupalchok",
+    "total_records": 2,
+    "note": "Limited healthcare facilities in Chisapani trekking area. Emergency evacuation to Chautara or Kathmandu may be required."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Chisapani Health Post",
+      "type": "Health Post",
+      "address": "Chisapani-1, Sindhupalchok",
+      "phone": ["+977-11-510001"],
+      "website": null,
+      "email": null,
+      "district": "Sindhupalchok",
+      "city": "Chisapani",
+      "gps": null,
+      "hours": "Sunday-Friday: 10:00 AM - 4:00 PM",
+      "emergency": "102",
+      "services": ["Basic Healthcare", "First Aid", "Altitude Sickness Treatment", "Common Illness", "Vaccination"],
+      "beds": 4,
+      "doctors": 1,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Helambu Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Helambu Rural Municipality, Near Chisapani, Sindhupalchok",
+      "phone": ["+977-11-510002", "+977-11-510003"],
+      "website": null,
+      "email": null,
+      "district": "Sindhupalchok",
+      "city": "Chisapani",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-11-510002",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Common Diseases", "Altitude Sickness"],
+      "beds": 6,
+      "doctors": 2,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

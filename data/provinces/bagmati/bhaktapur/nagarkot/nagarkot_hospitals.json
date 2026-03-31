@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Nagarkot",
+    "district": "Bhaktapur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Bhaktapur District Health Office",
+    "total_records": 3,
+    "note": "Healthcare facilities in Nagarkot hill station. Emergency cases may need transfer to Bhaktapur Hospital or Kathmandu."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Nagarkot Community Hospital",
+      "type": "Community Hospital",
+      "address": "Nagarkot-5, Bhaktapur (2,175m)",
+      "phone": ["+977-1-6682001", "+977-1-6682002"],
+      "website": null,
+      "email": null,
+      "district": "Bhaktapur",
+      "city": "Nagarkot",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-1-6682001",
+      "services": ["General Medicine", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "First Aid", "Altitude Sickness Treatment"],
+      "beds": 20,
+      "doctors": 5,
+      "specialties": ["General Practice", "Emergency Medicine"]
+    },
+    {
+      "id": 2,
+      "name": "Nagarkot Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Nagarkot Bazar, Bhaktapur",
+      "phone": ["+977-1-6682003", "+977-1-6682004"],
+      "website": null,
+      "email": null,
+      "district": "Bhaktapur",
+      "city": "Nagarkot",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-1-6682003",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine", "Altitude Sickness"],
+      "beds": 8,
+      "doctors": 2,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 3,
+      "name": "Nagarkot Medical Center",
+      "type": "Clinic",
+      "address": "Nagarkot-7, Bhaktapur",
+      "phone": ["+977-1-6682005"],
+      "website": null,
+      "email": null,
+      "district": "Bhaktapur",
+      "city": "Nagarkot",
+      "gps": null,
+      "hours": "Sunday-Friday: 8:00 AM - 6:00 PM, Saturday: 9:00 AM - 2:00 PM",
+      "emergency": "+977-1-6682001",
+      "services": ["OPD", "Pharmacy", "First Aid", "Health Checkup", "Common Illness Treatment"],
+      "beds": 0,
+      "doctors": 2,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

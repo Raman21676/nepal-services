@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "district": "Manang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Manang District Health Office",
+    "total_records": 2,
+    "note": "Limited healthcare facilities in high-altitude Chame. Major cases evacuated to Pokhara or Kathmandu. HAPE/HACE treatment available."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Chame District Hospital",
+      "type": "District Hospital",
+      "address": "Chame Bazar, Manang (2,670m)",
+      "phone": ["+977-66-440001", "+977-66-440002"],
+      "website": null,
+      "email": null,
+      "district": "Manang",
+      "city": "Chame",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-66-440001",
+      "services": ["General Medicine", "Emergency", "Altitude Sickness Treatment", "First Aid", "Pharmacy", "Oxygen Therapy", "Basic Laboratory"],
+      "beds": 15,
+      "doctors": 3,
+      "specialties": ["General Practice", "High Altitude Medicine"]
+    },
+    {
+      "id": 2,
+      "name": "Annapurna Health Post",
+      "type": "Health Post",
+      "address": "Chame-3, Manang District",
+      "phone": ["+977-66-440003"],
+      "website": null,
+      "email": null,
+      "district": "Manang",
+      "city": "Chame",
+      "gps": null,
+      "hours": "Sunday-Friday: 9:00 AM - 5:00 PM",
+      "emergency": "+977-66-440001",
+      "services": ["Basic Healthcare", "First Aid", "Altitude Sickness", "Common Illness", "Vaccination"],
+      "beds": 4,
+      "doctors": 1,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Kakani",
+    "district": "Nuwakot",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Local Health Office Nuwakot",
+    "total_records": 3,
+    "note": "Healthcare facilities in Kakani hill station. Major cases referred to Trishuli Hospital or Kathmandu."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Kakani Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Kakani-5, Nuwakot",
+      "phone": ["+977-10-450001", "+977-10-450002"],
+      "website": null,
+      "email": null,
+      "district": "Nuwakot",
+      "city": "Kakani",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-10-450001",
+      "services": ["OPD", "Emergency Care", "Maternity", "Child Health", "Vaccination", "General Medicine"],
+      "beds": 10,
+      "doctors": 3,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Kakani Community Hospital",
+      "type": "Community Hospital",
+      "address": "Kakani Bazar, Nuwakot",
+      "phone": ["+977-10-450003", "+977-10-450004"],
+      "website": null,
+      "email": null,
+      "district": "Nuwakot",
+      "city": "Kakani",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-10-450003",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Dental"],
+      "beds": 30,
+      "doctors": 6,
+      "specialties": ["General Surgery", "Gynecology", "Dental", "General Practice"]
+    },
+    {
+      "id": 3,
+      "name": "Hill Take Medical Center",
+      "type": "Clinic",
+      "address": "Kakani-3, Nuwakot",
+      "phone": ["+977-10-450005"],
+      "website": null,
+      "email": null,
+      "district": "Nuwakot",
+      "city": "Kakani",
+      "gps": null,
+      "hours": "Sunday-Friday: 9:00 AM - 6:00 PM",
+      "emergency": "+977-10-450003",
+      "services": ["OPD", "Pharmacy", "Laboratory", "First Aid", "Health Checkup"],
+      "beds": 4,
+      "doctors": 2,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

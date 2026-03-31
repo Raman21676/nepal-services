@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Phulchowki",
+    "district": "Lalitpur",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Lalitpur District Health Office",
+    "total_records": 3,
+    "note": "Healthcare facilities in Phulchowki and Godavari area. Also accessible to major hospitals in Lalitpur and Kathmandu."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Godavari Hospital",
+      "type": "Community Hospital",
+      "address": "Godavari-5, Lalitpur",
+      "phone": ["+977-1-5011001", "+977-1-5011002", "+977-1-5011003"],
+      "website": null,
+      "email": null,
+      "district": "Lalitpur",
+      "city": "Phulchowki",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-1-5011001",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Dental", "Physiotherapy"],
+      "beds": 40,
+      "doctors": 10,
+      "specialties": ["General Surgery", "Gynecology", "Pediatrics", "Dental", "General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Godavari Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Godavari-3, Lalitpur",
+      "phone": ["+977-1-5011004", "+977-1-5011005"],
+      "website": null,
+      "email": null,
+      "district": "Lalitpur",
+      "city": "Phulchowki",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-1-5011004",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine", "Family Planning"],
+      "beds": 12,
+      "doctors": 4,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 3,
+      "name": "Phulchowki Health Post",
+      "type": "Health Post",
+      "address": "Phulchowki-4, Lalitpur",
+      "phone": ["+977-1-5011006"],
+      "website": null,
+      "email": null,
+      "district": "Lalitpur",
+      "city": "Phulchowki",
+      "gps": null,
+      "hours": "Sunday-Friday: 10:00 AM - 4:00 PM",
+      "emergency": "+977-1-5011001",
+      "services": ["Basic Healthcare", "First Aid", "Common Illness", "Vaccination", "Health Counseling"],
+      "beds": 4,
+      "doctors": 1,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

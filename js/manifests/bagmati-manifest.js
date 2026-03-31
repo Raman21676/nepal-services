@@ -33,12 +33,14 @@ const BAGMATI_MANIFEST = [
     
     // Lalitpur Secondary City - Phulchowki Hotels (Hill Station)
     { path: 'data/provinces/bagmati/lalitpur/phulchowki/phulchowki_hotels.json', province: 'bagmati', district: 'lalitpur', city: 'phulchowki', type: 'hotels' },
+    { path: 'data/provinces/bagmati/lalitpur/phulchowki/phulchowki_hospitals.json', province: 'bagmati', district: 'lalitpur', city: 'phulchowki', type: 'hospitals' },
     
     // Bhaktapur
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hospitals' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_schools.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'schools' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur/bhaktapur_hotels.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'hotels' },
     { path: 'data/provinces/bagmati/bhaktapur/nagarkot/nagarkot_hotels.json', province: 'bagmati', district: 'bhaktapur', city: 'nagarkot', type: 'hotels' },
+    { path: 'data/provinces/bagmati/bhaktapur/nagarkot/nagarkot_hospitals.json', province: 'bagmati', district: 'bhaktapur', city: 'nagarkot', type: 'hospitals' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_colleges.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'colleges' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_clinics.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'clinics' },
     { path: 'data/provinces/bagmati/bhaktapur/bhaktapur_pharmacies.json', province: 'bagmati', district: 'bhaktapur', city: 'bhaktapur', type: 'pharmacies' },
@@ -103,9 +105,11 @@ const BAGMATI_MANIFEST = [
     
     // Kavrepalanchok Secondary City - Panauti Hotels
     { path: 'data/provinces/bagmati/kavrepalanchok/panauti/panauti_hotels.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panauti', type: 'hotels' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/panauti/panauti_hospitals.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panauti', type: 'hospitals' },
     
     // Kavrepalanchok Secondary City - Namobuddha Hotels
     { path: 'data/provinces/bagmati/kavrepalanchok/namobuddha/namobuddha_hotels.json', province: 'bagmati', district: 'kavrepalanchok', city: 'namobuddha', type: 'hotels' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/namobuddha/namobuddha_hospitals.json', province: 'bagmati', district: 'kavrepalanchok', city: 'namobuddha', type: 'hospitals' },
     
     // Chitwan Secondary City - Ratnanagar
     { path: 'data/provinces/bagmati/chitwan/ratnanagar/ratnanagar_hospitals.json', province: 'bagmati', district: 'chitwan', city: 'ratnanagar', type: 'hospitals' },
@@ -192,6 +196,7 @@ const BAGMATI_MANIFEST = [
     
     // Nuwakot Secondary City - Kakani Hotels (Hill Station)
     { path: 'data/provinces/bagmati/nuwakot/kakani/kakani_hotels.json', province: 'bagmati', district: 'nuwakot', city: 'kakani', type: 'hotels' },
+    { path: 'data/provinces/bagmati/nuwakot/kakani/kakani_hospitals.json', province: 'bagmati', district: 'nuwakot', city: 'kakani', type: 'hospitals' },
     
     { path: 'data/provinces/bagmati/nuwakot/nuwakot_forest_offices.json', province: 'bagmati', district: 'nuwakot', city: 'nuwakot', type: 'forest_offices' },
     { path: 'data/provinces/bagmati/ramechhap/manthali_ambulance.json', province: 'bagmati', district: 'ramechhap', city: 'manthali', type: 'ambulance' },
@@ -234,6 +239,7 @@ const BAGMATI_MANIFEST = [
     
     // Sindhupalchok Secondary City - Chisapani Hotels (Trekking Destination)
     { path: 'data/provinces/bagmati/sindhupalchok/chisapani/chisapani_hotels.json', province: 'bagmati', district: 'sindhupalchok', city: 'chisapani', type: 'hotels' },
+    { path: 'data/provinces/bagmati/sindhupalchok/chisapani/chisapani_hospitals.json', province: 'bagmati', district: 'sindhupalchok', city: 'chisapani', type: 'hospitals' },
     
     { path: 'data/provinces/bagmati/makwanpur/hetauda/hetauda_schools.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'schools' },
     { path: 'data/provinces/bagmati/makwanpur/hetauda/hetauda_government.json', province: 'bagmati', district: 'makwanpur', city: 'hetauda', type: 'government' },
@@ -257,8 +263,11 @@ const BAGMATI_MANIFEST = [
     
     // Kathmandu Secondary Cities - Tourist Destinations
     { path: 'data/provinces/bagmati/kathmandu/chandragiri/chandragiri_hotels.json', province: 'bagmati', district: 'kathmandu', city: 'chandragiri', type: 'hotels' },
+    { path: 'data/provinces/bagmati/kathmandu/chandragiri/chandragiri_hospitals.json', province: 'bagmati', district: 'kathmandu', city: 'chandragiri', type: 'hospitals' },
     { path: 'data/provinces/bagmati/kathmandu/budhanilkantha/budhanilkantha_hotels.json', province: 'bagmati', district: 'kathmandu', city: 'budhanilkantha', type: 'hotels' },
+    { path: 'data/provinces/bagmati/kathmandu/budhanilkantha/budhanilkantha_hospitals.json', province: 'bagmati', district: 'kathmandu', city: 'budhanilkantha', type: 'hospitals' },
     { path: 'data/provinces/bagmati/kathmandu/sundarijal/sundarijal_hotels.json', province: 'bagmati', district: 'kathmandu', city: 'sundarijal', type: 'hotels' },
+    { path: 'data/provinces/bagmati/kathmandu/sundarijal/sundarijal_hospitals.json', province: 'bagmati', district: 'kathmandu', city: 'sundarijal', type: 'hospitals' },
     
     // Kathmandu Valley Universities
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_universities.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'universities' },

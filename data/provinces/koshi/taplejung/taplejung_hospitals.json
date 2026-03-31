@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Taplejung",
+    "district": "Taplejung",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Taplejung District Health Office",
+    "total_records": 2,
+    "note": "Limited healthcare facilities in Taplejung. Major cases require evacuation to Biratnagar or Kathmandu."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Taplejung District Hospital",
+      "type": "District Hospital",
+      "address": "Taplejung Bazar, Taplejung (1,442m)",
+      "phone": ["+977-24-690001", "+977-24-690002"],
+      "website": null,
+      "email": null,
+      "district": "Taplejung",
+      "city": "Taplejung",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-24-690001",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Dental", "Altitude Sickness Treatment"],
+      "beds": 50,
+      "doctors": 10,
+      "specialties": ["General Surgery", "Gynecology", "General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Pathibhara Health Center",
+      "type": "Primary Health Center",
+      "address": "Near Pathibhara Temple, Taplejung",
+      "phone": ["+977-24-690003"],
+      "website": null,
+      "email": null,
+      "district": "Taplejung",
+      "city": "Taplejung",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-24-690001",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine"],
+      "beds": 8,
+      "doctors": 2,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

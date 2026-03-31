@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "district": "Parbat",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Parbat District Health Office",
+    "total_records": 3,
+    "note": "Healthcare facilities in Kusma, district headquarters of Parbat. Cases referred to Pokhara for advanced treatment."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Parbat District Hospital",
+      "type": "District Hospital",
+      "address": "Kusma Bazar, Parbat",
+      "phone": ["+977-67-520001", "+977-67-520002"],
+      "website": null,
+      "email": null,
+      "district": "Parbat",
+      "city": "Kusma",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-67-520001",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Dental", "Physiotherapy"],
+      "beds": 50,
+      "doctors": 12,
+      "specialties": ["General Surgery", "Gynecology", "Pediatrics", "Dental", "General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Kusma Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Kusma-4, Parbat",
+      "phone": ["+977-67-520003", "+977-67-520004"],
+      "website": null,
+      "email": null,
+      "district": "Parbat",
+      "city": "Kusma",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-67-520001",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine", "Family Planning"],
+      "beds": 10,
+      "doctors": 3,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 3,
+      "name": "Kaligandaki Medical Center",
+      "type": "Polyclinic",
+      "address": "Kusma-5, Parbat",
+      "phone": ["+977-67-520005"],
+      "website": null,
+      "email": null,
+      "district": "Parbat",
+      "city": "Kusma",
+      "gps": null,
+      "hours": "Sunday-Friday: 8:00 AM - 7:00 PM, Saturday: 9:00 AM - 2:00 PM",
+      "emergency": "+977-67-520001",
+      "services": ["OPD", "Laboratory", "Pharmacy", "Ultrasound", "ECG", "Health Checkup"],
+      "beds": 0,
+      "doctors": 4,
+      "specialties": ["General Practice", "Gynecology", "Pediatrics"]
+    }
+  ]
+}

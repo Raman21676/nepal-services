@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Sundarijal",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Kathmandu Valley Health Office",
+    "total_records": 3,
+    "note": "Healthcare facilities in Sundarijal area. Close to major hospitals in Kathmandu city center."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Sundarijal Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Sundarijal-3, Kathmandu",
+      "phone": ["+977-1-4911001", "+977-1-4911002"],
+      "website": null,
+      "email": null,
+      "district": "Kathmandu",
+      "city": "Sundarijal",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-1-4911001",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine", "Family Planning"],
+      "beds": 10,
+      "doctors": 3,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Sundarijal Community Hospital",
+      "type": "Community Hospital",
+      "address": "Sundarijal Bazar, Kathmandu",
+      "phone": ["+977-1-4911003", "+977-1-4911004"],
+      "website": null,
+      "email": null,
+      "district": "Kathmandu",
+      "city": "Sundarijal",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-1-4911003",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Dental"],
+      "beds": 25,
+      "doctors": 6,
+      "specialties": ["General Surgery", "Gynecology", "Dental", "General Practice"]
+    },
+    {
+      "id": 3,
+      "name": "Bagmati Health Post",
+      "type": "Health Post",
+      "address": "Bagmati Municipality, Sundarijal, Kathmandu",
+      "phone": ["+977-1-4911005"],
+      "website": null,
+      "email": null,
+      "district": "Kathmandu",
+      "city": "Sundarijal",
+      "gps": null,
+      "hours": "Sunday-Friday: 10:00 AM - 4:00 PM",
+      "emergency": "+977-1-4911003",
+      "services": ["Basic Healthcare", "Vaccination", "Family Planning", "Nutrition Counseling", "Common Illness", "First Aid"],
+      "beds": 3,
+      "doctors": 1,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

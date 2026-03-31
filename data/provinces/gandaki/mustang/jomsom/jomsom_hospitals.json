@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "district": "Mustang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Mustang District Health Office",
+    "total_records": 2,
+    "note": "Healthcare facilities in Jomsom with airport access for emergency evacuation to Pokhara or Kathmandu."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Jomsom District Hospital",
+      "type": "District Hospital",
+      "address": "Jomsom Bazar, Mustang (2,700m)",
+      "phone": ["+977-69-440001", "+977-69-440002"],
+      "website": null,
+      "email": null,
+      "district": "Mustang",
+      "city": "Jomsom",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-69-440001",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Altitude Sickness Treatment", "Oxygen Therapy"],
+      "beds": 25,
+      "doctors": 6,
+      "specialties": ["General Surgery", "General Practice", "High Altitude Medicine"]
+    },
+    {
+      "id": 2,
+      "name": "Jomsom Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Near Airport, Jomsom, Mustang",
+      "phone": ["+977-69-440003", "+977-69-440004"],
+      "website": null,
+      "email": null,
+      "district": "Mustang",
+      "city": "Jomsom",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-69-440001",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine", "Altitude Sickness"],
+      "beds": 8,
+      "doctors": 2,
+      "specialties": ["General Practice"]
+    }
+  ]
+}

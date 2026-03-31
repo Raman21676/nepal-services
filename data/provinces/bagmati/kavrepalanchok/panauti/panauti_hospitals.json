@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "city": "Panauti",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Nepal Medical Council, Ministry of Health and Population, Local Health Office Kavrepalanchok",
+    "total_records": 3,
+    "note": "Healthcare facilities in Panauti historic town. Major cases referred to Dhulikhel Hospital or Kathmandu."
+  },
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Panauti Hospital",
+      "type": "Community Hospital",
+      "address": "Panauti-4, Kavrepalanchok",
+      "phone": ["+977-11-680001", "+977-11-680002"],
+      "website": null,
+      "email": null,
+      "district": "Kavrepalanchok",
+      "city": "Panauti",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-11-680001",
+      "services": ["General Surgery", "OPD", "Emergency", "Maternity", "Laboratory", "Pharmacy", "X-Ray", "Dental"],
+      "beds": 35,
+      "doctors": 8,
+      "specialties": ["General Surgery", "Gynecology", "Dental", "General Practice"]
+    },
+    {
+      "id": 2,
+      "name": "Panauti Primary Health Center",
+      "type": "Primary Health Center",
+      "address": "Panauti Bazar, Kavrepalanchok",
+      "phone": ["+977-11-680003", "+977-11-680004"],
+      "website": null,
+      "email": null,
+      "district": "Kavrepalanchok",
+      "city": "Panauti",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "+977-11-680003",
+      "services": ["OPD", "Emergency First Aid", "Maternity", "Child Health", "Vaccination", "General Medicine", "Family Planning"],
+      "beds": 10,
+      "doctors": 3,
+      "specialties": ["General Practice"]
+    },
+    {
+      "id": 3,
+      "name": "Indreshwar Health Post",
+      "type": "Health Post",
+      "address": "Near Indreshwar Temple, Panauti, Kavrepalanchok",
+      "phone": ["+977-11-680005"],
+      "website": null,
+      "email": null,
+      "district": "Kavrepalanchok",
+      "city": "Panauti",
+      "gps": null,
+      "hours": "Sunday-Friday: 10:00 AM - 4:00 PM",
+      "emergency": "+977-11-680001",
+      "services": ["Basic Healthcare", "First Aid", "Common Illness", "Vaccination", "Health Counseling"],
+      "beds": 3,
+      "doctors": 1,
+      "specialties": ["General Practice"]
+    }
+  ]
+}
