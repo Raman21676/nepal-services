@@ -93,6 +93,13 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_emergency.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'emergency' },
     { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_government.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'government' },
     { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_veterinary.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'veterinary' },
+    { path: 'data/provinces/bagmati/kavrepalanchok/banepa/banepa_hotels.json', province: 'bagmati', district: 'kavrepalanchok', city: 'banepa', type: 'hotels' },
+    
+    // Kavrepalanchok Secondary City - Dhulikhel Hotels
+    { path: 'data/provinces/bagmati/kavrepalanchok/dhulikhel/dhulikhel_hotels.json', province: 'bagmati', district: 'kavrepalanchok', city: 'dhulikhel', type: 'hotels' },
+    
+    // Kavrepalanchok Secondary City - Panauti Hotels
+    { path: 'data/provinces/bagmati/kavrepalanchok/panauti/panauti_hotels.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panauti', type: 'hotels' },
     
     // Chitwan Secondary City - Ratnanagar
     { path: 'data/provinces/bagmati/chitwan/ratnanagar/ratnanagar_hospitals.json', province: 'bagmati', district: 'chitwan', city: 'ratnanagar', type: 'hospitals' },

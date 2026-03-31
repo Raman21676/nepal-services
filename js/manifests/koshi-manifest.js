@@ -25,6 +25,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/sunsari/dharan_emergency.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'emergency' },
     { path: 'data/provinces/koshi/sunsari/dharan_veterinary.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'veterinary' },
     { path: 'data/provinces/koshi/sunsari/dharan_government.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'government' },
+    { path: 'data/provinces/koshi/sunsari/dharan/dharan_hotels.json', province: 'koshi', district: 'sunsari', city: 'dharan', type: 'hotels' },
     
     // Itahari (Sunsari)
     { path: 'data/provinces/koshi/sunsari/itahari.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'hospitals' },
@@ -37,6 +38,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/sunsari/itahari_emergency.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'emergency' },
     { path: 'data/provinces/koshi/sunsari/itahari_veterinary.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'veterinary' },
     { path: 'data/provinces/koshi/sunsari/itahari_government.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'government' },
+    { path: 'data/provinces/koshi/sunsari/itahari/itahari_hotels.json', province: 'koshi', district: 'sunsari', city: 'itahari', type: 'hotels' },
     
     // Jhapa District
     { path: 'data/provinces/koshi/jhapa/birtamod.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'hospitals' },
@@ -49,6 +51,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/jhapa/birtamod_emergency.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'emergency' },
     { path: 'data/provinces/koshi/jhapa/birtamod_veterinary.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'veterinary' },
     { path: 'data/provinces/koshi/jhapa/birtamod_government.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'government' },
+    { path: 'data/provinces/koshi/jhapa/birtamod/birtamod_hotels.json', province: 'koshi', district: 'jhapa', city: 'birtamod', type: 'hotels' },
     
     { path: 'data/provinces/koshi/jhapa/damak.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'hospitals' },
     { path: 'data/provinces/koshi/jhapa/damak_clinics.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'clinics' },
@@ -60,6 +63,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/jhapa/damak_emergency.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'emergency' },
     { path: 'data/provinces/koshi/jhapa/damak_veterinary.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'veterinary' },
     { path: 'data/provinces/koshi/jhapa/damak_government.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'government' },
+    { path: 'data/provinces/koshi/jhapa/damak/damak_hotels.json', province: 'koshi', district: 'jhapa', city: 'damak', type: 'hotels' },
     
     { path: 'data/provinces/koshi/jhapa/bhadrapur.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'hospitals' },
     { path: 'data/provinces/koshi/jhapa/bhadrapur_clinics.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'clinics' },
@@ -71,8 +75,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/jhapa/bhadrapur_emergency.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'emergency' },
     { path: 'data/provinces/koshi/jhapa/bhadrapur_veterinary.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'veterinary' },
     { path: 'data/provinces/koshi/jhapa/bhadrapur_government.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'government' },
-    
-    // Other Koshi Districts
+    { path: 'data/provinces/koshi/jhapa/bhadrapur/bhadrapur_hotels.json', province: 'koshi', district: 'jhapa', city: 'bhadrapur', type: 'hotels' },
     
     // Morang Secondary Cities
     { path: 'data/provinces/koshi/morang/urlabari/urlabari_hospitals.json', province: 'koshi', district: 'morang', city: 'urlabari', type: 'hospitals' },
@@ -107,6 +110,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_emergency.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'emergency' },
     { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_government.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'government' },
     { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_veterinary.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'veterinary' },
+    { path: 'data/provinces/koshi/jhapa/mechinagar/mechinagar_hotels.json', province: 'koshi', district: 'jhapa', city: 'mechinagar', type: 'hotels' },
     
     // Sunsari Secondary City - Inaruwa
     { path: 'data/provinces/koshi/sunsari/inaruwa/inaruwa_hospitals.json', province: 'koshi', district: 'sunsari', city: 'inaruwa', type: 'hospitals' },
@@ -153,6 +157,10 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/dhankuta/dhankuta_pharmacies.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'pharmacies' },
     { path: 'data/provinces/koshi/dhankuta/dhankuta_schools.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'schools' },
     { path: 'data/provinces/koshi/dhankuta/dhankuta_veterinary.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'veterinary' },
+    
+    // Dhankuta Secondary City - Hile (Hill Station)
+    { path: 'data/provinces/koshi/dhankuta/hile/hile_hotels.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'hotels' },
+    
     { path: 'data/provinces/koshi/ilam/ilam.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'hospitals' },
     { path: 'data/provinces/koshi/ilam/ilam_ambulance.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'ambulance' },
     { path: 'data/provinces/koshi/ilam/ilam_blood_banks.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'blood_banks' },
@@ -234,6 +242,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/taplejung/taplejung_pharmacies.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'pharmacies' },
     { path: 'data/provinces/koshi/taplejung/taplejung_schools.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'schools' },
     { path: 'data/provinces/koshi/taplejung/taplejung_veterinary.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'veterinary' },
+    { path: 'data/provinces/koshi/taplejung/taplejung_hotels.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'hotels' },
     { path: 'data/provinces/koshi/terhathum/manglung.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'hospitals' },
     { path: 'data/provinces/koshi/terhathum/manglung_ambulance.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'ambulance' },
     { path: 'data/provinces/koshi/terhathum/manglung_blood_banks.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'blood_banks' },
