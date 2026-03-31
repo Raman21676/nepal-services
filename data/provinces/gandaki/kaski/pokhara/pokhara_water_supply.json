@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "city": "Pokhara",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Pokhara Water Supply and Sanitation Division, Nepal Water Supply Corporation",
+    "total_records": 5,
+    "note": "Water supply offices and customer service centers in Pokhara"
+  },
+  "water_offices": [
+    {
+      "id": 1,
+      "name": "Pokhara Water Supply and Sanitation Division",
+      "type": "Division Office",
+      "address": "Prithvi Chowk, Pokhara, Kaski",
+      "phone": ["061-520300", "061-520301", "061-520302"],
+      "website": "https://www.nwsc.gov.np/",
+      "email": "pokhara@nwsc.gov.np",
+      "district": "Kaski",
+      "city": "Pokhara",
+      "gps": null,
+      "hours": "Sunday-Thursday: 10:00 AM - 5:00 PM",
+      "emergency": "01-5970223",
+      "services": ["New Connection", "Bill Payment", "Meter Services", "Pipeline Maintenance", "Complaint"]
+    },
+    {
+      "id": 2,
+      "name": "NWSC Pokhara Customer Service Center",
+      "type": "Customer Service",
+      "address": "Mahendrapul, Pokhara, Kaski",
+      "phone": ["061-538200", "061-538201"],
+      "website": "https://www.nwsc.gov.np/",
+      "email": null,
+      "district": "Kaski",
+      "city": "Pokhara",
+      "gps": null,
+      "hours": "Sunday-Thursday: 10:00 AM - 5:00 PM",
+      "emergency": "01-5970223",
+      "services": ["Bill Payment", "New Connection", "Complaint", "Meter Reading"]
+    },
+    {
+      "id": 3,
+      "name": "NWSC Pokhara Water Treatment Plant",
+      "type": "Treatment Plant",
+      "address": "Phewa Dam Side, Pokhara, Kaski",
+      "phone": ["061-520310"],
+      "website": "https://www.nwsc.gov.np/",
+      "email": null,
+      "district": "Kaski",
+      "city": "Pokhara",
+      "gps": null,
+      "hours": "24 hours",
+      "emergency": "01-5970223",
+      "services": ["Water Treatment", "Quality Control", "Distribution"]
+    },
+    {
+      "id": 4,
+      "name": "NWSC Lekhnath Service Center",
+      "type": "Service Center",
+      "address": "Lekhnath, Pokhara, Kaski",
+      "phone": ["061-560200", "061-560201"],
+      "website": "https://www.nwsc.gov.np/",
+      "email": null,
+      "district": "Kaski",
+      "city": "Pokhara",
+      "gps": null,
+      "hours": "Sunday-Thursday: 10:00 AM - 5:00 PM",
+      "emergency": "01-5970223",
+      "services": ["Bill Payment", "New Connection", "Complaint"]
+    },
+    {
+      "id": 5,
+      "name": "Pokhara Metropolitan City Water Supply Department",
+      "type": "Municipal Office",
+      "address": "Pokhara Metropolitan City Office, Pokhara, Kaski",
+      "phone": ["061-515600", "061-515601"],
+      "website": "https://pokharamun.gov.np/",
+      "email": "info@pokharamun.gov.np",
+      "district": "Kaski",
+      "city": "Pokhara",
+      "gps": null,
+      "hours": "Sunday-Thursday: 10:00 AM - 5:00 PM",
+      "emergency": "061-515600",
+      "services": ["Municipal Water Supply", "New Connection", "Maintenance", "Complaint"]
+    }
+  ]
+}

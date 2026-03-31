@@ -200,7 +200,11 @@ const GANDAKI_MANIFEST = [
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_schools.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'schools' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_hospitals.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'hospitals' },
     { path: 'data/provinces/gandaki/syangja/syangja/syangja_pharmacies.json', province: 'gandaki', district: 'syangja', city: 'syangja', type: 'pharmacies' },
-,
+    
+    // Pokhara Universities and Utilities
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_universities.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'universities' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_electricity.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'electricity' },
+    { path: 'data/provinces/gandaki/kaski/pokhara/pokhara_water_supply.json', province: 'gandaki', district: 'kaski', city: 'pokhara', type: 'water_supply' },
     // Mustang District Rural Municipalities
     { path: 'data/provinces/gandaki/mustang/gharapjhong/gharapjhong_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'gharapjhong', type: 'ward_offices' },
     { path: 'data/provinces/gandaki/mustang/thasang/thasang_ward_offices.json', province: 'gandaki', district: 'mustang', city: 'thasang', type: 'ward_offices' },
