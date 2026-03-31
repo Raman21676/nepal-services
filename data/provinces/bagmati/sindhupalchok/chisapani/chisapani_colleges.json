@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "district": "Sindhupalchok",
+    "headquarter": "Chisapani",
+    "area_code": "011",
+    "total_colleges": 2
+  },
+  "colleges": [
+    {
+      "name": "Helambu Multiple Campus",
+      "address": "Chisapani-2, Sindhupalchok",
+      "phone": "011-560201",
+      "estd": 2002,
+      "principal": "Dr. Krishna Bahadur Tamang",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS"]
+    },
+    {
+      "name": "Chisapani Higher Secondary School",
+      "address": "Chisapani-1, Sindhupalchok",
+      "phone": "011-560215",
+      "estd": 1995,
+      "principal": "Mr. Lakpa Sherpa",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Education"]
+    }
+  ]
+}

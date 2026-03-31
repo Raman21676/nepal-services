@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Kavrepalanchok",
+    "headquarter": "Panauti",
+    "area_code": "011",
+    "total_ambulance_services": 4
+  },
+  "ambulance_services": [
+    {
+      "name": "Panauti Hospital Ambulance",
+      "hospital": "Panauti Hospital",
+      "address": "Panauti-1, Kavrepalanchok",
+      "phone": "011-440401",
+      "emergency": "+977-9851012345",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Hospital Ambulance"
+    },
+    {
+      "name": "Panauti Municipality Ambulance",
+      "hospital": "Panauti Municipality Office",
+      "address": "Panauti-2, Kavrepalanchok",
+      "phone": "011-440405",
+      "emergency": "+977-9851078901",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Kavre Red Cross Ambulance",
+      "hospital": "Nepal Red Cross Society - Kavre",
+      "address": "Panauti-4, Kavrepalanchok",
+      "phone": "+977-9841234567",
+      "emergency": "+977-9851023456",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    },
+    {
+      "name": "Sanga Health Post Ambulance",
+      "hospital": "Sanga Health Post",
+      "address": "Sanga, Panauti-6, Kavrepalanchok",
+      "phone": "011-440409",
+      "emergency": "+977-9851034567",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Sundarijal",
+    "area_code": "01",
+    "total_schools": 6
+  },
+  "schools": [
+    {
+      "name": "Shree Sundarijal Secondary School",
+      "address": "Sundarijal-1, Kathmandu",
+      "phone": "01-4373201",
+      "principal": "Mr. Gopal Bahadur Tamang",
+      "estd": 1952,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Sundarijal Model Secondary School",
+      "address": "Sundarijal-2, Kathmandu",
+      "phone": "01-4373215",
+      "principal": "Mrs. Bimala Adhikari",
+      "estd": 1975,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Waterfall Boarding School",
+      "address": "Near Sundarijal Waterfall, Sundarijal-1, Kathmandu",
+      "phone": "+977-9849012345",
+      "principal": "Mr. Ramesh Poudel",
+      "estd": 1995,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Bagdwar Secondary School",
+      "address": "Bagdwar, Sundarijal-3, Kathmandu",
+      "phone": "01-4373228",
+      "principal": "Mr. Hari Bahadur Tamang",
+      "estd": 1960,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Sundarijal English School",
+      "address": "Sundarijal Bazaar, Sundarijal-2, Kathmandu",
+      "phone": "+977-9851014567",
+      "principal": "Mrs. Sita Sharma",
+      "estd": 1990,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Indrayani Secondary School",
+      "address": "Indrayani, Sundarijal-4, Kathmandu",
+      "phone": "01-4373241",
+      "principal": "Mr. Dhan Bahadur Tamang",
+      "estd": 1968,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

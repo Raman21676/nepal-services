@@ -161,6 +161,10 @@ const KOSHI_MANIFEST = [
     // Dhankuta Secondary City - Hile (Hill Station)
     { path: 'data/provinces/koshi/dhankuta/hile/hile_hotels.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'hotels' },
     { path: 'data/provinces/koshi/dhankuta/hile/hile_hospitals.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'hospitals' },
+    { path: 'data/provinces/koshi/dhankuta/hile/hile_schools.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'schools' },
+    { path: 'data/provinces/koshi/dhankuta/hile/hile_colleges.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'colleges' },
+    { path: 'data/provinces/koshi/dhankuta/hile/hile_pharmacies.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/dhankuta/hile/hile_ambulance.json', province: 'koshi', district: 'dhankuta', city: 'hile', type: 'ambulance' },
     
     { path: 'data/provinces/koshi/ilam/ilam.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'hospitals' },
     { path: 'data/provinces/koshi/ilam/ilam_ambulance.json', province: 'koshi', district: 'ilam', city: 'ilam', type: 'ambulance' },
@@ -244,6 +248,10 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/taplejung/taplejung_schools.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'schools' },
     { path: 'data/provinces/koshi/taplejung/taplejung_veterinary.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'veterinary' },
     { path: 'data/provinces/koshi/taplejung/taplejung_hospitals.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'hospitals' },
+    { path: 'data/provinces/koshi/taplejung/taplejung_schools.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'schools' },
+    { path: 'data/provinces/koshi/taplejung/taplejung_colleges.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'colleges' },
+    { path: 'data/provinces/koshi/taplejung/taplejung_pharmacies.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'pharmacies' },
+    { path: 'data/provinces/koshi/taplejung/taplejung_ambulance.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'ambulance' },
     { path: 'data/provinces/koshi/taplejung/taplejung_hotels.json', province: 'koshi', district: 'taplejung', city: 'taplejung', type: 'hotels' },
     { path: 'data/provinces/koshi/terhathum/manglung.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'hospitals' },
     { path: 'data/provinces/koshi/terhathum/manglung_ambulance.json', province: 'koshi', district: 'terhathum', city: 'manglung', type: 'ambulance' },

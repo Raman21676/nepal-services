@@ -1,46 +1,63 @@
 {
   "metadata": {
     "city": "Taplejung",
+    "city_np": "ताप्लेजुङ",
     "district": "Taplejung",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 7,
+    "note": "Remote mountain district with predominantly community schools"
   },
   "schools": [
     {
-      "name": "Taplejung Higher Secondary School",
-      "name_np": "ताप्लेजुङ उच्च माध्यमिक विद्यालय",
-      "type": "Public School",
-      "levels": "Nursery - Grade 12",
-      "address": "Main Road, Taplejung, Taplejung",
-      "phone": "024-522001",
-      "affiliation": "Government of Nepal"
+      "name": "Shree Taplejung Secondary School",
+      "name_np": "श्री ताप्लेजुङ माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Taplejung Bazaar",
+      "phone": "024-560123"
     },
     {
-      "name": "Taplejung English Boarding School",
-      "name_np": "ताप्लेजुङ इंग्लिश बोर्डिङ स्कूल",
-      "type": "Private School",
-      "levels": "Nursery - Grade 10",
-      "address": "Bazaar Area, Taplejung, Taplejung",
-      "phone": "024-522002",
-      "affiliation": "Private"
+      "name": "Shree Jana Jagriti Higher Secondary School",
+      "name_np": "श्री जन जागृति उच्च माध्यमिक विद्यालय",
+      "type": "Community Higher Secondary School",
+      "address": "Taplejung-2",
+      "phone": "024-560234"
     },
     {
-      "name": "Taplejung Academy",
-      "name_np": "ताप्लेजुङ एकेडेमी",
-      "type": "Private School",
-      "levels": "Nursery - Grade 12",
-      "address": "Residential Area, Taplejung, Taplejung",
-      "phone": "024-522003",
-      "affiliation": "Private"
+      "name": "Shree Panchayat Secondary School",
+      "name_np": "श्री पञ्चायत माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Taplejung-4",
+      "phone": "024-560345"
+    },
+    {
+      "name": "Shree Ma Vi (Madhyaure) School",
+      "name_np": "श्री माध्यमिक विद्यालय मध्यौरे",
+      "type": "Community Secondary School",
+      "address": "Madhyaure, Taplejung",
+      "phone": "024-560456"
     },
     {
       "name": "Taplejung Model School",
       "name_np": "ताप्लेजुङ मोडल स्कूल",
-      "type": "Public School",
-      "levels": "Grade 1 - Grade 12",
-      "address": "Near Municipality Office, Taplejung, Taplejung",
-      "phone": "024-522004",
-      "affiliation": "Government of Nepal"
+      "type": "Community Model School",
+      "address": "Taplejung Bazaar",
+      "phone": "024-560567"
+    },
+    {
+      "name": "Shree Primary School Phungling",
+      "name_np": "श्री प्राथमिक विद्यालय फुङ्लिङ",
+      "type": "Community Primary School",
+      "address": "Phungling, Taplejung",
+      "phone": "024-560678"
+    },
+    {
+      "name": "Himalayan Boarding School",
+      "name_np": "हिमालयन बोर्डिङ स्कूल",
+      "type": "Private Boarding School",
+      "address": "Taplejung Bazaar",
+      "phone": "024-560789"
     }
   ]
 }

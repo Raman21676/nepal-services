@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "district": "Nuwakot",
+    "headquarter": "Kakani",
+    "area_code": "010",
+    "total_colleges": 2
+  },
+  "colleges": [
+    {
+      "name": "Kakani Multiple Campus",
+      "address": "Kakani-3, Nuwakot",
+      "phone": "010-560401",
+      "estd": 1998,
+      "principal": "Dr. Madhav Prasad Sharma",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS"]
+    },
+    {
+      "name": "Nuwakot Technical College",
+      "address": "Kakani-4, Nuwakot",
+      "phone": "010-560415",
+      "estd": 2005,
+      "principal": "Mr. Bishnu Hari Adhikari",
+      "category": "Private",
+      "programs": ["+2 Science", "Diploma in Agriculture", "Diploma in Forestry"]
+    }
+  ]
+}

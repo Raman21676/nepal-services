@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Chandragiri",
+    "area_code": "01",
+    "total_colleges": 3
+  },
+  "colleges": [
+    {
+      "name": "Chandragiri Multiple Campus",
+      "address": "Thankot, Chandragiri-11, Kathmandu",
+      "phone": "01-4312601",
+      "estd": 1995,
+      "principal": "Dr. Govinda Sharma",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS", "BA"]
+    },
+    {
+      "name": "Matatirtha Higher Secondary School",
+      "address": "Matatirtha, Chandragiri-3, Kathmandu",
+      "phone": "01-4312615",
+      "estd": 1990,
+      "principal": "Mr. Bhoj Raj Poudel",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Education"]
+    },
+    {
+      "name": "Chandragiri Technical College",
+      "address": "Satungal, Chandragiri-7, Kathmandu",
+      "phone": "01-4312628",
+      "estd": 2005,
+      "principal": "Mr. Prem Bahadur Khatri",
+      "category": "Private",
+      "programs": ["+2 Science", "Diploma in Computer Engineering", "Diploma in Civil Engineering"]
+    }
+  ]
+}

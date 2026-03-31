@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "district": "Sindhupalchok",
+    "headquarter": "Chisapani",
+    "area_code": "011",
+    "total_ambulance_services": 3
+  },
+  "ambulance_services": [
+    {
+      "name": "Chisapani Health Post Ambulance",
+      "hospital": "Chisapani Health Post",
+      "address": "Chisapani-1, Sindhupalchok",
+      "phone": "011-560401",
+      "emergency": "+977-9851014567",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Helambu Rural Municipality Ambulance",
+      "hospital": "Helambu Rural Municipality Office",
+      "address": "Chisapani-3, Sindhupalchok",
+      "phone": "011-560405",
+      "emergency": "+977-9851078901",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Rural Municipality Ambulance"
+    },
+    {
+      "name": "Sindhupalchok Red Cross Ambulance",
+      "hospital": "Nepal Red Cross Society - Sindhupalchok",
+      "address": "Chisapani-2, Sindhupalchok",
+      "phone": "+977-9841234567",
+      "emergency": "+977-9851023456",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    }
+  ]
+}

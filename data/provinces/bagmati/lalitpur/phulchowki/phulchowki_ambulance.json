@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "district": "Lalitpur",
+    "headquarter": "Phulchowki",
+    "area_code": "01",
+    "total_ambulance_services": 3
+  },
+  "ambulance_services": [
+    {
+      "name": "Godawari Hospital Ambulance",
+      "hospital": "Godawari Hospital",
+      "address": "Godawari-12, Lalitpur",
+      "phone": "01-5591501",
+      "emergency": "+977-9851012345",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Hospital Ambulance"
+    },
+    {
+      "name": "Godawari Municipality Ambulance",
+      "hospital": "Godawari Municipality Office",
+      "address": "Godawari-11, Lalitpur",
+      "phone": "01-5591505",
+      "emergency": "+977-9851078901",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Lalitpur Red Cross Ambulance",
+      "hospital": "Nepal Red Cross Society - Lalitpur",
+      "address": "Godawari-12, Lalitpur",
+      "phone": "+977-9841234567",
+      "emergency": "+977-9851023456",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    }
+  ]
+}

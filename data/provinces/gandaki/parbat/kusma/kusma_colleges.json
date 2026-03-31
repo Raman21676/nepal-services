@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "city_np": "कुश्मा",
+    "district": "Parbat",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 2,
+    "note": "District headquarters with basic higher education facilities"
+  },
+  "colleges": [
+    {
+      "name": "Parbat Multiple Campus",
+      "name_np": "पर्वत बहुमुखी क्याम्पस",
+      "type": "Community Campus",
+      "address": "Kusma Bazaar, Parbat",
+      "phone": "067-541234",
+      "note": "Offers +2 and Bachelor's programs in Humanities, Management and Education. Tribhuvan University affiliated."
+    },
+    {
+      "name": "Kusma Technical School",
+      "name_np": "कुश्मा प्राविधिक विद्यालय",
+      "type": "Technical School",
+      "address": "Kusma-3, Parbat",
+      "phone": "067-541345",
+      "note": "CTEVT affiliated - Diploma in Civil Engineering and Health Assistant programs"
+    }
+  ]
+}

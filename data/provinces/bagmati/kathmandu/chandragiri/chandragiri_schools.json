@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Chandragiri",
+    "area_code": "01",
+    "total_schools": 8
+  },
+  "schools": [
+    {
+      "name": "Shree Chandragiri Secondary School",
+      "address": "Thankot, Chandragiri-11, Kathmandu",
+      "phone": "01-4312501",
+      "principal": "Mr. Dambar Bahadur Thapa",
+      "estd": 1958,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Chandragiri Model Secondary School",
+      "address": "Matatirtha, Chandragiri-3, Kathmandu",
+      "phone": "01-4312515",
+      "principal": "Mrs. Sarala Sharma",
+      "estd": 1975,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Hillside Boarding School",
+      "address": "Nagarjun, Chandragiri-6, Kathmandu",
+      "phone": "+977-9849012345",
+      "principal": "Mr. Rajesh K.C.",
+      "estd": 1990,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Kalika Secondary School",
+      "address": "Gurjudhara, Chandragiri-2, Kathmandu",
+      "phone": "01-4312528",
+      "principal": "Mrs. Anjana Poudel",
+      "estd": 1965,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Chandragiri English School",
+      "address": "Satungal, Chandragiri-7, Kathmandu",
+      "phone": "+977-9851014567",
+      "principal": "Mr. Binod Adhikari",
+      "estd": 1995,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Bhimsen Secondary School",
+      "address": "Machhegaun, Chandragiri-4, Kathmandu",
+      "phone": "01-4312541",
+      "principal": "Mr. Ram Krishna Shrestha",
+      "estd": 1968,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Mount Chandragiri Academy",
+      "address": "Thankot, Chandragiri-11, Kathmandu",
+      "phone": "+977-9841234567",
+      "principal": "Mrs. Sunita Gautam",
+      "estd": 2000,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Basundhara Secondary School",
+      "address": "Naikap, Chandragiri-8, Kathmandu",
+      "phone": "01-4312555",
+      "principal": "Mr. Hari Prasad Aryal",
+      "estd": 1972,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

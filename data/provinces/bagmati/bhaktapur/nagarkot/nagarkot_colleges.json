@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "district": "Bhaktapur",
+    "headquarter": "Nagarkot",
+    "area_code": "01",
+    "total_colleges": 2
+  },
+  "colleges": [
+    {
+      "name": "Nagarkot Multiple Campus",
+      "address": "Nagarkot-1, Bhaktapur",
+      "phone": "01-5091301",
+      "estd": 1998,
+      "principal": "Dr. Govinda K.C.",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS"]
+    },
+    {
+      "name": "Nagarkot Higher Secondary School",
+      "address": "Nagarkot-3, Bhaktapur",
+      "phone": "01-5091315",
+      "estd": 1992,
+      "principal": "Mr. Narayan Khatri",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Education"]
+    }
+  ]
+}

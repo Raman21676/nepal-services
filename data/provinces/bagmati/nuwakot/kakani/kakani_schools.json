@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "district": "Nuwakot",
+    "headquarter": "Kakani",
+    "area_code": "010",
+    "total_schools": 7
+  },
+  "schools": [
+    {
+      "name": "Shree Kakani Secondary School",
+      "address": "Kakani-2, Nuwakot",
+      "phone": "010-560301",
+      "principal": "Mr. Ganesh Bahadur Thapa",
+      "estd": 1955,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Kakani Model Secondary School",
+      "address": "Kakani-4, Nuwakot",
+      "phone": "010-560312",
+      "principal": "Mrs. Sita Sharma",
+      "estd": 1975,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Himalayan Boarding School",
+      "address": "Kakani Bazaar, Kakani-3, Nuwakot",
+      "phone": "+977-9849012345",
+      "principal": "Mr. Ram Krishna Poudel",
+      "estd": 1995,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Panchakanya Secondary School",
+      "address": "Okharpauwa, Kakani-6, Nuwakot",
+      "phone": "010-560325",
+      "principal": "Mrs. Parbati Gurung",
+      "estd": 1968,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Mount View English School",
+      "address": "Kakani-1, Nuwakot",
+      "phone": "+977-9851014567",
+      "principal": "Mr. Dipak Adhikari",
+      "estd": 2002,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Kalika Secondary School",
+      "address": "Chauthe, Kakani-5, Nuwakot",
+      "phone": "010-560338",
+      "principal": "Mr. Hira Bahadur Tamang",
+      "estd": 1972,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Kakani Everest Boarding School",
+      "address": "Near Kakani View Tower, Kakani-2, Nuwakot",
+      "phone": "+977-9841234567",
+      "principal": "Mrs. Laxmi Pradhan",
+      "estd": 1998,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

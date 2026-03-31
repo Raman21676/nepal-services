@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "city": "Hile",
+    "city_np": "हिले",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 3,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "District Hospital Hile Ambulance",
+      "name_np": "जिल्ला अस्पताल हिले एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Hile Bazaar, Dhankuta",
+      "phone": ["026-520100", "026-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhankuta"
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Dhankuta",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - धनकुटा",
+      "type": "NGO Emergency",
+      "address": "Hile-4, Dhankuta",
+      "phone": ["1130", "026-520200"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhankuta"
+    },
+    {
+      "id": 3,
+      "name": "Hile Municipality Ambulance",
+      "name_np": "हिले नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Municipal Office, Hile, Dhankuta",
+      "phone": ["026-520300", "9852034567"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Dhankuta"
+    }
+  ]
+}

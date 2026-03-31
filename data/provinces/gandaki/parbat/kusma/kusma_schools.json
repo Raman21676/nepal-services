@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "city_np": "कुश्मा",
+    "district": "Parbat",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 7
+  },
+  "schools": [
+    {
+      "name": "Shree Kushma Higher Secondary School",
+      "name_np": "श्री कुश्मा उच्च माध्यमिक विद्यालय",
+      "type": "Community Higher Secondary School",
+      "address": "Kusma Bazaar, Parbat",
+      "phone": "067-540123"
+    },
+    {
+      "name": "Shree Tribhuvan Secondary School",
+      "name_np": "श्री त्रिभुवन माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Kusma-3, Parbat",
+      "phone": "067-540234"
+    },
+    {
+      "name": "Shree Adarsha Secondary School",
+      "name_np": "श्री आदर्श माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Kusma-5, Parbat",
+      "phone": "067-540345"
+    },
+    {
+      "name": "Kusma Model School",
+      "name_np": "कुश्मा मोडल स्कूल",
+      "type": "Community Model School",
+      "address": "Kusma Bazaar, Parbat",
+      "phone": "067-540456"
+    },
+    {
+      "name": "Parbat English Boarding School",
+      "name_np": "पर्वत अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Private Boarding School",
+      "address": "Kusma, Parbat",
+      "phone": "067-540567"
+    },
+    {
+      "name": "Shree Jana Uddhar Secondary School",
+      "name_np": "श्री जन उद्धार माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Kusma-4, Parbat",
+      "phone": "067-540678"
+    },
+    {
+      "name": "Kusma Primary School",
+      "name_np": "कुश्मा प्राथमिक विद्यालय",
+      "type": "Community Primary School",
+      "address": "Kusma-2, Parbat",
+      "phone": "067-540789"
+    }
+  ]
+}

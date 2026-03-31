@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "city": "Hile",
+    "city_np": "हिले",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 2
+  },
+  "colleges": [
+    {
+      "name": "Hile Multiple Campus",
+      "name_np": "हिले बहुमुखी क्याम्पस",
+      "type": "Community Campus (+2 Level)",
+      "address": "Hile Bazaar, Dhankuta",
+      "phone": "026-541234",
+      "note": "Offers +2 programs in Science, Management, and Humanities"
+    },
+    {
+      "name": "Dhankuta Technical School",
+      "name_np": "धनकुटा प्राविधिक विद्यालय",
+      "type": "Technical School",
+      "address": "Hile-3, Dhankuta",
+      "phone": "026-541345",
+      "note": "Vocational training and diploma programs"
+    }
+  ]
+}

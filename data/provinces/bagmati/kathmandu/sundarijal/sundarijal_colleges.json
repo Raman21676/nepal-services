@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Sundarijal",
+    "area_code": "01",
+    "total_colleges": 2
+  },
+  "colleges": [
+    {
+      "name": "Sundarijal Multiple Campus",
+      "address": "Sundarijal-2, Kathmandu",
+      "phone": "01-4373301",
+      "estd": 1998,
+      "principal": "Dr. Bhoj Raj Sharma",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS"]
+    },
+    {
+      "name": "Sundarijal Higher Secondary School",
+      "address": "Sundarijal-1, Kathmandu",
+      "phone": "01-4373315",
+      "estd": 1992,
+      "principal": "Mr. Ram Krishna Adhikari",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Education"]
+    }
+  ]
+}

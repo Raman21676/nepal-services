@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "city_np": "जोमसोम",
+    "district": "Mustang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 6,
+    "note": "District headquarters of Upper Mustang - mix of community schools and one boarding school for tourists' children"
+  },
+  "schools": [
+    {
+      "name": "Shree Jomsom Secondary School",
+      "name_np": "श्री जोमसोम माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Jomsom, Mustang",
+      "phone": "069-440123"
+    },
+    {
+      "name": "Shree Marpha Secondary School",
+      "name_np": "श्री मार्फा माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Marpha, Mustang",
+      "phone": "069-440234"
+    },
+    {
+      "name": "Shree Thini Basic School",
+      "name_np": "श्री थिनी आधारभूत विद्यालय",
+      "type": "Community Basic School",
+      "address": "Thini, Mustang",
+      "phone": "069-440345"
+    },
+    {
+      "name": "Shree Kagbeni Primary School",
+      "name_np": "श्री कागबेनी प्राथमिक विद्यालय",
+      "type": "Community Primary School",
+      "address": "Kagbeni, Mustang",
+      "phone": "069-440456"
+    },
+    {
+      "name": "Mustang Modern School",
+      "name_np": "मुस्ताङ मोडर्न स्कूल",
+      "type": "Community Model School",
+      "address": "Jomsom, Mustang",
+      "phone": "069-440567"
+    },
+    {
+      "name": "Jomsom Boarding School",
+      "name_np": "जोमसोम बोर्डिङ स्कूल",
+      "type": "Private Boarding School",
+      "address": "Jomsom Bazaar, Mustang",
+      "phone": "069-440678"
+    }
+  ]
+}

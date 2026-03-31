@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Budhanilkantha",
+    "area_code": "01",
+    "total_pharmacies": 6
+  },
+  "pharmacies": [
+    {
+      "name": "Budhanilkantha Medical Hall",
+      "address": "Budhanilkantha Chowk, Budhanilkantha-1",
+      "phone": "01-4371401",
+      "license": "PHM-KTM-145",
+      "hours": "6:30 AM - 10 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Medical Supplies", "First Aid", "Health Checkup"]
+    },
+    {
+      "name": "Hattigauda Pharmacy",
+      "address": "Hattigauda, Budhanilkantha-4",
+      "phone": "01-4371415",
+      "license": "PHM-KTM-146",
+      "hours": "7 AM - 9 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Baby Care Products"]
+    },
+    {
+      "name": "Mahankal Medical Store",
+      "address": "Mahankal, Budhanilkantha-2",
+      "phone": "+977-9849876543",
+      "license": "PHM-KTM-147",
+      "hours": "7:30 AM - 8:30 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    },
+    {
+      "name": "Gongabu Care Pharmacy",
+      "address": "Gongabu Chowk, Budhanilkantha-7",
+      "phone": "01-4371428",
+      "license": "PHM-KTM-148",
+      "hours": "6 AM - 10 PM",
+      "services": ["Prescription Medicines", "Medical Equipment", "Emergency Medicines"]
+    },
+    {
+      "name": "Narayanthan Health Care",
+      "address": "Narayanthan, Budhanilkantha-12",
+      "phone": "+977-9851023456",
+      "license": "PHM-KTM-149",
+      "hours": "7 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Diagnostic Services"]
+    },
+    {
+      "name": "Kapan Medical Suppliers",
+      "address": "Kapan, Budhanilkantha-8",
+      "phone": "01-4371441",
+      "license": "PHM-KTM-150",
+      "hours": "7:30 AM - 8:30 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    }
+  ]
+}

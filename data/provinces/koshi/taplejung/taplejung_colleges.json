@@ -1,50 +1,30 @@
 {
   "metadata": {
     "city": "Taplejung",
+    "city_np": "ताप्लेजुङ",
     "district": "Taplejung",
     "province": "Koshi",
-    "last_updated": "2026-03-25"
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 2,
+    "note": "Limited higher education - students typically go to Dharan, Biratnagar or Kathmandu for university degrees"
   },
   "colleges": [
     {
       "name": "Taplejung Multiple Campus",
       "name_np": "ताप्लेजुङ बहुमुखी क्याम्पस",
-      "type": "Community College",
-      "programs": [
-        "+2 Science",
-        "+2 Management",
-        "+2 Humanities",
-        "Bachelor Programs"
-      ],
-      "address": "College Road, Taplejung, Taplejung",
-      "phone": "024-523001",
-      "affiliation": "Tribhuvan University"
+      "type": "Community Campus (+2 Level)",
+      "address": "Taplejung Bazaar",
+      "phone": "024-561234",
+      "note": "Offers +2 programs in Science, Management, and Humanities. Affiliated to NEB."
     },
     {
-      "name": "Taplejung Model College",
-      "name_np": "ताप्लेजुङ मोडल कलेज",
-      "type": "Private College",
-      "programs": [
-        "+2 Science",
-        "+2 Management",
-        "+2 Education"
-      ],
-      "address": "Main Bazaar, Taplejung, Taplejung",
-      "phone": "024-523002",
-      "affiliation": "National Examination Board"
-    },
-    {
-      "name": "Taplejung Technical School",
-      "name_np": "ताप्लेजुङ टेक्निकल स्कूल",
-      "type": "Technical Institute",
-      "programs": [
-        "Diploma in Engineering",
-        "Technical Courses",
-        "Vocational Training"
-      ],
-      "address": "Industrial Area, Taplejung, Taplejung",
-      "phone": "024-523003",
-      "affiliation": "CTEVT"
+      "name": "Taplejung Technical Institute",
+      "name_np": "ताप्लेजुङ प्राविधिक संस्थान",
+      "type": "Technical School",
+      "address": "Taplejung-3",
+      "phone": "024-561345",
+      "note": "CTEVT affiliated - offers Diploma in Agriculture and Health Assistant programs"
     }
   ]
 }

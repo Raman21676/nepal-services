@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Nuwakot",
+    "headquarter": "Kakani",
+    "area_code": "010",
+    "total_pharmacies": 5
+  },
+  "pharmacies": [
+    {
+      "name": "Kakani Medical Hall",
+      "address": "Kakani Bazaar, Kakani-2",
+      "phone": "010-560201",
+      "license": "PHM-NWT-015",
+      "hours": "7 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Medical Supplies", "First Aid"]
+    },
+    {
+      "name": "Himalaya Pharmacy",
+      "address": "Near Kakani View Tower, Kakani-2",
+      "phone": "+977-9849876543",
+      "license": "PHM-NWT-016",
+      "hours": "7:30 AM - 7:30 PM",
+      "services": ["Prescription Medicines", "Health Supplements", "Cold & Cough Medicines"]
+    },
+    {
+      "name": "Nuwakot Care Pharmacy",
+      "address": "Kakani-3, Nuwakot",
+      "phone": "010-560215",
+      "license": "PHM-NWT-017",
+      "hours": "6:30 AM - 9 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Health Checkup", "Baby Care"]
+    },
+    {
+      "name": "Mountain View Medical Store",
+      "address": "Okharpauwa, Kakani-6",
+      "phone": "+977-9851023456",
+      "license": "PHM-NWT-018",
+      "hours": "8 AM - 7 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Mountain Sickness Medicines"]
+    },
+    {
+      "name": "Shree Medical Suppliers",
+      "address": "Chauthe, Kakani-5",
+      "phone": "010-560228",
+      "license": "PHM-NWT-019",
+      "hours": "7 AM - 7 PM",
+      "services": ["Prescription Medicines", "Medical Equipment", "Health Supplements"]
+    }
+  ]
+}

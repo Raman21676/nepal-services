@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Kavrepalanchok",
+    "headquarter": "Panauti",
+    "area_code": "011",
+    "total_pharmacies": 5
+  },
+  "pharmacies": [
+    {
+      "name": "Panauti Medical Hall",
+      "address": "Panauti Bazaar, Panauti-1",
+      "phone": "011-440301",
+      "license": "PHM-KAV-045",
+      "hours": "7 AM - 9 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Medical Supplies", "First Aid", "Health Checkup"]
+    },
+    {
+      "name": "Malpi Pharmacy",
+      "address": "Malpi Chowk, Panauti-3",
+      "phone": "011-440315",
+      "license": "PHM-KAV-046",
+      "hours": "6:30 AM - 9:30 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Baby Care Products", "Health Supplements"]
+    },
+    {
+      "name": "Taufical Care Pharmacy",
+      "address": "Taufical, Panauti-5",
+      "phone": "+977-9849876543",
+      "license": "PHM-KAV-047",
+      "hours": "7 AM - 8:30 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Emergency Medicines"]
+    },
+    {
+      "name": "Sanga Medical Store",
+      "address": "Sanga Chowk, Panauti-6",
+      "phone": "+977-9851023456",
+      "license": "PHM-KAV-048",
+      "hours": "7:30 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    },
+    {
+      "name": "Panauti Health Care",
+      "address": "Panauti-4, Kavrepalanchok",
+      "phone": "011-440328",
+      "license": "PHM-KAV-049",
+      "hours": "7 AM - 8:30 PM",
+      "services": ["Prescription Medicines", "Diagnostic Services", "Medical Equipment"]
+    }
+  ]
+}

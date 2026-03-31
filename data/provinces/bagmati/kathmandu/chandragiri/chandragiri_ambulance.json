@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Chandragiri",
+    "area_code": "01",
+    "total_ambulance_services": 4
+  },
+  "ambulance_services": [
+    {
+      "name": "Chandragiri Municipality Ambulance",
+      "hospital": "Chandragiri Municipality Office",
+      "address": "Thankot, Chandragiri-11, Kathmandu",
+      "phone": "01-4312801",
+      "emergency": "+977-9851012345",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Thankot Primary Health Center Ambulance",
+      "hospital": "Thankot Primary Health Center",
+      "address": "Thankot, Chandragiri-11, Kathmandu",
+      "phone": "01-4312805",
+      "emergency": "+977-9851078901",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Matatirtha Health Post Ambulance",
+      "hospital": "Matatirtha Health Post",
+      "address": "Matatirtha, Chandragiri-3, Kathmandu",
+      "phone": "01-4312809",
+      "emergency": "+977-9851023456",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Chandragiri Red Cross Ambulance",
+      "hospital": "Nepal Red Cross Society - Chandragiri",
+      "address": "Satungal, Chandragiri-7, Kathmandu",
+      "phone": "+977-9841234567",
+      "emergency": "+977-9851034567",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    }
+  ]
+}

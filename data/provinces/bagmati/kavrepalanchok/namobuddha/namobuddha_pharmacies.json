@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "city": "Namobuddha",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Department of Drug Administration Nepal, Local Pharmacy Association",
+    "total_records": 6,
+    "note": "Pharmacies and medicine shops in Namobuddha area"
+  },
+  "pharmacies": [
+    {
+      "id": 1,
+      "name": "Namobuddha Pharmacy",
+      "type": "Retail Pharmacy",
+      "address": "Namobuddha Bazar, Kavrepalanchok",
+      "phone": ["+977-11-471300"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "Sunday-Friday: 7:00 AM - 8:00 PM, Saturday: 8:00 AM - 6:00 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"],
+      "license": "Valid"
+    },
+    {
+      "id": 2,
+      "name": "Shusweta Medical Store",
+      "type": "Medical Store",
+      "address": "Near Shusweta Hospital, Namobuddha",
+      "phone": ["+977-11-471301"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "24 hours",
+      "services": ["Emergency Medicines", "Hospital Supplies", "Surgical Items"],
+      "license": "Valid"
+    },
+    {
+      "id": 3,
+      "name": "Yangtse Medical Hall",
+      "type": "Retail Pharmacy",
+      "address": "Yangtse, Namobuddha, Kavrepalanchok",
+      "phone": ["+977-11-471302"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "Sunday-Friday: 8:00 AM - 7:00 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Baby Care"],
+      "license": "Valid"
+    },
+    {
+      "id": 4,
+      "name": "Buddha Medical Store",
+      "type": "Retail Pharmacy",
+      "address": "Namobuddha Chowk, Kavrepalanchok",
+      "phone": ["+977-11-471303"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "Sunday-Friday: 7:30 AM - 8:00 PM",
+      "services": ["Allopathic", "Ayurvedic", "Health Supplements"],
+      "license": "Valid"
+    },
+    {
+      "id": 5,
+      "name": "Namobuddha Life Care",
+      "type": "Retail Pharmacy",
+      "address": "Namobuddha-3, Kavrepalanchok",
+      "phone": ["+977-11-471304"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "Sunday-Friday: 8:00 AM - 8:00 PM",
+      "services": ["Prescription Medicines", "Health Checkup", "Medical Equipment"],
+      "license": "Valid"
+    },
+    {
+      "id": 6,
+      "name": "Village Medical Shop",
+      "type": "Small Pharmacy",
+      "address": "Namobuddha-7, Kavrepalanchok",
+      "phone": ["+977-11-471305"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "Sunday-Friday: 8:00 AM - 6:00 PM",
+      "services": ["Common Medicines", "First Aid", "Basic Healthcare"],
+      "license": "Valid"
+    }
+  ]
+}

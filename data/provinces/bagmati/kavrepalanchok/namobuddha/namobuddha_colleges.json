@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "city": "Namobuddha",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "University Grants Commission Nepal, Ministry of Education",
+    "total_records": 2,
+    "note": "Higher education institutions in Namobuddha area. Most students go to Dhulikhel or Kathmandu for higher studies."
+  },
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Namobuddha Multiple Campus",
+      "type": "Community Campus",
+      "affiliation": "Tribhuvan University",
+      "address": "Namobuddha-5, Kavrepalanchok",
+      "phone": ["+977-11-471200", "+977-11-471201"],
+      "website": null,
+      "email": "namobuddhacampus@gmail.com",
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "established": 2005,
+      "programs": ["BA", "BBS", "BEd"],
+      "students": 350,
+      "facilities": ["Library", "Computer Lab", "Canteen"]
+    },
+    {
+      "id": 2,
+      "name": "Thrangu Tashi Buddhist Institute",
+      "type": "Religious Institute",
+      "affiliation": "Ngagyur Nyingma",
+      "address": "Thrangu Tashi Yangtse Monastery, Namobuddha",
+      "phone": ["+977-11-471202"],
+      "website": "https://www.namobuddha.org/",
+      "email": null,
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "established": 1988,
+      "programs": ["Buddhist Philosophy", "Tibetan Language", "Monastic Studies"],
+      "students": 200,
+      "facilities": ["Library", "Meditation Hall", "Dormitory", "Scripture Study"]
+    }
+  ]
+}

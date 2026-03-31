@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "city": "Hile",
+    "city_np": "हिले",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 6
+  },
+  "schools": [
+    {
+      "name": "Shree Hile Secondary School",
+      "name_np": "श्री हिले माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Hile Bazaar, Dhankuta",
+      "phone": "026-540123"
+    },
+    {
+      "name": "Shree Mahindra Higher Secondary School",
+      "name_np": "श्री महेन्द्र उच्च माध्यमिक विद्यालय",
+      "type": "Community Higher Secondary School",
+      "address": "Hile-3, Dhankuta",
+      "phone": "026-540234"
+    },
+    {
+      "name": "Hile Model School",
+      "name_np": "हिले मोडल स्कूल",
+      "type": "Community School",
+      "address": "Main Road, Hile",
+      "phone": "026-540345"
+    },
+    {
+      "name": "Shree Panchayat Secondary School",
+      "name_np": "श्री पञ्चायत माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Hile-5, Dhankuta",
+      "phone": "026-540456"
+    },
+    {
+      "name": "Sunrise English Boarding School",
+      "name_np": "सनराइज अङ्ग्रेजी बोर्डिङ स्कूल",
+      "type": "Private Boarding School",
+      "address": "Hile Bazaar, Dhankuta",
+      "phone": "026-540567"
+    },
+    {
+      "name": "Shree Janata Primary School",
+      "name_np": "श्री जनता प्राथमिक विद्यालय",
+      "type": "Community Primary School",
+      "address": "Hile-2, Dhankuta",
+      "phone": "026-540678"
+    }
+  ]
+}

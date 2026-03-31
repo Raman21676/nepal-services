@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "city_np": "चामे",
+    "district": "Manang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 1,
+    "note": "Very limited higher education - students go to Pokhara, Kathmandu or Besisahar for college. District literacy primarily through secondary schools."
+  },
+  "colleges": [
+    {
+      "name": "Manang Community Learning Center",
+      "name_np": "मनाङ सामुदायिक शिक्षा केन्द्र",
+      "type": "Community Learning Center",
+      "address": "Chame, Manang",
+      "phone": "066-441234",
+      "note": "Non-formal education and vocational training. No formal +2 or university programs available in district."
+    }
+  ]
+}

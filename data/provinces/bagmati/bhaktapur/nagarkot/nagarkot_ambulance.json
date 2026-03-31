@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "district": "Bhaktapur",
+    "headquarter": "Nagarkot",
+    "area_code": "01",
+    "total_ambulance_services": 3
+  },
+  "ambulance_services": [
+    {
+      "name": "Nagarkot Health Post Ambulance",
+      "hospital": "Nagarkot Health Post",
+      "address": "Nagarkot-1, Bhaktapur",
+      "phone": "01-5091501",
+      "emergency": "+977-9851012345",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Changunarayan Municipality Ambulance",
+      "hospital": "Changunarayan Municipality Office",
+      "address": "Changu Narayan, Nagarkot-6, Bhaktapur",
+      "phone": "01-5091505",
+      "emergency": "+977-9851078901",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Bhaktapur Red Cross Ambulance",
+      "hospital": "Nepal Red Cross Society - Bhaktapur",
+      "address": "Nagarkot-3, Bhaktapur",
+      "phone": "+977-9841234567",
+      "emergency": "+977-9851023456",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    }
+  ]
+}

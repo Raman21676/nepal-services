@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Sundarijal",
+    "area_code": "01",
+    "total_pharmacies": 4
+  },
+  "pharmacies": [
+    {
+      "name": "Sundarijal Medical Hall",
+      "address": "Sundarijal Bazaar, Sundarijal-1",
+      "phone": "01-4373401",
+      "license": "PHM-KTM-165",
+      "hours": "7 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Trekking Medical Supplies", "First Aid"]
+    },
+    {
+      "name": "Bagdwar Pharmacy",
+      "address": "Bagdwar, Sundarijal-3",
+      "phone": "+977-9849876543",
+      "license": "PHM-KTM-166",
+      "hours": "7:30 AM - 7 PM",
+      "services": ["Prescription Medicines", "Emergency Medicines", "Basic First Aid"]
+    },
+    {
+      "name": "Waterfall Health Care",
+      "address": "Near Sundarijal Waterfall, Sundarijal-1",
+      "phone": "01-4373415",
+      "license": "PHM-KTM-167",
+      "hours": "7 AM - 7:30 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Checkup"]
+    },
+    {
+      "name": "Indrayani Medical Store",
+      "address": "Indrayani, Sundarijal-4",
+      "phone": "+977-9851023456",
+      "license": "PHM-KTM-168",
+      "hours": "8 AM - 6:30 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    }
+  ]
+}

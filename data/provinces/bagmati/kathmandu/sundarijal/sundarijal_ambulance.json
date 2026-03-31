@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Sundarijal",
+    "area_code": "01",
+    "total_ambulance_services": 3
+  },
+  "ambulance_services": [
+    {
+      "name": "Sundarijal Primary Health Center Ambulance",
+      "hospital": "Sundarijal Primary Health Center",
+      "address": "Sundarijal-1, Kathmandu",
+      "phone": "01-4373501",
+      "emergency": "+977-9851012345",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Gokarneshwor Municipality Ambulance",
+      "hospital": "Gokarneshwor Municipality Office",
+      "address": "Sundarijal-2, Kathmandu",
+      "phone": "01-4373505",
+      "emergency": "+977-9851078901",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Sundarijal Red Cross Ambulance",
+      "hospital": "Nepal Red Cross Society - Gokarneshwor",
+      "address": "Sundarijal-1, Kathmandu",
+      "phone": "+977-9841234567",
+      "emergency": "+977-9851023456",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    }
+  ]
+}

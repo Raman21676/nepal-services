@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "district": "Sindhupalchok",
+    "headquarter": "Chisapani",
+    "area_code": "011",
+    "total_pharmacies": 4
+  },
+  "pharmacies": [
+    {
+      "name": "Chisapani Medical Hall",
+      "address": "Chisapani Bazaar, Chisapani-1",
+      "phone": "011-560301",
+      "license": "PHM-SPC-021",
+      "hours": "7 AM - 7 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Altitude Sickness Medicines", "First Aid"]
+    },
+    {
+      "name": "Helambu Pharmacy",
+      "address": "Helambu Road, Chisapani-3",
+      "phone": "+977-9845678901",
+      "license": "PHM-SPC-022",
+      "hours": "7:30 AM - 6:30 PM",
+      "services": ["Prescription Medicines", "Trekking Medical Supplies", "Emergency Medicines"]
+    },
+    {
+      "name": "Mountain Health Care",
+      "address": "Chisapani-2, Sindhupalchok",
+      "phone": "011-560315",
+      "license": "PHM-SPC-023",
+      "hours": "6:30 AM - 8 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Health Checkup"]
+    },
+    {
+      "name": "Timbu Medical Store",
+      "address": "Timbu, Chisapani-4",
+      "phone": "+977-9851034567",
+      "license": "PHM-SPC-024",
+      "hours": "8 AM - 6 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Basic Medical Supplies"]
+    }
+  ]
+}

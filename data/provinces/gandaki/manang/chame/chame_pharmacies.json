@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "city_np": "चामे",
+    "district": "Manang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 3,
+    "note": "Basic pharmacy services at district headquarters. Limited medicine availability - serious cases evacuated to Pokhara or Kathmandu."
+  },
+  "pharmacies": [
+    {
+      "name": "Chame Health Post Pharmacy",
+      "name_np": "चामे स्वास्थ्य चौकी फार्मेसी",
+      "type": "Government Health Post",
+      "address": "Chame, Manang",
+      "phone": "066-430123",
+      "note": "Basic medicines available. Emergency altitude sickness medication available."
+    },
+    {
+      "name": "Manang Medical Store",
+      "name_np": "मनाङ मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Chame Bazaar, Manang",
+      "phone": "066-430234"
+    },
+    {
+      "name": "Annapurna Pharmacy",
+      "name_np": "अन्नपूर्ण फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Chame, Manang",
+      "phone": "066-430345",
+      "note": "Basic medicines and altitude sickness (AMS) medication available"
+    }
+  ]
+}

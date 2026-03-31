@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "city_np": "जोमसोम",
+    "district": "Mustang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 3,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130",
+      "helicopter_rescue_simrik": "01-4422834",
+      "helicopter_rescue_altitude": "061-462210"
+    },
+    "note": "District has airport (Jomsom Airport) for emergency evacuations. Road access available but weather-dependent."
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Mustang District Hospital Ambulance",
+      "name_np": "मुस्ताङ जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Jomsom, Mustang",
+      "phone": ["069-420100", "069-420101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mustang",
+      "note": "Serves Jomsom and nearby villages. Upper Mustang areas require helicopter evacuation."
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Mustang",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - मुस्ताङ",
+      "type": "NGO Emergency",
+      "address": "Jomsom, Mustang",
+      "phone": ["1130", "069-420200"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Mustang"
+    },
+    {
+      "id": 3,
+      "name": "Himalayan Rescue Association - Jomsom",
+      "name_np": "हिमालयन रेस्क्यू एसोसिएसन - जोमसोम",
+      "type": "NGO Emergency",
+      "address": "Jomsom, Mustang (Annapurna Circuit)",
+      "phone": ["061-462210", "9851023456"],
+      "hours": "24/7 (Seasonal)",
+      "available_24_7": true,
+      "district": "Mustang",
+      "note": "Specialized in altitude sickness and trekking emergencies. Can arrange heli evacuation."
+    }
+  ]
+}

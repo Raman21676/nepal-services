@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "city": "Hile",
+    "city_np": "हिले",
+    "district": "Dhankuta",
+    "province": "Koshi",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 4
+  },
+  "pharmacies": [
+    {
+      "name": "Hile Pharmacy",
+      "name_np": "हिले फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Hile Bazaar, Main Road, Dhankuta",
+      "phone": "026-530123"
+    },
+    {
+      "name": "Shree Medical Store",
+      "name_np": "श्री मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Hile Chowk, Dhankuta",
+      "phone": "026-530234"
+    },
+    {
+      "name": "Dhankuta Pharma Care",
+      "name_np": "धनकुटा फार्मा केयर",
+      "type": "Pharmacy",
+      "address": "Near Hospital, Hile, Dhankuta",
+      "phone": "026-530345"
+    },
+    {
+      "name": "New Hile Medicines",
+      "name_np": "न्यू हिले मेडिसिन्स",
+      "type": "Medical Store",
+      "address": "Bus Stand Road, Hile, Dhankuta",
+      "phone": "026-530456"
+    }
+  ]
+}

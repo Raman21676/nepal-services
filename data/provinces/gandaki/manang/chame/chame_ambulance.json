@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "city_np": "चामे",
+    "district": "Manang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 2,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130",
+      "helicopter_rescue_simrik": "01-4422834",
+      "helicopter_rescue_fishtail": "061-462210",
+      "manang_hospital": "066-420100"
+    },
+    "note": "Very remote Himalayan district. No road-connected ambulance service. Helicopter rescue is primary emergency transport for serious cases."
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Manang District Hospital Emergency Service",
+      "name_np": "मनाङ जिल्ला अस्पताल आपतकालीन सेवा",
+      "type": "Government Hospital",
+      "address": "Chame, Manang",
+      "phone": ["066-420100", "066-420101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Manang",
+      "note": "First aid and stabilization only. Heli evacuation arranged for serious cases. Altitude sickness treatment available."
+    },
+    {
+      "id": 2,
+      "name": "Himalayan Rescue Association - Manang",
+      "name_np": "हिमालयन रेस्क्यू एसोसिएसन - मनाङ",
+      "type": "NGO Emergency",
+      "address": "Chame, Manang (Annapurna Circuit)",
+      "phone": ["061-462210", "9851012345"],
+      "hours": "24/7 (Seasonal - Mar-Nov)",
+      "available_24_7": true,
+      "district": "Manang",
+      "note": "Specialized in high-altitude rescue and AMS/HACE/HAPE treatment. Active during trekking season."
+    }
+  ]
+}

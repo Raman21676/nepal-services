@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "city_np": "जोमसोम",
+    "district": "Mustang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 4,
+    "note": "Basic pharmacy services available. Mustang Hospital pharmacy is the main source of medicines."
+  },
+  "pharmacies": [
+    {
+      "name": "Mustang Hospital Pharmacy",
+      "name_np": "मुस्ताङ अस्पताल फार्मेसी",
+      "type": "Hospital Pharmacy",
+      "address": "Jomsom, Mustang",
+      "phone": "069-430123",
+      "note": "Largest medicine stock in district. Altitude sickness medication available."
+    },
+    {
+      "name": "Jomsom Medical Store",
+      "name_np": "जोमसोम मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Jomsom Bazaar, Mustang",
+      "phone": "069-430234"
+    },
+    {
+      "name": "Mustang Pharma Care",
+      "name_np": "मुस्ताङ फार्मा केयर",
+      "type": "Pharmacy",
+      "address": "Airport Road, Jomsom",
+      "phone": "069-430345"
+    },
+    {
+      "name": "Himalayan Medical Supplies",
+      "name_np": "हिमालयन मेडिकल सप्लाइज",
+      "type": "Medical Store",
+      "address": "Jomsom, Mustang",
+      "phone": "069-430456"
+    }
+  ]
+}

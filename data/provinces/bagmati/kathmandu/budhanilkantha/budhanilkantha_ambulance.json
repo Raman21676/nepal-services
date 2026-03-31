@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Budhanilkantha",
+    "area_code": "01",
+    "total_ambulance_services": 4
+  },
+  "ambulance_services": [
+    {
+      "name": "Budhanilkantha Municipality Ambulance",
+      "hospital": "Budhanilkantha Municipality Office",
+      "address": "Budhanilkantha-1, Kathmandu",
+      "phone": "01-4371501",
+      "emergency": "+977-9851012345",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "Municipal Ambulance"
+    },
+    {
+      "name": "Grande International Hospital Ambulance",
+      "hospital": "Grande International Hospital",
+      "address": "Dhapasi, Budhanilkantha-5, Kathmandu",
+      "phone": "01-4371505",
+      "emergency": "+977-9851078901",
+      "vehicles": 3,
+      "hours": "24 hours",
+      "type": "Hospital Ambulance"
+    },
+    {
+      "name": "Budhanilkantha Health Post Ambulance",
+      "hospital": "Budhanilkantha Health Post",
+      "address": "Budhanilkantha-1, Kathmandu",
+      "phone": "01-4371509",
+      "emergency": "+977-9851023456",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Hattigauda Health Center Ambulance",
+      "hospital": "Hattigauda Health Center",
+      "address": "Hattigauda, Budhanilkantha-4, Kathmandu",
+      "phone": "01-4371513",
+      "emergency": "+977-9851034567",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    }
+  ]
+}

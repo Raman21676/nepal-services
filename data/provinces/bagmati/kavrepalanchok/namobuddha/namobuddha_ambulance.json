@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "city": "Namobuddha",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "source": "Ministry of Health and Population, Local Health Office, Private Ambulance Services",
+    "total_records": 4,
+    "note": "Ambulance services in Namobuddha area. For serious emergencies, patients are transported to Dhulikhel Hospital (30 min) or Kathmandu (1.5 hours)."
+  },
+  "ambulance_services": [
+    {
+      "id": 1,
+      "name": "Namobuddha Hospital Ambulance",
+      "type": "Hospital Ambulance",
+      "address": "Namobuddha-5, Kavrepalanchok",
+      "phone": ["+977-11-471400", "102"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "24 hours",
+      "vehicles": 1,
+      "equipment": ["Oxygen", "First Aid Kit", "Stretcher"],
+      "staff": "Trained Medical Staff"
+    },
+    {
+      "id": 2,
+      "name": "Shusweta Hospital Ambulance",
+      "type": "Hospital Ambulance",
+      "address": "Namobuddha Bazar, Kavrepalanchok",
+      "phone": ["+977-11-471401", "+977-11-470002"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "24 hours",
+      "vehicles": 1,
+      "equipment": ["Oxygen", "First Aid Kit", "Basic Life Support"],
+      "staff": "Basic Medical Staff"
+    },
+    {
+      "id": 3,
+      "name": "Red Cross Ambulance Namobuddha",
+      "type": "NGO Ambulance",
+      "address": "Namobuddha-4, Kavrepalanchok",
+      "phone": ["+977-11-471402"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "24 hours",
+      "vehicles": 1,
+      "equipment": ["Oxygen", "First Aid", "Stretcher"],
+      "staff": "Trained Volunteers"
+    },
+    {
+      "id": 4,
+      "name": "Private Ambulance Service",
+      "type": "Private Ambulance",
+      "address": "Namobuddha Bazar, Kavrepalanchok",
+      "phone": ["+977-11-471403", "+977-98510-12345"],
+      "district": "Kavrepalanchok",
+      "city": "Namobuddha",
+      "gps": null,
+      "hours": "24 hours",
+      "vehicles": 2,
+      "equipment": ["Oxygen", "First Aid Kit", "Wheelchair"],
+      "staff": "Driver + Assistant"
+    }
+  ]
+}

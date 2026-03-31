@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "district": "Kavrepalanchok",
+    "headquarter": "Panauti",
+    "area_code": "011",
+    "total_schools": 8
+  },
+  "schools": [
+    {
+      "name": "Shree Panauti Secondary School",
+      "address": "Panauti-1, Kavrepalanchok",
+      "phone": "011-440101",
+      "principal": "Mr. Madhav Prasad Sharma",
+      "estd": 1950,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Panauti Model Secondary School",
+      "address": "Panauti-4, Kavrepalanchok",
+      "phone": "011-440115",
+      "principal": "Mrs. Laxmi Shrestha",
+      "estd": 1975,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Panauti Boarding School",
+      "address": "Panauti Bazaar, Panauti-2, Kavrepalanchok",
+      "phone": "+977-9849012345",
+      "principal": "Mr. Ram Krishna Shrestha",
+      "estd": 1985,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Indreshwar Secondary School",
+      "address": "Taufical, Panauti-5, Kavrepalanchok",
+      "phone": "011-440128",
+      "principal": "Mr. Bhoj Raj Shrestha",
+      "estd": 1960,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Panauti English School",
+      "address": "Malpi Chowk, Panauti-3, Kavrepalanchok",
+      "phone": "+977-9851014567",
+      "principal": "Mrs. Sunita Shrestha",
+      "estd": 1990,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Saraswati Secondary School",
+      "address": "Sanga, Panauti-6, Kavrepalanchok",
+      "phone": "011-440141",
+      "principal": "Mr. Gopal Shrestha",
+      "estd": 1968,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Heritage International School",
+      "address": "Panauti-7, Kavrepalanchok",
+      "phone": "+977-9841234567",
+      "principal": "Mr. Narayan Shrestha",
+      "estd": 1998,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Bramhayani Secondary School",
+      "address": "Khopsingh, Panauti-8, Kavrepalanchok",
+      "phone": "011-440155",
+      "principal": "Mrs. Durga Shrestha",
+      "estd": 1972,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "district": "Kavrepalanchok",
+    "headquarter": "Panauti",
+    "area_code": "011",
+    "total_colleges": 3
+  },
+  "colleges": [
+    {
+      "name": "Panauti Multiple Campus",
+      "address": "Panauti-1, Kavrepalanchok",
+      "phone": "011-440201",
+      "estd": 1990,
+      "principal": "Dr. Ram Chandra Shrestha",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS", "BA", "BEd"]
+    },
+    {
+      "name": "Malpi City College",
+      "address": "Malpi Chowk, Panauti-3, Kavrepalanchok",
+      "phone": "011-440215",
+      "estd": 2005,
+      "principal": "Mr. Kiran Shrestha",
+      "category": "Private",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBA", "BBS"]
+    },
+    {
+      "name": "Panauti Higher Secondary School",
+      "address": "Panauti-4, Kavrepalanchok",
+      "phone": "011-440228",
+      "estd": 1992,
+      "principal": "Mr. Gopal Prasad Shrestha",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Education"]
+    }
+  ]
+}

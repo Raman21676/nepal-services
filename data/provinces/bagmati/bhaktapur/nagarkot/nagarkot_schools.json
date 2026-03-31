@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "district": "Bhaktapur",
+    "headquarter": "Nagarkot",
+    "area_code": "01",
+    "total_schools": 7
+  },
+  "schools": [
+    {
+      "name": "Shree Nagarkot Secondary School",
+      "address": "Nagarkot-1, Bhaktapur",
+      "phone": "01-5091201",
+      "principal": "Mr. Hari Prasad K.C.",
+      "estd": 1958,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Nagarkot Model Secondary School",
+      "address": "Nagarkot-3, Bhaktapur",
+      "phone": "01-5091215",
+      "principal": "Mrs. Sarita Khatri",
+      "estd": 1975,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Sunrise Boarding School",
+      "address": "Nagarkot View Point, Nagarkot-2, Bhaktapur",
+      "phone": "+977-9849012345",
+      "principal": "Mr. Bishnu K.C.",
+      "estd": 1990,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Kalika Secondary School",
+      "address": "Tathali, Nagarkot-4, Bhaktapur",
+      "phone": "01-5091228",
+      "principal": "Mr. Raj Kumar Khatri",
+      "estd": 1962,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Himalaya English School",
+      "address": "Nagarkot-5, Bhaktapur",
+      "phone": "+977-9851014567",
+      "principal": "Mrs. Anjali K.C.",
+      "estd": 1995,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Changu Secondary School",
+      "address": "Changu Narayan, Nagarkot-6, Bhaktapur",
+      "phone": "01-5091241",
+      "principal": "Mr. Mahesh Khatri",
+      "estd": 1965,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Nagarkot View Boarding School",
+      "address": "Nagarkot-7, Bhaktapur",
+      "phone": "+977-9841234567",
+      "principal": "Mrs. Rita K.C.",
+      "estd": 2000,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

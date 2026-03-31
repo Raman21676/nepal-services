@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "district": "Lalitpur",
+    "headquarter": "Phulchowki",
+    "area_code": "01",
+    "total_schools": 6
+  },
+  "schools": [
+    {
+      "name": "Shree Phulchowki Secondary School",
+      "address": "Godawari-12, Lalitpur",
+      "phone": "01-5591201",
+      "principal": "Mr. Krishna Bahadur Tamang",
+      "estd": 1960,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Phulchowki Model Secondary School",
+      "address": "Chapagaun, Godawari-11, Lalitpur",
+      "phone": "01-5591215",
+      "principal": "Mrs. Dhan Kumari Tamang",
+      "estd": 1978,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Godawari Boarding School",
+      "address": "Godawari-10, Lalitpur",
+      "phone": "+977-9849012345",
+      "principal": "Mr. Bhim Bahadur Tamang",
+      "estd": 1992,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Bismuti Secondary School",
+      "address": "Bismuti, Godawari-13, Lalitpur",
+      "phone": "01-5591228",
+      "principal": "Mrs. Saraswati Adhikari",
+      "estd": 1965,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Himalayan English School",
+      "address": "Jharuwarasi, Godawari-9, Lalitpur",
+      "phone": "+977-9851014567",
+      "principal": "Mr. Ganesh Tamang",
+      "estd": 1995,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Dukuchhap Secondary School",
+      "address": "Dukuchhap, Godawari-14, Lalitpur",
+      "phone": "01-5591241",
+      "principal": "Mr. Raj Kumar Tamang",
+      "estd": 1972,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

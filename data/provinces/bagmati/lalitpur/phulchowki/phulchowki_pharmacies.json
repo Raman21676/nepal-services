@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Lalitpur",
+    "headquarter": "Phulchowki",
+    "area_code": "01",
+    "total_pharmacies": 5
+  },
+  "pharmacies": [
+    {
+      "name": "Godawari Medical Hall",
+      "address": "Godawari Bazaar, Godawari-12",
+      "phone": "01-5591401",
+      "license": "PHM-LAL-035",
+      "hours": "7 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Medical Supplies", "First Aid"]
+    },
+    {
+      "name": "Phulchowki Pharmacy",
+      "address": "Near Phulchowki Base, Godawari-12",
+      "phone": "+977-9849876543",
+      "license": "PHM-LAL-036",
+      "hours": "7:30 AM - 6:30 PM",
+      "services": ["Prescription Medicines", "Altitude Sickness Medicines", "Trekking Supplies"]
+    },
+    {
+      "name": "Chapagaun Care Pharmacy",
+      "address": "Chapagaun, Godawari-11",
+      "phone": "01-5591415",
+      "license": "PHM-LAL-037",
+      "hours": "6:30 AM - 9 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Health Checkup"]
+    },
+    {
+      "name": "Botanical Garden Medical Store",
+      "address": "Near Godawari Botanical Garden, Godawari-10",
+      "phone": "+977-9851023456",
+      "license": "PHM-LAL-038",
+      "hours": "8 AM - 7 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    },
+    {
+      "name": "Jharuwarasi Health Care",
+      "address": "Jharuwarasi, Godawari-9",
+      "phone": "01-5591428",
+      "license": "PHM-LAL-039",
+      "hours": "7:30 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Emergency Medicines"]
+    }
+  ]
+}

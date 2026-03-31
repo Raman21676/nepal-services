@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "district": "Sindhupalchok",
+    "headquarter": "Chisapani",
+    "area_code": "011",
+    "total_schools": 6
+  },
+  "schools": [
+    {
+      "name": "Shree Chisapani Secondary School",
+      "address": "Chisapani-1, Sindhupalchok",
+      "phone": "011-560101",
+      "principal": "Mr. Bharat Bahadur Tamang",
+      "estd": 1962,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Helambu Secondary School",
+      "address": "Chisapani-3, Sindhupalchok",
+      "phone": "011-560115",
+      "principal": "Mrs. Kamala Sherpa",
+      "estd": 1970,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Langtang Boarding School",
+      "address": "Chisapani-2, Sindhupalchok",
+      "phone": "+977-9841167890",
+      "principal": "Mr. Tashi Lama",
+      "estd": 1992,
+      "category": "Private",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Manjushree Secondary School",
+      "address": "Timbu, Chisapani-4, Sindhupalchok",
+      "phone": "011-560128",
+      "principal": "Mr. Pemba Sherpa",
+      "estd": 1978,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Himalayan View English School",
+      "address": "Chisapani-5, Sindhupalchok",
+      "phone": "+977-9851045678",
+      "principal": "Mrs. Dolma Tamang",
+      "estd": 2001,
+      "category": "Private",
+      "levels": ["Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Shree Bhanjyang Secondary School",
+      "address": "Kutumsang, Chisapani-6, Sindhupalchok",
+      "phone": "011-560135",
+      "principal": "Mr. Mingma Sherpa",
+      "estd": 1965,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    }
+  ]
+}

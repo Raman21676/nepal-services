@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "city_np": "कुश्मा",
+    "district": "Parbat",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 5
+  },
+  "pharmacies": [
+    {
+      "name": "Kusma Pharmacy",
+      "name_np": "कुश्मा फार्मेसी",
+      "type": "Pharmacy",
+      "address": "Kusma Bazaar, Parbat",
+      "phone": "067-530123"
+    },
+    {
+      "name": "District Hospital Pharmacy",
+      "name_np": "जिल्ला अस्पताल फार्मेसी",
+      "type": "Hospital Pharmacy",
+      "address": "District Hospital, Kusma",
+      "phone": "067-530234"
+    },
+    {
+      "name": "Parbat Medical Store",
+      "name_np": "पर्वत मेडिकल स्टोर",
+      "type": "Medical Store",
+      "address": "Main Road, Kusma",
+      "phone": "067-530345"
+    },
+    {
+      "name": "Shree Laxmi Pharma",
+      "name_np": "श्री लक्ष्मी फार्मा",
+      "type": "Pharmacy",
+      "address": "Kusma Chowk, Parbat",
+      "phone": "067-530456"
+    },
+    {
+      "name": "New Kusma Medicines",
+      "name_np": "न्यू कुश्मा मेडिसिन्स",
+      "type": "Medical Store",
+      "address": "Bus Park, Kusma",
+      "phone": "067-530567"
+    }
+  ]
+}

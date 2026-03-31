@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "city": "Kusma",
+    "city_np": "कुश्मा",
+    "district": "Parbat",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 3,
+    "emergency_numbers": {
+      "national_ambulance": "102",
+      "police": "100",
+      "red_cross": "1130"
+    }
+  },
+  "ambulance": [
+    {
+      "id": 1,
+      "name": "Parbat District Hospital Ambulance",
+      "name_np": "पर्वत जिल्ला अस्पताल एम्बुलेन्स",
+      "type": "Government Hospital",
+      "address": "Kusma Bazaar, Parbat",
+      "phone": ["067-520100", "067-520101"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parbat",
+      "note": "Main ambulance service for district. Road connected to Pokhara and Baglung."
+    },
+    {
+      "id": 2,
+      "name": "Nepal Red Cross Society - Parbat",
+      "name_np": "नेपाल रेडक्रस सोसाइटी - पर्वत",
+      "type": "NGO Emergency",
+      "address": "Kusma-4, Parbat",
+      "phone": ["1130", "067-520200"],
+      "emergency_number": "1130",
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parbat"
+    },
+    {
+      "id": 3,
+      "name": "Kusma Municipality Ambulance",
+      "name_np": "कुश्मा नगरपालिका एम्बुलेन्स",
+      "type": "Municipal Emergency",
+      "address": "Municipal Office, Kusma",
+      "phone": ["067-520300", "9851034567"],
+      "hours": "24/7",
+      "available_24_7": true,
+      "district": "Parbat"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "city": "Chame",
+    "city_np": "चामे",
+    "district": "Manang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 5,
+    "note": "Remote Himalayan district on Annapurna Circuit - predominantly community schools"
+  },
+  "schools": [
+    {
+      "name": "Shree Chame Secondary School",
+      "name_np": "श्री चामे माध्यमिक विद्यालय",
+      "type": "Community Secondary School",
+      "address": "Chame, Manang",
+      "phone": "066-440123"
+    },
+    {
+      "name": "Shree Bagarchhap Basic School",
+      "name_np": "श्री बगरछाप आधारभूत विद्यालय",
+      "type": "Community Basic School",
+      "address": "Bagarchhap, Manang",
+      "phone": "066-440234"
+    },
+    {
+      "name": "Shree Telbrung Basic School",
+      "name_np": "श्री तेलब्रुङ आधारभूत विद्यालय",
+      "type": "Community Basic School",
+      "address": "Telbrung, Manang",
+      "phone": "066-440345"
+    },
+    {
+      "name": "Shree Thanchowk Primary School",
+      "name_np": "श्री थानचोक प्राथमिक विद्यालय",
+      "type": "Community Primary School",
+      "address": "Thanchowk, Manang",
+      "phone": "066-440456"
+    },
+    {
+      "name": "Annapurna Model School",
+      "name_np": "अन्नपूर्ण मोडल स्कूल",
+      "type": "Community Model School",
+      "address": "Chame, Manang",
+      "phone": "066-440567"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "district": "Nuwakot",
+    "headquarter": "Kakani",
+    "area_code": "010",
+    "total_ambulance_services": 3
+  },
+  "ambulance_services": [
+    {
+      "name": "Kakani Primary Health Center Ambulance",
+      "hospital": "Kakani Primary Health Center",
+      "address": "Kakani-2, Nuwakot",
+      "phone": "010-560115",
+      "emergency": "+977-9851012345",
+      "vehicles": 1,
+      "hours": "24 hours",
+      "type": "Government Ambulance"
+    },
+    {
+      "name": "Nuwakot Red Cross Ambulance Service",
+      "hospital": "Nepal Red Cross Society - Nuwakot",
+      "address": "Kakani-3, Nuwakot",
+      "phone": "+977-9849015678",
+      "emergency": "+977-9851015678",
+      "vehicles": 2,
+      "hours": "24 hours",
+      "type": "NGO Ambulance"
+    },
+    {
+      "name": "Kakani Community Ambulance",
+      "hospital": "Kakani Rural Municipality",
+      "address": "Kakani-4, Nuwakot",
+      "phone": "010-560119",
+      "emergency": "+977-9851089012",
+      "vehicles": 1,
+      "hours": "6 AM - 10 PM",
+      "type": "Community Ambulance"
+    }
+  ]
+}

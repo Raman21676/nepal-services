@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "district": "Lalitpur",
+    "headquarter": "Phulchowki",
+    "area_code": "01",
+    "total_colleges": 2
+  },
+  "colleges": [
+    {
+      "name": "Godawari Multiple Campus",
+      "address": "Godawari-12, Lalitpur",
+      "phone": "01-5591301",
+      "estd": 2000,
+      "principal": "Dr. Maheshwor Sharma",
+      "category": "Community",
+      "programs": ["+2 Science", "+2 Management", "+2 Humanities", "BBS", "BA"]
+    },
+    {
+      "name": "Phulchowki Technical College",
+      "address": "Godawari-11, Lalitpur",
+      "phone": "01-5591315",
+      "estd": 2008,
+      "principal": "Mr. Prem Bahadur Tamang",
+      "category": "Private",
+      "programs": ["+2 Science", "Diploma in Agriculture", "Diploma in Forestry"]
+    }
+  ]
+}

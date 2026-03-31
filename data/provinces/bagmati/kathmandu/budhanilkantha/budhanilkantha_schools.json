@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Budhanilkantha",
+    "area_code": "01",
+    "total_schools": 8
+  },
+  "schools": [
+    {
+      "name": "Shree Budhanilkantha Secondary School",
+      "address": "Budhanilkantha-1, Kathmandu",
+      "phone": "01-4371201",
+      "principal": "Mr. Khagendra Prasad Sharma",
+      "estd": 1955,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Budhanilkantha School",
+      "address": "Narayanthan, Budhanilkantha-12, Kathmandu",
+      "phone": "01-4371215",
+      "principal": "Mr. Narayan Prasad Sharma",
+      "estd": 1972,
+      "category": "Public",
+      "levels": ["Grade 5 to Grade 12"]
+    },
+    {
+      "name": "Little Angels' School",
+      "address": "Hattigauda, Budhanilkantha-4, Kathmandu",
+      "phone": "+977-1-4371230",
+      "principal": "Mr. Umesh Shrestha",
+      "estd": 1980,
+      "category": "Private",
+      "levels": ["Nursery to Grade 12 (+2)"]
+    },
+    {
+      "name": "Shree Mahankal Secondary School",
+      "address": "Mahankal, Budhanilkantha-2, Kathmandu",
+      "phone": "01-4371245",
+      "principal": "Mrs. Laxmi Sharma",
+      "estd": 1965,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "British School Kathmandu",
+      "address": "Bansbari, Budhanilkantha-6, Kathmandu",
+      "phone": "+977-1-4371580",
+      "principal": "Mr. Mark Upton",
+      "estd": 1966,
+      "category": "International",
+      "levels": ["Early Years to A-Levels"]
+    },
+    {
+      "name": "Valley View English School",
+      "address": "Gongabu, Budhanilkantha-7, Kathmandu",
+      "phone": "+977-9849012345",
+      "principal": "Mrs. Sita Devi Sharma",
+      "estd": 1992,
+      "category": "Private",
+      "levels": ["Primary to Secondary"]
+    },
+    {
+      "name": "Shree Chure Secondary School",
+      "address": "Kapan, Budhanilkantha-8, Kathmandu",
+      "phone": "01-4371260",
+      "principal": "Mr. Ram Bahadur Tamang",
+      "estd": 1970,
+      "category": "Community",
+      "levels": ["Secondary", "Lower Secondary", "Primary"]
+    },
+    {
+      "name": "Budhanilkantha Boarding School",
+      "address": "Mitra Park, Budhanilkantha-3, Kathmandu",
+      "phone": "+977-9851014567",
+      "principal": "Mr. Shiva Prasad Gautam",
+      "estd": 1988,
+      "category": "Private",
+      "levels": ["Nursery to Grade 10"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "city": "Jomsom",
+    "city_np": "जोमसोम",
+    "district": "Mustang",
+    "province": "Gandaki",
+    "country": "Nepal",
+    "last_updated": "2026-03-31",
+    "total_records": 2,
+    "note": "Limited higher education in district. Most students pursue higher studies in Pokhara, Kathmandu or abroad"
+  },
+  "colleges": [
+    {
+      "name": "Mustang Multiple Campus",
+      "name_np": "मुस्ताङ बहुमुखी क्याम्पस",
+      "type": "Community Campus (+2 Level)",
+      "address": "Jomsom, Mustang",
+      "phone": "069-441234",
+      "note": "Offers +2 in Humanities and Management. No science stream. Affiliated to NEB."
+    },
+    {
+      "name": "Mustang Polytechnic Institute",
+      "name_np": "मुस्ताङ पोलिटेक्निक इन्स्टिच्युट",
+      "type": "Technical Institute",
+      "address": "Jomsom, Mustang",
+      "phone": "069-441345",
+      "note": "CTEVT affiliated - Diploma in Hotel Management and Tourism. Practical training for Mustang tourism industry."
+    }
+  ]
+}

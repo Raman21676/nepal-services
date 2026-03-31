@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "district": "Bhaktapur",
+    "headquarter": "Nagarkot",
+    "area_code": "01",
+    "total_pharmacies": 5
+  },
+  "pharmacies": [
+    {
+      "name": "Nagarkot Medical Hall",
+      "address": "Nagarkot Bazaar, Nagarkot-1",
+      "phone": "01-5091401",
+      "license": "PHM-BHA-025",
+      "hours": "7 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Medical Supplies", "First Aid"]
+    },
+    {
+      "name": "View Point Pharmacy",
+      "address": "Nagarkot View Point, Nagarkot-2",
+      "phone": "+977-9849876543",
+      "license": "PHM-BHA-026",
+      "hours": "7:30 AM - 7 PM",
+      "services": ["Prescription Medicines", "Altitude Sickness Medicines", "Emergency Medicines"]
+    },
+    {
+      "name": "Tathali Health Care",
+      "address": "Tathali, Nagarkot-4",
+      "phone": "01-5091415",
+      "license": "PHM-BHA-027",
+      "hours": "6:30 AM - 8:30 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Health Checkup"]
+    },
+    {
+      "name": "Changu Medical Store",
+      "address": "Changu Narayan, Nagarkot-6",
+      "phone": "+977-9851023456",
+      "license": "PHM-BHA-028",
+      "hours": "8 AM - 7 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    },
+    {
+      "name": "Nagarkot Care Pharmacy",
+      "address": "Nagarkot-5, Bhaktapur",
+      "phone": "01-5091428",
+      "license": "PHM-BHA-029",
+      "hours": "7:30 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Emergency Medicines"]
+    }
+  ]
+}

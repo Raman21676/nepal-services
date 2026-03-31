@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "district": "Kathmandu",
+    "headquarter": "Chandragiri",
+    "area_code": "01",
+    "total_pharmacies": 6
+  },
+  "pharmacies": [
+    {
+      "name": "Chandragiri Medical Hall",
+      "address": "Thankot Bazaar, Chandragiri-11",
+      "phone": "01-4312701",
+      "license": "PHM-KTM-125",
+      "hours": "7 AM - 9 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Medical Supplies", "First Aid"]
+    },
+    {
+      "name": "Matatirtha Pharmacy",
+      "address": "Matatirtha Chowk, Chandragiri-3",
+      "phone": "01-4312715",
+      "license": "PHM-KTM-126",
+      "hours": "6:30 AM - 9:30 PM",
+      "services": ["Prescription Medicines", "Surgical Items", "Health Checkup"]
+    },
+    {
+      "name": "Hillside Medical Store",
+      "address": "Satungal, Chandragiri-7",
+      "phone": "+977-9849876543",
+      "license": "PHM-KTM-127",
+      "hours": "7 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Health Supplements"]
+    },
+    {
+      "name": "Gurjudhara Care Pharmacy",
+      "address": "Gurjudhara, Chandragiri-2",
+      "phone": "01-4312728",
+      "license": "PHM-KTM-128",
+      "hours": "7 AM - 8:30 PM",
+      "services": ["Prescription Medicines", "Baby Care", "Medical Equipment"]
+    },
+    {
+      "name": "Naikap Medical Hall",
+      "address": "Naikap, Chandragiri-8",
+      "phone": "+977-9851023456",
+      "license": "PHM-KTM-129",
+      "hours": "7:30 AM - 8 PM",
+      "services": ["Prescription Medicines", "OTC Drugs", "Emergency Medicines"]
+    },
+    {
+      "name": "Chandragiri Health Care",
+      "address": "Nagarjun, Chandragiri-6",
+      "phone": "01-4312741",
+      "license": "PHM-KTM-130",
+      "hours": "8 AM - 8 PM",
+      "services": ["Prescription Medicines", "Diagnostic Services", "Health Checkup"]
+    }
+  ]
+}
