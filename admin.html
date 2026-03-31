@@ -1627,59 +1627,47 @@
 
         // Charts
         function initCharts() {
-            // Traffic Chart
-            const trafficCtx = document.getElementById('trafficChart').getContext('2d');
-            trafficChart = new Chart(trafficCtx, {
-                type: 'line',
-                data: {
-                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-                    datasets: [{
-                        label: 'Page Views',
-                        data: [1200, 1900, 1500, 2200, 1800, 2400, 2100],
-                        borderColor: '#4f46e5',
-                        backgroundColor: 'rgba(79, 70, 229, 0.1)',
-                        fill: true,
-                        tension: 0.4
-                    }, {
-                        label: 'Unique Visitors',
-                        data: [800, 1200, 1000, 1400, 1100, 1600, 1300],
-                        borderColor: '#10b981',
-                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                        fill: true,
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            position: 'bottom'
-                        }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-            });
+            // Traffic Chart - Show message for static site (no analytics)
+            const trafficCtx = document.getElementById('trafficChart');
+            if (trafficCtx) {
+                // Create a canvas overlay with message
+                const container = trafficCtx.parentElement;
+                container.style.position = 'relative';
+                container.innerHTML = `
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 2rem;">
+                        <i class="fas fa-chart-line" style="font-size: 3rem; color: var(--admin-text-muted); margin-bottom: 1rem;"></i>
+                        <h4 style="color: var(--admin-text); margin-bottom: 0.5rem;">Traffic Analytics Not Available</h4>
+                        <p style="color: var(--admin-text-muted); font-size: 0.875rem; max-width: 300px;">
+                            This is a static website hosted on GitHub Pages. To track real traffic, connect Google Analytics or a similar service.
+                        </p>
+                        <a href="https://analytics.google.com/" target="_blank" class="admin-btn admin-btn-sm admin-btn-primary" style="margin-top: 1rem;">
+                            <i class="fas fa-external-link-alt"></i> Set up Analytics
+                        </a>
+                    </div>
+                `;
+            }
 
-            // Category Chart
+            // Category Chart - Will be populated with real data once loaded
             const categoryCtx = document.getElementById('categoryChart').getContext('2d');
             categoryChart = new Chart(categoryCtx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Hospitals', 'Schools', 'Government', 'Emergency', 'Ward Offices', 'Others'],
+                    labels: ['Hospitals', 'Schools', 'Colleges', 'Clinics', 'Pharmacies', 'Blood Banks', 'Emergency', 'Ward Offices', 'Veterinary', 'Govt', 'Forest', 'Hotels'],
                     datasets: [{
-                        data: [752, 811, 450, 120, 116, 2055],
+                        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Will be updated with real data
                         backgroundColor: [
-                            '#4f46e5',
-                            '#10b981',
-                            '#f59e0b',
-                            '#ef4444',
-                            '#3b82f6',
-                            '#8b5cf6'
+                            '#4f46e5', // Hospitals - primary
+                            '#10b981', // Schools - success
+                            '#34d399', // Colleges - success light
+                            '#6366f1', // Clinics - primary light
+                            '#3b82f6', // Pharmacies - info
+                            '#ef4444', // Blood Banks - danger
+                            '#f87171', // Emergency - danger light
+                            '#0ea5e9', // Ward Offices - info dark
+                            '#f59e0b', // Veterinary - warning
+                            '#fbbf24', // Government - warning light
+                            '#22c55e', // Forest - green
+                            '#8b5cf6'  // Hotels - purple
                         ]
                     }]
                 },
@@ -1688,68 +1676,53 @@
                     maintainAspectRatio: false,
                     plugins: {
                         legend: {
-                            position: 'bottom'
+                            position: 'bottom',
+                            labels: {
+                                boxWidth: 12,
+                                font: { size: 10 }
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Services by Category (Real Data)',
+                            font: { size: 14 }
                         }
                     }
                 }
             });
 
-            // Visitor Chart
+            // Visitor Chart - Show analytics not available message
             const visitorCtx = document.getElementById('visitorChart');
             if (visitorCtx) {
-                visitorChart = new Chart(visitorCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: Array.from({length: 30}, (_, i) => i + 1),
-                        datasets: [{
-                            label: 'Daily Visitors',
-                            data: Array.from({length: 30}, () => Math.floor(Math.random() * 1000) + 500),
-                            backgroundColor: '#4f46e5'
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: {
-                                display: false
-                            }
-                        },
-                        scales: {
-                            x: {
-                                title: {
-                                    display: true,
-                                    text: 'Day of Month'
-                                }
-                            },
-                            y: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
+                const container = visitorCtx.parentElement;
+                container.style.position = 'relative';
+                container.innerHTML = `
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 2rem;">
+                        <i class="fas fa-users" style="font-size: 2.5rem; color: var(--admin-text-muted); margin-bottom: 0.75rem;"></i>
+                        <h4 style="color: var(--admin-text); margin-bottom: 0.5rem; font-size: 0.95rem;">Visitor Data Not Available</h4>
+                        <p style="color: var(--admin-text-muted); font-size: 0.8rem;">
+                            Connect Google Analytics to see real visitor data.
+                        </p>
+                    </div>
+                `;
             }
 
-            // Device Chart
+            // Device Chart - Show analytics not available message
             const deviceCtx = document.getElementById('deviceChart');
             if (deviceCtx) {
-                deviceChart = new Chart(deviceCtx, {
-                    type: 'pie',
-                    data: {
-                        labels: ['Mobile', 'Desktop', 'Tablet'],
-                        datasets: [{
-                            data: [65, 30, 5],
-                            backgroundColor: ['#4f46e5', '#10b981', '#f59e0b']
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false
-                    }
-                });
+                const container = deviceCtx.parentElement;
+                container.style.position = 'relative';
+                container.innerHTML = `
+                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 1.5rem;">
+                        <i class="fas fa-mobile-alt" style="font-size: 2rem; color: var(--admin-text-muted); margin-bottom: 0.5rem;"></i>
+                        <p style="color: var(--admin-text-muted); font-size: 0.75rem;">
+                            Device analytics require external tracking service.
+                        </p>
+                    </div>
+                `;
             }
 
-            // Province Chart
+            // Province Chart - Shows REAL data from loaded services
             const provinceCtx = document.getElementById('provinceChart');
             if (provinceCtx) {
                 provinceChart = new Chart(provinceCtx, {
@@ -1758,7 +1731,7 @@
                         labels: ['Bagmati', 'Koshi', 'Madhesh', 'Gandaki', 'Lumbini', 'Karnali', 'Sudurpashchim'],
                         datasets: [{
                             label: 'Services',
-                            data: [2200, 980, 850, 720, 650, 520, 480],
+                            data: [0, 0, 0, 0, 0, 0, 0], // Will be updated with real data
                             backgroundColor: '#4f46e5'
                         }]
                     },
@@ -1769,117 +1742,302 @@
                         plugins: {
                             legend: {
                                 display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'Services by Province (Real Data)',
+                                font: { size: 12 }
                             }
                         }
                     }
                 });
             }
         }
+        
+        // Update province chart with real data after loading
+        function updateProvinceChart() {
+            if (!provinceChart || !window.allServicesData) return;
+            
+            const provinces = ['bagmati', 'koshi', 'madhesh', 'gandaki', 'lumbini', 'karnali', 'sudurpashchim'];
+            const counts = provinces.map(prov => 
+                allServicesData.filter(s => s.province === prov).length
+            );
+            
+            provinceChart.data.datasets[0].data = counts;
+            provinceChart.update();
+        }
 
         // Load Stats
         async function loadStats() {
-            // Load from localStorage or calculate from data
-            const stats = JSON.parse(localStorage.getItem('adminStats') || '{}');
+            // Calculate REAL stats from the actual data files
+            // Wait for data to be loaded
+            if (!window.allServicesData || allServicesData.length === 0) {
+                // Data not ready yet, try again in a moment
+                setTimeout(loadStats, 500);
+                return;
+            }
             
-            document.getElementById('statTotalServices').textContent = 
-                (stats.totalServices || 5304).toLocaleString();
-            document.getElementById('statPageViews').textContent = 
-                (stats.pageViews || 2453).toLocaleString();
-            document.getElementById('statSearches').textContent = 
-                (stats.searches || 856).toLocaleString();
+            const totalServices = allServicesData.length;
+            
+            // Count by category
+            const hospitals = allServicesData.filter(s => s.category === 'hospitals').length;
+            const schools = allServicesData.filter(s => s.category === 'schools').length;
+            const colleges = allServicesData.filter(s => s.category === 'colleges').length;
+            const clinics = allServicesData.filter(s => s.category === 'clinics').length;
+            const pharmacies = allServicesData.filter(s => s.category === 'pharmacies').length;
+            const bloodBanks = allServicesData.filter(s => s.category === 'blood_banks').length;
+            const ambulance = allServicesData.filter(s => s.category === 'ambulance' || s.category === 'emergency').length;
+            const wards = allServicesData.filter(s => s.category === 'ward').length;
+            const veterinary = allServicesData.filter(s => s.category === 'veterinary').length;
+            const government = allServicesData.filter(s => s.category === 'government').length;
+            const forest = allServicesData.filter(s => s.category === 'forest').length;
+            const hotels = allServicesData.filter(s => s.category === 'hotels').length;
+            
+            // Update main stats with REAL data
+            document.getElementById('statTotalServices').textContent = totalServices.toLocaleString();
+            
+            // Traffic stats - Static site has no backend analytics
+            // Show "N/A" since this is a static GitHub Pages site
+            document.getElementById('statPageViews').textContent = 'N/A';
+            document.getElementById('statSearches').textContent = 'N/A';
+            
+            // Hide fake percentage changes
+            const changeElements = document.querySelectorAll('.admin-stat-change');
+            changeElements.forEach(el => el.style.display = 'none');
+            
+            // Update category chart with real data
+            updateCategoryChart(hospitals, schools, colleges, clinics, pharmacies, bloodBanks, ambulance, wards, veterinary, government, forest, hotels);
+            
+            // Update services grid with real counts
+            updateServicesGrid({
+                hospitals, schools, colleges, clinics, pharmacies, 
+                bloodBanks, ambulance, wards, veterinary, government, forest, hotels
+            });
+            
+            console.log('Admin Stats Loaded:', { totalServices, hospitals, schools, colleges, clinics, pharmacies, bloodBanks, ambulance, wards });
+        }
+        
+        function updateCategoryChart(hospitals, schools, colleges, clinics, pharmacies, bloodBanks, ambulance, wards, veterinary, government, forest, hotels) {
+            if (typeof categoryChart !== 'undefined' && categoryChart) {
+                categoryChart.data.datasets[0].data = [
+                    hospitals, schools, colleges, clinics, pharmacies, 
+                    bloodBanks, ambulance, wards, veterinary, government, forest, hotels
+                ];
+                categoryChart.update();
+            }
+        }
+        
+        function updateServicesGrid(counts) {
+            const services = [
+                { name: 'Hospitals', count: counts.hospitals, icon: 'fa-hospital', color: 'primary' },
+                { name: 'Schools', count: counts.schools, icon: 'fa-school', color: 'success' },
+                { name: 'Colleges', count: counts.colleges, icon: 'fa-graduation-cap', color: 'success' },
+                { name: 'Clinics', count: counts.clinics, icon: 'fa-clinic-medical', color: 'primary' },
+                { name: 'Pharmacies', count: counts.pharmacies, icon: 'fa-pills', color: 'info' },
+                { name: 'Blood Banks', count: counts.bloodBanks, icon: 'fa-tint', color: 'danger' },
+                { name: 'Emergency/Ambulance', count: counts.ambulance, icon: 'fa-ambulance', color: 'danger' },
+                { name: 'Ward Offices', count: counts.wards, icon: 'fa-map-pin', color: 'info' },
+                { name: 'Veterinary', count: counts.veterinary, icon: 'fa-paw', color: 'warning' },
+                { name: 'Government', count: counts.government, icon: 'fa-building', color: 'warning' },
+                { name: 'Forest Offices', count: counts.forest, icon: 'fa-tree', color: 'success' },
+                { name: 'Hotels', count: counts.hotels, icon: 'fa-hotel', color: 'primary' }
+            ].filter(s => s.count > 0); // Only show categories with data
+            
+            const grid = document.getElementById('servicesGrid');
+            if (grid) {
+                grid.innerHTML = services.map(s => `
+                    <div class="admin-data-card admin-fade-in">
+                        <div class="admin-data-card-header">
+                            <h4 class="admin-data-card-title">${s.name}</h4>
+                            <div class="admin-data-card-icon" style="color: var(--admin-${s.color})">
+                                <i class="fas ${s.icon}"></i>
+                            </div>
+                        </div>
+                        <div class="admin-data-card-value">${s.count.toLocaleString()}</div>
+                        <div class="admin-data-card-trend">entries</div>
+                    </div>
+                `).join('');
+            }
         }
 
-        // Load Services Data
-        function loadServicesData() {
-            const services = [
-                { name: 'Hospitals', count: 752, icon: 'fa-hospital', color: 'primary' },
-                { name: 'Schools', count: 811, icon: 'fa-school', color: 'success' },
-                { name: 'Government', count: 450, icon: 'fa-building', color: 'warning' },
-                { name: 'Emergency', count: 120, icon: 'fa-ambulance', color: 'danger' },
-                { name: 'Ward Offices', count: 116, icon: 'fa-map-pin', color: 'info' },
-                { name: 'Others', count: 2055, icon: 'fa-ellipsis-h', color: 'muted' }
-            ];
-
-            const grid = document.getElementById('servicesGrid');
-            grid.innerHTML = services.map(s => `
-                <div class="admin-data-card admin-fade-in">
-                    <div class="admin-data-card-header">
-                        <h4 class="admin-data-card-title">${s.name}</h4>
-                        <div class="admin-data-card-icon" style="color: var(--admin-${s.color})">
-                            <i class="fas ${s.icon}"></i>
+        // Global data storage for real stats
+        window.allServicesData = [];
+        
+        // Load REAL Services Data from manifests
+        async function loadServicesData() {
+            try {
+                // Load all manifests
+                const manifests = [
+                    { name: 'Bagmati', var: 'BAGMATI_MANIFEST' },
+                    { name: 'Koshi', var: 'KOSHI_MANIFEST' },
+                    { name: 'Madhesh', var: 'MADHESH_MANIFEST' },
+                    { name: 'Gandaki', var: 'GANDAKI_MANIFEST' },
+                    { name: 'Lumbini', var: 'LUMBINI_MANIFEST' },
+                    { name: 'Karnali', var: 'KARNALI_MANIFEST' },
+                    { name: 'Sudurpashchim', var: 'SUDURPASHCHIM_MANIFEST' }
+                ];
+                
+                // Clear previous data
+                window.allServicesData = [];
+                
+                // Count services from each manifest
+                const categoryCounts = {
+                    hospitals: 0, schools: 0, colleges: 0, clinics: 0,
+                    pharmacies: 0, blood_banks: 0, ambulance: 0, emergency: 0,
+                    ward: 0, veterinary: 0, government: 0, forest: 0, hotels: 0,
+                    tourism: 0
+                };
+                
+                const provinceCounts = {
+                    'Bagmati': 0, 'Koshi': 0, 'Madhesh': 0, 'Gandaki': 0,
+                    'Lumbini': 0, 'Karnali': 0, 'Sudurpashchim': 0
+                };
+                
+                // Process each manifest
+                manifests.forEach(manifest => {
+                    if (window[manifest.var] && Array.isArray(window[manifest.var])) {
+                        const items = window[manifest.var];
+                        provinceCounts[manifest.name] = items.length;
+                        
+                        items.forEach(item => {
+                            const category = item.type || 'other';
+                            if (categoryCounts.hasOwnProperty(category)) {
+                                categoryCounts[category]++;
+                            }
+                            
+                            // Add to allServicesData for detailed analysis
+                            window.allServicesData.push({
+                                ...item,
+                                province: manifest.name.toLowerCase(),
+                                category: category
+                            });
+                        });
+                    }
+                });
+                
+                // Now update the display with REAL counts
+                const services = [
+                    { name: 'Hospitals', count: categoryCounts.hospitals, icon: 'fa-hospital', color: 'primary' },
+                    { name: 'Schools', count: categoryCounts.schools, icon: 'fa-school', color: 'success' },
+                    { name: 'Colleges', count: categoryCounts.colleges, icon: 'fa-graduation-cap', color: 'success' },
+                    { name: 'Clinics', count: categoryCounts.clinics, icon: 'fa-clinic-medical', color: 'primary' },
+                    { name: 'Pharmacies', count: categoryCounts.pharmacies, icon: 'fa-pills', color: 'info' },
+                    { name: 'Blood Banks', count: categoryCounts.blood_banks, icon: 'fa-tint', color: 'danger' },
+                    { name: 'Emergency/Ambulance', count: categoryCounts.ambulance + categoryCounts.emergency, icon: 'fa-ambulance', color: 'danger' },
+                    { name: 'Ward Offices', count: categoryCounts.ward, icon: 'fa-map-pin', color: 'info' },
+                    { name: 'Veterinary', count: categoryCounts.veterinary, icon: 'fa-paw', color: 'warning' },
+                    { name: 'Government', count: categoryCounts.government, icon: 'fa-building', color: 'warning' },
+                    { name: 'Forest Offices', count: categoryCounts.forest, icon: 'fa-tree', color: 'success' },
+                    { name: 'Hotels', count: categoryCounts.hotels, icon: 'fa-hotel', color: 'primary' }
+                ].filter(s => s.count > 0);
+                
+                const grid = document.getElementById('servicesGrid');
+                if (grid) {
+                    grid.innerHTML = services.map(s => `
+                        <div class="admin-data-card admin-fade-in">
+                            <div class="admin-data-card-header">
+                                <h4 class="admin-data-card-title">${s.name}</h4>
+                                <div class="admin-data-card-icon" style="color: var(--admin-${s.color})">
+                                    <i class="fas ${s.icon}"></i>
+                                </div>
+                            </div>
+                            <div class="admin-data-card-value" style="font-size: 2rem; font-weight: 700; margin: 0.5rem 0;">${s.count.toLocaleString()}</div>
+                            <div class="admin-data-card-trend" style="color: var(--admin-text-muted); font-size: 0.875rem;">Total Entries</div>
                         </div>
-                    </div>
-                    <div class="admin-data-card-stats">
-                        <div class="admin-data-card-stat">
-                            <div class="admin-data-card-stat-value">${s.count.toLocaleString()}</div>
-                            <div class="admin-data-card-stat-label">Total</div>
-                        </div>
-                        <div class="admin-data-card-stat">
-                            <div class="admin-data-card-stat-value">7</div>
-                            <div class="admin-data-card-stat-label">Provinces</div>
-                        </div>
-                    </div>
-                    <div class="admin-progress">
-                        <div class="admin-progress-header">
-                            <span>Data Completeness</span>
-                            <span>${Math.floor(Math.random() * 30 + 70)}%</span>
-                        </div>
-                        <div class="admin-progress-bar">
-                            <div class="admin-progress-fill ${s.color}" style="width: ${Math.floor(Math.random() * 30 + 70)}%"></div>
-                        </div>
-                    </div>
-                    <button class="admin-btn admin-btn-sm admin-btn-outline" style="width: 100%;">
-                        <i class="fas fa-eye"></i> View Details
-                    </button>
-                </div>
-            `).join('');
-
-            // Data Completeness
-            const provinces = ['Bagmati', 'Koshi', 'Gandaki', 'Lumbini', 'Madhesh', 'Karnali', 'Sudurpashchim'];
-            const completenessDiv = document.getElementById('dataCompleteness');
-            completenessDiv.innerHTML = provinces.map(p => {
-                const percent = Math.floor(Math.random() * 40 + 60);
-                return `
-                    <div class="admin-progress" style="margin-bottom: 1rem;">
-                        <div class="admin-progress-header">
-                            <span><i class="fas fa-map-marker-alt text-info"></i> ${p}</span>
-                            <span>${percent}%</span>
-                        </div>
-                        <div class="admin-progress-bar">
-                            <div class="admin-progress-fill ${percent > 80 ? 'success' : percent > 60 ? 'warning' : 'danger'}" 
-                                 style="width: ${percent}%"></div>
-                        </div>
+                    `).join('');
+                }
+                
+                // Update Data Completeness section with real province data
+                const completenessDiv = document.getElementById('dataCompleteness');
+                if (completenessDiv) {
+                    const provinceNames = Object.keys(provinceCounts);
+                    const maxServices = Math.max(...Object.values(provinceCounts), 1);
+                    
+                    completenessDiv.innerHTML = provinceNames.map(p => {
+                        const count = provinceCounts[p];
+                        const percent = Math.round((count / maxServices) * 100);
+                        return `
+                            <div class="admin-progress" style="margin-bottom: 1rem;">
+                                <div class="admin-progress-header">
+                                    <span><i class="fas fa-map-marker-alt text-info"></i> ${p}</span>
+                                    <span>${count} services</span>
+                                </div>
+                                <div class="admin-progress-bar">
+                                    <div class="admin-progress-fill ${percent > 80 ? 'success' : percent > 50 ? 'warning' : 'danger'}" 
+                                         style="width: ${percent}%"></div>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+                }
+                
+                // Now trigger stats update with real data
+                loadStats();
+                
+                console.log('Real data loaded:', { 
+                    total: window.allServicesData.length, 
+                    byCategory: categoryCounts,
+                    byProvince: provinceCounts
+                });
+                
+            } catch (error) {
+                console.error('Error loading real data:', error);
+                // Fallback to basic display if data loading fails
+                document.getElementById('servicesGrid').innerHTML = `
+                    <div class="admin-alert admin-alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Unable to load data. Please refresh the page.</span>
                     </div>
                 `;
-            }).join('');
+            }
         }
 
-        // Load Provinces Data
+        // Load REAL Provinces Data from manifests
         function loadProvincesData() {
-            const provinces = [
-                { name: 'Bagmati', districts: 13, services: 2200, status: 'online' },
-                { name: 'Koshi', districts: 14, services: 980, status: 'online' },
-                { name: 'Madhesh', districts: 8, services: 850, status: 'online' },
-                { name: 'Gandaki', districts: 11, services: 720, status: 'online' },
-                { name: 'Lumbini', districts: 12, services: 650, status: 'pending' },
-                { name: 'Karnali', districts: 10, services: 520, status: 'pending' },
-                { name: 'Sudurpashchim', districts: 9, services: 480, status: 'pending' }
+            const provinceManifests = [
+                { name: 'Bagmati', var: 'BAGMATI_MANIFEST', districts: 13 },
+                { name: 'Koshi', var: 'KOSHI_MANIFEST', districts: 14 },
+                { name: 'Madhesh', var: 'MADHESH_MANIFEST', districts: 8 },
+                { name: 'Gandaki', var: 'GANDAKI_MANIFEST', districts: 11 },
+                { name: 'Lumbini', var: 'LUMBINI_MANIFEST', districts: 12 },
+                { name: 'Karnali', var: 'KARNALI_MANIFEST', districts: 10 },
+                { name: 'Sudurpashchim', var: 'SUDURPASHCHIM_MANIFEST', districts: 9 }
             ];
+            
+            // Calculate real service counts
+            const provinces = provinceManifests.map(p => {
+                const manifest = window[p.var];
+                const serviceCount = manifest && Array.isArray(manifest) ? manifest.length : 0;
+                // Status based on data coverage
+                const status = serviceCount > 500 ? 'online' : serviceCount > 100 ? 'warning' : 'pending';
+                
+                return {
+                    name: p.name,
+                    districts: p.districts,
+                    services: serviceCount,
+                    status: status
+                };
+            });
+            
+            // Sort by service count (highest first)
+            provinces.sort((a, b) => b.services - a.services);
 
             const tbody = document.getElementById('provincesTable');
-            tbody.innerHTML = provinces.map(p => `
-                <tr>
-                    <td><strong>${p.name}</strong></td>
-                    <td>${p.districts} districts</td>
-                    <td>${p.services.toLocaleString()}</td>
-                    <td><span class="admin-status ${p.status}">${p.status === 'online' ? 'Complete' : 'Pending'}</span></td>
-                    <td>
-                        <button class="admin-btn admin-btn-sm admin-btn-outline">
-                            <i class="fas fa-edit"></i> Manage
-                        </button>
-                    </td>
-                </tr>
-            `).join('');
+            if (tbody) {
+                tbody.innerHTML = provinces.map(p => `
+                    <tr>
+                        <td><strong>${p.name}</strong></td>
+                        <td>${p.districts} districts</td>
+                        <td>${p.services.toLocaleString()}</td>
+                        <td><span class="admin-status ${p.status}">${p.status === 'online' ? 'Complete' : p.status === 'warning' ? 'In Progress' : 'Pending'}</span></td>
+                        <td>
+                            <button class="admin-btn admin-btn-sm admin-btn-outline">
+                                <i class="fas fa-eye"></i> View
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            }
         }
 
         // Cache Control Functions
@@ -2002,10 +2160,19 @@
         `;
         document.head.appendChild(style);
 
-        // Track page views (mock)
+        // Track page views (mock - for local stats only)
         let pageViews = parseInt(localStorage.getItem('pageViews') || '0');
         pageViews++;
         localStorage.setItem('pageViews', pageViews);
     </script>
+    
+    <!-- Load Full Manifest Data for Admin Panel -->
+    <script src="js/manifests/bagmati-manifest.js?v=50"></script>
+    <script src="js/manifests/koshi-manifest.js?v=50"></script>
+    <script src="js/manifests/madhesh-manifest.js?v=50"></script>
+    <script src="js/manifests/gandaki-manifest.js?v=50"></script>
+    <script src="js/manifests/lumbini-manifest.js?v=50"></script>
+    <script src="js/manifests/karnali-manifest.js?v=50"></script>
+    <script src="js/manifests/sudurpashchim-manifest.js?v=50"></script>
 </body>
 </html>
