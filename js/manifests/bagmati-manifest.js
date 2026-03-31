@@ -233,7 +233,13 @@ const BAGMATI_MANIFEST = [
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_banks.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'banks' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_ambulance.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'ambulance' },
     { path: 'data/provinces/bagmati/kathmandu/kathmandu_transport.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'transport' },
-,
+    
+    // Kathmandu Valley Universities
+    { path: 'data/provinces/bagmati/kathmandu/kathmandu_universities.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'universities' },
+    
+    // Kathmandu Valley Utilities - Electricity (NEA) and Water (KUKL)
+    { path: 'data/provinces/bagmati/kathmandu/kathmandu_electricity.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'electricity' },
+    { path: 'data/provinces/bagmati/kathmandu/kathmandu_water_supply.json', province: 'bagmati', district: 'kathmandu', city: 'kathmandu', type: 'water_supply' },
     // Kavrepalanchok District Municipalities
     { path: 'data/provinces/bagmati/kavrepalanchok/panauti/panauti_ward_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panauti', type: 'ward_offices' },
     { path: 'data/provinces/bagmati/kavrepalanchok/panchkhal/panchkhal_ward_offices.json', province: 'bagmati', district: 'kavrepalanchok', city: 'panchkhal', type: 'ward_offices' },
