@@ -15,6 +15,7 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/parsa/birgunj_emergency.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'emergency' },
     { path: 'data/provinces/madhesh/parsa/birgunj_veterinary.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'veterinary' },
     { path: 'data/provinces/madhesh/parsa/birgunj_government.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'government' },
+    { path: 'data/provinces/madhesh/parsa/birgunj/birgunj_hotels.json', province: 'madhesh', district: 'parsa', city: 'birgunj', type: 'hotels' },
     
     // Janakpur (Dhanusha)
     { path: 'data/provinces/madhesh/dhanusha/janakpur.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'hospitals' },
@@ -27,6 +28,7 @@ const MADHESH_MANIFEST = [
     { path: 'data/provinces/madhesh/dhanusha/janakpur_emergency.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'emergency' },
     { path: 'data/provinces/madhesh/dhanusha/janakpur_veterinary.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'veterinary' },
     { path: 'data/provinces/madhesh/dhanusha/janakpur_government.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'government' },
+    { path: 'data/provinces/madhesh/dhanusha/janakpur/janakpur_hotels.json', province: 'madhesh', district: 'dhanusha', city: 'janakpur', type: 'hotels' },
     
     // Kalaiya (Bara)
     { path: 'data/provinces/madhesh/bara/kalaiya.json', province: 'madhesh', district: 'bara', city: 'kalaiya', type: 'hospitals' },

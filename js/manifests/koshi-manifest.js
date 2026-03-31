@@ -146,6 +146,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/bhojpur/bhojpur_pharmacies.json', province: 'koshi', district: 'bhojpur', city: 'bhojpur', type: 'pharmacies' },
     { path: 'data/provinces/koshi/bhojpur/bhojpur_schools.json', province: 'koshi', district: 'bhojpur', city: 'bhojpur', type: 'schools' },
     { path: 'data/provinces/koshi/bhojpur/bhojpur_veterinary.json', province: 'koshi', district: 'bhojpur', city: 'bhojpur', type: 'veterinary' },
+    { path: 'data/provinces/koshi/bhojpur/bhojpur/bhojpur_hotels.json', province: 'koshi', district: 'bhojpur', city: 'bhojpur', type: 'hotels' },
     { path: 'data/provinces/koshi/dhankuta/dhankuta.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'hospitals' },
     { path: 'data/provinces/koshi/dhankuta/dhankuta_ambulance.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'ambulance' },
     { path: 'data/provinces/koshi/dhankuta/dhankuta_blood_banks.json', province: 'koshi', district: 'dhankuta', city: 'dhankuta', type: 'blood_banks' },
@@ -189,6 +190,7 @@ const KOSHI_MANIFEST = [
     { path: 'data/provinces/koshi/khotang/diktel_pharmacies.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'pharmacies' },
     { path: 'data/provinces/koshi/khotang/diktel_schools.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'schools' },
     { path: 'data/provinces/koshi/khotang/diktel_veterinary.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'veterinary' },
+    { path: 'data/provinces/koshi/khotang/diktel/diktel_hotels.json', province: 'koshi', district: 'khotang', city: 'diktel', type: 'hotels' },
 
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'hospitals' },
     { path: 'data/provinces/koshi/okhaldhunga/okhaldhunga_ambulance.json', province: 'koshi', district: 'okhaldhunga', city: 'okhaldhunga', type: 'ambulance' },
