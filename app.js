@@ -26,6 +26,9 @@ class NepalServicesApp {
     async init() {
         this.showLoading();
         
+        // Track this page visit
+        trackPageView();
+        
         try {
             // Load all data
             const data = await this.dataLoader.loadAllData();
@@ -307,6 +310,39 @@ class ThemeManager {
             const toggle = document.getElementById('themeToggle');
             if (toggle) toggle.checked = true;
         }
+    }
+}
+
+// Simple client-side analytics tracking (stores in localStorage)
+function trackPageView() {
+    try {
+        const today = new Date().toISOString().split('T')[0];
+        const stats = JSON.parse(localStorage.getItem('nepalServicesStats') || '{"pageViews": {}, "searches": {}, "visits": []}');
+        
+        stats.pageViews[today] = (stats.pageViews[today] || 0) + 1;
+        
+        // Track unique session (30 min window)
+        const lastVisit = localStorage.getItem('nepalServicesLastVisit');
+        const now = Date.now();
+        if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
+            stats.visits.push({ date: today, timestamp: now });
+        }
+        localStorage.setItem('nepalServicesLastVisit', now);
+        localStorage.setItem('nepalServicesStats', JSON.stringify(stats));
+    } catch (e) {
+        console.warn('Analytics tracking failed', e);
+    }
+}
+
+function trackSearchQuery(term) {
+    if (!term || term.trim().length < 2) return;
+    try {
+        const today = new Date().toISOString().split('T')[0];
+        const stats = JSON.parse(localStorage.getItem('nepalServicesStats') || '{"pageViews": {}, "searches": {}, "visits": []}');
+        stats.searches[today] = (stats.searches[today] || 0) + 1;
+        localStorage.setItem('nepalServicesStats', JSON.stringify(stats));
+    } catch (e) {
+        console.warn('Search tracking failed', e);
     }
 }
 

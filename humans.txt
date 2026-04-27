@@ -1,0 +1,17 @@
+/* TEAM */
+Creator: Nepal Services Directory Team
+Site: https://nepalservice.online
+Location: Nepal
+
+/* THANKS */
+Nepal Government — for public service data
+Nepal Red Cross Society — for emergency contact information
+Clinic One — for hospital directory data
+Edusanjal — for school listings
+Kathmandu Metropolitan City — for public institution contacts
+
+/* SITE */
+Last update: 2026-04-26
+Standards: HTML5, CSS3, ES5
+Components: Vanilla JS, GitHub Pages
+Software: None (static site)

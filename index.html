@@ -11,7 +11,25 @@
     <meta name="description" content="Find hospitals, schools, emergency contacts, and government offices across all 7 provinces of Nepal">
     <meta name="keywords" content="Nepal services, hospitals in Nepal, schools in Nepal, emergency contacts Nepal, government offices Nepal, Nepal directory, Nepal ambulance, Nepal blood banks, Nepal clinics">
     <meta name="author" content="Nepal Services Directory">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="google-site-verification" content="REPLACE_WITH_YOUR_GSC_CODE" />
+    <!-- hreflang for multilingual support -->
+    <link rel="alternate" hreflang="en" href="https://nepalservice.online/">
+    <link rel="alternate" hreflang="ne" href="https://nepalservice.online/?lang=ne">
+    <link rel="alternate" hreflang="x-default" href="https://nepalservice.online/">
+    <!-- Geo targeting -->
+    <meta name="geo.region" content="NP">
+    <meta name="geo.placename" content="Nepal">
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <!-- Prefetch blog pages for faster navigation -->
+    <link rel="prefetch" href="/blog/hospitals-in-kathmandu.html">
+    <link rel="prefetch" href="/blog/emergency-numbers-nepal.html">
+    <link rel="prefetch" href="/blog/ambulance-services-nepal.html">
+    <link rel="prefetch" href="/blog/top-schools-nepal.html">
+    <link rel="prefetch" href="/blog/government-offices-kathmandu.html">
+    <link rel="author" href="/humans.txt">
     <link rel="canonical" href="https://nepalservice.online/">
     
     <!-- Open Graph / Facebook -->
@@ -63,7 +81,16 @@
             "@type": "Country",
             "name": "Nepal"
         },
-        "sameAs": []
+        "sameAs": [
+            "https://www.facebook.com/nepalservices",
+            "https://twitter.com/NepalServices"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Emergency Information",
+            "areaServed": "NP",
+            "availableLanguage": ["en", "ne"]
+        }
     }
     </script>
     <script type="application/ld+json">
@@ -116,7 +143,55 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="styles.css?v=62">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is Nepal Services Directory?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nepal Services Directory is a free online directory that helps you find hospitals, schools, emergency contacts, government offices, blood banks, pharmacies, and other essential services across all 7 provinces of Nepal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I find hospitals near me in Nepal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Use our search feature at nepalservice.online to find hospitals by city, district, or province. You can filter by hospital type (public/private), specialty, and location. We list 35+ hospitals in Kathmandu alone, with contact numbers and addresses."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the emergency numbers in Nepal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Police: 100, Fire Brigade: 101, Ambulance: 102, Traffic Police: 103, Red Cross Ambulance: 1130, Natural Disaster: 1149, Child Helpline: 1098, Women Helpline: 1145, Tourist Police: 1144, Electricity Emergency: 1912."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Nepal Services Directory cover all districts?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our directory covers all 7 provinces and 77 districts of Nepal. We have detailed listings for Kathmandu Valley, Pokhara, Biratnagar, Birgunj, and are continuously expanding data for all districts."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Nepal Services Directory free to use?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Nepal Services Directory is completely free to use. There is no registration or payment required. We believe access to essential service information should be available to everyone in Nepal."
+                }
+            }
+        ]
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=63">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -131,7 +206,7 @@
             
             // Register cleanup service worker first
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/sw.js?v=62', { scope: '/' })
+                navigator.serviceWorker.register('/sw.js?v=63', { scope: '/' })
                     .then(function(reg) {
                         console.log('Cleanup SW registered');
                         // Force update
@@ -1917,11 +1992,11 @@ const SUDURPASHCHIM_MANIFEST = [
 ;
     </script>
     
-    <script src="js/config.js?v=62"></script>
-    <script src="js/data-loader.js?v=62"></script>
-    <script src="js/filters.js?v=62"></script>
-    <script src="js/renderer.js?v=62"></script>
-    <script src="app.js?v=62"></script>
+    <script src="js/config.js?v=63"></script>
+    <script src="js/data-loader.js?v=63"></script>
+    <script src="js/filters.js?v=63"></script>
+    <script src="js/renderer.js?v=63"></script>
+    <script src="app.js?v=63"></script>
 </body>
 </html>
  

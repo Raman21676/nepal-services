@@ -1627,24 +1627,72 @@
 
         // Charts
         function initCharts() {
-            // Traffic Chart - Show message for static site (no analytics)
+            // Traffic Chart - Show real localStorage data if available
             const trafficCtx = document.getElementById('trafficChart');
             if (trafficCtx) {
-                // Create a canvas overlay with message
-                const container = trafficCtx.parentElement;
-                container.style.position = 'relative';
-                container.innerHTML = `
-                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 2rem;">
-                        <i class="fas fa-chart-line" style="font-size: 3rem; color: var(--admin-text-muted); margin-bottom: 1rem;"></i>
-                        <h4 style="color: var(--admin-text); margin-bottom: 0.5rem;">Traffic Analytics Not Available</h4>
-                        <p style="color: var(--admin-text-muted); font-size: 0.875rem; max-width: 300px;">
-                            This is a static website hosted on GitHub Pages. To track real traffic, connect Google Analytics or a similar service.
-                        </p>
-                        <a href="https://analytics.google.com/" target="_blank" class="admin-btn admin-btn-sm admin-btn-primary" style="margin-top: 1rem;">
-                            <i class="fas fa-external-link-alt"></i> Set up Analytics
-                        </a>
-                    </div>
-                `;
+                const stats = JSON.parse(localStorage.getItem('nepalServicesStats') || '{"pageViews": {}, "searches": {}}');
+                const labels = [];
+                const dataPoints = [];
+                const searchPoints = [];
+                
+                // Build last 7 days of data
+                for (let i = 6; i >= 0; i--) {
+                    const d = new Date();
+                    d.setDate(d.getDate() - i);
+                    const dateKey = d.toISOString().split('T')[0];
+                    const label = d.toLocaleDateString('en-US', { weekday: 'short' });
+                    labels.push(label);
+                    dataPoints.push(stats.pageViews[dateKey] || 0);
+                    searchPoints.push(stats.searches[dateKey] || 0);
+                }
+                
+                // If all zeros, show helpful message overlay instead of empty chart
+                const hasData = dataPoints.some(v => v > 0) || searchPoints.some(v => v > 0);
+                if (!hasData) {
+                    const container = trafficCtx.parentElement;
+                    container.style.position = 'relative';
+                    container.innerHTML = `
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 2rem;">
+                            <i class="fas fa-chart-line" style="font-size: 3rem; color: var(--admin-text-muted); margin-bottom: 1rem;"></i>
+                            <h4 style="color: var(--admin-text); margin-bottom: 0.5rem;">No Traffic Data Yet</h4>
+                            <p style="color: var(--admin-text-muted); font-size: 0.875rem; max-width: 300px;">
+                                Visit the main website to start collecting stats. Data is stored per-browser.
+                            </p>
+                        </div>
+                    `;
+                } else {
+                    trafficChart = new Chart(trafficCtx, {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Page Views',
+                                data: dataPoints,
+                                borderColor: '#4f46e5',
+                                backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                                tension: 0.4,
+                                fill: true
+                            }, {
+                                label: 'Searches',
+                                data: searchPoints,
+                                borderColor: '#10b981',
+                                backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                                tension: 0.4,
+                                fill: true
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: { position: 'bottom' }
+                            },
+                            scales: {
+                                y: { beginAtZero: true, ticks: { precision: 0 } }
+                            }
+                        }
+                    });
+                }
             }
 
             // Category Chart - Will be populated with real data once loaded
@@ -1691,20 +1739,57 @@
                 }
             });
 
-            // Visitor Chart - Show analytics not available message
+            // Visitor Chart - Show localStorage tracked data
             const visitorCtx = document.getElementById('visitorChart');
             if (visitorCtx) {
-                const container = visitorCtx.parentElement;
-                container.style.position = 'relative';
-                container.innerHTML = `
-                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 2rem;">
-                        <i class="fas fa-users" style="font-size: 2.5rem; color: var(--admin-text-muted); margin-bottom: 0.75rem;"></i>
-                        <h4 style="color: var(--admin-text); margin-bottom: 0.5rem; font-size: 0.95rem;">Visitor Data Not Available</h4>
-                        <p style="color: var(--admin-text-muted); font-size: 0.8rem;">
-                            Connect Google Analytics to see real visitor data.
-                        </p>
-                    </div>
-                `;
+                const stats = JSON.parse(localStorage.getItem('nepalServicesStats') || '{"pageViews": {}, "searches": {}}');
+                const labels = [];
+                const dataPoints = [];
+                for (let i = 29; i >= 0; i--) {
+                    const d = new Date();
+                    d.setDate(d.getDate() - i);
+                    const dateKey = d.toISOString().split('T')[0];
+                    const label = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                    labels.push(label);
+                    dataPoints.push(stats.pageViews[dateKey] || 0);
+                }
+                
+                const hasData = dataPoints.some(v => v > 0);
+                if (!hasData) {
+                    const container = visitorCtx.parentElement;
+                    container.style.position = 'relative';
+                    container.innerHTML = `
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--admin-card-bg); border-radius: 0.5rem; text-align: center; padding: 2rem;">
+                            <i class="fas fa-users" style="font-size: 2.5rem; color: var(--admin-text-muted); margin-bottom: 0.75rem;"></i>
+                            <h4 style="color: var(--admin-text); margin-bottom: 0.5rem; font-size: 0.95rem;">No Visitor Data Yet</h4>
+                            <p style="color: var(--admin-text-muted); font-size: 0.8rem;">
+                                Data appears here once visitors start browsing the site from this browser.
+                            </p>
+                        </div>
+                    `;
+                } else {
+                    visitorChart = new Chart(visitorCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Page Views',
+                                data: dataPoints,
+                                backgroundColor: '#4f46e5',
+                                borderRadius: 4
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { legend: { display: false } },
+                            scales: {
+                                y: { beginAtZero: true, ticks: { precision: 0 } },
+                                x: { ticks: { maxTicksLimit: 10 } }
+                            }
+                        }
+                    });
+                }
             }
 
             // Device Chart - Show analytics not available message
@@ -1796,14 +1881,24 @@
             // Update main stats with REAL data
             document.getElementById('statTotalServices').textContent = totalServices.toLocaleString();
             
-            // Traffic stats - Static site has no backend analytics
-            // Show "N/A" since this is a static GitHub Pages site
-            document.getElementById('statPageViews').textContent = 'N/A';
-            document.getElementById('statSearches').textContent = 'N/A';
+            // Traffic stats - Read from client-side localStorage tracking
+            const today = new Date().toISOString().split('T')[0];
+            const stats = JSON.parse(localStorage.getItem('nepalServicesStats') || '{"pageViews": {}, "searches": {}, "visits": []}');
+            const pageViews = stats.pageViews[today] || 0;
+            const searches = stats.searches[today] || 0;
             
-            // Hide fake percentage changes
+            document.getElementById('statPageViews').textContent = pageViews.toLocaleString();
+            document.getElementById('statSearches').textContent = searches.toLocaleString();
+            
+            // Show/hide percentage changes based on whether we have data
             const changeElements = document.querySelectorAll('.admin-stat-change');
-            changeElements.forEach(el => el.style.display = 'none');
+            changeElements.forEach((el, index) => {
+                if ((index === 1 && pageViews === 0) || (index === 2 && searches === 0)) {
+                    el.style.display = 'none';
+                } else {
+                    el.style.display = 'inline-flex';
+                }
+            });
             
             // Update category chart with real data
             updateCategoryChart(hospitals, schools, colleges, clinics, pharmacies, bloodBanks, ambulance, wards, veterinary, government, forest, hotels);
@@ -1893,10 +1988,21 @@
                     'Lumbini': 0, 'Karnali': 0, 'Sudurpashchim': 0
                 };
                 
+                // Helper to access global const variables (const doesn't attach to window)
+                function getManifest(name) {
+                    try {
+                        if (typeof window !== 'undefined' && name in window) return window[name];
+                        return eval(name);
+                    } catch (e) {
+                        return undefined;
+                    }
+                }
+                
                 // Process each manifest
                 manifests.forEach(manifest => {
-                    if (window[manifest.var] && Array.isArray(window[manifest.var])) {
-                        const items = window[manifest.var];
+                    const manifestData = getManifest(manifest.var);
+                    if (manifestData && Array.isArray(manifestData)) {
+                        const items = manifestData;
                         provinceCounts[manifest.name] = items.length;
                         
                         items.forEach(item => {
@@ -2004,9 +2110,19 @@
                 { name: 'Sudurpashchim', var: 'SUDURPASHCHIM_MANIFEST', districts: 9 }
             ];
             
+            // Helper to access global const variables
+            function getManifest(name) {
+                try {
+                    if (typeof window !== 'undefined' && name in window) return window[name];
+                    return eval(name);
+                } catch (e) {
+                    return undefined;
+                }
+            }
+            
             // Calculate real service counts
             const provinces = provinceManifests.map(p => {
-                const manifest = window[p.var];
+                const manifest = getManifest(p.var);
                 const serviceCount = manifest && Array.isArray(manifest) ? manifest.length : 0;
                 // Status based on data coverage
                 const status = serviceCount > 500 ? 'online' : serviceCount > 100 ? 'warning' : 'pending';
@@ -2102,6 +2218,71 @@
             loadProvincesData();
             showNotification('Data refreshed!', 'success');
         }
+        
+        function refreshTrafficChart() {
+            if (trafficChart) {
+                trafficChart.destroy();
+                trafficChart = null;
+            }
+            // Restore canvas
+            const container = document.getElementById('trafficChart').parentElement;
+            container.innerHTML = '<canvas id="trafficChart"></canvas>';
+            // Re-init will pick up the new data
+            const stats = JSON.parse(localStorage.getItem('nepalServicesStats') || '{"pageViews": {}, "searches": {}}');
+            const labels = [];
+            const dataPoints = [];
+            const searchPoints = [];
+            for (let i = 6; i >= 0; i--) {
+                const d = new Date();
+                d.setDate(d.getDate() - i);
+                const dateKey = d.toISOString().split('T')[0];
+                const label = d.toLocaleDateString('en-US', { weekday: 'short' });
+                labels.push(label);
+                dataPoints.push(stats.pageViews[dateKey] || 0);
+                searchPoints.push(stats.searches[dateKey] || 0);
+            }
+            const hasData = dataPoints.some(v => v > 0) || searchPoints.some(v => v > 0);
+            if (hasData) {
+                const ctx = document.getElementById('trafficChart').getContext('2d');
+                trafficChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Page Views',
+                            data: dataPoints,
+                            borderColor: '#4f46e5',
+                            backgroundColor: 'rgba(79, 70, 229, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }, {
+                            label: 'Searches',
+                            data: searchPoints,
+                            borderColor: '#10b981',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: { legend: { position: 'bottom' } },
+                        scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+                    }
+                });
+            } else {
+                initCharts();
+            }
+            showNotification('Traffic chart refreshed', 'success');
+        }
+        
+        function refreshCategoryChart() {
+            if (categoryChart) {
+                categoryChart.update();
+            }
+            showNotification('Category chart refreshed', 'success');
+        }
 
         function exportData() {
             const data = {
@@ -2167,12 +2348,12 @@
     </script>
     
     <!-- Load Full Manifest Data for Admin Panel -->
-    <script src="js/manifests/bagmati-manifest.js?v=62"></script>
-    <script src="js/manifests/koshi-manifest.js?v=62"></script>
-    <script src="js/manifests/madhesh-manifest.js?v=62"></script>
-    <script src="js/manifests/gandaki-manifest.js?v=62"></script>
-    <script src="js/manifests/lumbini-manifest.js?v=62"></script>
-    <script src="js/manifests/karnali-manifest.js?v=62"></script>
-    <script src="js/manifests/sudurpashchim-manifest.js?v=62"></script>
+    <script src="js/manifests/bagmati-manifest.js?v=63"></script>
+    <script src="js/manifests/koshi-manifest.js?v=63"></script>
+    <script src="js/manifests/madhesh-manifest.js?v=63"></script>
+    <script src="js/manifests/gandaki-manifest.js?v=63"></script>
+    <script src="js/manifests/lumbini-manifest.js?v=63"></script>
+    <script src="js/manifests/karnali-manifest.js?v=63"></script>
+    <script src="js/manifests/sudurpashchim-manifest.js?v=63"></script>
 </body>
 </html>

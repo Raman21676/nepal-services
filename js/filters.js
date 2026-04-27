@@ -121,6 +121,11 @@ class FilterManager {
         
         // If there's a search term, use Fuse.js for fuzzy search
         if (searchTerm) {
+            // Track search query
+            if (typeof trackSearchQuery === 'function') {
+                trackSearchQuery(searchTerm);
+            }
+            
             if (!this.fuse) {
                 this.initFuse();
             }
